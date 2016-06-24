@@ -1,6 +1,6 @@
 # Onfido iOS SDK
 
-> Note: The SDK is currently under development, being privately tested and quickly reaching the first public version (expectable within no more than a couple of weeks). This documentation reflects how the SDK behaves and will be valid upon public release.
+> Note: The SDK is currently under development and being privately tested.  It will soon be publicly available.
 
 This SDK provides Onfido customers with an easy way to integrate with our product and offered services.
 
