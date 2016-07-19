@@ -1,0 +1,10 @@
+framework module OnfidoCaptureSDK {
+  umbrella header "OnfidoCaptureSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OnfidoCaptureSDK.Swift {
+    header "OnfidoCaptureSDK-Swift.h"
+}
