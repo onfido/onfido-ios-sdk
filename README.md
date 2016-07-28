@@ -1,7 +1,5 @@
 # Onfido iOS SDK
 
-> Note: The SDK is currently under development and being privately tested.  It will soon be publicly available.
-
 This SDK provides Onfido customers with an easy way to integrate with our product and offered services.
 
 ## Overview
@@ -18,28 +16,45 @@ By using the SDK you won't need to implement the photo capture screens yourself 
 The SDK will be availble on Cocoapods and the standard way to include it in your projects is adding this line to your Podfile:
 
 ```ruby
-pod 'OnfidoCaptureSDK'
+pod 'OnfidoCaptureSDK', '~> 0.0.5'
 ```
 
 ## Usage
 
-After adding the SDK as a dependency of your project, you can launch the full flow by creating a [Storyboard Reference](https://developer.apple.com/library/ios/recipes/xcode_help-IB_storyboard/Chapters/AddSBReference.html) to the SDK Storyboard like below.
+After adding the SDK as a dependency of your project, you can launch the Onfido SDK flow choosing what screens to show and what data to capture.
 
-![Host App Storyboard](Host App Storyboard.png)
+You should initialise the `OnfidoUI` class and present with the `flow()` method which will contain all the relevant steps you asked for when initialising.
 
-Set the name of the Storyboard to `CaptureFlow` and `org.cocoapods.OnfidoCaptureSDK` as the Bundle name. Check the following image for reference.
-
-![Storyboard Reference](Storyboard Reference.png)
-
-The SDK flow will guide the end user and capture the applicant's personal details (name, date of birth and address are needed to run an identity check) and will capture a photo of a document and a facial capture, to be used in a document and facial similarity check.
-
-### Initialisation
-
-`Onfido` is a singleton and can be configured at anypoint, for example in your App Delegate upon application loading like: 
-
-```swift
-Onfido.config("test_VBT_HMGBSAdf4fFDf4wdsjRr8iDi1mT", sandbox: false)
 ```
+let onfido = OnfidoUI(capture: captureOptions,
+                      show: showOptions,
+                      apiToken: "YOUR_API_TOKEN") { results in
+    // whatever you may want to do *after* the Onfido UI is dismissed (like segue into another view controller of your own)
+}
+        
+self.presentViewController(onfido.flow(), animated: true, completion: {
+    // anything you may want to do after the Onfido UI is presented
+})
+```
+
+### Capture Options
+
+You can select what to capture from your user: personal details, document photo and facial capture. The options are `['details', 'document', 'face']`. For now you can use this option to skip either the *document* or *face* capture. Any of these will activate the *details* step for now but in future versions you'll be able to provide us with applicant details and skip that step in our SDK. This may be useful if you're calling the SDK for an existing user instead of someone just signing up.
+
+### Show Options
+
+This is meant to include an additional step before the capture steps – explaining to the user what will happen – and another one after, thanking the user. This is not in use for now and you should have these warnings and disclaimers in your own app. Use an empty array: `[]` 
+
+### API Token
+
+In order to get this token you should sign up with [Onfido](https://onfido.com/) and ask our support team for a token.
+
+### Results
+
+This is a structure including the API responses of the following requests:
+  * Create Applicant
+  * Upload Document
+  * Identity/Document Checks
 
 ### Onfido API
 
@@ -62,8 +77,3 @@ OnfidoAPI.listApplicants(
 
 When done, the SDK will return to the host app with the results of the check.
 This is still in the works and more details about this will be added here once the SDK is publicly available. Essentially the results will include the identity, document and facial reports.
-
-## Plans
-
-The first version will be launched with a complete flow to capture applicant details and take photos of the document and applicant.
-The next version will allow for customised flow like which and how many documents asked as well as specifically calling a single screen (like facial capture).
