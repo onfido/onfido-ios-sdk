@@ -3,6 +3,24 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
+## [0.0.6] - 2016-10-25
+### Removed
+- Applicant details capture view
+- Dependency on MICountryPicker
+
+### Changed
+- Updated syntax to Swift 2.3 (preparing to Swift 3.0)
+- Updated version of AlamofireObjectMapper to 3.0.2
+- The OnfidoUI class initialisation methods (refer to the README file)
+
+### Added
+- Option to bring the capture UI without actually creating anything on the Onfido servers
+- The applicant details are now passed as a Hash if the client wants the library to create it
+- The SDK will return the LivePhoto or Document (including the captured files) when calling the callback closure of the host app - making it possible to use the capture UI without creating the files on the Onfido server, grabbing them and uploading later on
+- OnfidoSDKResults class which will encapsulate the return values (Applicant, LivePhoto, Document or Check) to the host app's callback closure
+- A "validate" parameter has been added to the OnfidoAPI.uploadDocument() method (refer to the Readme file)
+
+
 ## [0.0.5] - 2016-07-28
 ### Added
 - Callbacks to the Document/Facial captures
