@@ -10,11 +10,11 @@ API, capture photos of documents and faces and create applicants, documents or r
 ## Definitions
 
 Throughout this guide, these terms will be used:
-"applicant" - the data structure that holds the information about the user you're trying to run the checks on;
-"check" - the set of reports you're running on an applicant;
-"report" - each of the different parts of a check (e.g. identity, document, facial_similarity);
-"document" – a photo of an applicant's document (e.g. Passport, Driver Licence, National ID card);
-"live photo" – a photo of the applicant's face.
+* `applicant` - the data structure that holds the information about the user you're trying to run the checks on;
+* `check` - the set of reports you're running on an applicant;
+* `report` - each of the different parts of a check (e.g. identity, document, facial_similarity);
+* `document` – a photo of an applicant's document (e.g. Passport, Driver Licence, National ID card);
+* `live photo` – a photo of the applicant's face.
 
 ## Overview
 
