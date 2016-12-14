@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
+## [0.0.7] - 2016-12-14
+### Added
+- Support for different document types. For Driving Licences and National ID cards the reverse of the document is required. The front of the document is validated by our server to make sure a readable document is present.
+
+### Changed
+- Swift version used is now 3.0
+- iOS supported version is 8.0 and above
+
 ## [0.0.6] - 2016-10-25
 ### Removed
 - Applicant details capture view
