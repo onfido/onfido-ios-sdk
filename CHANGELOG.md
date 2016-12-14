@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
-## [0.0.7] - 2016-12-14
+## [0.0.8] - 2016-12-14
 ### Added
 - Support for different document types. For Driving Licences and National ID cards the reverse of the document is required. The front of the document is validated by our server to make sure a readable document is present.
 
