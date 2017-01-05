@@ -39,16 +39,16 @@ pod 'Onfido'
 
 After adding the SDK as a dependency of your project and running `pod install`, you can launch the Onfido SDK flow choosing what screens to show, what to capture and what data to create on our API.
 
-You should initialise the `Onfido` class and present with the `flow()` method which will contain all the relevant steps you asked for when initialising.
+You should initialise the `OnfidoFlow` class and present with the `run()` method which will contain all the relevant steps you asked for when initialising.
 
 ```
-let onfido = Onfido(apiToken: "YOUR API TOKEN")
+let onfidoFlow = OnfidoFlow(apiToken: "YOUR API TOKEN")
     .and(capture: captureOptions)
     .and(create: createOptions)
     .and(handleResponseWith: { onfidoResponse in
     })
 
-self.presentViewController(onfido.flow(), animated: true, completion: nil)
+self.presentViewController(onfidoFlow.run(), animated: true, completion: nil)
 ```
 
 ### Capture Options
@@ -66,9 +66,9 @@ The screens for each of these options look like this:
 
 The `and(create createOptions: [CreateOption])` method will take an array defining what should be created using the Onfido API.
 
-Keys define the entities and may include `.document(validate: Bool)`, `.livePhoto`, `.applicant(NewApplicant)` and `.check(Check)`.
+Keys define the entities and may include `.document(validate: Bool)`, `.livePhoto`, `.applicant(Applicant)` and `.check(Check)`.
 
-For `.applicant` – which is required if you also choose to create any of the other entities – the value passed should be an `NewApplicant` object which mimics the definition of an Applicant based on our API documentation found [here](https://documentation.onfido.com/#applicant-object). An example follows:
+For `.applicant` – which is required if you also choose to create any of the other entities – the value passed should be an `Applicant` object which mimics the definition of an Applicant based on our API documentation found [here](https://documentation.onfido.com/#applicant-object). An example follows:
 
 ```
 let dobString = "1956-10-01"
@@ -84,7 +84,7 @@ let address = Address(
     country: "GBR"
 )
 
-let applicant = NewApplicant(
+let applicant = Applicant.new(
     firstName: "Theresa",
     lastName: "May",
     email: "pm@number10.gov.uk",
@@ -118,9 +118,9 @@ These options resemble the structure described in our API documentation [here](h
 
 By calling `and(handleResponseWith responseHandler: (OnfidoResponse) -> Void)` you'll be able to define a closure to run after all the work on the SDK is finished.
 
-The object passed as a parameter of the closure is an instance of `Onfidoresponse` and may include the following attributes: `.success([OnfidoResult])`, `.error(Error)` and `.cancel`.
+The object passed as a parameter of the closure is an instance of `OnfidoResponse` and may include the following attributes: `.success([OnfidoResult])`, `.error(Error)` and `.cancel`.
 
-In case you called `and(capture captureOptions: [CaptureOption])` or `and(create createOptions: [CreateOption])`, the objects captured (`.document` or `livePhotos`) or created (applicants or checks) will be available as associated values of the enum `OnfidoResult` (`.document(results, imageData)`, `.livePhoto(results, imageData)`, `.check(results)`, `.applicant(results)`).
+In case you called `and(capture captureOptions: [CaptureOption])` or `and(create createOptions: [CreateOption])`, the objects captured (`.document` or `livePhotos`) or created (applicants or checks) will be available as associated values of the enum `OnfidoResult` (`.document(DocumentResult?, Data)`, `.livePhoto(LivePhotoResult?, Data)`, `.check(CheckResult)`, `.applicant(ApplicantResult)`).
 
 Captured documents can be accessed like this:
 
