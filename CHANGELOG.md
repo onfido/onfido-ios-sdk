@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
+## [1.2.0] - 2016-12-15
+
+### Changed
+- Onfido SDK now supports modally presented with form sheet style for iPads
+- Fixed issue with Applicant creation process with incorrect date of birth
+- Fixed issue with ApplicantResult with nil date of birth when should be present.
+- Improvements to reduce and avoid memory leaks
+
 ## [0.0.10] - 2016-12-15
 
 ### Changed
