@@ -148,21 +148,50 @@ A similar approach can be used if an applicant has been created or a set of chec
 
 You can ask for you API Token by contacting our support team or through your account manager and you can signup [here](https://onfido.com/signup) if you're not a client yet.
 
-### Onfido API
+### Error handling
 
-The SDK also includes Swift bindings for all the endpoints currently supported by our API: creating applicants, running checks, retrieving reports. You can find more details about these endpoints in our [documentation](https://onfido.com/documentation).
+Subscribe to the response handler when creating the flow to handle errors. i.e.
 
-The API wrapper can then be used like below, e.g. to retrieve all Applicants:
+```
+let onfidoFlow = OnfidoFlow(apiToken: "YOUR API TOKEN")
+    ....
+    .and(handleResponseWith: { response in
 
-```swift
-OnfidoAPI.listApplicants(
-  { applicants in
-      // applicants is a [Applicant]
-  },
-  failure: { error in
-      // error is a NSError
-  }
-)
+        switch response {
+
+            case .error(let error):
+                // handle error here
+            defaulf:
+                // other cases
+        }
+    })
+
+self.presentViewController(onfidoFlow.run(), animated: true, completion: nil)
+```
+
+The errors will be wrapped in `OnfidoFlowError` enums with each case specifying the domain from which the error it occurs, i.e. `.applicant(ApplicantError)` or `document(DocumentError)`.
+
+Example to handle Applicant creation error:
+
+```
+let responseHandler: (OnfidoResponse) -> Void = { [unowned self] response in
+            
+    switch response {
+        
+        case .error(let error):
+        
+            self.dismiss(animated: true) {
+
+                if case let OnfidoFlowError.applicant(applicantError) = error, case let ApplicantError.upload(apiError) = applicantError {
+                    print(apiError.fields) // prints fields that were incorrectly filled or lacking to console
+                } else {
+                    print("Unhandled error")
+                }
+
+            }
+        default:
+            // ...
+    }
 ```
 
 Copyright 2016 Onfido, Ltd. All rights reserved.
