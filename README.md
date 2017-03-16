@@ -22,6 +22,7 @@ API, capture photos of documents and faces and create applicants, documents or r
     - [Error handling](#error-handling)
         + [run() method errors](#run-method-errors)
         + [Response handler](#response-handler)
+* [Deployemnt](#deployemnt)
 * [Sample App](#sample-app)
 * [Support](#support)
 
@@ -239,6 +240,12 @@ let responseHandler: (OnfidoResponse) -> Void = { [unowned self] response in
     }
 ```
 
+# Deployemnt
+
+Due to the fact that the Onfido SDK is a precompiled framework, we have precompiled the SDK in Debug and Release. Import different pods for the different distributions:
+
+* Debug - Include `pod 'Onfido'` to your project.
+* Release - Include `pod 'Onfido-Release'` to your project.
 
 # Sample App
 
