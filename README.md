@@ -7,6 +7,24 @@
 [Onfido](https://onfido.com/) is a provider of identity verification and background checks. This SDK provides an easy way to integrate with our 
 API, capture photos of documents and faces and create applicants, documents or run checks through the Onfido API.
 
+## Table of contents
+
+* [Definitions](#definitions)
+* [Overview](#overview)
+* [Prerequisites](#prerequisites)
+    - [Camera permissions](#camera-permissions)
+* [Setup](#setup)
+* [Usage](#usage)
+    - [Capture Options](#capture-options)
+    - [Create Options](#create-options)
+    - [Response](#response)
+    - [API Token](#api-token)
+    - [Error handling](#error-handling)
+        + [run() method errors](#run-method-errors)
+        + [Response handler](#response-handler)
+* [Sample App](#sample-app)
+* [Support](#support)
+
 ## Definitions
 
 Throughout this guide, these terms will be used:
@@ -35,6 +53,23 @@ The SDK is availble on Cocoapods and you can include it in your projects by addi
 pod 'Onfido'
 ```
 
+## Prerequisites
+
+### Camera permissions
+
+The Onfido Flow makes use of the Camera of the user device. Your will be required to have the `NSCameraUsageDescription` key in your application's `Info.plist` file in order to access the camera, otherwise your app will crash.
+
+The Onfido SDK will prompt the user to allow access to your application to the camera of the device. If the user rejects the SDK will throw an error in the form of `OnfidoResponse.error(Error)` with the inner `Error` object being an `OnfidoFlowError.cameraPermission`.
+
+Otherwise if the user has previously denied access to the camera the `OnfidoFlow` instance method `run()` will throw an `OnfidoFlowError.cameraPermission`.
+
+Example:
+
+```
+<key>NSCameraUsageDescription</key>
+<string>Required for document and facial capture</string>
+```
+
 ## Usage
 
 After adding the SDK as a dependency of your project and running `pod install`, you can launch the Onfido SDK flow choosing what screens to show, what to capture and what data to create on our API.
@@ -48,19 +83,23 @@ let onfidoFlow = OnfidoFlow(apiToken: "YOUR API TOKEN")
     .and(handleResponseWith: { onfidoResponse in
     })
 
-self.presentViewController(onfidoFlow.run(), animated: true, completion: nil)
+let onfidoRun = try! onfidoFlow.run()
+
+self.presentViewController(onfidoRun, animated: true, completion: nil)
 ```
+
+Make sure to keep a string reference to the OnfidoFlow object until a response handler has been called, otherwise the flow won't work correctly.
 
 ### Capture Options
 
 The `and(capture captureOptions: [CaptureOption])` method takes an Array of `CaptureOption`'s as a parameter which may include `.document` and `.livePhoto`.
 The screens for each of these options look like this:
 
-![Capture Document](1 Capture Document.png)
-![Preview Document](2 Preview Document.png)
+![Capture Document](assets/1_Capture_Document.png)
+![Preview Document](assets/2_Preview_Document.png)
 
-![Capture Face](3 Capture Face.png)
-![Preview Face](4 Preview Face.png)
+![Capture Face](assets/3_Capture_Face.png)
+![Preview Face](assets/4_Preview_Face.png)
 
 ### Create Options
 
@@ -150,6 +189,12 @@ You can ask for you API Token by contacting our support team or through your acc
 
 ### Error handling
 
+#### run() method errors
+
+The OnfidoFlow.run() instance method will throw an `OnfidoFlowError.cameraPermission` if the user has previously denied camera access to the application in the past.
+
+#### Response handler
+
 Subscribe to the response handler when creating the flow to handle errors. i.e.
 
 ```
@@ -193,5 +238,16 @@ let responseHandler: (OnfidoResponse) -> Void = { [unowned self] response in
             // ...
     }
 ```
+
+
+# Sample App
+
+We have included a Sample App to show how to integrate with the Onfido SDK. Check out the SampleApp directory.
+
+# Support
+
+Please open an issue through GitHub. Please be as detailed as you can. Remember not to submit your token in the issue. Also check the closed issues to check whether it has been previously raised and answered.
+
+If you have any issues that contain sensitive information please send us an email with the `ISSUE:` at the start of the subject to [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A)
 
 Copyright 2016 Onfido, Ltd. All rights reserved.
