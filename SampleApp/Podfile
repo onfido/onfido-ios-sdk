@@ -8,5 +8,5 @@ target 'SampleApp' do
   # Pods for SampleApp
   # local development
   # pod 'Onfido', :path => '../'
-  pod 'Onfido', '2.0.0'
+  pod 'Onfido'
 end
