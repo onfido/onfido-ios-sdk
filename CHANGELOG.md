@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
+## [2.0.3] - 2017-04-05
+
+- Bug fix:
+    + Resolved framework binary incompatibility issue for integrators using Swift 3.1
+
 ## [2.0.2] - 2017-03-29
 
 - Stability improvements
