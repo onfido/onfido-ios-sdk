@@ -22,7 +22,7 @@ API, capture photos of documents and faces and create applicants, documents or r
     - [Error handling](#error-handling)
         + [run() method errors](#run-method-errors)
         + [Response handler](#response-handler)
-* [Deployemnt](#deployemnt)
+* [App Store Submission](#app-store-submission)
 * [Sample App](#sample-app)
 * [Support](#support)
 
@@ -93,14 +93,29 @@ Make sure to keep a string reference to the OnfidoFlow object until a response h
 
 ### Capture Options
 
-The `and(capture captureOptions: [CaptureOption])` method takes an Array of `CaptureOption`'s as a parameter which may include `.document` and `.livePhoto`.
-The screens for each of these options look like this:
+The `and(capture captureOptions: [CaptureOption])` method takes an Array of `CaptureOption`'s as a parameter which may include `.document`, `.documentWith(documentType: [DOCUMENT_TYPE], countryCode: "COUNTRY_CODE_ISO")` and `.livePhoto`.
+
+Document Capture screens look like the following images:
 
 ![Capture Document](assets/1_Capture_Document.png)
 ![Preview Document](assets/2_Preview_Document.png)
 
+Face Capture screens look like the following images:
+
 ![Capture Face](assets/3_Capture_Face.png)
 ![Preview Face](assets/4_Preview_Face.png)
+
+#### Preselected document type capture
+
+Using the `.document` option will allow the user to select their preferred document type like the following image:
+
+![Document Type Selection](assets/5_Document_Type_Selection.jpg)
+
+Using the `.documentWith(documentType: [DOCUMENT_TYPE], countryCode: "COUNTRY_CODE_ISO")` allows you to set the document type required and skip the document type selection.
+
+The following document types are allowed: `.passport`, `.drivingLicence` and `.nationalIdentityCard`.
+
+For the country code the SDK accepts the ISO 3166-1 alpha-3 standard representation of the country as a `string`.
 
 ### Create Options
 
@@ -240,12 +255,11 @@ let responseHandler: (OnfidoResponse) -> Void = { [unowned self] response in
     }
 ```
 
-# Deployemnt
+# App Store submission
 
-Due to the fact that the Onfido SDK is a precompiled framework, we have precompiled the SDK in Debug and Release. Import different pods for the different distributions:
+During development it is OK to use `pod 'Onfido'` but that will fail App Store submission. Please use `pod 'Onfido-Release'` in your Podfile for App Store submission.
 
-* Debug - Include `pod 'Onfido'` to your project.
-* Release - Include `pod 'Onfido-Release'` to your project.
+For more information as to why we do this please check out our [FAQ's](docs/FAQ.md)
 
 # Sample App
 
