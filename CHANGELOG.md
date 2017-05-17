@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
 
+## [2.1.1] - 2017-05-17
+
+### Changed
+- Bug fix:
+    + Resolved message label issue on smaller screens being cut off
+
+### Added
+- Ability to preselect document type accepted for document capture screen (skips document type selection)
+
 ## [2.0.3] - 2017-04-05
 
 - Bug fix:
