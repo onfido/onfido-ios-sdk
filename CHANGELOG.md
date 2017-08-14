@@ -1,12 +1,22 @@
 # Change Log
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
-This change log file is based on best practices from [Keep a CHANGELOG](http://keepachangelog.com/)
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [2.2.0] - 2017-08-14
+
+### Added
+- UI: Rotation instructions on iPads
+
+### Changed
+- UI: Improved document capture experience
+- Internal: Improved metrics
 
 ## [2.1.3] - 2017-06-19
 
 ### Fixed
-- Downgraded Alamofire version to 4.4 as 4.5 was generating a new error which will be inverstigated
+- Downgraded Alamofire version to 4.4 as 4.5 was generating a new error which will be investigated
 
 ## [2.1.2] - 2017-06-06
 
