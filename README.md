@@ -14,6 +14,7 @@
 *   [Customising SDK](#customising-sdk)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
+*   [Migrating](#migrating)
 *   [More information](#more-information)
 
 
@@ -30,10 +31,10 @@ This SDK provides a drop-in set of screens and tools for an iOS applications to 
 
 ![Capture Document and face](assets/Overview.png)
 
-
 ## Getting started
 
-The SDK supports iOS 8.0 and above.
+* SDK supports iOS 8.0 and above
+* SDK supports Swift 3.2 and Swift 4
 
 ### 1. Obtaining tokens
 
@@ -354,7 +355,7 @@ By default the `CaptureOption.document` will ask the user to select their docume
 However, it's possible to bypass this document selection step by using the following option: `CaptureOption.documentWith(documentType: [DOCUMENT_TYPE], countryCode: "COUNTRY_CODE_ISO")`.
 Since the step is no longer shown to the user, the document type needs to be defined in code.
 
-The following document types are allowed: `.passport`, `.drivingLicence` and `.nationalIdentityCard`.
+The following document types are allowed: `.passport`, `.drivingLicence` and `.nationalIdentityCard`, `.residencePermit`.
 
 For the country code the SDK accepts the ISO 3166-1 alpha-3 standard representation of the country as a `string`.
 
@@ -458,6 +459,9 @@ Finally, as you are testing with the sandbox token, please be aware that the res
 
 Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in the API documentation for details.
 
+## Migrating
+
+You can find the migration guide at [MIGRATION.md](MIGRATION.md) file
 
 ## More Information
 
@@ -477,4 +481,4 @@ Please open an issue through GitHub. Please be as detailed as you can. Remember 
 
 If you have any issues that contain sensitive information please send us an email with the `ISSUE:` at the start of the subject to [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A)
 
-Copyright 2016 Onfido, Ltd. All rights reserved.
+Copyright 2017 Onfido, Ltd. All rights reserved.

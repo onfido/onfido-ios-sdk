@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2017-09-15
+
+**Note:**
+* This version is not backwards-compatible. Migration notes can be found at [MIGRATION.md](MIGRATION.md)
+* This version supports Swift 3.2 and Swift 4 but we have not tested it fully against iOS 11 yet, therefore we cannot guarantee that all features will work properly on that operating system
+
+### Added
+- UI: Added support for Resident Permit as a new document type
+- UI: On document capture screen, a bubble notification will be displayed in real-time if glare is detected on a document
+
+### Changed
+- Public: Now supporting only Swift 3.2 and Swift 4. Removed support for Swift 3.1
+
 ## [2.2.0] - 2017-08-14
 
 ### Added
