@@ -2,7 +2,186 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-## Onfido SDK 3.0 Migration Guide
+* [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-4.0.0-migration-guide)
+* [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-3.0.0-migration-guide)
+
+## Onfido SDK 4.0.0 Migration Guide
+
+This version has some major changes that include a full refactor of the API (breaking) with which you can integrate more easily and use our latest face video capture feature.
+
+### Requirements
+
+- Xcode 9.0+
+- iOS 8+
+- Swift 3.2 or Swift 4
+
+### Benefits of upgrading
+
+- Easier to integrate with API
+- New face video capture feature
+
+### Breaking API Changes
+
+The SDK now does not allow to be used as a capture only tool. Upload and validation of capture is now mandatory. The option to disable analytics has also been removed.
+
+#### Configuring and Running SDK
+
+We have been given feedback that API could be easier to integrate with. We have learnt from our customers how they use the SDK and applied that knowledge, together with the lessons learned, in order to provide better experience and cut down on the SDK integration time.
+
+The code below compares a simple configuration of document and face capture with upload to the Onfido API.
+
+**Note:** Capture only configurations are no longer supported
+
+```swift
+// Onfido iOS SDK 3
+
+let applicant = Applicant.new(
+    firstName: "Theresa",
+    lastName: "May"
+)
+
+let onfidoFlow = OnfidoFlow(apiToken: "YOUR_MOBILE_TOKEN", allowAnalytics: false)
+    .and(capture: [.document, .livePhoto])
+    .and(create: [.applicant(applicant), .document(validate:true), .livePhoto])
+    .and(handleResponseWith: { results in
+      // Callback when flow ends
+    })
+
+// Onfido iOS SDK 4.0.0
+
+let applicant = Applicant.new(
+    firstName: "Theresa",
+    lastName: "May"
+)
+
+/**
+Note: option to disable analytics no longer supported
+*/
+let config = try! OnfidoConfig.builder()
+    .withToken("YOUR_TOKEN_HERE")
+    .withApplicant(applicant)
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .photo)
+    .build()
+
+let onfidoFlow = OnfidoFlow(withConfiguration: config)
+    .with(responseHandler: { results in
+        // Callback when flow ends
+    })
+```
+
+The document step capture with a pre-selected document type with country has also changed in the new API.
+
+```swift
+// Onfido iOS SDK 3
+
+let applicant = Applicant.new(
+    firstName: "Theresa",
+    lastName: "May"
+)
+
+let onfidoFlow = OnfidoFlow(apiToken: "YOUR_MOBILE_TOKEN")
+    .and(capture: [.documentWith(documentType: .drivingLicence, countryCode: "GBR"), .livePhoto]) // .documentWith(documentType: _, countryCode: _) as capture option for document type pre-selection
+    .and(create: [.applicant(applicant), .document(validate:true), .livePhoto])
+    .and(handleResponseWith: { results in
+      // Callback when flow ends
+    })
+
+// Onfido iOS SDK 4.0.0
+
+let applicant = Applicant.new(
+    firstName: "Theresa",
+    lastName: "May"
+)
+
+let config = try! OnfidoConfig.builder()
+    .withToken("YOUR_TOKEN_HERE")
+    .withApplicant(applicant)
+    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR") // document type step with pre-selection
+    .withFaceStep(ofVariant: .photo)
+    .build()
+
+let onfidoFlow = OnfidoFlow(withConfiguration: config)
+    .with(responseHandler: { results in
+        // Callback when flow ends
+    })
+```
+
+
+#### Success handling
+
+We have changed the way document results are handled and removed the capture image by the user.
+
+```swift
+// Onfido iOS SDK 3
+
+let document: Optional<OnfidoResult> = results.filter({ result in
+  if case OnfidoResult.document = result { return true }
+  return false
+}).first
+
+if let documentUnwrapped = document, case OnfidoResult.document(validationResult: let documentResponse, data: let documentData) = documentUnwrapped {
+  print(documentResponse.id)
+  let image = UIImage(data: documentData)
+}
+
+// Onfido iOS SDK 4.0.0
+
+let document: Optional<OnfidoResult> = results.filter({ result in
+  if case OnfidoResult.document = result { return true }
+  return false
+}).first
+
+if let documentUnwrapped = document, case OnfidoResult.document(let documentResponse) = documentUnwrapped {
+  print(documentResponse.description)
+  // you can now find the image capture by accessing the following field:
+  let imageUrl = documentResponse.href
+}
+```
+
+We have changed `livePhoto` similarly to `document` (no capture returned), but additionally `OnfidoResult.livePhoto` has been renamed to `OnfidoResult.face`. The renamed enum value now takes a payload of `FaceResult` instead of `LivePhotoResult`, which also includes the result from video upload in the case where the face step specifies `.video` variant whilst configuring the SDK (pre-run).
+
+```swift
+// Onfido iOS SDK 3
+
+let livePhoto: Optional<LivePhotoResult> = results.filter({ result in
+  if case OnfidoResult.livePhoto = result { return true }
+  return false
+}).first
+
+if let livePhotoUnwrapped = livePhoto, case OnfidoResult.livePhoto(validationResult: let documentResponse, data: let livePhotoData) = documentUnwrapped {
+  print(livePhoto.id)
+  let image = UIImage(data: livePhotoData)
+}
+// Onfido iOS SDK 4.0.0
+
+let faceResult: Optional<FaceResult> = results.filter({ result in
+  if case OnfidoResult.face = result { return true }
+  return false
+}).first
+
+if let faceUnwrapped = face, case OnfidoResult.face(let documentResponse, data: let faceResult) = faceUnwrapped {
+  print(livePhoto.description)
+  let imageUrl = livePhoto.href
+}
+```
+
+#### Permissions
+
+If you are going to use new `.video` variant of face capture, then make sure to set `NSMicrophoneUsageDescription` property in `Info.plist` file:
+
+```xml
+<key>NSMicrophoneUsageDescription</key>
+<string>Required for video capture</string>
+```
+
+This is required for recording a video with sound.
+
+#### Error handling
+
+We have simplified errors that are returned by our API and denested them. We have gone away from domain based errors to higher level errors i.e.: `OnfidoFlowError.document(DocumentError.upload(OnfidoApiError))` and `OnfidoFlowError.applicant(ApplicantError.upload(OnfidoApiError))` have now been merged and simplified into `OnfidoFlowError.upload(OnfidoApiError)`.
+
+## Onfido SDK 3.0.0 Migration Guide
 
 This version is mainly an upgrade to the compiled SDK form. In order to use this version check out the requirements below.
 

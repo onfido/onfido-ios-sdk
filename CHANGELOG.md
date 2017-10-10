@@ -4,10 +4,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [4.0.0] - 2017-10-09
+
+**Note:**
+* This version is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Added
+
+- UI: New video face capture screen/step
+- Public: Added video variant to the face step, which allows to capture face during live video recording
+
+### Changed
+
+- Public: Simplified API configuration for easier integration, `create` and `capture` options have been merged into steps which do both
+- Public: Simplified API errors. Got rid of errors nesting
+
+### Removed
+
+- Public: Success results are no longer returned for captured images
+- Public: Removed ability to disable analytics
+
 ## [3.0.0] - 2017-09-15
 
 **Note:**
-* This version is not backwards-compatible. Migration notes can be found at [MIGRATION.md](MIGRATION.md)
+* This version is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
 * This version supports Swift 3.2 and Swift 4 but we have not tested it fully against iOS 11 yet, therefore we cannot guarantee that all features will work properly on that operating system
 
 ### Added
