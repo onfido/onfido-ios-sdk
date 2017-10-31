@@ -71,15 +71,20 @@ final class ViewController: UIViewController {
             addresses: [address]
         )
         
-        self.onfidoFlow = OnfidoFlow(apiToken: "YOUR_TOKEN_HERE", allowAnalytics: false)
-            .and(capture: [.document, .livePhoto])
-            .and(create: [.document(validate: true), .livePhoto, .applicant(applicant)])
-            .and(handleResponseWith: responseHandler)
+        let config = try! OnfidoConfig.builder()
+            .withToken("YOUR_TOKEN_HERE")
+            .withApplicant(applicant)
+            .withDocumentStep()
+            .withFaceStep(ofVariant: .photo)
+            .build()
+        
+        self.onfidoFlow = OnfidoFlow(withConfiguration: config)
+            .with(responseHandler: responseHandler)
         
         do {
             
             let onfidoRun = try self.onfidoFlow!.run()
-            onfidoRun.modalPresentationStyle = .formSheet
+            onfidoRun.modalPresentationStyle = .formSheet // to present modally
             self.present(onfidoRun, animated: true, completion: nil)
             
         } catch let error {
