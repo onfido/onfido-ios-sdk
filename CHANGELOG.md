@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.0.0] - 2017-11-06
+
+**Note:**
+* This version is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Changed
+
+- Public: Now support only supporting Swift 3.2.2 and Swift 4.0.2. Removed support for Swift 3.2 and 4.
+
 ## [4.0.1] - 2017-10-25
 
 ### Changed

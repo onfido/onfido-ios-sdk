@@ -35,7 +35,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ## Getting started
 
 * SDK supports iOS 8.0 and above
-* SDK supports Swift 3.2 and Swift 4
+* SDK supports Swift 3.2.2 and Swift 4.0.2
 
 ### 1. Obtaining tokens
 
