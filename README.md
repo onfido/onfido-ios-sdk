@@ -148,13 +148,13 @@ Success is when the user has reached the end of the flow.
 
 `[OnfidoResult]` is a list with multiple results. The results are different enum values, each with its own associated value (also known as payload). This enum, `OnfidoResult`, can have the following values:
 
-1.  `OnfidoResult.applicant`: In order to create a check after the flow, you want to look into its payload to find the applicant id. Only with this id you can create the check.
+1.  (Deprecated) `OnfidoResult.applicant`: In order to create a check after the flow, you want to look into its payload to find the applicant id. Only with this id you can create the check.
 2.  `OnfidoResult.document` and `OnfidoResult.face`: Its payload is relevant in case you want to manipulate or preview the captures in someway.
 
 Keep reading to find out how to extract the payload of each `OnfidoResult` enum value.
 
 
-#### Applicant result payload
+#### (Deprecated) Applicant result payload
 
 How to handle an applicant result:
 
