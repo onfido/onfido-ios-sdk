@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+## [5.0.1] - 2017-11-09
+
+### Changed
+
+- Internal: Improved glare detection algorithm
+- Internal: Fixed issue on lower end devices sending low resolution images of document to the Onfido API
+
 ## [5.0.0] - 2017-11-06
 
 **Note:**
