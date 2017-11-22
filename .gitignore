@@ -3,4 +3,11 @@ SampleApp/Podfile.lock
 SampleApp/.DS_Store
 SampleApp/SampleApp.xcodeproj/xcuserdata
 SampleApp/SampleApp.xcworkspace/xcuserdata
+
+SampleAppObjC/Pods
+SampleAppObjC/Podfile.lock
+SampleAppObjC/.DS_Store
+SampleAppObjC/SampleApp.xcodeproj/xcuserdata
+SampleAppObjC/SampleApp.xcworkspace/xcuserdata
+
 xcuserdata/
