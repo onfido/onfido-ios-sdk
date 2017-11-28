@@ -8,6 +8,7 @@
 
 import Foundation
 import Onfido
+import Alamofire
 
 @objc
 protocol SampleAppOnfidoWrapperDelegate: class {
@@ -40,8 +41,22 @@ final class SampleAppOnfidoWrapper: NSObject {
     @objc weak var delegate: SampleAppOnfidoWrapperDelegate?
     
     private var onfidoFlow: OnfidoFlow? // Remember to keep a strong reference to OnfidoFlow otherwise it will get deallocated and the flow won't work
+    private let token = "YOUR_TOKEN_HERE"
     
-    @objc func getViewController() -> UIViewController? {
+    @objc func getViewController(_ onLoad: @escaping (UIViewController?) -> Void) {
+        
+        self.createApplicant { (applicantId, error) in
+            
+            guard error == nil else {
+                self.delegate?.error()
+                return
+            }
+            
+            onLoad(self.getOnfidoFlow(forApplicantWithId: applicantId!))
+        }
+    }
+    
+    private func getOnfidoFlow(forApplicantWithId applicantId: String) -> UIViewController? {
         
         let responseHandler: (OnfidoResponse) -> Void = { response in
             
@@ -87,31 +102,9 @@ final class SampleAppOnfidoWrapper: NSObject {
             // swift self.dismiss(animated: true, completion: {})
         }
         
-        let dobString = "1956-10-01"
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-mm-dd"
-        dateFormatter.timeZone = TimeZone(identifier: "UTC")
-        let dobDate = dateFormatter.date(from: dobString)!
-        
-        let address = Address(
-            flatNumber: "308",
-            street: "Adelaide Wharf",
-            town: "London",
-            postcode: "E2 8EZ",
-            country: "GBR")
-        
-        let applicant = Applicant.new(
-            firstName: "Theresa",
-            lastName: "May",
-            email: "pm@number10.gov.uk",
-            dateOfBirth: dobDate,
-            country: "GBR",
-            idNumbers: [],
-            addresses: [address])
-        
         let config = try! OnfidoConfig.builder()
-            .withToken("YOUR_TOKEN_HERE") // Replace with your token here
-            .withApplicant(applicant)
+            .withToken(token) // Replace with your token here
+            .withApplicantId(applicantId)
             .withDocumentStep()
             .withFaceStep(ofVariant: .photo)
             .build()
@@ -131,6 +124,56 @@ final class SampleAppOnfidoWrapper: NSObject {
             // usually required permission are not available, i.e. such as camera permission which is a must
             
             self.delegate?.error()
+            return nil
         }
     }
+    
+    /**
+     Creates applicant
+     
+     - parameter completionHandler: closure to be executed once the applicant id is received or an error is encountered in the creation process
+     */
+    private func createApplicant(_ completionHandler: @escaping (String?, Error?) -> Void) {
+        
+        /**
+         Note: support for Applicant creation during the Onfido iOS SDK flow is deprecated
+         We suggest to create applicants in your backend
+         */
+        
+        let applicant: Parameters = [
+            "first_name": "Theresa",
+            "last_name": "May"
+        ]
+        
+        let headers: HTTPHeaders = [
+            "Authorization": "Token token=\(token)",
+            "Accept": "application/json"
+        ]
+        
+        Alamofire.request(
+            "https://api.onfido.com/v2/applicants",
+            method: .post,
+            parameters: applicant,
+            encoding: JSONEncoding.default,
+            headers: headers).responseJSON { (response: DataResponse<Any>) in
+                
+                guard response.error == nil else {
+                    completionHandler(nil, response.error)
+                    return
+                }
+                
+                let response = response.result.value as! [String: Any]
+                
+                guard response.keys.contains("error") == false else {
+                    completionHandler(nil, ApplicantError.apiError(response["error"] as! [String : Any]))
+                    return
+                }
+                
+                let applicantId = response["id"] as! String
+                completionHandler(applicantId, nil)
+        }
+    }
+}
+enum ApplicantError: Error {
+    case apiError([String:Any])
 }

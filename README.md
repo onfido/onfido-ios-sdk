@@ -45,19 +45,15 @@ In order to start integration, you will need the **API token** and the **mobile 
 
 ### 2. App permissions
 
-The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription` key in your application's `Info.plist` file:
+The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` keys in your application's `Info.plist` file:
 
 ```xml
 <key>NSCameraUsageDescription</key>
 <string>Required for document and facial capture</string>
-```
-
-Additionally, if you make use of the video variant of face capture, you will also be required to have the `NSMicrophoneUsageDescription` key in your application's `Info.plist` file:
-
-```xml
 <key>NSMicrophoneUsageDescription</key>
 <string>Required for video capture</string>
 ```
+**Note**: Both keys will be required for app submission.
 
 ### 3. Adding the SDK dependency
 
@@ -70,19 +66,31 @@ pod 'Onfido'
 Run `pod install` to get the sdk.
 
 
-### 4. Creating the SDK configuration
+### 4. Creating an Applicant
 
-After adding the SDK as a dependency you can configure the SDK:
+You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
+
+For a document or face check the minimum applicant details required are `firstName` and `lastName`.
+
+You must create applicants from your server:
+
+```shell
+$ curl https://api.onfido.com/v2/applicants \
+    -H 'Authorization: Token token=YOUR_API_TOKEN' \
+    -d 'first_name=Theresa' \
+    -d 'last_name=May'
+```
+
+The JSON response has an `id` field containing a UUID that identifies the applicant. You will pass the applicant ID to the SDK and all documents or live photos uploaded by that instance of the SDK will be associated with that applicant.
+
+### 5. Creating the SDK configuration
+
+Once you have an added the SDK as a dependency and you have an applicant ID, you can configure the SDK:
 
 ```swift
-let applicant = Applicant.new(
-    firstName: "Theresa",
-    lastName: "May"
-)
-
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
-    .withApplicant(applicant)
+    .withApplicantId("APPLICANT_ID_HERE")
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo)
     .build()
@@ -93,7 +101,7 @@ let onfidoFlow = OnfidoFlow(withConfiguration: config)
     })
 ```
 
-### 5. Starting the flow
+### 6. Starting the flow
 
 ```swift
 let onfidoRun = try! onfidoFlow.run()
@@ -136,13 +144,13 @@ Success is when the user has reached the end of the flow.
 
 `[OnfidoResult]` is a list with multiple results. The results are different enum values, each with its own associated value (also known as payload). This enum, `OnfidoResult`, can have the following values:
 
-1.  `OnfidoResult.applicant`: In order to create a check after the flow, you want to look into its payload to find the applicant id. Only with this id you can create the check.
+1.  (Deprecated) `OnfidoResult.applicant`: In order to create a check after the flow, you want to look into its payload to find the applicant id. Only with this id you can create the check.
 2.  `OnfidoResult.document` and `OnfidoResult.face`: Its payload is relevant in case you want to manipulate or preview the captures in someway.
 
 Keep reading to find out how to extract the payload of each `OnfidoResult` enum value.
 
 
-#### Applicant result payload
+#### (Deprecated) Applicant result payload
 
 How to handle an applicant result:
 
@@ -162,7 +170,7 @@ if let applicantUnwrapped = applicant, case OnfidoResult.applicant(let applicant
 }
 ```
 
-After getting the created applicant, you can create a check, see [Creating checks](#creating-checks).
+You need the applicant ID to create a check, see [Creating checks](#creating-checks).
 
 #### Capture result payload
 
@@ -250,6 +258,7 @@ Otherwise you may encounter the following errors when calling the `build()` func
   - `OnfidoConfigError.missingToken`, when no or empty string token is provided
   - `OnfidoConfigError.missingApplicant`, when no applicant instance is provided
   - `OnfidoConfigError.missingSteps`, when no step is provided
+  - `OnfidoConfigError.multipleApplicants`, when both an applicant and an appliacantId are provided
 
 
 ## Customising SDK
@@ -265,7 +274,7 @@ The face step has two variants:
 ```swift
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
-    .withApplicant(applicant)
+    .withApplicantId(applicantId)
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
@@ -282,44 +291,10 @@ Let's say that you would like to capture only driving licenses from the United K
 ```swift
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
-    .withApplicant(applicant)
+    .withApplicantId(applicantId)
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
-```
-
-
-#### Creating applicant (required)
-
-The `OnfidoConfig.Builder` instance must be provided with an `Applicant` object (required). Documents and face uploads will be associated against the applicant provided.
-
-The minimum details on an applicant for a document and face check is `firstName` and `lastName`, however in case you need to pass more details here is an example:
-
-```swift
-let dobString = "1956-10-01"
-let dateFormatter = DateFormatter()
-dateFormatter.dateFormat = "yyyy-mm-dd"
-dateFormater.timeZone = TimeZone(abbreviation: "UTC")
-dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-let dobDate = dateFormatter.date(from: dobString)!
-
-let address = Address(
-    buildingNumber: "10",
-    street: "Downing St",
-    town: "London",
-    postcode: "SW1A 2AA",
-    country: "GBR"
-)
-
-let applicant = Applicant.new(
-    firstName: "Theresa",
-    lastName: "June",
-    email: "pm@number10.gov.uk",
-    dateOfBirth: dobDate,
-    country: "GBR",
-    idNumbers: [],
-    addresses: [address]
-)
 ```
 
 ### 1. Obtaining an API token

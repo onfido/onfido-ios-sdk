@@ -31,8 +31,12 @@
     
     onfidoWrapper = [[SampleAppOnfidoWrapper alloc] init];
     onfidoWrapper.delegate = self;
-    UIViewController *viewControllerToPresent = [onfidoWrapper getViewController];
-    [self presentViewController:viewControllerToPresent animated:YES completion:NULL];
+    [onfidoWrapper getViewController: ^void (UIViewController *vc) {
+        
+        if (vc != NULL) {
+            [self presentViewController:vc animated:YES completion:NULL];
+        }
+    }];
 }
 
 // MARK: - SampleAppOnfidoWrapperDelegate protocol conformance

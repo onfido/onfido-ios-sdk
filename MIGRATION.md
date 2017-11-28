@@ -2,9 +2,18 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-5.0.0-migration-guide)
-* [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-4.0.0-migration-guide)
-* [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-3.0.0-migration-guide)
+* [Onfido iOS SDK 5.1.0 Migration Guide](#onfido-sdk-510-migration-guide)
+* [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
+* [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
+* [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 5.1.0 Migration Guide
+
+While this is a minor release and there are no breaking changes we have deprecated parts of the API.
+
+### Applicants
+
+We have deprecated `OnfidoConfig.builder().withApplicant(applicant)` in favour of `OnfidoConfig.builder().withApplicantId(applicantId)`. We now recommend that you create an Onfido applicant yourself on your backend and pass the applicant ID to the SDK. Similarly the applicantResult object in the `responseHandler` is also deprecated. Both `withApplicant` and `applicantResult` will continue to work as before, but will be removed in the next major release of the SDK.
 
 ## Onfido SDK 5.0.0 Migration Guide
 
@@ -182,14 +191,15 @@ if let faceUnwrapped = face, case OnfidoResult.face(let documentResponse, data: 
 
 #### Permissions
 
-If you are going to use new `.video` variant of face capture, then make sure to set `NSMicrophoneUsageDescription` property in `Info.plist` file:
+You will be required to have the `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` keys in your application's `Info.plist` file:
 
 ```xml
+<key>NSCameraUsageDescription</key>
+<string>Required for document and facial capture</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>Required for video capture</string>
 ```
-
-This is required for recording a video with sound.
+**Note**: Both keys will be required for app submission.
 
 #### Error handling
 
