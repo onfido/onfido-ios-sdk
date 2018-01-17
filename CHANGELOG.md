@@ -4,19 +4,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.2.0] - 2017-01-17
+
+### Added
+- UI: Added manual focus on document capture. It's now possible to trigger by tapping on document within rectangle
+
+### Changed
+- UI: Refreshed face capture experience
+- Internal: Using XCAssets for bundling images in the framework instead of separate bundle
+
+### Fixed
+- UI: Fixed large back button issue on iPhone X
+- UI: Fixed face capture oval height ratio on iPhone X
+- Internal: Fixed issue with not cleaning up uploaded images and videos from device
+- Internal: Fixed issue with different video codecs being used for video capture
+- Internal: Fixed document photo resolution in order to reduce data usage
+
 ## [5.1.0] - 2017-11-27
 
 ### Deprecated
 - Public: Deprecated `withApplicant` method and `applicantResult` object.
 
-### Added 
+### Added
 - Public: Added `withApplicantId` method as a preferred way to start a flow with previously created applicant
 
 ### Changed
 - UI: Refreshed face capture confirmation screen
 
 ### Fixed
-- UI: The document frame aspect ratio, in both capture and confirmation screen, on iPhone X is now consistent with ther other models.
+- UI: The document frame aspect ratio, in both capture and confirmation screen,
+on iPhone X is now consistent with ther other models.
 
 ## [5.0.2] - 2017-11-15
 
@@ -55,7 +72,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - UI: New video face capture screen/step
 - Public: Added video variant to the face step, which allows to capture face during live video recording
-- Public: New app permission required: `NSMicrophoneUsageDescription`.
 
 ### Changed
 

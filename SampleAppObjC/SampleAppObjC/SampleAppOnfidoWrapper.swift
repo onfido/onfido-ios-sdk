@@ -68,27 +68,9 @@ final class SampleAppOnfidoWrapper: NSObject {
             } else if case OnfidoResponse.success(let results) = response {
                 
                 // handle success
-                // extract applicant, document and face here
-                
-                // i.e. Applicant ID extraction
-                
-                let applicant: Optional<OnfidoResult> = results.filter({ result in
-                    if case OnfidoResult.applicant = result { return true }
-                    return false
-                }).first
-                
-                if let applicantUnwrapped = applicant,
-                    case OnfidoResult.applicant(let applicantResult) = applicantUnwrapped,
-                    let applicantId = applicantResult.id {
                     
-                    /* applicantResult
-                     Onfido api response to the creation of the applicant
-                     More details: https://documentation.onfido.com/#create-applicant
-                     */
-                    
-                    // At this point you have all the necessary information to create a check
-                    self.delegate?.success(forApplicantWithId: applicantId)
-                }
+                // At this point you can create a check for the recently create applicant
+                self.delegate?.success(forApplicantWithId: applicantId)
                 
             } else if case OnfidoResponse.cancel = response {
                 

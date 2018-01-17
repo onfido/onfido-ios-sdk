@@ -297,6 +297,10 @@ let config = try! OnfidoConfig.builder()
     .build()
 ```
 
+## Creating checks
+
+As the SDK is only responsible for capturing and uploading photos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
+
 ### 1. Obtaining an API token
 
 All API requests must be made with an API token included in the request headers. You can find your API token (not to be mistaken with the mobile SDK token) inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
@@ -324,6 +328,15 @@ Finally, as you are testing with the sandbox token, please be aware that the res
 ### 3. Setting up webhooks
 
 Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in the API documentation for details.
+
+## Going live
+
+Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile SDK token. You will have to replace the sandbox tokens in your code with the live tokens.
+
+A few things to check before you go live:
+
+- Make sure you have set up [webhooks](https://documentation.onfido.com/#webhooks) to receive live events
+- Make sure you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
 
 ## Migrating
 
