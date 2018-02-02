@@ -14,7 +14,6 @@
     *   [Error handling](#run-exceptions)
 *   [Customising SDK](#customising-sdk)
     *   [Flow customisation](#flow-customisation)
-    *   [Localisation](#localisation)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
@@ -300,14 +299,6 @@ let config = try! OnfidoConfig.builder()
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
 ```
-
-### Localisation
-
-Onfido iOS SDK already comes with out-of-the-box translations for the following locales:
-
- - English (en) 🇬🇧
- - Spanish (es) 🇪🇸
-In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
 
 ## Creating checks
 
