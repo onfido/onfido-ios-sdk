@@ -13,6 +13,8 @@
     *   [Success handling](#success-handling)
     *   [Error handling](#run-exceptions)
 *   [Customising SDK](#customising-sdk)
+    *   [Flow customisation](#flow-customisation)
+    *   [Localisation](#localisation)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
@@ -263,6 +265,8 @@ Otherwise you may encounter the following errors when calling the `build()` func
 
 ## Customising SDK
 
+### Flow customisation
+
 The SDK can be customised by specifying the steps to capture and upload when configuring.
 
 You can either specify to capture the document and/or face of the user.
@@ -296,6 +300,14 @@ let config = try! OnfidoConfig.builder()
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
 ```
+
+### Localisation
+
+Onfido iOS SDK already comes with out-of-the-box translations for the following locales:
+
+ - English (en) 🇬🇧
+ - Spanish (es) 🇪🇸
+In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
 
 ## Creating checks
 

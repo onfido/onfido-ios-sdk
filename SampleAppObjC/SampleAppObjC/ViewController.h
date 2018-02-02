@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SampleAppObjC-Swift.h" // Import the automatically generated header file (to bridge Swift code)
 
-@interface ViewController : UIViewController <SampleAppOnfidoWrapperDelegate> // Conform to the custom wrapper delegate protocol here
+@interface ViewController : UIViewController
 
 
 @end

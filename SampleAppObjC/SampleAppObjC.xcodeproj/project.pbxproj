@@ -14,7 +14,6 @@
 		7F6301311FC58A43001C0309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6301301FC58A43001C0309 /* Assets.xcassets */; };
 		7F6301341FC58A43001C0309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6301321FC58A43001C0309 /* LaunchScreen.storyboard */; };
 		7F6301371FC58A43001C0309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6301361FC58A43001C0309 /* main.m */; };
-		7F63013F1FC58B2E001C0309 /* SampleAppOnfidoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63013E1FC58B2E001C0309 /* SampleAppOnfidoWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +28,6 @@
 		7F6301331FC58A43001C0309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F6301351FC58A43001C0309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F6301361FC58A43001C0309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F63013D1FC58B2E001C0309 /* SampleAppObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAppObjC-Bridging-Header.h"; sourceTree = "<group>"; };
-		7F63013E1FC58B2E001C0309 /* SampleAppOnfidoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppOnfidoWrapper.swift; sourceTree = "<group>"; };
 		9951A9F39FAC7922F5E1D710 /* Pods-SampleAppObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0751CE919D4E18E58B06A0 /* Pods_SampleAppObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,8 +91,6 @@
 				7F6301321FC58A43001C0309 /* LaunchScreen.storyboard */,
 				7F6301351FC58A43001C0309 /* Info.plist */,
 				7F6301361FC58A43001C0309 /* main.m */,
-				7F63013E1FC58B2E001C0309 /* SampleAppOnfidoWrapper.swift */,
-				7F63013D1FC58B2E001C0309 /* SampleAppObjC-Bridging-Header.h */,
 			);
 			path = SampleAppObjC;
 			sourceTree = "<group>";
@@ -225,7 +220,6 @@
 			files = (
 				7F63012C1FC58A43001C0309 /* ViewController.m in Sources */,
 				7F6301371FC58A43001C0309 /* main.m in Sources */,
-				7F63013F1FC58B2E001C0309 /* SampleAppOnfidoWrapper.swift in Sources */,
 				7F6301291FC58A43001C0309 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,11 +358,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3DF7TM3Y9C;
+				DEVELOPMENT_TEAM = 2X946JA9UV;
 				INFOPLIST_FILE = SampleAppObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppObjC/SampleAppObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -385,11 +379,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3DF7TM3Y9C;
+				DEVELOPMENT_TEAM = 2X946JA9UV;
 				INFOPLIST_FILE = SampleAppObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppObjC/SampleAppObjC-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

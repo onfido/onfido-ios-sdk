@@ -7,5 +7,5 @@ target 'SampleAppObjC' do
 
   # Pods for SampleAppObjC
   pod ‘Onfido’
-
+  pod 'AFNetworking', '~> 3.1'
 end

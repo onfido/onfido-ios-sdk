@@ -4,7 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [5.2.0] - 2017-01-17
+## [5.3.0] - 2018-02-02
+
+### Added
+- Public: Added Objective-C interface
+
+### Changed
+- Internal: Reduced live video maximum duration from 25s to 20s
+
+### Fixed
+- UI: Fixed crash when going back from live video intro screen to document selection
+
+## [5.2.0] - 2018-01-17
 
 ### Added
 - UI: Added manual focus on document capture. It's now possible to trigger by tapping on document within rectangle
