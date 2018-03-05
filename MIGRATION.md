@@ -2,10 +2,16 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 5.5.0 Migration Guide](#onfido-sdk-550-migration-guide)
 * [Onfido iOS SDK 5.1.0 Migration Guide](#onfido-sdk-510-migration-guide)
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 5.5.0 Migration Guide
+
+While this is a minor release there are memory management improvements which means it's no longer necessary to keep a strong reference to `OnfidoFlow` for the swift interface (objective C interface still needs it). This means you can create the object, use it and not have to keep it as a property.
+
 
 ## Onfido SDK 5.1.0 Migration Guide
 

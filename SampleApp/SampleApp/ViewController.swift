@@ -12,8 +12,6 @@ import Alamofire
 
 final class ViewController: UIViewController {
 
-    // Keep a strong reference to the OnfidoFlow instance
-    private var onfidoFlow: OnfidoFlow?
     private let token = "YOUR_TOKEN_HERE"
     
     @IBAction func verifyUser(_ sender: Any) {
@@ -69,12 +67,12 @@ final class ViewController: UIViewController {
             .withFaceStep(ofVariant: .photo)
             .build()
         
-        self.onfidoFlow = OnfidoFlow(withConfiguration: config)
+        let onfidoFlow = OnfidoFlow(withConfiguration: config)
             .with(responseHandler: responseHandler)
         
         do {
             
-            let onfidoRun = try self.onfidoFlow!.run()
+            let onfidoRun = try onfidoFlow.run()
             onfidoRun.modalPresentationStyle = .formSheet // to present modally
             self.present(onfidoRun, animated: true, completion: nil)
             
