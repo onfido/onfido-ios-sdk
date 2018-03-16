@@ -14,6 +14,8 @@
     *   [Error handling](#run-exceptions)
 *   [Customising SDK](#customising-sdk)
     *   [Flow customisation](#flow-customisation)
+    *   [Localisation](#localisation)
+    *   [Language customisation](#language-customisation)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
@@ -88,6 +90,8 @@ The JSON response has an `id` field containing a UUID that identifies the applic
 
 Once you have an added the SDK as a dependency and you have an applicant ID, you can configure the SDK:
 
+#### Swift
+
 ```swift
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
@@ -102,7 +106,30 @@ let onfidoFlow = OnfidoFlow(withConfiguration: config)
     })
 ```
 
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withDocumentStep];
+[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+if (configError == NULL) {
+    ONFlow *onFlow = [[ONFlow alloc] initWithFlowConfiguration:config];
+    [onFlow withResponseHandler:^(ONFlowResponse *response) {
+        // Callback when flow ends
+    }];
+}
+```
+
 ### 6. Starting the flow
+
+#### Swift
 
 ```swift
 let onfidoRun = try! onfidoFlow.run()
@@ -110,7 +137,16 @@ let onfidoRun = try! onfidoFlow.run()
 self.present(onfidoRun, animated: true, completion: nil) //`self` should be your view controller
 ```
 
-*Important Note:* When using the objective C interface, make sure to keep a **strong** reference to the `ONFlow` object until the flow is finished, otherwise the flow won't work correctly.
+#### Objective-C
+
+```Objective-C
+NSError *runError = NULL;
+UIViewController *onfidoController = [onFlow runAndReturnError:&runError];
+
+if (runError == NULL) {
+    [self presentViewController:onfidoController animated:YES completion:NULL];
+}
+```
 
 Congratulations! You have successfully started the flow. Carry on reading the next sections to learn how to:
 
@@ -120,9 +156,11 @@ Congratulations! You have successfully started the flow. Carry on reading the ne
 
 ## Handling callbacks
 
-To receive the result from the flow, you should pass a callback to the instance of `OnfidoFlow`. Typically, on success, you would [create a check](#creating-checks) on your backend server.
+To receive the result from the flow, you should pass a callback to the instance of `OnfidoFlow` (`ONFlow` for Objective-C). Typically, on success, you would [create a check](#creating-checks) on your backend server.
 
-The result object passed to the callback may include the following attributes: `.success([OnfidoResult])`, `.error(Error)` and `.cancel`.
+The result object passed to the callback may include the following attributes for Swift: `.success([OnfidoResult])`, `.error(Error)` and `.cancel`. For Objective-C based interface an instance of `ONFlowResponse` is passed back to the callback with three properties: `results`, `error` and `userCanceled`. When `userCanceled` is false then `results` or `error` properties will be set.
+
+#### Swift
 
 ```swift
 let responseHandler: (OnfidoResponse) -> Void = { response in
@@ -138,9 +176,27 @@ let responseHandler: (OnfidoResponse) -> Void = { response in
 }
 ```
 
+#### Objective-C
+
+```Objective-C
+(^responseHandlerBlock)(ONFlowResponse *response) {
+
+    if (response.userCanceled) {
+        // Flow cancelled by the user
+    } else if (response.results) {
+        // User completed the flow
+        // You can create your check here
+    } else if (response.error) {
+        // Some error happened
+    }
+}
+```
+
 ### Success handling
 
 Success is when the user has reached the end of the flow.
+
+#### Swift
 
 `[OnfidoResult]` is a list with multiple results. The results are different enum values, each with its own associated value (also known as payload). This enum, `OnfidoResult`, can have the following values:
 
@@ -149,6 +205,9 @@ Success is when the user has reached the end of the flow.
 
 Keep reading to find out how to extract the payload of each `OnfidoResult` enum value.
 
+#### Objective-C
+
+`[ONFlowResult]` is a list with multiple results. The result is an instance of `ONFlowResult` containing two properties: `type`, which is an enum with values `ONFlowResultTypeDocument`, `ONFlowResultTypeFace` and `ONFlowResultTypeApplicant`, and `result`, which instance type can be of `ONApplicantResult`, `ONDocumentResult` or `ONFaceResult`. The result type can be derived by the `type` property.
 
 #### (Deprecated) Applicant result payload
 
@@ -201,6 +260,8 @@ Face follows a similar structure to document, but the `case` is `OnfidoResult.fa
 
 #### Response Handler Errors
 
+##### Swift
+
 The `Error` object returned, as part of `OnfidoResponse.error(Error)`, is of type `OnfidoFlowError`. It's an enum with multiple cases depending on the error type.
 
 Note: Not all cases part of `OnfidoFlowError` will be passed to `OnfidoResponse.error`, there is one case that error will be returned as an exception, see [Run Exceptions](#run-exceptions) and [Configuration errors](#configuration-errors).
@@ -223,6 +284,16 @@ switch response {
     }
 }
 ```
+
+##### Objective-C
+
+The `error` property of the `ONFlowResponse` returned to the callback block is of type `NSError`. You can easily identify the error by comparing the `code` property of the `NSError` instance with `ONFlowError`, i.e. `response.code == ONFlowErrorCameraPermission`. You could also find out more about the error by printing or logging the `userInfo` property of the `NSError` instance.  `ONFlowError` can be one of the following:
+
+- `ONFlowErrorCameraPermission`
+- `ONFlowErrorFailedToWriteToDisk`
+- `ONFlowErrorMicrophonePermission`
+- `ONFlowErrorUpload`
+- `ONFlowErrorException`
 
 #### Run exceptions
 
@@ -250,15 +321,17 @@ catch let error {
 #### Configuration errors
 
 The following are required when configuring the Onfido iOS SDK:
-  - Mobile SDK token
-  - Applicant
-  - At least one capture step
+
+- Mobile SDK token
+- Applicant
+- At least one capture step
 
 Otherwise you may encounter the following errors when calling the `build()` function on the OnfidoConfig.Builder instance:
-  - `OnfidoConfigError.missingToken`, when no or empty string token is provided
-  - `OnfidoConfigError.missingApplicant`, when no applicant instance is provided
-  - `OnfidoConfigError.missingSteps`, when no step is provided
-  - `OnfidoConfigError.multipleApplicants`, when both an applicant and an appliacantId are provided
+
+- `OnfidoConfigError.missingToken`, when no or empty string token is provided
+- `OnfidoConfigError.missingApplicant`, when no applicant instance is provided
+- `OnfidoConfigError.missingSteps`, when no step is provided
+- `OnfidoConfigError.multipleApplicants`, when both an applicant and an appliacantId are provided
 
 
 ## Customising SDK
@@ -270,8 +343,12 @@ The SDK can be customised by specifying the steps to capture and upload when con
 You can either specify to capture the document and/or face of the user.
 
 The face step has two variants:
-  - `FaceStepVariant.photo` for face photo capture
-  - `FaceStepVariant.video` for face video capture
+
+- `FaceStepVariant.photo` (`ONFaceStepVariantPhoto` for Objective-C) for face photo capture
+- `FaceStepVariant.video` (`ONFaceStepVariantVideo` for Objective-C) for face video capture
+
+
+#### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
@@ -282,13 +359,36 @@ let config = try! OnfidoConfig.builder()
     .build()
 ```
 
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withDocumentStep];
+[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+if (configError) {
+    // Handle config build error
+} else {
+    // use config
+}
+```
+
 The document step can be further configured to capture single document types from a specific country. The document types supported are:
-  - Passport: `DocumentType.passport`
-  - Driving Licence: `DocumentType.drivingLicence`
-  - National Identity Card: `DocumentType.nationalIdentityCard`
-  - Residence Permit: `DocumentType.residencePermit`
+
+- Passport: `DocumentType.passport` (`ONDocumentTypePassport` for Objective-C)
+- Driving Licence: `DocumentType.drivingLicence` (`ONDocumentTypeDrivingLicence` for Objective-C)
+- National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeDrivingLicence` for Objective-C)
+- Residence Permit: `DocumentType.residencePermit` (`ONDocumentTypeResidencePermit` for Objective-C)
 
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
+
+#### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
@@ -298,6 +398,62 @@ let config = try! OnfidoConfig.builder()
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
 ```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
+[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+```
+
+### Localisation
+
+Onfido iOS SDK already comes with out-of-the-box translations for the following locales:
+
+ - English (en) 🇬🇧
+ - Spanish (es) 🇪🇸
+
+In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
+
+### Language customisation
+
+The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder. i.e.
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withToken("YOUR_TOKEN_HERE")
+    .withApplicantId(applicantId)
+    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
+    .withFaceStep(ofVariant: .photo)
+    .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
+    .build()
+```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
+[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+[configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+```
+
+You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C)
 
 ## Creating checks
 
@@ -355,7 +511,7 @@ For more information as to why we do this please check out our [FAQ's](docs/FAQ.
 
 ### Sample App
 
-We have included a Sample App to show how to integrate with the Onfido SDK. Check out the SampleApp directory.
+We have included sample apps to show how to integrate with the Onfido SDK using both Swift and Objective-C. Check out respectively the `SampleApp` and `SampleAppObjC` directories.
 
 ### Support
 

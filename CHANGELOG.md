@@ -4,13 +4,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.6.0] - 2018-03-16
+
+### Added
+- Public: Added custom language localisation option using `withCustomLocalization()` method when configuring the flow
+- UI: Added translation for Spanish (es)
+
+### Changed
+- Public: Objective-C integrator no longer has to hold a strong reference to `ONFlow` instance during flow execution
+
+### Fixed
+- UI: Fixed a crashed that happened when starting the sdk and tapping the back button quickly
+
 ## [5.5.0] - 2018-03-05
 
 ### Added
-- Public: Objective C interface allows document type to be specified as part of the document step configuration
+- Public: Objective-C interface allows document type to be specified as part of the document step configuration
 
 ### Changed
-- Public: Integrator no longer has to hold a strong reference to `OnfidoFlow` instance during flow execution (for the swift interface only)
+- Public: Swift integrator no longer has to hold a strong reference to `OnfidoFlow` instance during flow execution (Objective-C integrator should still hold the strong reference)
 
 ## [5.4.1] - 2018-02-21
 

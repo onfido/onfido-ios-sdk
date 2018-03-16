@@ -12,7 +12,6 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 
 @interface ViewController () {
-    ONFlow *flow;
     NSString *token;
 }
 
@@ -25,7 +24,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     self->token = @"YOUR_TOKEN_HERE";
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -49,8 +47,8 @@
             
             if (configError == NULL) {
              
-                self->flow = [[ONFlow alloc] initWithFlowConfiguration:config];
-                [self->flow withResponseHandler:^(ONFlowResponse * _Nonnull response) {
+                ONFlow *flow = [[ONFlow alloc] initWithFlowConfiguration:config];
+                [flow withResponseHandler:^(ONFlowResponse * _Nonnull response) {
                     
                     [self dismissViewControllerAnimated:YES completion:^{
                         
@@ -81,7 +79,7 @@
                 }];
                 
                 NSError *runError = NULL;
-                UIViewController *flowVC = [self->flow runAndReturnError:&runError];
+                UIViewController *flowVC = [flow runAndReturnError:&runError];
                 
                 if (runError == NULL) {
                     [self presentViewController:flowVC animated:YES completion:nil];
