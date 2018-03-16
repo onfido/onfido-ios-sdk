@@ -264,8 +264,6 @@ Face follows a similar structure to document, but the `case` is `OnfidoResult.fa
 
 The `Error` object returned, as part of `OnfidoResponse.error(Error)`, is of type `OnfidoFlowError`. It's an enum with multiple cases depending on the error type.
 
-Note: Not all cases part of `OnfidoFlowError` will be passed to `OnfidoResponse.error`, there is one case that error will be returned as an exception, see [Run Exceptions](#run-exceptions) and [Configuration errors](#configuration-errors).
-
 ```swift
 switch response {
   case let OnfidoResponse.error(error):
@@ -285,19 +283,42 @@ switch response {
 }
 ```
 
+Note: Not all cases part of `OnfidoFlowError` will be passed to `OnfidoResponse.error`, there is one case that error will be returned as an exception, see [Run Exceptions](#run-exceptions) and [Configuration errors](#configuration-errors).
+
 ##### Objective-C
 
-The `error` property of the `ONFlowResponse` returned to the callback block is of type `NSError`. You can easily identify the error by comparing the `code` property of the `NSError` instance with `ONFlowError`, i.e. `response.code == ONFlowErrorCameraPermission`. You could also find out more about the error by printing or logging the `userInfo` property of the `NSError` instance.  `ONFlowError` can be one of the following:
+The `error` property of the `ONFlowResponse` returned to the callback block is of type `NSError`. You can easily identify the error by comparing the `code` property of the `NSError` instance with `ONFlowError`, i.e. `response.code == ONFlowErrorCameraPermission`. You could also find out more about the error by printing or logging the `userInfo` property of the `NSError` instance.  The `NSError` contained within the `ONFlowResponse`'s `error` property can be handled such as:
 
-- `ONFlowErrorCameraPermission`
-- `ONFlowErrorFailedToWriteToDisk`
-- `ONFlowErrorMicrophonePermission`
-- `ONFlowErrorUpload`
-- `ONFlowErrorException`
+```Objective-C
+switch (error.code) {
+    case ONFlowErrorCameraPermission:
+        // It happens if the user denies permission to the sdk during the flow
+        break;
+    case ONFlowErrorFailedToWriteToDisk:
+        // It happens when the SDK tries to save capture to disk, maybe due to a lack of space
+        break;
+    case ONFlowErrorMicrophonePermission:
+        // It happens when the user denies permission for microphone usage by the app during the flow
+        break;
+    case ONFlowErrorUpload:
+        // It happens when the SDK receives an error from a API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
+        // you can find out more by printing or logging userInfo from error
+        break;
+    case ONFlowErrorException:
+        // It happens when an unexpected error occurs, please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+        break;
+}
+```
+
+Note: Not all cases part of `ONFlowError` will be passed to response handler block, there is one case that error will be returned as an exception, see [Run Exceptions](#run-exceptions) and [Configuration errors](#configuration-errors).
 
 #### Run exceptions
 
-When initiating the SDK there can be an exception, which you can handle with a `do/catch` as shown below:
+When initiating the SDK there can be an exception.
+
+##### Swift
+
+You can handle run exceptions in Swift with a `do/catch` as shown below:
 
 ```swift
 do {
@@ -318,6 +339,34 @@ catch let error {
 }
 ```
 
+##### Objective-C
+
+You can handle run exceptions in Objective-C as shown below:
+
+```Objective-C
+NSError *runError = NULL;
+UIViewController *onfidoController = [onFlow runAndReturnError:&runError];
+
+if (runError) {
+    switch (runError.code) {
+        case ONFlowErrorCameraPermission:
+            // do something about it here
+            break;
+        case ONFlowErrorMicrophonePermission:
+            // do something about it here
+            break;
+        case ONFlowErrorDeviceHasNoCamera:
+            // do something about it here
+            break;
+        default:
+            // do something about it here
+            break;
+    }
+} else {
+    [self presentViewController:onfidoController animated:YES completion:NULL];
+}
+```
+
 #### Configuration errors
 
 The following are required when configuring the Onfido iOS SDK:
@@ -326,12 +375,12 @@ The following are required when configuring the Onfido iOS SDK:
 - Applicant
 - At least one capture step
 
-Otherwise you may encounter the following errors when calling the `build()` function on the OnfidoConfig.Builder instance:
+Otherwise you may encounter the following errors when calling the `build()` function on the OnfidoConfig.Builder (`ONFlowConfigBuilder` in Objective-C) instance:
 
-- `OnfidoConfigError.missingToken`, when no or empty string token is provided
-- `OnfidoConfigError.missingApplicant`, when no applicant instance is provided
-- `OnfidoConfigError.missingSteps`, when no step is provided
-- `OnfidoConfigError.multipleApplicants`, when both an applicant and an appliacantId are provided
+- `OnfidoConfigError.missingToken` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no or empty string token is provided
+- `OnfidoConfigError.missingApplicant` (`ONFlowConfigErrorMissingApplicant` in Objective-C), when no applicant instance is provided
+- `OnfidoConfigError.missingSteps` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no step is provided
+- `OnfidoConfigError.multipleApplicants` (`ONFlowConfigErrorMultipleApplicants` in Objective-C), when both an applicant and an appliacantId are provided
 
 
 ## Customising SDK
