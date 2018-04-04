@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [6.0.0] - 2018-04-04
+
+**Note:**
+* This version is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Public
+
+#### Changed:
+- SDK built using Swift 4.1 and Xcode 9.3
+
 ## [5.6.0] - 2018-03-16
 
 ### Added

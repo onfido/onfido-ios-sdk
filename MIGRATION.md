@@ -2,12 +2,26 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 6.0.0 Migration Guide](#onfido-sdk-600-migration-guide)
 * [Onfido iOS SDK 5.6.0 Migration Guide](#onfido-sdk-560-migration-guide)
 * [Onfido iOS SDK 5.5.0 Migration Guide](#onfido-sdk-550-migration-guide)
 * [Onfido iOS SDK 5.1.0 Migration Guide](#onfido-sdk-510-migration-guide)
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 6.0.0 Migration Guide
+
+This version is mainly an upgrade to the compiled SDK form. In order to use this version check out the requirements below.
+
+### Requirements
+
+- Xcode 9.3
+- Swift 3.3 or Swift 4.1
+
+### Breaking API changes
+
+There are no breaking api changes in terms of coding.
 
 ## Onfido SDK 5.6.0 Migration Guide
 
