@@ -4,15 +4,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
+
+## [7.0.0] - 2018-04-17
+
+**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+
+### Changed
+- UI: Updated error dialogs copy
+
+### Fixed
+- Public: upload results objects now exposing to objective-c integrator
+- UI: Fixed possible crash on camera capture
+- UI: Fixed crash on rotation during live video recording
+- UI: Fixed crash on going back from preselected document capture screen while glare detected
+- UI: Fixed back button with English text on non-English language text flow
+
 ## [6.0.0] - 2018-04-04
 
 **Note:**
 * This version is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
 
-### Public
-
-#### Changed:
-- SDK built using Swift 4.1 and Xcode 9.3
+### Changed
+- Public: SDK built using Swift 4.1 and Xcode 9.3
 
 ## [5.6.0] - 2018-03-16
 

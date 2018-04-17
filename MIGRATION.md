@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 7.0.0 Migration Guide](#onfido-sdk-700-migration-guide)
 * [Onfido iOS SDK 6.0.0 Migration Guide](#onfido-sdk-600-migration-guide)
 * [Onfido iOS SDK 5.6.0 Migration Guide](#onfido-sdk-560-migration-guide)
 * [Onfido iOS SDK 5.5.0 Migration Guide](#onfido-sdk-550-migration-guide)
@@ -9,6 +10,25 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 7.0.0 Migration Guide
+
+With this release we have brought a breaking change **only for customised languages integrators**.
+
+**Note**: The string custom translation version scheme has changed, going forward if the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations.
+
+We have **added** the following string keys:
+- `"onfido_no_document"`
+- `"onfido_no_face"`
+- `"onfido_multiple_faces"`
+- `"onfido_message_validation_error_document"`
+- `"onfido_message_validation_error_face"`
+
+We have **removed** the following string keys:
+- `"onfido_no_document_error_message"`
+- `"onfido_message_validation_error_no_face"`
+
+Please update your custom languages accordingly. Otherwise the language will fallback to English by default.
 
 ## Onfido SDK 6.0.0 Migration Guide
 

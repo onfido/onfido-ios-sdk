@@ -68,10 +68,20 @@
                                 
                                 if (result.type == ONFlowResultTypeDocument) {
                                     ONDocumentResult *docResult = (ONDocumentResult *)(result.result);
-                                    NSLog(@"%@", docResult.description);
+                                    
+                                    /* Document Result
+                                     Onfido api response to the creation of the document result
+                                     More details: https://documentation.onfido.com/#document-object
+                                     */
+                                    NSLog(@"%@", docResult.id);
                                 } else if (result.type == ONFlowResultTypeFace) {
                                     ONFaceResult *faceResult = (ONFaceResult *)(result.result);
-                                    NSLog(@"%@", faceResult.description);
+                                    
+                                    /* Live Photo / Live Video
+                                     Onfido api response to the creation of the live photo / live video
+                                     More details: https://documentation.onfido.com/#live-photo-object
+                                     */
+                                    NSLog(@"%@", faceResult.id);
                                 }
                             }
                         }

@@ -6,6 +6,12 @@
   Copyright © 2018 Onfido. All rights reserved.
 */
 
+/* Privacy Popup */
+"onfido_privacy_policy_title" = "You’re about to take a photo of your identity document";
+"onfido_privacy_policy_position_doc" = "Position your document in the frame";
+"onfido_privacy_policy_avoid_light" = "Avoid light reflections" ;
+"onfido_privacy_policy_terms_extended" = "By continuing, you agree to the <link type='tos'>Onfido Terms of Use</link> and understand that your information, including your facial identifiers, will be processed in accordance with the <link type='privacy'>Onfido Privacy Policy</link>";
+
 /* Document type selection */
 
 "onfido_document_selection_message" = "Which document are you using?";
@@ -57,7 +63,8 @@
 
 /* Document error */
 
-"onfido_no_document_error_message" = "A document could not be found in the image";
+"onfido_no_document" = "No document found";
+"onfido_message_validation_error_document" = "Make sure all the document is in the photo";
 
 /* Face capture */
 
@@ -74,8 +81,11 @@
 
 /* Face error */
 
-"onfido_message_validation_error_no_face" = "A face could not be found in the image";
-"onfido_message_validation_error_multiple_faces" = "Multiple faces were detected. Please take a photo of a single face.";
+"onfido_no_face" = "No face found";
+"onfido_message_validation_error_face" = "Make sure your face is fully visible";
+
+"onfido_multiple_faces" = "Multiple faces found";
+"onfido_message_validation_error_multiple_faces" = "Only your face can be in the selfie";
 
 /* Liveness intro */
 
@@ -115,3 +125,4 @@
 "onfido_back" = "Back";
 "onfido_continue" = "Continue";
 "onfido_thank_you" = "Thank you";
+"onfido_decline" = "Decline";
