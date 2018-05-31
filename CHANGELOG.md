@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [7.1.0] - 2018-05-30
+
+**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+
+### Changed
+- UI: document type selection now its own screen with refreshed design
+- UI: user flow back navigation now natural screen back navigation
+
+### Removed
+- Public: Removed Alamofire dependency
+- Public: Removed MBProgressHUD dependency
+
+### Fixed
+- UI: Powered by Onfido logo size and position inconsistencies between document/face capture and confirmation.
+- UI: Powered by Onfido logo position change after rotation in doc/face capture confirmation screen
+
 ## [7.0.0] - 2018-04-17
 
 **Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 7.1.0 Migration Guide](#onfido-sdk-710-migration-guide) # UNRELEASED
 * [Onfido iOS SDK 7.0.0 Migration Guide](#onfido-sdk-700-migration-guide)
 * [Onfido iOS SDK 6.0.0 Migration Guide](#onfido-sdk-600-migration-guide)
 * [Onfido iOS SDK 5.6.0 Migration Guide](#onfido-sdk-560-migration-guide)
@@ -10,6 +11,18 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 7.1.0 Migration Guide
+
+With this release we have brought a breaking change **only for customised languages integrators**.
+
+We have **added** the following string keys:
+- `"onfido_document_selection_title"`
+- `"onfido_document_selection_subtitle"`
+
+We have **removed** the following string keys:
+- `"onfido_document_selection_message"`
+
 
 ## Onfido SDK 7.0.0 Migration Guide
 
