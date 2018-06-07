@@ -9,4 +9,5 @@ target 'SampleApp' do
   # local development
   # pod 'Onfido', :path => '../'
   pod 'Onfido'
+  pod 'Alamofire'
 end

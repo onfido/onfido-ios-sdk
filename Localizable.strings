@@ -14,7 +14,8 @@
 
 /* Document type selection */
 
-"onfido_document_selection_message" = "Which document are you using?";
+"onfido_document_selection_title" = "Select a document";
+"onfido_document_selection_subtitle" = "You will take a picture of it in the next step";
 "onfido_label_doc_type_passport_up" = "Passport";
 "onfido_label_doc_type_driving_license_up" = "Driver\'s License";
 "onfido_label_doc_type_id_card_up" = "National Identity Card";
