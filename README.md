@@ -196,7 +196,7 @@ let responseHandler: (OnfidoResponse) -> Void = { response in
 
 Success is when the user has reached the end of the flow.
 
-#### Swift
+#### Swift
 
 `[OnfidoResult]` is a list with multiple results. The results are different enum values, each with its own associated value (also known as payload). This enum, `OnfidoResult`, can have the following values:
 
@@ -280,7 +280,7 @@ if (flowWithDocumentResults.count > 0) {
     */
     ONDocumentResult *documentResult = ((ONFlowResult *)flowWithDocumentResults[0]).result;
     NSLog(@"%@", documentResult.id);
-    
+
     // use documentResponse.href to fetch the captured image if required
 }
 ```
