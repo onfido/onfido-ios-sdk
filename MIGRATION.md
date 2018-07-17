@@ -2,7 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 7.1.0 Migration Guide](#onfido-sdk-710-migration-guide) # UNRELEASED
+* [Onfido iOS SDK 7.2.0 Migration Guide](#onfido-sdk-720-migration-guide)
+* [Onfido iOS SDK 7.1.0 Migration Guide](#onfido-sdk-710-migration-guide)
 * [Onfido iOS SDK 7.0.0 Migration Guide](#onfido-sdk-700-migration-guide)
 * [Onfido iOS SDK 6.0.0 Migration Guide](#onfido-sdk-600-migration-guide)
 * [Onfido iOS SDK 5.6.0 Migration Guide](#onfido-sdk-560-migration-guide)
@@ -11,6 +12,24 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 7.2.0 Migration Guide
+
+With this release we have brought a breaking change **only for customised languages integrators**.
+
+The following string keys has been **added**:
+- `"onfido_barcode_error_title"`
+- `"onfido_barcode_error_subtitle"`
+- `"onfido_barcode_error_third_title"`
+- `"onfido_error_dialog_title"`
+- `"onfido_error_connection_message"`
+- `"onfido_suggested_country"`
+- `"onfido_all_countries"`
+- `"onfido_country_selection_toolbar_title"`
+- `"onfido_unsupported_document_title"`
+- `"onfido_unsupported_document_description"`
+- `"onfido_select_another_document"`
+- `"onfido_close"`
 
 ## Onfido SDK 7.1.0 Migration Guide
 

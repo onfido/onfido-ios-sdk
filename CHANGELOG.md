@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [7.2.0] - 2018-07-17
+
+**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+
+### Added
+- UI: country selection screen to filter for document type and country combination supported by Onfido
+- UI: user can now retry upload when internet connection is lost
+- Public: post capture barcode detection for United States driving license captures
+
+### Fixed
+- UI: sdk crash when quickly transitioning between document type and document capture screens
+
 ## [7.1.0] - 2018-06-07
 
 **Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
