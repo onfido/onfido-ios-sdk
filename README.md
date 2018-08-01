@@ -37,7 +37,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ## Getting started
 
-* SDK supports iOS 8.0 and above
+* SDK supports iOS 9.0 and above
 * SDK supports Swift 3.3 and Swift 4.1
 
 ### 1. Obtaining tokens
@@ -504,7 +504,9 @@ In case you would like us to add translations for some other locales we don't pr
 
 ### Language customisation
 
-**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a language translated you can also get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com).
+**Note**: 
+- If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a language translated you can also get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com).
+- When adding custom translations, please make sure you add the whole set of keys we have on `Localizable.strings` file. In particular, `onfido_locale`, which identifies the current locale being added, must be included. E.g. when strings file added for Russian language, the key `onfido_locale` must have the value `ru` such that it sould look like the following:`"onfido_locale" = "ru";`
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder. i.e.
 

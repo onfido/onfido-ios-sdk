@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [8.0.0] - unreleased
+
+### Added:
+- Internal: Added the language displayed by the SDK as a parameter on the live video upload, for speech analysis purposes.
+
+### Changed
+- Public: Flow now dismisses upon completion unless shouldDismissFlowOnCompletion set to false
+
+### Removed
+- Public: SDK no longer supports iOS 8. Now iOS 9+.
+
+### Fixed
+- UI: Glare detection bubble localisation breaking when custom localisation with long text is used.
+
 ## [7.2.0] - 2018-07-17
 
 **Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).

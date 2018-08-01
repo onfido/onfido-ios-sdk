@@ -20,7 +20,6 @@
 "onfido_label_doc_type_driving_license_up" = "Driver\'s License";
 "onfido_label_doc_type_id_card_up" = "National Identity Card";
 "onfido_label_doc_type_residence_permit_up" = "Residence Permit Card";
-"onfido_document_selection_cancel" = "Cancel";
 
 /* Country selection */
 
@@ -126,6 +125,10 @@
 "onfido_retake_video" = "Retake video";
 "onfido_submit_video" = "Submit video";
 "onfido_video_recorded" = "Your video has been recorded";
+
+/* Locale identifier */
+
+"onfido_locale" = "en";
 
 /* Network error */
 

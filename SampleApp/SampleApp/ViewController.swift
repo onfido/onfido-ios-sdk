@@ -33,29 +33,21 @@ final class ViewController: UIViewController {
             
             if case let OnfidoResponse.error(innerError) = response {
                 
-                self.dismiss(animated: true) {
-                    self.showErrorMessage(forError: innerError)
-                }
+                self.showErrorMessage(forError: innerError)
                 
             } else if case OnfidoResponse.success = response {
-                
-                self.dismiss(animated: true) {
                     
-                    let alert = UIAlertController(title: "Success", message: "Success 💪🏽", preferredStyle: .alert)
-                    let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
-                    alert.addAction(alertAction)
-                    self.present(alert, animated: true)
-                }
+                let alert = UIAlertController(title: "Success", message: "Success", preferredStyle: .alert)
+                let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
+                alert.addAction(alertAction)
+                self.present(alert, animated: true)
                 
             } else if case OnfidoResponse.cancel = response {
                 
-                self.dismiss(animated: true) {
-                    
-                    let alert = UIAlertController(title: "Canceled", message: "Canceled by user 🤔", preferredStyle: .alert)
-                    let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
-                    alert.addAction(alertAction)
-                    self.present(alert, animated: true)
-                }
+                let alert = UIAlertController(title: "Canceled", message: "Canceled by user", preferredStyle: .alert)
+                let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
+                alert.addAction(alertAction)
+                self.present(alert, animated: true)
             }
             
         }

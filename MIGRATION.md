@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 8.0.0 Migration Guide](#onfido-sdk-800-migration-guide)
 * [Onfido iOS SDK 7.2.0 Migration Guide](#onfido-sdk-720-migration-guide)
 * [Onfido iOS SDK 7.1.0 Migration Guide](#onfido-sdk-710-migration-guide)
 * [Onfido iOS SDK 7.0.0 Migration Guide](#onfido-sdk-700-migration-guide)
@@ -12,6 +13,57 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 8.0.0 Migration Guide
+
+### Deployment target
+
+Version 8.0.0 raises the minimum iOS version from 8.0 to 9.0. If you are still using version iOS 8.0 then you must now check if the running iOS version is at least 9.0 before invoking Onfido SDK. You can do it using the following:
+
+```
+if #available(iOS 9.0, *) {
+    // call onfido here
+} else {
+    // can't verify user
+}
+```
+Alternatively you can use a `guard`:
+
+```
+guard #available(iOS 9.0, *) else {
+    // can't verify user
+}
+```
+
+### Flow dismissal
+
+With this release we have brought a breaking change for all integrations. The default behaviour now is upon completion of the flow (user cancels, error occurs or user goes through the whole flow), the flow will dismiss itself. You can still maintain previous behaviour and dismiss the flow at your convenience by setting `dismissFlowOnCompletion` argument to false on the method call `with(responseHandler: _, shouldDismissFlowOnCompletion: _)`. For example:
+
+#### Swift
+
+```
+OnfidoFlow(withConfiguration: config)
+.with(responseHandler: { /* handle response */ }, dismissFlowOnCompletion: false)
+.run()
+```
+
+#### Objective-C
+
+```
+ONFlow *onFlow = [[ONFlow alloc] initWithFlowConfiguration:config];
+void (^responseHandler)(ONFlowResponse *response) = ^(ONFlowResponse *response) {
+    // handle response
+};
+[onFlow withResponseHandler:responseHandler dismissFlowOnCompletion:false];
+```
+
+### Strings
+
+The following string keys have been **removed**:
+- `onfido_document_selection_cancel`
+
+The following string keys have been **added**:
+- `onfido_locale`
 
 ## Onfido SDK 7.2.0 Migration Guide
 
