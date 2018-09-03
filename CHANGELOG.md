@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [9.0.0] - 2018-09-03
+
+### Added
+- Public: ability to run SDK on simulator
+
+### Removed
+- Public: No longer using SwiftyJSON
+
+### Fixed
+- UI: SDK crash when tapping screen on face photo capture
+
 ## [8.0.0] - 2018-08-01
 
 ### Added:

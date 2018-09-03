@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 9.0.0 Migration Guide](#onfido-sdk-900-migration-guide)
 * [Onfido iOS SDK 8.0.0 Migration Guide](#onfido-sdk-800-migration-guide)
 * [Onfido iOS SDK 7.2.0 Migration Guide](#onfido-sdk-720-migration-guide)
 * [Onfido iOS SDK 7.1.0 Migration Guide](#onfido-sdk-710-migration-guide)
@@ -13,6 +14,21 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido SDK 9.0.0 Migration Guide
+
+### Results objects
+
+In version 9.0.0 we have brought some changes to the api response object (appended with `Result`).
+
+- `ApplicantResult`'s `id`, `href`, `firstName` and `lastName` properties are no longer optional.
+- `FaceResults`'s `id`, `href` and `createdAt` (renamed `created_at`) properties are no longer optional.
+- Results properties now camel-cased instead of snake-cased.
+- Results objects, except those preappended with `ON`, no longer inherit from `NSObject`.
+
+### Simulator support
+
+Version 9.0.0 now supports running the SDK on the simulator for which the integrator has no longer to handle `OnfidoFlowError.deviceHasNoCamera`, which is the reason that it has been deleted.
 
 ## Onfido SDK 8.0.0 Migration Guide
 
