@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [10.0.0] - 2018-09-13
+
+### Changed
+- UI: Changed copy on the selfie capture screen
+- Public: No longer compatible with Swift 4.1 and Swift 3.3, now compatible with Swift 4.2 and Swift 3.4.
+
+### Removed
+- UI: Removed label from capture confirmation screen
+
+### Fixed:
+- Public: Build status on readme not rendering
+- Public: Xcode warnings on missing headers
+
+### Removed:
+- Public: Swinject from external dependency list
+- Public: No longer using ZSWTappableLabel and ZSWTaggedString dependencies
+
 ## [9.0.0] - 2018-09-03
 
 ### Added

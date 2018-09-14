@@ -6,12 +6,6 @@
   Copyright © 2018 Onfido. All rights reserved.
 */
 
-/* Privacy Popup */
-"onfido_privacy_policy_title" = "You’re about to take a photo of your identity document";
-"onfido_privacy_policy_position_doc" = "Position your document in the frame";
-"onfido_privacy_policy_avoid_light" = "Avoid light reflections" ;
-"onfido_privacy_policy_terms_extended" = "By continuing, you agree to the <link type='tos'>Onfido Terms of Use</link> and understand that your information, including your facial identifiers, will be processed in accordance with the <link type='privacy'>Onfido Privacy Policy</link>";
-
 /* Document type selection */
 
 "onfido_document_selection_title" = "Select a document";
@@ -59,8 +53,6 @@
 
 /* Document capture confirmation */
 
-"onfido_message_check_readability_title" = "Check readability";
-
 "onfido_message_check_readability_subtitle_passport" = "Make sure your passport details are clear to read, with no blur or glare";
 "onfido_message_check_readability_subtitle_residence_permit" = "Make sure your permit details are clear to read, with no blur or glare";
 "onfido_message_check_readability_subtitle_driving_license" = "Make sure your license details are clear to read, with no blur or glare";
@@ -82,12 +74,11 @@
 
 /* Face capture */
 
-"onfido_welcome_view_face_capture_title_ios" = "Selfie";
+"onfido_welcome_view_face_capture_title_ios" = "Take a selfie";
 "onfido_message_capture_face" = "Position your face in the oval";
 
 /* Face capture confirmation */
 
-"onfido_message_confirm_face_title" = "Check quality";
 "onfido_message_confirm_face_subtitle" = "Make sure your selfie clearly shows your face";
 "onfido_confirm_face_long" = "Confirm my selfie";
 "onfido_confirm_face_2" = "My selfie is clear";

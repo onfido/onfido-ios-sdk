@@ -1,7 +1,7 @@
 # Onfido
 
 [![Version](https://img.shields.io/cocoapods/v/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
-[![Build Status](https://www.bitrise.io/app/d04e3a422799521b/status.svg?token=vBI0wpdUSfh25wctd1MHfA&branch=master)](https://www.bitrise.io/app/d04e3a422799521b)
+[![Build Status](https://app.bitrise.io/app/d04e3a422799521b/status.svg?token=vBI0wpdUSfh25wctd1MHfA&branch=master)](https://www.bitrise.io/app/d04e3a422799521b)
 [![License](https://img.shields.io/cocoapods/l/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
 [![Platform](https://img.shields.io/cocoapods/p/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
 
@@ -19,8 +19,8 @@
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
+*   [Licensing](#licensing)
 *   [More information](#more-information)
-
 
 ## Overview
 
@@ -37,8 +37,8 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ## Getting started
 
-* SDK supports iOS 9.0 and above
-* SDK supports Swift 3.3 and Swift 4.1
+* SDK supports iOS 10.0
+* SDK supports Swift 3.4 and Swift 4.2
 
 ### 1. Obtaining tokens
 
@@ -584,6 +584,32 @@ A few things to check before you go live:
 ## Migrating
 
 You can find the migration guide at [MIGRATION.md](MIGRATION.md) file
+
+## Licensing
+
+Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies.  For those, we include the licensing information inside our bundle, with the file named `onfido_licenses.json`. 
+This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
+Integrators of our library are then responsible for keeping this information along with their integrations.
+
+Example on how to access the licenses:
+```
+let onfidoBundle = Bundle(for: OnfidoFlow.self)
+guard let licensesPath = onfidoBundle.path(forResource: "onfido_licenses", ofType: "json", inDirectory: nil),
+    let licensesData = try? Data(contentsOf: URL(fileURLWithPath: licensesPath)),
+    let licensesContent = String(data: licensesData, encoding: .utf8) else {
+        return
+}
+
+print(licensesContent)
+
+guard let mitLicensePath = onfidoBundle.path(forResource: "onfido_licenses_mit", ofType: "txt", inDirectory: nil),
+    let mitLicenseData = try? Data(contentsOf: URL(fileURLWithPath: mitLicensePath)),
+    let mitLicenseFileContents = String(data: mitLicenseData, encoding: .utf8) else {
+        return
+}
+
+print(mitLicenseFileContents)
+```
 
 ## More Information
 

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 10.0.0 Migration Guide](#onfido-sdk-1000-migration-guide)
 * [Onfido iOS SDK 9.0.0 Migration Guide](#onfido-sdk-900-migration-guide)
 * [Onfido iOS SDK 8.0.0 Migration Guide](#onfido-sdk-800-migration-guide)
 * [Onfido iOS SDK 7.2.0 Migration Guide](#onfido-sdk-720-migration-guide)
@@ -14,6 +15,19 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 10.0.0 Migration Guide
+
+### Requirements
+
+- Xcode 10.0
+- Swift 3.4 or Swift 4.2
+
+### Strings **removed**:
+- `onfido_privacy_policy_title`
+- `onfido_privacy_policy_position_doc`
+- `onfido_privacy_policy_avoid_light`
+- `onfido_privacy_policy_terms_extended`
 
 ## Onfido SDK 9.0.0 Migration Guide
 
@@ -29,6 +43,14 @@ In version 9.0.0 we have brought some changes to the api response object (append
 ### Simulator support
 
 Version 9.0.0 now supports running the SDK on the simulator for which the integrator has no longer to handle `OnfidoFlowError.deviceHasNoCamera`, which is the reason that it has been deleted.
+
+### Strings
+
+With this release we have brought a breaking change **only for customised languages integrators**.
+
+The following string keys has been **removed**:
+- `onfido_message_check_readability_title`
+- `onfido_message_confirm_face_title`
 
 ## Onfido SDK 8.0.0 Migration Guide
 
