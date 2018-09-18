@@ -1,14 +1,14 @@
-### Expected behaviour
+### What was the expected behaviour?
 
 Please detail what the expected behaviour was
 
-### Actual behaviour
+### What happened instead?
 
 Please detail what was the actual behaviour
 
 ### Version info:
 
-- Cocoapod (if applicable):
+- Cocoapods (if applicable):
 - Onfido SDK:
 - iOS:
 - Xcode:
