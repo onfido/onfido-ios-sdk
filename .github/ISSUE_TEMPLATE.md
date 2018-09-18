@@ -8,7 +8,7 @@ Please detail what was the actual behaviour
 
 ### Version info:
 
-- Cocoapods (if applicable):
+- Cocoapod (if applicable):
 - Onfido SDK:
 - iOS:
 - Xcode:
