@@ -9,7 +9,7 @@ Please detail what was the actual behaviour
 ### Version info:
 
 - Cocoapods (if applicable):
-- Onfido SDK:
+- Onfido SDK (Debug/Release):
 - iOS:
 - Xcode:
 - Device/Simulator:
