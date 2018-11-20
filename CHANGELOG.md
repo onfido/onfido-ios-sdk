@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [10.1.0] - 2018-11-14
+
+### Added
+- UI: Managing request timeouts mid flow.
+- Public: Ability to customise buttons and icons colors
+
+### Changed
+- UI: Changed copy on Liveness Intro screen
+- UI: Confirm and cancel buttons redesigned
+- Internal: Updated the map for the supported countries for each document
+
 ## [10.0.0] - 2018-09-13
 
 ### Changed
@@ -41,6 +52,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Public: Flow now dismisses upon completion unless shouldDismissFlowOnCompletion set to false
+- Internal: Changed our analytics solution from an external provider to an in-house service
 
 ### Removed
 - Public: SDK no longer supports iOS 8. Now iOS 9+.

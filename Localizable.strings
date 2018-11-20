@@ -134,9 +134,9 @@
 
 "onfido_retry" = "Retry";
 "onfido_discard" = "Take a new picture";
-"onfido_start" = "Start";
 "onfido_next" = "Next";
 "onfido_back" = "Back";
 "onfido_continue" = "Continue";
 "onfido_thank_you" = "Thank you";
 "onfido_decline" = "Decline";
+"onfido_ok" = "OK";

@@ -37,7 +37,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ## Getting started
 
-* SDK supports iOS 10.0
+* SDK supports iOS 9+
 * SDK supports Swift 3.4 and Swift 4.2
 
 ### 1. Obtaining tokens
@@ -362,8 +362,6 @@ catch let error {
       // do something about it here
     case OnfidoFlowError.microphonePermission:
       // do something about it here
-    case OnfidoFlowError.deviceHasNoCamera:
-      // do something about it here
     default:
       // should not happen, so if it does, log it and let us know
   }
@@ -384,9 +382,6 @@ if (runError) {
             // do something about it here
             break;
         case ONFlowErrorMicrophonePermission:
-            // do something about it here
-            break;
-        case ONFlowErrorDeviceHasNoCamera:
             // do something about it here
             break;
         default:
@@ -493,6 +488,39 @@ NSError *configError = NULL;
 ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 ```
 
+### UI customisation
+
+In order to enhance the user experience on the transition between your application and the SDK, you can customise some of the colors used in the SDK flow.
+
+To customise:
+
+#### Swift
+```Swift
+let appearance = Appearance(
+              primaryColor: <DESIRED_UI_COLOR_HERE>,
+              primaryTitleColor: <DESIRED_UI_COLOR_HERE>,
+              primaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
+              secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>)
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withAppearance(appearance)
+```
+
+#### Objective-C
+```Objective-C
+ONAppearance *appearance = [[ONAppearance alloc]
+                                initWithPrimaryColor:<DESIRED_UI_COLOR_HERE>
+                                primaryTitleColor:<DESIRED_UI_COLOR_HERE>
+                                primaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
+                                secondaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>];
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withAppearance:appearance];
+```
+
+`primaryColor`: Defines the background color of views such as document type icon and capture confirmation buttons and back navigation button.
+`primaryTitleColor`: Defines the text color of labels included in views such as capture confirmation buttons.
+`primaryBackgroundPressedColor`: Defines the background color of capture confirmation buttons when pressed.
+`secondaryBackgroundPressedColor`: Defines the background color of capture cancel buttons when pressed.
+
 ### Localisation
 
 Onfido iOS SDK already comes with out-of-the-box translations for the following locales:
@@ -504,7 +532,7 @@ In case you would like us to add translations for some other locales we don't pr
 
 ### Language customisation
 
-**Note**: 
+**Note**:
 - If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a language translated you can also get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com).
 - When adding custom translations, please make sure you add the whole set of keys we have on `Localizable.strings` file. In particular, `onfido_locale`, which identifies the current locale being added, must be included. E.g. when strings file added for Russian language, the key `onfido_locale` must have the value `ru` such that it sould look like the following:`"onfido_locale" = "ru";`
 
@@ -587,7 +615,7 @@ You can find the migration guide at [MIGRATION.md](MIGRATION.md) file
 
 ## Licensing
 
-Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies.  For those, we include the licensing information inside our bundle, with the file named `onfido_licenses.json`. 
+Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies.  For those, we include the licensing information inside our bundle, with the file named `onfido_licenses.json`.
 This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
 Integrators of our library are then responsible for keeping this information along with their integrations.
 

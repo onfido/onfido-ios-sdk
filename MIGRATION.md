@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 10.1.0 Migration Guide](#onfido-sdk-1010-migration-guide)
 * [Onfido iOS SDK 10.0.0 Migration Guide](#onfido-sdk-1000-migration-guide)
 * [Onfido iOS SDK 9.0.0 Migration Guide](#onfido-sdk-900-migration-guide)
 * [Onfido iOS SDK 8.0.0 Migration Guide](#onfido-sdk-800-migration-guide)
@@ -16,6 +17,8 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 10.1.0 Migration Guide
+
 ## Onfido iOS SDK 10.0.0 Migration Guide
 
 ### Requirements
@@ -28,6 +31,7 @@ These guides below are provided to ease the transition of existing applications 
 - `onfido_privacy_policy_position_doc`
 - `onfido_privacy_policy_avoid_light`
 - `onfido_privacy_policy_terms_extended`
+- `onfido_start`
 
 ## Onfido SDK 9.0.0 Migration Guide
 
