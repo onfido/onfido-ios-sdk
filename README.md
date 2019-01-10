@@ -60,14 +60,24 @@ The Onfido SDK makes use of the device Camera. You will be required to have the 
 
 ### 3. Adding the SDK dependency
 
+#### Using Cocoapods
+
 The SDK is available on Cocoapods and you can include it in your projects by adding the following to your Podfile:
 
 ```ruby
-pod 'Onfido'
+pod 'Onfido', :configurations => ['Debug']
+pod 'Onfido-Release', :configurations => ['Release']
 ```
 
 Run `pod install` to get the sdk.
 
+#### Manual Installation
+
+The SDK is available in [Github Releases tab](https://github.com/onfido/onfido-ios-sdk/releases) where you can download the compressed framework, you can find the latest release [here](https://github.com/onfido/onfido-ios-sdk/releases/latest).
+
+1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed zip file containing the `Onfido.framework`.
+2. Uncompress the zip file and then move the `Onfido.framework` artefact into your project.
+3. Add `Onfido.framework` located within your project to the `Embedded binaries` section in the `General` tab of you iOS app target.
 
 ### 4. Creating an Applicant
 
