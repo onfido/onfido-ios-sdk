@@ -6,7 +6,6 @@ target 'SampleAppObjC' do
   use_frameworks!
 
   # Pods for SampleAppObjC
-  pod 'Onfido', :configurations => ['Debug']
-  pod 'Onfido-Release', :configurations => ['Release']
+  pod ‘Onfido’
   pod 'AFNetworking', '~> 3.1'
 end

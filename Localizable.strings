@@ -140,15 +140,3 @@
 "onfido_thank_you" = "Thank you";
 "onfido_decline" = "Decline";
 "onfido_ok" = "OK";
-
-/* Accessibility */
-
-"onfido_accessibility_camera_document_capture_view" = "View from camera";
-"onfido_accessibility_camera_face_capture_view" = "View from selfie camera";
-"onfido_accessibility_document_confirmation_view" = "Photo of your document";
-"onfido_accessibility_face_confirmation_view" = "Photo of your face";
-"onfido_accessibility_camera_capture_shutter" = "Capture image";
-"onfido_accessibility_liveness_confirmation_view" = "Your video";
-"onfido_start_recording" = "Start recording";
-"onfido_finish_recording" = "End recording";
-"onfido_next_step" = "Next step";

@@ -6,27 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [10.2.0] - 2019-01-04
-
-### Added
-- UI: Document and face capturing processes are now properly followed by screen readers
-- UI: Document type selection buttons are now properly read by screen readers
-- UI: UI changes on secondary button
-
-### Fixed
-- UI: Fix sdk crash on capture during the backside capture of two sided document on Cordova
-- UI: Fix for the Segment SDK name clash
-- UI: Fix infinite spinning wheel not removed when liveness upload failed.
-
-### Changed
-- UI: Changed colors of the UI elements regarding to the new Onfido branding.
-- UI: Onfido logo updated.
-
 ## [10.1.0] - 2018-11-14
 
 ### Added
 - UI: Managing request timeouts mid flow.
-- UI: Now detecting face is within oval before starting liveness recording
 - Public: Ability to customise buttons and icons colors
 
 ### Changed
