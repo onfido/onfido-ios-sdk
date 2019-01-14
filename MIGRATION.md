@@ -17,6 +17,16 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 10.2.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_accessibility_camera_capture_shutter`
+- `onfido_accessibility_liveness_start_record`
+- `onfido_accessibility_liveness_end_record`
+- `onfido_accessibility_liveness_next_challenge`
+
 ## Onfido iOS SDK 10.1.0 Migration Guide
 
 ## Onfido iOS SDK 10.0.0 Migration Guide
