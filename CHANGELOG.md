@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [10.2.0] - 2019-01-04
+## [10.2.0] - 2019-01-14
 
 ### Added
 - UI: Document and face capturing processes are now properly followed by screen readers

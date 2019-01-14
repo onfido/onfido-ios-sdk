@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 10.2.0 Migration Guide](#onfido-sdk-1020-migration-guide)
 * [Onfido iOS SDK 10.1.0 Migration Guide](#onfido-sdk-1010-migration-guide)
 * [Onfido iOS SDK 10.0.0 Migration Guide](#onfido-sdk-1000-migration-guide)
 * [Onfido iOS SDK 9.0.0 Migration Guide](#onfido-sdk-900-migration-guide)
