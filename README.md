@@ -500,7 +500,7 @@ ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 ### UI customisation
 
-In order to enhance the user experience on the transition between your application and the SDK, you can customise some of the colors used in the SDK flow.
+In order to enhance the user experience on the transition between your application and the SDK, you can customise some of the colors and fonts used in the SDK flow.
 
 To customise:
 
@@ -510,7 +510,9 @@ let appearance = Appearance(
               primaryColor: <DESIRED_UI_COLOR_HERE>,
               primaryTitleColor: <DESIRED_UI_COLOR_HERE>,
               primaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
-              secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>)
+              secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
+              fontRegular: <DESIRED_FONT_NAME_HERE>,
+              fontBold: <DESIRED_FONT_NAME_HERE>))
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
 ```
@@ -521,7 +523,9 @@ ONAppearance *appearance = [[ONAppearance alloc]
                                 initWithPrimaryColor:<DESIRED_UI_COLOR_HERE>
                                 primaryTitleColor:<DESIRED_UI_COLOR_HERE>
                                 primaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
-                                secondaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>];
+                                secondaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
+                                fontRegular: <DESIRED_FONT_NAME_HERE>
+                                fontBold: <DESIRED_FONT_NAME_HERE>];
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
 ```
@@ -530,6 +534,8 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 `primaryTitleColor`: Defines the text color of labels included in views such as capture confirmation buttons.
 `primaryBackgroundPressedColor`: Defines the background color of capture confirmation buttons when pressed.
 `secondaryBackgroundPressedColor`: Defines the background color of capture cancel buttons when pressed.
+`fontRegular`: Defines the custom font name for the regular style labels.
+`fontBold`: Defines the custom font name for the bold style labels.
 
 ### Localisation
 

@@ -6,7 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [10.2.0] - 2019-01-14
+## [10.3.0] - 2019-01-28
+
+### Added
+- UI: Ability to customise Font-Family
+
+### Fixed
+- UI: Subtitle text truncate issue fixed on document selection screen
+- UI: Fix for the crash on iPad when switch to landscape mode
+
+### Changed
+- UI: Changed button colors on country selection screen.
+
+## [10.2.0] - 2019-01-04
 
 ### Added
 - UI: Document and face capturing processes are now properly followed by screen readers
@@ -17,10 +29,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Fix sdk crash on capture during the backside capture of two sided document on Cordova
 - UI: Fix for the Segment SDK name clash
 - UI: Fix infinite spinning wheel not removed when liveness upload failed.
+- UI: Fixed custom localisation of text in liveness confirmation screen now going over multiple lines when text too long (max three)
 
 ### Changed
 - UI: Changed colors of the UI elements regarding to the new Onfido branding.
 - UI: Onfido logo updated.
+- UI: Improved UI for sdk flow with `formSheet` modal presentation style
 
 ## [10.1.0] - 2018-11-14
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013D95A221FF5F9400F3A654 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D95A121FF5F9400F3A654 /* TestFile.swift */; };
 		454A79E9E4E1B4AEC48DF78A /* Pods_SampleAppObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0751CE919D4E18E58B06A0 /* Pods_SampleAppObjC.framework */; };
 		7F6301291FC58A43001C0309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6301281FC58A43001C0309 /* AppDelegate.m */; };
 		7F63012C1FC58A43001C0309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F63012B1FC58A43001C0309 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013D959E21FF5F6800F3A654 /* SampleAppObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAppObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		013D95A121FF5F9400F3A654 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		63BDDE1348CE568092C7FB31 /* Pods-SampleAppObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC.release.xcconfig"; sourceTree = "<group>"; };
 		7F6301241FC58A43001C0309 /* SampleAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6301271FC58A43001C0309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				7F6301321FC58A43001C0309 /* LaunchScreen.storyboard */,
 				7F6301351FC58A43001C0309 /* Info.plist */,
 				7F6301361FC58A43001C0309 /* main.m */,
+				013D959E21FF5F6800F3A654 /* SampleAppObjC-Bridging-Header.h */,
+				013D95A121FF5F9400F3A654 /* TestFile.swift */,
 			);
 			path = SampleAppObjC;
 			sourceTree = "<group>";
@@ -128,7 +133,7 @@
 				TargetAttributes = {
 					7F6301231FC58A43001C0309 = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -189,31 +194,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${PODS_ROOT}/Onfido/Onfido.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
-				"${BUILT_PRODUCTS_DIR}/ZSWTaggedString/ZSWTaggedString.framework",
-				"${BUILT_PRODUCTS_DIR}/ZSWTappableLabel/ZSWTappableLabel.framework",
-				"${PODS_ROOT}/Onfido-Release/Onfido.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onfido.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSWTaggedString.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSWTappableLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -224,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F63012C1FC58A43001C0309 /* ViewController.m in Sources */,
+				013D95A221FF5F9400F3A654 /* TestFile.swift in Sources */,
 				7F6301371FC58A43001C0309 /* main.m in Sources */,
 				7F6301291FC58A43001C0309 /* AppDelegate.m in Sources */,
 			);
