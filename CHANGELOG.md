@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [10.4.0] - 2019-02-04
+
+### Added
+- Public: Integrators can now specify strings file bundle location
+- UI: Added visa document type support with UI vignette
+
+### Changed
+- UI: Added video tutorial to liveness intro screen
+- UI: Updated primary and secondary pressed state color
+- UI: updated liveness capture buttons design
+
 ## [10.3.0] - 2019-01-28
 
 ### Added
@@ -35,6 +46,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Changed colors of the UI elements regarding to the new Onfido branding.
 - UI: Onfido logo updated.
 - UI: Improved UI for sdk flow with `formSheet` modal presentation style
+- UI: Changed UI on liveness intro screen
 
 ## [10.1.0] - 2018-11-14
 

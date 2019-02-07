@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 10.4.0 Migration Guide](#onfido-sdk-1040-migration-guide)
 * [Onfido iOS SDK 10.3.0 Migration Guide](#onfido-sdk-1030-migration-guide)
 * [Onfido iOS SDK 10.2.0 Migration Guide](#onfido-sdk-1020-migration-guide)
 * [Onfido iOS SDK 10.1.0 Migration Guide](#onfido-sdk-1010-migration-guide)
@@ -20,6 +21,23 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
 
+## Onfido iOS SDK 10.4.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_liveness_intro_subtitle`
+- `onfido_reload`
+- `onfido_unable_load_unstable_network`
+- `onfido_liveness_intro_step_1_title`
+- `onfido_liveness_intro_step_2_title`
+- `onfido_welcome_view_liveness_capture_title`
+- `onfido_liveness_intro_loading_video`
+
+The following string keys have been **removed**:
+- `onfido_liveness_intro_title`
+- `onfido_liveness_intro_fourth_subtitle`
+
 ## Onfido iOS SDK 10.3.0 Migration Guide
 
 ## Onfido iOS SDK 10.2.0 Migration Guide
@@ -31,6 +49,11 @@ The following string keys have been **added**:
 - `onfido_accessibility_liveness_start_record`
 - `onfido_accessibility_liveness_end_record`
 - `onfido_accessibility_liveness_next_challenge`
+- `onfido_label_doc_type_visa_up`
+- `onfido_message_document_visa`
+- `onfido_message_visa_capture_subtitle`
+- `onfido_message_check_readability_subtitle_visa`
+- `onfido_confirm_visa`
 
 ## Onfido iOS SDK 10.1.0 Migration Guide
 

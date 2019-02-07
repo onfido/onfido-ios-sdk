@@ -14,6 +14,7 @@
     *   [Error handling](#run-exceptions)
 *   [Customising SDK](#customising-sdk)
     *   [Flow customisation](#flow-customisation)
+    *   [UI customisation](#ui-customisation)
     *   [Localisation](#localisation)
     *   [Language customisation](#language-customisation)
 *   [Creating checks](#creating-checks)
@@ -470,6 +471,7 @@ The document step can be further configured to capture single document types fro
 - Driving Licence: `DocumentType.drivingLicence` (`ONDocumentTypeDrivingLicence` for Objective-C)
 - National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeDrivingLicence` for Objective-C)
 - Residence Permit: `DocumentType.residencePermit` (`ONDocumentTypeResidencePermit` for Objective-C)
+- Visa: `DocumentType.visa` (`ONDocumentTypeVisa` for Objective-C)
 
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
 
