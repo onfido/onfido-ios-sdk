@@ -49,15 +49,19 @@ In order to start integration, you will need the **API token** and the **mobile 
 
 ### 2. App permissions
 
-The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` keys in your application's `Info.plist` file:
+The Onfido SDK needs access to the device's camera. Add the `NSCameraUsageDescription` key to your application's `Info.plist` file:
 
 ```xml
 <key>NSCameraUsageDescription</key>
 <string>Required for document and facial capture</string>
+```
+
+If your flow requires face video capture, you'll need to ask the user for permission to access the device's microphone too:
+
+```xml
 <key>NSMicrophoneUsageDescription</key>
 <string>Required for video capture</string>
 ```
-**Note**: Both keys will be required for app submission.
 
 ### 3. Adding the SDK dependency
 
