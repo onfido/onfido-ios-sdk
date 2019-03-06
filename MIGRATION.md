@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 10.5.0 Migration Guide](#onfido-sdk-1050-migration-guide)
 * [Onfido iOS SDK 10.4.0 Migration Guide](#onfido-sdk-1040-migration-guide)
 * [Onfido iOS SDK 10.3.0 Migration Guide](#onfido-sdk-1030-migration-guide)
 * [Onfido iOS SDK 10.2.0 Migration Guide](#onfido-sdk-1020-migration-guide)
@@ -20,6 +21,27 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 10.5.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_start`
+- `onfido_welcome_view_title`
+- `onfido_welcome_view_time`
+- `onfido_welcome_view_document_capture_title`
+- `onfido_welcome_view_face_capture_title`
+- `onfido_welcome_view_liveness_capture_title`
+- `onfido_capture_face_subtitle`
+- `onfido_capture_face_step_1`
+- `onfido_capture_face_step_2`
+
+The following string keys have been **changed**:
+- `onfido_country_selection_toolbar_title`
+- `onfido_unsupported_document_description`
+
+The following string keys have been **removed**:
+- `onfido_liveness_challenge_recording`
 
 ## Onfido iOS SDK 10.4.0 Migration Guide
 

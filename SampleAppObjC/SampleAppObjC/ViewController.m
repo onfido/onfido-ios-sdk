@@ -39,6 +39,7 @@
             ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
             [configBuilder withToken:self->token];
             [configBuilder withApplicantId:applicantId];
+            [configBuilder withWelcomeStep];
             [configBuilder withDocumentStep];
             [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
             

@@ -107,6 +107,7 @@ Once you have an added the SDK as a dependency and you have an applicant ID, you
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
     .withApplicantId("APPLICANT_ID_HERE")
+    .withWelcomeStep()
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo)
     .build()
@@ -124,6 +125,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withToken:@"YOUR_TOKEN_HERE"];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
 [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
 
@@ -424,7 +426,36 @@ Otherwise you may encounter the following errors when calling the `build()` func
 
 ### Flow customisation
 
-The SDK can be customised by specifying the steps to capture and upload when configuring.
+The SDK can be customised by specifying to show a welcome screen and the steps to capture when configuring.
+
+You can show the welcome screen by calling `configBuilder.withWelcomeStep()` in Swift or `[configBuilder withWelcomeStep]` in Objective-C.
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withWelcomeStep()
+    ...
+    .build()
+```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+...
+[configBuilder withWelcomeStep];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+if (configError) {
+    // Handle config build error
+} else {
+    // use config
+}
+```
 
 You can either specify to capture the document and/or face of the user.
 
@@ -440,6 +471,7 @@ The face step has two variants:
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
     .withApplicantId(applicantId)
+    .withWelcomeStep()
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
@@ -452,6 +484,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withToken:@"YOUR_TOKEN_HERE"];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
 [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
 
@@ -469,7 +502,7 @@ The document step can be further configured to capture single document types fro
 
 - Passport: `DocumentType.passport` (`ONDocumentTypePassport` for Objective-C)
 - Driving Licence: `DocumentType.drivingLicence` (`ONDocumentTypeDrivingLicence` for Objective-C)
-- National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeDrivingLicence` for Objective-C)
+- National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeNationalIdentityCard` for Objective-C)
 - Residence Permit: `DocumentType.residencePermit` (`ONDocumentTypeResidencePermit` for Objective-C)
 - Visa: `DocumentType.visa` (`ONDocumentTypeVisa` for Objective-C)
 
@@ -481,6 +514,7 @@ Let's say that you would like to capture only driving licenses from the United K
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
     .withApplicantId(applicantId)
+    .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
     .withFaceStep(ofVariant: .photo) // specify the face capture variant here
     .build()
@@ -493,6 +527,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withToken:@"YOUR_TOKEN_HERE"];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
 [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
 
@@ -552,7 +587,13 @@ In case you would like us to add translations for some other locales we don't pr
 
 **Note**:
 - If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a language translated you can also get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com).
-- When adding custom translations, please make sure you add the whole set of keys we have on `Localizable.strings` file. In particular, `onfido_locale`, which identifies the current locale being added, must be included. E.g. when strings file added for Russian language, the key `onfido_locale` must have the value `ru` such that it sould look like the following:`"onfido_locale" = "ru";`
+- When adding custom translations, please make sure you add the whole set of keys we have on `Localizable.strings` file. In particular, `onfido_locale`, which identifies the current locale being added, must be included. The value for this string should be the ISO 639-1 2-letter language code corresponding to the translation being added.
+
+Examples:
+- When strings file added for Russian language, the `onfido_locale` key should have `ru` as its value.
+- When strings file added for American English language (en-US), the `onfido_locale` key should have `en` as its value.
+
+Without this string correctly translated, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder. i.e.
 
@@ -562,6 +603,7 @@ The strings used within the SDK can be customised by having a `Localizable.strin
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
     .withApplicantId(applicantId)
+    .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
     .withFaceStep(ofVariant: .photo)
     .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
@@ -575,6 +617,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withToken:@"YOUR_TOKEN_HERE"];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
 [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
 [configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file

@@ -55,6 +55,7 @@ final class ViewController: UIViewController {
         let config = try! OnfidoConfig.builder()
             .withToken(token)
             .withApplicantId(applicantId)
+            .withWelcomeStep()
             .withDocumentStep()
             .withFaceStep(ofVariant: .photo)
             .build()

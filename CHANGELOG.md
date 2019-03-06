@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [10.5.0] - 2019-03-06
+
+### Added
+- UI: Added optional welcome intro screen
+- UI: Added selfie (face capture photo variant) intro screen
+- UI: Added dynamic font size support for document type selection screen
+- UI: Added dynamic font size support for country selection screen
+- UI: Added latency for face detection on liveness capture (face capture video variant) to allow readability of instructions
+
+### Changed
+- UI: Increased capture screens opacity for accessibility
+- UI: Country selection screen label text (`onfido_country_selection_toolbar_title` and `onfido_unsupported_document_description`)
+- Public: Improved the documentation about `onfido_locale` string
+
+### Fixed
+- UI: Fixed text cut-off issue on liveness instructions screens when user language is Spanish
+- UI: Fixed Onfido logo and video playback view overlapping issue in liveness intro screen
+- Public: Fixed cut-off issue on document images captured on certain iPads
+- Public: Fix for the intermittent video cut-off issue when liveness capture recorded on certain iPads
+- Public: Removed unused assets
+
 ## [10.4.0] - 2019-02-07
 
 ### Added
