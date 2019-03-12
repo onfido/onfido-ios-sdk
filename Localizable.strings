@@ -123,13 +123,11 @@
 /* Liveness capture */
 
 "onfido_liveness_preparation_subtitle" = "Press the record button and follow the instructions";
-"onfido_liveness_challenge_next" = "When you’re done, press next";
-"onfido_liveness_challenge_stop" = "When you’re done, press stop";
 "onfido_liveness_timeout_exceeded_title" = "Looks like you took too long";
 "onfido_liveness_timeout_exceeded_description" = "Remember to press stop when you\'re done";
 "onfido_liveness_challenge_digits_title" = "Say each digit out loud";
-"onfido_liveness_challenge_turn_left_title" = "Look over your left\n shoulder";
-"onfido_liveness_challenge_turn_right_title" = "Look over your right\n shoulder";
+"onfido_liveness_challenge_turn_left_title" = "Look to the left and back";
+"onfido_liveness_challenge_turn_right_title" = "Look to the right and back";
 "onfido_liveness_challenge_open_mouth_title" = "Open and close your\n mouth";
 
 /* Liveness confirmation */

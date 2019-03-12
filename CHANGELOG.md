@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [10.6.0] - 2019-03-12
+
+### Added
+- UI: Added real time head turn progress for liveness screen
+
+### Changed
+- UI: Flow intro shows arrow icon instead of numbered icon when single SDK configured with single capture step
+
+### Fixed
+- UI: Arrow on glare detection bubble and barcode undetected bubble not separated from main rectangle containing text
+- Public: fixed incorrect cropping of document image when document capture started on landscape
+
 ## [10.5.0] - 2019-03-06
 
 ### Added
