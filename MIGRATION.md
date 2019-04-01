@@ -2,7 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-sdk-1050-migration-guide)
+* [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-sdk-1100-migration-guide)
+* [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-sdk-1060-migration-guide)
 * [Onfido iOS SDK 10.5.0 Migration Guide](#onfido-sdk-1050-migration-guide)
 * [Onfido iOS SDK 10.4.0 Migration Guide](#onfido-sdk-1040-migration-guide)
 * [Onfido iOS SDK 10.3.0 Migration Guide](#onfido-sdk-1030-migration-guide)
@@ -21,6 +22,17 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 11.0.0 Migration Guide
+
+### Requirements
+
+- Xcode 10.2
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_wrong_side`
 
 ## Onfido iOS SDK 10.6.0 Migration Guide
 

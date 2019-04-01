@@ -39,7 +39,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ## Getting started
 
 * SDK supports iOS 9+
-* SDK supports Swift 3.4 and Swift 4.2
+* SDK supports Xcode 10.2
 
 ### 1. Obtaining tokens
 
@@ -580,6 +580,7 @@ Onfido iOS SDK already comes with out-of-the-box translations for the following 
 
  - English (en) 🇬🇧
  - Spanish (es) 🇪🇸
+ - French (fr) 🇫🇷
 
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
 
@@ -626,7 +627,7 @@ NSError *configError = NULL;
 ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 ```
 
-You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C)
+You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
 
 ## Creating checks
 

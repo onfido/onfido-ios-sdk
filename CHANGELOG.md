@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [11.0.0] - 2019-04-01
+
+### Added
+- UI: Showing bubble for wrong head turn detection on liveness screen
+- UI: Added dynamic font size support for flow intro and selfie intro screens
+- UI: Added dynamic font size support for liveness capture screen
+- UI: Added dynamic font size support for bubble views that appears in photo capture, liveness head turn detection and capture confirmation screens
+- UI: Added dynamic font size support for liveness intro screen
+- UI: Added dynamic font size support for photo capture confirmation screen
+- UI: Added dynamic font size support for buttons
+- UI: Added dynamic font size support for document photo capture screen
+- UI: Added french localisation
+- Public: Allowing custom localisation from non-localised strings file
+
+### Fixed
+- UI: Fixed crash when capture and retake buttons tapped continuously
+- Public: Fixed SDK not throwing error when user denies microphone permission during liveness capture (face capture video variant)
+
 ## [10.6.0] - 2019-03-12
 
 ### Added

@@ -116,7 +116,7 @@
 "onfido_reload" = "Reload";
 "onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
 "onfido_liveness_intro_step_1_title" = "Speak out loud and move your head";
-"onfido_liveness_intro_step_2_title" = "Finish actions in under %{timeout} seconds";
+"onfido_liveness_intro_step_2_title" = "Finish actions in under %d seconds";
 "onfido_welcome_view_liveness_capture_title" = "Record a selfie video";
 "onfido_liveness_intro_loading_video" = "Loading example";
 
@@ -129,6 +129,7 @@
 "onfido_liveness_challenge_turn_left_title" = "Look to the left and back";
 "onfido_liveness_challenge_turn_right_title" = "Look to the right and back";
 "onfido_liveness_challenge_open_mouth_title" = "Open and close your\n mouth";
+"onfido_wrong_side" = "Wrong side";
 
 /* Liveness confirmation */
 "onfido_welcome_view_toolbar_title" = "Identity verification";
