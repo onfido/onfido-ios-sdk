@@ -6,11 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [11.1.0] - 2019-04-25
+
+### Added
+- UI: Added work permit document type support(beta)
+- UI: Accessibility voiceover improvements for all screens
+- UI: Camera, Microphone and both camera and microphone permission screens added before requesting permissions
+
+### Changed
+- UI: Changed document capture area ratio for passport
+- UI: Changed circle loading indicator to progress bar for document and video upload progress
+
+### Fixed
+- UI: Fixed crash issue during recording video in some cases
+
 ## [11.0.1] - 2019-04-08
 
 ### Fixed
-- Public: fixed nullability warning
 - Public: fixed debug SDK not compiling for simulators
+- Public: fixed nullability warning
 
 ## [11.0.0] - 2019-04-01
 
@@ -27,6 +41,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Allowing custom localisation from non-localised strings file
 
 ### Fixed
+
 - UI: Fixed crash when capture and retake buttons tapped continuously
 - Public: Fixed SDK not throwing error when user denies microphone permission during liveness capture (face capture video variant)
 

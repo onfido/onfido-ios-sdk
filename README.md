@@ -43,7 +43,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ### 1. Obtaining tokens
 
-In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
 **Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
 
@@ -66,8 +66,7 @@ The Onfido SDK makes use of the device Camera. You will be required to have the 
 The SDK is available on Cocoapods and you can include it in your projects by adding the following to your Podfile:
 
 ```ruby
-pod 'Onfido', :configurations => ['Debug']
-pod 'Onfido-Release', :configurations => ['Release']
+pod 'Onfido'
 ```
 
 Run `pod install` to get the sdk.
@@ -76,9 +75,23 @@ Run `pod install` to get the sdk.
 
 The SDK is available in [Github Releases tab](https://github.com/onfido/onfido-ios-sdk/releases) where you can download the compressed framework, you can find the latest release [here](https://github.com/onfido/onfido-ios-sdk/releases/latest).
 
-1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed zip file containing the `Onfido.framework`.
+1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed debug zip file containing the `Onfido.framework`.
 2. Uncompress the zip file and then move the `Onfido.framework` artefact into your project.
 3. Add `Onfido.framework` located within your project to the `Embedded binaries` section in the `General` tab of you iOS app target.
+4. Open your app's project file in Xcode. Then select your app's target under target list. Next select `Build Phases` tab and under `Embed Frameworks` step add a new `Run Script Phase`. Name it `Onfido Framework Archive`. In the text area add the following code:
+```bash
+if [[ "$ACTION" != "install" ]]; then
+exit 0;
+fi
+
+FRAMEWORK_DIR="${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
+ONFIDO_FRAMEWORK="${FRAMEWORK_DIR}/Onfido.framework"
+
+cd "${ONFIDO_FRAMEWORK}"
+
+lipo -remove i386 Onfido -o Onfido
+lipo -remove x86_64 Onfido -o Onfido
+```
 
 ### 4. Creating an Applicant
 
@@ -505,6 +518,7 @@ The document step can be further configured to capture single document types fro
 - National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeNationalIdentityCard` for Objective-C)
 - Residence Permit: `DocumentType.residencePermit` (`ONDocumentTypeResidencePermit` for Objective-C)
 - Visa: `DocumentType.visa` (`ONDocumentTypeVisa` for Objective-C)
+- Work Permit: `DocumentType.workPermit` (`ONDocumentTypeWorkPermit` for Objective-C)
 
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
 
@@ -641,7 +655,7 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity) with the corresponding variants: `standard` for the photo option and `video` for the video option.
+You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding variants: `standard` for the photo option and `video` for the video option.
 
 ```shell
 $ curl https://api.onfido.com/v2/applicants/YOUR_APPLICANT_ID/checks \
@@ -656,7 +670,7 @@ Note: you can also submit the POST request in JSON format.
 
 You will receive a response containing the check id instantly. As document and facial similarity reports do not always return actual [results](https://documentation.onfido.com/#results) straightaway, you need to set up a webhook to get notified when the results are ready.
 
-Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#sandbox-responses).
+Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
 
 ### 3. Setting up webhooks
 
@@ -702,12 +716,6 @@ print(mitLicenseFileContents)
 ```
 
 ## More Information
-
-### App Store submission
-
-During development it is OK to use `pod 'Onfido'` but that will fail App Store submission. Please use `pod 'Onfido-Release'` in your Podfile for App Store submission.
-
-For more information as to why we do this please check out our [FAQ's](docs/FAQ.md)
 
 ### Sample App
 

@@ -6,7 +6,6 @@ target 'SampleApp' do
   use_frameworks!
 
   # Pods for SampleApp
-  pod 'Onfido', :configurations => ['Debug']
-  pod 'Onfido-Release', :configurations => ['Release']
+  pod 'Onfido'
   pod 'Alamofire'
 end

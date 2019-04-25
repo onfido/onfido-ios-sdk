@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-sdk-1110-migration-guide)
 * [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-sdk-1100-migration-guide)
 * [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-sdk-1060-migration-guide)
 * [Onfido iOS SDK 10.5.0 Migration Guide](#onfido-sdk-1050-migration-guide)
@@ -23,6 +24,37 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 11.1.0 Migration Guide
+
+### Deprecated
+
+- `Onfido-Release` framework is deprecated and will be removed in a future version of the Onfido SDK.
+
+If using Cocoapods change `Podfile` from:
+```ruby
+pod 'Onfido', :configurations => ['Debug']
+pod 'Onfido-Release', :configurations => ['Release']
+```
+to:
+```ruby
+pod 'Onfido'
+```
+
+For manual installation add a Run Script Phase to your app `Build Phases` after `Embed Frameworks` step with the following code:
+```bash
+if [[ "$ACTION" != "install" ]]; then
+exit 0;
+fi
+
+FRAMEWORK_DIR="${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
+ONFIDO_FRAMEWORK="${FRAMEWORK_DIR}/Onfido.framework"
+
+cd "${ONFIDO_FRAMEWORK}"
+
+lipo -remove i386 Onfido -o Onfido
+lipo -remove x86_64 Onfido -o Onfido
+```
+
 ## Onfido iOS SDK 11.0.0 Migration Guide
 
 ### Requirements
@@ -33,6 +65,26 @@ These guides below are provided to ease the transition of existing applications 
 
 The following string keys have been **added**:
 - `onfido_wrong_side`
+- `onfido_device_permission_title_both`
+- `onfido_device_permission_subtitle_both`
+- `onfido_device_permission_instructions_both`
+- `onfido_device_permission_btn_title_both`
+- `onfido_device_permission_title_camera`
+- `onfido_device_permission_subtitle_camera`
+- `onfido_device_permission_instructions_camera`
+- `onfido_device_permission_btn_title_camera`
+- `onfido_device_permission_title_mic`
+- `onfido_device_permission_subtitle_mic`
+- `onfido_device_permission_instructions_mic`
+- `onfido_device_permission_btn_title_mic`
+- `onfido_message_uploading`
+- `onfido_label_doc_type_work_permit_up`
+- `onfido_message_side_document_front_generic`
+- `onfido_message_document_capture_info_front_generic`
+- `onfido_message_side_document_back_generic`
+- `onfido_message_document_capture_info_back_generic`
+- `onfido_message_check_readability_subtitle_work_permit`
+- `onfido_confirm_generic_document`
 
 ## Onfido iOS SDK 10.6.0 Migration Guide
 

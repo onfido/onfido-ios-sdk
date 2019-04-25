@@ -23,6 +23,7 @@
 "onfido_label_doc_type_id_card_up" = "National Identity Card";
 "onfido_label_doc_type_residence_permit_up" = "Residence Permit Card";
 "onfido_label_doc_type_visa_up" = "Visa";
+"onfido_label_doc_type_work_permit_up" = "Work Permit";
 
 /* Country selection */
 
@@ -59,6 +60,12 @@
 "onfido_message_side_document_back_national_id" = "Back of card";
 "onfido_message_document_capture_info_back_national_id" = "Position the back of your card in the frame";
 
+"onfido_message_side_document_front_generic" = "Front of document";
+"onfido_message_document_capture_info_front_generic" = "Position the front of your document in the frame";
+
+"onfido_message_side_document_back_generic" = "Back of document";
+"onfido_message_document_capture_info_back_generic" = "Position the back of your document in the frame";
+
 "onfido_glare_detected_title" = "Glare detected";
 "onfido_glare_detected_subtitle" = "Try moving away from direct light";
 
@@ -69,12 +76,14 @@
 "onfido_message_check_readability_subtitle_driving_license" = "Make sure your license details are clear to read, with no blur or glare";
 "onfido_message_check_readability_subtitle_national_id" = "Make sure your card details are clear to read, with no blur or glare";
 "onfido_message_check_readability_subtitle_visa" = "Make sure your visa details are clear to read, with no blur or glare";
+"onfido_message_check_readability_subtitle_generic" = "Make sure your document details are clear to read, with no blur or glare";
 
 "onfido_confirm_passport" = "My passport is readable";
 "onfido_confirm_residence_permit" = "My permit is readable";
 "onfido_confirm_driving_license" = "My license is readable";
 "onfido_confirm_national_id" = "My card is readable";
 "onfido_confirm_visa" = "My visa is readable";
+"onfido_confirm_generic_document" = "My document is readable";
 
 /* Document error */
 
@@ -112,6 +121,7 @@
 "onfido_message_validation_error_multiple_faces" = "Only your face can be in the selfie";
 
 /* Liveness intro */
+
 "onfido_liveness_intro_subtitle" = "Let's make sure nobody's impersonating you";
 "onfido_reload" = "Reload";
 "onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
@@ -132,10 +142,28 @@
 "onfido_wrong_side" = "Wrong side";
 
 /* Liveness confirmation */
+
 "onfido_welcome_view_toolbar_title" = "Identity verification";
 "onfido_retake_video" = "Retake video";
 "onfido_submit_video" = "Submit video";
 "onfido_video_recorded" = "Your video has been recorded";
+
+/* Device permission */
+
+"onfido_device_permission_title_both" = "Allow camera and microphone access";
+"onfido_device_permission_subtitle_both" = "When prompted, you must enable access for both to continue";
+"onfido_device_permission_instructions_both" = "We cannot verify you without using both your camera and microphone";
+"onfido_device_permission_btn_title_both" = "Enable both";
+
+"onfido_device_permission_title_camera" = "Allow camera access";
+"onfido_device_permission_subtitle_camera" = "When prompted, you must enable camera access to continue";
+"onfido_device_permission_instructions_camera" = "We cannot verify you without using your camera";
+"onfido_device_permission_btn_title_camera" = "Enable camera";
+
+"onfido_device_permission_title_mic" = "Allow microphone access";
+"onfido_device_permission_subtitle_mic" = "When prompted, you must enable microphone access to continue";
+"onfido_device_permission_instructions_mic" = "We cannot verify you without using your microphone";
+"onfido_device_permission_btn_title_mic" = "Enable microphone";
 
 /* Locale identifier */
 
@@ -167,10 +195,13 @@
 "onfido_accessibility_camera_face_capture_view" = "View from selfie camera";
 "onfido_accessibility_document_confirmation_view" = "Photo of your document";
 "onfido_accessibility_face_confirmation_view" = "Photo of your face";
-"onfido_accessibility_camera_capture_shutter" = "Capture image";
+"onfido_accessibility_camera_capture_shutter" = "Shutter";
 "onfido_accessibility_liveness_confirmation_view" = "Your video";
 "onfido_start_recording" = "Start recording";
 "onfido_finish_recording" = "Finish recording";
 "onfido_next_step" = "Next step";
 "onfido_start" = "Start";
 "onfido_message_loading" = "Loading";
+"onfido_accessibility_liveness_video_example" = "Example video showing how to record a selfie video";
+"onfido_message_uploading" = "Uploading";
+"onfido_accessibility_liveness_face_detected" = "Face detected";
