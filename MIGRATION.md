@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 11.1.2 Migration Guide](#onfido-sdk-1112-migration-guide)
 * [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-sdk-1110-migration-guide)
 * [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-sdk-1100-migration-guide)
 * [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-sdk-1060-migration-guide)
@@ -23,6 +24,14 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 11.1.2 Migration Guide
+
+### Strings
+
+The following string keys have been **removed**:
+- `onfido_back`
+- `onfido_next_step`
 
 ## Onfido iOS SDK 11.1.0 Migration Guide
 

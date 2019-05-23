@@ -183,7 +183,6 @@
 "onfido_retry" = "Retry";
 "onfido_discard" = "Take a new picture";
 "onfido_next" = "Next";
-"onfido_back" = "Back";
 "onfido_continue" = "Continue";
 "onfido_thank_you" = "Thank you";
 "onfido_decline" = "Decline";
@@ -199,7 +198,6 @@
 "onfido_accessibility_liveness_confirmation_view" = "Your video";
 "onfido_start_recording" = "Start recording";
 "onfido_finish_recording" = "Finish recording";
-"onfido_next_step" = "Next step";
 "onfido_start" = "Start";
 "onfido_message_loading" = "Loading";
 "onfido_accessibility_liveness_video_example" = "Example video showing how to record a selfie video";
