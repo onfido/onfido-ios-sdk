@@ -35,71 +35,77 @@
     [self createApplicant:^(NSString *applicantId) {
       
         if (applicantId) {
-            
             ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
             [configBuilder withToken:self->token];
             [configBuilder withApplicantId:applicantId];
             [configBuilder withWelcomeStep];
             [configBuilder withDocumentStep];
-            [configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+
+            Builder *faceStepVariantBuilder = [ONFaceStepVariantConfig builder];
+            [faceStepVariantBuilder withPhotoCaptureWithConfig: NULL];
+            NSError *faceVariantStepConfigError = NULL;
+            ONFaceStepVariantConfig *faceStepVariant = [faceStepVariantBuilder buildAndReturnError: &faceVariantStepConfigError];
             
-            NSError *configError = NULL;
-            ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
-            
-            if (configError == NULL) {
-             
-                ONFlow *flow = [[ONFlow alloc] initWithFlowConfiguration:config];
-                [flow withResponseHandler:^(ONFlowResponse * _Nonnull response) {
+            if (faceVariantStepConfigError == NULL) {
+                [configBuilder withFaceStepOfVariant: faceStepVariant];
+                NSError *configError = NULL;
+                ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+                if (configError == NULL) {
                     
-                    [self dismissViewControllerAnimated:YES completion:^{
+                    ONFlow *flow = [[ONFlow alloc] initWithFlowConfiguration:config];
+                    [flow withResponseHandler:^(ONFlowResponse * _Nonnull response) {
                         
-                        if (response.error) {
+                        [self dismissViewControllerAnimated:YES completion:^{
                             
-                            if (response.error.code == ONFlowErrorCameraPermission) {
-                                NSLog(@"Camera permission denied");
-                            } else {
-                                NSLog(@"Run error %@", [[response.error userInfo] valueForKey:@"message"]);
-                            }
-                            
-                        } else if (response.userCanceled) {
-                            NSLog(@"user canceled flow");
-                        } else if (response.results) {
-                            
-                            for (ONFlowResult *result in response.results) {
+                            if (response.error) {
                                 
-                                if (result.type == ONFlowResultTypeDocument) {
-                                    ONDocumentResult *docResult = (ONDocumentResult *)(result.result);
+                                if (response.error.code == ONFlowErrorCameraPermission) {
+                                    NSLog(@"Camera permission denied");
+                                } else {
+                                    NSLog(@"Run error %@", [[response.error userInfo] valueForKey:@"message"]);
+                                }
+                                
+                            } else if (response.userCanceled) {
+                                NSLog(@"user canceled flow");
+                            } else if (response.results) {
+                                
+                                for (ONFlowResult *result in response.results) {
                                     
-                                    /* Document Result
-                                     Onfido api response to the creation of the document result
-                                     More details: https://documentation.onfido.com/#document-object
-                                     */
-                                    NSLog(@"%@", docResult.id);
-                                } else if (result.type == ONFlowResultTypeFace) {
-                                    ONFaceResult *faceResult = (ONFaceResult *)(result.result);
-                                    
-                                    /* Live Photo / Live Video
-                                     Onfido api response to the creation of the live photo / live video
-                                     More details: https://documentation.onfido.com/#live-photo-object
-                                     */
-                                    NSLog(@"%@", faceResult.id);
+                                    if (result.type == ONFlowResultTypeDocument) {
+                                        ONDocumentResult *docResult = (ONDocumentResult *)(result.result);
+                                        
+                                        /* Document Result
+                                         Onfido api response to the creation of the document result
+                                         More details: https://documentation.onfido.com/#document-object
+                                         */
+                                        NSLog(@"%@", docResult.id);
+                                    } else if (result.type == ONFlowResultTypeFace) {
+                                        ONFaceResult *faceResult = (ONFaceResult *)(result.result);
+                                        
+                                        /* Live Photo / Live Video
+                                         Onfido api response to the creation of the live photo / live video
+                                         More details: https://documentation.onfido.com/#live-photo-object
+                                         */
+                                        NSLog(@"%@", faceResult.id);
+                                    }
                                 }
                             }
-                        }
+                        }];
                     }];
-                }];
-                
-                NSError *runError = NULL;
-                UIViewController *flowVC = [flow runAndReturnError:&runError];
-                
-                if (runError == NULL) {
-                    [self presentViewController:flowVC animated:YES completion:nil];
+                    
+                    NSError *runError = NULL;
+                    UIViewController *flowVC = [flow runAndReturnError:&runError];
+                    
+                    if (runError == NULL) {
+                        [self presentViewController:flowVC animated:YES completion:nil];
+                    } else {
+                        NSLog(@"Run error %@", [[runError userInfo] valueForKey:@"message"]);
+                    }
                 } else {
-                    NSLog(@"Run error %@", [[runError userInfo] valueForKey:@"message"]);
+                    NSLog(@"Config error %@", [[configError userInfo] valueForKey:@"message"]);
                 }
-            } else {
-                NSLog(@"Config error %@", [[configError userInfo] valueForKey:@"message"]);
             }
+            
         }
     }];
 }

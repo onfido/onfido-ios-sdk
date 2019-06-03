@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 12.0.0 Migration Guide](#onfido-sdk-1200-migration-guide)
 * [Onfido iOS SDK 11.1.2 Migration Guide](#onfido-sdk-1112-migration-guide)
 * [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-sdk-1110-migration-guide)
 * [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-sdk-1100-migration-guide)
@@ -25,6 +26,79 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 12.0.0 Migration Guide
+
+### Breaking API changes
+
+
+- Face capture with photo variant:
+
+```
+let configBuilder = OnfidoConfig.builder()
+...
+configBuilder.withFaceStep(ofVariant: .photo(with: nil))
+```
+
+- Face capture with video variant (showing liveness intro video):
+
+```
+let configBuilder = OnfidoConfig.builder()
+...
+configBuilder.withFaceStep(ofVariant: .video(with: nil))
+```
+
+or
+
+```
+let configBuilder = OnfidoConfig.builder()
+...
+configBuilder.withFaceStep(ofVariant: .video(with: VideoStepConfiguration(showIntroVideo: true)))
+```
+
+- Face capture with video variant (not showing liveness intro video):
+
+```
+let configBuilder = OnfidoConfig.builder()
+...
+configBuilder.withFaceStep(ofVariant: .video(with: VideoStepConfiguration(showIntroVideo: false)))
+```
+
+#### Objective-C Interface
+
+- Face capture with photo variant:
+
+```
+ NSError * error = NULL;
+ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+ ...
+ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+ [variantBuilder withPhotoCaptureWithConfig: NULL];
+ [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+- Face capture with video variant:
+
+```
+NSError * error = NULL;
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+...
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withVideoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+or
+
+```
+NSError * error = NULL;
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+...
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withVideoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+
+```
+
 ## Onfido iOS SDK 11.1.2 Migration Guide
 
 ### Strings
@@ -32,6 +106,10 @@ These guides below are provided to ease the transition of existing applications 
 The following string keys have been **removed**:
 - `onfido_back`
 - `onfido_next_step`
+
+The following string keys have been **added**:
+- `onfido_accessibility_liveness_intro_video_pause`
+- `onfido_accessibility_liveness_intro_video_play`
 
 ## Onfido iOS SDK 11.1.0 Migration Guide
 
@@ -63,6 +141,12 @@ cd "${ONFIDO_FRAMEWORK}"
 lipo -remove i386 Onfido -o Onfido
 lipo -remove x86_64 Onfido -o Onfido
 ```
+
+### Strings
+
+The following string keys have been **removed**:
+- `onfido_back`
+- `onfido_next_step`
 
 ## Onfido iOS SDK 11.0.0 Migration Guide
 

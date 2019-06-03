@@ -203,3 +203,5 @@
 "onfido_accessibility_liveness_video_example" = "Example video showing how to record a selfie video";
 "onfido_message_uploading" = "Uploading";
 "onfido_accessibility_liveness_face_detected" = "Face detected";
+"onfido_accessibility_video_pause" = "Pause video";
+"onfido_accessibility_video_play" = "Play video";

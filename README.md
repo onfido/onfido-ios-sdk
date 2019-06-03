@@ -122,7 +122,7 @@ let config = try! OnfidoConfig.builder()
     .withApplicantId("APPLICANT_ID_HERE")
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo)
+    .withFaceStep(ofVariant: .photo(with: nil)
     .build()
 
 let onfidoFlow = OnfidoFlow(withConfiguration: config)
@@ -136,20 +136,27 @@ let onfidoFlow = OnfidoFlow(withConfiguration: config)
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
+
 [configBuilder withToken:@"YOUR_TOKEN_HERE"];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
-[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
 
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+NSError *variantConfigError = NULL;
+Builder *variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withPhotoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &variantConfigError]];
 
-if (configError == NULL) {
-    ONFlow *onFlow = [[ONFlow alloc] initWithFlowConfiguration:config];
-    [onFlow withResponseHandler:^(ONFlowResponse *response) {
-        // Callback when flow ends
-    }];
+if (variantConfigError == NULL) {
+  NSError *configError = NULL;
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+  if (configError == NULL) {
+      ONFlow *onFlow = [[ONFlow alloc] initWithFlowConfiguration:config];
+      [onFlow withResponseHandler:^(ONFlowResponse *response) {
+          // Callback when flow ends
+      }];
+  }
 }
 ```
 
@@ -472,10 +479,32 @@ if (configError) {
 
 You can either specify to capture the document and/or face of the user.
 
-The face step has two variants:
+The face step has two variants for Swift interface:
 
-- `FaceStepVariant.photo` (`ONFaceStepVariantPhoto` for Objective-C) for face photo capture
-- `FaceStepVariant.video` (`ONFaceStepVariantVideo` for Objective-C) for face video capture
+- `FaceStepVariant.photo(with: PhotoStepConfiguration?)`
+- `FaceStepVariant.video(with: VideoStepConfiguration?)`
+
+For Objective-C interface, you should use ONFaceStepVariantConfig as below.
+
+To configure with video variant:
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withVideoCaptureWithConfig:
+ [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES]];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+To configure with photo variant:
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withPhotoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
 
 
 #### Swift
@@ -486,7 +515,7 @@ let config = try! OnfidoConfig.builder()
     .withApplicantId(applicantId)
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo) // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(with: nil)  // specify the face capture variant here
     .build()
 ```
 
@@ -499,15 +528,22 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
-[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+NSError *variantError = NULL;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withVideoCaptureWithConfig: [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES]];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &variantError]];
 
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
-
-if (configError) {
-    // Handle config build error
+if (variantError) {
+  // Handle variant config error
 } else {
-    // use config
+  NSError *configError = NULL;
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+  if (configError) {
+      // Handle config build error
+  } else {
+      // use config
+  }
 }
 ```
 
@@ -530,7 +566,7 @@ let config = try! OnfidoConfig.builder()
     .withApplicantId(applicantId)
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
-    .withFaceStep(ofVariant: .photo) // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(with: nil) // specify the face capture variant here
     .build()
 ```
 
@@ -543,10 +579,18 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
-[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
+NSError *variantError = NULL;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withPhotoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &variantError]];
 
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+if (variantError) {
+  // Handle variant config error
+} else {
+  NSError *configError = NULL;
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+
 ```
 
 ### UI customisation
@@ -620,7 +664,7 @@ let config = try! OnfidoConfig.builder()
     .withApplicantId(applicantId)
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
-    .withFaceStep(ofVariant: .photo)
+    .withFaceStep(ofVariant: .photo(with: nil)
     .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
     .build()
 ```
@@ -634,11 +678,19 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
-[configBuilder withFaceStepOfVariant:ONFaceStepVariantPhoto];
-[configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file
+NSError *variantError = NULL;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withPhotoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &variantError]];
 
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+if (variantError) {
+  // Handle variant config error
+} else {
+  [configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file
+  NSError *configError = NULL;
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+
 ```
 
 You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).

@@ -6,14 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [12.0.0] - 2019-05-29
+
+### Added
+- UI: New faceStep config added for not showing video in liveness intro screen
+
+### Changed
+- UI: Optimised liveness intro videos resolution and duration, reducing overall size
+
 ## [11.1.2] - 2019-05-23
 
 ### Fixed
 - UI: User sees liveness intro screen after app is backgrounded during liveness capture
 - UI: Device permission screen labels overlapping with icon when user setting has larger text size
 - UI: Fix for having wrong sized record button on liveness capture screen in some dynamic font size configured cases
+- UI: Fixed crash when tapping two buttons on capture confirmation screen at the same time
 - Public: Removed unnecessary string keys
 - Public: SDK does not throw `OnfidoFlowError.microphonePermission` when face capture photo variant is used and app has microphone permission denied
+### Added
+- UI: Play/Pause functionality for liveness intro video added
 
 ## [11.1.1] - 2019-04-29
 

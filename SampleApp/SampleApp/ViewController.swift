@@ -57,7 +57,7 @@ final class ViewController: UIViewController {
             .withApplicantId(applicantId)
             .withWelcomeStep()
             .withDocumentStep()
-            .withFaceStep(ofVariant: .photo)
+            .withFaceStep(ofVariant: .photo(withConfiguration: nil))
             .build()
         
         let onfidoFlow = OnfidoFlow(withConfiguration: config)
