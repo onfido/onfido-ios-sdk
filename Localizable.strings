@@ -140,6 +140,9 @@
 "onfido_liveness_challenge_turn_right_title" = "Look to the right and back";
 "onfido_liveness_challenge_open_mouth_title" = "Open and close your\n mouth";
 "onfido_wrong_side" = "Wrong side";
+"onfido_liveness_fetch_challenge_error_title" = "Connection timeout";
+"onfido_liveness_fetch_challenge_error_description" = "Check that your connection is stable, then try again";
+"onfido_liveness_fetch_challenge_error_button_title" = "Reload instructions";
 
 /* Liveness confirmation */
 

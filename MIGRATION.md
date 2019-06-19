@@ -26,6 +26,15 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 12.1.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_liveness_fetch_challenge_error_title`
+- `onfido_liveness_fetch_challenge_error_description`
+- `onfido_liveness_fetch_challenge_error_button_title`
+
 ## Onfido iOS SDK 12.0.0 Migration Guide
 
 ### Breaking API changes
