@@ -17,6 +17,8 @@
     *   [UI customisation](#ui-customisation)
     *   [Localisation](#localisation)
     *   [Language customisation](#language-customisation)
+    *   [Experimental features](#experimental-features)
+        * [US Driving License Auto-capture](#us-driving-license-auto-capture)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
@@ -92,6 +94,29 @@ cd "${ONFIDO_FRAMEWORK}"
 lipo -remove i386 Onfido -o Onfido
 lipo -remove x86_64 Onfido -o Onfido
 ```
+
+#### Non-Swift apps
+
+If your app is not Swift based then you must create a new Swift file inside of your project with the following contents:
+```
+/*
+ This file is required to force Xcode to package Swift runtime libraries required for
+ the Onfido iOS SDK to run
+ */
+import Foundation
+import AVFoundation
+import CoreImage
+import UIKit
+import Vision
+
+func fixLibSwiftOnoneSupport() {
+    // from https://stackoverflow.com/a/54511127/2982993
+    print("Fixes dyld: Library not loaded: @rpath/libswiftSwiftOnoneSupport.dylib")
+}
+```
+Additionally you must also set `Always Embed Swift Standard Libraries` to `Yes` in your project configuration.
+
+The above code and configuration will force Xcode to package the required Swift runtime libraries required by the Onfido SDK to run.
 
 ### 4. Creating an Applicant
 
@@ -695,6 +720,32 @@ if (variantError) {
 
 You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
 
+### Experimental features
+
+**Note** These are experimental features and can be removed in the future without creating a breaking change.
+
+#### US Driving License Auto-capture
+
+You can configure the SDK to auto-capture US driving license when user selects US Driving License or or when you configure the SDK to capture document with the Driving License pre-selected and with document country "USA". This features is only supported on iOS 11+ and iPhone 7 or newer, otherwise defaults to the current document capture flow.
+
+You can configure the SDK to auto-capture US Driving License the following ways:
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withUSDLAutocapture()
+    ...
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withUSDLAutocapture];
+```
+
 ## Creating checks
 
 As the SDK is only responsible for capturing and uploading photos/videos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
@@ -736,6 +787,20 @@ A few things to check before you go live:
 
 - Make sure you have set up [webhooks](https://documentation.onfido.com/#webhooks) to receive live events
 - Make sure you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
+
+### Size Impact
+
+| User iOS Version | SDK Size Impact (MB)              |
+|------------------|-----------------------------------|
+| 12.2 and above   | `2.965`                           |
+| Below 12.2       | up to `3.441`*  or up to `12.213`** |
+
+
+**\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
+**\*\*** If the application doesn't include any Swift code, i.e. written completely in Objective-C, and Onfido iOS SDK is the only
+ Swift library that application integrates with
+
+**Note**: These calculations was performed based on a single application architecture
 
 ## Migrating
 

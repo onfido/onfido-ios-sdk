@@ -7,5 +7,4 @@ target 'SampleApp' do
 
   # Pods for SampleApp
   pod 'Onfido'
-  pod 'Alamofire'
 end

@@ -69,6 +69,11 @@
 "onfido_glare_detected_title" = "Glare detected";
 "onfido_glare_detected_subtitle" = "Try moving away from direct light";
 
+/* Document autocapture */
+
+"onfido_autocapture_info" = "Your picture will be taken automatically";
+"onfido_press_button_capture" = "Press the button to take a picture";
+
 /* Document capture confirmation */
 
 "onfido_message_check_readability_subtitle_passport" = "Make sure your passport details are clear to read, with no blur or glare";
@@ -138,7 +143,6 @@
 "onfido_liveness_challenge_digits_title" = "Say each digit out loud";
 "onfido_liveness_challenge_turn_left_title" = "Look to the left and back";
 "onfido_liveness_challenge_turn_right_title" = "Look to the right and back";
-"onfido_liveness_challenge_open_mouth_title" = "Open and close your\n mouth";
 "onfido_wrong_side" = "Wrong side";
 "onfido_liveness_fetch_challenge_error_title" = "Connection timeout";
 "onfido_liveness_fetch_challenge_error_description" = "Check that your connection is stable, then try again";

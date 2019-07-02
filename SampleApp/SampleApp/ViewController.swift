@@ -8,7 +8,6 @@
 
 import UIKit
 import Onfido
-import Alamofire
 
 final class ViewController: UIViewController {
 
@@ -97,38 +96,41 @@ final class ViewController: UIViewController {
          We suggest to create applicants in your backend
         */
         
-        let applicant: Parameters = [
-            "first_name": "Theresa",
-            "last_name": "May"
-        ]
+        let defaultSessionConfiguration = URLSessionConfiguration.default
+        let defaultSession = URLSession(configuration: defaultSessionConfiguration)
         
-        let headers: HTTPHeaders = [
-            "Authorization": "Token token=\(token)",
-            "Accept": "application/json"
-        ]
+        let url = URL(string: "https://api.onfido.com/v2/applicants")
+        var urlRequest = URLRequest(url: url!)
         
-        Alamofire.request(
-            "https://api.onfido.com/v2/applicants",
-            method: .post,
-            parameters: applicant,
-            encoding: JSONEncoding.default,
-            headers: headers).responseJSON { (response: DataResponse<Any>) in
-            
-                guard response.error == nil else {
-                    completionHandler(nil, response.error)
-                    return
+        let postParams = "first_name=Theresa&last_name=May"
+        let postData = postParams.data(using: .utf8)
+        
+        urlRequest.httpMethod = "POST"
+        urlRequest.httpBody = postData
+        urlRequest.addValue("Token token=\(token)", forHTTPHeaderField: "Authorization")
+        urlRequest.addValue("application/json", forHTTPHeaderField: "Accept")
+
+        let dataTask = defaultSession.dataTask(with: urlRequest) { (data, response, error) in
+            let statusCode = (response as? HTTPURLResponse)?.statusCode ?? -1
+            if statusCode >= 200, statusCode <= 299, let responseData = data {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: responseData, options: []) as! [String : Any]
+                    guard json.index(forKey: "error") == nil else {
+                        completionHandler(nil, ApplicantError.apiError(json["error"] as! [String : Any]))
+                        return
+                    }
+                    let applicantId = json["id"] as! String
+                    completionHandler(applicantId, nil)
+                } catch {
+                    completionHandler(nil, ApplicantError.apiError(["exception": error.localizedDescription]))
                 }
-                
-                let response = response.result.value as! [String: Any]
-                
-                guard response.keys.contains("error") == false else {
-                    completionHandler(nil, ApplicantError.apiError(response["error"] as! [String : Any]))
-                    return
-                }
-                
-                let applicantId = response["id"] as! String
-                completionHandler(applicantId, nil)
+            } else {
+                completionHandler(nil, ApplicantError.apiError(["Http Error": "Response Code: \(statusCode)"]))
+            }
         }
+        
+        dataTask.resume()
+        
     }
 }
 enum ApplicantError: Error {

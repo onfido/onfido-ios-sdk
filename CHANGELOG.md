@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [12.2.0] - 2019-07-02
+
+### Added
+- Public: Added United States' driver's license autocapture as an experimental feature. Can be enabled by calling withUSDLAutocapture() in the OnfidoConfig.builder()
+
+### Fixed
+- UI: Unsupported screen appears and gets stuck in app only supporting portrait mode
+- UI: Fixed the UI issue about showing unnecessary oval shape in upload progress bar view
+- UI: Poland's endonym on country selection screen
+- UI: Fixed the crash on iPad for the apps that support only landscape orientation
+
+### Added
+- UI: Added dynamic font size support for video capture confirmation screen
+- UI: Added support for the new token format
+- Public: Updated README with adding SDK size impact information
+
 ## [12.1.0] - 2019-06-18
 
 ### Changed

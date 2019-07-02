@@ -35,6 +35,8 @@ The following string keys have been **added**:
 - `onfido_liveness_fetch_challenge_error_description`
 - `onfido_liveness_fetch_challenge_error_button_title`
 
+The following string keys have been **removed**:
+- `onfido_liveness_challenge_open_mouth_title`
 ## Onfido iOS SDK 12.0.0 Migration Guide
 
 ### Breaking API changes
