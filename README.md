@@ -43,13 +43,97 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 * SDK supports iOS 9+
 * SDK supports Xcode 10.2
 
-### 1. Obtaining tokens
+### 1. Obtaining an API token
+
+In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+
+### 2. Creating an Applicant
+
+You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
+
+For a document or face check the minimum applicant details required are `firstName` and `lastName`.
+
+You must create applicants from your server:
+
+```shell
+$ curl https://api.onfido.com/v2/applicants \
+    -H 'Authorization: Token token=YOUR_API_TOKEN' \
+    -d 'first_name=Theresa' \
+    -d 'last_name=May'
+```
+
+The JSON response has an `id` field containing a UUID that identifies the applicant. You will pass the applicant ID to the SDK and all documents or live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
+
+### 3. Configuring SDK with Tokens
+
+We now support two token mechanisms:
+
+`SDK token`   
+`Mobile token`
+
+We strongly recommend using a SDK token. It provides a more secure means of integration, as the token is temporary and applicant id-bound. Note that, if you're using SDK tokens, you shouldn't call withApplicantId function.
+
+#### 3.1 SDK Tokens
+
+You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK. To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+
+To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+
+```
+$ curl https://api.onfido.com/v2/sdk_token \
+  -H 'Authorization: Token token=YOUR_API_TOKEN' \
+  -F 'applicant_id=YOUR_APPLICANT_ID' \
+  -F 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
+```
+
+Make a note of the token value in the response, as you will need it later on when initialising the SDK.
+
+**Warning:** SDK tokens expire 90 minutes after creation.
+
+##### Example Usage
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+```
+
+##### Objective C
+
+```Objective-c
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+```
+
+#### 3.2 Mobile Tokens
+
+**Note:**  Mobile token usage is still supported, but it **will be deprecated** in the future. If you are starting a project, we would strongly recommend that you use SDK tokens instead.
 
 In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
 **Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
 
-### 2. App permissions
+##### Example Usage
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withToken("YOUR_MOBILE_TOKEN_HERE")
+    .withApplicantId("APPLICANT_ID_HERE")
+```
+
+##### Objective C
+
+```Objective-c
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withToken:@"YOUR_MOBILE_TOKEN_HERE"];
+[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+```
+
+
+### 4. App permissions
 
 The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` keys in your application's `Info.plist` file:
 
@@ -61,7 +145,7 @@ The Onfido SDK makes use of the device Camera. You will be required to have the 
 ```
 **Note**: Both keys will be required for app submission.
 
-### 3. Adding the SDK dependency
+### 5. Adding the SDK dependency
 
 #### Using Cocoapods
 
@@ -118,23 +202,6 @@ Additionally you must also set `Always Embed Swift Standard Libraries` to `Yes` 
 
 The above code and configuration will force Xcode to package the required Swift runtime libraries required by the Onfido SDK to run.
 
-### 4. Creating an Applicant
-
-You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
-
-For a document or face check the minimum applicant details required are `firstName` and `lastName`.
-
-You must create applicants from your server:
-
-```shell
-$ curl https://api.onfido.com/v2/applicants \
-    -H 'Authorization: Token token=YOUR_API_TOKEN' \
-    -d 'first_name=Theresa' \
-    -d 'last_name=May'
-```
-
-The JSON response has an `id` field containing a UUID that identifies the applicant. You will pass the applicant ID to the SDK and all documents or live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
-
 ### 5. Creating the SDK configuration
 
 Once you have an added the SDK as a dependency and you have an applicant ID, you can configure the SDK:
@@ -143,8 +210,7 @@ Once you have an added the SDK as a dependency and you have an applicant ID, you
 
 ```swift
 let config = try! OnfidoConfig.builder()
-    .withToken("YOUR_TOKEN_HERE")
-    .withApplicantId("APPLICANT_ID_HERE")
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo(with: nil)
@@ -162,8 +228,7 @@ let onfidoFlow = OnfidoFlow(withConfiguration: config)
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 
-[configBuilder withToken:@"YOUR_TOKEN_HERE"];
-[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
 
@@ -464,8 +529,9 @@ Otherwise you may encounter the following errors when calling the `build()` func
 - `OnfidoConfigError.missingToken` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no or empty string token is provided
 - `OnfidoConfigError.missingApplicant` (`ONFlowConfigErrorMissingApplicant` in Objective-C), when no applicant instance is provided
 - `OnfidoConfigError.missingSteps` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no step is provided
-- `OnfidoConfigError.multipleApplicants` (`ONFlowConfigErrorMultipleApplicants` in Objective-C), when both an applicant and an appliacantId are provided
-
+- `OnfidoConfigError.multipleApplicants` (`ONFlowConfigErrorMultipleApplicants` in Objective-C), when both an applicant and an applicantId are provided
+- `OnfidoConfigError.multipleTokenTypes` (`ONFlowConfigErrorMultipleTokenTypes` in Objective-C), when both an SDK Token and a Mobile Tokens are provided
+- `OnfidoConfigError.applicantProvidedWithSDKToken` (`ONFlowConfigErrorApplicantProvidedWithSDKToken` in Objective-C), when both an SDK Token and an applicant provided
 
 ## Customising SDK
 
@@ -488,7 +554,7 @@ let config = try! OnfidoConfig.builder()
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withToken:@"YOUR_TOKEN_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 ...
 [configBuilder withWelcomeStep];
 
@@ -536,8 +602,7 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 
 ```swift
 let config = try! OnfidoConfig.builder()
-    .withToken("YOUR_TOKEN_HERE")
-    .withApplicantId(applicantId)
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep()
     .withFaceStep(ofVariant: .photo(with: nil)  // specify the face capture variant here
@@ -549,8 +614,7 @@ let config = try! OnfidoConfig.builder()
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
-[configBuilder withToken:@"YOUR_TOKEN_HERE"];
-[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
 NSError *variantError = NULL;
@@ -587,8 +651,7 @@ Let's say that you would like to capture only driving licenses from the United K
 
 ```swift
 let config = try! OnfidoConfig.builder()
-    .withToken("YOUR_TOKEN_HERE")
-    .withApplicantId(applicantId)
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
     .withFaceStep(ofVariant: .photo(with: nil) // specify the face capture variant here
@@ -600,8 +663,7 @@ let config = try! OnfidoConfig.builder()
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
-[configBuilder withToken:@"YOUR_TOKEN_HERE"];
-[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
 NSError *variantError = NULL;
@@ -685,8 +747,7 @@ The strings used within the SDK can be customised by having a `Localizable.strin
 
 ```swift
 let config = try! OnfidoConfig.builder()
-    .withToken("YOUR_TOKEN_HERE")
-    .withApplicantId(applicantId)
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
     .withFaceStep(ofVariant: .photo(with: nil)
@@ -699,8 +760,7 @@ let config = try! OnfidoConfig.builder()
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
-[configBuilder withToken:@"YOUR_TOKEN_HERE"];
-[configBuilder withApplicantId:@"APPLICANT_ID_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
 NSError *variantError = NULL;
@@ -792,8 +852,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `2.965`                           |
-| Below 12.2       | up to `3.441`*  or up to `12.213`** |
+| 12.2 and above   | `3.041`                           |
+| Below 12.2       | up to `3.517`*  or up to `12.288`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

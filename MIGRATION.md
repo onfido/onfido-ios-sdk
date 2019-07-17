@@ -2,6 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-sdk-1300-migration-guide)
+* [Onfido iOS SDK 12.1.0 Migration Guide](#onfido-sdk-1210-migration-guide)
 * [Onfido iOS SDK 12.0.0 Migration Guide](#onfido-sdk-1200-migration-guide)
 * [Onfido iOS SDK 11.1.2 Migration Guide](#onfido-sdk-1112-migration-guide)
 * [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-sdk-1110-migration-guide)
@@ -26,6 +28,14 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 13.0.0 Migration Guide
+
+### Breaking API changes
+
+- Introduced two new enum case for OnfidoConfigError:
+  - OnfidoConfigError.multipleTokenTypes (ONFlowConfigErrorMultipleTokenTypes for Objective-C): This error will be thrown when both an SDK Token and a Mobile Tokens are provided.
+  - OnfidoConfigError.applicantProvidedWithSDKToken (ONFlowConfigErrorApplicantProvidedWithSDKToken for Objective-C): This error will be thrown when both an SDK Token and an applicant provided.
+
 ## Onfido iOS SDK 12.1.0 Migration Guide
 
 ### Strings
@@ -37,10 +47,10 @@ The following string keys have been **added**:
 
 The following string keys have been **removed**:
 - `onfido_liveness_challenge_open_mouth_title`
+
 ## Onfido iOS SDK 12.0.0 Migration Guide
 
 ### Breaking API changes
-
 
 - Face capture with photo variant:
 

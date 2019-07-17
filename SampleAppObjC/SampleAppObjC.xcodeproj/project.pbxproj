@@ -198,7 +198,6 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${PODS_ROOT}/Onfido/Onfido.framework",
-				"${PODS_ROOT}/Onfido-Release/Onfido.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
