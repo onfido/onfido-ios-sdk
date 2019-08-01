@@ -82,8 +82,8 @@ To generate an SDK Token you should perform a request to the SDK Token endpoint 
 ```
 $ curl https://api.onfido.com/v2/sdk_token \
   -H 'Authorization: Token token=YOUR_API_TOKEN' \
-  -F 'applicant_id=YOUR_APPLICANT_ID' \
-  -F 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
+  -d 'applicant_id=YOUR_APPLICANT_ID' \
+  -d 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
 ```
 
 Make a note of the token value in the response, as you will need it later on when initialising the SDK.
