@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 13.1.0 Migration Guide](#onfido-sdk-1310-migration-guide)
 * [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-sdk-1300-migration-guide)
 * [Onfido iOS SDK 12.1.0 Migration Guide](#onfido-sdk-1210-migration-guide)
 * [Onfido iOS SDK 12.0.0 Migration Guide](#onfido-sdk-1200-migration-guide)
@@ -27,6 +28,59 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 13.1.0 Migration Guide
+
+### Removed
+
+- `withUSDLAutocapture` method on OnfidoConfig.
+  - this was an experimental feature and is not considered a breaking api change
+  - US driving license autocapture is now default feature when user selects Driving License as document and United States as country.
+
+### Strings
+
+The following string values for keys have been **changed**:
+- `onfido_label_doc_type_driving_license_up` (english)
+- `onfido_message_document_passport` (english)
+- `onfido_glare_detected_title` (english)
+- `onfido_liveness_challenge_turn_left_title` (english)
+- `onfido_liveness_challenge_turn_right_title` (english)
+- `onfido_liveness_fetch_challenge_error_title` (english)
+- `onfido_welcome_view_face_capture_title` (spanish)
+- `onfido_liveness_preparation_subtitle` (spanish)
+- `onfido_message_document_passport` (spanish)
+- `onfido_message_side_document_front_driving_license` (spanish)
+- `onfido_message_document_capture_info_front_driving_license` (spanish)
+- `onfido_message_side_document_back_driving_license` (spanish)
+- `onfido_message_document_capture_info_back_driving_license` (spanish)
+- `onfido_message_side_document_front_residence_permit` (spanish)
+- `onfido_message_document_capture_info_front_residence_permit` (spanish)
+- `onfido_message_side_document_back_residence_permit` (spanish)
+- `onfido_message_document_capture_info_back_residence_permit` (spanish)
+- `onfido_message_side_document_front_national_id` (spanish)
+- `onfido_message_document_capture_info_front_national_id` (spanish)
+- `onfido_message_side_document_back_national_id` (spanish)
+- `onfido_message_document_capture_info_back_national_id` (spanish)
+- `onfido_message_side_document_front_generic` (spanish)
+- `onfido_message_document_capture_info_front_generic` (spanish)
+- `onfido_message_document_capture_info_back_generic` (spanish)
+- `onfido_message_check_readability_subtitle_passport` (spanish)
+- `onfido_message_check_readability_subtitle_residence_permit` (spanish)
+- `onfido_message_check_readability_subtitle_driving_license` (spanish)
+- `onfido_message_check_readability_subtitle_national_id` (spanish)
+- `onfido_message_check_readability_subtitle_visa` (spanish)
+- `onfido_message_check_readability_subtitle_generic` (spanish)
+- `onfido_confirm_national_id` (spanish)
+- `onfido_confirm_face_2` (spanish)
+- `onfido_no_face` (spanish)
+- `onfido_message_validation_error_face` (spanish)
+- `onfido_multiple_faces` (spanish)
+- `onfido_message_validation_error_multiple_faces` (spanish)
+- `onfido_liveness_preparation_subtitle` (spanish)
+- `onfido_liveness_timeout_exceeded_title` (spanish)
+- `onfido_retake_video` (spanish)
+- `onfido_discard` (spanish)
+- `onfido_decline` (spanish)
 
 ## Onfido iOS SDK 13.0.0 Migration Guide
 

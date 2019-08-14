@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  Onfido
-
-  Created by Anurag Ajwani on 03/01/2018.
-  Copyright © 2018 Onfido. All rights reserved.
-*/
-
 /* Welcome */
 
 "onfido_welcome_view_title" = "Verify your identity";
@@ -19,7 +11,7 @@
 "onfido_document_selection_title" = "Select a document";
 "onfido_document_selection_subtitle" = "You will take a picture of it in the next step";
 "onfido_label_doc_type_passport_up" = "Passport";
-"onfido_label_doc_type_driving_license_up" = "Driver\'s License";
+"onfido_label_doc_type_driving_license_up" = "Driver's License";
 "onfido_label_doc_type_id_card_up" = "National Identity Card";
 "onfido_label_doc_type_residence_permit_up" = "Residence Permit Card";
 "onfido_label_doc_type_visa_up" = "Visa";
@@ -37,15 +29,15 @@
 
 /* Document capture */
 
-"onfido_message_document_passport" = "Passport photo page";
+"onfido_message_document_passport" = "Passport face page";
 "onfido_message_passport_capture_subtitle" = "Position the page with your photo in the frame";
 "onfido_message_document_visa" = "Visa page";
 "onfido_message_visa_capture_subtitle" = "Position the page with your photo in the frame";
 
-"onfido_message_side_document_front_driving_license" = "Front of driver\'s license";
+"onfido_message_side_document_front_driving_license" = "Front of driver's license";
 "onfido_message_document_capture_info_front_driving_license" = "Position the front of your license in the frame";
 
-"onfido_message_side_document_back_driving_license"  = "Back of driver\'s license";
+"onfido_message_side_document_back_driving_license"  = "Back of driver's license";
 "onfido_message_document_capture_info_back_driving_license" = "Position the back of your license in the frame";
 
 "onfido_message_side_document_front_residence_permit" = "Front of permit";
@@ -66,7 +58,7 @@
 "onfido_message_side_document_back_generic" = "Back of document";
 "onfido_message_document_capture_info_back_generic" = "Position the back of your document in the frame";
 
-"onfido_glare_detected_title" = "Glare detected";
+"onfido_glare_detected_title" = "Glare is detected";
 "onfido_glare_detected_subtitle" = "Try moving away from direct light";
 
 /* Document autocapture */
@@ -89,6 +81,8 @@
 "onfido_confirm_national_id" = "My card is readable";
 "onfido_confirm_visa" = "My visa is readable";
 "onfido_confirm_generic_document" = "My document is readable";
+
+"onfido_submit_my_picture" = "Submit my picture";
 
 /* Document error */
 
@@ -126,7 +120,6 @@
 "onfido_message_validation_error_multiple_faces" = "Only your face can be in the selfie";
 
 /* Liveness intro */
-
 "onfido_liveness_intro_subtitle" = "Let's make sure nobody's impersonating you";
 "onfido_reload" = "Reload";
 "onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
@@ -139,38 +132,20 @@
 
 "onfido_liveness_preparation_subtitle" = "Press the record button and follow the instructions";
 "onfido_liveness_timeout_exceeded_title" = "Looks like you took too long";
-"onfido_liveness_timeout_exceeded_description" = "Remember to press stop when you\'re done";
+"onfido_liveness_timeout_exceeded_description" = "Remember to press \"stop\" when you're done";
 "onfido_liveness_challenge_digits_title" = "Say each digit out loud";
-"onfido_liveness_challenge_turn_left_title" = "Look to the left and back";
-"onfido_liveness_challenge_turn_right_title" = "Look to the right and back";
+"onfido_liveness_challenge_turn_left_title" = "Look over your left shoulder and back";
+"onfido_liveness_challenge_turn_right_title" = "Look over your right shoulder and back";
 "onfido_wrong_side" = "Wrong side";
-"onfido_liveness_fetch_challenge_error_title" = "Connection timeout";
+"onfido_liveness_fetch_challenge_error_title"	= "Connection timeout";
 "onfido_liveness_fetch_challenge_error_description" = "Check that your connection is stable, then try again";
 "onfido_liveness_fetch_challenge_error_button_title" = "Reload instructions";
 
 /* Liveness confirmation */
-
 "onfido_welcome_view_toolbar_title" = "Identity verification";
 "onfido_retake_video" = "Retake video";
 "onfido_submit_video" = "Submit video";
 "onfido_video_recorded" = "Your video has been recorded";
-
-/* Device permission */
-
-"onfido_device_permission_title_both" = "Allow camera and microphone access";
-"onfido_device_permission_subtitle_both" = "When prompted, you must enable access for both to continue";
-"onfido_device_permission_instructions_both" = "We cannot verify you without using both your camera and microphone";
-"onfido_device_permission_btn_title_both" = "Enable both";
-
-"onfido_device_permission_title_camera" = "Allow camera access";
-"onfido_device_permission_subtitle_camera" = "When prompted, you must enable camera access to continue";
-"onfido_device_permission_instructions_camera" = "We cannot verify you without using your camera";
-"onfido_device_permission_btn_title_camera" = "Enable camera";
-
-"onfido_device_permission_title_mic" = "Allow microphone access";
-"onfido_device_permission_subtitle_mic" = "When prompted, you must enable microphone access to continue";
-"onfido_device_permission_instructions_mic" = "We cannot verify you without using your microphone";
-"onfido_device_permission_btn_title_mic" = "Enable microphone";
 
 /* Locale identifier */
 
@@ -180,7 +155,7 @@
 
 "onfido_error_dialog_title" = "Connection lost";
 "onfido_error_connection_message" = "There was a network error. Please check your connection.";
- 
+
 /* Generic */
 
 "onfido_orientation_message_title_ios" = "Please rotate your iPad";
@@ -212,3 +187,20 @@
 "onfido_accessibility_liveness_face_detected" = "Face detected";
 "onfido_accessibility_video_pause" = "Pause video";
 "onfido_accessibility_video_play" = "Play video";
+
+/* Device permission */
+
+"onfido_device_permission_title_both" = "Allow camera and microphone access";
+"onfido_device_permission_subtitle_both" = "When prompted, you must enable access for both to continue";
+"onfido_device_permission_instructions_both" = "We cannot verify you without using both your camera and microphone";
+"onfido_device_permission_btn_title_both" = "Enable both";
+
+"onfido_device_permission_title_camera" = "Allow camera access";
+"onfido_device_permission_subtitle_camera" = "When prompted, you must enable camera access to continue";
+"onfido_device_permission_instructions_camera" = "We cannot verify you without using your camera";
+"onfido_device_permission_btn_title_camera" = "Enable camera";
+
+"onfido_device_permission_title_mic" = "Allow microphone access";
+"onfido_device_permission_subtitle_mic" = "When prompted, you must enable microphone access to continue";
+"onfido_device_permission_instructions_mic" = "We cannot verify you without using your microphone";
+"onfido_device_permission_btn_title_mic" = "Enable microphone";

@@ -17,8 +17,6 @@
     *   [UI customisation](#ui-customisation)
     *   [Localisation](#localisation)
     *   [Language customisation](#language-customisation)
-    *   [Experimental features](#experimental-features)
-        * [US Driving License Auto-capture](#us-driving-license-auto-capture)
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
@@ -88,22 +86,37 @@ $ curl https://api.onfido.com/v2/sdk_token \
 
 Make a note of the token value in the response, as you will need it later on when initialising the SDK.
 
-**Warning:** SDK tokens expire 90 minutes after creation.
+**Warning:** SDK tokens expire 90 minutes after creation. So SDK token configurator function has an optional parameter called `expireHandler` which can be used to generate and pass SDK token when it expires. By this means, with using this parameter you can ensure that SDK will continue its flow even after SDK token has expired.
 
 ##### Example Usage
 
 ##### Swift
 
 ```swift
+func getSDKToken(_ completion: @escaping (String) -> Void) {
+    <Your network request logic to retrieve SDK token goes here>
+    completion(myNewSDKtoken)
+}
+
 let config = try! OnfidoConfig.builder()
-    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withSDKToken("YOUR_SDK_TOKEN_HERE", expireHandler: getSDKToken)
+
+
 ```
 
 ##### Objective C
 
-```Objective-c
+```Objective-C
+
+-(void) getSDKToken: (void(^)(NSString *)) handler {
+  <Your network request logic to retrieve SDK token goes here>
+   handler(sdkToken);
+}
+
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE" expireHandler:^(void (^ handler)(NSString *  expireHandler)) {
+        [self getSDKToken:handler];
+}];
 ```
 
 #### 3.2 Mobile Tokens
@@ -213,7 +226,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo(with: nil)
+    .withFaceStep(ofVariant: .photo(withConfiguration: nil))
     .build()
 
 let onfidoFlow = OnfidoFlow(withConfiguration: config)
@@ -605,7 +618,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo(with: nil)  // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(withConfiguration: nil))  // specify the face capture variant here
     .build()
 ```
 
@@ -654,7 +667,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
-    .withFaceStep(ofVariant: .photo(with: nil) // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(withConfiguration: nil)) // specify the face capture variant here
     .build()
 ```
 
@@ -750,7 +763,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
-    .withFaceStep(ofVariant: .photo(with: nil)
+    .withFaceStep(ofVariant: .photo(withConfiguration: nil))
     .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
     .build()
 ```
@@ -779,32 +792,6 @@ if (variantError) {
 ```
 
 You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
-
-### Experimental features
-
-**Note** These are experimental features and can be removed in the future without creating a breaking change.
-
-#### US Driving License Auto-capture
-
-You can configure the SDK to auto-capture US driving license when user selects US Driving License or or when you configure the SDK to capture document with the Driving License pre-selected and with document country "USA". This features is only supported on iOS 11+ and iPhone 7 or newer, otherwise defaults to the current document capture flow.
-
-You can configure the SDK to auto-capture US Driving License the following ways:
-
-##### Swift
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withUSDLAutocapture()
-    ...
-    .build()
-```
-
-##### Objective-C
-
-```Objective-C
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withUSDLAutocapture];
-```
 
 ## Creating checks
 
@@ -852,8 +839,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `3.041`                           |
-| Below 12.2       | up to `3.517`*  or up to `12.288`** |
+| 12.2 and above   | `2.873`                           |
+| Below 12.2       | up to `3.349`*  or up to `12.121`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

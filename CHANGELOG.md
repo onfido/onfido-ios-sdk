@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [13.1.0] - 2019-08-14
+
+### Added
+- Public: Added ability to refresh SDK token when its expired
+
+### Changed
+- UI: When auto capturing a US DL, the transition to manual capture will only happen after 10 seconds of the first document is detected (even if not aligned)
+- UI: Changed document not found pop-up for error bubble on capture confirmation upload
+- Public: US driving license autocapture now default feature.
+
+### Fixed
+- UI: Fixed the not being able to set correct font issue on iOS 13
+- UI: Fix for the separator disappear problem when any document type tapped on iOS 13
+- UI: Fixed the not showing unsupported orientation view for flow intro and selfie intro screens when device in horizontal mode
+- UI: Fixed the crash on liveness head turn challenge screen when head turn animation and tapping next button happened at the same time
+- UI: Fixed liveness intro video player and video reload showing at the same time
+- UI: Error bubble view on capture confirmation view cut off on iPad modal
+
 ## [13.0.0] - 2019-07-17
 
 ### Added
