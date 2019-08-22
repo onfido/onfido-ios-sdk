@@ -31,6 +31,13 @@ These guides below are provided to ease the transition of existing applications 
 
 ## Onfido iOS SDK 13.1.0 Migration Guide
 
+### Strings
+
+The following string keys have been **removed**:
+- `onfido_submit_my_picture`
+
+## Onfido iOS SDK 13.2.0 Migration Guide
+
 ### Removed
 
 - `withUSDLAutocapture` method on OnfidoConfig.

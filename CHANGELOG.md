@@ -6,10 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [13.2.0] - 2019-08-22
+
+### Fixed
+- UI: User has to retake on document capture when no document is found on current capture
+
 ## [13.1.0] - 2019-08-14
 
 ### Added
 - Public: Added ability to refresh SDK token when its expired
+- UI: Added dark mode support for iOS 13. See the https://github.com/onfido/onfido-ios-sdk#ui-customisation page for the details.
 
 ### Changed
 - UI: When auto capturing a US DL, the transition to manual capture will only happen after 10 seconds of the first document is detected (even if not aligned)

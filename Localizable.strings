@@ -82,8 +82,6 @@
 "onfido_confirm_visa" = "My visa is readable";
 "onfido_confirm_generic_document" = "My document is readable";
 
-"onfido_submit_my_picture" = "Submit my picture";
-
 /* Document error */
 
 "onfido_barcode_error_title" = "Barcode must be clear";

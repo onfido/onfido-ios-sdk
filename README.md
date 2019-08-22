@@ -707,7 +707,9 @@ let appearance = Appearance(
               primaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
               secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
               fontRegular: <DESIRED_FONT_NAME_HERE>,
-              fontBold: <DESIRED_FONT_NAME_HERE>))
+              fontBold: <DESIRED_FONT_NAME_HERE>),
+              supportDarkMode: <true | false>))
+
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
 ```
@@ -720,17 +722,39 @@ ONAppearance *appearance = [[ONAppearance alloc]
                                 primaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
                                 secondaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
                                 fontRegular: <DESIRED_FONT_NAME_HERE>
-                                fontBold: <DESIRED_FONT_NAME_HERE>];
+                                fontBold: <DESIRED_FONT_NAME_HERE>
+                                supportDarkMode: <true | false>>]];
+
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
 ```
 
-`primaryColor`: Defines the background color of views such as document type icon and capture confirmation buttons and back navigation button.
-`primaryTitleColor`: Defines the text color of labels included in views such as capture confirmation buttons.
-`primaryBackgroundPressedColor`: Defines the background color of capture confirmation buttons when pressed.
-`secondaryBackgroundPressedColor`: Defines the background color of capture cancel buttons when pressed.
-`fontRegular`: Defines the custom font name for the regular style labels.
-`fontBold`: Defines the custom font name for the bold style labels.
+`primaryColor`: Defines the background color of views such as document type icon and capture confirmation buttons and back navigation button.   
+`primaryTitleColor`: Defines the text color of labels included in views such as capture confirmation buttons.   
+`primaryBackgroundPressedColor`: Defines the background color of capture confirmation buttons when pressed.   
+`secondaryBackgroundPressedColor`: Defines the background color of capture cancel buttons when pressed.   
+`fontRegular`: Defines the custom font name for the regular style labels.   
+`fontBold`: Defines the custom font name for the bold style labels.   
+`supportDarkMode`: Defines if iOS Dark Mode will be supported on SDK screens. The value is true by default. **This property applicable only for Xcode 11 built apps and has effect for the users whose device is running on iOS 13 and above.**
+
+#### Dark Mode only UI customisation
+
+If you just need to change supportDarkMode value, you can use initialiser below:   
+
+##### Swift
+
+```Swift
+let appearance = Appearance(supportDarkMode: <true|false>)
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withAppearance(appearance)
+```
+
+##### Objective-C
+
+```Objective-C
+ONAppearance *appearance = [[ONAppearance alloc] initWithSupportDarkMode:<true|false>];
+
+```
 
 ### Localisation
 
@@ -839,8 +863,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `2.873`                           |
-| Below 12.2       | up to `3.349`*  or up to `12.121`** |
+| 12.2 and above   | `2.875`                           |
+| Below 12.2       | up to `3.351`*  or up to `12.123`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
