@@ -2,6 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-sdk-1320-beta-migration-guide)
+* [Onfido iOS SDK 13.2.0 Migration Guide](#onfido-sdk-1320-migration-guide)
 * [Onfido iOS SDK 13.1.0 Migration Guide](#onfido-sdk-1310-migration-guide)
 * [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-sdk-1300-migration-guide)
 * [Onfido iOS SDK 12.1.0 Migration Guide](#onfido-sdk-1210-migration-guide)
@@ -29,14 +31,38 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
-## Onfido iOS SDK 13.1.0 Migration Guide
+## Onfido iOS SDK 14.0.0-beta Migration Guide
+
+### Requirements
+
+- Xcode 11.0.0 beta 7
+- iOS 10+
+
+### Removed
+
+- iOS 9 support
+- `Onfido-Release` no longer supported
+
+## Onfido iOS SDK 13.2.0 Migration Guide
 
 ### Strings
 
+The following string keys have been **added**:
+- `onfido_autocapture_manual_fallback_title`
+- `onfido_autocapture_manual_fallback_description`
+
+The following string keys have been **updated**:
+- `onfido_message_visa_capture_subtitle` (french only)
+- `onfido_autocapture_manual_fallback_title` (french only)
+- `onfido_autocapture_manual_fallback_description` (french only)
+- `onfido_accessibility_video_play` (french only)
+
 The following string keys have been **removed**:
+- `onfido_autocapture_info`
+- `onfido_press_button_capture`
 - `onfido_submit_my_picture`
 
-## Onfido iOS SDK 13.2.0 Migration Guide
+## Onfido iOS SDK 13.1.0 Migration Guide
 
 ### Removed
 

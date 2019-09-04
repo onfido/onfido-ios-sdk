@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [14.0.0-beta] - 2019-08-29
+
+### changed
+- UI: US driving license autocapture manual capture fallback message now announced in bubble instead of bottom bar view
+
+### Fixed
+- UI: Face capture confirmation now scrolls on when large text used
+
 ## [13.2.0] - 2019-08-22
 
 ### Fixed

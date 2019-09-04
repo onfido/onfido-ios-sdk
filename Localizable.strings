@@ -63,8 +63,8 @@
 
 /* Document autocapture */
 
-"onfido_autocapture_info" = "Your picture will be taken automatically";
-"onfido_press_button_capture" = "Press the button to take a picture";
+"onfido_autocapture_manual_fallback_title" = "Auto-capture is too slow";
+"onfido_autocapture_manual_fallback_description" = "Press button to capture manually";
 
 /* Document capture confirmation */
 

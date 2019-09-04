@@ -17,12 +17,14 @@ final class ViewController: UIViewController {
         
         self.createApplicant { (applicantId, error) in
             
-            guard error == nil else {
-                self.showErrorMessage(forError: error!)
-                return
+            DispatchQueue.main.async {
+                guard error == nil else {
+                    self.showErrorMessage(forError: error!)
+                    return
+                }
+                
+                self.runFlow(forApplicantWithId: applicantId!)
             }
-            
-            self.runFlow(forApplicantWithId: applicantId!)
         }
     }
     
@@ -65,7 +67,7 @@ final class ViewController: UIViewController {
         do {
             
             let onfidoRun = try onfidoFlow.run()
-            onfidoRun.modalPresentationStyle = .formSheet // to present modally
+            onfidoRun.modalPresentationStyle = UIDevice.current.userInterfaceIdiom == .pad ? .formSheet : .fullScreen // to present modally on iPads
             self.present(onfidoRun, animated: true, completion: nil)
             
         } catch let error {
