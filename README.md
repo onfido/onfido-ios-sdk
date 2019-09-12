@@ -39,7 +39,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ## Getting started
 
 * SDK supports iOS 10+
-* SDK supports Xcode 11 beta 7
+* SDK supports Xcode 11.0.0
 
 ### 1. Obtaining an API token
 

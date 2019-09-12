@@ -2,7 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-sdk-1320-beta-migration-guide)
+* [Onfido iOS SDK 14.0.0-rc Migration Guide](#onfido-sdk-1400-rc-migration-guide)
+* [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-sdk-1400-beta-migration-guide)
 * [Onfido iOS SDK 13.2.0 Migration Guide](#onfido-sdk-1320-migration-guide)
 * [Onfido iOS SDK 13.1.0 Migration Guide](#onfido-sdk-1310-migration-guide)
 * [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-sdk-1300-migration-guide)
@@ -30,6 +31,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 14.0.0-rc Migration Guide
+
+### Requirements
+
+- Xcode 11.0.0
 
 ## Onfido iOS SDK 14.0.0-beta Migration Guide
 
