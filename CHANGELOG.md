@@ -11,16 +11,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Public: Carthage support added, please check the [README](https://github.com/onfido/onfido-ios-sdk#using-carthage) for the details.
 
-## [next-version]
+### Changed
+- UI: Liveness pre-recording loader fades out and instructions now fades in. Also "Start recording" slides in from the bottom.
 
 ### Fixed
 - UI: Fixed the UI bug which affects navigation bar in camera screens when integrator uses global appearance customisation for the navigation bar
 - UI: Fixed the issue that causes showing constraint warnings in the console when user goes to the any camera capture screen
 - UI: VoiceOver focuses on back button instead of take new picture on capture confirmation screen when transitioning between photo capture to capture confirmation
 - Public: Fixed Segment SDK crash issues, upgraded Segment SDK version to 3.7.0
-
-### Changed
-- UI: Liveness pre-recording loader fades out and instructions now fades in. Also "Start recording" slides in from the bottom.
 
 ## [14.0.0-rc] - 2019-09-12
 
