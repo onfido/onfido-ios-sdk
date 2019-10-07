@@ -1,6 +1,7 @@
 # Onfido
 
 [![Version](https://img.shields.io/cocoapods/v/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
+[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](http://cocoapods.org/pods/Onfido)
 [![Build Status](https://app.bitrise.io/app/d04e3a422799521b/status.svg?token=vBI0wpdUSfh25wctd1MHfA&branch=master)](https://www.bitrise.io/app/d04e3a422799521b)
 [![License](https://img.shields.io/cocoapods/l/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
 [![Platform](https://img.shields.io/cocoapods/p/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
@@ -169,6 +170,16 @@ pod 'Onfido'
 ```
 
 Run `pod install` to get the sdk.
+
+#### Using Carthage
+
+The SDK is available on Carthage and you can include it in your projects by adding the following to your Cartfile:
+
+```ruby
+binary "https://raw.githubusercontent.com/onfido/onfido-ios-sdk/master/carthage-spec.json"
+```
+
+Run `carthage update` to get the sdk.
 
 #### Manual Installation
 
@@ -863,8 +874,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `2.875`                           |
-| Below 12.2       | up to `3.351`*  or up to `12.123`** |
+| 12.2 and above   | `3.436`                           |
+| Below 12.2       | up to `3.436`*  or up to `12.437`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
