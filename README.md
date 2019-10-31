@@ -44,7 +44,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ### 1. Obtaining an API token
 
-In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
 
 ### 2. Creating an Applicant
 
@@ -176,7 +176,7 @@ Run `pod install` to get the sdk.
 The SDK is available on Carthage and you can include it in your projects by adding the following to your Cartfile:
 
 ```ruby
-binary "https://raw.githubusercontent.com/onfido/onfido-ios-sdk/master/carthage-spec.json"
+binary "https://raw.githubusercontent.com/onfido/onfido-ios-sdk/master/onfido-carthage-spec.json"
 ```
 
 Run `carthage update` to get the sdk.

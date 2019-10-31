@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [15.0.0] - 2019-10-31
+
+### Changed
+
+- UI: Now showing manual capture option on retake when autocapturing US DL
+- UI: Now showing manual capture for US DL when only barcode detected
+- Public: Updated README to explain how to obtain sandbox token
+- Public: Changed carthage spec json file name. Please check the [README](https://github.com/onfido/onfido-ios-sdk#using-carthage) for the details.
+- Public: Now captured images include EXIF meta data.
+
 ## [14.0.0] - 2019-10-07
 
 ### Added
