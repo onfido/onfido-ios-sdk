@@ -662,13 +662,18 @@ if (variantError) {
 
 The document step can be further configured to capture single document types from a specific country. The document types supported are:
 
-- Passport: `DocumentType.passport` (`ONDocumentTypePassport` for Objective-C)
-- Driving Licence: `DocumentType.drivingLicence` (`ONDocumentTypeDrivingLicence` for Objective-C)
-- National Identity Card: `DocumentType.nationalIdentityCard` (`ONDocumentTypeNationalIdentityCard` for Objective-C)
-- Residence Permit: `DocumentType.residencePermit` (`ONDocumentTypeResidencePermit` for Objective-C)
-- Visa: `DocumentType.visa` (`ONDocumentTypeVisa` for Objective-C)
-- Work Permit: `DocumentType.workPermit` (`ONDocumentTypeWorkPermit` for Objective-C)
+- Passport: `DocumentType.passport`
+- Driving Licence: `DocumentType.drivingLicence`
+- National Identity Card: `DocumentType.nationalIdentityCard`
+- Residence Permit: `DocumentType.residencePermit`
+- Visa: `DocumentType.visa`
+- Work Permit: `DocumentType.workPermit`
+- Generic: `DocumentType.generic(config: GenericDocumentConfiguration?)`
 
+**Note**: `Generic` document type doesn't offer an optimised capture experience for a desired document type. If you need to use `Generic` please pass config parameter as nil for now as below:
+```swift
+DocumentType.generic(config: nil)
+```
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
 
 #### Swift
@@ -689,13 +694,17 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
-[configBuilder withDocumentStepOfType:ONDocumentTypeDrivingLicence andCountryCode:@"GBR"];
-NSError *variantError = NULL;
-Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withPhotoCaptureWithConfig: NULL];
-[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &variantError]];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withDrivingLicence];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
+[configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
+NSError * faceVariantError = NULL;
+Builder * faceVariantBuilder = [ONFaceStepVariantConfig builder];
+[faceVariantBuilder withPhotoCaptureWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [faceVariantBuilder buildAndReturnError: &faceVariantError]];
 
-if (variantError) {
+if (faceVariantError || documentVariantError) {
   // Handle variant config error
 } else {
   NSError *configError = NULL;
@@ -874,8 +883,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `3.436`                           |
-| Below 12.2       | up to `3.436`*  or up to `12.437`** |
+| 12.2 and above   | `3.495`                           |
+| Below 12.2       | up to `3.495`*  or up to `12.496`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

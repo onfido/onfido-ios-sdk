@@ -16,6 +16,7 @@
 "onfido_label_doc_type_residence_permit_up" = "Residence Permit Card";
 "onfido_label_doc_type_visa_up" = "Visa";
 "onfido_label_doc_type_work_permit_up" = "Work Permit";
+"onfido_label_doc_type_generic_up" = "Document";
 
 /* Country selection */
 
@@ -90,6 +91,9 @@
 
 "onfido_no_document" = "No document found";
 "onfido_message_validation_error_document" = "Make sure all the document is in the photo";
+
+"onfido_blur_detection_title" = "Blurry photo detected";
+"onfido_blur_detection_subtitle" = "Make sure your details are clear and unobstructed";
 
 /* Face capture intro */
 

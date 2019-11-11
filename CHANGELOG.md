@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [16.0.0] - 2019-11-11
+
+### Added
+
+- Public: New `generic` document type added
+- UI: User now sees blurry photo message when document capture is blurry
+
+### Changed
+
+- Public: Now captured images include EXIF meta data.
+- UI: Now showing manual capture for US DL when only barcode detected
+- UI: Now showing manual capture option on retake when autocapturing US DL
+- Public: Updated README to explain how to obtain sandbox token
+
+### Fixed
+
+- UI: Fixed white background shown on camera capture screens
+- Public: Cocoapods documentation is now pointing to [GitHub README](https://github.com/onfido/onfido-ios-sdk)
+
 ## [15.0.0] - 2019-10-31
 
 ### Changed

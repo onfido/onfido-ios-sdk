@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-sdk-1600-migration-guide)
 * [Onfido iOS SDK 15.0.0 Migration Guide](#onfido-sdk-1500-migration-guide)
 * [Onfido iOS SDK 14.0.0-rc Migration Guide](#onfido-sdk-1400-rc-migration-guide)
 * [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-sdk-1400-beta-migration-guide)
@@ -33,11 +34,53 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 16.0.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_blur_detection_title`
+- `onfido_blur_detection_subtitle`
+
 ## Onfido iOS SDK 15.0.0 Migration Guide
 
 ### Changed
 
 - Carthage json file name was changed. Please check the [README](https://github.com/onfido/onfido-ios-sdk#using-carthage) for the details.
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_label_doc_type_generic_up`
+
+### Breaking API changes
+
+- New document type added: `generic`
+
+- The way to configure SDK for document types has been changed for Objective-C Interface
+
+Driving Licence (United Kingdom) document capture:
+
+```
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withDrivingLicence];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
+[configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
+```
+
+
+Generic (United Kingdom) document capture:
+
+```
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withGenericWithConfig: NULL];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
+[configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
+```
 
 ## Onfido iOS SDK 14.0.0-rc Migration Guide
 
