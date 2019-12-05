@@ -2,25 +2,26 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-sdk-1600-migration-guide)
-* [Onfido iOS SDK 15.0.0 Migration Guide](#onfido-sdk-1500-migration-guide)
-* [Onfido iOS SDK 14.0.0-rc Migration Guide](#onfido-sdk-1400-rc-migration-guide)
-* [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-sdk-1400-beta-migration-guide)
-* [Onfido iOS SDK 13.2.0 Migration Guide](#onfido-sdk-1320-migration-guide)
-* [Onfido iOS SDK 13.1.0 Migration Guide](#onfido-sdk-1310-migration-guide)
-* [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-sdk-1300-migration-guide)
-* [Onfido iOS SDK 12.1.0 Migration Guide](#onfido-sdk-1210-migration-guide)
-* [Onfido iOS SDK 12.0.0 Migration Guide](#onfido-sdk-1200-migration-guide)
-* [Onfido iOS SDK 11.1.2 Migration Guide](#onfido-sdk-1112-migration-guide)
-* [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-sdk-1110-migration-guide)
-* [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-sdk-1100-migration-guide)
-* [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-sdk-1060-migration-guide)
-* [Onfido iOS SDK 10.5.0 Migration Guide](#onfido-sdk-1050-migration-guide)
-* [Onfido iOS SDK 10.4.0 Migration Guide](#onfido-sdk-1040-migration-guide)
-* [Onfido iOS SDK 10.3.0 Migration Guide](#onfido-sdk-1030-migration-guide)
-* [Onfido iOS SDK 10.2.0 Migration Guide](#onfido-sdk-1020-migration-guide)
-* [Onfido iOS SDK 10.1.0 Migration Guide](#onfido-sdk-1010-migration-guide)
-* [Onfido iOS SDK 10.0.0 Migration Guide](#onfido-sdk-1000-migration-guide)
+* [Onfido iOS SDK 16.1.0 Migration Guide](#onfido-ios-sdk-1610-migration-guide)
+* [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-ios-sdk-1600-migration-guide)
+* [Onfido iOS SDK 15.0.0 Migration Guide](#onfido-ios-sdk-1500-migration-guide)
+* [Onfido iOS SDK 14.0.0-rc Migration Guide](#onfido-ios-sdk-1400-rc-migration-guide)
+* [Onfido iOS SDK 14.0.0-beta Migration Guide](#onfido-ios-sdk-1400-beta-migration-guide)
+* [Onfido iOS SDK 13.2.0 Migration Guide](#onfido-ios-sdk-1320-migration-guide)
+* [Onfido iOS SDK 13.1.0 Migration Guide](#onfido-ios-sdk-1310-migration-guide)
+* [Onfido iOS SDK 13.0.0 Migration Guide](#onfido-ios-sdk-1300-migration-guide)
+* [Onfido iOS SDK 12.1.0 Migration Guide](#onfido-ios-sdk-1210-migration-guide)
+* [Onfido iOS SDK 12.0.0 Migration Guide](#onfido-ios-sdk-1200-migration-guide)
+* [Onfido iOS SDK 11.1.2 Migration Guide](#onfido-ios-sdk-1112-migration-guide)
+* [Onfido iOS SDK 11.1.0 Migration Guide](#onfido-ios-sdk-1110-migration-guide)
+* [Onfido iOS SDK 11.0.0 Migration Guide](#onfido-ios-sdk-1100-migration-guide)
+* [Onfido iOS SDK 10.6.0 Migration Guide](#onfido-ios-sdk-1060-migration-guide)
+* [Onfido iOS SDK 10.5.0 Migration Guide](#onfido-ios-sdk-1050-migration-guide)
+* [Onfido iOS SDK 10.4.0 Migration Guide](#onfido-ios-sdk-1040-migration-guide)
+* [Onfido iOS SDK 10.3.0 Migration Guide](#onfido-ios-sdk-1030-migration-guide)
+* [Onfido iOS SDK 10.2.0 Migration Guide](#onfido-ios-sdk-1020-migration-guide)
+* [Onfido iOS SDK 10.1.0 Migration Guide](#onfido-ios-sdk-1010-migration-guide)
+* [Onfido iOS SDK 10.0.0 Migration Guide](#onfido-ios-sdk-1000-migration-guide)
 * [Onfido iOS SDK 9.0.0 Migration Guide](#onfido-sdk-900-migration-guide)
 * [Onfido iOS SDK 8.0.0 Migration Guide](#onfido-sdk-800-migration-guide)
 * [Onfido iOS SDK 7.2.0 Migration Guide](#onfido-sdk-720-migration-guide)
@@ -34,6 +35,25 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 16.1.0 Migration Guide
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_italian_id_capture_title`
+- `onfido_french_driving_license_capture_title`
+- `onfido_folded_paper_option`
+- `onfido_plastic_card_option`
+- `onfido_driving_license_type_selection_title`
+- `onfido_national_identity_type_selection_title`
+- `onfido_folded_paper_front_capture_title`
+- `onfido_folded_paper_front_capture_subtitle`
+- `onfido_folded_paper_back_capture_title`
+- `onfido_folded_paper_back_capture_subtitle`
+- `onfido_folded_paper_confirmation_title`
+- `onfido_upload_photo`
+- `onfido_retake_photo`
+
 ## Onfido iOS SDK 16.0.0 Migration Guide
 
 ### Strings
@@ -41,17 +61,12 @@ These guides below are provided to ease the transition of existing applications 
 The following string keys have been **added**:
 - `onfido_blur_detection_title`
 - `onfido_blur_detection_subtitle`
-
-## Onfido iOS SDK 15.0.0 Migration Guide
-
-### Changed
-
-- Carthage json file name was changed. Please check the [README](https://github.com/onfido/onfido-ios-sdk#using-carthage) for the details.
-
-### Strings
-
-The following string keys have been **added**:
 - `onfido_label_doc_type_generic_up`
+- `onfido_mrz_not_detected_title`
+- `onfido_mrz_not_detected_subtitle`
+- `onfido_face_not_detected_title`
+- `onfido_face_not_detected_subtitle`
+- `onfido_face_not_detected_subtitle_folded_paper_document`
 
 ### Breaking API changes
 
@@ -64,9 +79,9 @@ Driving Licence (United Kingdom) document capture:
 ```
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 NSError *documentVariantError = NULL;
-DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+DocumentConfigBuilder *documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
 [documentVariantBuilder withDrivingLicence];
-ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
+ONDocumentTypeVariantConfig *documentStepVariant = [documentVariantBuilder buildAndReturnError: &documentVariantError];
 [configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
 ```
 
@@ -76,11 +91,17 @@ Generic (United Kingdom) document capture:
 ```
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 NSError *documentVariantError = NULL;
-DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+DocumentConfigBuilder *documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
 [documentVariantBuilder withGenericWithConfig: NULL];
-ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
+ONDocumentTypeVariantConfig *documentStepVariant = [documentVariantBuilder buildAndReturnError: &documentVariantError];
 [configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
 ```
+
+## Onfido iOS SDK 15.0.0 Migration Guide
+
+### Changed
+
+- Carthage json file name was changed. Please check the [README](https://github.com/onfido/onfido-ios-sdk#using-carthage) for the details.
 
 ## Onfido iOS SDK 14.0.0-rc Migration Guide
 

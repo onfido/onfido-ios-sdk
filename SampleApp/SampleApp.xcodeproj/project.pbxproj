@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41740422EA18B24755BDB58A /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A146A38A1E203A16E99F4 /* Pods_SampleApp.framework */; };
 		7F66BC611E71CF3900FA0A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66BC601E71CF3900FA0A11 /* AppDelegate.swift */; };
 		7F66BC631E71CF3900FA0A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66BC621E71CF3900FA0A11 /* ViewController.swift */; };
 		7F66BC661E71CF3900FA0A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66BC641E71CF3900FA0A11 /* Main.storyboard */; };
 		7F66BC681E71CF3900FA0A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F66BC671E71CF3900FA0A11 /* Assets.xcassets */; };
 		7F66BC6B1E71CF3900FA0A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66BC691E71CF3900FA0A11 /* LaunchScreen.storyboard */; };
+		9EBF349CCA887CF02ACE4CE0 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED4AAED3EA1CEF256CA589A /* Pods_SampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0349FE2E88D5933C9A7CBB1E /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		0ED4AAED3EA1CEF256CA589A /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160572EC926B469DD8392192 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7F66BC5D1E71CF3900FA0A11 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F66BC601E71CF3900FA0A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		7F66BC671E71CF3900FA0A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F66BC6A1E71CF3900FA0A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F66BC6C1E71CF3900FA0A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B8A146A38A1E203A16E99F4 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41740422EA18B24755BDB58A /* Pods_SampleApp.framework in Frameworks */,
+				9EBF349CCA887CF02ACE4CE0 /* Pods_SampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		B1907FA818D028CB30C49FA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B8A146A38A1E203A16E99F4 /* Pods_SampleApp.framework */,
+				0ED4AAED3EA1CEF256CA589A /* Pods_SampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,7 +333,7 @@
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -348,7 +348,7 @@
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

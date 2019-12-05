@@ -1,13 +1,9 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'SampleAppObjC' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   use_frameworks!
-
   # Pods for SampleAppObjC
-  pod 'Onfido', :configurations => ['Debug']
-  pod 'Onfido-Release', :configurations => ['Release']
-  pod 'AFNetworking', '~> 3.1'
-  pod 'MBProgressHUD'
+  pod 'Onfido'
 end

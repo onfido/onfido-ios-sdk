@@ -62,6 +62,25 @@
 "onfido_glare_detected_title" = "Glare is detected";
 "onfido_glare_detected_subtitle" = "Try moving away from direct light";
 
+/* Folded paper document capture */
+
+"onfido_italian_id_capture_title" = "Italian identity card";
+"onfido_french_driving_license_capture_title" = "French driver's license";
+"onfido_folded_paper_option" = "Folded Paper";
+"onfido_plastic_card_option" = "Plastic Card";
+"onfido_driving_license_type_selection_title" = "What type of license do you have?";
+"onfido_national_identity_type_selection_title" = "What type of identity card do you have?";
+"onfido_folded_paper_front_capture_title" = "Profile photo side";
+"onfido_folded_paper_front_capture_subtitle" = "Lay your document flat, include all inner pages (must contain your photo)";
+"onfido_folded_paper_back_capture_title" = "Outer pages";
+"onfido_folded_paper_back_capture_subtitle" = "Lay your document flat, include all outer pages";
+
+/* Folded paper document confirmation */
+
+"onfido_folded_paper_confirmation_title" = "Make sure your document is fully unfolded and the photo is clear";
+"onfido_upload_photo" = "Upload photo";
+"onfido_retake_photo" = "Retake photo";
+
 /* Document autocapture */
 
 "onfido_autocapture_manual_fallback_title" = "Auto-capture is too slow";
@@ -83,6 +102,9 @@
 "onfido_confirm_visa" = "My visa is readable";
 "onfido_confirm_generic_document" = "My document is readable";
 
+"onfido_mrz_not_detected_title" = "Bottom two lines not visible";
+"onfido_mrz_not_detected_subtitle" = "Make sure base of document is unobstructed";
+
 /* Document error */
 
 "onfido_barcode_error_title" = "Barcode must be clear";
@@ -94,6 +116,10 @@
 
 "onfido_blur_detection_title" = "Blurry photo detected";
 "onfido_blur_detection_subtitle" = "Make sure your details are clear and unobstructed";
+
+"onfido_face_not_detected_title" = "Face not detected";
+"onfido_face_not_detected_subtitle" = "Make sure your face is visible";
+"onfido_face_not_detected_subtitle_folded_paper_document" = "Lay your document flat to show the inside pages containing your photo";
 
 /* Face capture intro */
 
@@ -184,7 +210,7 @@
 "onfido_finish_recording" = "Finish recording";
 "onfido_start" = "Start";
 "onfido_message_loading" = "Loading";
-"onfido_accessibility_liveness_video_example" = "Example video showing how to record a selfie video";
+"onfido_accessibility_liveness_video_example" = "To record a selfie video, face the front camera and keep your phone slightly away from your face. You\'ll then need to recite some numbers and turn your head according to the instructions on screen";
 "onfido_message_uploading" = "Uploading";
 "onfido_accessibility_liveness_face_detected" = "Face detected";
 "onfido_accessibility_video_pause" = "Pause video";
