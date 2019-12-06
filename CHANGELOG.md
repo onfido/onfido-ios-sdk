@@ -6,25 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [16.1.0] - 2019-12-05
-
-### Added
-
-- UI: User can choose to capture folded paper documents for French driving license and italian identity document
-- UI: Now checking face is in document captured when document must contain face
-- UI: Now showing error message when passport MRZ is cut off in captured image
-- Public: Now changing document capture frame ratio for folded paper documents and showing document template for 4 seconds
-- Public: Now showing passport template when user selects passport capture
-
-### Changed
-
-- UI: Changed voiceover message when it focuses on the liveness intro video
-
-### Fixed
-
-- Public: Now both swift and objective-c version of SampleApps are consistent and up-to-dated.
-- UI: Fixed photo post capture error bubble view not scaling with user defined font scale
-
 ## [16.0.0] - 2019-11-11
 
 ### Added

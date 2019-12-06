@@ -41,9 +41,6 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 * SDK supports iOS 10+
 * SDK supports Xcode 11.0.0
-* SDK supports following presentation styles:
-  - Only full screen style for iPhones
-  - Full screen and form sheet styles for iPads
 
 ### 1. Obtaining an API token
 
@@ -886,8 +883,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `3.658`                           |
-| Below 12.2       | up to `3.658`*  or up to `12.66`** |
+| 12.2 and above   | `3.495`                           |
+| Below 12.2       | up to `3.495`*  or up to `12.496`** |
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

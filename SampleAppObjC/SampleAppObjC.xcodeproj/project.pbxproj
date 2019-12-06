@@ -195,10 +195,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SampleAppObjC/Pods-SampleAppObjC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${PODS_ROOT}/Onfido/Onfido.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onfido.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,9 +360,9 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2X946JA9UV;
 				INFOPLIST_FILE = SampleAppObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppObjC/SampleAppObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -377,9 +381,9 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2X946JA9UV;
 				INFOPLIST_FILE = SampleAppObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onfido.SampleAppObjC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppObjC/SampleAppObjC-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

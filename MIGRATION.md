@@ -2,7 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 16.1.0 Migration Guide](#onfido-ios-sdk-1610-migration-guide)
+* [next-version]
 * [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-ios-sdk-1600-migration-guide)
 * [Onfido iOS SDK 15.0.0 Migration Guide](#onfido-ios-sdk-1500-migration-guide)
 * [Onfido iOS SDK 14.0.0-rc Migration Guide](#onfido-ios-sdk-1400-rc-migration-guide)
@@ -35,7 +35,7 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
-## Onfido iOS SDK 16.1.0 Migration Guide
+## [next-version]
 
 ### Strings
 
@@ -79,9 +79,9 @@ Driving Licence (United Kingdom) document capture:
 ```
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 NSError *documentVariantError = NULL;
-DocumentConfigBuilder *documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
 [documentVariantBuilder withDrivingLicence];
-ONDocumentTypeVariantConfig *documentStepVariant = [documentVariantBuilder buildAndReturnError: &documentVariantError];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
 [configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
 ```
 
@@ -91,9 +91,9 @@ Generic (United Kingdom) document capture:
 ```
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 NSError *documentVariantError = NULL;
-DocumentConfigBuilder *documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
 [documentVariantBuilder withGenericWithConfig: NULL];
-ONDocumentTypeVariantConfig *documentStepVariant = [documentVariantBuilder buildAndReturnError: &documentVariantError];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: error];
 [configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
 ```
 
