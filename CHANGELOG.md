@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [0.0.81] - 2020-01-21
+
+### Changed
+
+- UI: Now only detecting glare on rectangles of ID1 size on US DL autocapture
+- Public: Updated bubble view design and updated barcode not readable copy
+- UI: Selfie oval now same as liveness oval size
+- UI: Updated flow intro screen user interface
+- Public: Updated mrz not detected error copy
+
+### Fixed
+
+- Public: Fixed folded paper document on back capture loading lag issue
+- UI: Fixed selfie capture text truncated when large text size used
+
+## [16.1.1] - 2019-12-17 - [enterprise]
+
+### Fixed
+
+- UI: Fixed liveness intro video play error on static SDK
+
 ## [16.1.0] - 2019-12-05
 
 ### Added
