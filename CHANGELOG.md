@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [16.2.0] - 2020-02-24
+
+### Changed
+
+- UI: Now showing next or finish recording button with 3 second delay on recite digit challenge view when head turn detection available
+
+### Fixed
+
+- UI: Fixed flow early exit on document upload double tap
+
+## [16.1.1] - 2019-12-17 - [enterprise]
+
+### Fixed
+
+- UI: Fixed liveness intro video play error on static SDK
+
 ## [16.1.0] - 2019-12-05
 
 ### Added
