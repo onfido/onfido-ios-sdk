@@ -29,16 +29,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Changed 'mobile sdk token' expression with 'mobile token' on README to prevent confusion
 - UI: Now running selfie capture validation on device instead of back-end
 - UI: Now showing selfie capture post upload errors in bubble view instead of using pop-ups
-- UI: Now showing next or finish recording button with 3 second delay on recite digit challenge view when head turn detection available
 - : Now loading selfie intro screen purely from code; Removed Xib file
 
 ### Fixed
 
-- UI: Fixed flow early exit on document upload double tap
 - Public: Fixed folded paper document on back capture loading lag issue
 - UI: Fixed selfie capture text truncated when large text size used
 - UI: Fixed Arabic country name endonyms
 - Public: Fixed warning about missing umbrella header (https://github.com/onfido/onfido-ios-sdk/issues/131)
+
+## [16.2.0] - 2020-02-24
+
+### Changed
+
+- UI: Now showing next or finish recording button with 3 second delay on recite digit challenge view when head turn detection available
+
+### Fixed
+
+- UI: Fixed flow early exit on document upload double tap
 
 ## [16.1.1] - 2019-12-17 - [enterprise]
 
