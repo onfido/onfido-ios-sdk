@@ -6,6 +6,38 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [17.0.0] - 2020-02-27
+
+### Added
+
+- Public: Added certificate pinning support. See https://github.com/onfido/onfido-ios-sdk#certificate-pinning for the details.
+
+### Changed
+
+- UI: Now using grey Onfido logo with higher contrast for accessibility
+- Public: Now using [API v3](https://documentation.onfido.com/v3/) for communication with the backend.
+- UI: Now only detecting glare on rectangles of ID1 size on US DL autocapture
+- UI: Now auto capturing non-blurry US DL only
+- Public: Updated bubble view design and updated barcode not readable copy
+- Public: Removed deprecated withApplicant() function from public API. Please check [migration document]("https://github.com/onfido/onfido-ios-sdk/blob/master/MIGRATION.md") to understand what needs to be done.
+- UI: Updated liveness capture head turn challenge design
+- Public: Updated code snippets and descriptions about API v2 with API v3 in README.
+- UI: Selfie oval now same as liveness oval size
+- Public: Updated README to include bitcode support information
+- UI: Updated flow intro screen user interface
+- Public: Updated mrz not detected error copy
+- Public: Changed 'mobile sdk token' expression with 'mobile token' on README to prevent confusion
+- UI: Now running selfie capture validation on device instead of back-end
+- UI: Now showing selfie capture post upload errors in bubble view instead of using pop-ups
+- UI: Now loading selfie intro screen purely from code; Removed Xib file
+
+### Fixed
+
+- Public: Fixed folded paper document on back capture loading lag issue
+- UI: Fixed selfie capture text truncated when large text size used
+- UI: Fixed Arabic country name endonyms
+- Public: Fixed warning about missing umbrella header (https://github.com/onfido/onfido-ios-sdk/issues/131)
+
 ## [16.2.0] - 2020-02-24
 
 ### Changed
