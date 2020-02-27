@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Changed 'mobile sdk token' expression with 'mobile token' on README to prevent confusion
 - UI: Now running selfie capture validation on device instead of back-end
 - UI: Now showing selfie capture post upload errors in bubble view instead of using pop-ups
-- : Now loading selfie intro screen purely from code; Removed Xib file
+- UI: Now loading selfie intro screen purely from code; Removed Xib file
 
 ### Fixed
 
