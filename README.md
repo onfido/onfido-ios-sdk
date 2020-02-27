@@ -21,6 +21,7 @@
 *   [Creating checks](#creating-checks)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
+*   [Security](#security)
 *   [Licensing](#licensing)
 *   [More information](#more-information)
 
@@ -41,6 +42,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 * SDK supports iOS 10+
 * SDK supports Xcode 11.0.0
+* SDK has full bitcode support
 * SDK supports following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
@@ -58,13 +60,15 @@ For a document or face check the minimum applicant details required are `firstNa
 You must create applicants from your server:
 
 ```shell
-$ curl https://api.onfido.com/v2/applicants \
+$ curl https://api.onfido.com/v3/applicants \
     -H 'Authorization: Token token=YOUR_API_TOKEN' \
     -d 'first_name=Theresa' \
     -d 'last_name=May'
 ```
 
 The JSON response has an `id` field containing a UUID that identifies the applicant. You will pass the applicant ID to the SDK and all documents or live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
+
+**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#applicant-creation) to understand which changes need to be applied before starting to use API v3.
 
 ### 3. Configuring SDK with Tokens
 
@@ -82,7 +86,7 @@ You will need to generate and include a short-lived JSON Web Token (JWT) every t
 To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
 
 ```
-$ curl https://api.onfido.com/v2/sdk_token \
+$ curl https://api.onfido.com/v3/sdk_token \
   -H 'Authorization: Token token=YOUR_API_TOKEN' \
   -F 'applicant_id=YOUR_APPLICANT_ID' \
   -F 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
@@ -91,6 +95,8 @@ $ curl https://api.onfido.com/v2/sdk_token \
 Make a note of the token value in the response, as you will need it later on when initialising the SDK.
 
 **Warning:** SDK tokens expire 90 minutes after creation. So SDK token configurator function has an optional parameter called `expireHandler` which can be used to generate and pass SDK token when it expires. By this means, with using this parameter you can ensure that SDK will continue its flow even after SDK token has expired.
+
+**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide) to understand which changes need to be applied before starting to use API v3.
 
 ##### Example Usage
 
@@ -127,9 +133,9 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 **Note:**  Mobile token usage is still supported, but it **will be deprecated** in the future. If you are starting a project, we would strongly recommend that you use SDK tokens instead.
 
-In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+In order to start integration, you will need the **API token** and the **mobile token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
-**Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
+**Warning:** You **MUST** use the **mobile token** and not the **API token** when configuring the SDK itself.
 
 ##### Example Usage
 
@@ -350,36 +356,13 @@ Success is when the user has reached the end of the flow.
 
 `[OnfidoResult]` is a list with multiple results. The results are different enum values, each with its own associated value (also known as payload). This enum, `OnfidoResult`, can have the following values:
 
-1.  (Deprecated) `OnfidoResult.applicant`: In order to create a check after the flow, you want to look into its payload to find the applicant id. Only with this id you can create the check.
-2.  `OnfidoResult.document` and `OnfidoResult.face`: Its payload is relevant in case you want to manipulate or preview the captures in someway.
+1.  `OnfidoResult.document` and `OnfidoResult.face`: Its payload is relevant in case you want to manipulate or preview the captures in someway.
 
 Keep reading to find out how to extract the payload of each `OnfidoResult` enum value.
 
 #### Objective-C
 
-`[ONFlowResult]` is a list with multiple results. The result is an instance of `ONFlowResult` containing two properties: `type`, which is an enum with values `ONFlowResultTypeDocument`, `ONFlowResultTypeFace` and `ONFlowResultTypeApplicant`, and `result`, which instance type can be of `ONApplicantResult`, `ONDocumentResult` or `ONFaceResult`. The result type can be derived by the `type` property.
-
-#### (Deprecated) Applicant result payload
-
-How to handle an applicant result:
-
-```swift
-let applicant: Optional<OnfidoResult> = results.filter({ result in
-  if case OnfidoResult.applicant = result { return true }
-  return false
-}).first
-
-if let applicantUnwrapped = applicant, case OnfidoResult.applicant(let applicantResult) = applicantUnwrapped {
-    /* applicantResult
-     Onfido api response to the creation of the applicant
-     More details: https://documentation.onfido.com/#create-applicant
-     */
-    print(applicantResult.id)
-    // At this point you have all the necessary information to create a check
-}
-```
-
-You need the applicant ID to create a check, see [Creating checks](#creating-checks).
+`[ONFlowResult]` is a list with multiple results. The result is an instance of `ONFlowResult` containing two properties: `type`, which is an enum with values `ONFlowResultTypeDocument`, `ONFlowResultTypeFace`, and `result`, which instance type can be of `ONDocumentResult` or `ONFaceResult`. The result type can be derived by the `type` property.
 
 #### Capture result payload
 
@@ -547,7 +530,7 @@ if (runError) {
 
 The following are required when configuring the Onfido iOS SDK:
 
-- Mobile SDK token
+- Mobile token
 - Applicant
 - At least one capture step
 
@@ -556,7 +539,6 @@ Otherwise you may encounter the following errors when calling the `build()` func
 - `OnfidoConfigError.missingToken` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no or empty string token is provided
 - `OnfidoConfigError.missingApplicant` (`ONFlowConfigErrorMissingApplicant` in Objective-C), when no applicant instance is provided
 - `OnfidoConfigError.missingSteps` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no step is provided
-- `OnfidoConfigError.multipleApplicants` (`ONFlowConfigErrorMultipleApplicants` in Objective-C), when both an applicant and an applicantId are provided
 - `OnfidoConfigError.multipleTokenTypes` (`ONFlowConfigErrorMultipleTokenTypes` in Objective-C), when both an SDK Token and a Mobile Tokens are provided
 - `OnfidoConfigError.applicantProvidedWithSDKToken` (`ONFlowConfigErrorApplicantProvidedWithSDKToken` in Objective-C), when both an SDK Token and an applicant provided
 
@@ -846,21 +828,19 @@ As the SDK is only responsible for capturing and uploading photos/videos, you wo
 
 ### 1. Obtaining an API token
 
-All API requests must be made with an API token included in the request headers. You can find your API token (not to be mistaken with the mobile SDK token) inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+All API requests must be made with an API token included in the request headers. You can find your API token (not to be mistaken with the mobile token) inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
 Refer to the [Authentication](https://documentation.onfido.com/#authentication) section in the API documentation for details. For testing, you should be using the sandbox, and not the live, token.
 
 ### 2. Creating a check
 
-You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding variants: `standard` for the photo option and `video` for the video option.
+You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
 
 ```shell
-$ curl https://api.onfido.com/v2/applicants/YOUR_APPLICANT_ID/checks \
+$ curl https://api.onfido.com/v3/checks \
     -H 'Authorization: Token token=YOUR_API_TOKEN' \
-    -d 'type=express' \
-    -d 'reports[][name]=document' \
-    -d 'reports[][name]=facial_similarity' \
-    -d 'reports[][variant]=standard'
+    -d 'applicant_id=YOUR_APPLICANT_ID' \
+    -d 'report_names=[document,facial_similarity_photo]'
 ```
 
 Note: you can also submit the POST request in JSON format.
@@ -869,13 +849,15 @@ You will receive a response containing the check id instantly. As document and f
 
 Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
 
+**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) to understand which changes need to be applied before starting to use API v3.
+
 ### 3. Setting up webhooks
 
 Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in the API documentation for details.
 
 ## Going live
 
-Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile SDK token. You will have to replace the sandbox tokens in your code with the live tokens.
+Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile token. You will have to replace the sandbox tokens in your code with the live tokens.
 
 A few things to check before you go live:
 
@@ -886,8 +868,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | `3.661`                           |
-| Below 12.2       | up to `3.661`*  or up to `12.663`** |
+| 12.2 and above   | 3.628|
+| Below 12.2       | up to 3.628* or up to 12.63**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -896,6 +878,69 @@ A few things to check before you go live:
 
 **Note**: These calculations was performed based on a single application architecture
 
+## Security
+
+This section is dedicated to every security aspect of the SDK
+
+### Certificate Pinning
+
+**Note**: Certificate pinning works only on devices running on iOS 10.3 or above.
+
+We provide integrators the ability to pin any communications between our SDK and server, through a .withCertificatePinning() method in our OnfidoConfig.Builder configuration builder. This method accepts as parameter an CertificatePinningConfiguration with sha-256 hashes of certificate's public keys.
+In case you are interested in using this feature, for more information about the hashes, please reach out to us at ios-sdk@onfido.com.
+
+#### Swift
+
+```swift
+    let config = try! OnfidoConfig.builder()
+    ...
+    do {
+      config.withCertificatePinning(try CertificatePinningConfiguration(hashes: ["EXAMPLE_HASH"]))
+    } catch {
+      // handle CertificatePinningConfiguration initialisation failures. i.e Providing empty array causes initialiser to be failed.
+    }
+    ...
+    configBuilder.build()
+```
+
+#### Objective-C
+
+```Objective-C
+    ONFlowConfigBuilder * builder = [ONFlowConfig builder];
+    ...
+    NSError * error = NULL;
+    ONCertificatePinningConfiguration * pinningConf = [[ONCertificatePinningConfiguration alloc] initWithHashes: @[@"EXAMPLE_HASH"] error: &error]];
+    if(error != NULL) {
+      // handle ONCertificatePinningConfiguration initialisation failures. i.e Providing empty array causes initialiser to be failed.
+
+    }
+    [builder withCertificatePinningConfiguration: pinningConf];
+
+    ...
+```
+
+#### Handling Certificate Pinning Error
+
+If you want to identify certificate pinning error from others, check `message` property of returned OnfidoFlowError.exception object, which should be `invalid_certificate` for certificate pinning related errors.  
+
+```
+let responseHandler: (OnfidoResponse) -> Void = { response in
+  switch response {
+    case let .error(error):
+        // Some error happened
+        if case OnfidoFlowError.exception(withError: _, withMessage: let optionalMessage) = error, let message = optionalMessage {
+            if message == "invalid_certificate" {
+                // HANDLE INVALID CERTIFICATE CASE HERE
+            }
+        }        
+    case let .success(results):
+        // User completed the flow
+        // You can create your check here
+    case .cancel:
+        // Flow cancelled by the user
+  }
+}
+```
 ## Migrating
 
 You can find the migration guide at [MIGRATION.md](MIGRATION.md) file

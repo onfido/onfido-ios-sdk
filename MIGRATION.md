@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 17.0.0 Migration Guide](#onfido-ios-sdk-1700-migration-guide)
 * [Onfido iOS SDK 16.1.0 Migration Guide](#onfido-ios-sdk-1610-migration-guide)
 * [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-ios-sdk-1600-migration-guide)
 * [Onfido iOS SDK 15.0.0 Migration Guide](#onfido-ios-sdk-1500-migration-guide)
@@ -34,6 +35,40 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 17.0.0 Migration Guide
+
+### Breaking API changes
+
+-  The deprecated `withApplicant()` function has been **removed**.
+ If you're using `withApplicant()` function to create an applicant, please refer to [README]("https://github.com/onfido/onfido-ios-sdk/blob/17.0.0/README.md#2-creating-an-applicant") to understand how to create an applicant. Once you created it, use `withApplicantId` function to pass `id` value of applicant.
+
+ - Following with `withApplicant()` function removal, `OnfidoConfigError.multipleApplicants` and `ONFlowResultType.applicant` enum cases have been **removed**.
+
+ **Note**: This change doesn't affect the integrators who use SDK token (`withSDKToken()`) to configure the SDK as applicant creation happens before SDK token generation.
+
+### Strings
+
+The following string keys have been **added**:
+- `onfido_flow_intro_summary_photo_capture_steps`
+- `onfido_flow_intro_summary_photo_video_capture_steps`
+- `onfido_flow_intro_summary_button_document_step`
+- `onfido_capture_face_title`
+- `onfido_liveness_intro_title`
+- `onfido_liveness_challenge_turn_face_forward`
+
+The following string keys have been **changed**:
+- `onfido_welcome_view_document_capture_title`
+- `onfido_welcome_view_face_capture_title`
+- `onfido_welcome_view_liveness_capture_title`
+- `onfido_mrz_not_detected_subtitle`
+- `onfido_barcode_error_title`
+- `onfido_barcode_error_subtitle`
+- `onfido_liveness_challenge_turn_right_title`
+- `onfido_liveness_challenge_turn_left_title`
+
+The following string keys have been **removed**:
+- `onfido_barcode_error_third_title`
 
 ## Onfido iOS SDK 16.1.0 Migration Guide
 
