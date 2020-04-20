@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.0.0] - 2020-04-14
+
+### Added
+
+- Public: Added German as supported language
+- Public: Added document format option for document capture step. Also changed the way to configure document capture step. Please check [README]('https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration') for the details
+- Public: Added integrator defined event hook to allow integrators to collect user analytics
+- UI: Added icon to differentiate document back capture from front capture
+
+### Changed
+
+- UI: Now showing play pause button on liveness intro without delay
+- UI: Now allowing user to proceed during selfie capture process on simulator
+
+### Fixed
+
+- Public: Fixed the Localizable.strings not updated problem.[See]('https://github.com/onfido/onfido-ios-sdk/issues/144')
+- UI: Fixed missing right margin issue on selfie intro screen
+- UI: Fixed alert text cut off in some scenarios
+- UI: Fixed the text cut-off issue on liveness capture screen
+
 ## [17.0.0] - 2020-02-27
 
 ### Added
