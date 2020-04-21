@@ -19,9 +19,11 @@
     *   [Localisation](#localisation)
     *   [Language customisation](#language-customisation)
 *   [Creating checks](#creating-checks)
+*   [User Analytics](#user-analytics)
 *   [Going live](#going-live)
 *   [Migrating](#migrating)
 *   [Security](#security)
+*   [Accessibility](#accessibility)
 *   [Licensing](#licensing)
 *   [More information](#more-information)
 
@@ -541,6 +543,7 @@ Otherwise you may encounter the following errors when calling the `build()` func
 - `OnfidoConfigError.missingSteps` (`ONFlowConfigErrorMissingSteps` in Objective-C), when no step is provided
 - `OnfidoConfigError.multipleTokenTypes` (`ONFlowConfigErrorMultipleTokenTypes` in Objective-C), when both an SDK Token and a Mobile Tokens are provided
 - `OnfidoConfigError.applicantProvidedWithSDKToken` (`ONFlowConfigErrorApplicantProvidedWithSDKToken` in Objective-C), when both an SDK Token and an applicant provided
+- `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` (`ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination` in Objective-C), when unsupported document format for the specified country provided. See [Document Type Configuration](#document-type-configuration) section to check supported combinations.
 
 ## Customising SDK
 
@@ -645,51 +648,113 @@ if (variantError) {
 }
 ```
 
-The document step can be further configured to capture single document types from a specific country. The document types supported are:
+The document step can be further configured to capture single document types with specific configuration. The document types supported are:
 
-- Passport: `DocumentType.passport`
-- Driving Licence: `DocumentType.drivingLicence`
-- National Identity Card: `DocumentType.nationalIdentityCard`
-- Residence Permit: `DocumentType.residencePermit`
-- Visa: `DocumentType.visa`
-- Work Permit: `DocumentType.workPermit`
-- Generic: `DocumentType.generic(config: GenericDocumentConfiguration?)`
+| Document Type        | Configuration Class           | Configurable Properties    |
+|----------------------|-------------------------------|----------------------------|
+| passport             | PassportConfiguration         |                            |
+| drivingLicence       | DrivingLicenceConfiguration   | - country<br> - documentFormat |
+| nationalIdentityCard | NationalIdentityConfiguration | - country<br> - documentFormat |
+| residencePermit      | ResidencePermitConfiguration  | - country                  |
+| visa                 | VisaConfiguration             | - country                  |
+| workPermit           | WorkPermitConfiguration       | - country                  |
+| generic              | GenericDocumentConfiguration  | - country                  |
 
-**Note**: `Generic` document type doesn't offer an optimised capture experience for a desired document type. If you need to use `Generic` please pass config parameter as nil for now as below:
-```swift
-DocumentType.generic(config: nil)
-```
+**Note**: `Generic` document type doesn't offer an optimised capture experience for a desired document type.
+
+### Document Type Configuration
+
+As you can see in the table above, each document type has it's own configuration class. While configuring document type, you can optionally pass configuration object along with type.
+
+#### Configuring Country
+
+**Note**: You can specify country for all document types except **Passport**.       
+
+Please refer to the [ISO 3166-1 alpha-3]("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") 3 letter country codes to find out what you need to pass as
+country code to the SDK.
+
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
 
-#### Swift
+##### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
-    .withWelcomeStep()
-    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
-    .withFaceStep(ofVariant: .photo(withConfiguration: nil)) // specify the face capture variant here
+    .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR")))
     .build()
 ```
 
-#### Objective-C
+##### Objective-C
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
-[configBuilder withWelcomeStep];
 NSError *documentVariantError = NULL;
 DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
-[documentVariantBuilder withDrivingLicence];
-ONDocumentTypeVariantConfig *documentStepVariant = [documentVariantBuilder buildAndReturnError: &documentVariantError];
-[configBuilder withDocumentStepOfType:documentStepVariant andCountryCode:@"GBR"];
-NSError * faceVariantError = NULL;
-Builder * faceVariantBuilder = [ONFaceStepVariantConfig builder];
-[faceVariantBuilder withPhotoCaptureWithConfig: NULL];
-[configBuilder withFaceStepOfVariant: [faceVariantBuilder buildAndReturnError: &faceVariantError]];
+[documentVariantBuilder withDrivingLicenceWithConfig:[[DrivingLicenceConfiguration alloc] initWithCountry: @"GBR"]];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: documentVariantError];
 
-if (faceVariantError || documentVariantError) {
+if (documentVariantError) {
+  // Handle variant config error
+} else {
+  NSError *configError = NULL;
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+
+```
+
+
+#### Configuring Document Format
+
+Some documents are not in card format. SDK provides an optimised experience for some folded documents, such as the Italian national identity or French driving licence.
+
+Typically the user picks the format for these, but you can specify a specific format by configuring the Onfido SDK.
+
+`Card` is the default document format value for all document types.   
+
+Please check the table below to see supported document formats for each document type.      
+
+**Note:** If you configure the SDK with unsupported document type/option combination, SDK will throw an `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` (`ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination` in Objective-C)  error during runtime.
+
+| Document Type/ Document Format | card          |folded                           |
+|--------------------------|---------------|------------------------|
+| drivingLicence           | ALL COUNTRIES | Only France (Country code "FRA") |
+| nationalIdentityCard     | ALL COUNTRIES | Only Italy (Country code "ITA")  |
+
+| Document Type/ Document Format |           |
+|--------------------------|---------------|
+| passport                 | NOT CONFIGURABLE |
+| residencePermit          | NOT CONFIGURABLE |
+| visa                     | NOT CONFIGURABLE |
+| workPermit               | NOT CONFIGURABLE |
+| generic                  | NOT CONFIGURABLE |
+
+
+Let's say that you would like to capture a folded national identity document from Italy. The following code shows how to do this:
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    configBuilder.withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA"))
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withNationalIdentityCardWithConfig:[[NationalIdentityConfiguration alloc] initWithDocumentFormat:DocumentFormatFolded country: @"ITA"]];
+
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: documentVariantError];
+
+if (documentVariantError) {
   // Handle variant config error
 } else {
   NSError *configError = NULL;
@@ -768,6 +833,7 @@ Onfido iOS SDK already comes with out-of-the-box translations for the following 
  - English (en) 🇬🇧
  - Spanish (es) 🇪🇸
  - French (fr) 🇫🇷
+ - German (de) 🇩🇪
 
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
 
@@ -855,6 +921,56 @@ Finally, as you are testing with the sandbox token, please be aware that the res
 
 Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in the API documentation for details.
 
+## User Analytics
+
+The SDK allows you to track the user's journey through the verification process via an definable hook. This is meant to give some insight into how your user's make use of the SDK screens.
+
+### Overriding the hook
+
+In order to expose the user's progress through the SDK an hook method must be defined while creating the `OnfidoFlow.swift` instance using a `.with(eventHandler: EventHandler)` call. This might look something like the following:
+
+```swift
+OnfidoFlow(withConfiguration: config)
+    .with(eventHandler: {
+        (event: OnfidoFlow.Event) -> () in
+        // Your code here
+    })
+```
+
+The code inside of the defined method will now be called when a particular event is triggered, usually when the user reaches a new screen. For a full list of events see the bottom of this section.
+
+The parameter being passed in is an `OnfidoFlow.Event` struct which contains the following:
+- `eventName`: A `String` indicating the type of event. Currently will always this return as `"Screen"` as each tracked event is a user visiting a screen. In the future more event types may become available for tracking.
+- `properties`: A `Dictionary` object containing the specific details of an event. This will contain things such as the `name` of the screen visited.
+
+### Using the data
+
+Currently we recommend using the above hook to keep track of how many user's reach each screen in your flow. This can be done by storing the count of users that reach each screen and comparing them to the amount of user's who've made it to the `Welcome` screen.
+
+### Tracked events
+
+Below is the list of potential events currently being tracked by the hook:
+```
+WELCOME - User reached the "Welcome" screen
+DOCUMENT_CAPTURE - User reached the "document capture" screen (for one-sided document)
+DOCUMENT_CAPTURE_FRONT - User reached the "document capture" screen for the front side (for two-sided document)
+DOCUMENT_CAPTURE_BACK - User reached the "document capture" screen for the back side (for two-sided document)
+DOCUMENT_CAPTURE_CONFIRMATION - User reached the "document confirmation" screen (for one-sided document)
+DOCUMENT_CAPTURE_CONFIRMATION_FRONT - User reached the "document confirmation" screen for the front side (for two-sided document)
+DOCUMENT_CAPTURE_CONFIRMATION_BACK - User reached the "document confirmation" screen for the back side (for two-sided document)
+DOCUMENT_UPLOAD - User's document is uploading
+FACIAL_INTRO - User reached the "selfie intro" screen
+FACIAL_CAPTURE - User reached the "selfie capture" screen
+FACIAL_CAPTURE_CONFIRMATION - User reached the "selfie confirmation" screen
+FACIAL_UPLOAD - User's selfie is uploading
+VIDEO_FACIAL_INTRO - User reached the "liveness intro" screen
+VIDEO_FACIAL_CAPTURE - User reached the "liveness video capture" screen
+VIDEO_FACIAL_CAPTURE_STEP_1 - User reached the 1st challenge during "liveness video capture", challenge_type can be found in eventProperties
+VIDEO_FACIAL_CAPTURE_STEP_2 - User reached the 1st challenge during "liveness video capture", challenge_type can be found in eventProperties
+VIDEO_FACIAL_CAPTURE_CONFIRMATION - User reached the "liveness video confirmation" screen
+VIDEO_FACIAL_UPLOAD - User's liveness video is uploading
+```
+
 ## Going live
 
 Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile token. You will have to replace the sandbox tokens in your code with the live tokens.
@@ -868,8 +984,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 3.628|
-| Below 12.2       | up to 3.628* or up to 12.63**|
+| 12.2 and above   | 3.662|
+| Below 12.2       | up to 3.662* or up to 12.664**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -877,6 +993,10 @@ A few things to check before you go live:
  Swift library that application integrates with
 
 **Note**: These calculations was performed based on a single application architecture
+
+## Migrating
+
+You can find the migration guide at [MIGRATION.md](MIGRATION.md) file
 
 ## Security
 
@@ -941,9 +1061,15 @@ let responseHandler: (OnfidoResponse) -> Void = { response in
   }
 }
 ```
-## Migrating
 
-You can find the migration guide at [MIGRATION.md](MIGRATION.md) file
+## Accessibility
+
+The Onfido iOS SDK has been optimised to provide the following accessibility support by default:
+
+- Screen reader support: accessible labels for textual and non-textual elements available to aid VoiceOver navigation, including dynamic alerts
+- Dynamic font size support: all elements scale automatically according to the device's font size setting
+- Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
+- Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
 
 ## Licensing
 

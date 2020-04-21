@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.0.0 Migration Guide](#onfido-ios-sdk-1800-migration-guide)
 * [Onfido iOS SDK 17.0.0 Migration Guide](#onfido-ios-sdk-1700-migration-guide)
 * [Onfido iOS SDK 16.1.0 Migration Guide](#onfido-ios-sdk-1610-migration-guide)
 * [Onfido iOS SDK 16.0.0 Migration Guide](#onfido-ios-sdk-1600-migration-guide)
@@ -36,6 +37,13 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 18.0.0 Migration Guide
+
+### Breaking API Changes
+
+- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README]('https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration') page.
+
 ## Onfido iOS SDK 17.0.0 Migration Guide
 
 ### Breaking API changes
@@ -56,6 +64,8 @@ The following string keys have been **added**:
 - `onfido_capture_face_title`
 - `onfido_liveness_intro_title`
 - `onfido_liveness_challenge_turn_face_forward`
+- `onfido_message_side_document_front_driving_license_autocapture`
+- `onfido_message_side_document_back_driving_license_autocapture`
 
 The following string keys have been **changed**:
 - `onfido_welcome_view_document_capture_title`
@@ -66,6 +76,26 @@ The following string keys have been **changed**:
 - `onfido_barcode_error_subtitle`
 - `onfido_liveness_challenge_turn_right_title`
 - `onfido_liveness_challenge_turn_left_title`
+- `onfido_message_document_passport`
+- `onfido_message_passport_capture_subtitle`
+- `onfido_message_document_visa`
+- `onfido_message_visa_capture_subtitle`
+- `onfido_message_side_document_front_driving_license`
+- `onfido_message_document_capture_info_front_driving_license`
+- `onfido_message_side_document_back_driving_license`
+- `onfido_message_document_capture_info_back_driving_license`
+- `onfido_message_side_document_front_residence_permit`
+- `onfido_message_document_capture_info_front_residence_permit`
+- `onfido_message_side_document_back_residence_permit`
+- `onfido_message_document_capture_info_back_residence_permit`
+- `onfido_message_side_document_front_national_id`
+- `onfido_message_document_capture_info_front_national_id`
+- `onfido_message_side_document_back_national_id`
+- `onfido_message_document_capture_info_back_national_id`
+- `onfido_message_side_document_front_generic`
+- `onfido_message_document_capture_info_front_generic`
+- `onfido_message_side_document_back_generic`
+- `onfido_message_document_capture_info_back_generic`
 
 The following string keys have been **removed**:
 - `onfido_barcode_error_third_title`
