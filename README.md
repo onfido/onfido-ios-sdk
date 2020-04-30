@@ -38,6 +38,13 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 \*Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
 
+### Enterprise Features
+
+This SDK supports enterprise-only features such as:
+-   Hide Onfido Logo
+
+These features must be enabled on your account before they can be used, otherwise you will get runtime exceptions. Details for implementation can be found [here](#5.1-enterprise-features).
+
 ![Capture Document and face](assets/Overview.png)
 
 ## Getting started
@@ -52,6 +59,10 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ### 1. Obtaining an API token
 
 In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
+
+#### 1.1 Regions
+
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in the API documentation for token format and API base URL information.
 
 ### 2. Creating an Applicant
 
@@ -283,6 +294,32 @@ if (variantConfigError == NULL) {
       }];
   }
 }
+```
+
+### 5.1 Enterprise Features
+
+If your account has enterprise features enabled and you are using an [SDK token](#3.1-sdk-tokens), you can call the `withEnterpriseFeatures(EnterpriseFeatures)` method of the `OnfidoConfig.Builder` and apply the desired features via an EnterpriseFeatures object.
+
+#### hideOnfidoLogo
+
+Enable the `hideOnfidoLogo` feature by constructing an EnterpriseFeatures object with the hideOnfidoLogo parameter set to true `EnterpriseFeatures(hideOnfidoLogo: true)`
+This will provide you with a white labeled version of the SDK where the "Onfido | Real Identity" logo will not be displayed anywhere.
+
+#### Swift
+
+```swift
+let enterpriseFeatures = EnterpriseFeatures(hideOnfidoLogo: <true | false>)
+
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withEnterpriseFeatures(enterpriseFeatures)
+```
+
+#### Objective-C
+```Objective-C
+ONEnterpriseFeatures *enterpriseFeatures = [[ONEnterpriseFeatures alloc] initWithHideOnfidoLogo: <true | false>];
+
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withEnterpriseFeatures:enterpriseFeatures];
 ```
 
 ### 6. Starting the flow
@@ -984,8 +1021,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 3.662|
-| Below 12.2       | up to 3.662* or up to 12.664**|
+| 12.2 and above   | 3.683|
+| Below 12.2       | up to 3.683* or up to 12.684**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

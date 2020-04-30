@@ -18,22 +18,22 @@
 "onfido_barcode_error_title" = "Barcode not detected";
 "onfido_blur_detection_subtitle" = "Make sure your details are clear and unobstructed";
 "onfido_blur_detection_title" = "Blurry photo detected";
-"onfido_capture_face_step_1" = "Please, keep a straight face";
-"onfido_capture_face_step_2" = "Wearing glasses? Make sure we can clearly see your eyes";
+"onfido_capture_face_step_1" = "Face forward and make sure your eyes are clearly visible";
+"onfido_capture_face_step_2" = "Remove your glasses, if necessary";
 /* Capture Face Intro */
-"onfido_capture_face_subtitle" = "We will compare the photo in your document with your selfie";
+"onfido_capture_face_subtitle" = "We’ll compare it with your document";
 "onfido_capture_face_title" = "Take a selfie";
+"onfido_selfie_intro_button" = "Take selfie";
 "onfido_close" = "Close";
-"onfido_confirm_driving_license" = "My license is readable";
-"onfido_confirm_face_2" = "My selfie is clear";
-"onfido_confirm_face_long" = "Confirm my selfie";
-"onfido_confirm_generic_document" = "My document is readable";
-"onfido_confirm_national_id" = "My card is readable";
+"onfido_confirm_driving_license" = "Upload photo";
+"onfido_confirm_generic_document" = "Upload photo";
+"onfido_confirm_national_id" = "Upload photo";
 /* Face/Document Confirmation */
-"onfido_confirm_passport" = "My passport is readable";
-"onfido_confirm_residence_permit" = "My permit is readable";
-"onfido_confirm_visa" = "My visa is readable";
-"onfido_continue" = "Continue";
+"onfido_confirm_passport" = "Upload photo";
+"onfido_confirm_residence_permit" = "Upload photo";
+"onfido_confirm_visa" = "Upload photo";
+"onfido_selfie_confirmation_confirm_button" = "Upload photo";
+"onfido_selfie_confirmation_retake_button" = "Retake photo";
 /* Country Selection Screen */
 "onfido_country_selection_toolbar_title" = "Select issuing country";
 "onfido_decline" = "Decline";
@@ -52,12 +52,15 @@
 "onfido_device_permission_title_camera" = "Allow camera access";
 /* Microphone Permissions */
 "onfido_device_permission_title_mic" = "Allow microphone access";
-"onfido_discard" = "Take a new picture";
-"onfido_discard_face_long" = "Take a new selfie";
-"onfido_document_selection_subtitle" = "You will take a picture of it in the next step";
+"onfido_discard" = "Retake photo";
+"onfido_doc_type_selection_subtitle" = "It must be an official photo ID";
 /* Document type selection */
-"onfido_document_selection_title" = "Select a document";
+"onfido_doc_type_selection_title" = "Choose your document";
 "onfido_driving_license_type_selection_title" = "What type of license do you have?";
+"onfido_doc_type_selection_passport_option" = "Passport";
+"onfido_doc_type_selection_driving_license_option" = "Driver’s license";
+"onfido_doc_type_selection_identity_card_option" = "Identity card";
+"onfido_doc_type_selection_residence_permit_option" = "Residence permit";
 "onfido_error_connection_message" = "There was a network error. Please check your connection.";
 /* Network error */
 "onfido_error_dialog_title" = "Connection lost";
@@ -100,25 +103,27 @@
 "onfido_liveness_intro_step_1_title" = "Speak out loud and move your head";
 "onfido_liveness_intro_step_2_title" = "Finish actions in under %d seconds";
 /* Liveness */
-"onfido_liveness_intro_subtitle" = "Let's make sure nobody's impersonating you";
+"onfido_liveness_intro_subtitle" = "For security, we need a live capture";
 /* Liveness intro */
-"onfido_liveness_intro_title" = "Record a selfie video";
+"onfido_liveness_intro_title" = "Record a video";
+"onfido_liveness_intro_button" = "Record video";
 "onfido_liveness_preparation_subtitle" = "Press the record button and follow the instructions";
 "onfido_liveness_timeout_exceeded_description" = "Remember to press \"stop\" when you're done";
 "onfido_liveness_timeout_exceeded_title" = "Looks like you took too long";
 /* Locale identifier */
 "onfido_locale" = "en";
 /* Capture Document/Face */
-"onfido_message_capture_face" = "Position your face in the oval";
-"onfido_message_check_readability_subtitle_driving_license" = "Make sure your license details are clear to read, with no blur or glare";
-"onfido_message_check_readability_subtitle_generic" = "Make sure your document details are clear to read, with no blur or glare";
-"onfido_message_check_readability_subtitle_national_id" = "Make sure your card details are clear to read, with no blur or glare";
+"onfido_selfie_capture_instructions" = "Keep your face within the oval";
+"onfido_liveness_capture_instructions" = "Keep your face within the oval to start recording";
+"onfido_message_check_readability_subtitle_driving_license" = "Make sure your details are clear and unobstructed";
+"onfido_message_check_readability_subtitle_generic" = "Make sure your details are clear and unobstructed";
+"onfido_message_check_readability_subtitle_national_id" = "Make sure your details are clear and unobstructed";
 /* Document capture confirmation */
-"onfido_message_check_readability_subtitle_passport" = "Make sure your passport details are clear to read, with no blur or glare";
-"onfido_message_check_readability_subtitle_residence_permit" = "Make sure your permit details are clear to read, with no blur or glare";
-"onfido_message_check_readability_subtitle_visa" = "Make sure your visa details are clear to read, with no blur or glare";
+"onfido_message_check_readability_subtitle_passport" = "Make sure your details are clear and unobstructed";
+"onfido_message_check_readability_subtitle_residence_permit" = "Make sure your details are clear and unobstructed";
+"onfido_message_check_readability_subtitle_visa" = "Make sure your details are clear and unobstructed";
 /* Face capture confirmation */
-"onfido_message_confirm_face_subtitle" = "Make sure your selfie clearly shows your face";
+"onfido_message_confirm_face_subtitle" = "Make sure your entire face is visible";
 "onfido_message_document_capture_info_back_driving_license" = "Back";
 "onfido_message_document_capture_info_back_generic" = "Back";
 "onfido_message_document_capture_info_back_national_id" = "Back";
@@ -169,7 +174,7 @@
 "onfido_select_another_document" = "Select another document";
 "onfido_start" = "Start";
 "onfido_start_recording" = "Start recording";
-"onfido_submit_video" = "Submit video";
+"onfido_submit_video" = "Upload video";
 /* Country selection */
 "onfido_suggested_country" = "Suggested country";
 /* General */
@@ -182,11 +187,10 @@
 "onfido_welcome_view_document_capture_title" = "your identity document";
 "onfido_welcome_view_face_capture_title" = "your face";
 /* Face capture */
-"onfido_welcome_view_face_capture_title_ios" = "Take a selfie";
 "onfido_welcome_view_liveness_capture_title" = "a video of yourself";
-"onfido_welcome_view_time" = "It will take less than 2 minutes";
+"onfido_flow_intro_subtitle" = "It should take a few minutes";
 /* Welcome */
 "onfido_welcome_view_title" = "Verify your identity";
 /* Liveness confirmation */
-"onfido_welcome_view_toolbar_title" = "Identity verification";
+"onfido_welcome_view_toolbar_title" = "Verify your identity";
 "onfido_wrong_side" = "Wrong side";

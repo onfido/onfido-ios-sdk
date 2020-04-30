@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.1.0] - 2020-04-30
+
+### Added
+
+- UI: Now showing document template for US driving licence front capture
+- Public: Added enterprise feature 'hideOnfidoLogo
+
+### Changed
+
+- UI: Updated Onfido logo
+- Public: Now voice over read upload alert view element when uploading image or video
+- Public: Added information on api/token regions to documentation
+- UI: Changed screen reader order (Accessibility)
+- UI: Removed selfie capture title
+
+### Fixed
+
+- UI: Fixed the problem about having unnecessary extra height for primary button when onfido logo is hidden
+
 ## [18.0.0] - 2020-04-20
 
 ### Added
