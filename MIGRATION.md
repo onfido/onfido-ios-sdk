@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.1.0 Migration Guide](#onfido-ios-sdk-1810-migration-guide)
 * [Onfido iOS SDK 18.0.0 Migration Guide](#onfido-ios-sdk-1800-migration-guide)
 * [Onfido iOS SDK 17.0.0 Migration Guide](#onfido-ios-sdk-1700-migration-guide)
 * [Onfido iOS SDK 16.1.0 Migration Guide](#onfido-ios-sdk-1610-migration-guide)
@@ -36,6 +37,114 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.1.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_selfie_intro_button`
+
+- `onfido_selfie_confirmation_confirm_button`
+
+- `onfido_selfie_confirmation_retake_button`
+
+- `onfido_liveness_intro_button`
+
+- `onfido_flow_intro_subtitle`
+
+- `onfido_doc_type_selection_passport_option`
+
+- `onfido_doc_type_selection_driving_license_option`
+
+- `onfido_doc_type_selection_identity_card_option`
+
+- `onfido_doc_type_selection_residence_permit_option`
+
+- `onfido_doc_type_selection_title`
+
+- `onfido_doc_type_selection_subtitle`
+
+- `onfido_selfie_capture_instructions`
+
+- `onfido_liveness_capture_instructions`
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_confirm_driving_license` (en)
+
+- `onfido_confirm_generic_document` (en)
+
+- `onfido_confirm_national_id` (en)
+
+- `onfido_confirm_passport` (en)
+
+- `onfido_confirm_residence_permit` (en)
+
+- `onfido_confirm_visa` (en)
+
+- `onfido_discard` (en)
+
+- `onfido_welcome_view_title` (en)
+
+- `onfido_capture_face_subtitle` (en)
+
+- `onfido_capture_face_step_1` (en)
+
+- `onfido_capture_face_step_2` (en)
+
+- `onfido_liveness_intro_title` (en)
+
+- `onfido_liveness_intro_subtitle` (en)
+
+- `onfido_submit_video` (en)
+
+- `onfido_welcome_view_toolbar_title` (en)
+
+- `onfido_message_check_readability_subtitle_driving_license` (en)
+
+- `onfido_message_check_readability_subtitle_generic` (en)
+
+- `onfido_message_check_readability_subtitle_national_id` (en)
+
+- `onfido_message_check_readability_subtitle_passport` (en)
+
+- `onfido_message_check_readability_subtitle_residence_permit` (en)
+
+- `onfido_message_check_readability_subtitle_visa` (en)
+
+- `onfido_message_confirm_face_subtitle` (en)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_confirm_face_long`
+
+- `onfido_discard_face_long`
+
+- `onfido_welcome_view_face_capture_title_ios`
+
+- `onfido_confirm_face_2`
+
+- `onfido_continue`
+
+- `onfido_welcome_view_time`
+
+- `onfido_document_selection_title`
+
+- `onfido_document_selection_subtitle`
+
+- `onfido_message_capture_face`
+
 
 
 ## Onfido iOS SDK 18.0.0 Migration Guide
