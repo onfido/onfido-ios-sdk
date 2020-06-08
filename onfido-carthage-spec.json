@@ -16,5 +16,6 @@
   "16.2.0": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v16.2.0.zip",
   "17.0.0": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v17.0.0.zip",
   "18.0.0": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v18.0.0.zip",
-  "18.1.0": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v18.1.0.zip"
+  "18.1.0": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v18.1.0.zip",
+  "18.1.1": "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v18.1.1.zip"
 }

@@ -44,8 +44,21 @@
     
     NSError *runError = NULL;
     UIViewController *flowVC = [flow runAndReturnError:&runError];
-    flowVC.modalPresentationStyle = UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad ? UIModalPresentationFormSheet : UIModalPresentationFullScreen; // to present modally on iPads
-
+    
+    /*
+    Supported presentation styles are:
+    For iPhones: UIModalPresentationFullScreen
+    For iPads: UIModalPresentationFullScreen and UIModalPresentationFormSheet
+    */
+    
+    UIModalPresentationStyle modalPresentationStyle = UIModalPresentationFullScreen;  // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
+    
+    if(UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        modalPresentationStyle = UIModalPresentationFormSheet; // to present modally on iPads
+    }
+    
+    flowVC.modalPresentationStyle = modalPresentationStyle;
+    
     if (runError == NULL) {
         [self presentViewController:flowVC animated:YES completion:nil];
     } else {
