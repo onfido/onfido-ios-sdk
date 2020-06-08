@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.1.1] - 2020-06-03
+
+### Changed
+
+- Public: Updated SampleApps to clarify modalPresentationStyle setting
+
+### Fixed
+
+- Public: Fixed SDK crash when invalid SDK token provided
+- Public: Fixed sdk not showing document format selection when document type and country preselected but no format specified
+- UI: Fix the issue related with having incorrect navigation bar theme when dark mode disabled for SDK
+- UI: Now showing upload progress when user taps upload button immediately
+
 ## [18.1.0] - 2020-04-30
 
 ### Added

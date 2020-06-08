@@ -47,7 +47,19 @@ final class ViewController: UIViewController {
         
         do {
             let onfidoRun = try onfidoFlow.run()
-            onfidoRun.modalPresentationStyle = UIDevice.current.userInterfaceIdiom == .pad ? .formSheet : .fullScreen // to present modally on iPads
+           
+            /*
+             Supported presentation styles are:
+             For iPhones: .fullScreen
+             For iPads: .fullScreen and .formSheet
+             */
+            var modalPresentationStyle: UIModalPresentationStyle = .fullScreen  // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
+            
+            if UIDevice.current.userInterfaceIdiom == .pad {
+                modalPresentationStyle = .formSheet // to present modally on iPads
+            }
+            
+            onfidoRun.modalPresentationStyle = modalPresentationStyle
             self.present(onfidoRun, animated: true, completion: nil)
         } catch let error {
             // cannot execute the flow
