@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.2.0] - 2020-06-17
+
+### Added
+
+- Public: Enterprise can cobrand Onfido logo
+
+### Changed
+
+- UI: Changed continuous glare detection logic for US DL documents
+- UI: Autocapture manual fallback alert UI has changed
+- UI: No longer running glare validation on back side of Romanian identity card
+- Public: Added eventHandler and corresponding event method to ONFlow.swift for User Analytic Events
+- UI: Improved US Driver Licence edge detection
+- Public: Sending barcode detection result to the API
+
+### Fixed
+
+- Public: Fixed the face similarity report documentation url in README.
+
 ## [18.1.1] - 2020-06-03
 
 ### Changed
