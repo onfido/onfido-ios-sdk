@@ -11,9 +11,9 @@
 "onfido_accessibility_video_pause" = "Pause video";
 "onfido_accessibility_video_play" = "Play video";
 "onfido_all_countries" = "All countries";
-"onfido_autocapture_manual_fallback_description" = "Align document, then press button";
+"onfido_autocapture_manual_fallback_description" = "Press button to capture manually";
 /* Document autocapture */
-"onfido_autocapture_manual_fallback_title" = "Try taking photo manually";
+"onfido_autocapture_manual_fallback_title" = "Auto-capture is too slow";
 "onfido_barcode_error_subtitle" = "Stay in a well-lit spot and bring the card closer to the camera";
 "onfido_barcode_error_title" = "Barcode not detected";
 "onfido_blur_detection_subtitle" = "Make sure your details are clear and unobstructed";
