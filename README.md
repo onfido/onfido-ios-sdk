@@ -42,6 +42,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 This SDK supports enterprise-only features such as:
 -   Hide Onfido Logo
+-   Onfido logo cobranding
 
 These features must be enabled on your account before they can be used, otherwise you will get runtime exceptions. Details for implementation can be found [here](#5.1-enterprise-features).
 
@@ -302,13 +303,21 @@ If your account has enterprise features enabled and you are using an [SDK token]
 
 #### hideOnfidoLogo
 
-Enable the `hideOnfidoLogo` feature by constructing an EnterpriseFeatures object with the hideOnfidoLogo parameter set to true `EnterpriseFeatures(hideOnfidoLogo: true)`
+Enable the `hideOnfidoLogo` feature by constructing an EnterpriseFeatures object with the hideOnfidoLogo option set to true:
+
+```
+EnterpriseFeatures.builder()
+    .withHideOnfidoLogo(true)
+    .build()
+```
 This will provide you with a white labeled version of the SDK where the "Onfido | Real Identity" logo will not be displayed anywhere.
 
 #### Swift
 
 ```swift
-let enterpriseFeatures = EnterpriseFeatures(hideOnfidoLogo: <true | false>)
+let enterpriseFeatures = EnterpriseFeatures.builder()
+    .withHideOnfidoLogo(true)
+    .build()
 
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withEnterpriseFeatures(enterpriseFeatures)
@@ -316,7 +325,37 @@ configBuilder.withEnterpriseFeatures(enterpriseFeatures)
 
 #### Objective-C
 ```Objective-C
-ONEnterpriseFeatures *enterpriseFeatures = [[ONEnterpriseFeatures alloc] initWithHideOnfidoLogo: <true | false>];
+ONEnterpriseFeaturesBuilder *builder = [EnterpriseFeatures builder];
+ONEnterpriseFeatures *enterpriseFeatures = [builder withHideOnfidoLogo: <true | false>];
+
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withEnterpriseFeatures:enterpriseFeatures];
+```
+
+#### cobrand
+
+Enable the `cobrand` feature by constructing an EnterpriseFeatures object with the cobrand text option set with your desired brand name
+```
+EnterpriseFeatures.builder()
+    .withCobrandingText("MyCompany")
+    .build()
+```
+This will provide you with a cobranded version of the Onfido logo in the SDK where the logo will display "<Company name> powered by Onfido"
+#### Swift
+
+```swift
+let enterpriseFeatures = EnterpriseFeatures.builder()
+    .withCobrandingText("MyCompany")
+    .build()
+
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withEnterpriseFeatures(enterpriseFeatures)
+```
+
+#### Objective-C
+```Objective-C
+ONEnterpriseFeaturesBuilder *builder = [EnterpriseFeatures builder];
+ONEnterpriseFeatures *enterpriseFeatures = [builder withCobrandingText: <COMPANY_NAME>];
 
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withEnterpriseFeatures:enterpriseFeatures];
@@ -937,7 +976,7 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
+You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-reports) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
 
 ```shell
 $ curl https://api.onfido.com/v3/checks \
@@ -1021,8 +1060,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 3.69|
-| Below 12.2       | up to 3.69* or up to 12.691**|
+| 12.2 and above   | 3.763|
+| Below 12.2       | up to 3.763* or up to 12.765**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
