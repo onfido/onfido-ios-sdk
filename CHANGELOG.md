@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.3.1] - 2020-07-23
+
+### Fixed
+
+- Public: Fix for sending duplicate VIDEO_FACIAL_CAPTURE_CONFIRMATION analytic event.[Related github issue](https://github.com/onfido/onfido-ios-sdk/issues/167)
+- Public: Improved memory usage
+- UI: Fixed the camera load problem in some specific cases
+- UI: Fixed incorrect VoiceOver focus on video capture intro video
+- UI: Fixed error problem user taps shutter button right after presenting SDK.[Related github issue](https://github.com/onfido/onfido-ios-sdk/issues/168)
+
 ## [18.3.0] - 2020-07-03
 
 ### Changed

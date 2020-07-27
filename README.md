@@ -38,14 +38,6 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 \*Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
 
-### Enterprise Features
-
-This SDK supports enterprise-only features such as:
--   Hide Onfido Logo
--   Onfido logo cobranding
-
-These features must be enabled on your account before they can be used, otherwise you will get runtime exceptions. Details for implementation can be found [here](#5.1-enterprise-features).
-
 ![Capture Document and face](assets/Overview.png)
 
 ## Getting started
@@ -297,9 +289,9 @@ if (variantConfigError == NULL) {
 }
 ```
 
-### 5.1 Enterprise Features
+### 5.1 Premium Enterprise Features
 
-If your account has enterprise features enabled and you are using an [SDK token](#3.1-sdk-tokens), you can call the `withEnterpriseFeatures(EnterpriseFeatures)` method of the `OnfidoConfig.Builder` and apply the desired features via an EnterpriseFeatures object.
+If your account has enterprise features enabled and you are using an [SDK token](#3.1-sdk-tokens), you can call the `withEnterpriseFeatures(EnterpriseFeatures)` method of the `OnfidoConfig.Builder` and apply the desired features via an EnterpriseFeatures object. Note: Enterprise features are paid, premium capabilities and may not be available to all customers. Availability varies by market.
 
 #### hideOnfidoLogo
 
@@ -1060,8 +1052,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 3.763|
-| Below 12.2       | up to 3.763* or up to 12.765**|
+| 12.2 and above   | 3.752|
+| Below 12.2       | up to 3.752* or up to 12.754**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
