@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.3.2] - 2020-08-04
+
+### Changed
+
+- UI: Removed Singapore endonym
+
+### Fixed
+
+- UI: Fix the problem about having buttons in different height. [Github Issue](https://github.com/onfido/onfido-ios-sdk/issues/169)
+- Public: Fixed localisation language selection when app and device preferred language is not supported by Bundle
+
 ## [18.3.1] - 2020-07-27
 
 ### Fixed

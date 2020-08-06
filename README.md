@@ -903,8 +903,6 @@ Onfido iOS SDK already comes with out-of-the-box translations for the following 
  - French (fr) 🇫🇷
  - German (de) 🇩🇪
 
-In case you would like us to add translations for some other locales we don't provide yet, please contact us through [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A).
-
 ### Language customisation
 
 **Note**:
