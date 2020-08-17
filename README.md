@@ -1050,8 +1050,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 3.752|
-| Below 12.2       | up to 3.752* or up to 12.754**|
+| 12.2 and above   | 3.753|
+| Below 12.2       | up to 3.753* or up to 12.754**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -1136,6 +1136,8 @@ The Onfido iOS SDK has been optimised to provide the following accessibility sup
 - Dynamic font size support: all elements scale automatically according to the device's font size setting
 - Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
 - Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
+
+Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-accessibility-statement) for more details.
 
 ## Licensing
 
