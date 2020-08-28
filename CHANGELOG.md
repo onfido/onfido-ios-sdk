@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.4.0] - 2020-08-27
+
+### Added
+
+- UI: Now auto capturing Passport documents
+- Public: Added configuration option to enable manual liveness capture
+
+## [18.3.3] - 2020-08-17
+
+### Fixed
+
+- Public: Fixed bundle localisation issue. [Related Github issue](https://github.com/onfido/onfido-ios-sdk/issues/162)
+
 ## [18.3.2] - 2020-08-06
 
 ### Changed
