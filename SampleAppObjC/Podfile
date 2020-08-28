@@ -3,7 +3,7 @@ source 'https://cdn.cocoapods.org/'
 target 'SampleAppObjC' do
   
     
-    pod 'Onfido', '18.3.3'
+    pod 'Onfido', '18.4.0'
     
   
 end
