@@ -6,7 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [18.4.0] - 2020-08-28
+## [18.5.0] - 2020-09-14
+
+### Added
+
+- Public: Added support for South African ID folded paper document capture
+
+### Changed
+
+- UI: Removed separator line from the UI
+- UI: Removed timer icon from subtitle in welcome screen
+
+### Fixed
+
+- UI: Fixed the problem about showing pause button right after playing video on liveness intro screen
+- UI: Re-added `onfido_message_capture_face` key which is for screen reader (accessibility) during liveness capture flow
+
+## [18.4.0] - 2020-08-27
 
 ### Added
 
