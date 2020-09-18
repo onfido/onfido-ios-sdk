@@ -77,13 +77,14 @@
 "onfido_folded_paper_confirmation_title" = "Make sure your document is fully unfolded and the photo is clear";
 "onfido_folded_paper_front_capture_subtitle" = "Lay your document flat, include all inner pages (must contain your photo)";
 "onfido_folded_paper_front_capture_title" = "Profile photo side";
-"onfido_folded_paper_option" = "Folded paper";
+"onfido_folded_paper_option" = "Paper document";
 "onfido_french_driving_license_capture_title" = "French driver's license";
 "onfido_glare_detected_subtitle" = "Try moving away from direct light";
 /* Glare Detection */
 "onfido_glare_detected_title" = "Glare is detected";
 /* Folded paper document capture */
 "onfido_italian_id_capture_title" = "Italian identity card";
+"onfido_south_african_id_capture_title" = "South African identity card";
 "onfido_label_doc_type_driving_license_up" = "Driver's License";
 "onfido_label_doc_type_generic_up" = "Document";
 "onfido_label_doc_type_id_card_up" = "National Identity Card";
@@ -104,6 +105,7 @@
 "onfido_liveness_intro_step_2_title" = "Finish actions in under %d seconds";
 /* Liveness */
 "onfido_liveness_intro_subtitle" = "For security, we need a live capture";
+"onfido_message_capture_face" = "Position your face in the oval";
 /* Liveness intro */
 "onfido_liveness_intro_title" = "Record a video";
 "onfido_liveness_intro_button" = "Record video";

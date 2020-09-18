@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.5.0 Migration Guide](#onfido-ios-sdk-1850-migration-guide)
 * [Onfido iOS SDK 18.1.0 Migration Guide](#onfido-ios-sdk-1810-migration-guide)
 * [Onfido iOS SDK 18.0.0 Migration Guide](#onfido-ios-sdk-1800-migration-guide)
 * [Onfido iOS SDK 17.0.0 Migration Guide](#onfido-ios-sdk-1700-migration-guide)
@@ -37,6 +38,18 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.5.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_south_african_id_capture_title` (en, fr, es, de)
+
 
 
 ## Onfido iOS SDK 18.1.0 Migration Guide
