@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.6.0] - 2020-09-21
+
+### Changed
+
+- Public: Post capture confirmation error bubble on modals now grows to button width
+- Public: Removed 'Version' prefix on github release title to align with other Onfido SDKs
+
+### Fixed
+
+- UI: Fixed the crash problem when SDK integrates to the app running on Xcode 12 project
+- UI: Fixed user able to go back during face video upload
+
 ## [18.5.0] - 2020-09-14
 
 ### Added
