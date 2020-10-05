@@ -196,3 +196,19 @@
 /* Liveness confirmation */
 "onfido_welcome_view_toolbar_title" = "Verify your identity";
 "onfido_wrong_side" = "Wrong side";
+/* NFC Read */
+"onfido_nfc_option_title" = "Speed up the process with your ePassport";
+"onfido_nfc_option_subtitle" = "We’ll scan the NFC chip in your passport";
+"onfido_nfc_option_epassport_symbol" = "ePassports have this symbol on the cover";
+"onfido_nfc_option_button_primary" = "Use ePassport";
+"onfido_nfc_option_button_secondary" = "I don’t have an ePassport";
+"onfido_nfc_intro_title" = "Scan your ePassport";
+"onfido_nfc_intro_subtitle" = "Lay your phone on your closed passport and press the button to start";
+"onfido_nfc_intro_button_primary" = "Start scanning";
+"onfido_nfc_failed_title" = "We couldn’t scan your passport";
+"onfido_nfc_failed_list_item_remove_covers" = "Remove your passport and phone covers";
+"onfido_nfc_failed_list_item_keep_contact" = "Keep your phone and passport in contact until the scanning is successful";
+"onfido_nfc_failed_button_primary" = "Retry scanning";
+"onfido_nfc_failed_button_secondary" = "Continue without scanning";
+"onfido_nfc_sheet_ready_intruction" = "Lay your phone on your closed passport";
+"onfido_nfc_sheet_scanning_subtitle" = "Scanning...";

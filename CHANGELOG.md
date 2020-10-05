@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.7.0] - 2020-09-30
+
+### Added
+
+- UI: Passport NFC read feature (beta)
+
+### Fixed
+
+- UI: Fixed liveness pre-recoding screen stuck on loading state after retrying connection when connection is established
+
 ## [18.6.0] - 2020-09-21
 
 ### Changed
