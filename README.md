@@ -49,6 +49,8 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
 
+⚠️ The Onfido SDK require CoreNFC to run. Since XCode 12 there is bug where `libnfshared.dylib` is missing from simulators. See [stackoverflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
+
 ### 1. Obtaining an API token
 
 In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
@@ -742,7 +744,7 @@ Let's say that you would like to capture a folded national identity document fro
 ```swift
 let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
-    configBuilder.withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA"))
+    .withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA"))
     .build()
 ```
 
@@ -764,6 +766,57 @@ if (documentVariantError) {
   NSError *configError = NULL;
   ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 }
+
+```
+
+### Enabling ePassport NFC extraction (beta)
+
+#### Pre-requisites
+
+- This feature requires to have `Near Field Communication Tag Reading` capability in your app target. If you haven't added it before, please follow the steps in [Apple documentation]("https://help.apple.com/xcode/mac/current/#/dev88ff319e7") to understand how to enable `Near Field Communication Tag Reading` feature.
+
+- You have to include entires below in your app target's Info.plist file to be able to read NFC tags properly.
+```
+<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+<array>
+  <string>12FC</string>
+</array>
+<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+<array>
+  <string>A0000002471001</string>
+  <string>A0000002472001</string>
+  <string>00000000000000</string>
+  <string>D2760000850101</string>
+</array>
+```
+#### SDK Integration
+
+Some passports contain a chip which can be accessed using Near Field Communication. The SDK provides a set of screens to extract the information contained within the chip to verify original document is present.
+
+**Note** This feature is currently in beta and the API is subject to change. Changes to the API will not result in a breaking change.
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withDocumentStep()
+    .withPassportNFCReadBetaFeatureEnabled()
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+[configBuilder withWelcomeStep];
+[configBuilder withDocumentStep];
+[configBuilder withPassportNFCReadBetaFeatureEnabled];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 ```
 
@@ -986,8 +1039,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.362|
-| Below 12.2       | up to 4.362* or up to 16.062**|
+| 12.2 and above   | 4.708|
+| Below 12.2       | up to 4.708* or up to 16.407**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

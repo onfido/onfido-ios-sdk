@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.7.0 Migration Guide](#onfido-ios-sdk-1870-migration-guide)
 * [Onfido iOS SDK 18.5.0 Migration Guide](#onfido-ios-sdk-1850-migration-guide)
 * [Onfido iOS SDK 18.1.0 Migration Guide](#onfido-ios-sdk-1810-migration-guide)
 * [Onfido iOS SDK 18.0.0 Migration Guide](#onfido-ios-sdk-1800-migration-guide)
@@ -38,6 +39,48 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.7.0 Migration Guide
+
+⚠️ The Onfido SDK require CoreNFC to run from 18.7.0. Since Xcode 12 there is bug where `libnfshared.dylib` is missing from simulators which is required for CoreNFC to work. See [stackoverflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_option_title` (en, fr, es, de)
+
+- `onfido_nfc_option_subtitle` (en, fr, es, de)
+
+- `onfido_nfc_option_epassport_symbol` (en, fr, es, de)
+
+- `onfido_nfc_option_button_primary` (en, fr, es, de)
+
+- `onfido_nfc_option_button_secondary` (en, fr, es, de)
+
+- `onfido_nfc_intro_title` (en, fr, es, de)
+
+- `onfido_nfc_intro_subtitle` (en, fr, es, de)
+
+- `onfido_nfc_intro_button_primary` (en, fr, es, de)
+
+- `onfido_nfc_sheet_ready_intruction` (en, fr, es, de)
+
+- `onfido_nfc_sheet_scanning_subtitle` (en, fr, es, de)
+
+- `onfido_nfc_failed_title` (en, fr, es, de)
+
+- `onfido_nfc_failed_list_item_remove_covers` (en, fr, es, de)
+
+- `onfido_nfc_failed_list_item_keep_contact` (en, fr, es, de)
+
+- `onfido_nfc_failed_button_primary` (en, fr, es, de)
+
+- `onfido_nfc_failed_button_secondary` (en, fr, es, de)
+
 
 
 ## Onfido iOS SDK 18.5.0 Migration Guide
