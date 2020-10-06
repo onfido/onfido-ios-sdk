@@ -773,7 +773,7 @@ if (documentVariantError) {
 
 #### Pre-requisites
 
-- This feature requires to have `Near Field Communication Tag Reading` capability in your app target. If you haven't added it before, please follow the steps in [Apple documentation]("https://help.apple.com/xcode/mac/current/#/dev88ff319e7") to understand how to enable `Near Field Communication Tag Reading` feature.
+- This feature requires to have `Near Field Communication Tag Reading` capability in your app target. If you haven't added it before, please follow the steps in [Apple documentation](https://help.apple.com/xcode/mac/current/#/dev88ff319e7) to understand how to enable `Near Field Communication Tag Reading` feature.
 
 - You have to include entires below in your app target's Info.plist file to be able to read NFC tags properly.
 ```
