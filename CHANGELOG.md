@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.8.0] - 2020-10-07
+
+### Changed
+
+- Public: Renamed most localisation keys. Now names are more explicit to in which screens they are used. [See MIGRATION to easily migrate Strings from 18.7.0 to 18.8.0](MIGRATION.md#onfido-ios-sdk-1880-migration-guide).
+
+### Fixed
+
+- UI: Not preventing interactive dismissal of SDK view controllers while presented modally on iPad to not have unexpected flow issues
+
 ## [18.7.0] - 2020-09-30
 
 ### Added

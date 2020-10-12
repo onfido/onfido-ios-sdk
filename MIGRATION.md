@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.8.0 Migration Guide](#onfido-ios-sdk-1880-migration-guide)
 * [Onfido iOS SDK 18.7.0 Migration Guide](#onfido-ios-sdk-1870-migration-guide)
 * [Onfido iOS SDK 18.5.0 Migration Guide](#onfido-ios-sdk-1850-migration-guide)
 * [Onfido iOS SDK 18.1.0 Migration Guide](#onfido-ios-sdk-1810-migration-guide)
@@ -39,6 +40,19 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.8.0 Migration Guide
+
+### String Changes
+
+#### Changed
+
+⚠️ Most localisation keys now renamed. Use [migrate-keys.rb](keys_migration/migrate-keys.rb) script and key mapping file [key_migration_18_7_0_mapping.json](keys_migration/key_migration_18_7_0_mapping.json) to migrate from 18.7.0 to 18.8.0. To use run following command:
+```bash
+migrate-keys.rb --files-path <Path/To/lproj/directories> --platform ios --key-mapping-file key_migration_18_7_0_mapping.json
+```
+
 
 
 ## Onfido iOS SDK 18.7.0 Migration Guide
