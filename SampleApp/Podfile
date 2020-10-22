@@ -3,7 +3,7 @@ platform :ios, '10.0'
 target 'SampleApp' do
  use_frameworks!
       
-    pod 'Onfido', '18.8.0'    
+    pod 'Onfido', '18.8.1'    
   end
 
 post_install do |installer|
