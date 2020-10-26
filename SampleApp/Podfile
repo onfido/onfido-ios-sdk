@@ -2,8 +2,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 target 'SampleApp' do
  use_frameworks!
+ inhibit_all_warnings!
       
-    pod 'Onfido', '18.8.1'    
+    pod 'Onfido', '18.9.0'    
   end
 
 post_install do |installer|
@@ -12,6 +13,7 @@ post_install do |installer|
             config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
             config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
             config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = 10.0
         end
     end
 end
