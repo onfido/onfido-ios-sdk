@@ -610,11 +610,9 @@ To configure with photo variant:
 ```
 NSError * error;
 Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withPhotoCaptureWithConfig: NULL];
+[variantBuilder withPhotoCaptureWithConfig: [[PhotoStepConfiguration alloc] initWithShowSelfieIntroScreen: YES]]];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
-
-
 
 #### Swift
 
@@ -623,7 +621,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo(withConfiguration: nil))  // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(withConfiguration: PhotoStepConfiguration(showSelfieIntroScreen: true)))  // specify the face capture variant here
     .build()
 ```
 
@@ -1039,8 +1037,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.707|
-| Below 12.2       | up to 4.707* or up to 16.407**|
+| 12.2 and above   | 4.741|
+| Below 12.2       | up to 4.741* or up to 16.367**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -1130,7 +1128,7 @@ Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-a
 
 ## Licensing
 
-Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies.  For those, we include the licensing information inside our bundle, with the file named `onfido_licenses.json`.
+Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies.  For those, we include the licensing information inside our bundle and also in this repo under license folder, with the file named [onfido_licenses.json](license/onfido_licenses.json).
 This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
 Integrators of our library are then responsible for keeping this information along with their integrations.
 

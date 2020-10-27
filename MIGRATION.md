@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.9.0 Migration Guide](#onfido-ios-sdk-1890-migration-guide)
 * [Onfido iOS SDK 18.8.0 Migration Guide](#onfido-ios-sdk-1880-migration-guide)
 * [Onfido iOS SDK 18.7.0 Migration Guide](#onfido-ios-sdk-1870-migration-guide)
 * [Onfido iOS SDK 18.5.0 Migration Guide](#onfido-ios-sdk-1850-migration-guide)
@@ -40,6 +41,67 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.9.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_capture_confirmation_image_zoom_instructions` (en, fr, es, de)
+
+- `onfido_capture_confirmation_image_zoom_button` (en, fr, es, de)
+
+- `onfido_capture_confirmation_image_preview_button` (en, fr, es, de)
+
+
+- `onfido_generic_alert_network_error_label` (en, fr, de, es)
+
+- `onfido_generic_uploading` (en, fr, de, es)
+
+- `onfido_generic_alert_network_error_button_primary` (en, fr, de, es)
+
+- `onfido_info_tablet_orientation_subtitle` (en, fr, de, es)
+
+- `onfido_info_tablet_orientation_title` (en, fr, de, es)
+
+- `onfido_info_tablet_orientation_body` (en, fr, de, es)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_accessibility_liveness_confirmation_view` (en, fr, de, es)
+
+- `onfido_decline` (en, fr, de, es)
+
+- `onfido_label_doc_type_driving_license_up` (en, fr, de, es)
+
+- `onfido_label_doc_type_id_card_up` (en, fr, de, es)
+
+- `onfido_label_doc_type_residence_permit_up` (en, fr, de, es)
+
+- `onfido_message_capture_face` (en, fr, de, es)
+
+- `onfido_liveness_preparation_subtitle` (en, fr, de, es)
+
+
+- `onfido_error_dialog_title` (en, fr, de, es)
+
+- `onfido_message_uploading` (en, fr, de, es)
+
+- `onfido_ok` (en, fr, de, es)
+
+- `onfido_orientation_message_subtitile_ios` (en, fr, de, es)
+
+- `onfido_orientation_message_title_ios` (en, fr, de, es)
+
+- `onfido_orientation_upsidedown_message_ios` (en, fr, de, es)
+
 
 
 ## Onfido iOS SDK 18.8.0 Migration Guide

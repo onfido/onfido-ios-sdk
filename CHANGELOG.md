@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.9.0] - 2020-10-27
+
+### Added
+
+- Public: Added ability to skip selfie intro.
+- UI: User can now enlarge capture document for detailed inspection
+
+### Changed
+
+- UI: Changed text and background colors in light mode
+- Public: Now sharing Onfido license files in github repository along with SDK bundle
+- UI: Changed Onfido logo position in capture screens
+- UI: Changed Onfido logo position in intro and permission screens
+- UI: Added Onfido logo to the document type selection screen
+- Public: Removed unused strings from localisation
+- Public: Renamed some generic keys
+- UI: Changed bubble view position and apperance for document capture flow
+- Public: Now disabling passport autocapture on simulators
+
+### Fixed
+
+- UI: Now showing wrong side head turn warning again
+- UI: Fixed the incorrect captured document positon on confirmation screen for multi format document types
+
 ## [18.8.1] - 2020-10-22
 
 ### Fixed
