@@ -166,15 +166,17 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 ### 4. App permissions
 
-The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` keys in your application's `Info.plist` file:
+The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription`, `NSMicrophoneUsageDescription`, `NFCReaderUsageDescription` keys in your application's `Info.plist` file:
 
 ```xml
 <key>NSCameraUsageDescription</key>
 <string>Required for document and facial capture</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>Required for video capture</string>
+<key>NFCReaderUsageDescription</key>
+<string>Required for document capture</string>
 ```
-**Note**: Both keys will be required for app submission.
+**Note**: All keys will be required for app submission.
 
 ### 5. Adding the SDK dependency
 
