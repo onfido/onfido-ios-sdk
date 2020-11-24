@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 18.10.0 Migration Guide](#onfido-ios-sdk-18100-migration-guide)
 * [Onfido iOS SDK 18.9.0 Migration Guide](#onfido-ios-sdk-1890-migration-guide)
 * [Onfido iOS SDK 18.8.0 Migration Guide](#onfido-ios-sdk-1880-migration-guide)
 * [Onfido iOS SDK 18.7.0 Migration Guide](#onfido-ios-sdk-1870-migration-guide)
@@ -41,6 +42,38 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 18.10.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_app_title_country_select_search` (en, fr, de, es)
+
+
+- `onfido_country_select_list_accessibility` (en, fr, de, es)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_app_title_country_select` (en, fr, de, es)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_country_select_title` (en, fr, de, es)
+
+
+- `onfido_video_confirmation_title` (en, fr, de, es)
+
 
 
 ## Onfido iOS SDK 18.9.0 Migration Guide
