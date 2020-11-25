@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.10.0] - 2020-11-24
+
+### Added
+
+- UI: Added search functionality on country selection screen
+- UI: Added shadow view on scrollable views
+
+### Changed
+
+- UI: Improved US DL autocapture experience
+- Public: Updated readme to mention `NFCReaderUsageDescription` key in app permission section
+- UI: Updated video capture confirmation
+- Public: Now sharing .strings files for all suported languages
+
+### Fixed
+
+- UI: Fixed capture confirmation error bubble not being read by VoiceOver as the first view
+
 ## [18.9.0] - 2020-10-27
 
 ### Added

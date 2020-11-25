@@ -43,7 +43,7 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ## Getting started
 
 * SDK supports iOS 10+
-* SDK supports Xcode 11.0.0
+* SDK supports Xcode 11+
 * SDK has full bitcode support
 * SDK supports following presentation styles:
   - Only full screen style for iPhones
@@ -166,7 +166,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 ### 4. App permissions
 
-The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription`, `NSMicrophoneUsageDescription`, `NFCReaderUsageDescription` keys in your application's `Info.plist` file:
+The Onfido SDK makes use of the device Camera. You will be required to have the `NSCameraUsageDescription`, `NSMicrophoneUsageDescription`, `NFCReaderUsageDescription` keys in your application's Info.plist file:
 
 ```xml
 <key>NSCameraUsageDescription</key>
@@ -941,7 +941,8 @@ if (variantError) {
 
 ```
 
-You can find the keys for the localizable strings under the example [`Localizable.strings`](Localizable.strings) file in this repo. You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
+You can find the keys for the localizable strings under the [`localization`](localization) directory which contains strings files for all out-of-the-box translations.
+You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
 
 ## Creating checks
 
@@ -1039,8 +1040,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.741|
-| Below 12.2       | up to 4.741* or up to 16.367**|
+| 12.2 and above   | 4.656|
+| Below 12.2       | up to 4.656* or up to 16.488**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

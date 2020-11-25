@@ -43,7 +43,6 @@
 "onfido_selfie_confirmation_button_secondary" = "Retake photo";
 
 /* Country Selection Screen */
-"onfido_country_select_title" = "Select issuing country";
 "onfido_permission_button_primary_both" = "Enable both";
 "onfido_permission_button_primary_cam" = "Enable camera";
 "onfido_permission_button_primary_mic" = "Enable microphone";
@@ -186,12 +185,10 @@
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Suggested country";
 /* General */
-"onfido_video_confirmation_title" = "Thank you";
 "onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
 "onfido_country_select_bottom_sheet_details" = "Sorry about that. Use an alternative document instead.";
 "onfido_country_select_bottom_sheet_title" = "Can't find your country?";
 "onfido_doc_confirmation_button_primary" = "Upload photo";
-"onfido_video_confirmation_body" = "Your video has been recorded";
 "onfido_welcome_list_item_doc" = "your identity document";
 "onfido_welcome_list_item_selfie" = "your face";
 /* Face capture */
@@ -206,10 +203,10 @@
 "onfido_app_title_nfc_fail" = "Verify your identity";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Verify your identity";
-"onfido_app_title_country_select" = "Verify your identity";
-"onfido_app_title_permission" = "Verify your identity";
+"onfido_app_title_country_select" = "Select issuing country";
 "onfido_app_title_selfie_intro" = "Verify your identity";
 "onfido_app_title_video_intro" = "Verify your identity";
+"onfido_app_title_permission" = "Verify your identity";
 "onfido_app_title_video_confirmation" = "Verify your identity";
 "onfido_video_capture_alert_wrong_side" = "Wrong side";
 /* NFC Read */
@@ -233,3 +230,7 @@
 "onfido_doc_confirmation_image_accessibility" = "Photo of your document. Double tap to enlarge.";
 "onfido_doc_zoom_body" = "Move around using one finger";
 "onfido_doc_zoom_button_close" = "Close";
+
+"onfido_video_confirmation_body" = "Your video has been recorded";
+"onfido_app_title_country_select_search" = "Search";
+"onfido_country_select_list_accessibility" = "Search results";
