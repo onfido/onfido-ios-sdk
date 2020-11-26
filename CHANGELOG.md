@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [18.10.1] - 2020-11-26
+
+### Fixed
+
+- Public: Fixed certificate pinning bug which causes all network requests fail with `invalid_certificate` error message when `withCertificatePinning` is used
+
 ## [18.10.0] - 2020-11-24
 
 ### Added
