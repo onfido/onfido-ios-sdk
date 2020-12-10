@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [19.0.0] - 2020-12-07
+
+### Added
+
+- Public: Added Canadian driver's license autocapture as an experimental feature. Follow [README](README.md#enabling-canadian-driver-licence-auto-capture-beta) to understand how to enable this feature
+
+### Changed
+
+- Public: Now sending selected document country information to the API
+- UI: Country list items are treated as button for better accessibility
+
+### Fixed
+
+- UI: Fixed the bug causing stuck on country search screen when the search mode and voice over are on
+
 ## [18.10.1] - 2020-11-26
 
 ### Fixed

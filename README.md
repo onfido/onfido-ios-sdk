@@ -552,6 +552,8 @@ Otherwise you may encounter the following errors when calling the `build()` func
 - `OnfidoConfigError.multipleTokenTypes` (`ONFlowConfigErrorMultipleTokenTypes` in Objective-C), when both an SDK Token and a Mobile Tokens are provided
 - `OnfidoConfigError.applicantProvidedWithSDKToken` (`ONFlowConfigErrorApplicantProvidedWithSDKToken` in Objective-C), when both an SDK Token and an applicant provided
 - `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` (`ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination` in Objective-C), when unsupported document format for the specified country provided. See [Document Type Configuration](#document-type-configuration) section to check supported combinations.
+- `OnfidoConfigError.invalidCountryCode` (`ONFlowConfigErrorInvalidCountryCode` in Objective-C), when invalid country code provided.
+
 
 ## Customising SDK
 
@@ -676,8 +678,9 @@ As you can see in the table above, each document type has it's own configuration
 
 **Note**: You can specify country for all document types except **Passport**.       
 
-Please refer to the [ISO 3166-1 alpha-3]("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") 3 letter country codes to find out what you need to pass as
-country code to the SDK.
+Please refer to the [ISO 3166-1 alpha-3]("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") 3 letter country codes to find out what you need to pass as country code to the SDK.
+
+**Note:**: SDK throws `OnfidoConfigError.invalidCountryCode` (`ONFlowConfigErrorInvalidCountryCode`) error when invalid country code provided.
 
 Let's say that you would like to capture only driving licenses from the United Kingdom. The following code shows how to do this:
 
@@ -814,6 +817,34 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
 [configBuilder withPassportNFCReadBetaFeatureEnabled];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+```
+
+
+### Enabling Canadian Driver Licence Auto-capture (beta)
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withDocumentStep()
+    .withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+[configBuilder withWelcomeStep];
+[configBuilder withDocumentStep];
+[configBuilder withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled];
 
 NSError *configError = NULL;
 ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
@@ -1040,8 +1071,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.656|
-| Below 12.2       | up to 4.656* or up to 16.488**|
+| 12.2 and above   | 4.673|
+| Below 12.2       | up to 4.673* or up to 16.506**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
