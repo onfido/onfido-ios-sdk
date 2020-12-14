@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 19.0.0 Migration Guide](#onfido-ios-sdk-1900-migration-guide)
 * [Onfido iOS SDK 18.10.0 Migration Guide](#onfido-ios-sdk-18100-migration-guide)
 * [Onfido iOS SDK 18.9.0 Migration Guide](#onfido-ios-sdk-1890-migration-guide)
 * [Onfido iOS SDK 18.8.0 Migration Guide](#onfido-ios-sdk-1880-migration-guide)
@@ -43,6 +44,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 19.0.0 Migration Guide
+
+### Breaking API Changes
+
+- Now SDK sends selected document country information to the backend. If an incorrect country value has been set when configuring the Document step [see documentation](https://github.com/onfido/onfido-ios-sdk/#configuring-country), SDK will throw an error during document upload
 
 ## Onfido iOS SDK 18.10.0 Migration Guide
 
