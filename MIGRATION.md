@@ -49,7 +49,7 @@ These guides below are provided to ease the transition of existing applications 
 
 ### Breaking API Changes
 
-- Now SDK sends selected document country information to the backend. If an incorrect country value has been set when configuring the Document step [see documentation]('https://github.com/onfido/onfido-ios-sdk/#configuring-country'), SDK will throw an error during document upload
+- Now SDK sends selected document country information to the backend. If an incorrect country value has been set when configuring the Document step [see documentation](https://github.com/onfido/onfido-ios-sdk/#configuring-country), SDK will throw an error during document upload
 
 ## Onfido iOS SDK 18.10.0 Migration Guide
 
