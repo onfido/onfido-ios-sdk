@@ -6,7 +6,7 @@
 "onfido_selfie_confirmation_image_accessibility" = "Foto von Ihrem Gesicht";
 "onfido_video_capture_frame_success_accessibility" = "Gesicht erkannt";
 /* Accessibility strings for screen readers */
-"onfido_video_intro_video_accessibility" = "Um ein Selfie-Video aufzunehmen, richten Sie Ihr Gesicht zur Vorderkamera und halten Sie Ihr Smartphone etwas vom Gesicht entfernt. Anschließend müssen Sie einige Zahlen aufsagen und Ihren Kopf entsprechend den Anweisungen auf dem Bildschirm drehen.";
+"onfido_video_intro_video_accessibility" = "Um ein Selfie-Video aufzunehmen, richten Sie Ihr Gesicht zur Vorderkamera und halten Sie Ihr Smartphone etwas vom Gesicht entfernt. Anschließend müssen Sie einige Zahlen aufsagen und Ihren Kopf entsprechend den Anweisungen auf dem Bildschirm drehen";
 "onfido_video_intro_button_pause_accessibility" = "Video anhalten";
 "onfido_video_intro_button_play_accessibility" = "Video abspielen";
 "onfido_country_select_list_header_all" = "Alle Länder";
@@ -35,17 +35,16 @@
 "onfido_permission_button_primary_cam" = "Kamera aktivieren";
 "onfido_permission_button_primary_mic" = "Mikrofon aktivieren";
 "onfido_permission_body_both" = "Wir können Sie nicht verifizieren, ohne auf Ihr Mikrofon und Ihre Kamera zuzugreifen";
-"onfido_permission_body_cam" = "Wir können Sie nicht verifizieren, ohne Ihre Kamera zu benutzen.";
+"onfido_permission_body_cam" = "Wir können Sie nicht verifizieren, ohne Ihre Kamera zu benutzen";
 "onfido_permission_body_mic" = "Wir können Sie nicht verifizieren, ohne auf Ihr Mikrofon zuzugreifen";
 "onfido_permission_subtitle_both" = "Wenn Sie dazu aufgefordert werden, müssen Sie den Zugriff auf beide Komponenten aktivieren, um fortzufahren";
-"onfido_permission_subtitle_cam" = "Wenn Sie dazu aufgefordert werden, müssen Sie den Kamerazugriff aktivieren, um fortzufahren.";
+"onfido_permission_subtitle_cam" = "Wenn Sie dazu aufgefordert werden, müssen Sie den Kamerazugriff aktivieren, um fortzufahren";
 "onfido_permission_subtitle_mic" = "Wenn Sie dazu aufgefordert werden, müssen Sie den Zugriff auf Ihr Mikrofon aktivieren, um fortzufahren";
 /* Device permission */
 "onfido_permission_title_both" = "Zugriff auf Kamera und Mikrofon erlauben";
 "onfido_permission_title_cam" = "Zugriff auf Kamera erlauben";
 /* Microphone Permissions */
 "onfido_permission_title_mic" = "Zugriff auf Mikrofon erlauben";
-"onfido_doc_confirmation_button_secondary" = "Neues Bild aufnehmen";
 "onfido_doc_select_button_license" = "Führerschein";
 "onfido_doc_select_button_id" = "Nationaler Personalausweis";
 "onfido_doc_select_button_passport" = "Reisepass";
@@ -53,7 +52,7 @@
 "onfido_doc_select_subtitle" = "Sie werden im nächsten Schritt ein Bild davon machen müssen";
 "onfido_doc_select_title" = "Dokument auswählen";
 "onfido_doc_capture_prompt_title_license" = "Welche Art von Führerschein haben Sie?";
-"onfido_error_connection_message" = "Es gab einen Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
+"onfido_error_connection_message" = "Es gab einen Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung";
 "onfido_generic_alert_network_error_label" = "Verbindung unterbrochen";
 "onfido_doc_capture_alert_no_face_detail" = "Stellen Sie sicher, dass Ihr Gesicht sichtbar ist";
 "onfido_doc_capture_alert_no_face_detail_folded_doc" = "Legen Sie Ihr Dokument flach hin, um die Innenseiten mit Ihrem Foto anzuzeigen";
@@ -82,7 +81,7 @@
 "onfido_doc_select_button_visa" = "Visum";
 "onfido_doc_select_button_permit_work" = "Arbeitserlaubnis";
 "onfido_video_capture_body" = "Positionieren Sie Ihr Gesicht im angezeigten Oval";
-"onfido_video_capture_header_challenge_digit_instructions" = "Sprechen Sie jede Ziffer laut aus.";
+"onfido_video_capture_header_challenge_digit_instructions" = "Sprechen Sie jede Ziffer laut aus";
 "onfido_video_capture_header_challenge_turn_forward" = "dann nach vorne schauen";
 "onfido_video_capture_header_challenge_turn_left" = "Kopf nach links drehen";
 "onfido_video_capture_header_challenge_turn_right" = "Kopf nach rechts drehen";
@@ -93,11 +92,11 @@
 "onfido_liveness_intro_loading_video" = "Beispiel laden";
 "onfido_video_intro_list_item_time_limit" = "Sprechen Sie laut und bewegen Sie Ihren Kopf";
 "onfido_video_intro_list_item_move_speak" = "Beenden Sie Aktionen in weniger als %d Sekunden";
-"onfido_video_intro_subtitle" = "Lassen Sie uns sicherstellen, dass sich niemand für Sie ausgibt.";
+"onfido_video_intro_subtitle" = "Lassen Sie uns sicherstellen, dass sich niemand für Sie ausgibt";
 "onfido_video_intro_title" = "Selfie-Video aufnehmen";
 /* Liveness capture */
 "onfido_video_capture_prompt_detail_timeout" = "Denken Sie daran, „Stopp“ zu drücken, wenn Sie fertig sind";
-"onfido_video_capture_prompt_header_timeout" = "Sieht aus, als hätten Sie zu lange gebraucht.";
+"onfido_video_capture_prompt_header_timeout" = "Sieht aus, als hätten Sie zu lange gebraucht";
 /* Locale identifier */
 "onfido_locale" = "EN";
 "onfido_doc_confirmation_body_license" = "Die Führerschein Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
@@ -138,9 +137,9 @@
 "onfido_doc_capture_header_id_front" = "Vorderseite der Karte";
 "onfido_doc_capture_header_permit_front" = "Vorderseite der Erlaubnis";
 "onfido_generic_uploading" = "Hochladen";
-"onfido_doc_confirmation_alert_no_doc_detail" = "Stellen Sie sicher, dass das gesamte Dokument auf dem Foto zu sehen ist.";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Stellen Sie sicher, dass das gesamte Dokument auf dem Foto zu sehen ist";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Stellen Sie sicher, dass Ihr Gesicht vollständig sichtbar ist";
-"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Nur Ihr Gesicht kann im Selfie zu sehen sein.";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Nur Ihr Gesicht kann im Selfie zu sehen sein";
 "onfido_doc_capture_detail_visa" = "Positionieren Sie die Seite mit Ihrem Foto im Rahmen";
 "onfido_doc_capture_alert_no_mrz_detail" = "Stellen Sie sicher, dass das vollständige Dokument zu sehen ist";
 
@@ -196,24 +195,24 @@
 
 /* NFC Read */
 
-"onfido_nfc_select_title" = "Beschleunigen Sie den Prozess mit Ihrem ePass.";
-"onfido_nfc_select_subtitle" = "Wir scannen den NFC-Chip in Ihrem Reisepass.";
-"onfido_nfc_select_body" = "ePässe haben dieses Symbol auf dem Einband.";
+"onfido_nfc_select_title" = "Beschleunigen Sie den Prozess mit Ihrem ePass";
+"onfido_nfc_select_subtitle" = "Wir scannen den NFC-Chip in Ihrem Reisepass";
+"onfido_nfc_select_body" = "ePässe haben dieses Symbol auf dem Einband";
 "onfido_nfc_select_button_primary" = "ePass verwenden";
-"onfido_nfc_select_button_secondary" = "Ich habe keinen ePass.";
+"onfido_nfc_select_button_secondary" = "Ich habe keinen ePass";
 "onfido_nfc_intro_title" = "Scannen Sie Ihren ePass";
-"onfido_nfc_intro_subtitle" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass und drücken Sie die Taste, um mit dem Scannen zu beginnen.";
+"onfido_nfc_intro_subtitle" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass und drücken Sie die Taste, um mit dem Scannen zu beginnen";
 "onfido_nfc_intro_button_primary" = "Scannen starten";
-"onfido_nfc_intro_sheet_header_ready" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass.";
-"onfido_nfc_intro_sheet_header_scanning" = "Scannen …";
-"onfido_nfc_fail_title" = "Wir konnten Ihren Reisepass nicht scannen.";
-"onfido_nfc_fail_list_item_remove_covers" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons.";
-"onfido_nfc_fail_list_item_keep_contact" = "Halten Sie Ihr Telefon und Ihren Reisepass dicht beieinander, bis der Scannvorgang erfolgreich abgeschlossen wurde.";
+"onfido_nfc_intro_sheet_header_ready" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass";
+"onfido_nfc_intro_sheet_header_scanning" = "Scannen...";
+"onfido_nfc_fail_title" = "Wir konnten Ihren Reisepass nicht scannen";
+"onfido_nfc_fail_list_item_remove_covers" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons";
+"onfido_nfc_fail_list_item_keep_contact" = "Halten Sie Ihr Telefon und Ihren Reisepass dicht beieinander, bis der Scannvorgang erfolgreich abgeschlossen wurde";
 "onfido_nfc_fail_button_primary" = "Scannen wiederholen";
 "onfido_nfc_fail_button_secondary" = "Ohne Scannen fortfahren";
 
 "onfido_doc_confirmation_zoom_button" = "Bild vergrößern";
-"onfido_doc_confirmation_image_accessibility" = "Foto Ihres Dokuments. Doppelklicken, zur Vergrößerung.";
+"onfido_doc_confirmation_image_accessibility" = "Foto Ihres Dokuments. Doppelklicken, zur Vergrößerung";
 "onfido_doc_zoom_body" = "Bewegen Sie sich mit einem Finger";
 "onfido_doc_zoom_button_close" = "Schließen";
 
