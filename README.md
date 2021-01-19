@@ -43,13 +43,15 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 ## Getting started
 
 * SDK supports iOS 10+
-* SDK supports Xcode 11+
+* SDK supports Xcode 11.5 and above (*)
 * SDK has full bitcode support
 * SDK supports following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
 
-⚠️ The Onfido SDK require CoreNFC to run. Since XCode 12 there is bug where `libnfshared.dylib` is missing from simulators. See [stackoverflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
+\* There is a workaround for Xcode 11.3 if required. Please contact [support](mailto:client-support@onfido.com) for more information.
+
+⚠️ The Onfido SDK require CoreNFC to run. Since Xcode 12 there is bug where `libnfshared.dylib` is missing from simulators. See [stackoverflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
 
 ### 1. Obtaining an API token
 
@@ -189,16 +191,6 @@ pod 'Onfido'
 ```
 
 Run `pod install` to get the sdk.
-
-#### Using Carthage
-
-The SDK is available on Carthage and you can include it in your projects by adding the following to your Cartfile:
-
-```ruby
-binary "https://raw.githubusercontent.com/onfido/onfido-ios-sdk/master/onfido-carthage-spec.json"
-```
-
-Run `carthage update` to get the sdk.
 
 #### Manual Installation
 
@@ -1071,8 +1063,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.673|
-| Below 12.2       | up to 4.673* or up to 16.506**|
+| 12.2 and above   | 4.011|
+| Below 12.2       | up to 4.011* or up to 15.843**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

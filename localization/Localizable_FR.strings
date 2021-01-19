@@ -212,7 +212,6 @@
 "onfido_info_tablet_orientation_body" = "Le bouton doit se trouver en bas de votre tablette";
 
 "onfido_video_capture_prompt_button_timeout" = "Réessayer";
-"onfido_doc_confirmation_button_secondary" = "Prendre une nouvelle photo";
 "onfido_video_capture_button_primary_fallback" = "Suivant";
 "onfido_video_confirmation_title" = "Merci";
 "onfido_generic_alert_network_error_button_primary" = "OK";

@@ -213,7 +213,6 @@
 "onfido_info_tablet_orientation_body" = "El botón de inicio debería estar en la parte inferior de la pantalla";
 
 "onfido_video_capture_prompt_button_timeout" = "Reintentar";
-"onfido_doc_confirmation_button_secondary" = "Tomar una nueva foto";
 "onfido_video_capture_button_primary_fallback" = "Siguiente";
 "onfido_video_confirmation_title" = "Gracias";
 "onfido_generic_alert_network_error_button_primary" = "OK";

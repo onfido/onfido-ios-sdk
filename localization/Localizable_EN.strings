@@ -4,7 +4,6 @@
 "onfido_doc_capture_frame_accessibility" = "View from camera";
 "onfido_selfie_capture_frame_accessibility" = "View from selfie camera";
 "onfido_video_capture_frame_accessibility" = "View from selfie camera";
-"Photo of your document. Double tap to enlarge.";
 "onfido_selfie_confirmation_image_accessibility" = "Photo of your face";
 "onfido_video_capture_frame_success_accessibility" = "Face detected";
 /* Accessibility strings for screen readers */
@@ -58,7 +57,6 @@
 "onfido_permission_title_cam" = "Allow camera access";
 /* Microphone Permissions */
 "onfido_permission_title_mic" = "Allow microphone access";
-"onfido_doc_confirmation_button_secondary" = "Retake photo";
 "onfido_doc_select_subtitle" = "It must be an official photo ID";
 /* Document type selection */
 "onfido_doc_select_title" = "Choose your document";

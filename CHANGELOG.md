@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [20.0.0] - 2021-01-18
+
+### Added
+
+- UI: Added accessibility header traits to title and section header elements
+- Public: Now support Swift Package Manager(SPM) as dependency manager
+
+### Changed
+
+- Public: Changed dynamic framework format from fat universal framework to xcframework
+- UI: Changed voiceover behaviour to focus on main content rather than back button on the SDK screen. (only for iOS 13+ versions)
+- Public: Updated README clarify Xcode version support
+
+### Fixed
+
+- UI: Fixed progress bar not reflecting progress
+- UI: Fixed liveness capture reloading delay after retry on timeout
+- UI: Fixed the errors in translation (strings) files
+- Public: Now returning error to the integrator if the camera device does not function properly
+
+### Removed
+
+- Public: Carthage support due to Carthage not supporting XCFramework
+
 ## [19.0.0] - 2020-12-07
 
 ### Added
