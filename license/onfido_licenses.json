@@ -17,14 +17,6 @@
              "source_code_changes": null
          },
          {
-            "name": "MBProgressHUD",
-            "project_url": "https://github.com/matej/MBProgressHUD",
-            "license_name": "MIT",
-            "copyright_notice": "Copyright © 2009-2016 Matej Bukovinski",
-            "changed_source_code": true,
-            "source_code_changes": "renamed classes, variables and functions due to namespacing issues"
-         },
-         {
             "name": "Open CV",
             "project_url": "https://sourceforge.net/projects/opencvlibrary/files/3.4.5/opencv-3.4.5-ios-framework.zip/download",
             "license_name": "3-clause BSD License",

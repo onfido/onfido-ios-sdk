@@ -276,3 +276,13 @@
 "onfido_video_confirmation_body" = "Votre vidéo a été enregistrée";
 "onfido_app_title_country_select_search" = "Rechercher";
 "onfido_country_select_list_accessibility" = "Résultats de recherche";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Verify your identity";
+"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
+"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
+"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_button_primary" = "Accept";
+"onfido_user_consent_button_secondary" = "Do not accept";

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 21.0.0 Migration Guide](#onfido-ios-sdk-2100-migration-guide)
 * [Onfido iOS SDK 19.0.0 Migration Guide](#onfido-ios-sdk-1900-migration-guide)
 * [Onfido iOS SDK 18.10.0 Migration Guide](#onfido-ios-sdk-18100-migration-guide)
 * [Onfido iOS SDK 18.9.0 Migration Guide](#onfido-ios-sdk-1890-migration-guide)
@@ -43,6 +44,41 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 21.0.0 Migration Guide
+
+### Breaking API Changes
+
+- Added cancellation reason to response handler cancelled case. Value can be .userExit or .deniedConsent
+- Changed OnfidoConfig.Builder to OnfidoConfigBuilder
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_app_title_user_consent` (en, es, fr, de)
+
+- `onfido_user_consent_prompt_no_consent_title` (en, es, fr, de)
+
+- `onfido_user_consent_prompt_no_consent_detail` (en, es, fr, de)
+
+- `onfido_user_consent_prompt_button_primary` (en, es, fr, de)
+
+- `onfido_user_consent_prompt_button_secondary` (en, es, fr, de)
+
+- `onfido_user_consent_button_primary` (en, es, fr, de)
+
+- `onfido_user_consent_button_secondary` (en, es, fr, de)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_locale` (de)
+
 
 
 ## Onfido iOS SDK 19.0.0 Migration Guide
@@ -330,7 +366,7 @@ The following string keys have been **removed**:
 ### Breaking API changes
 
 -  The deprecated `withApplicant()` function has been **removed**.
- If you're using `withApplicant()` function to create an applicant, please refer to [README]("https://github.com/onfido/onfido-ios-sdk/blob/17.0.0/README.md#2-creating-an-applicant") to understand how to create an applicant. Once you created it, use `withApplicantId` function to pass `id` value of applicant.
+ If you're using `withApplicant()` function to create an applicant, please refer to [README](https://github.com/onfido/onfido-ios-sdk/blob/17.0.0/README.md#2-creating-an-applicant) to understand how to create an applicant. Once you created it, use `withApplicantId` function to pass `id` value of applicant.
 
  - Following with `withApplicant()` function removal, `OnfidoConfigError.multipleApplicants` and `ONFlowResultType.applicant` enum cases have been **removed**.
 

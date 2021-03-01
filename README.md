@@ -53,6 +53,9 @@ This SDK provides a drop-in set of screens and tools for iOS applications to all
 
 ⚠️ The Onfido SDK require CoreNFC to run. Since Xcode 12 there is bug where `libnfshared.dylib` is missing from simulators. See [stackoverflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
 
+⚠️ Even though you don't enable NFC feature, Apple might ask you to provide a video to demonstrate NFC usage as NFC related code is part of the SDK binary regardless of runtime configuration.
+While we're working on permanent solution for this problem, please download the video that has been shared [in this post](https://github.com/onfido/onfido-ios-sdk/issues/215#issuecomment-767553245) and send to Apple to proceed on your App Review process.
+
 ### 1. Obtaining an API token
 
 In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
@@ -323,13 +326,16 @@ The result object passed to the callback may include the following attributes fo
 ```swift
 let responseHandler: (OnfidoResponse) -> Void = { response in
   switch response {
-    case let .error(error):
+    case .error(let error):
         // Some error happened
-    case let .success(results):
+    case .success(let results):
         // User completed the flow
         // You can create your check here
-    case .cancel:
+    case .cancel(let reason):
         // Flow cancelled by the user
+        // reason can be .userExit or .deniedConsent
+        // .userExit -> when user taps back button on first screen
+        // .deniedConsent -> when user denied consent on consent screen (configured using withUserConsentStep() on SDK config see Flow customisation section)
   }
 }
 ```
@@ -551,11 +557,13 @@ Otherwise you may encounter the following errors when calling the `build()` func
 
 ### Flow customisation
 
+#### Welcome step
+
 The SDK can be customised by specifying to show a welcome screen and the steps to capture when configuring.
 
 You can show the welcome screen by calling `configBuilder.withWelcomeStep()` in Swift or `[configBuilder withWelcomeStep]` in Objective-C.
 
-#### Swift
+##### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
@@ -564,7 +572,7 @@ let config = try! OnfidoConfig.builder()
     .build()
 ```
 
-#### Objective-C
+##### Objective-C
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
@@ -581,6 +589,37 @@ if (configError) {
     // use config
 }
 ```
+
+#### Consent step
+
+We also provide a consent screen in which the user must give explicit consent for Onfido to capture and process their captures. You can specify it in the following ways:
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    ...
+    .withConsentStep()
+    ...
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+...
+[builder withConsentStep];
+...
+```
+
+This step contains a screen to collect the user's privacy consent and is an optional step in the SDK flow. It contains the required consent language as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
+Note that this step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
+If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your user starts interacting with Onfido SDK.
+For more information about this step, and how to collect user consent, please visit http://developers.onfido.com/guide/onfido-privacy-notices-and-consent.
+
+#### Capture steps
 
 You can either specify to capture the document and/or face of the user.
 
@@ -610,7 +649,7 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
 
-#### Swift
+##### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
@@ -621,7 +660,7 @@ let config = try! OnfidoConfig.builder()
     .build()
 ```
 
-#### Objective-C
+##### Objective-C
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
@@ -662,15 +701,15 @@ The document step can be further configured to capture single document types wit
 
 **Note**: `Generic` document type doesn't offer an optimised capture experience for a desired document type.
 
-### Document Type Configuration
+#### Document Type Configuration
 
 As you can see in the table above, each document type has it's own configuration class. While configuring document type, you can optionally pass configuration object along with type.
 
-#### Configuring Country
+##### Configuring Country
 
 **Note**: You can specify country for all document types except **Passport**.       
 
-Please refer to the [ISO 3166-1 alpha-3]("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") 3 letter country codes to find out what you need to pass as country code to the SDK.
+Please refer to the [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) 3 letter country codes to find out what you need to pass as country code to the SDK.
 
 **Note:**: SDK throws `OnfidoConfigError.invalidCountryCode` (`ONFlowConfigErrorInvalidCountryCode`) error when invalid country code provided.
 
@@ -1031,6 +1070,7 @@ Currently we recommend using the above hook to keep track of how many user's rea
 Below is the list of potential events currently being tracked by the hook:
 ```
 WELCOME - User reached the "Welcome" screen
+USER_CONSENT - User reached "user consent" screen
 DOCUMENT_CAPTURE - User reached the "document capture" screen (for one-sided document)
 DOCUMENT_CAPTURE_FRONT - User reached the "document capture" screen for the front side (for two-sided document)
 DOCUMENT_CAPTURE_BACK - User reached the "document capture" screen for the back side (for two-sided document)
@@ -1052,7 +1092,7 @@ VIDEO_FACIAL_UPLOAD - User's liveness video is uploading
 
 ## Going live
 
-Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile token. You will have to replace the sandbox tokens in your code with the live tokens.
+Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile token. You will have to replace the sandbox tokens in your code with the live tokens.
 
 A few things to check before you go live:
 
@@ -1063,8 +1103,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.007|
-| Below 12.2       | up to 4.008* or up to 15.826**|
+| 12.2 and above   | 4.028|
+| Below 12.2       | up to 4.028* or up to 15.502**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
