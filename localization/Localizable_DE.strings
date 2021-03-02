@@ -98,7 +98,7 @@
 "onfido_video_capture_prompt_detail_timeout" = "Denken Sie daran, „Stopp“ zu drücken, wenn Sie fertig sind";
 "onfido_video_capture_prompt_header_timeout" = "Sieht aus, als hätten Sie zu lange gebraucht";
 /* Locale identifier */
-"onfido_locale" = "EN";
+"onfido_locale" = "de";
 "onfido_doc_confirmation_body_license" = "Die Führerschein Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_generic" = "Die Details des Dokuments müssen deutlich zu lesen sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_id" = "Die Details der Karte müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
@@ -219,3 +219,13 @@
 "onfido_video_confirmation_body" = "Ihr Video wurde aufgezeichnet";
 "onfido_app_title_country_select_search" = "Suche";
 "onfido_country_select_list_accessibility" = "Suchergebnisse";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Verify your identity";
+"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
+"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
+"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_button_primary" = "Accept";
+"onfido_user_consent_button_secondary" = "Do not accept";

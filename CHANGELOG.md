@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [21.0.0] - 2021-03-01
+
+### Added
+
+- UI: Added consent screen
+- Public: Now sending user reached consent screen to tracked evenets
+
+### Changed
+
+- UI: Added cancellation prompt to consent screen
+- Public: Updated README to provide solution for potantial App Rejection problems related with NFC
+
+### Fixed
+
+- Public: Fixed onfido_locale value in Localizable.strings for German language
+
 ## [20.1.0] - 2021-02-01
 
 ### Changed
@@ -288,7 +304,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Now only detecting glare on rectangles of ID1 size on US DL autocapture
 - UI: Now auto capturing non-blurry US DL only
 - Public: Updated bubble view design and updated barcode not readable copy
-- Public: Removed deprecated withApplicant() function from public API. Please check [migration document]("https://github.com/onfido/onfido-ios-sdk/blob/master/MIGRATION.md") to understand what needs to be done.
+- Public: Removed deprecated withApplicant() function from public API. Please check [migration document](https://github.com/onfido/onfido-ios-sdk/blob/master/MIGRATION.md) to understand what needs to be done.
 - UI: Updated liveness capture head turn challenge design
 - Public: Updated code snippets and descriptions about API v2 with API v3 in README.
 - UI: Selfie oval now same as liveness oval size
