@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [21.1.0] - 2021-03-18
+
+### Changed
+
+- Public: Now forcing user to retake image when blurry
+
 ## [21.0.0] - 2021-03-01
 
 ### Added
