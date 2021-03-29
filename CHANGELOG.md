@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [21.2.0] - 2021-03-29
+
+### Added
+
+- UI: Now managing consent screen content load error
+
+### Changed
+
+- UI: Now primary button is retake and secondary is confirm on capture confirmation screen when warning present
+- Public: Made some improvements around video recording logic to prevent several crash issues which have been reported on github. [Issue 1](https://github.com/onfido/onfido-ios-sdk/issues/220), [Issue 2](https://github.com/onfido/onfido-ios-sdk/issues/222 Those issues are: https://github.com/onfido/onfido-ios-sdk/issues/227)
+
+### Fixed
+
+- Public: Removed incorrect keys mentioned in MIGRATION.MD document
+- Public: Fixed user cancellation Objective-C API. Now returning correct status.
+- Public: Updated README.MD to correct the function name to enable user consent screen for swift interface
+
 ## [21.1.0] - 2021-03-18
 
 ### Changed

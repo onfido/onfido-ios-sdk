@@ -144,7 +144,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 #### 3.2 Mobile Tokens
 
-**Note:**  Mobile token usage is still supported, but it **will be deprecated** in the future. If you are starting a project, we would strongly recommend that you use SDK tokens instead.
+**Note:**  From **1st June 2021** onward, new SDK versions will no longer support **mobile tokens**. Please migrate your integration to use **SDK tokens** so that you can upgrade to new SDK versions in the future.
 
 In order to start integration, you will need the **API token** and the **mobile token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
@@ -347,6 +347,7 @@ let responseHandler: (OnfidoResponse) -> Void = { response in
 
     if (response.userCanceled) {
         // Flow cancelled by the user
+        // You can check why the user canceled using response.userCanceled.reason
     } else if (response.results) {
         // User completed the flow
         // You can create your check here
@@ -599,7 +600,7 @@ We also provide a consent screen in which the user must give explicit consent fo
 ```swift
 let config = try! OnfidoConfig.builder()
     ...
-    .withConsentStep()
+    .withUserConsentStep()
     ...
     .build()
 ```
@@ -614,10 +615,10 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 ...
 ```
 
-This step contains a screen to collect the user's privacy consent and is an optional step in the SDK flow. It contains the required consent language as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
+This step contains a screen to collect the US user's privacy consent for Onfido and is an optional step in the SDK flow. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
 Note that this step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
 If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your user starts interacting with Onfido SDK.
-For more information about this step, and how to collect user consent, please visit http://developers.onfido.com/guide/onfido-privacy-notices-and-consent.
+For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
 #### Capture steps
 
@@ -1103,8 +1104,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.055|
-| Below 12.2       | up to 4.055* or up to 15.535**|
+| 12.2 and above   | 4.06|
+| Below 12.2       | up to 4.06* or up to 15.54**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
