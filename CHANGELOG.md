@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - UI: Now primary button is retake and secondary is confirm on capture confirmation screen when warning present
-- Public: Made some improvements around video recording logic to prevent several crash issues which have been reported on github. [Issue 1](https://github.com/onfido/onfido-ios-sdk/issues/220), [Issue 2](https://github.com/onfido/onfido-ios-sdk/issues/222 Those issues are: https://github.com/onfido/onfido-ios-sdk/issues/227)
+- Public: Made some improvements around video recording logic to prevent several crash issues which have been reported on github. [Issue 1](https://github.com/onfido/onfido-ios-sdk/issues/220), [Issue 2](https://github.com/onfido/onfido-ios-sdk/issues/222). Those issues are: https://github.com/onfido/onfido-ios-sdk/issues/227.
 
 ### Fixed
 
