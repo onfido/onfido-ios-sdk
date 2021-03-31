@@ -70,7 +70,10 @@
         if (response.error) {
             [self showError:[[response.error userInfo] valueForKey:@"message"]];
         } else if (response.userCanceled) {
-            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Canceled" message:@"Canceled by user" preferredStyle:UIAlertControllerStyleAlert];
+            NSString *cancellationMessage = [self getCanceletationReason:response.userCanceled];
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Canceled by user"
+                                                                           message:cancellationMessage
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
             [alert addAction:action];
             [self presentViewController:alert animated:YES completion:nil];
@@ -85,12 +88,20 @@
     }];
 }
 
-
 - (void)showError: (NSString *) message {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:[NSString stringWithFormat:@"Onfido SDK errored %@", message] preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
     [alert addAction:action];
     [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (NSString *) getCanceletationReason: (ONFlowCancellation *) flowCancellation {
+    switch (flowCancellation.reason) {
+        case CancellationReasonUserExit:
+            return @"Reason: User exited flow";
+        case CancellationReasonDeniedConsent:
+            return @"Reason: User denied consent";
+    }
 }
 
 @end
