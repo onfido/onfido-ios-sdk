@@ -4,7 +4,7 @@ target 'SampleApp' do
  use_frameworks!
  inhibit_all_warnings!
       
-    pod 'Onfido', '21.2.0'    
+    pod 'Onfido', '21.3.0'    
   end
 
 post_install do |installer|

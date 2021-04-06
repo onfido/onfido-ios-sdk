@@ -1,7 +1,8 @@
 # Onfido
 
 [![Version](https://img.shields.io/cocoapods/v/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
-[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](http://cocoapods.org/pods/Onfido)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
+[![Carthage incompatible](https://img.shields.io/badge/Carthage-incompatible-red.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://app.bitrise.io/app/d04e3a422799521b/status.svg?token=vBI0wpdUSfh25wctd1MHfA&branch=master)](https://www.bitrise.io/app/d04e3a422799521b)
 [![License](https://img.shields.io/cocoapods/l/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
 [![Platform](https://img.shields.io/cocoapods/p/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
@@ -1104,8 +1105,8 @@ A few things to check before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.06|
-| Below 12.2       | up to 4.06* or up to 15.54**|
+| 12.2 and above   | 3.921|
+| Below 12.2       | up to 3.921* or up to 15.405**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
