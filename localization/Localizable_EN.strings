@@ -238,14 +238,42 @@
 "onfido_app_title_user_consent" = "Verify your identity";
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_prompt_button_secondary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_primary" = "Review again";
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
 
+"onfido_welcome_list_header_doc_video" = "Use your device to record:";
+"onfido_welcome_list_item_doc_video_flash" = "We’ll turn on your device flash during the video recording";
+"onfido_welcome_list_item_doc_video_timeout" = "Recording is limited to %d seconds";
+"onfido_doc_video_capture_header" = "While holding your document, keep its front side within the frame";
+"onfido_doc_video_capture_header_step1" = "Now, keep still";
+"onfido_doc_video_capture_header_step2" = "Slowly turn your document around to show the back";
 /* User consent load error */
 
 "onfido_app_title_user_consent_load_fail" = "Verify your identity";
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_doc_video_capture_detail_step2" = "Keep the document in full view at all times";
+"onfido_doc_video_confirmation_button_secondary" = "Preview video";
+"onfido_doc_video_capture_button_primary_fallback" = "Next step";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Finish recording";
+"onfido_doc_video_capture_header_passport" = "While holding your passport, keep the photo page within the frame";
+"onfido_doc_video_capture_header_passport_progress" = "Hold still";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Slowly turn your document around to show the outer pages";
+"onfido_doc_video_capture_stepper" = "Step %d of %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Video recording is limited to %d seconds";
+"onfido_doc_video_capture_alert_wrong_side" = "Make sure you’re showing the back of your document";
+"onfido_doc_video_capture_success_accessibility" = "Success";
+"onfido_doc_video_capture_header_folded_doc_front" = "Profile photo side";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Lay your document flat, include all inner pages (must contain your photo)";
+"onfido_doc_video_capture_prompt_header_timeout" = "Looks like you took too long";
+"onfido_doc_video_capture_prompt_button_timeout" = "Retry";
+"onfido_app_title_doc_video_confirmation" = "Verify your identity";
+"onfido_doc_video_confirmation_button_primary" = "Submit video";
+"onfido_doc_video_confirmation_body" = "Your video has been recorded";
+"onfido_doc_video_capture_button_primary_start" = "Start recording";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Preview video";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Retake video";
+"onfido_doc_video_confirmation_title" = "Thank you";

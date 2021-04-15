@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [21.4.0] - 2021-04-12
+
+### Added
+
+- Public: Added ability to remote config blur detection for image quality optimisation
+
+### Changed
+
+- Public: Swapped primary and secondary key names for consent denied prompt
+
 ## [21.3.0] - 2021-04-06
 
 ### Added
