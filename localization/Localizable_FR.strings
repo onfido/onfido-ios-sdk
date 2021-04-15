@@ -282,10 +282,17 @@
 "onfido_app_title_user_consent" = "Verify your identity";
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_prompt_button_secondary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_primary" = "Review again";
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Terminer l’enregistrement";
+"onfido_welcome_list_header_doc_video" = "Utilisez votre mobile pour enregistrer :";
+"onfido_welcome_list_item_doc_video_flash" = "Nous activerons le flash de votre appareil pendant l’enregistrement de la vidéo";
+"onfido_welcome_list_item_doc_video_timeout" = "L’enregistrement est limité à %d secondes";
+"onfido_doc_video_capture_header" = "En tenant votre document, gardez son recto dans le cadre";
+"onfido_doc_video_capture_header_step1" = "Patientez";
+"onfido_doc_video_capture_header_step2" = "Tournez lentement votre pièce d’identité pour montrer le verso";
 
 /* User consent load error */
 
@@ -293,3 +300,25 @@
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_doc_video_capture_detail_step2" = "Gardez le document visible à tout moment";
+"onfido_doc_video_confirmation_button_secondary" = "Aperçu de la vidéo";
+"onfido_doc_video_capture_button_primary_fallback" = "Étape suivante";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Terminer l’enregistrement";
+"onfido_doc_video_capture_header_passport" = "En tenant votre passeport, gardez la page de la photo dans le cadre";
+"onfido_doc_video_capture_header_passport_progress" = "Restez immobile";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Tournez lentement votre pièce d’identité pour montrer les pages extérieures";
+"onfido_doc_video_capture_stepper" = "Étape %d sur %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "L’enregistrement vidéo est limité à %d secondes";
+"onfido_doc_video_capture_alert_wrong_side" = "Assurez-vous de montrer le dos de votre pièce d’identité";
+"onfido_doc_video_capture_success_accessibility" = "Succès";
+"onfido_doc_video_capture_header_folded_doc_front" = "Côté contenant votre photo";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Dépliez votre document, prenez en photo les pages intérieures (qui contiennent votre photo)";
+"onfido_doc_video_capture_prompt_header_timeout" = "Le temps est écoulé";
+"onfido_doc_video_capture_prompt_button_timeout" = "Réessayer";
+"onfido_app_title_doc_video_confirmation" = "Vérification d’identité";
+"onfido_doc_video_confirmation_button_primary" = "Envoyer la vidéo";
+"onfido_doc_video_confirmation_body" = "Votre vidéo a été enregistrée";
+"onfido_doc_video_capture_button_primary_start" = "Démarrer l’enregistrement";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Aperçu de la vidéo";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Prendre une nouvelle vidéo";
+"onfido_doc_video_confirmation_title" = "Merci";

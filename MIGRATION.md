@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 21.4.0 Migration Guide](#onfido-ios-sdk-2140-migration-guide)
 * [Onfido iOS SDK 21.2.0 Migration Guide](#onfido-ios-sdk-2120-migration-guide)
 * [Onfido iOS SDK 21.0.0 Migration Guide](#onfido-ios-sdk-2100-migration-guide)
 * [Onfido iOS SDK 19.0.0 Migration Guide](#onfido-ios-sdk-1900-migration-guide)
@@ -45,6 +46,20 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 21.4.0 Migration Guide
+
+### String Changes
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_user_consent_prompt_button_primary` (en, fr, es, de)
+
+- `onfido_user_consent_prompt_button_secondary` (en, fr, es, de)
+
 
 
 ## Onfido iOS SDK 21.2.0 Migration Guide

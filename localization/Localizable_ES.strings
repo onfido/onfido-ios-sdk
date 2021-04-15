@@ -283,14 +283,42 @@
 "onfido_app_title_user_consent" = "Verify your identity";
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_prompt_button_secondary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_primary" = "Review again";
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
 
+"onfido_welcome_list_header_doc_video" = "Utilice su móvil para la grabación:";
+"onfido_welcome_list_item_doc_video_flash" = "Encenderemos el flash de su móvil durante la grabación de vídeo";
+"onfido_welcome_list_item_doc_video_timeout" = "La grabación tiene un límite de %d segundos";
+"onfido_doc_video_capture_header" = "Mientras sostiene el documento, mantenga la parte frontal dentro del marco";
+"onfido_doc_video_capture_header_step1" = "Ahora, no se mueva";
+"onfido_doc_video_capture_header_step2" = "Gire lentamente el documento para mostrar el reverso";
 /* User consent load error */
 
 "onfido_app_title_user_consent_load_fail" = "Verify your identity";
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_doc_video_capture_detail_step2" = "Mantenga el documento a la vista en todo momento";
+"onfido_doc_video_confirmation_button_secondary" = "Vista previa del vídeo";
+"onfido_doc_video_capture_button_primary_fallback" = "Siguiente paso";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Finalizar grabación";
+"onfido_doc_video_capture_header_passport" = "Mientras sostiene su pasaporte, mantenga la página de la foto dentro del marco";
+"onfido_doc_video_capture_header_passport_progress" = "No se mueva";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Gire lentamente el documento para mostrar las páginas exteriores";
+"onfido_doc_video_capture_stepper" = "Paso %d de %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "La grabación de vídeo tiene un límite de %d segundos";
+"onfido_doc_video_capture_alert_wrong_side" = "Asegúrese de mostrar el reverso de su documento";
+"onfido_doc_video_capture_success_accessibility" = "Se ha realizado correctamente";
+"onfido_doc_video_capture_header_folded_doc_front" = "Lado con su foto";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Asegúrese que su documento este completmente abierto (debe incluir su foto)";
+"onfido_doc_video_capture_prompt_header_timeout" = "Parece que ha demorado demasiado";
+"onfido_doc_video_capture_prompt_button_timeout" = "Reintentar";
+"onfido_app_title_doc_video_confirmation" = "Verifique su identidad";
+"onfido_doc_video_confirmation_button_primary" = "Enviar video";
+"onfido_doc_video_confirmation_body" = "Su video ha sido grabado";
+"onfido_doc_video_capture_button_primary_start" = "Iniciar grabación";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Vista previa del vídeo";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Retomar el video";
+"onfido_doc_video_confirmation_title" = "Gracias";
