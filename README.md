@@ -898,8 +898,8 @@ let appearance = Appearance(
               primaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
               secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
               fontRegular: <DESIRED_FONT_NAME_HERE>,
-              fontBold: <DESIRED_FONT_NAME_HERE>),
-              supportDarkMode: <true | false>))
+              fontBold: <DESIRED_FONT_NAME_HERE>,
+              supportDarkMode: <true | false>)
 
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
@@ -1006,7 +1006,7 @@ if (variantError) {
 ```
 
 You can find the keys for the localizable strings under the [`localization`](localization) directory which contains strings files for all out-of-the-box translations.
-You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Addtionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
+You can supply partial translations, meaning if you don’t include a translation to particular key our translation will be used instead. You can also name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method i.e. `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` for Objective-C). Additionally you can specify the bundle from which to read the strings file i.e `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (`[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` for Objective-C).
 
 ## Creating checks
 
