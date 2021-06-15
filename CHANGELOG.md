@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [22.0.0] - 2021-06-10
+
+### Added
+
+- UI: Image quality service integration
+- UI: Ability to customise button corner radius
+
+### Changed
+
+- Public: Accessibility: improved instructions for capturing various document types
+- Public: Accessibility: improved instructions for selfie camera capture
+- Public: Now returning a single document and face result object. Only last capture returned.
+- Public: Accessibility: announcing number of results when searching for countries
+- UI: Now showing auto capure message below capture frame area. Same as manual capture.
+- UI: Now showing capture instructions at all times even when warning present to user
+- Public: Accessibility: improved the instruction for selfie and video capture
+- Public: Accessibility: added reference that video is being played on intro video screen
+- UI: Now showing spinner instead of deterministic progress bar
+
+### Fixed
+
+- Public: Value of keys onfido_video_intro_list_item_time_limit and onfido_video_intro_list_item_move_speak were swapped
+- Public: Fixed residence permit documents sent as unknown document type
+
 ## [21.4.0] - 2021-04-12
 
 ### Added

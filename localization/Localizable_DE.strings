@@ -1,12 +1,12 @@
 "onfido_doc_capture_button_accessibility" = "Auslöser";
 "onfido_selfie_capture_button_accessibility" = "Auslöser";
 "onfido_doc_capture_frame_accessibility" = "Ansicht von der Kamera";
-"onfido_selfie_capture_frame_accessibility" = "Ansicht der Selfie-Kamera";
-"onfido_video_capture_frame_accessibility" = "Ansicht der Selfie-Kamera";
+"onfido_selfie_capture_frame_accessibility" = "Ansicht von der Selfie-Kamera. Positionieren Sie Ihr Gesicht innerhalb des Oval und tippen Sie dann auf den Auslöser";
+"onfido_video_capture_frame_accessibility" = "Ansicht von der Selfie-Kamera. Positionieren Sie Ihr Gesicht innerhalb des Oval, um mit der Aufnahme zu beginnen.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto von Ihrem Gesicht";
 "onfido_video_capture_frame_success_accessibility" = "Gesicht erkannt";
 /* Accessibility strings for screen readers */
-"onfido_video_intro_video_accessibility" = "Um ein Selfie-Video aufzunehmen, richten Sie Ihr Gesicht zur Vorderkamera und halten Sie Ihr Smartphone etwas vom Gesicht entfernt. Anschließend müssen Sie einige Zahlen aufsagen und Ihren Kopf entsprechend den Anweisungen auf dem Bildschirm drehen";
+"onfido_video_intro_video_accessibility" = "Beispielvideo von jemandem, der ein Selfie-Video aufnimmt. Um ein Selfie-Video aufzunehmen, richten Sie Ihr Gesicht zur Vorderkamera und halten Sie Ihr Smartphone etwas vom Gesicht entfernt. Anschließend müssen Sie einige Zahlen aufsagen und Ihren Kopf entsprechend den Anweisungen auf dem Bildschirm drehen.";
 "onfido_video_intro_button_pause_accessibility" = "Video anhalten";
 "onfido_video_intro_button_play_accessibility" = "Video abspielen";
 "onfido_country_select_list_header_all" = "Alle Länder";
@@ -24,12 +24,12 @@
 /* Face capture intro */
 "onfido_selfie_intro_title" = "Ein Selfie aufnehmen";
 "onfido_country_select_bottom_sheet_link_close" = "Schließen";
-"onfido_doc_confirmation_button_primary_license" = "Mein Führerschein ist lesbar";
-"onfido_doc_confirmation_button_primary_generic" = "Mein Dokument ist lesbar";
-"onfido_doc_confirmation_button_primary_id" = "Meine Karte ist lesbar";
-"onfido_doc_confirmation_button_primary_passport" = "Mein Reisepass ist lesbar";
-"onfido_doc_confirmation_button_primary_permit" = "Meine Erlaubnis ist lesbar";
-"onfido_doc_confirmation_button_primary_visa" = "Mein Visum ist lesbar";
+"onfido_doc_confirmation_button_primary_license" = "Foto einreichen";
+"onfido_doc_confirmation_button_primary_generic" = "Foto einreichen";
+"onfido_doc_confirmation_button_primary_id" = "Foto einreichen";
+"onfido_doc_confirmation_button_primary_passport" = "Foto einreichen";
+"onfido_doc_confirmation_button_primary_permit" = "Foto einreichen";
+"onfido_doc_confirmation_button_primary_visa" = "Foto einreichen";
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Beides aktivieren";
 "onfido_permission_button_primary_cam" = "Kamera aktivieren";
@@ -90,8 +90,8 @@
 "onfido_liveness_fetch_challenge_error_title" = "Zeitüberschreitung bei der Verbindung";
 "onfido_video_intro_button_primary" = "Fortfahren";
 "onfido_liveness_intro_loading_video" = "Beispiel laden";
-"onfido_video_intro_list_item_time_limit" = "Sprechen Sie laut und bewegen Sie Ihren Kopf";
-"onfido_video_intro_list_item_move_speak" = "Beenden Sie Aktionen in weniger als %d Sekunden";
+"onfido_video_intro_list_item_time_limit" = "Beenden Sie Aktionen in weniger als %d Sekunden";
+"onfido_video_intro_list_item_move_speak" = "Sprechen Sie laut und bewegen Sie Ihren Kopf";
 "onfido_video_intro_subtitle" = "Lassen Sie uns sicherstellen, dass sich niemand für Sie ausgibt";
 "onfido_video_intro_title" = "Selfie-Video aufnehmen";
 /* Liveness capture */
@@ -117,11 +117,11 @@
 
 /* Document capture */
 
-"onfido_doc_capture_header_passport" = "Reisepass";
+"onfido_doc_capture_header_passport" = "Reisepass Foto-Seite";
 "onfido_doc_capture_header_visa" = "Visum";
 "onfido_video_capture_loader_accessibility" = "Wird geladen";
-"onfido_doc_capture_detail_passport" = "Positionieren Sie die Seite mit Ihrem Foto im Rahmen";
-"onfido_doc_capture_header_passport_auto" = "Positionieren Sie die Seite mit Ihrem Foto im Rahmen";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+"onfido_doc_capture_header_passport_auto" = "Reisepass Foto-Seite";
 "onfido_doc_capture_header_license_back" = "Führerschein";
 "onfido_doc_capture_header_license_back_auto" = "Positionieren Sie die Rückseite Ihres Führerscheins im Rahmen";
 "onfido_doc_capture_header_generic_back" = "Dokument";
@@ -175,7 +175,7 @@
 "onfido_unable_load_unstable_network" = "Laden aufgrund eines instabilen Netzwerks nicht möglich";
 "onfido_country_select_bottom_sheet_details" = "Entschuldigen Sie bitte. Verwenden Sie stattdessen ein alternatives Dokument";
 "onfido_country_select_bottom_sheet_title" = "Ihr Land ist nicht aufgeführt?";
-"onfido_doc_confirmation_button_primary" = "Foto hochladen";
+"onfido_doc_confirmation_button_primary" = "Foto einreichen";
 "onfido_welcome_list_item_doc" = "Ihr Ausweisdokument";
 "onfido_welcome_list_item_selfie" = "Ihr Gesicht";
 "onfido_welcome_list_item_video" = "ein Video von Ihnen selbst";
@@ -264,3 +264,26 @@
 "onfido_doc_video_confirmation_button_secondary_preview" = "Video-Vorschau";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Video erneut aufnehmen";
 "onfido_doc_video_confirmation_title" = "Danke";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Ansicht der Kamera. Positionieren Sie die Lichtbild-Seite Ihres Passes innerhalb des Rahmens";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Ansicht der Kamera. Positionieren Sie die Lichtbild-Seite Ihres Passes innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Führerscheins innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Ansicht der Kamera. Positionieren Sie die Rückseite Ihres Führerscheins innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Führerscheins innerhalb des Rahmens";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Ansicht der Kamera. Positionieren Sie die Rückseite Ihres Führerscheins innerhalb des Rahmens";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Ausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Ansicht der Kamera. Positionieren Sie die Rückseite Ihres Ausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihrer Aufenthaltsgenehmigung innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Ansicht der Kamera. Positionieren Sie die Rückseite Ihrer Aufenthaltsgenehmigung innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Ansicht der Kamera. Positionieren Sie die Lichtbild-Seite Ihres Führerscheins innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Ansicht der Kamera. Positionieren Sie die äußeren Seiten Ihres Führerscheins innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Ansicht der Kamera. Positionieren Sie die Lichtbild-Seite Ihres Ausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Ansicht der Kamera. Positionieren Sie die äußeren Seiten Ihres Personalausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Ansicht der Kamera. Positionieren Sie die Lichtbild-Seite Ihres Ausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Ansicht der Kamera. Positionieren Sie die äußeren Seiten Ihres Personalausweises innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Ansicht der Kamera. Positionieren Sie Ihre Passfotoseite innerhalb des Rahmens und tippen Sie dann auf den Auslöser";
+"onfido_country_select_search_results_none_accessibility" = "Keine Treffer";
+"onfido_country_select_search_results_one_accessibility" = "Ein Ergebnis gefunden";
+"onfido_country_select_search_results_multiple_accessibility" = "%d Ergebnisse gefunden";
+"onfido_doc_confirmation_alert_crop_detail" = "Stellen Sie sicher, dass das vollständige Dokument zu sehen ist";
+"onfido_doc_confirmation_alert_crop_title" = "Abgeschnittenes Bild erkannt";
+"onfido_doc_upload_progress_label" = "Bildqualität wird überprüft";

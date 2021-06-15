@@ -2,12 +2,12 @@
 "onfido_selfie_capture_button_accessibility" = "Shutter";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "View from camera";
-"onfido_selfie_capture_frame_accessibility" = "View from selfie camera";
-"onfido_video_capture_frame_accessibility" = "View from selfie camera";
+"onfido_selfie_capture_frame_accessibility" = "View from selfie camera. Keep your face within the oval, then tap the shutter button";
+"onfido_video_capture_frame_accessibility" = "View from selfie camera. Keep your face within the oval to start recording.";
 "onfido_selfie_confirmation_image_accessibility" = "Photo of your face";
 "onfido_video_capture_frame_success_accessibility" = "Face detected";
 /* Accessibility strings for screen readers */
-"onfido_video_intro_video_accessibility" = "To record a selfie video, face the front camera and keep your phone slightly away from your face. You'll then need to recite some numbers and turn your head according to the instructions on screen.";
+"onfido_video_intro_video_accessibility" = "Example video of someone recording a selfie video. To record a selfie video, face the front camera and keep your phone slightly away from your face. You’ll then need to recite some numbers and turn your head according to the instructions on screen.";
 "onfido_video_intro_button_pause_accessibility" = "Pause video";
 "onfido_video_intro_button_play_accessibility" = "Play video";
 "onfido_country_select_list_header_all" = "All countries";
@@ -25,9 +25,9 @@
 "onfido_selfie_intro_title" = "Take a selfie";
 "onfido_selfie_intro_button_primary" = "Take selfie";
 "onfido_country_select_bottom_sheet_link_close" = "Close";
-"onfido_doc_confirmation_button_primary_license" = "Upload photo";
-"onfido_doc_confirmation_button_primary_generic" = "Upload photo";
-"onfido_doc_confirmation_button_primary_id" = "Upload photo";
+"onfido_doc_confirmation_button_primary_license" = "Submit photo";
+"onfido_doc_confirmation_button_primary_generic" = "Submit photo";
+"onfido_doc_confirmation_button_primary_id" = "Submit photo";
 /* Face/Document Confirmation */
 
 "onfido_confirm_passport" = "Upload photo";
@@ -35,9 +35,9 @@
 "onfido_confirm_visa" = "Upload photo";
 "onfido_selfie_confirmation_confirm_button" = "Upload photo";
 "onfido_selfie_confirmation_retake_button" = "Retake photo";
-"onfido_doc_confirmation_button_primary_passport" = "Upload photo";
-"onfido_doc_confirmation_button_primary_permit" = "Upload photo";
-"onfido_doc_confirmation_button_primary_visa" = "Upload photo";
+"onfido_doc_confirmation_button_primary_passport" = "Submit photo";
+"onfido_doc_confirmation_button_primary_permit" = "Submit photo";
+"onfido_doc_confirmation_button_primary_visa" = "Submit photo";
 "onfido_selfie_confirmation_button_primary" = "Upload photo";
 "onfido_selfie_confirmation_button_secondary" = "Retake photo";
 
@@ -73,8 +73,8 @@
 "onfido_doc_capture_alert_no_face_title" = "Face not detected";
 "onfido_video_capture_button_primary_finish" = "Finish recording";
 "onfido_welcome_button_primary_doc" = "Choose document";
-"onfido_welcome_list_header_photo" = "Use your device to photograph:";
-"onfido_welcome_list_header_record" = "Use your device to photograph or record:";
+"onfido_welcome_list_header_photo" = "Use your device to:";
+"onfido_welcome_list_header_record" = "Use your device to:";
 "onfido_doc_capture_detail_folded_doc_back" = "Lay your document flat, include all outer pages";
 "onfido_doc_capture_header_folded_doc_back" = "Outer pages";
 /* Folded paper document confirmation */
@@ -102,8 +102,8 @@
 "onfido_liveness_fetch_challenge_error_description" = "Check that your connection is stable, then try again";
 "onfido_liveness_fetch_challenge_error_title" = "Connection timeout";
 "onfido_liveness_intro_loading_video" = "Loading example";
-"onfido_video_intro_list_item_time_limit" = "Speak out loud and move your head";
-"onfido_video_intro_list_item_move_speak" = "Finish actions in under %d seconds";
+"onfido_video_intro_list_item_time_limit" = "Finish actions in under %d seconds";
+"onfido_video_intro_list_item_move_speak" = "Speak out loud and move your head";
 /* Liveness */
 "onfido_video_intro_subtitle" = "For security, we need a live capture";
 /* Liveness intro */
@@ -137,12 +137,12 @@
 "onfido_doc_capture_detail_id_front" = "Front";
 "onfido_doc_capture_detail_permit_front" = "Front";
 /* Document capture */
-"onfido_doc_capture_header_passport" = "Passport";
+"onfido_doc_capture_header_passport" = "Passport photo page";
 "onfido_doc_capture_header_visa" = "Visa";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Loading";
-"onfido_doc_capture_detail_passport" = "Photo page";
-"onfido_doc_capture_header_passport_auto" = "Photo page";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+"onfido_doc_capture_header_passport_auto" = "Passport photo page";
 "onfido_doc_capture_header_license_back" = "Driver's license";
 "onfido_doc_capture_header_license_back_auto" = "Position the back of your license in the frame";
 "onfido_doc_capture_header_generic_back" = "Document";
@@ -186,11 +186,11 @@
 "onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
 "onfido_country_select_bottom_sheet_details" = "Sorry about that. Use an alternative document instead.";
 "onfido_country_select_bottom_sheet_title" = "Can't find your country?";
-"onfido_doc_confirmation_button_primary" = "Upload photo";
-"onfido_welcome_list_item_doc" = "your identity document";
-"onfido_welcome_list_item_selfie" = "your face";
+"onfido_doc_confirmation_button_primary" = "Submit photo";
+"onfido_welcome_list_item_doc" = "Capture your identity document";
+"onfido_welcome_list_item_selfie" = "Take a picture of your face";
 /* Face capture */
-"onfido_welcome_list_item_video" = "a video of yourself";
+"onfido_welcome_list_item_video" = "Record a video of yourself";
 "onfido_welcome_subtitle" = "It should take a few minutes";
 /* Welcome */
 "onfido_welcome_title" = "Verify your identity";
@@ -277,3 +277,26 @@
 "onfido_doc_video_confirmation_button_secondary_preview" = "Preview video";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Retake video";
 "onfido_doc_video_confirmation_title" = "Thank you";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "View from camera. Position your passport photo page within the frame";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "View from camera. Position your passport photo page within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "View from camera. Position the front of your driver’s license within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "View from camera. Position the back of your driver’s license within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "View from camera. Position the front of your driver’s license within the frame";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "View from camera. Position the back of your driver’s license within the frame";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "View from camera. Position the front of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "View from camera. Position the back of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "View from camera. Position the front of your residence permit within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "View from camera. Position the back of your residence permit within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "View from camera. Position the profile photo side of your driver’s license within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "View from camera. Position your outer pages of your driver’s license within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "View from camera. Position the profile photo side of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "View from camera. Position the outer pages of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "View from camera. Position the profile photo side of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "View from camera. Position the outer pages of your identity card within the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "View from camera. Position your passport cover within the frame, then tap the shutter button";
+"onfido_country_select_search_results_none_accessibility" = "No matching results";
+"onfido_country_select_search_results_one_accessibility" = "One result found";
+"onfido_country_select_search_results_multiple_accessibility" = "%d results found";
+"onfido_doc_confirmation_alert_crop_detail" = "Make sure full document is visible";
+"onfido_doc_confirmation_alert_crop_title" = "Cut-off image detected";
+"onfido_doc_upload_progress_label" = "Checking image quality";
