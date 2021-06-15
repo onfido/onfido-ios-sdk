@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 22.0.0 Migration Guide](#onfido-ios-sdk-2200-migration-guide)
 * [Onfido iOS SDK 21.4.0 Migration Guide](#onfido-ios-sdk-2140-migration-guide)
 * [Onfido iOS SDK 21.2.0 Migration Guide](#onfido-ios-sdk-2120-migration-guide)
 * [Onfido iOS SDK 21.0.0 Migration Guide](#onfido-ios-sdk-2100-migration-guide)
@@ -46,6 +47,113 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 22.0.0 Migration Guide
+
+### Breaking API Changes
+
+- DocumentResult object now contains front and back capture objects. If passport captured then only front is set and back is nil. To access the document front result use documentResult.front.id instead of documentResult.id. Href, createdAt, fileName, fileType, fileSize properties are no longer supported for DocumentResult and FaceResult. Now only returning a single DocumentResult and FaceResult object (last capture).
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_confirmation_alert_crop_detail` (en, fr, de, es)
+
+- `onfido_doc_confirmation_alert_crop_title` (en, fr, de, es)
+
+- `onfido_doc_upload_progress_label` (en, fr, de, es)
+
+
+- `onfido_doc_capture_frame_accessibility_pp_auto` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_pp_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_auto` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_auto` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_back_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_rp_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_rp_back_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_back_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_back_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_front_manual` (en, fr, es, de)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_back_manual` (en, fr, es, de)
+
+
+- `onfido_country_select_search_results_none_accessibility` (en, fr, es, de)
+
+- `onfido_country_select_search_results_one_accessibility` (en, fr, es, de)
+
+- `onfido_country_select_search_results_multiple_accessibility` (en, fr, es, de)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_doc_confirmation_button_primary_license` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary_generic` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary_id` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary_passport` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary_permit` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary_visa` (en, fr, de, es)
+
+- `onfido_welcome_list_header_photo` (en, fr, de, es)
+
+- `onfido_welcome_list_header_record` (en, fr, de, es)
+
+- `onfido_doc_confirmation_button_primary` (en, fr, de, es)
+
+- `onfido_welcome_list_item_doc` (en, fr, de, es)
+
+- `onfido_welcome_list_item_selfie` (en, fr, de, es)
+
+- `onfido_welcome_list_item_video` (en, fr, de, es)
+
+
+- `onfido_video_intro_list_item_move_speak` (en, fr, es, de)
+
+- `onfido_video_intro_list_item_time_limit` (en, fr, es, de)
+
+
+- `onfido_selfie_capture_frame_accessibility` (fr, de)
+
+
+- `onfido_doc_capture_header_passport_auto` (en, fr, es, de)
+
+
+- `onfido_selfie_capture_frame_accessibility` (en, fr, es, de)
+
+- `onfido_video_capture_frame_accessibility` (en, fr, es, de)
+
+
+- `onfido_video_intro_video_accessibility` (en, fr, es, de)
+
 
 
 ## Onfido iOS SDK 21.4.0 Migration Guide

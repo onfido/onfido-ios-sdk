@@ -38,9 +38,9 @@
 
 /* Document capture */
 
-"onfido_doc_capture_header_passport" = "Passeport";
-"onfido_doc_capture_detail_passport" = "Page contenant la photo";
-"onfido_doc_capture_header_passport_auto" = "Page contenant la photo";
+"onfido_doc_capture_header_passport" = "Page du passeport contenant votre photo";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+"onfido_doc_capture_header_passport_auto" = "Page du passeport contenant votre photo";
 
 "onfido_doc_capture_header_visa" = "Visa";
 "onfido_doc_capture_detail_visa" = "Page contenant la photo";
@@ -111,12 +111,12 @@
 "onfido_doc_confirmation_body_id" = "Assurez-vous que votre carte est lisible, nette et sans reflets";
 "onfido_doc_confirmation_body_visa" = "Assurez-vous que votre visa est lisible, net et sans reflets";
 "onfido_doc_confirmation_body_generic" = "Assurez-vous que votre document est lisible, net et sans reflets";
-"onfido_doc_confirmation_button_primary_passport" = "Mon passeport est lisible";
-"onfido_doc_confirmation_button_primary_permit" = "Ma carte est lisible";
-"onfido_doc_confirmation_button_primary_license" = "Mon permis est lisible";
-"onfido_doc_confirmation_button_primary_id" = "Ma carte est lisible";
-"onfido_doc_confirmation_button_primary_visa" = "Mon visa est lisible";
-"onfido_doc_confirmation_button_primary_generic" = "Mon document est lisible";
+"onfido_doc_confirmation_button_primary_passport" = "Envoyer la photo";
+"onfido_doc_confirmation_button_primary_permit" = "Envoyer la photo";
+"onfido_doc_confirmation_button_primary_license" = "Envoyer la photo";
+"onfido_doc_confirmation_button_primary_id" = "Envoyer la photo";
+"onfido_doc_confirmation_button_primary_visa" = "Envoyer la photo";
+"onfido_doc_confirmation_button_primary_generic" = "Envoyer la photo";
 "onfido_doc_capture_alert_no_mrz_title" = "Les deux lignes du bas ne sont pas visibles";
 "onfido_doc_capture_alert_no_mrz_detail" = "Assurez-vous que l'intégralité du document est visible";
 
@@ -128,8 +128,8 @@
 "onfido_doc_confirmation_alert_no_doc_title" = "Votre document n'est pas détecté";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Assurez-vous que le document est bien visible sur la photo";
 
-"onfido_doc_confirmation_alert_blur_title" = "L'image n'est pas claire";
-"onfido_doc_confirmation_alert_blur_detail" = "Assurez-vous qu'il n'y a pas de zones floues ou de reflets";
+"onfido_doc_confirmation_alert_blur_title" = "L’image est floue";
+"onfido_doc_confirmation_alert_blur_detail" = "Assurez-vous qu’il n’y a pas de zones floues ou de reflets";
 
 "onfido_doc_capture_alert_no_face_title" = "Visage non détecté";
 "onfido_doc_capture_alert_no_face_detail" = "Assurez-vous que votre visage est visible";
@@ -168,8 +168,8 @@
 "onfido_video_intro_subtitle" = "Assurons-nous que personne ne se fait passer pour vous";
 "onfido_reload" = "Recharger";
 "onfido_unable_load_unstable_network" = "Erreur de chargement car la connection est instable";
-"onfido_video_intro_list_item_time_limit" = "Parlez à voix haute et bougez la tête";
-"onfido_video_intro_list_item_move_speak" = "Vous avez %d secondes pour terminer";
+"onfido_video_intro_list_item_time_limit" = "Vous avez %d secondes pour terminer";
+"onfido_video_intro_list_item_move_speak" = "Parlez à voix haute et bougez la tête";
 "onfido_liveness_intro_loading_video" = "Exemple en cours de chargement";
 "onfido_video_intro_button_primary" = "Continuer";
 
@@ -219,8 +219,8 @@
 /* Accessibility */
 
 "onfido_doc_capture_frame_accessibility" = "Caméra";
-"onfido_selfie_capture_frame_accessibility" = "Caméra frontale";
-"onfido_video_capture_frame_accessibility" = "Caméra frontale";
+"onfido_selfie_capture_frame_accessibility" = "Vue depuis la caméra frontale. Gardez votre visage dans le cercle, puis appuyez sur le déclencheur";
+"onfido_video_capture_frame_accessibility" = "Vue depuis la caméra frontale. Gardez votre visage dans le cercle pour commencer l'enregistrement.";
 "onfido_selfie_confirmation_image_accessibility" = "Photo de votre visage";
 "onfido_doc_capture_button_accessibility" = "Prendre la photo";
 "onfido_selfie_capture_button_accessibility" = "Prendre la photo";
@@ -228,7 +228,7 @@
 "onfido_video_capture_button_primary_finish" = "Terminer la vidéo";
 "onfido_welcome_button_primary" = "Commencer";
 "onfido_video_capture_loader_accessibility" = "Chargement";
-"onfido_video_intro_video_accessibility" = "Pour enregistrer une vidéo de votre visage, regardez la caméra frontale de votre mobile en le maintenant légèrement éloigné de votre visage. Vous allez ensuite devoir réciter une suite de chiffres et bouger la tête en fonction des instructions qui apparaîtront à l’écran";
+"onfido_video_intro_video_accessibility" = "Exemple de vidéo d’une personne enregistrant un selfie. Pour enregistrer une vidéo de votre visage, regardez la caméra frontale de votre mobile en le maintenant légèrement éloigné de votre visage. Vous allez ensuite devoir réciter une suite de chiffres et bouger la tête en fonction des instructions qui apparaîtront à l’écran.";
 "onfido_generic_uploading" = "Chargement";
 "onfido_video_capture_frame_success_accessibility" = "Visage détecté";
 "onfido_video_intro_button_pause_accessibility" = "Pause vidéo";
@@ -322,3 +322,26 @@
 "onfido_doc_video_confirmation_button_secondary_preview" = "Aperçu de la vidéo";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Prendre une nouvelle vidéo";
 "onfido_doc_video_confirmation_title" = "Merci";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Vue depuis la caméra. Placez la page de votre photo de passeport dans le cadre";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Vue depuis la caméra. Placez la page de votre photo de passeport dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vue depuis la caméra. Placez le recto de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Vue depuis la caméra. Placez le verso de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Vue depuis la caméra. Placez le recto de votre permis de conduire dans le cadre";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Vue depuis la caméra. Placez le verso de votre permis de conduire dans le cadre";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vue depuis la caméra. Placez le recto de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vue depuis la caméra. Placez le verso de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vue depuis la caméra. Placez le recto de votre permis de séjour dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Vue depuis la caméra. Placez le verso de votre permis de séjour dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Vue depuis la caméra. Placez le côté photo de profil de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Vue depuis la caméra. Placez les pages extérieures de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Vue depuis la caméra. Placez le côté photo de profil de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Vue depuis la caméra. Placez les pages extérieures de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vue depuis la caméra. Placez le côté photo de profil de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vue depuis la caméra. Placez les pages extérieures de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vue depuis la caméra. Placez la couverture de votre passeport dans le cadre, puis appuyez sur le déclencheur";
+"onfido_country_select_search_results_none_accessibility" = "Aucun résultat correspondant";
+"onfido_country_select_search_results_one_accessibility" = "Un résultat trouvé";
+"onfido_country_select_search_results_multiple_accessibility" = "%d résultats trouvés";
+"onfido_doc_confirmation_alert_crop_detail" = "Assurez-vous que l’intégralité du document est visible";
+"onfido_doc_confirmation_alert_crop_title" = "Image tronquée détectée";
+"onfido_doc_upload_progress_label" = "Vérification de la qualité d'image";

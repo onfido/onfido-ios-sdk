@@ -38,9 +38,9 @@
 
 /* Document capture */
 
-"onfido_doc_capture_header_passport" = "Pasaporte";
-"onfido_doc_capture_detail_passport" = "Página con su foto";
-"onfido_doc_capture_header_passport_auto" = "Página con su foto";
+"onfido_doc_capture_header_passport" = "Página del pasaporte con su foto";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+"onfido_doc_capture_header_passport_auto" = "Página del pasaporte con su foto";
 
 "onfido_doc_capture_header_visa" = "Visado";
 "onfido_doc_capture_detail_visa" = "Página con su foto";
@@ -95,7 +95,7 @@
 /* Folded paper document confirmation */
 
 "onfido_doc_confirmation_body_folded_doc" = "Asegúrese que su documento este completamente abierto y su que su foto sea claro";
-"onfido_doc_confirmation_button_primary" = "Subir foto";
+"onfido_doc_confirmation_button_primary" = "Enviar foto";
 "onfido_doc_confirmation_button_secondary" = "Retomar foto";
 
 /* Document autocapture */
@@ -111,12 +111,12 @@
 "onfido_doc_confirmation_body_id" = "Asegúrese de que los detalles de su carnet sean legibles, la imagen sea nítida y que no tenga brillo";
 "onfido_doc_confirmation_body_visa" = "Asegúrese de que los detalles de su visado se puedan leer claramente, sin borrosidades ni brillo";
 "onfido_doc_confirmation_body_generic" = "Asegurese de que los detalles de su documento puedan leer claramente, sin borrosidades ni brillo";
-"onfido_doc_confirmation_button_primary_passport" = "Mi pasaporte es legible";
-"onfido_doc_confirmation_button_primary_permit" = "Mi permiso es legible";
-"onfido_doc_confirmation_button_primary_license" = "Mi licencia es legible";
-"onfido_doc_confirmation_button_primary_id" = "Mi carnet es legible";
-"onfido_doc_confirmation_button_primary_visa" = "Mi visado es legible";
-"onfido_doc_confirmation_button_primary_generic" = "Mi documento es legible";
+"onfido_doc_confirmation_button_primary_passport" = "Enviar foto";
+"onfido_doc_confirmation_button_primary_permit" = "Enviar foto";
+"onfido_doc_confirmation_button_primary_license" = "Enviar foto";
+"onfido_doc_confirmation_button_primary_id" = "Enviar foto";
+"onfido_doc_confirmation_button_primary_visa" = "Enviar foto";
+"onfido_doc_confirmation_button_primary_generic" = "Enviar foto";
 "onfido_doc_capture_alert_no_mrz_title" = "Las ultimas dos lineas no son visibles";
 "onfido_doc_capture_alert_no_mrz_detail" = "Asegúrese que su documento sea completamente visible";
 
@@ -168,8 +168,8 @@
 "onfido_video_intro_subtitle" = "Asegurémonos de que nadie se haga pasar por usted";
 "onfido_reload" = "Subir otra vez";
 "onfido_unable_load_unstable_network" = "No se ha podido cargar debido a una conexión inestable";
-"onfido_video_intro_list_item_time_limit" = "Hable en voz alta y mueva su cabeza";
-"onfido_video_intro_list_item_move_speak" = "Termine las instrucciones en %d segundos";
+"onfido_video_intro_list_item_time_limit" = "Termine las instrucciones en %d segundos";
+"onfido_video_intro_list_item_move_speak" = "Hable en voz alta y mueva su cabeza";
 "onfido_liveness_intro_loading_video" = "Cargando ejemplo";
 "onfido_video_intro_button_primary" = "Continuar";
 
@@ -220,8 +220,8 @@
 /* Accessibility */
 
 "onfido_doc_capture_frame_accessibility" = "Cámara";
-"onfido_selfie_capture_frame_accessibility" = "Cámara frontal";
-"onfido_video_capture_frame_accessibility" = "Cámara frontal";
+"onfido_selfie_capture_frame_accessibility" = "Ver desde la cámara selfie. Mantenga la cara dentro del óvalo y luego pulse el botón del obturador";
+"onfido_video_capture_frame_accessibility" = "Vista de la cámara selfie. Mantenga su cara dentro del óvalo para empezar a grabar.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto de su cara";
 "onfido_doc_capture_button_accessibility" = "Obturador";
 "onfido_selfie_capture_button_accessibility" = "Obturador";
@@ -229,7 +229,7 @@
 "onfido_video_capture_button_primary_finish" = "Finalizar grabación";
 "onfido_welcome_button_primary" = "Iniciar";
 "onfido_video_capture_loader_accessibility" = "Cargando";
-"onfido_video_intro_video_accessibility" = "Para grabar un video selfie, póngase frente a la cámara, y mantenga el teléfono no muy lejos de su cara. Luego le pediremos que recite unos números y rotar su cabeza de acuerdo a las instrucciones en la pantalla";
+"onfido_video_intro_video_accessibility" = "Ejemplo de vídeo de alguien que graba un vídeo selfie. Para grabar un video selfie, póngase frente a la cámara, y mantenga el teléfono no muy lejos de su cara. Luego le pediremos que recite unos números y rotar su cabeza de acuerdo a las instrucciones en la pantalla";
 "onfido_generic_uploading" = "Cargando";
 "onfido_video_capture_frame_success_accessibility" = "Cara detectada";
 "onfido_video_intro_button_pause_accessibility" = "Pausar video";
@@ -322,3 +322,26 @@
 "onfido_doc_video_confirmation_button_secondary_preview" = "Vista previa del vídeo";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Retomar el video";
 "onfido_doc_video_confirmation_title" = "Gracias";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Vista desde la cámara. Coloque la página del pasaporte con su foto dentro del marco";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Vista desde la cámara. Coloque la página del pasaporte con su foto dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vista desde la cámara. Coloque la parte frontal de su permiso de conducir dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Vista desde la cámara. Coloque la parte posterior de su permiso de conducir dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Vista desde la cámara. Coloque la parte delantera de su permiso de conducir dentro del marco";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Vista desde la cámara. Coloque la parte posterior de su permiso de conducir dentro del marco";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vista desde la cámara. Coloque la parte delantera de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vista desde la cámara. Coloque la parte posterior de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vista desde la cámara. Coloque la parte delantera de su permiso de residencia dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Vista desde la cámara. Coloque la parte posterior de su permiso de residencia dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Vista desde la cámara. Coloque el lado de la foto de perfil de su permiso de conducir dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Vista desde la cámara. Coloque las páginas exteriores de su permiso de conducir dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Vista desde la cámara. Coloque el lado de la foto de perfil de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Vista desde la cámara. Coloque las páginas exteriores de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vista desde la cámara. Coloque el lado de la foto de perfil de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vista desde la cámara. Coloque las páginas exteriores de su documento de identidad dentro del marco, luego pulse el botón del obturador";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vista desde la cámara. Coloque la cubierta de su pasaporte dentro del marco, luego pulse el botón del obturador";
+"onfido_country_select_search_results_none_accessibility" = "No hay resultados que coincidan";
+"onfido_country_select_search_results_one_accessibility" = "Un resultado encontrado";
+"onfido_country_select_search_results_multiple_accessibility" = "%d resultados encontrados";
+"onfido_doc_confirmation_alert_crop_detail" = "Asegúrese que su documento sea completamente visible";
+"onfido_doc_confirmation_alert_crop_title" = "Se ha detectado una imagen recortada";
+"onfido_doc_upload_progress_label" = "Comprobando calidad de la imagen";
