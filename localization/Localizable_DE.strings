@@ -16,7 +16,7 @@
 "onfido_doc_capture_alert_no_barcode_detail" = "Bleiben Sie an einem gut beleuchteten Ort und bringen Sie die Karte näher an die Kamera";
 /* Document error */
 "onfido_doc_capture_alert_no_barcode_title" = "Barcode nicht erkannt";
-"onfido_doc_confirmation_alert_blur_detail" = "Stellen Sie sicher, dass Ihre Ausschnitte klar und unversperrt sind";
+"onfido_doc_confirmation_alert_blur_detail" = "Stellen Sie sicher, dass alles klar ist";
 "onfido_doc_confirmation_alert_blur_title" = "Unscharfes Foto erkannt";
 "onfido_selfie_intro_list_item_face_forward" = "Schauen Sie mit einem ernsten Gesicht in die Kamera";
 "onfido_selfie_intro_list_item_no_glasses" = "Tragen Sie eine Brille? Stellen Sie sicher, dass Ihre Augen klar zu sehen sind";
@@ -91,11 +91,11 @@
 "onfido_video_intro_button_primary" = "Fortfahren";
 "onfido_liveness_intro_loading_video" = "Beispiel laden";
 "onfido_video_intro_list_item_time_limit" = "Beenden Sie Aktionen in weniger als %d Sekunden";
-"onfido_video_intro_list_item_move_speak" = "Sprechen Sie laut und bewegen Sie Ihren Kopf";
+"onfido_video_intro_list_item_move_speak" = "Befolgen Sie die Anweisungen zur Bewegung oder zum Sprechen";
 "onfido_video_intro_subtitle" = "Lassen Sie uns sicherstellen, dass sich niemand für Sie ausgibt";
 "onfido_video_intro_title" = "Selfie-Video aufnehmen";
 /* Liveness capture */
-"onfido_video_capture_prompt_detail_timeout" = "Denken Sie daran, „Stopp“ zu drücken, wenn Sie fertig sind";
+"onfido_video_capture_prompt_detail_timeout" = "Denken Sie daran, die Taste zu drücken, wenn Sie fertig sind.";
 "onfido_video_capture_prompt_header_timeout" = "Sieht aus, als hätten Sie zu lange gebraucht";
 /* Locale identifier */
 "onfido_locale" = "de";
@@ -104,16 +104,16 @@
 "onfido_doc_confirmation_body_id" = "Die Details der Karte müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_passport" = "Die Reisepass Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_permit" = "Die Details der Erlaubnis müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
-"onfido_doc_confirmation_body_visa" = "Die Details des Visums müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_visa" = "Die Reisepass Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_selfie_confirmation_body" = "Stellen Sie sicher, dass Ihr Selfie Ihr Gesicht deutlich zeigt";
-"onfido_doc_capture_detail_license_back" = "Zurück";
-"onfido_doc_capture_detail_generic_back" = "Zurück";
-"onfido_doc_capture_detail_id_back" = "Zurück";
-"onfido_doc_capture_detail_permit_back" = "Zurück";
-"onfido_doc_capture_detail_license_front" = "Positionieren Sie die Vorderseite Ihres Führerscheins im Rahmen";
-"onfido_doc_capture_detail_generic_front" = "Positionieren Sie die Vorderseite Ihres Dokuments im Rahmen";
-"onfido_doc_capture_detail_id_front" = "Positionieren Sie die Vorderseite Ihrer Karte im Rahmen";
-"onfido_doc_capture_detail_permit_front" = "Positionieren Sie die Vorderseite Ihrer Erlaubnis im Rahmen";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_permit_front" = "";
 
 /* Document capture */
 
@@ -122,25 +122,25 @@
 "onfido_video_capture_loader_accessibility" = "Wird geladen";
 "onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
 "onfido_doc_capture_header_passport_auto" = "Reisepass Foto-Seite";
-"onfido_doc_capture_header_license_back" = "Führerschein";
-"onfido_doc_capture_header_license_back_auto" = "Positionieren Sie die Rückseite Ihres Führerscheins im Rahmen";
-"onfido_doc_capture_header_generic_back" = "Dokument";
+"onfido_doc_capture_header_license_back" = "Rückseite des Führerscheins";
+"onfido_doc_capture_header_license_back_auto" = "Rückseite des Führerscheins";
+"onfido_doc_capture_header_generic_back" = "Rückseite des Dokuments";
 "onfido_doc_capture_header_id_back" = "Rückseite der Karte";
 "onfido_doc_capture_header_permit_back" = "Rückseite der Erlaubnis";
-"onfido_doc_capture_header_license_front" = "Führerschein";
+"onfido_doc_capture_header_license_front" = "Vorderseite des Führerscheins";
 "onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
 
 /* Document autocapture */
 
-"onfido_doc_capture_header_license_front_auto" = "Positionieren Sie die Vorderseite Ihres Führerscheins im Rahmen";
-"onfido_doc_capture_header_generic_front" = "Dokument";
+"onfido_doc_capture_header_license_front_auto" = "Vorderseite des Führerscheins";
+"onfido_doc_capture_header_generic_front" = "Vorderseite des Dokuments";
 "onfido_doc_capture_header_id_front" = "Vorderseite der Karte";
 "onfido_doc_capture_header_permit_front" = "Vorderseite der Erlaubnis";
 "onfido_generic_uploading" = "Hochladen";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Stellen Sie sicher, dass das gesamte Dokument auf dem Foto zu sehen ist";
-"onfido_selfie_confirmation_alert_no_face_detail" = "Stellen Sie sicher, dass Ihr Gesicht vollständig sichtbar ist";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Stellen Sie sicher, dass Ihr Gesicht sichtbar ist";
 "onfido_selfie_confirmation_alert_multiple_faces_detail" = "Nur Ihr Gesicht kann im Selfie zu sehen sein";
-"onfido_doc_capture_detail_visa" = "Positionieren Sie die Seite mit Ihrem Foto im Rahmen";
+"onfido_doc_capture_detail_visa" = "";
 "onfido_doc_capture_alert_no_mrz_detail" = "Stellen Sie sicher, dass das vollständige Dokument zu sehen ist";
 
 /* Document Error */
@@ -148,7 +148,7 @@
 "onfido_doc_capture_alert_no_mrz_title" = "Die unteren beiden Zeilen sind nicht sichtbar";
 "onfido_selfie_confirmation_alert_multiple_faces_title" = "Mehrere Gesichter gefunden";
 "onfido_doc_capture_prompt_title_id" = "Welche Art von Personalausweis haben Sie?";
-"onfido_video_capture_button_primary_fallback" = "Weiter";
+"onfido_video_capture_button_primary_fallback" = "Nächster Schritt";
 "onfido_doc_confirmation_alert_no_doc_title" = "Kein Dokument gefunden";
 "onfido_selfie_confirmation_alert_no_face_title" = "Kein Gesicht gefunden";
 "onfido_generic_alert_network_error_button_primary" = "OK";
@@ -161,7 +161,7 @@
 "onfido_doc_confirmation_button_secondary" = "Foto erneut aufnehmen";
 "onfido_video_confirmation_button_secondary" = "Video erneut aufnehmen";
 "onfido_video_capture_prompt_button_timeout" = "Wiederholen";
-"onfido_country_select_bottom_sheet_link_doc_select" = "Ein anderes Dokument auswählen";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Wählen Sie ein anderes Dokument aus";
 "onfido_selfie_capture_body" = "Positionieren Sie Ihr Gesicht im angezeigten Oval";
 "onfido_selfie_confirmation_button_primary" = "Mein Selfie ist klar";
 "onfido_selfie_confirmation_button_secondary" = "Neues Selfie aufnehmen";
@@ -173,7 +173,7 @@
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Vorgeschlagenes Land";
 "onfido_unable_load_unstable_network" = "Laden aufgrund eines instabilen Netzwerks nicht möglich";
-"onfido_country_select_bottom_sheet_details" = "Entschuldigen Sie bitte. Verwenden Sie stattdessen ein alternatives Dokument";
+"onfido_country_select_bottom_sheet_details" = "Entschuldigen Sie bitte. Verwenden Sie stattdessen ein alternatives Dokument.";
 "onfido_country_select_bottom_sheet_title" = "Ihr Land ist nicht aufgeführt?";
 "onfido_doc_confirmation_button_primary" = "Foto einreichen";
 "onfido_welcome_list_item_doc" = "Ihr Ausweisdokument";
@@ -287,3 +287,7 @@
 "onfido_doc_confirmation_alert_crop_detail" = "Stellen Sie sicher, dass das vollständige Dokument zu sehen ist";
 "onfido_doc_confirmation_alert_crop_title" = "Abgeschnittenes Bild erkannt";
 "onfido_doc_upload_progress_label" = "Bildqualität wird überprüft";
+"onfido_generic_error_timeout_title" = "Zeitüberschreitung bei der Verbindung";
+"onfido_generic_error_timeout_detail" = "Prüfen Sie, ob Ihre Verbindung stabil ist, und versuchen Sie es dann erneut";
+"onfido_generic_error_timeout_button_primary" = "Wiederholen";
+"onfido_generic_processing" = "Verarbeitung";

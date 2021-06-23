@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 22.1.0 Migration Guide](#onfido-ios-sdk-2210-migration-guide)
 * [Onfido iOS SDK 22.0.0 Migration Guide](#onfido-ios-sdk-2200-migration-guide)
 * [Onfido iOS SDK 21.4.0 Migration Guide](#onfido-ios-sdk-2140-migration-guide)
 * [Onfido iOS SDK 21.2.0 Migration Guide](#onfido-ios-sdk-2120-migration-guide)
@@ -47,6 +48,75 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 22.1.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_generic_error_timeout_title` (en, fr, es, de)
+
+- `onfido_generic_error_timeout_detail` (en, fr, es, de)
+
+- `onfido_generic_error_timeout_button_primary` (en, fr, es, de)
+
+- `onfido_generic_processing` (en, fr, es, de)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_doc_confirmation_alert_blur_detail` (en, fr, es, de)
+
+- `onfido_video_intro_list_item_move_speak` (en, fr, es, de)
+
+- `onfido_video_capture_prompt_detail_timeout` (en, fr, es, de)
+
+- `onfido_doc_confirmation_body_visa` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_license_back` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_generic_back` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_id_back` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_permit_back` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_license_front` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_generic_front` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_id_front` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_permit_front` (en, fr, es, de)
+
+- `onfido_doc_capture_header_license_back` (en, fr, es, de)
+
+- `onfido_doc_capture_header_license_back_auto` (en, fr, es, de)
+
+- `onfido_doc_capture_header_generic_back` (en, fr, es, de)
+
+- `onfido_doc_capture_header_license_front` (en, fr, es, de)
+
+- `onfido_doc_capture_header_license_front_auto` (en, fr, es, de)
+
+- `onfido_doc_capture_header_generic_front` (en, fr, es, de)
+
+- `onfido_selfie_confirmation_alert_no_face_detail` (en, fr, es, de)
+
+- `onfido_doc_capture_detail_visa` (en, fr, es, de)
+
+- `onfido_video_capture_button_primary_fallback` (en, fr, es, de)
+
+- `onfido_country_select_bottom_sheet_link_doc_select` (en, fr, es, de)
+
+- `onfido_country_select_bottom_sheet_details` (en, fr, es, de)
+
 
 
 ## Onfido iOS SDK 22.0.0 Migration Guide
