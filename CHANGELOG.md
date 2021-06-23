@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [22.1.0] - 2021-06-18
+
+### Added
+
+- UI: Added language localisation for italian(IT) and portuguese(PT)
+- Public: Added nfcMediaId property to DocumentResult object
+
+### Changed
+
+- UI: Now uploading NFC extracted data to Onfido servers
+- UI: Copy updates
+
 ## [22.0.0] - 2021-06-10
 
 ### Added
