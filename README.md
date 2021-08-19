@@ -985,6 +985,8 @@ The SDK supports and maintains the following 4 languages:
  - Spanish (es) 🇪🇸
  - French (fr) 🇫🇷
  - German (de) 🇩🇪
+ - Italian (it) 🇮🇹
+ - Portuguese (pt) 🇵🇹
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder.
 
@@ -1134,8 +1136,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.128|
-| Below 12.2       | up to 4.128* or up to 15.618**|
+| 12.2 and above   | 4.352|
+| Below 12.2       | up to 4.351* or up to 15.842**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
