@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 22.2.0 Migration Guide](#onfido-ios-sdk-2220-migration-guide)
 * [Onfido iOS SDK 22.1.0 Migration Guide](#onfido-ios-sdk-2210-migration-guide)
 * [Onfido iOS SDK 22.0.0 Migration Guide](#onfido-ios-sdk-2200-migration-guide)
 * [Onfido iOS SDK 21.4.0 Migration Guide](#onfido-ios-sdk-2140-migration-guide)
@@ -48,6 +49,128 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 22.2.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_capture_frame_success_accessibility` (en, fr, es, de, it, pt)
+
+
+- `onfido_doc_capture_alert_no_mrz3_title` (en, fr, de, es, it, pt)
+
+
+- `onfido_nfc_select_title_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_subtitle_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_body_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_button_primary_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_button_secondary_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_title_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_subtitle_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_button_primary_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_ready_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_scanning_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_title_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_subtitle_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_button_primary_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_ready_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_scanning_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_fail_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_fail_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_title_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_remove_covers_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_remove_covers_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_primary_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_secondary_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_title_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_remove_covers_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_keep_contact_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_primary_card` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_secondary_card` (en, fr, de, es, it, pt)
+
+
+- `onfido_video_capture_turn_success_accessibility` (en, fr, es, de, it, pt)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_doc_capture_frame_accessibility_pp_auto` (en, fr, es, de, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_auto` (en, fr, es, de, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_auto` (en, fr, es, de, it, pt)
+
+
+- `onfido_video_capture_frame_success_accessibility` (en, fr, es, de, it, pt)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_nfc_select_title` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_subtitle` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_body` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_button_primary` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_select_button_secondary` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_title` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_subtitle` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_button_primary` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_ready` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro_sheet_header_scanning` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_title` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_remove_covers` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_list_item_keep_contact` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_primary` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_fail_button_secondary` (en, fr, de, es, it, pt)
+
 
 
 ## Onfido iOS SDK 22.1.0 Migration Guide

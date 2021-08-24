@@ -118,6 +118,7 @@
 "onfido_doc_confirmation_button_primary_visa" = "Envoyer la photo";
 "onfido_doc_confirmation_button_primary_generic" = "Envoyer la photo";
 "onfido_doc_capture_alert_no_mrz_title" = "Les deux lignes du bas ne sont pas visibles";
+"onfido_doc_capture_alert_no_mrz3_title" = "Les trois lignes du bas ne sont pas visibles";
 "onfido_doc_capture_alert_no_mrz_detail" = "Assurez-vous que l'intégralité du document est visible";
 
 /* Document error */
@@ -230,7 +231,7 @@
 "onfido_video_capture_loader_accessibility" = "Chargement";
 "onfido_video_intro_video_accessibility" = "Exemple de vidéo d’une personne enregistrant un selfie. Pour enregistrer une vidéo de votre visage, regardez la caméra frontale de votre mobile en le maintenant légèrement éloigné de votre visage. Vous allez ensuite devoir réciter une suite de chiffres et bouger la tête en fonction des instructions qui apparaîtront à l’écran.";
 "onfido_generic_uploading" = "Chargement";
-"onfido_video_capture_frame_success_accessibility" = "Visage détecté";
+"onfido_video_capture_frame_success_accessibility" = "Visage détecté. L’enregistrement a commencé.";
 "onfido_video_intro_button_pause_accessibility" = "Pause vidéo";
 "onfido_video_intro_button_play_accessibility" = "Lire vidéo";
 
@@ -252,21 +253,40 @@
 
 /* NFC Read */
 
-"onfido_nfc_select_title" = "Accélérez le processus avec votre passeport électronique";
-"onfido_nfc_select_subtitle" = "Nous allons scanner la puce NFC de votre passeport";
-"onfido_nfc_select_body" = "Les passeports électroniques portent ce symbole sur la couverture";
-"onfido_nfc_select_button_primary" = "Utiliser le passeport électronique";
-"onfido_nfc_select_button_secondary" = "Je n'ai pas de passeport électronique";
-"onfido_nfc_intro_title" = "Scannez votre passeport électronique";
-"onfido_nfc_intro_subtitle" = "Posez votre téléphone sur votre passeport fermé et appuyez sur le bouton pour commencer";
-"onfido_nfc_intro_button_primary" = "Commencer le scan";
-"onfido_nfc_intro_sheet_header_ready" = "Posez votre téléphone sur votre passeport fermé";
-"onfido_nfc_intro_sheet_header_scanning" = "Scan en cours...";
-"onfido_nfc_fail_title" = "Nous n'avons pas pu scanner votre passeport";
-"onfido_nfc_fail_list_item_remove_covers" = "Retirez votre passeport et vos protections de téléphone";
-"onfido_nfc_fail_list_item_keep_contact" = "Maintenez le contact entre votre téléphone et votre passeport jusqu'à ce que le scan soit réussi";
-"onfido_nfc_fail_button_primary" = "Réessayer le scan";
-"onfido_nfc_fail_button_secondary" = "Continuer sans scanner";
+"onfido_nfc_select_title_passport" = "Accélérez le processus avec NFC";
+"onfido_nfc_select_subtitle_passport" = "Nous allons scanner la puce NFC de votre passeport";
+"onfido_nfc_select_body_passport" = "Les passeports électroniques ont ce symbole sur la couverture";
+"onfido_nfc_select_button_primary_passport" = "Utiliser un passeport électronique";
+"onfido_nfc_select_button_secondary_passport" = "Ce n’est pas un passeport électronique";
+
+"onfido_nfc_intro_title_passport" = "Scannez votre passeport électronique";
+"onfido_nfc_intro_subtitle_passport" = "Placez votre téléphone sur votre passeport fermé et gardez celui-ci proche de la partie supérieure du téléphone";
+"onfido_nfc_intro_button_primary_passport" = "Commencer le scan";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Posez votre téléphone sur votre passeport fermé";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scan en cours...";
+
+"onfido_nfc_intro_title_card" = "Scan your NFC card";
+"onfido_nfc_intro_subtitle_card" = "Placez votre téléphone sur la carte et gardez-la proche de la partie supérieure du téléphone";
+"onfido_nfc_intro_button_primary_card" = "Commencer le scan";
+
+"onfido_nfc_intro_sheet_header_ready_card" = "Placez votre téléphone sur la carte";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scan en cours...";
+
+"onfido_nfc_intro_sheet_header_fail_passport" = "Nous n’avons pas pu scanner votre passeport";
+"onfido_nfc_intro_sheet_header_fail_card" = "Nous n’avons pas pu scanner votre carte NFC";
+
+"onfido_nfc_fail_title_passport" = "Nous n’avons pas pu scanner votre passeport";
+"onfido_nfc_fail_list_item_remove_covers_passport" = "Retirez votre passeport et vos protections de téléphone";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Maintenez le contact entre votre téléphone et votre passeport jusqu’à ce que le scan soit réussi";
+"onfido_nfc_fail_button_primary_passport" = "Réessayer le scan";
+"onfido_nfc_fail_button_secondary_passport" = "Faites la vérification sans scan";
+
+"onfido_nfc_fail_title_card" = "Nous n’avons pas pu scanner votre carte NFC";
+"onfido_nfc_fail_list_item_remove_covers_card" = "Retirez votre passeport et vos protections de téléphone";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Maintenez le contact entre votre téléphone et votre carte jusqu’à ce que le scan soit réussi";
+"onfido_nfc_fail_button_primary_card" = "Réessayer le scan";
+"onfido_nfc_fail_button_secondary_card" = "Faites la vérification sans scan";
 
 "onfido_doc_confirmation_zoom_button" = "Agrandir l'image";
 "onfido_doc_confirmation_image_accessibility" = "Photo de votre document. Appuyez deux fois pour agrandir.";
@@ -322,12 +342,12 @@
 "onfido_doc_video_confirmation_button_secondary_preview" = "Aperçu de la vidéo";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Prendre une nouvelle vidéo";
 "onfido_doc_video_confirmation_title" = "Merci";
-"onfido_doc_capture_frame_accessibility_pp_auto" = "Vue depuis la caméra. Placez la page de votre photo de passeport dans le cadre";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Vue depuis la caméra. Placez la page de votre photo de passeport dans le cadre. Votre appareil vibre lorsque l’image est capturée.";
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Vue depuis la caméra. Placez la page de votre photo de passeport dans le cadre, puis appuyez sur le déclencheur";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vue depuis la caméra. Placez le recto de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
 "onfido_doc_capture_frame_accessibility_dl_back_manual" = "Vue depuis la caméra. Placez le verso de votre permis de conduire dans le cadre, puis appuyez sur le déclencheur";
-"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Vue depuis la caméra. Placez le recto de votre permis de conduire dans le cadre";
-"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Vue depuis la caméra. Placez le verso de votre permis de conduire dans le cadre";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Vue depuis la caméra. Placez le recto de votre permis de conduire dans le cadre. Votre appareil vibre lorsque l’image est capturée.";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Vue depuis la caméra. Placez le verso de votre permis de conduire dans le cadre. Votre appareil vibre lorsque l’image est capturée.";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vue depuis la caméra. Placez le recto de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vue depuis la caméra. Placez le verso de votre carte d’identité dans le cadre, puis appuyez sur le déclencheur";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vue depuis la caméra. Placez le recto de votre permis de séjour dans le cadre, puis appuyez sur le déclencheur";
@@ -345,7 +365,20 @@
 "onfido_doc_confirmation_alert_crop_detail" = "Assurez-vous que l’intégralité du document est visible";
 "onfido_doc_confirmation_alert_crop_title" = "Image tronquée détectée";
 "onfido_doc_upload_progress_label" = "Vérification de la qualité d'image";
+"onfido_doc_capture_frame_success_accessibility" = "Image capturée";
 "onfido_generic_error_timeout_title" = "Erreur de connexion";
 "onfido_generic_error_timeout_detail" = "Vérifiez l’état de votre connexion, puis réessayez";
 "onfido_generic_error_timeout_button_primary" = "Réessayer";
 "onfido_generic_processing" = "Traitement";
+"onfido_video_capture_turn_success_accessibility" = "Tour de tête détecté";
+"onfido_nfc_intro:title_passport" = "Scannez votre passeport électronique";
+"onfido_nfc_sheet_success_instruction" = "Nous avons scanné votre passeport avec succès";
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Retirez votre passeport et vos protections de téléphone";
+"onfido_nfc_select_title_card" = "Accélérez le processus avec NFC";
+"onfido_nfc_select_subtitle_card" = "Nous allons scanner la puce NFC de votre carte";
+"onfido_nfc_select_body_card" = "Les cartes avec puces NFC ont ce symbole";
+"onfido_nfc_select_button_primary_card" = "Utiliser une carte NFC";
+"onfido_nfc_select_button_secondary_card" = "Ce n’est pas une carte NFC";
+"onfido_nfc_intro:title_card" = "Scannez votre carte NFC";
+"onfido_nfc_fail_list_item_remove_cover_card" = "Retirez la protection de votre téléphone";
+"onfido_nfc_sheet_success_instruction_card" = "Nous avons scanné votre carte avec succès";
