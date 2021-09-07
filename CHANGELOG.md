@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [22.3.0] - 2021-08-31
+
+### Added
+
+- Public: Added enterprise feature disableMobileSdkAnalytics
+
+### Fixed
+
+- Public: Fixed missing throwed error when the user didn't give camera permission
+
 ## [22.2.0] - 2021-08-09
 
 ### Added
