@@ -45,17 +45,17 @@ It offers a number of benefits to help you create the best identity verification
 ## Getting started
 
 * SDK supports iOS 10+
-* SDK supports Xcode 11.5 and above \*
+* SDK supports Xcode 13+\*
 * SDK has full bitcode support
 * SDK supports following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
 
-\* There is a workaround for Xcode 11.3 if required. Please contact [support](mailto:client-support@onfido.com) for more information.
+\* The latest SDK version to support Xcode 11.5-12 is 22. There is a workaround for older versions of Xcode if required. Please contact [support](mailto:client-support@onfido.com) for more information.
 
-⚠️ The Onfido SDK requires CoreNFC to run. Since Xcode 12 there is a bug where `libnfshared.dylib` is missing from simulators. See [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
+:warning: The Onfido SDK requires CoreNFC to run. Since Xcode 12 there is a bug where `libnfshared.dylib` is missing from simulators. See [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
 
-⚠️ Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration.
+:warning: Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration.
 While we're working on a permanent solution for this problem, please download the video that has been shared [in this post](https://github.com/onfido/onfido-ios-sdk/issues/215#issuecomment-767553245) and send to Apple to proceed on your App Review process.
 
 :warning: The following content assumes you're using our API v3 versions for backend calls. If you are currently using API `v2` please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
@@ -1136,8 +1136,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 4.337|
-| Below 12.2       | up to 4.337* or up to 15.838**|
+| 12.2 and above   | 5.186|
+| Below 12.2       | up to 5.186* or up to 17.108**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
