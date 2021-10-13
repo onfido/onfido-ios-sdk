@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Public: Added missing IT and PT localisation files
+- Public: Added missing IT and PT localization files
 - UI: Fix navigation bar color for iOS 15.
 
 ## [22.4.0] - 2021-09-07

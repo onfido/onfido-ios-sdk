@@ -56,7 +56,7 @@ These guides below are provided to ease the transition of existing applications 
 
 ### Platform Changes
 
-- Dropped support fo Xcode 11.5 & 12.x.x
+- Dropped support for Xcode 11.5 & 12.x.x
 
 ## Onfido iOS SDK 22.2.0 Migration Guide
 
