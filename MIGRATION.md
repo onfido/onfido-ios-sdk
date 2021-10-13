@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 23.0.0 Migration Guide](#onfido-ios-sdk-2300-migration-guide)
 * [Onfido iOS SDK 22.2.0 Migration Guide](#onfido-ios-sdk-2220-migration-guide)
 * [Onfido iOS SDK 22.1.0 Migration Guide](#onfido-ios-sdk-2210-migration-guide)
 * [Onfido iOS SDK 22.0.0 Migration Guide](#onfido-ios-sdk-2200-migration-guide)
@@ -50,6 +51,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 23.0.0 Migration Guide
+
+### Platform Changes
+
+- Dropped support for Xcode 11.5 & 12.x.x
 
 ## Onfido iOS SDK 22.2.0 Migration Guide
 

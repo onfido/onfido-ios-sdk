@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [23.0.0] - 2021-10-01
+
+### Added
+
+- Public: This version of SDK is built using Xcode 13 and would allow building your app on Xcode 13. This version of SDK would only support building your app with Xcode 13 due to lack of backward compatibility introduced by Apple with Xcode 13.
+
+### Fixed
+
+- Public: Added missing IT and PT localization files
+- UI: Fix navigation bar color for iOS 15.
+
 ## [22.4.0] - 2021-09-07
 
 ### Changed
