@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [23.0.1] - 2021-10-22
+
+### Fixed
+
+- Public: Improved iOS 15 compatibility
+
 ## [23.0.0] - 2021-10-01
 
 ### Added
@@ -14,7 +20,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Public: Added missing IT and PT localization files
+- Public: Added missing IT and PT localisation files
 - UI: Fix navigation bar color for iOS 15.
 
 ## [22.4.0] - 2021-09-07
