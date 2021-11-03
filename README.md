@@ -998,7 +998,7 @@ You can find the keys for the localizable strings under the [`localization`](loc
 let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
-    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
+    .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR")))
     .withFaceStep(ofVariant: .photo(withConfiguration: nil))
     .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
     .build()
