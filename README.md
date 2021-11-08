@@ -29,7 +29,7 @@
 
 ## Overview
 
-The Onfido iOS SDK provides a drop-in set of screens and tools for iOS applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
+The Onfido iOS SDK provides a drop-in set of screens and tools for iOS applications to capture identity documents and selfie photos and videos for the purpose of identity verification.
 
 It offers a number of benefits to help you create the best identity verification experience for your customers:
 
@@ -62,7 +62,7 @@ While we're working on a permanent solution for this problem, please download th
 
 ### 1. Obtain an API token
 
-In order to start integrating, you'll need an [API token](https://documentation.onfido.com/#api-tokens). 
+In order to start integrating, you'll need an [API token](https://documentation.onfido.com/#api-tokens).
 
 You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration. To use the sandbox, you'll need to generate a sandbox API token in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
@@ -72,7 +72,7 @@ Onfido offers region-specific environments. Refer to the [Regions](https://docum
 
 ### 2. Create an applicant
 
-To create an applicant from your backend server, make a request to the ['create applicant' endpoint](https://documentation.onfido.com/#create-applicant), using a valid API token. 
+To create an applicant from your backend server, make a request to the ['create applicant' endpoint](https://documentation.onfido.com/#create-applicant), using a valid API token.
 
 **Note**: Different report types have different minimum requirements for applicant data. For a Document or Facial Similarity report the minimum applicant details required are `first_name` and `last_name`.
 
@@ -92,13 +92,13 @@ The SDK supports 2 token mechanisms:
 * `SDK token`   
 * `Mobile token`
 
-We strongly recommend using an SDK token. It provides a more secure means of integration, as the token is temporary and applicant ID-bound. 
+We strongly recommend using an SDK token. It provides a more secure means of integration, as the token is temporary and applicant ID-bound.
 
 **Note**: If you're using an SDK token, you shouldn't call the `withApplicantId` function.
 
 #### 3.1 SDK tokens
 
-You'll need to generate and include an SDK token every time you initialize the SDK. 
+You'll need to generate and include an SDK token every time you initialize the SDK.
 
 To generate an SDK token, make a request to the ['generate SDK token' endpoint](https://documentation.onfido.com/#generate-web-sdk-token).
 
@@ -114,7 +114,7 @@ $ curl https://api.onfido.com/v3/sdk_token \
 | `applicant_id` | **required** <br /> Specifies the applicant for the SDK instance. |
 | `application_id` | **required** <br /> The application ID (for iOS "application bundle ID") that was set up during development. For iOS, this is usually in the form `com.your-company.app-name`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
 
-:warning: SDK tokens expire after 90 minutes. 
+:warning: SDK tokens expire after 90 minutes.
 
 ##### `expireHandler`
 
@@ -170,7 +170,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 The SDK uses the device camera. You're required to have the following keys in your application's `Info.plist` file:
 *  `NSCameraUsageDescription`
 *  `NSMicrophoneUsageDescription`
-*  `NFCReaderUsageDescription` 
+*  `NFCReaderUsageDescription`
 
 ```xml
 <key>NSCameraUsageDescription</key>
@@ -201,8 +201,8 @@ The SDK is available in the [GitHub Releases tab](https://github.com/onfido/onfi
 1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed debug zip file containing the `Onfido.framework`.
 2. Uncompress the zip file and then move the `Onfido.framework` artefact into your project.
 3. Add `Onfido.framework` located within your project to the `Embedded binaries` section in the `General` tab of your iOS app target.
-4. Open your app's project file in Xcode. Then select your app's target under target list. 
-5. Next select the `Build Phases` tab and under the `Embed Frameworks` step add a new `Run Script Phase`. Name it `Onfido Framework Archive`. 
+4. Open your app's project file in Xcode. Then select your app's target under target list.
+5. Next select the `Build Phases` tab and under the `Embed Frameworks` step add a new `Run Script Phase`. Name it `Onfido Framework Archive`.
 6. In the text area add the following code:
 ```bash
 if [[ "$ACTION" != "install" ]]; then
@@ -220,7 +220,7 @@ lipo -remove x86_64 Onfido -o Onfido
 
 #### Non-Swift apps
 
-If your app is not Swift based then you must create a new Swift file inside of your project. This file is required to force Xcode to package Swift runtime libraries required for the Onfido iOS SDK to run. 
+If your app is not Swift based then you must create a new Swift file inside of your project. This file is required to force Xcode to package Swift runtime libraries required for the Onfido iOS SDK to run.
 
 1. Create a Swift file with the following contents:
 ```
@@ -319,11 +319,11 @@ The result object passed to the callback may include the following attributes:
 let responseHandler: (OnfidoResponse) -> Void = { response in
   switch response {
     case .error(let error):
-        
+
     case .success(let results):
-        
+
     case .cancel(let reason):
-        
+
   }
 }
 ```
@@ -369,7 +369,7 @@ Success is when the user has reached the end of the flow.
 ##### Capture result payload
 
 You shouldn't need to inspect the results of the document and face captures as the SDK handles file uploads.
-However, if you want to see further information, you can access the result object. 
+However, if you want to see further information, you can access the result object.
 
 Example for a document capture:
 
@@ -388,14 +388,14 @@ To access the result object for a face capture input the `case` as `OnfidoResult
 
 #### Objective-C
 
-`[ONFlowResult]` is a list with multiple results. The result is an instance of `ONFlowResult` containing 2 properties: 
+`[ONFlowResult]` is a list with multiple results. The result is an instance of `ONFlowResult` containing 2 properties:
 
 * `type`, which is an enum with values `ONFlowResultTypeDocument`, `ONFlowResultTypeFace`
 * `result`, which instance type can be of `ONDocumentResult` or `ONFaceResult`. The result type can be derived by the `type` property
 
 ##### Capture result payload
 
-You shouldn't need to inspect the results of the document and face captures as the SDK handles file uploads.However, if you want to see further information, you can access the result object. 
+You shouldn't need to inspect the results of the document and face captures as the SDK handles file uploads.However, if you want to see further information, you can access the result object.
 
 Example for a document capture:
 
@@ -476,7 +476,7 @@ catch let error {
 You must provide the following when configuring the Onfido iOS SDK:
 
 - SDK token (or Mobile token)
-- applicant 
+- applicant
 - at least one capture step
 
 Otherwise you may encounter the following errors when calling the `build()` function on the `OnfidoConfig.Builder` instance:
@@ -496,7 +496,7 @@ Otherwise you may encounter the following errors when calling the `build()` func
 
 ##### Response Handler Errors
 
-The `error` property of the `ONFlowResponse` is of type `NSError`. 
+The `error` property of the `ONFlowResponse` is of type `NSError`.
 
 You can identify the error by comparing the `code` property of the `NSError` instance with `ONFlowError`, i.e. `response.code == ONFlowErrorCameraPermission`. You can also print or log the `userInfo` property of the `NSError` instance.  
 
@@ -555,7 +555,7 @@ if (runError) {
 You must provide the following when configuring the Onfido iOS SDK:
 
 - SDK token (or Mobile token)
-- applicant 
+- applicant
 - at least one capture step
 
 Otherwise you may encounter the following errors when calling the `build()` function on the `ONFlowConfigBuilder`:
@@ -578,11 +578,11 @@ The iOS SDK has multiple customizable options. You can also read our [SDK custom
 
 #### Welcome step
 
-This step is the introduction screen of the SDK. It displays a summary of the capture steps the user will pass through. This is an optional screen. 
+This step is the introduction screen of the SDK. It displays a summary of the capture steps the user will pass through. This is an optional screen.
 
 You can show the welcome screen by calling `configBuilder.withWelcomeStep()` in Swift or `[configBuilder withWelcomeStep]` in Objective-C.
 
-##### Swift 
+##### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
@@ -611,7 +611,7 @@ if (configError) {
 
 #### Consent step
 
-This step contains a screen to collect US end users' privacy consent for Onfido. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use. 
+This step contains a screen to collect US end users' privacy consent for Onfido. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use.
 
 This is an optional screen. You can specify it in the following ways:
 
@@ -643,7 +643,7 @@ If you choose to disable this step, you must incorporate the required consent la
 
 For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
-#### Document step 
+#### Document step
 
 In the Document step, a user can pick the type of document to capture and its issuing country before capturing it with their phone camera. Document selection and country selection are both optional screens. These screens will only show to the end user if specific options are not configured to the SDK.
 
@@ -671,7 +671,7 @@ The following document types are supported:
 
 -  **Document country**
 
-Country configuration allows you to specify the country of origin of the document. If a document country is specified for a document type the country selection screen is not displayed. 
+Country configuration allows you to specify the country of origin of the document. If a document country is specified for a document type the country selection screen is not displayed.
 
 You'll need to pass the corresponding [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) 3 letter country code to the SDK.
 
@@ -712,7 +712,7 @@ if (documentVariantError) {
 
 - **Document format**
 
-The format of some documents can be specified as a plastic card `Card` or folded document `Folded`. `Card` is the default document format value for all document types. 
+The format of some documents can be specified as a plastic card `Card` or folded document `Folded`. `Card` is the default document format value for all document types.
 
 If `Folded` is configured the SDK will show a specific template overlay during document capture.    
 
@@ -885,6 +885,9 @@ ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 ```
 
+#### Creating checks with NFC
+
+Please refer to our [NFC for document report guide in our developer hub](https://developers.onfido.com/guide/document-report-nfc) to learn [how to create a check containing a document report with nfc](https://developers.onfido.com/guide/document-report-nfc#create-a-check-containing-a-document-report-with-nfc).
 
 ### Enabling Canadian Driver Licence Auto-capture (beta)
 
@@ -927,7 +930,8 @@ let appearance = Appearance(
               borderCornerRadius: <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>,
               fontRegular: <DESIRED_FONT_NAME_HERE>,
               fontBold: <DESIRED_FONT_NAME_HERE>,
-              supportDarkMode: <true | false>)
+              supportDarkMode: <true | false>,
+              captureSuccessColors: <CaptureSuccessColors object>)
 
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
@@ -943,7 +947,8 @@ ONAppearance *appearance = [[ONAppearance alloc]
                                 borderCornerRadius:<DESIRED_CGFLOAT_BORDER_RADIUS_HERE>
                                 fontRegular: <DESIRED_FONT_NAME_HERE>
                                 fontBold: <DESIRED_FONT_NAME_HERE>
-                                supportDarkMode: <true | false>>]];
+                                supportDarkMode: <true | false>>
+                                captureSuccessColors: <CaptureSuccessColors object>]];
 
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
@@ -956,7 +961,12 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
 - `fontRegular`: Defines the custom font name for the regular style labels  
 - `fontBold`: Defines the custom font name for the bold style labels   
-- `supportDarkMode`: Defines if iOS Dark Mode will be enabled on SDK screens. The value is true by default. **Note:**This property is applicable only for Xcode 11 and above built apps and devices running on iOS 13 and above
+- `supportDarkMode`: Defines if iOS Dark Mode will be enabled on SDK screens. The value is true by default.
+  **Note:** This property is applicable only for Xcode 11 and above built apps and devices running on iOS 13 and above
+- `captureSuccessColors`: Defines the color values for the capture screen success auto capture state
+  - `borderColor`: Defines the border color of the area of interest in capture screen
+  - `tickViewImageTintColor`: Defines the tick icon's tint color shown in capture screen after auto capture happens
+  - `tickViewBackgroundColor`: Defines the tick icon's background color shown in capture screen after auto capture happens
 
 **Dark Mode only UI customisation**
 
@@ -1029,7 +1039,7 @@ if (variantError) {
 
 #### Custom languages
 
-The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply full or partial translations. For any key without a translation, the supported language default will be used. 
+The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply full or partial translations. For any key without a translation, the supported language default will be used.
 
 When adding custom translations, you must add the whole set of keys included in the [`Localizable.strings`](localization) file. In particular, `onfido_locale`, which identifies the current locale being added. The value for this string should be the ISO 639-1 2-letter language code corresponding to the translation being added.
 
@@ -1041,14 +1051,14 @@ Without `onfido_locale` correctly included, we won't be able to determine which 
 
 You can name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method:
 
- `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (swift) or `[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` (Objective-C). 
- 
+ `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (swift) or `[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` (Objective-C).
+
 Additionally you can specify the bundle from which to read the strings file:
 
  `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (swift)
  `[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` (Objective-C).
 
-**Note**: If string translations change it will result in a MINOR version change. If you have custom translations you're responsible for testing your translated layout. 
+**Note**: If string translations change it will result in a MINOR version change. If you have custom translations you're responsible for testing your translated layout.
 
 If you want a language translated you can get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com)
 
@@ -1058,7 +1068,7 @@ The SDK is responsible for the capture of identity documents and selfie photos a
 
 For a walkthrough of how to create a check with a Document and Facial Similarity report using the iOS SDK read our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
 
-Read our API documentation for further details on how to [create a check](https://documentation.onfido.com/#create-check) with the Onfido API. 
+Read our API documentation for further details on how to [create a check](https://documentation.onfido.com/#create-check) with the Onfido API.
 
 **Note**: If you're testing with a sandbox token, please be aware that the results are pre-determined. You can learn more about [sandbox responses](https://documentation.onfido.com/#pre-determined-responses).
 
@@ -1136,8 +1146,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.191|
-| Below 12.2       | up to 5.191* or up to 17.113**|
+| 12.2 and above   | 5.285|
+| Below 12.2       | up to 5.285* or up to 17.165**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -1148,7 +1158,7 @@ Check the following before you go live:
 
 ## Migrating
 
-You can find the migration guide at [MIGRATION.md](MIGRATION.md) 
+You can find the migration guide at [MIGRATION.md](MIGRATION.md)
 
 ## Security
 
