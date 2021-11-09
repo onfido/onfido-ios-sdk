@@ -1,10 +1,9 @@
-source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 target 'SampleAppObjC' do
  use_frameworks!
  inhibit_all_warnings!
       
-    pod 'Onfido', '23.0.1'    
+    pod 'Onfido', '23.1.0'    
   end
 
 post_install do |installer|

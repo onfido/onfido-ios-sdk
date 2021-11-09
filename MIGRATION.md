@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 23.1.0 Migration Guide](#onfido-ios-sdk-2310-migration-guide)
 * [Onfido iOS SDK 23.0.0 Migration Guide](#onfido-ios-sdk-2300-migration-guide)
 * [Onfido iOS SDK 22.2.0 Migration Guide](#onfido-ios-sdk-2220-migration-guide)
 * [Onfido iOS SDK 22.1.0 Migration Guide](#onfido-ios-sdk-2210-migration-guide)
@@ -50,6 +51,215 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 23.1.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_video_capture_prompt_header_restart` (en, fr, de, es, it, pt)
+
+- `onfido_video_capture_prompt_detail_restart` (en, fr, de, es, it, pt)
+
+- `onfido_video_capture_prompt_button_restart` (en, fr, de, es, it, pt)
+
+
+- `onfido_doc_capture_header_scanning` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_header` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_doc_photo` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_doc_video` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_doc_generic` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_face_photo` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_face_video` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_face_generic` (en, fr, de, es, it, pt)
+
+
+- `onfido_doc_capture_header_live_guidance_intro_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_no_doc` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_no_doc_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_close` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_close_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_far` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_far_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_ok` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_distance_ok_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_left` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_left_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_right` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_right_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_high` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_high_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_slightly_high` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_low` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_too_low_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_slightly_low` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_position_ok` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_live_guidance_intro` (en, fr, de, es, it, pt)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_doc_capture_frame_accessibility_pp_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_pp_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_rp_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_rp_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_pp_cover_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_folded_doc_back` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_passport` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_visa` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_passport_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_license_back` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_license_back_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_generic_back` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_id_back` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_permit_back` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_license_front` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_license_front_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_generic_front` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_id_front` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_header_permit_front` (en, fr, de, es, it, pt)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_welcome_list_header_doc_video` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_item_doc` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_header_photo` (en, fr, de, es, it, pt)
+
+- `onfido_welcome_list_header_record` (en, fr, de, es, it, pt)
+
+
+- `onfido_doc_capture_frame_accessibility_pp_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_pp_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_auto` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_rp_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_rp_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_fr_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_it_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_front_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_ic_za_back_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_pp_cover_manual` (en, fr, de, es, it, pt)
+
+- `onfido_doc_capture_frame_accessibility_dl_back_auto` (en, fr, de, es, it, pt)
+
+
+- `onfido_confirm_passport` (en)
+
+- `onfido_confirm_residence_permit` (en)
+
+- `onfido_confirm_visa` (en)
+
+
+- `onfido_nfc_intro:title_passport` (en, fr, de, es, it, pt)
+
+- `onfido_nfc_intro:title_card` (en, fr, de, es, it, pt)
+
 
 
 ## Onfido iOS SDK 23.0.0 Migration Guide

@@ -6,6 +6,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [23.1.0] - 2021-11-02
+
+### Added
+
+- UI: Now making sure applicant's face is within oval during selfie video capture
+- Public: Updated document capture experience for better image quality (multiframe)
+- UI: Live document position feedback during capture
+
+### Changed
+
+- Public: Added links on how to create a check containing a document report with NFC on the README
+
+### Fixed
+
+- Public: Added missing NFC library license to onfido_licenses.json
+- Public: Fix Xcode double quoted warning
+- Public: Removed unused localisation keys and values
+- Public: Removed unused and erroneous keys
+- Public: Added missing IT and PT localisation files
+
 ## [23.0.1] - 2021-10-22
 
 ### Fixed
