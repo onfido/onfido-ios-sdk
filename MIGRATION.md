@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 24.0.0 Migration Guide](#onfido-ios-sdk-2400-migration-guide)
 * [Onfido iOS SDK 23.1.0 Migration Guide](#onfido-ios-sdk-2310-migration-guide)
 * [Onfido iOS SDK 23.0.0 Migration Guide](#onfido-ios-sdk-2300-migration-guide)
 * [Onfido iOS SDK 22.2.0 Migration Guide](#onfido-ios-sdk-2220-migration-guide)
@@ -52,6 +53,22 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 24.0.0 Migration Guide
+
+### Platform Changes
+
+- Dropped iOS 10 support. Now supporting iOS 11 or newer.
+
+### Breaking API Changes
+
+- Removed withToken(_:) and withApplicantId(_:) functions from OnfidoConfigBuilder. Mobile tokens are no longer supported.
+- Removed cases missingApplicant, multipleTokenTypes, applicantProvidedWithSDKToken and enterpriseFeatureProvidedWithMobileToken from OnfidoConfigError. Mobile tokens are no longer supported.
+- Renamed OnfidoConfigError.missingToken to OnfidoConfigError.missingSDKToken.
+- Added new OnfidoConfigError case named invalidSDKToken when invalid SDK token supplied.
+- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaputreSuccessColors), and made properties public. i.e. let appearance = Appearance(); appearance.primaryColor = UIColor.red;
+- Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
+- Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
 
 ## Onfido iOS SDK 23.1.0 Migration Guide
 
@@ -1626,7 +1643,7 @@ let applicant = Applicant.new(
 let config = try! OnfidoConfig.builder()
     .withToken("YOUR_TOKEN_HERE")
     .withApplicant(applicant)
-    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR") // document type step with pre-selection
+    .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR"))) // document type step with pre-selection
     .withFaceStep(ofVariant: .photo)
     .build()
 

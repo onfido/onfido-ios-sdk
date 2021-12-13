@@ -44,7 +44,7 @@ It offers a number of benefits to help you create the best identity verification
 
 ## Getting started
 
-* SDK supports iOS 10+
+* SDK supports iOS 11+
 * SDK supports Xcode 13+\*
 * SDK has full bitcode support
 * SDK supports following presentation styles:
@@ -85,18 +85,7 @@ $ curl https://api.onfido.com/v3/applicants \
 
 The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos and videos uploaded by that instance of the SDK will be associated with that applicant.
 
-### 3. Configure the SDK with tokens
-
-The SDK supports 2 token mechanisms:
-
-* `SDK token`   
-* `Mobile token`
-
-We strongly recommend using an SDK token. It provides a more secure means of integration, as the token is temporary and applicant ID-bound.
-
-**Note**: If you're using an SDK token, you shouldn't call the `withApplicantId` function.
-
-#### 3.1 SDK tokens
+### 3. Configure the SDK with token
 
 You'll need to generate and include an SDK token every time you initialize the SDK.
 
@@ -143,26 +132,6 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN" expireHandler:^(void (^ handler)(NSString *  expireHandler)) {
         [self getSDKToken:handler];
 }];
-```
-
-#### 3.2 Mobile tokens
-
-:warning: From **1st June 2021**, new SDK versions will no longer support Mobile tokens. Please migrate your integration to use [SDK tokens](#31-sdk-tokens) so that you can upgrade to new SDK versions in the future.
-
-You can generate Mobile tokens in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
-
-:warning: You must use the Mobile token and not the API token when configuring the SDK itself.
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withToken("<YOUR_MOBILE_TOKEN>")
-    .withApplicantId("<APPLICANT_ID>")
-```
-
-```Objective-C
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withToken:@"YOUR_MOBILE_TOKEN"];
-[configBuilder withApplicantId:@"APPLICANT_ID"];
 ```
 
 ### 4. App permissions
@@ -866,7 +835,7 @@ Some passports contain a chip which can be accessed using Near Field Communicati
 let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withDocumentStep()
-    .withPassportNFCReadBetaFeatureEnabled()
+    .withNFCReadBetaFeatureEnabled()
     .build()
 ```
 
@@ -878,7 +847,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
-[configBuilder withPassportNFCReadBetaFeatureEnabled];
+[configBuilder withNFCReadBetaFeatureEnabled];
 
 NSError *configError = NULL;
 ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
@@ -922,16 +891,16 @@ The iOS SDK supports the customization of colors, fonts and strings used in the 
 
 #### Swift
 ```Swift
-let appearance = Appearance(
-              primaryColor: <DESIRED_UI_COLOR_HERE>,
-              primaryTitleColor: <DESIRED_UI_COLOR_HERE>,
-              primaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
-              secondaryBackgroundPressedColor: <DESIRED_UI_COLOR_HERE>,
-              borderCornerRadius: <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>,
-              fontRegular: <DESIRED_FONT_NAME_HERE>,
-              fontBold: <DESIRED_FONT_NAME_HERE>,
-              supportDarkMode: <true | false>,
-              captureSuccessColors: <CaptureSuccessColors object>)
+let appearance = Appearance()
+appearance.primaryColor = <DESIRED_UI_COLOR_HERE>
+appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>
+appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
+appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
+appearance.borderCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>
+appearance.fontRegular = <DESIRED_FONT_NAME_HERE>
+appearance.fontBold = <DESIRED_FONT_NAME_HERE>
+appearance.supportDarkMode = <true | false>
+appearance.captureSuccessColors = <CaptureSuccessColors object>
 
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
@@ -939,16 +908,16 @@ configBuilder.withAppearance(appearance)
 
 #### Objective-C
 ```Objective-C
-ONAppearance *appearance = [[ONAppearance alloc]
-                                initWithPrimaryColor:<DESIRED_UI_COLOR_HERE>
-                                primaryTitleColor:<DESIRED_UI_COLOR_HERE>
-                                primaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
-                                secondaryBackgroundPressedColor:<DESIRED_UI_COLOR_HERE>
-                                borderCornerRadius:<DESIRED_CGFLOAT_BORDER_RADIUS_HERE>
-                                fontRegular: <DESIRED_FONT_NAME_HERE>
-                                fontBold: <DESIRED_FONT_NAME_HERE>
-                                supportDarkMode: <true | false>>
-                                captureSuccessColors: <CaptureSuccessColors object>]];
+ONAppearance *appearance = [[ONAppearance alloc] init];
+appearance.primaryColor = <DESIRED_UI_COLOR_HERE>;
+appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>;
+appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
+appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
+appearance.buttonCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>;
+appearance.fontRegular = <DESIRED_FONT_NAME_HERE>;
+appearance.fontBold = <DESIRED_FONT_NAME_HERE>;
+appearance.supportDarkMode = <true | false>;
+appearance.captureSuccessColors = <CaptureSuccessColors object>;
 
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
@@ -989,7 +958,7 @@ ONAppearance *appearance = [[ONAppearance alloc] initWithSupportDarkMode:<true|f
 
 ### Language customization
 
-The SDK supports and maintains the following 4 languages:
+The SDK supports and maintains the following 6 languages:
 
  - English (en) 🇬🇧
  - Spanish (es) 🇪🇸
@@ -1008,7 +977,7 @@ You can find the keys for the localizable strings under the [`localization`](loc
 let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
-    .withDocumentStep(ofType: .drivingLicence, andCountryCode: "GBR")
+    .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR")))
     .withFaceStep(ofVariant: .photo(withConfiguration: nil))
     .withCustomLocalization() // will look for localizable strings in your Localizable.strings file
     .build()
@@ -1146,8 +1115,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.285|
-| Below 12.2       | up to 5.285* or up to 17.165**|
+| 12.2 and above   | 5.256|
+| Below 12.2       | up to 5.256* or up to 17.131**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

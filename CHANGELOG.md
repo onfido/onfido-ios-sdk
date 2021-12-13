@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.0.0] - 2021-12-07
+
+### Changed
+
+- Public: Removed mobile token support
+- Public: Dropped iOS 10 support. Now supporting iOS 11 or newer.
+- Public: Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaputreSuccessColors), and made properties public.
+- Public: Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
+- Public: Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
+
+### Fixed
+
+- Public: Documentation correction for the document step in README file.
+
 ## [23.1.0] - 2021-11-02
 
 ### Added
