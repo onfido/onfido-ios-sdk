@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.1.0] - 2021-12-13
+
+### Changed
+
+- Public: Now extracting face photo from NFC chips in documents so you can access that data on document report
+
+### Fixed
+
+- Public: Now preventing crashes on the document capture coordinator by sending exceptions back to the integrator
+- Public: Fixed SDK crashing app on launch on iOS 11 and 12 due to missing CoreNFC framework
+
 ## [24.0.0] - 2021-12-07
 
 ### Changed
