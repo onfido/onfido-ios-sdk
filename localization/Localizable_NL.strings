@@ -1,0 +1,364 @@
+"onfido_doc_capture_button_accessibility" = "Sluiter";
+"onfido_selfie_capture_button_accessibility" = "Sluiter";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Waargave vanaf camera";
+"onfido_selfie_capture_frame_accessibility" = "Weergeven vanaf selfiecamera. Houd uw gezicht binnen de ovaal en tik vervolgens op de sluiterknop";
+"onfido_video_capture_frame_accessibility" = "Weergeven vanaf selfiecamera. Houd uw gezicht binnen de ovaal om te beginnen met opnemen.";
+"onfido_selfie_confirmation_image_accessibility" = "Foto van uw gezicht";
+"onfido_video_capture_frame_success_accessibility" = "Gezicht gedetecteerd. Opnemen is begonnen.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Voorbeeldvideo van iemand die een selfiefilmpje maakt. Om een selfiefilmpje op te nemen, kijkt u naar de camera en houdt u uw telefoon een eindje van uw gezicht vandaan. U moet vervolgens een aantal getallen opnoemen en uw hoofd draaien volgens de instructies op het scherm.";
+"onfido_video_intro_button_pause_accessibility" = "Filmpje pauzeren";
+"onfido_video_intro_button_play_accessibility" = "Filmpje afspelen";
+"onfido_country_select_list_header_all" = "Alle landen";
+"onfido_doc_capture_alert_manual_capture_detail" = "Lijn het document uit en druk op de knop";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Probeer handmatig een foto te nemen";
+"onfido_doc_capture_alert_no_barcode_detail" = "Ga op een goed verlichte plek staan en houd de kaart dichter bij de camera";
+"onfido_doc_capture_alert_no_barcode_title" = "Streepjescode niet gedetecteerd";
+"onfido_doc_confirmation_alert_blur_detail" = "Zorg dat alles helder zichtbaar is";
+"onfido_doc_confirmation_alert_blur_title" = "Onscherpe foto gedetecteerd";
+"onfido_selfie_intro_list_item_face_forward" = "Kijk recht vooruit en zorg dat uw ogen goed te zien zijn";
+"onfido_selfie_intro_list_item_no_glasses" = "Zet uw bril af indien nodig";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "We vergelijken deze met uw document";
+"onfido_selfie_intro_title" = "Neem een selfie";
+"onfido_selfie_intro_button_primary" = "Neem een selfie";
+"onfido_country_select_bottom_sheet_link_close" = "Sluiten";
+"onfido_doc_confirmation_button_primary_license" = "Verzend foto";
+"onfido_doc_confirmation_button_primary_generic" = "Verzend foto";
+"onfido_doc_confirmation_button_primary_id" = "Verzend foto";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_confirm_button" = "Upload photo";
+"onfido_selfie_confirmation_retake_button" = "Retake photo";
+"onfido_doc_confirmation_button_primary_passport" = "Verzend foto";
+"onfido_doc_confirmation_button_primary_permit" = "Verzend foto";
+"onfido_doc_confirmation_button_primary_visa" = "Verzend foto";
+"onfido_selfie_confirmation_button_primary" = "Upload foto";
+"onfido_selfie_confirmation_button_secondary" = "Neem foto opnieuw";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Allebei inschakelen";
+"onfido_permission_button_primary_cam" = "Camera inschakelen";
+"onfido_permission_button_primary_mic" = "Schakel microfoon in";
+"onfido_permission_body_both" = "We kunnen u niet verifiëren zonder uw camera en microfoon te gebruiken";
+"onfido_permission_body_cam" = "We kunnen u niet verifiëren zonder camera";
+"onfido_permission_body_mic" = "We kunnen u niet verifiëren zonder uw microfoon te gebruiken";
+"onfido_permission_subtitle_both" = "Als u daarom gevraagd wordt, moet u toegang tot zowel de camera als de microfoon inschakelen om door te gaan";
+"onfido_permission_subtitle_cam" = "Als u daarom gevraagd wordt, moet u toegang tot de camera inschakelen om door te gaan";
+"onfido_permission_subtitle_mic" = "Als u daarom gevraagd wordt, moet u toegang tot de microfoon inschakelen om door te gaan";
+/* Device permission */
+"onfido_permission_title_both" = "Sta toegang toe tot camera en microfoon";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Toegang tot camera toestaan";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Sta toegang toe tot microfoon";
+"onfido_doc_select_subtitle" = "Het moet een officieel identiteitsbewijs met foto zijn";
+/* Document type selection */
+"onfido_doc_select_title" = "Kies uw document";
+"onfido_doc_capture_prompt_title_license" = "Wat voor type rijbewijs hebt u?";
+"onfido_doc_select_button_passport" = "Paspoort";
+"onfido_doc_select_button_license" = "Rijbewijs";
+"onfido_doc_select_button_id" = "Identiteitskaart";
+"onfido_doc_select_button_permit" = "Verblijfsvergunning";
+"onfido_error_connection_message" = "There was a network error. Please check your connection.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "Verbinding verbroken";
+"onfido_doc_capture_alert_no_face_detail" = "Zorg dat uw gezicht zichtbaar is";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Leg uw document recht om de binnenste pagina's te tonen met uw foto";
+"onfido_doc_capture_alert_no_face_title" = "Gezicht niet gedetecteerd";
+"onfido_video_capture_button_primary_finish" = "Voltooi opname";
+"onfido_welcome_button_primary_doc" = "Kies een document";
+"onfido_doc_capture_detail_folded_doc_back" = "Leg uw document plat, inclusief de buitenste pagina's";
+"onfido_doc_capture_header_folded_doc_back" = "Plaats de buitenste pagina's van uw document in het kader";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Zorg dat uw document volledig uitgevouwen is en dat de foto scherp is";
+"onfido_doc_capture_detail_folded_doc_front" = "Lay your document flat, include all inner pages (must contain your photo)";
+"onfido_doc_capture_header_folded_doc_front" = "Profile photo side";
+"onfido_doc_capture_prompt_button_paper" = "Papieren document";
+"onfido_app_title_doc_capture_license_fr" = "Frans rijbewijs";
+"onfido_app_title_doc_capture_license_de" = "Duits rijbewijs";
+"onfido_doc_capture_alert_glare_detail" = "Ga niet in direct zonlicht staan";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Schittering gedetecteerd";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "Italiaanse identiteitskaart";
+"onfido_app_title_doc_capture_id_za" = "Zuid-Afrikaanse identiteitskaart";
+"onfido_doc_select_button_generic" = "Document";
+/* Document Types */
+"onfido_label_doc_type_passport_up" = "Passport";
+"onfido_doc_select_button_visa" = "Visa";
+"onfido_doc_select_button_permit_work" = "Werkvergunning";
+"onfido_video_capture_header_challenge_digit_instructions" = "Spreek elk cijfer hardop uit";
+"onfido_video_capture_header_challenge_turn_forward" = "en kijk rechtuit";
+"onfido_video_capture_header_challenge_turn_left" = "Draai uw hoofd naar links";
+"onfido_video_capture_header_challenge_turn_right" = "Draai uw hoofd naar rechts";
+"onfido_liveness_fetch_challenge_error_button_title" = "Reload instructions";
+"onfido_liveness_fetch_challenge_error_description" = "Check that your connection is stable, then try again";
+"onfido_liveness_fetch_challenge_error_title" = "Connection timeout";
+"onfido_liveness_intro_loading_video" = "Loading example";
+"onfido_video_intro_list_item_time_limit" = "U hebt %d seconden om af te ronden";
+"onfido_video_intro_list_item_move_speak" = "Volg de instructies voor bewegen en spreken";
+/* Liveness */
+"onfido_video_intro_subtitle" = "Voor de veiligheid hebben we een live opname nodig";
+/* Liveness intro */
+"onfido_video_intro_title" = "Maak een filmpje";
+"onfido_video_intro_button_primary" = "Maak een filmpje";
+"onfido_video_capture_prompt_detail_timeout" = "Vergeet niet op de knop te drukken als u klaar bent.";
+"onfido_video_capture_prompt_header_timeout" = "Het lijkt erop dat het te lang duurde";
+"onfido_video_capture_prompt_header_restart" = "Start de opname";
+"onfido_video_capture_prompt_detail_restart" = "Om deze step te wissen, moet u uw gezicht tijdens de opname in het kader houden.";
+"onfido_video_capture_prompt_button_restart" = "Opnieuw starten";
+/* Locale identifier */
+"onfido_locale" = "en";
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Houd uw gezicht binnen de ovaal";
+"onfido_video_capture_body" = "Houd uw gezicht binnen de ovaal om te beginnen met opnemen.";
+"onfido_doc_confirmation_body_license" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+"onfido_doc_confirmation_body_generic" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+"onfido_doc_confirmation_body_id" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+"onfido_doc_confirmation_body_permit" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+"onfido_doc_confirmation_body_visa" = "Controleer of uw gegevens goed en volledig zichtbaar zijn";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Zorg dat uw volledige gezicht zichtbaar is";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "Plaats de fotopagina van uw document in het kader";
+"onfido_doc_capture_header_visa" = "Plaats de visumpagina van uw document in het kader";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Bezig met laden";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "Plaats de fotopagina van uw document in het kader";
+"onfido_doc_capture_header_license_back" = "Plaats de achterkant van uw document in het kader";
+"onfido_doc_capture_header_license_back_auto" = "Plaats de achterkant van uw document in het kader";
+"onfido_doc_capture_header_generic_back" = "Plaats de achterkant van uw document in het kader";
+"onfido_doc_capture_header_id_back" = "Plaats de achterkant van uw document in het kader";
+"onfido_doc_capture_header_permit_back" = "Plaats de achterkant van uw document in het kader";
+"onfido_doc_capture_header_license_front" = "Plaats de voorkant van uw document in het kader";
+"onfido_doc_capture_header_license_front_auto" = "Plaats de voorkant van uw document in het kader";
+"onfido_doc_capture_header_generic_front" = "Plaats de voorkant van uw document in het kader";
+"onfido_doc_capture_header_id_front" = "Plaats de voorkant van uw document in het kader";
+"onfido_doc_capture_header_permit_front" = "Plaats de voorkant van uw document in het kader";
+
+"onfido_generic_uploading" = "Bezig met uploaden";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Zorg dat het hele document zichtbaar is op de foto";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Zorg dat uw gezicht zichtbaar is";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Alleen uw gezicht mag zichtbaar zijn in de selfie";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_alert_no_mrz_detail" = "Zorg dat uw document volledig zichtbaar is";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Onderste twee regels niet zichtbaar";
+"onfido_doc_capture_alert_no_mrz3_title" = "Onderste drie regels niet zichtbaar";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Meerdere gezichten gevonden";
+"onfido_doc_capture_prompt_title_id" = "Wat voor type identiteitskaart hebt u?";
+"onfido_video_capture_button_primary_fallback" = "Volgende stap";
+"onfido_doc_confirmation_alert_no_doc_title" = "Geen document gevonden";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Gezicht niet gedetecteerd";
+"onfido_generic_alert_network_error_button_primary" = "OK";
+"onfido_info_tablet_orientation_subtitle" = "We ondersteunen alleen de portretmodus";
+"onfido_info_tablet_orientation_title" = "Draai uw iPad";
+"onfido_info_tablet_orientation_body" = "De knop moet onderaan het scherm te zien zijn";
+"onfido_doc_capture_prompt_button_card" = "Plastic kaart";
+"onfido_reload" = "Reload";
+"onfido_doc_confirmation_button_secondary" = "Neem foto opnieuw";
+"onfido_video_confirmation_button_secondary" = "Neem filmpje opnieuw op";
+"onfido_video_capture_prompt_button_timeout" = "Probeer opnieuw";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Kies een ander document";
+"onfido_welcome_button_primary" = "Start";
+"onfido_video_capture_button_primary_start" = "Start met opnemen";
+"onfido_video_confirmation_button_primary" = "Upload filmpje";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Voorgesteld land";
+/* General */
+"onfido_unable_load_unstable_network" = "Unable to load due to unstable network";
+"onfido_country_select_bottom_sheet_details" = "Het spijt ons. Probeer een ander document.";
+"onfido_country_select_bottom_sheet_title" = "Kunt u uw land niet vinden?";
+"onfido_doc_confirmation_button_primary" = "Verzend foto";
+"onfido_welcome_list_item_selfie" = "uw gezicht";
+/* Face capture */
+"onfido_welcome_list_item_video" = "een filmpje van uzelf";
+"onfido_welcome_subtitle" = "Dat duurt maar een paar minuten";
+/* Welcome */
+"onfido_welcome_title" = "Verifieer uw identiteit";
+"onfido_app_title_doc_confirmation" = "Verifieer uw identiteit";
+"onfido_app_title_selfie_confirmation" = "Verifieer uw identiteit";
+"onfido_app_title_nfc_select" = "Verifieer uw identiteit";
+"onfido_app_title_nfc_intro" = "Verifieer uw identiteit";
+"onfido_app_title_nfc_fail" = "Verifieer uw identiteit";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Verifieer uw identiteit";
+"onfido_app_title_country_select" = "Selecteer land van uitgifte";
+"onfido_app_title_selfie_intro" = "Verifieer uw identiteit";
+"onfido_app_title_video_intro" = "Verifieer uw identiteit";
+"onfido_app_title_permission" = "Verifieer uw identiteit";
+"onfido_app_title_video_confirmation" = "Verifieer uw identiteit";
+"onfido_video_capture_alert_wrong_side" = "Verkeerde kant";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "Versnel het proces met NFC";
+"onfido_nfc_select_subtitle_passport" = "We scannen de NFC-chip in uw paspoort";
+"onfido_nfc_select_body_passport" = "ePassports hebben dit symbool op de kaft";
+"onfido_nfc_select_button_primary_passport" = "Gebruik ePassport";
+"onfido_nfc_select_button_secondary_passport" = "Dit is geen ePassport";
+
+"onfido_nfc_select_title_card" = "Versnel het proces met NFC";
+"onfido_nfc_select_subtitle_card" = "We scannen de NFC-chip in uw kaart";
+"onfido_nfc_select_body_card" = "Kaart met NFC-chips hebben dit symbool";
+"onfido_nfc_select_button_primary_card" = "Gebruik NFC-kaart";
+"onfido_nfc_select_button_secondary_card" = "Dit is geen NFC-kaart";
+
+"onfido_nfc_intro_title_passport" = "Scan your ePassport";
+"onfido_nfc_intro_subtitle_passport" = "";
+"onfido_nfc_intro_button_primary_passport" = "Start met scannen";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Plaats uw telefoon boven uw gesloten paspoort";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Bezig met scannen...";
+
+"onfido_nfc_intro_title_card" = "Scan your NFC card";
+"onfido_nfc_intro_subtitle_card" = "Plaats uw telefoon boven de kaart en houd deze bij de bovenkant van uw telefoon";
+"onfido_nfc_intro_button_primary_card" = "Start met scannen";
+
+"onfido_nfc_intro_sheet_header_ready_card" = "Plaats uw telefoon boven de kaart";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Bezig met scannen...";
+
+"onfido_nfc_intro_sheet_header_fail_passport" = "";
+"onfido_nfc_intro_sheet_header_fail_card" = "";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Verwijder het hoesje van uw paspoort";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Leg uw paspoort op een vlakke oppervlak";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Leg uw telefoon naast het midden van uw paspoort";
+"onfido_nfc_intro_carousel_body_last_page" = "U kunt ook de binnenkant van de achterpagina proberen";
+"onfido_nfc_intro_carousel_body_dont_move" = "Beweeg uw telefoon of paspoort tijdens het scannen niet";
+
+"onfido_nfc_fail_title_passport" = "We konden uw paspoort niet scannen";
+"onfido_nfc_fail_list_item_remove_covers_passport" = "Remove your passport and phone covers";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Houd uw telefoon en paspoort bij elkaar tot het scannen is voltooid";
+"onfido_nfc_fail_button_primary_passport" = "Probeer opnieuw te scannen";
+"onfido_nfc_fail_button_secondary_passport" = "Verifiëren zonder scan";
+
+"onfido_nfc_fail_title_card" = "We konden uw NFC-kaart niet scannen";
+"onfido_nfc_fail_list_item_remove_covers_card" = "Remove your phone cover";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Houd uw telefoon en kaart bij elkaar tot het scannen is voltooid";
+"onfido_nfc_fail_button_primary_card" = "Probeer opnieuw te scannen";
+"onfido_nfc_fail_button_secondary_card" = "Verifiëren zonder scan";
+
+"onfido_doc_confirmation_zoom_button" = "Vergroot afbeelding";
+"onfido_doc_confirmation_image_accessibility" = "Foto van uw document. Tik twee keer op te vergroten.";
+"onfido_doc_zoom_body" = "Beweeg met één vinger";
+"onfido_doc_zoom_button_close" = "Sluiten";
+
+"onfido_video_confirmation_body" = "Uw filmpje is opgenomen";
+"onfido_app_title_country_select_search" = "Zoeken";
+"onfido_country_select_list_accessibility" = "Zoekresultaten";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Verify your identity";
+"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
+"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
+"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
+"onfido_user_consent_button_primary" = "Accept";
+"onfido_user_consent_button_secondary" = "Do not accept";
+
+"onfido_welcome_list_item_doc_video_flash" = "We zetten de flits van uw apparaat aan tijdens het opnemen van een filmpje";
+"onfido_welcome_list_item_doc_video_timeout" = "Opnemen is beperkt tot %d seconden";
+"onfido_doc_video_capture_header" = "Houd uw document vast en plaats de voorkant in het kader";
+"onfido_doc_video_capture_header_step1" = "Houd het nu stil";
+"onfido_doc_video_capture_header_step2" = "Draai uw document langzaam om, zodat de achterkant zichtbaar wordt";
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Verify your identity";
+"onfido_user_consent_load_fail_title" = "Content failed to load";
+"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
+"onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_doc_video_capture_detail_step2" = "Zorg dat het document altijd volledig zichtbaar is";
+"onfido_doc_video_confirmation_button_secondary" = "Preview video";
+"onfido_doc_video_capture_button_primary_fallback" = "Volgende stap";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Voltooi opname";
+"onfido_doc_video_capture_header_passport" = "Houd uw paspoort vast en plaats de fotopagina in het kader";
+"onfido_doc_video_capture_header_passport_progress" = "Houd het stil";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Draai uw document langzaam om, zodat de buitenste pagina's zichtbaar worden";
+"onfido_doc_video_capture_stepper" = "Stap %d van %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Opnemen video is beperkt tot %d seconden";
+"onfido_doc_video_capture_alert_wrong_side" = "Toon de achterkant van uw document";
+"onfido_doc_video_capture_success_accessibility" = "Gelukt";
+"onfido_doc_video_capture_header_folded_doc_front" = "Zijde profielfoto";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Leg uw document plat, inclusief alle binnenste pagina's (moeten uw foto bevatten)";
+"onfido_doc_video_capture_prompt_header_timeout" = "Het lijkt erop dat het te lang duurde";
+"onfido_doc_video_capture_prompt_button_timeout" = "Probeer opnieuw";
+"onfido_app_title_doc_video_confirmation" = "Verifieer uw identiteit";
+"onfido_doc_video_confirmation_button_primary" = "Verzend video";
+"onfido_doc_video_confirmation_body" = "Uw filmpje is opgenomen";
+"onfido_doc_video_capture_button_primary_start" = "Start met opnemen";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Video weergeven";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Neem filmpje opnieuw op";
+"onfido_doc_video_confirmation_title" = "Dank u";
+"onfido_country_select_search_results_none_accessibility" = "Geen passende resultaten";
+"onfido_country_select_search_results_one_accessibility" = "Eén resultaat gevonden";
+"onfido_country_select_search_results_multiple_accessibility" = "%d resultaten gevonden";
+"onfido_doc_confirmation_alert_crop_detail" = "Zorg dat het volledige document zichtbaar is";
+"onfido_doc_confirmation_alert_crop_title" = "Afgesneden afbeelding gedetecteerd";
+"onfido_doc_upload_progress_label" = "Kwaliteit afbeelding controleren";
+"onfido_doc_capture_frame_success_accessibility" = "Afbeelding gemaakt";
+"onfido_generic_error_timeout_title" = "Time-out verbinding";
+"onfido_generic_error_timeout_detail" = "Controleer of uw verbinding stabiel is en probeer het nog eens";
+"onfido_generic_error_timeout_button_primary" = "Probeer opnieuw";
+"onfido_generic_processing" = "Bezig met verwerken";
+"onfido_video_capture_turn_success_accessibility" = "Draai hoofd gedetecteerd";
+"onfido_nfc_sheet_success_instruction" = "We hebben uw paspoort gescand";
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Verwijder de hoesjes van uw telefoon en paspoort";
+"onfido_nfc_fail_list_item_remove_cover_card" = "Verwijder uw telefoonhoesje";
+"onfido_nfc_sheet_success_instruction_card" = "We hebben uw kaart gescand";
+"onfido_welcome_list_header" = "Gebruik uw apparaat om:";
+"onfido_welcome_list_item_doc_photo" = "Een foto te nemen van uw identiteitsbewijs";
+"onfido_welcome_list_item_doc_video" = "Een filmpje te maken van uw identiteitsbewijs";
+"onfido_welcome_list_item_doc_generic" = "Uw identiteitsbewijs te scannen";
+"onfido_welcome_list_item_face_photo" = "Een foto van uw gezicht te nemen";
+"onfido_welcome_list_item_face_video" = "Een filmpje van uw gezicht te maken";
+"onfido_welcome_list_item_face_generic" = "Uw gezicht te scannen";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Houd uw telefoon boven het document";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Geen document gevonden. Houd uw telefoon boven het document.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "Document te dichtbij";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "Document te dicht bij de camera";
+"onfido_doc_capture_header_live_guidance_distance_far" = "Document te ver";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "Document te ver van de camera";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Behoud deze afstand";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Bewaar afstand tot uw document";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Beweeg naar links";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Beweeg uw apparaat naar links";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Beweeg naar rechts";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Beweeg uw apparaat naar rechts";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Beweeg omhoog";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Beweeg uw apparaat omhoog";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Beweeg omhoog";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Beweeg uw apparaat langzaam omhoog";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Beweeg omlaag";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Beweeg uw apparaat omlaag";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Beweeg omlaag";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Beweeg uw apparaat langzaam omlaag";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Houd stil om foto te maken";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "Houd stil om foto te maken";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Weergeven vanaf camera. Plaats uw telefoon boven de voorkant van uw document en beweeg deze langzaam weg in een rechte lijn.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Houd uw telefoon boven de voorkant van uw document";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Houd uw telefoon boven de achterkant van uw document";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Weergeven vanaf camera. Plaats uw telefoon boven de achterkant van uw document en beweeg deze langzaam weg in een rechte lijn.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Houd uw telefoon boven de fotopagina van uw paspoort";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Weergeven vanaf camera. Plaats uw telefoon boven de fotopagina van uw paspoort en beweeg deze langzaam weg in een rechte lijn.";
+"onfido_doc_capture_header_capturing" = "Houd het stil";
+"onfido_nfc_intro_subtitle_passport" = "Volg deze instructies";

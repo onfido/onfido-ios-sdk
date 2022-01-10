@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.2.0] - 2022-01-04
+
+### Added
+
+- UI: Added language localisation for Dutch (NL)
+- Public: Add instructions carousel to NFC intro screen
+- UI: Added support for capturing paper-based German driving license
+
+### Changed
+
+- Public: Added: suggest user to hold the device still during the capture
+
+### Fixed
+
+- Public: Updated iOS version in generated Package.swift file
+- Public: The SelfieViewController was rarely crashing during viewDidLoad.
+
 ## [24.1.0] - 2021-12-13
 
 ### Changed

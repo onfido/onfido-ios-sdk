@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Onfido",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Onfido",
-            url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v24.1.0.zip",
-            checksum: "839ed0a79ad1784389fb66829c0510746c5045463c43f4f75440942a2cefb368"
+            url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v24.2.0.zip",
+            checksum: "9cc054bf4a5208519afcc0162addb2b610c285664fc7fc53d9ae5acb32e9738e"
         )
     ]
 )

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 24.2.0 Migration Guide](#onfido-ios-sdk-2420-migration-guide)
 * [Onfido iOS SDK 24.0.0 Migration Guide](#onfido-ios-sdk-2400-migration-guide)
 * [Onfido iOS SDK 23.1.0 Migration Guide](#onfido-ios-sdk-2310-migration-guide)
 * [Onfido iOS SDK 23.0.0 Migration Guide](#onfido-ios-sdk-2300-migration-guide)
@@ -52,6 +53,36 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+
+## Onfido iOS SDK 24.2.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_intro_carousel_body_remove_cover` (en, fr, de, es, it, nl, pt)
+
+- `nonfido_nfc_intro_carousel_body_lay_flat` (en, fr, de, es, it, nl, pt)
+
+- `nonfido_nfc_intro_carousel_body_phone_middle` (en, fr, de, es, it, nl, pt)
+
+- `nonfido_nfc_intro_carousel_body_last_page` (en, fr, de, es, it, nl, pt)
+
+- `nonfido_nfc_intro_carousel_body_dont_move` (en, fr, de, es, it, nl, pt)
+
+
+- `onfido_doc_capture_header_capturing` (en, fr, de, es, it, pt, nl)
+
+
+#### Removed
+
+The following string keys have been **removed**:
+
+- `onfido_doc_capture_header_scanning` (en, fr, de, es, it, pt)
+
 
 
 ## Onfido iOS SDK 24.0.0 Migration Guide

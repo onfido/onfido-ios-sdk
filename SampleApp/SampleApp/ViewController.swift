@@ -6,8 +6,8 @@
 //  Copyright © 2017 example. All rights reserved.
 //
 
-import UIKit
 import Onfido
+import UIKit
 
 final class ViewController: UIViewController {
         
@@ -15,7 +15,7 @@ final class ViewController: UIViewController {
         
         let responseHandler: (OnfidoResponse) -> Void = { response in
             
-            if case let OnfidoResponse.error(innerError) = response {
+            if case OnfidoResponse.error(let innerError) = response {
                 self.showErrorMessage(forError: innerError)
             } else if case OnfidoResponse.success = response {
                 // SDK flow has been completed successfully. You may want to create a check in your backend at this point.
@@ -32,7 +32,7 @@ final class ViewController: UIViewController {
             }
         }
         
-        // TODO Call your backend to get `sdkToken` https://github.com/onfido/onfido-ios-sdk#31-sdk-tokens
+        // TODO: Call your backend to get `sdkToken` https://github.com/onfido/onfido-ios-sdk#31-sdk-tokens
         let sdkToken: String = "SDK_TOKEN"
         
         let config = try! OnfidoConfig.builder()
@@ -53,7 +53,7 @@ final class ViewController: UIViewController {
              For iPhones: .fullScreen
              For iPads: .fullScreen and .formSheet
              */
-            var modalPresentationStyle: UIModalPresentationStyle = .fullScreen  // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
+            var modalPresentationStyle: UIModalPresentationStyle = .fullScreen // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
             
             if UIDevice.current.userInterfaceIdiom == .pad {
                 modalPresentationStyle = .formSheet // to present modally on iPads
@@ -61,7 +61,7 @@ final class ViewController: UIViewController {
             
             onfidoRun.modalPresentationStyle = modalPresentationStyle
             self.present(onfidoRun, animated: true, completion: nil)
-        } catch let error {
+        } catch {
             // cannot execute the flow
             self.showErrorMessage(forError: error)
         }

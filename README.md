@@ -163,6 +163,12 @@ pod 'Onfido'
 
 Run `pod install` to get the SDK.
 
+#### Using Swift Package Manager
+
+The SDK is available with Swift Package Manager and you can include it in your project by adding the following package repository URL:
+
+https://github.com/onfido/onfido-ios-sdk.git
+
 #### Manual installation
 
 The SDK is available in the [GitHub Releases tab](https://github.com/onfido/onfido-ios-sdk/releases) where you can download the compressed framework. You can find the latest release [here](https://github.com/onfido/onfido-ios-sdk/releases/latest).
@@ -958,7 +964,7 @@ ONAppearance *appearance = [[ONAppearance alloc] initWithSupportDarkMode:<true|f
 
 ### Language customization
 
-The SDK supports and maintains the following 6 languages:
+The SDK supports and maintains the following 7 languages:
 
  - English (en) 🇬🇧
  - Spanish (es) 🇪🇸
@@ -966,6 +972,7 @@ The SDK supports and maintains the following 6 languages:
  - German (de) 🇩🇪
  - Italian (it) 🇮🇹
  - Portuguese (pt) 🇵🇹
+ - Dutch (nl) 🇳🇱
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder.
 
@@ -1115,8 +1122,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.26|
-| Below 12.2       | up to 5.26* or up to 17.134**|
+| 12.2 and above   | 5.574|
+| Below 12.2       | up to 5.574* or up to 17.448**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
