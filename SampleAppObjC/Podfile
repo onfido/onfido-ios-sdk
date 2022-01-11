@@ -3,7 +3,7 @@ target 'SampleAppObjC' do
  use_frameworks!
  inhibit_all_warnings!
       
-    pod 'Onfido', '24.1.0'    
+    pod 'Onfido', '24.2.0'    
   end
 
 post_install do |installer|
@@ -16,3 +16,4 @@ post_install do |installer|
         end
     end
 end
+

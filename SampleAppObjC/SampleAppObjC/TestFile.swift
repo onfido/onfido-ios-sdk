@@ -8,4 +8,4 @@
 
 import Foundation
 
-// required 
+// required

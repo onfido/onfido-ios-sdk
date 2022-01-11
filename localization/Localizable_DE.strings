@@ -68,6 +68,7 @@
 "onfido_doc_capture_header_folded_doc_front" = "Profilfotoseite";
 "onfido_doc_capture_prompt_button_paper" = "Papierdokument";
 "onfido_app_title_doc_capture_license_fr" = "Französischer Führerschein";
+"onfido_app_title_doc_capture_license_de" = "Deutscher Führerschein";
 "onfido_doc_capture_alert_glare_detail" = "Versuchen Sie, sich von direktem Licht zu entfernen";
 /* Glare Detection */
 "onfido_doc_capture_alert_glare_title" = "Spiegelung erkannt";
@@ -203,7 +204,7 @@
 "onfido_nfc_select_button_secondary_passport" = "Ohne ePass fortfahren";
 
 "onfido_nfc_intro_title_passport" = "Scannen Sie Ihren ePass";
-"onfido_nfc_intro_subtitle_passport" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass und platzieren Sie ihn so, dass die Karte möglichst am oberen Rand des Telefons liegt";
+"onfido_nfc_intro_subtitle_passport" = "Befolgen Sie diese Anweisungen";
 "onfido_nfc_intro_button_primary_passport" = "Scannen starten";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass";
@@ -218,6 +219,12 @@
 
 "onfido_nfc_intro_sheet_header_fail_passport" = "Wir konnten Ihren Reisepass nicht scannen";
 "onfido_nfc_intro_sheet_header_fail_card" = "Wir konnten Ihre NFC-Karte nicht scannen";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Entfernen Sie die Hülle Ihres Reisepasses";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Legen Sie Ihren Reisepass auf eine ebene Fläche";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Legen Sie Ihr Telefon in die Nähe des mittleren Teils Ihres Reisepasses";
+"onfido_nfc_intro_carousel_body_last_page" = "Sie können auch die Innenseite der Rückseite verwenden";
+"onfido_nfc_intro_carousel_body_dont_move" = "Bewegen Sie Ihr Telefon oder Ihren Reisepass während des Scanvorgangs nicht";
 
 "onfido_nfc_fail_title_passport" = "Wir konnten Ihren Reisepass nicht scannen";
 "onfido_nfc_fail_list_item_remove_covers_passport" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons";
@@ -304,7 +311,6 @@
 "onfido_nfc_select_button_secondary_card" = "Ohne NFC-Karte fortfahren";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Entfernen Sie die Hülle Ihres Telefons";
 "onfido_nfc_sheet_success_instruction_card" = "Wir haben Ihre Karte erfolgreich gescannt";
-"onfido_doc_capture_header_scanning" = "Dokument wird gescannt …";
 "onfido_welcome_list_header" = "Benutzen Sie Ihr Gerät:";
 "onfido_welcome_list_item_doc_photo" = "Machen Sie ein Foto von Ihrem Ausweisdokument";
 "onfido_welcome_list_item_doc_video" = "Nehmen Sie ein Video von Ihrem Ausweisdokument auf";
@@ -340,3 +346,4 @@
 "onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Place your phone on the back of your document, then slowly move your phone away from it in a straight line.";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Hold your phone over the photo page of your passport";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Place your phone on the photo page of your passport, then slowly move your phone away from it in a straight line.";
+"onfido_doc_capture_header_capturing" = "Halten Sie still";

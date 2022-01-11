@@ -78,6 +78,7 @@
 
 "onfido_app_title_doc_capture_id_it" = "Carnet italiano de identidad";
 "onfido_app_title_doc_capture_license_fr" = "Licencia francesa";
+"onfido_app_title_doc_capture_license_de" = "Licencia de conducir alemana";
 "onfido_doc_capture_prompt_button_paper" = "Documento en papel";
 "onfido_doc_capture_prompt_button_card" = "Tarjeta de plastico";
 "onfido_doc_capture_prompt_title_license" = "Que tipo de licencia tiene?";
@@ -259,7 +260,7 @@
 "onfido_nfc_select_button_secondary_passport" = "No es un pasaporte electrónico";
 
 "onfido_nfc_intro_title_passport" = "Escanee su ePassport";
-"onfido_nfc_intro_subtitle_passport" = "Coloque el teléfono sobre su pasaporte cerrado de manera que quede cerca de la parte superior del teléfono";
+"onfido_nfc_intro_subtitle_passport" = "Siga estas instrucciones";
 "onfido_nfc_intro_button_primary_passport" = "Empezar a escanear";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Coloque su teléfono en su pasaporte cerrado";
@@ -267,6 +268,12 @@
 
 "onfido_nfc_intro_sheet_header_fail_passport" = "No pudimos escanear su pasaporte";
 "onfido_nfc_intro_sheet_header_fail_card" = "No pudimos escanear su tarjeta NFC";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Retire la funda del pasaporte";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Coloque el pasaporte en una superficie plana";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Coloque el teléfono cerca de la parte central de su pasaporte";
+"onfido_nfc_intro_carousel_body_last_page" = "También puede probar el interior de la última página";
+"onfido_nfc_intro_carousel_body_dont_move" = "No mueva el teléfono ni el pasaporte durante el escaneo";
 
 "onfido_nfc_fail_title_passport" = "No pudimos escanear su pasaporte";
 "onfido_nfc_fail_list_item_remove_covers_passport" = "Retire su pasaporte y las cubiertas del teléfono";
@@ -357,7 +364,6 @@
 "onfido_nfc_sheet_success_instruction_card" = "Hemos escaneado correctamente su tarjeta";
 "onfido_nfc_intro_button_primary_card" = "Empezar a escanear";
 "onfido_nfc_intro_sheet_header_scanning_card" = "Escaneando...";
-"onfido_doc_capture_header_scanning" = "Escaneando el documento…";
 "onfido_welcome_list_header" = "Utilice su dispositivo para:";
 "onfido_welcome_list_item_doc_photo" = "Tome una foto de su documento de identidad";
 "onfido_welcome_list_item_doc_video" = "Grabe un vídeo de su documento de identidad";
@@ -393,3 +399,4 @@
 "onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Place your phone on the back of your document, then slowly move your phone away from it in a straight line.";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Hold your phone over the photo page of your passport";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Place your phone on the photo page of your passport, then slowly move your phone away from it in a straight line.";
+"onfido_doc_capture_header_capturing" = "No se mueva";
