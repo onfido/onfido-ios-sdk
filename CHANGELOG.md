@@ -6,6 +6,54 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [23.1.1] - 2022-01-13
+
+### Fixed
+
+- UI: Voice over was focusing only on the back button during liveness challenges.
+
+## [24.2.0] - 2022-01-04
+
+### Added
+
+- UI: Added language localisation for Dutch (NL)
+- Public: Add instructions carousel to NFC intro screen
+- UI: Added support for capturing paper-based German driving license
+
+### Changed
+
+- Public: Added: suggest user to hold the device still during the capture
+
+### Fixed
+
+- Public: Updated iOS version in generated Package.swift file
+- Public: The SelfieViewController was rarely crashing during viewDidLoad.
+
+## [24.1.0] - 2021-12-13
+
+### Changed
+
+- Public: Now extracting face photo from NFC chips in documents so you can access that data on document report
+
+### Fixed
+
+- Public: Now preventing crashes on the document capture coordinator by sending exceptions back to the integrator
+- Public: Fixed SDK crashing app on launch on iOS 11 and 12 due to missing CoreNFC framework
+
+## [24.0.0] - 2021-12-07
+
+### Changed
+
+- Public: Removed mobile token support
+- Public: Dropped iOS 10 support. Now supporting iOS 11 or newer.
+- Public: Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaputreSuccessColors), and made properties public.
+- Public: Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
+- Public: Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
+
+### Fixed
+
+- Public: Documentation correction for the document step in README file.
+
 ## [23.1.0] - 2021-11-02
 
 ### Added
