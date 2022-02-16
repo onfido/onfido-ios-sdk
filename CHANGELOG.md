@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.3.0] - 2022-02-08
+
+### Changed
+
+- UI: Improve barcode detection failures user experience by reducing warnings
+- UI: Shutter button always visible, no longer hidden while waiting for auto-capture.
+- UI: Add turn icon to document back side capture screen
+
+### Fixed
+
+- Public: No longer showing unsupported documents i.e. GBR National ID
+- Public: Fixed a bug which caused not receiving analytics events on Objective-C interface
+- Public: Fix layout constraints issues on Intro screens
+
 ## [24.2.0] - 2022-01-04
 
 ### Added

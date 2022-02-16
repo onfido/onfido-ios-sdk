@@ -66,6 +66,10 @@ In order to start integrating, you'll need an [API token](https://documentation.
 
 You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration. To use the sandbox, you'll need to generate a sandbox API token in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
+⚠️ **Note: You must never use API tokens in the frontend of your
+application or malicious users could discover them in your source code. You
+should only use them on your server.**
+
 #### 1.1 Regions
 
 Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
@@ -1122,8 +1126,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.574|
-| Below 12.2       | up to 5.574* or up to 17.448**|
+| 12.2 and above   | 5.801|
+| Below 12.2       | up to 5.801* or up to 17.675**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
