@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.4.0] - 2022-03-03
+
+### Added
+
+- Public: Allow document type configurability on UI selection screen
+
+### Changed
+
+- Public: Added dsyms into xcframework shipment
+
 ## [24.3.0] - 2022-02-08
 
 ### Changed
