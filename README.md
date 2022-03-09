@@ -53,12 +53,12 @@ It offers a number of benefits to help you create the best identity verification
 
 \* The latest SDK version to support Xcode 11.5-12 is 22. There is a workaround for older versions of Xcode if required. Please contact [support](mailto:client-support@onfido.com) for more information.
 
-:warning: The Onfido SDK requires CoreNFC to run. Since Xcode 12 there is a bug where `libnfshared.dylib` is missing from simulators. See [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
+⚠️ The Onfido SDK requires CoreNFC to run. Since Xcode 12 there is a bug where `libnfshared.dylib` is missing from simulators. See [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
 
-:warning: Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration.
+⚠️ Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration.
 While we're working on a permanent solution for this problem, please download the video that has been shared [in this post](https://github.com/onfido/onfido-ios-sdk/issues/215#issuecomment-767553245) and send to Apple to proceed on your App Review process.
 
-:warning: The following content assumes you're using our API v3 versions for backend calls. If you are currently using API `v2` please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
+⚠️ The following content assumes you're using our API v3 versions for backend calls. If you are currently using API `v2` please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
 
 ### 1. Obtain an API token
 
@@ -73,6 +73,18 @@ should only use them on your server.**
 #### 1.1 Regions
 
 Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
+
+#### Changing TestApp running environment
+
+📌  The default environment in which the TestApp will run is the production. We don't have a [produciton/stating] approach but we follow a client-based approach and each client gets an API token.
+To test different environments:
+- get the API token for the environment (here can be found some for dev https://ims.eu-west-1.dev.onfido.xyz/ims/clients?utf8=%E2%9C%93&search=sdk+test&commit=Find)
+- set the token for the static property onfidoApiToken of Secrets.swift
+- run setup-project with PRIVATE flag
+- launch the TestApp and
+    - choose a region for Region Configuration
+    - choose the environment for API Configuration
+- now the environment is configured correctly ✅
 
 ### 2. Create an applicant
 
@@ -107,7 +119,7 @@ $ curl https://api.onfido.com/v3/sdk_token \
 | `applicant_id` | **required** <br /> Specifies the applicant for the SDK instance. |
 | `application_id` | **required** <br /> The application ID (for iOS "application bundle ID") that was set up during development. For iOS, this is usually in the form `com.your-company.app-name`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
 
-:warning: SDK tokens expire after 90 minutes.
+⚠️ SDK tokens expire after 90 minutes.
 
 ##### `expireHandler`
 
@@ -616,7 +628,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
 
-:warning: Note: This step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
+⚠️ Note: This step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
 
 If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your end user starts interacting with the Onfido SDK.
 
@@ -630,7 +642,7 @@ You can configure the Document step to capture single document types with specif
 
 - **Document type**
 
-The list of document types visible for the user to select can be filtered using this option. Each document type has its own configuration class. While configuring document type, you can optionally pass a configuration object along with the document type.
+The list of document types visible for the user to select can be shown or hidden using this option. Each document type has its own configuration class. While configuring document type, you can optionally pass a configuration object along with the document type.
 
 The following document types are supported:
 
@@ -656,7 +668,7 @@ You'll need to pass the corresponding [ISO 3166-1 alpha-3](https://en.wikipedia.
 
 **Note**: You can specify country for all document types except `passport`. This is because passports have the same format worldwide so the SDK does not require this additional information.       
 
-:warning: **Note:**: The SDK will throw a `OnfidoConfigError.invalidCountryCode` (`ONFlowConfigErrorInvalidCountryCode`) error if an invalid country code is provided.
+⚠️ **Note:**: The SDK will throw a `OnfidoConfigError.invalidCountryCode` (`ONFlowConfigErrorInvalidCountryCode`) error if an invalid country code is provided.
 
 For example, to only capture UK driving licenses:
 
@@ -743,6 +755,28 @@ if (documentVariantError) {
   ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 }
 
+```
+
+- **Customize the document type selection screen**
+
+You can customize the screen to display a limited list of documents for a user to select from, using the configuration function to specify only the document types you want to show.
+
+⚠️ Currently you can only include `passport`, `identityCard`, `drivingLicence`, `residencePermit` in the list.
+
+For example, to show only the `passport` and `drivingLicence` document types:
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withDocumentStep(ofSelectableTypes: [.passport, .drivingLicence])
+```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withDocumentStepWithSelectableDocumentTypes: @[@(SelectableDocumentTypePassport), @(SelectableDocumentTypeDrivingLicence)]];
 ```
 
 #### Face step
@@ -837,7 +871,7 @@ if (variantError) {
 
 Some passports contain a chip which can be accessed using Near Field Communication. The SDK provides a set of screens to extract the information contained within the chip to verify the original document is present.
 
-:warning: **Note** This feature is currently in beta and the API is subject to change. Changes to the API will not result in a breaking change.
+⚠️ **Note** This feature is currently in beta and the API is subject to change. Changes to the API will not result in a breaking change.
 
 ##### Swift
 
@@ -1074,7 +1108,7 @@ OnfidoFlow(withConfiguration: config)
     })
 ```
 
-The code inside of the defined method will now be called when a particular event is triggered, usually when the user reaches a new screen. For a full list of events see [tracked events](#tracked-events).
+The code inside of the defined method will now be called when a particular event is triggered, usually when the user reaches a new screen. For a full list of events see [tracked events](https://github.com/onfido/onfido-ios-sdk#tracked-events).
 
 The parameter being passed in is an `OnfidoFlow.Event` struct which contains the following:
 
@@ -1126,8 +1160,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.801|
-| Below 12.2       | up to 5.801* or up to 17.675**|
+| 12.2 and above   | 5.905|
+| Below 12.2       | up to 5.905* or up to 17.779**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
