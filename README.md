@@ -74,18 +74,6 @@ should only use them on your server.**
 
 Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
-#### Changing TestApp running environment
-
-📌  The default environment in which the TestApp will run is the production. We don't have a [produciton/stating] approach but we follow a client-based approach and each client gets an API token.
-To test different environments:
-- get the API token for the environment (here can be found some for dev https://ims.eu-west-1.dev.onfido.xyz/ims/clients?utf8=%E2%9C%93&search=sdk+test&commit=Find)
-- set the token for the static property onfidoApiToken of Secrets.swift
-- run setup-project with PRIVATE flag
-- launch the TestApp and
-    - choose a region for Region Configuration
-    - choose the environment for API Configuration
-- now the environment is configured correctly ✅
-
 ### 2. Create an applicant
 
 To create an applicant from your backend server, make a request to the ['create applicant' endpoint](https://documentation.onfido.com/#create-applicant), using a valid API token.
@@ -470,17 +458,15 @@ You must provide the following when configuring the Onfido iOS SDK:
 - applicant
 - at least one capture step
 
-Otherwise you may encounter the following errors when calling the `build()` function on the `OnfidoConfig.Builder` instance:
+Otherwise, you may encounter the following errors when calling the `build()` function on the `OnfidoConfig.Builder` instance:
 
-| Error | Notes |
-| ----- | ------ |
-| `OnfidoConfigError.missingToken` | When no token is provided or the token is an empty string. |
-| `OnfidoConfigError.missingApplicant` | When no applicant instance is provided. |
-| `OnfidoConfigError.missingSteps` | When no step is provided. |
-| `OnfidoConfigError.multipleTokenTypes`| When both an SDK token and a Mobile token are provided. |
-| `OnfidoConfigError.applicantProvidedWithSDKToken` | When both an SDK token and an applicant are provided. |
+| Error                                                          | Notes                                                                                                                                                                          |
+|----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `OnfidoConfigError.missingSDKToken`                            | When no token is provided or the token is an empty string.                                                                                                                     |
+| `OnfidoConfigError.invalidSDKToken`                            | When an invalid token is provided.                                                                                                                                             |
+| `OnfidoConfigError.missingSteps`                               | When no step is provided.                                                                                                                                                      |
 | `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` | When it is an unsupported document format for the specified country provided. See [Document Type Configuration](#document-type-configuration) to check supported combinations. |
-|`OnfidoConfigError.invalidCountryCode` | When an invalid country code is provided. |
+| `OnfidoConfigError.invalidCountryCode`                         | When an invalid country code is provided.                                                                                                                                      |
 
 
 #### Objective-C
@@ -732,7 +718,7 @@ For example, for a folded Italian national identity card:
 ```swift
 let config = try! OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
-    .withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA"))
+    .withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA")))
     .build()
 ```
 
@@ -1160,8 +1146,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 5.905|
-| Below 12.2       | up to 5.905* or up to 17.779**|
+| 12.2 and above   | 6.315|
+| Below 12.2       | up to 6.315* or up to 18.189**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [24.5.0] - 2022-03-31
+
+### Added
+
+- Public: Added support for capture of documents for proof of address reports
+
+### Fixed
+
+- UI: Fixed the missing body label in the CaptureConfirmationScreen
+- Public: NFC: Fixed the intro screen layout and user interaction 
+- UI: Fixed iOS crashes on Obj-C interface
+
 ## [24.4.0] - 2022-03-03
 
 ### Added
