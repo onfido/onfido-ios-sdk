@@ -55,8 +55,7 @@ It offers a number of benefits to help you create the best identity verification
 
 ⚠️ The Onfido SDK requires CoreNFC to run. Since Xcode 12 there is a bug where `libnfshared.dylib` is missing from simulators. See [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) to solve this problem.
 
-⚠️ Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration.
-While we're working on a permanent solution for this problem, please download the video that has been shared [in this post](https://github.com/onfido/onfido-ios-sdk/issues/215#issuecomment-767553245) and send to Apple to proceed on your App Review process.
+⚠️ Even if you don't enable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC related code is part of the SDK binary regardless of runtime configuration. While we're working on a permanent solution for this problem, please download the video that has been shared [in this post](https://github.com/onfido/onfido-ios-sdk/issues/215#issuecomment-767553245) and send to Apple to proceed on your App Review process.
 
 ⚠️ The following content assumes you're using our API v3 versions for backend calls. If you are currently using API `v2` please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
 
@@ -66,9 +65,7 @@ In order to start integrating, you'll need an [API token](https://documentation.
 
 You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration. To use the sandbox, you'll need to generate a sandbox API token in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
-⚠️ **Note: You must never use API tokens in the frontend of your
-application or malicious users could discover them in your source code. You
-should only use them on your server.**
+⚠️ Note: You must never use API tokens in the frontend of your application or malicious users could discover them in your source code. You should only use them on your server.
 
 #### 1.1 Regions
 
@@ -1146,8 +1143,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.315|
-| Below 12.2       | up to 6.315* or up to 18.189**|
+| 12.2 and above   | 6.311|
+| Below 12.2       | up to 6.311* or up to 18.189**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
