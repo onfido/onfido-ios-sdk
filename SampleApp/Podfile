@@ -1,10 +1,16 @@
 platform :ios, '11.0'
-target 'SampleApp' do
+
+def setup_shared_pods
  use_frameworks!
  inhibit_all_warnings!
       
-    pod 'Onfido', '24.6.0'    
+    pod 'Onfido', '25.0.0'    
   end
+
+target 'SampleApp' do
+ setup_shared_pods
+end
+
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|

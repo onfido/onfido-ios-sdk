@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [25.0.0] - 2022-04-21
+
+### Added
+
+- Public: Remove user consent from the public API
+- Public: Added secondaryTitleColor appearance configuration
+
+### Changed
+
+- Public: Download updated supported countries for Proof of Address from endpoint
+- Public: Make Proof of Address work with Orchestration workflows
+
 ## [24.6.0] - 2022-04-11
 
 ### Added
