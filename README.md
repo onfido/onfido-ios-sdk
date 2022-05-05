@@ -140,15 +140,12 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 The SDK uses the device camera. You're required to have the following keys in your application's `Info.plist` file:
 *  `NSCameraUsageDescription`
 *  `NSMicrophoneUsageDescription`
-*  `NFCReaderUsageDescription`
 
 ```xml
 <key>NSCameraUsageDescription</key>
 <string>Required for document and facial capture</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>Required for video capture</string>
-<key>NFCReaderUsageDescription</key>
-<string>Required for document capture</string>
 ```
 **Note**: All keys will be required for app submission.
 
@@ -163,6 +160,16 @@ pod 'Onfido'
 ```
 
 Run `pod install` to get the SDK.
+
+##### OnfidoExtended
+
+[![Version](https://img.shields.io/cocoapods/v/OnfidoExtended.svg?style=flat)](http://cocoapods.org/pods/OnfidoExtended)
+
+You can install the extended version of the Onfido SDK, which includes fraud detection signals, through Cocoapods by adding the following to your Podfile:
+
+```ruby
+pod 'OnfidoExtended'
+```
 
 #### Using Swift Package Manager
 
@@ -224,6 +231,7 @@ let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN>")
     .withWelcomeStep()
     .withDocumentStep()
+    .withProofOfAddressStep()
     .withFaceStep(ofVariant: .photo(withConfiguration: nil))
     .build()
 
@@ -242,6 +250,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
+[configBuilder withProofOfAddressStep];
 
 NSError *variantConfigError = NULL;
 Builder *variantBuilder = [ONFaceStepVariantConfig builder];
@@ -583,40 +592,6 @@ if (configError) {
 }
 ```
 
-#### Consent step
-
-This step contains a screen to collect US end users' privacy consent for Onfido. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use.
-
-This is an optional screen. You can specify it in the following ways:
-
-##### Swift
-
-```swift
-let config = try! OnfidoConfig.builder()
-    ...
-    .withUserConsentStep()
-    ...
-    .build()
-```
-
-##### Objective-C
-
-```Objective-C
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
-...
-[builder withConsentStep];
-...
-```
-
-The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
-
-⚠️ Note: This step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
-
-If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your end user starts interacting with the Onfido SDK.
-
-For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
-
 #### Document step
 
 In the Document step, a user can pick the type of document to capture and its issuing country before capturing it with their phone camera. Document selection and country selection are both optional screens. These screens will only show to the end user if specific options are not configured to the SDK.
@@ -830,11 +805,47 @@ if (variantError) {
 }
 ```
 
+#### Proof of Address step
+
+In the Proof of Address step, a user picks the issuing country and type of document that proves their address before capturing the document with their phone camera or uploading it.
+
+##### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withProofOfAddressStep()
+    .build()
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+[configBuilder withProofOfAddressStep];
+
+NSError *configError = NULL;
+ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+
+if (configError) {
+    // Handle config build error
+} else {
+    // use config
+}
+```
+
 ### Enabling ePassport NFC extraction (beta)
 
 #### Pre-requisites
 
 - This feature requires `Near Field Communication Tag Reading` capability in your app target. If you haven't added it before, please follow the steps in [Apple's documentation](https://help.apple.com/xcode/mac/current/#/dev88ff319e7).
+
+- You're required to have the following key in your application's `Info.plist` file:
+```xml
+<key>NFCReaderUsageDescription</key>
+<string>Required to read ePassports</string>
+```
 
 - You have to include the entries below in your app target's `Info.plist` file to be able to read NFC tags properly.
 ```
@@ -921,6 +932,7 @@ The iOS SDK supports the customization of colors, fonts and strings used in the 
 let appearance = Appearance()
 appearance.primaryColor = <DESIRED_UI_COLOR_HERE>
 appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>
+appearance.secondaryTitleColor = <DESIRED_UI_COLOR_HERE>
 appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
 appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
 appearance.borderCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>
@@ -938,6 +950,7 @@ configBuilder.withAppearance(appearance)
 ONAppearance *appearance = [[ONAppearance alloc] init];
 appearance.primaryColor = <DESIRED_UI_COLOR_HERE>;
 appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>;
+appearance.secondaryTitleColor = <DESIRED_UI_COLOR_HERE>;
 appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
 appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
 appearance.buttonCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>;
@@ -951,7 +964,8 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 ```
 
 - `primaryColor`: Defines the icon background color, button color and back navigation button color  
-- `primaryTitleColor`: Defines the primary button text color  
+- `primaryTitleColor`: Defines the primary button text color
+- `secondaryTitleColor`: Defines the secondary button text color
 - `primaryBackgroundPressedColor`: Defines the primary button pressed state color
 - `secondaryBackgroundPressedColor`: Defines the secondary button pressed state color
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
@@ -1143,8 +1157,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.311|
-| Below 12.2       | up to 6.311* or up to 18.189**|
+| 12.2 and above   | 6.36|
+| Below 12.2       | up to 6.36* or up to 18.238**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -1270,4 +1284,4 @@ If you have any issues that contain sensitive information please send us an emai
 
 Previous versions of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
 
-Copyright 2018 Onfido, Ltd. All rights reserved.
+Copyright 2022 Onfido, Ltd. All rights reserved.

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 25.0.0 Migration Guide](#onfido-ios-sdk-2500-migration-guide)
 * [Onfido iOS SDK 24.2.0 Migration Guide](#onfido-ios-sdk-2420-migration-guide)
 * [Onfido iOS SDK 24.0.0 Migration Guide](#onfido-ios-sdk-2400-migration-guide)
 * [Onfido iOS SDK 23.1.0 Migration Guide](#onfido-ios-sdk-2310-migration-guide)
@@ -54,6 +55,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 25.0.0 Migration Guide
+
+### Breaking API Changes
+
+- Remove user consent from the public API
 
 ## Onfido iOS SDK 24.2.0 Migration Guide
 

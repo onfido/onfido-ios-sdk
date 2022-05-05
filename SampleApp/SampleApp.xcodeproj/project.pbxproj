@@ -166,7 +166,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh",
-				"${PODS_ROOT}/Onfido/Onfido.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Onfido/Onfido.framework/Onfido",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
