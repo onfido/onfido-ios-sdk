@@ -17,7 +17,6 @@
 "onfido_doc_select_button_license" = "Licencia de conducir";
 "onfido_doc_select_button_id" = "Documento Nacional de Identidad";
 "onfido_doc_select_button_permit" = "Permiso de Residencia";
-"onfido_doc_select_button_passport" = "Pasaporte";
 "onfido_doc_select_button_visa" = "Visado";
 "onfido_doc_select_button_permit_work" = "Permiso de Trabajo";
 "onfido_doc_select_button_generic" = "Documento";
@@ -258,8 +257,14 @@
 "onfido_nfc_select_button_primary_passport" = "Usar pasaporte electrónico";
 "onfido_nfc_select_button_secondary_passport" = "No es un pasaporte electrónico";
 
-"onfido_nfc_intro_title_passport" = "Escanee su ePassport";
+"onfido_nfc_intro_title_passport" = "Escanee su pasaporte electrónico";
 "onfido_nfc_intro_subtitle_passport" = "Siga estas instrucciones";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Retire la funda del pasaporte";
+"onfido_nfc_intro_passport_scan_guide_2" = "Coloque el pasaporte en una superficie plana";
+"onfido_nfc_intro_passport_scan_guide_3" = "Coloca el teléfono sobre el pasaporte";
+"onfido_nfc_intro_passport_scan_guide_4" = "Desliza lentamente tu teléfono hacia abajo";
+
 "onfido_nfc_intro_button_primary_passport" = "Empezar a escanear";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Coloque su teléfono en su pasaporte cerrado";
@@ -274,13 +279,11 @@
 "onfido_nfc_intro_carousel_body_last_page" = "También puede probar el interior de la última página";
 "onfido_nfc_intro_carousel_body_dont_move" = "No mueva el teléfono ni el pasaporte durante el escaneo";
 
-"onfido_nfc_fail_title_passport" = "No pudimos escanear su pasaporte";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Retire su pasaporte y las cubiertas del teléfono";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Mantenga su teléfono y pasaporte en contacto hasta que el escaneo se realice correctamente";
 "onfido_nfc_fail_button_primary_passport" = "Vuelva a intentar escanear";
 "onfido_nfc_fail_button_secondary_passport" = "Verificar sin escanear";
 
-"onfido_nfc_fail_title_card" = "No pudimos escanear su tarjeta NFC";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Retire la funda del teléfono";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Mantenga el teléfono y la tarjeta en contacto hasta que el escaneo se haya realizado correctamente";
 "onfido_nfc_fail_button_primary_card" = "Vuelva a intentar escanear";
@@ -316,15 +319,12 @@
 "onfido_doc_video_capture_stepper" = "Paso %d de %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "La grabación de vídeo tiene un límite de %d segundos";
 "onfido_doc_video_capture_alert_wrong_side" = "Asegúrese de mostrar el reverso de su documento";
-"onfido_doc_video_capture_header_folded_doc_front" = "Lado con su foto";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Asegúrese que su documento este completmente abierto (debe incluir su foto)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Parece que ha demorado demasiado";
 "onfido_doc_video_capture_prompt_button_timeout" = "Reintentar";
 "onfido_app_title_doc_video_confirmation" = "Verifique su identidad";
 "onfido_doc_video_confirmation_button_primary" = "Enviar video";
 "onfido_doc_video_confirmation_body" = "Su video ha sido grabado";
 "onfido_doc_video_capture_button_primary_start" = "Iniciar grabación";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Vista previa del vídeo";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Retomar el video";
 "onfido_doc_video_confirmation_title" = "Gracias";
 "onfido_country_select_search_results_none_accessibility" = "No hay resultados que coincidan";
@@ -339,7 +339,6 @@
 "onfido_generic_error_timeout_button_primary" = "Reintentar";
 "onfido_generic_processing" = "Procesando";
 "onfido_video_capture_turn_success_accessibility" = "Se detectó un giro de cabeza";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Retire su pasaporte y las cubiertas del teléfono";
 "onfido_nfc_select_title_card" = "Acelere el proceso con NFC";
 "onfido_nfc_select_subtitle_card" = "Escanearemos el chip NFC de la tarjeta";
 "onfido_nfc_select_body_card" = "Las tarjetas con chip NFC tienen este símbolo";
@@ -347,7 +346,6 @@
 "onfido_nfc_select_button_secondary_card" = "No es una tarjeta NFC";
 "onfido_nfc_intro_subtitle_card" = "Coloque el teléfono sobre la tarjeta de manera que la tarjeta quede cerca de la parte superior del teléfono";
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Coloque el teléfono sobre la tarjeta";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Retire la funda del teléfono";
 "onfido_nfc_intro_button_primary_card" = "Empezar a escanear";
 "onfido_nfc_intro_sheet_header_scanning_card" = "Escaneando...";
 "onfido_welcome_list_header" = "Utilice su dispositivo para:";

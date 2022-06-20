@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [25.1.0] - 2022-06-09
+
+### Changed
+
+- Public: Improved NFC scanning tutorial with video
+
+### Fixed
+
+- Public: Fix iOS fatal error for could not resolve BuildConfigurationRepository
+
 ## [25.0.0] - 2022-04-21
 
 ### Added

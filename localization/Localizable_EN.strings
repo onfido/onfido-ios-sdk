@@ -34,7 +34,6 @@
 "onfido_doc_confirmation_button_primary_passport" = "Submit photo";
 "onfido_doc_confirmation_button_primary_permit" = "Submit photo";
 "onfido_doc_confirmation_button_primary_visa" = "Submit photo";
-"onfido_selfie_confirmation_button_primary" = "Upload photo";
 "onfido_selfie_confirmation_button_secondary" = "Retake photo";
 
 /* Country Selection Screen */
@@ -86,7 +85,6 @@
 "onfido_app_title_doc_capture_id_za" = "South African identity card";
 "onfido_doc_select_button_generic" = "Document";
 /* Document Types */
-"onfido_doc_select_button_passport" = "Passport";
 "onfido_doc_select_button_visa" = "Visa";
 "onfido_doc_select_button_permit_work" = "Work Permit";
 "onfido_video_capture_header_challenge_digit_instructions" = "Say each digit out loud";
@@ -174,7 +172,6 @@
 "onfido_info_tablet_orientation_body" = "The button should be at the bottom of the screen";
 "onfido_doc_capture_prompt_button_card" = "Plastic card";
 "onfido_video_intro_prompt_button_primary_reload_player" = "Reload";
-"onfido_doc_confirmation_button_secondary" = "Retake photo";
 "onfido_video_confirmation_button_secondary" = "Retake video";
 "onfido_video_capture_prompt_button_timeout" = "Retry";
 "onfido_country_select_bottom_sheet_link_doc_select" = "Choose another document";
@@ -222,6 +219,12 @@
 
 "onfido_nfc_intro_title_passport" = "Scan your ePassport";
 "onfido_nfc_intro_subtitle_passport" = "Follow these instructions";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Remove your passport cover";
+"onfido_nfc_intro_passport_scan_guide_2" = "Lay your passport on a flat surface";
+"onfido_nfc_intro_passport_scan_guide_3" = "Place your phone over the passport";
+"onfido_nfc_intro_passport_scan_guide_4" = "Slowly slide your phone down";
+
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
@@ -243,13 +246,11 @@
 "onfido_nfc_intro_carousel_body_last_page" = "You can also try the inside of the back page";
 "onfido_nfc_intro_carousel_body_dont_move" = "Don’t move your phone or passport while scanning";
 
-"onfido_nfc_fail_title_passport" = "We couldn’t scan your passport";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Remove your passport and phone covers";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Keep your phone and passport in contact until the scanning is successful";
 "onfido_nfc_fail_button_primary_passport" = "Retry scanning";
 "onfido_nfc_fail_button_secondary_passport" = "Get verified without scan";
 
-"onfido_nfc_fail_title_card" = "We couldn’t scan your NFC card";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Remove your phone cover";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Keep your phone and card in contact until the scanning is successful";
 "onfido_nfc_fail_button_primary_card" = "Retry scanning";
@@ -295,15 +296,12 @@
 "onfido_doc_video_capture_stepper" = "Step %d of %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "Video recording is limited to %d seconds";
 "onfido_doc_video_capture_alert_wrong_side" = "Make sure you’re showing the back of your document";
-"onfido_doc_video_capture_header_folded_doc_front" = "Profile photo side";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Lay your document flat, include all inner pages (must contain your photo)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Looks like you took too long";
 "onfido_doc_video_capture_prompt_button_timeout" = "Retry";
 "onfido_app_title_doc_video_confirmation" = "Verify your identity";
 "onfido_doc_video_confirmation_button_primary" = "Submit video";
 "onfido_doc_video_confirmation_body" = "Your video has been recorded";
 "onfido_doc_video_capture_button_primary_start" = "Start recording";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Preview video";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Retake video";
 "onfido_doc_video_confirmation_title" = "Thank you";
 "onfido_country_select_search_results_none_accessibility" = "No matching results";
@@ -318,8 +316,6 @@
 "onfido_generic_error_timeout_button_primary" = "Retry";
 "onfido_generic_processing" = "Processing";
 "onfido_video_capture_turn_success_accessibility" = "Head turn detected";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Remove your passport and phone covers";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Remove your phone cover";
 "onfido_welcome_list_header" = "Use your device to:";
 "onfido_welcome_list_item_doc_photo" = "Take a photo of your identity document";
 "onfido_welcome_list_item_doc_video" = "Record a video of your identity document";

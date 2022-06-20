@@ -460,7 +460,7 @@ catch let error {
 
 You must provide the following when configuring the Onfido iOS SDK:
 
-- SDK token (or Mobile token)
+- SDK token
 - applicant
 - at least one capture step
 
@@ -537,7 +537,7 @@ if (runError) {
 
 You must provide the following when configuring the Onfido iOS SDK:
 
-- SDK token (or Mobile token)
+- SDK token
 - applicant
 - at least one capture step
 
@@ -1146,7 +1146,7 @@ VIDEO_FACIAL_UPLOAD - User's liveness video is uploading
 
 ## Going live
 
-Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain a live API token (and Mobile token). You will have to replace the sandbox tokens in your code with the live tokens.
+Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain a live API token. You will have to replace the sandbox tokens in your code with the live tokens.
 
 Check the following before you go live:
 
@@ -1157,8 +1157,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.36|
-| Below 12.2       | up to 6.36* or up to 18.238**|
+| 12.2 and above   | 6.099|
+| Below 12.2       | up to 6.099* or up to 15.356**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
