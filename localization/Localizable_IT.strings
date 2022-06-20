@@ -76,7 +76,6 @@
 "onfido_app_title_doc_capture_id_it" = "Carta d’identità italiana";
 "onfido_app_title_doc_capture_id_za" = "Carta d’identità sudafricana";
 "onfido_doc_select_button_generic" = "Documento";
-"onfido_doc_select_button_passport" = "Passaporto";
 "onfido_doc_select_button_visa" = "Visto";
 "onfido_doc_select_button_permit_work" = "Permesso di lavoro";
 "onfido_video_capture_body" = "Tieni il viso all’interno dell’ovale per iniziare a registrare";
@@ -130,7 +129,6 @@
 "onfido_doc_capture_header_id_back" = "Posiziona il retro del documento nella cornice";
 "onfido_doc_capture_header_permit_back" = "Posiziona il retro del documento nella cornice";
 "onfido_doc_capture_header_license_front" = "Posiziona il fronte del documento nella cornice";
-"onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
 
 /* Document autocapture */
 
@@ -201,8 +199,14 @@
 "onfido_nfc_select_button_primary_passport" = "Usa passaporto elettronico";
 "onfido_nfc_select_button_secondary_passport" = "Non è un passaporto elettronico";
 
-"onfido_nfc_intro_title_passport" = "Scannen Sie Ihren ePass";
+"onfido_nfc_intro_title_passport" = "Scansiona il passaporto elettronico";
 "onfido_nfc_intro_subtitle_passport" = "Segua queste istruzioni";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Rimuova la custodia dal passaporto";
+"onfido_nfc_intro_passport_scan_guide_2" = "Posizioni il passaporto su una superficie piana";
+"onfido_nfc_intro_passport_scan_guide_3" = "Posizionare il telefono sul passaporto";
+"onfido_nfc_intro_passport_scan_guide_4" = "Far scorrere lentamente il telefono verso il basso";
+
 "onfido_nfc_intro_button_primary_passport" = "Inizia la scansione";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Appoggia il telefono sul passaporto chiuso";
@@ -224,13 +228,11 @@
 "onfido_nfc_intro_carousel_body_last_page" = "Può anche provare l’interno della pagina posteriore";
 "onfido_nfc_intro_carousel_body_dont_move" = "Non muova telefono e passaporto durante la scansione";
 
-"onfido_nfc_fail_title_passport" = "Impossibile scansionare il passaporto";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Rimuovi passaporto e telefono dalle custodie";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Tieni il telefono a contatto con il passaporto fino al termine della scansione";
 "onfido_nfc_fail_button_primary_passport" = "Ripeti la scansione";
 "onfido_nfc_fail_button_secondary_passport" = "Verifica senza scansione";
 
-"onfido_nfc_fail_title_card" = "Impossibile scansionare la carta NFC";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Rimuovi la cover del telefono";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Tieni il telefono a contatto con la carta fino al termine della scansione";
 "onfido_nfc_fail_button_primary_card" = "Ripeti la scansione";
@@ -265,15 +267,12 @@
 "onfido_doc_video_capture_stepper" = "Passaggio %d di %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "La registrazione video ha un limite di %d secondi";
 "onfido_doc_video_capture_alert_wrong_side" = "Assicurati di mostrare il retro del documento";
-"onfido_doc_video_capture_header_folded_doc_front" = "Lato foto profilo";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Appoggia il documento aperto sulle pagine interne (deve contenere la tua foto)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Sembra che ci sia voluto troppo tempo";
 "onfido_doc_video_capture_prompt_button_timeout" = "Riprova";
 "onfido_app_title_doc_video_confirmation" = "Verifica la tua identità";
 "onfido_doc_video_confirmation_button_primary" = "Invia video";
 "onfido_doc_video_confirmation_body" = "Il tuo video è stato registrato";
 "onfido_doc_video_capture_button_primary_start" = "Inizia a registrare";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Anteprima video";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Registra un altro video";
 "onfido_doc_video_confirmation_title" = "Grazie";
 "onfido_country_select_search_results_none_accessibility" = "Nessun risultato trovato";
@@ -284,13 +283,11 @@
 "onfido_doc_upload_progress_label" = "Controllo qualità dell’immagine";
 "onfido_video_capture_turn_success_accessibility" = "Rilevata svolta della testa";
 "onfido_doc_capture_frame_success_accessibility" = "Immagine catturata";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Rimuovi passaporto e telefono dalle custodie";
 "onfido_nfc_select_title_card" = "Velocizza il processo con l’NFC";
 "onfido_nfc_select_subtitle_card" = "Scansioneremo il chip NFC della tua carta";
 "onfido_nfc_select_body_card" = "Le carte con chip NFC hanno questo simbolo";
 "onfido_nfc_select_button_primary_card" = "Usa carta NFC";
 "onfido_nfc_select_button_secondary_card" = "Non è una carta NFC";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Rimuovi la cover del telefono";
 "onfido_welcome_list_header" = "Usa il dispositivo per:";
 "onfido_welcome_list_item_doc_photo" = "Scattare una foto del tuo documento d’identità";
 "onfido_welcome_list_item_doc_video" = "Registrare un video del tuo documento d’identità";

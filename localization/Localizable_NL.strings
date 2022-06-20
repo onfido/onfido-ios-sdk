@@ -34,7 +34,6 @@
 "onfido_doc_confirmation_button_primary_passport" = "Verzend foto";
 "onfido_doc_confirmation_button_primary_permit" = "Verzend foto";
 "onfido_doc_confirmation_button_primary_visa" = "Verzend foto";
-"onfido_selfie_confirmation_button_primary" = "Upload foto";
 "onfido_selfie_confirmation_button_secondary" = "Neem foto opnieuw";
 
 /* Country Selection Screen */
@@ -86,7 +85,6 @@
 "onfido_app_title_doc_capture_id_za" = "Zuid-Afrikaanse identiteitskaart";
 "onfido_doc_select_button_generic" = "Document";
 /* Document Types */
-"onfido_doc_select_button_passport" = "Passport";
 "onfido_doc_select_button_visa" = "Visa";
 "onfido_doc_select_button_permit_work" = "Werkvergunning";
 "onfido_video_capture_header_challenge_digit_instructions" = "Spreek elk cijfer hardop uit";
@@ -174,7 +172,6 @@
 "onfido_info_tablet_orientation_body" = "De knop moet onderaan het scherm te zien zijn";
 "onfido_doc_capture_prompt_button_card" = "Plastic kaart";
 "onfido_video_intro_prompt_button_primary_reload_player" = "Opnieuw laden";
-"onfido_doc_confirmation_button_secondary" = "Neem foto opnieuw";
 "onfido_video_confirmation_button_secondary" = "Neem filmpje opnieuw op";
 "onfido_video_capture_prompt_button_timeout" = "Probeer opnieuw";
 "onfido_country_select_bottom_sheet_link_doc_select" = "Kies een ander document";
@@ -220,8 +217,7 @@
 "onfido_nfc_select_button_primary_card" = "Gebruik NFC-kaart";
 "onfido_nfc_select_button_secondary_card" = "Dit is geen NFC-kaart";
 
-"onfido_nfc_intro_title_passport" = "Scan your ePassport";
-"onfido_nfc_intro_subtitle_passport" = "";
+"onfido_nfc_intro_title_passport" = "Scan uw ePassport";
 "onfido_nfc_intro_button_primary_passport" = "Start met scannen";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Plaats uw telefoon boven uw gesloten paspoort";
@@ -233,9 +229,6 @@
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Plaats uw telefoon boven de kaart";
 "onfido_nfc_intro_sheet_header_scanning_card" = "Bezig met scannen...";
-
-"onfido_nfc_fail_title_passport" = "";
-"onfido_nfc_fail_title_card" = "";
 
 "onfido_nfc_intro_carousel_body_remove_cover" = "Verwijder het hoesje van uw paspoort";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Leg uw paspoort op een vlakke oppervlak";
@@ -284,15 +277,12 @@
 "onfido_doc_video_capture_stepper" = "Stap %d van %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "Opnemen video is beperkt tot %d seconden";
 "onfido_doc_video_capture_alert_wrong_side" = "Toon de achterkant van uw document";
-"onfido_doc_video_capture_header_folded_doc_front" = "Zijde profielfoto";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Leg uw document plat, inclusief alle binnenste pagina's (moeten uw foto bevatten)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Het lijkt erop dat het te lang duurde";
 "onfido_doc_video_capture_prompt_button_timeout" = "Probeer opnieuw";
 "onfido_app_title_doc_video_confirmation" = "Verifieer uw identiteit";
 "onfido_doc_video_confirmation_button_primary" = "Verzend video";
 "onfido_doc_video_confirmation_body" = "Uw filmpje is opgenomen";
 "onfido_doc_video_capture_button_primary_start" = "Start met opnemen";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Video weergeven";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Neem filmpje opnieuw op";
 "onfido_doc_video_confirmation_title" = "Dank u";
 "onfido_country_select_search_results_none_accessibility" = "Geen passende resultaten";
@@ -307,8 +297,6 @@
 "onfido_generic_error_timeout_button_primary" = "Probeer opnieuw";
 "onfido_generic_processing" = "Bezig met verwerken";
 "onfido_video_capture_turn_success_accessibility" = "Draai hoofd gedetecteerd";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Verwijder de hoesjes van uw telefoon en paspoort";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Verwijder uw telefoonhoesje";
 "onfido_welcome_list_header" = "Gebruik uw apparaat om:";
 "onfido_welcome_list_item_doc_photo" = "Een foto te nemen van uw identiteitsbewijs";
 "onfido_welcome_list_item_doc_video" = "Een filmpje te maken van uw identiteitsbewijs";
@@ -345,6 +333,12 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Weergeven vanaf camera. Plaats uw telefoon boven de fotopagina van uw paspoort en beweeg deze langzaam weg in een rechte lijn.";
 "onfido_doc_capture_header_capturing" = "Houd het stil";
 "onfido_nfc_intro_subtitle_passport" = "Volg deze instructies";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Verwijder het hoesje van uw paspoort";
+"onfido_nfc_intro_passport_scan_guide_2" = "Leg uw paspoort op een vlakke oppervlak";
+"onfido_nfc_intro_passport_scan_guide_3" = "Plaats je telefoon over het paspoort";
+"onfido_nfc_intro_passport_scan_guide_4" = "Schuif je telefoon langzaam naar beneden";
+
 /* User consent load error */
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";

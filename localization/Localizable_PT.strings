@@ -129,7 +129,6 @@
 "onfido_doc_capture_header_id_back" = "Posicione o verso do seu documento na moldura";
 "onfido_doc_capture_header_permit_back" = "Posicione o verso do seu documento na moldura";
 "onfido_doc_capture_header_license_front" = "Posicione à frente do seu documento na moldura";
-"onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
 
 /* Document autocapture */
 
@@ -200,8 +199,14 @@
 "onfido_nfc_select_button_primary_passport" = "Usar ePassaporte";
 "onfido_nfc_select_button_secondary_passport" = "Não é um ePassaporte";
 
-"onfido_nfc_intro_title_passport" = "Scannen Sie Ihren ePass";
+"onfido_nfc_intro_title_passport" = "Digitalizar o seu ePassaporte";
 "onfido_nfc_intro_subtitle_passport" = "Siga estas instruções";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Remova a capa do seu passaporte";
+"onfido_nfc_intro_passport_scan_guide_2" = "Pouse o seu passaporte numa superfície plana";
+"onfido_nfc_intro_passport_scan_guide_3" = "Coloque o seu telefone sobre o passaporte";
+"onfido_nfc_intro_passport_scan_guide_4" = "Deslize lentamente o seu telefone para baixo";
+
 "onfido_nfc_intro_button_primary_passport" = "Começar a digitalizar";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Coloque o seu telefone sobre o seu passaporte fechado";
@@ -223,13 +228,11 @@
 "onfido_nfc_intro_carousel_body_last_page" = "Pode também tentar o interior da página de trás";
 "onfido_nfc_intro_carousel_body_dont_move" = "Não mova o seu telefone ou passaporte enquanto digitaliza";
 
-"onfido_nfc_fail_title_passport" = "Não pudemos digitalizar o seu passaporte";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Retire as capas do seu passaporte e do seu telefone";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Mantenha o seu telefone e passaporte em contacto até que a digitalização seja bem sucedida";
 "onfido_nfc_fail_button_primary_passport" = "Tentar digitalizar novamente";
 "onfido_nfc_fail_button_secondary_passport" = "Seja verificado sem digitalização";
 
-"onfido_nfc_fail_title_card" = "Não conseguimos digitalizar o seu cartão NFC";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Remova a capa do seu telefone";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Mantenha o seu telefone e cartão em contacto até que a digitalização seja bem sucedida";
 "onfido_nfc_fail_button_primary_card" = "Tentar digitalizar novamente";
@@ -264,15 +267,12 @@
 "onfido_doc_video_capture_stepper" = "Passo %d de %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "A gravação de vídeo está limitada a %d segundos";
 "onfido_doc_video_capture_alert_wrong_side" = "Certifique-se de que mostra a parte posterior do seu documento";
-"onfido_doc_video_capture_header_folded_doc_front" = "Lado da foto do perfil";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Coloque o documento de forma plana e inclua todas as páginas interiores (deve conter a sua fotografia)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Parece que demorou demasiado tempo";
 "onfido_doc_video_capture_prompt_button_timeout" = "Tentar novamente";
 "onfido_app_title_doc_video_confirmation" = "Verifique a sua identidade";
 "onfido_doc_video_confirmation_button_primary" = "Enviar vídeo";
 "onfido_doc_video_confirmation_body" = "O seu vídeo foi gravado";
 "onfido_doc_video_capture_button_primary_start" = "Começar a gravar";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Pré-visualizar vídeo";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Retomar vídeo";
 "onfido_doc_video_confirmation_title" = "Obrigado";
 "onfido_country_select_search_results_none_accessibility" = "Sem resultados";
@@ -283,13 +283,11 @@
 "onfido_doc_upload_progress_label" = "A verificar a qualidade da imagem";
 "onfido_video_capture_turn_success_accessibility" = "Cabeça virada detectada";
 "onfido_doc_capture_frame_success_accessibility" = "Imagem capturada";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Retire as capas do seu passaporte e do seu telefone";
 "onfido_nfc_select_title_card" = "Acelere o processo com NFC";
 "onfido_nfc_select_subtitle_card" = "Vamos digitalizar o chip NFC no seu cartão";
 "onfido_nfc_select_body_card" = "Cartões com chips NFC têm este símbolo";
 "onfido_nfc_select_button_primary_card" = "Use um cartão NFC";
 "onfido_nfc_select_button_secondary_card" = "Não é um cartão NFC";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Remova a capa do seu telefone";
 "onfido_welcome_list_header" = "Utilize o seu dispositivo para:";
 "onfido_welcome_list_item_doc_photo" = "Tire uma fotografia de um documento de identidade";
 "onfido_welcome_list_item_doc_video" = "Grave um vídeo do seu documento de identidade";

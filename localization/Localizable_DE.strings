@@ -76,7 +76,6 @@
 "onfido_app_title_doc_capture_id_it" = "Italienischer Personalausweis";
 "onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
 "onfido_doc_select_button_generic" = "Dokument";
-"onfido_doc_select_button_passport" = "Reisepass";
 "onfido_doc_select_button_visa" = "Visum";
 "onfido_doc_select_button_permit_work" = "Arbeitserlaubnis";
 "onfido_video_capture_body" = "Halten Sie Ihr Gesicht innerhalb des Ovals, um mit der Aufnahme zu beginnen";
@@ -130,7 +129,6 @@
 "onfido_doc_capture_header_id_back" = "Positionieren Sie die Rückseite Ihres Dokuments im Rahmen";
 "onfido_doc_capture_header_permit_back" = "Positionieren Sie die Rückseite Ihres Dokuments im Rahmen";
 "onfido_doc_capture_header_license_front" = "Positionieren Sie die Vorderseite Ihres Dokuments im Rahmen";
-"onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
 
 /* Document autocapture */
 
@@ -205,6 +203,11 @@
 "onfido_nfc_intro_subtitle_passport" = "Befolgen Sie diese Anweisungen";
 "onfido_nfc_intro_button_primary_passport" = "Scannen starten";
 
+"onfido_nfc_intro_passport_scan_guide_1" = "Entfernen Sie die Hülle Ihres Reisepasses";
+"onfido_nfc_intro_passport_scan_guide_2" = "Legen Sie Ihren Reisepass auf eine ebene Fläche";
+"onfido_nfc_intro_passport_scan_guide_3" = "Halten Sie Ihr Telefon über den Reisepass";
+"onfido_nfc_intro_passport_scan_guide_4" = "Schieben Sie Ihr Handy langsam nach unten";
+
 "onfido_nfc_intro_sheet_header_ready_passport" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass";
 "onfido_nfc_intro_sheet_header_scanning_passport" = "Scannen…";
 
@@ -224,13 +227,11 @@
 "onfido_nfc_intro_carousel_body_last_page" = "Sie können auch die Innenseite der Rückseite verwenden";
 "onfido_nfc_intro_carousel_body_dont_move" = "Bewegen Sie Ihr Telefon oder Ihren Reisepass während des Scanvorgangs nicht";
 
-"onfido_nfc_fail_title_passport" = "Wir konnten Ihren Reisepass nicht scannen";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Halten Sie Ihr Telefon und Ihren Reisepass dicht beieinander, bis der Scannvorgang erfolgreich abgeschlossen wurde";
 "onfido_nfc_fail_button_primary_passport" = "Scannen wiederholen";
 "onfido_nfc_fail_button_secondary_passport" = "Verifizierung ohne Scan";
 
-"onfido_nfc_fail_title_card" = "Wir konnten Ihre NFC-Karte nicht scannen";
 "onfido_nfc_fail_list_item_remove_cover_card" = "Entfernen Sie die Hülle Ihres Telefons";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Halten Sie Ihr Telefon und Ihre Karte dicht beieinander, bis der Scannvorgang erfolgreich abgeschlossen wurde";
 "onfido_nfc_fail_button_primary_card" = "Scannen wiederholen";
@@ -268,15 +269,12 @@
 "onfido_doc_video_capture_stepper" = "Schritt %d von %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "Die Videoaufnahme ist auf Sekunden beschränkt%d";
 "onfido_doc_video_capture_alert_wrong_side" = "Stellen Sie sicher, dass Sie die Rückseite Ihres Dokuments zu sehen ist";
-"onfido_doc_video_capture_header_folded_doc_front" = "Profilfotoseite";
-"onfido_doc_video_capture_detail_folded_doc_front" = "Legen Sie Ihr Dokument flach hin, einschließlich aller Innenseiten (Ihr Foto muss enthalten sein)";
 "onfido_doc_video_capture_prompt_header_timeout" = "Sieht aus, als hätten Sie zu lange gebraucht";
 "onfido_doc_video_capture_prompt_button_timeout" = "Wiederholen";
 "onfido_app_title_doc_video_confirmation" = "Identität überprüfen";
 "onfido_doc_video_confirmation_button_primary" = "Video senden";
 "onfido_doc_video_confirmation_body" = "Ihr Video wurde aufgezeichnet";
 "onfido_doc_video_capture_button_primary_start" = "Aufnahme starten";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Video-Vorschau";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Video erneut aufnehmen";
 "onfido_doc_video_confirmation_title" = "Danke";
 "onfido_country_select_search_results_none_accessibility" = "Keine Treffer";
@@ -291,13 +289,11 @@
 "onfido_generic_error_timeout_button_primary" = "Wiederholen";
 "onfido_generic_processing" = "Verarbeitung";
 "onfido_video_capture_turn_success_accessibility" = "Kopfdrehung erkannt";
-"onfido_nfc_fail_list_item_remove_cover_passport" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons";
 "onfido_nfc_select_title_card" = "Beschleunigen Sie den Prozess mit NFC";
 "onfido_nfc_select_subtitle_card" = "Wir scannen den NFC-Chip Ihrer Karte";
 "onfido_nfc_select_body_card" = "Karten mit NFC-Chips haben dieses Symbol";
 "onfido_nfc_select_button_primary_card" = "NFC-Karte verwenden";
 "onfido_nfc_select_button_secondary_card" = "Ohne NFC-Karte fortfahren";
-"onfido_nfc_fail_list_item_remove_cover_card" = "Entfernen Sie die Hülle Ihres Telefons";
 "onfido_welcome_list_header" = "Benutzen Sie Ihr Gerät:";
 "onfido_welcome_list_item_doc_photo" = "Machen Sie ein Foto von Ihrem Ausweisdokument";
 "onfido_welcome_list_item_doc_video" = "Nehmen Sie ein Video von Ihrem Ausweisdokument auf";
