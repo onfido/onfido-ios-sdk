@@ -427,3 +427,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "Gesicht nicht mittig";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Upload wiederholen";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Aufnahme neu starten";
+"onfido_generic_errors_geoblocked_error_message" = "Service nicht verfügbar";
+"onfido_generic_errors_geoblocked_error_instruction" = "Es tut uns leid, wir können leider nicht fortfahren, da Ihr aktueller Standort nicht unterstützt wird.";

@@ -483,3 +483,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "Visage non centré";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Réessayer de téléverser";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Redémarrer l’enregistrement";
+"onfido_generic_errors_geoblocked_error_message" = "Service indisponible";
+"onfido_generic_errors_geoblocked_error_instruction" = "Nous sommes désolés, il semble que nous ne puissions pas poursuivre car votre emplacement actuel n'est pas pris en charge";
