@@ -437,3 +437,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "Gezicht niet gecentreerd";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Upload opnieuw proberen";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Opname opnieuw starten";
+"onfido_generic_errors_geoblocked_error_message" = "Service niet beschikbaar";
+"onfido_generic_errors_geoblocked_error_instruction" = "Het spijt ons, we kunnen niet verdergaan, omdat uw huidige locatie niet ondersteund wordt";

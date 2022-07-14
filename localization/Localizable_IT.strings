@@ -425,3 +425,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "Viso non centrato";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Ritenta il caricamento";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Riavvia la registrazione";
+"onfido_generic_errors_geoblocked_error_message" = "Servizio non disponibile";
+"onfido_generic_errors_geoblocked_error_instruction" = "Siamo spiacenti. Sembra che non sia possibile procedere oltre perché la posizione attuale non è supportata";

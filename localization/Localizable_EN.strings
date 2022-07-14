@@ -440,3 +440,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "Face not centered";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Retry upload";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Restart recording";
+"onfido_generic_errors_geoblocked_error_message" = "Service unavailable";
+"onfido_generic_errors_geoblocked_error_instruction" = "We’re sorry, seems like we can’t proceed further as your current location is not supported";

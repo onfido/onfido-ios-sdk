@@ -482,3 +482,5 @@
 "onfido_avc_face_alignment_feedback_not_centered" = "La cara no está centrada";
 "onfido_avc_connection_error_button_primary_retry_upload" = "Reintentar la subida";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Reiniciar la grabación";
+"onfido_generic_errors_geoblocked_error_message" = "Servicio no disponible";
+"onfido_generic_errors_geoblocked_error_instruction" = "Lo sentimos, parece que no podemos seguir adelante ya que su ubicación actual no es compatible";
