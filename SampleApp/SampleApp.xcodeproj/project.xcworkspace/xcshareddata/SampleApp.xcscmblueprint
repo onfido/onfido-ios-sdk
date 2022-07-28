@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "985EF0B0C9038C50D9584BCE831F5EFC2D40C024",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "73E75C912DFB7EC975E6E10BE12AF708BDADB78F" : 9223372036854775807,
+    "985EF0B0C9038C50D9584BCE831F5EFC2D40C024" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "65531838-4890-423D-8658-A0F4EDAFD5DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "73E75C912DFB7EC975E6E10BE12AF708BDADB78F" : "..",
+    "985EF0B0C9038C50D9584BCE831F5EFC2D40C024" : "onfido-ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SampleApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SampleApp\/SampleApp\/SampleApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:onfido\/onfido-ios-sdk-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73E75C912DFB7EC975E6E10BE12AF708BDADB78F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:onfido\/onfido-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "985EF0B0C9038C50D9584BCE831F5EFC2D40C024"
+    }
+  ]
+}
