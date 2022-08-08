@@ -174,7 +174,7 @@
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Vorgeschlagenes Land";
 "onfido_video_intro_error_network" = "Laden aufgrund eines instabilen Netzwerks nicht möglich";
-"onfido_country_select_bottom_sheet_details" = "Entschuldigen Sie bitte. Verwenden Sie stattdessen ein alternatives Dokument.";
+"onfido_country_select_bottom_sheet_details" = "Anscheinend wird das Land des ausgewählten Dokuments nicht unterstützt. Bitte wählen Sie ein anderes Land aus.";
 "onfido_country_select_bottom_sheet_title" = "Ihr Land ist nicht aufgeführt?";
 "onfido_doc_confirmation_button_primary" = "Foto einreichen";
 "onfido_welcome_title" = "Identität überprüfen";
@@ -407,7 +407,7 @@
 "onfido_avc_face_capture_title" = "Drehen Sie Ihren Kopf langsam nach beiden Seiten";
 "onfido_avc_face_capture_title_completed" = "Aufnahme abgeschlossen";
 "onfido_avc_face_capture_alert_timeout_title" = "Leider muss die Aufnahme neu gestartet werden";
-"onfido_avc_face_capture_alert_timeout_body" = "Sie haben maximal 20 Sekunden Zeit, um die Aufnahme zu beenden";
+"onfido_avc_face_capture_alert_timeout_body" = "Sie haben maximal 15 Sekunden Zeit, um die Aufnahme zu beenden";
 "onfido_avc_face_capture_alert_timeout_button_primary" = "Wiederholen";
 "onfido_avc_face_capture_alert_too_fast_title" = "Sie haben Ihren Kopf zu schnell gedreht";
 "onfido_avc_face_capture_alert_too_fast_body" = "Bitte versuchen Sie es erneut und drehen Sie Ihren Kopf langsamer";
@@ -429,3 +429,12 @@
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Aufnahme neu starten";
 "onfido_generic_errors_geoblocked_error_message" = "Service nicht verfügbar";
 "onfido_generic_errors_geoblocked_error_instruction" = "Es tut uns leid, wir können leider nicht fortfahren, da Ihr aktueller Standort nicht unterstützt wird.";
+"onfido_welcome_list_item_doc" = "Ihr Ausweisdokument";
+"onfido_welcome_list_header_photo" = "Verwenden Sie Ihr Gerät zum Fotografieren:";
+"onfido_welcome_list_header_record" = "Verwenden Sie Ihr Gerät zum Fotografieren oder Aufzeichnen:";
+"onfido_welcome_list_item_selfie" = "Ihr Gesicht";
+"onfido_welcome_list_item_video" = "ein Video von Ihnen selbst";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Ansicht der Kamera. Positionieren Sie die Fotoseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Ansicht der Kamera. Positionieren Sie das Deckblatt Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
+"onfido_welcome_list_header_doc_video" = "Nutzen Sie Ihr Gerät um Folgendes aufzunehmen:";
+"onfido_welcome_list_item_face_generic" = "Scannen Sie Ihr Gesicht";

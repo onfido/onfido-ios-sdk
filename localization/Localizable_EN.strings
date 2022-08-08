@@ -182,7 +182,7 @@
 "onfido_country_select_list_header_suggested" = "Suggested country";
 /* General */
 "onfido_video_intro_error_network" = "Unable to load due to unstable network";
-"onfido_country_select_bottom_sheet_details" = "Sorry about that. Try using an alternative document instead.";
+"onfido_country_select_bottom_sheet_details" = "It seems like the country of the document you’ve selected is not supported. Please select a different country.";
 "onfido_country_select_bottom_sheet_title" = "Can’t find your country?";
 "onfido_doc_confirmation_button_primary" = "Submit photo";
 /* Face capture */
@@ -420,7 +420,7 @@
 "onfido_avc_face_capture_title" = "Turn your head slowly to both sides";
 "onfido_avc_face_capture_title_completed" = "Recording complete";
 "onfido_avc_face_capture_alert_timeout_title" = "Sorry, we have to restart the recording";
-"onfido_avc_face_capture_alert_timeout_body" = "You have up to 20 seconds to complete the recording";
+"onfido_avc_face_capture_alert_timeout_body" = "You have up to 15 seconds to complete the recording";
 "onfido_avc_face_capture_alert_timeout_button_primary" = "Retry";
 "onfido_avc_face_capture_alert_too_fast_title" = "You turned your head too fast";
 "onfido_avc_face_capture_alert_too_fast_body" = "Please retry and turn your head slower";
@@ -442,3 +442,23 @@
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Restart recording";
 "onfido_generic_errors_geoblocked_error_message" = "Service unavailable";
 "onfido_generic_errors_geoblocked_error_instruction" = "We’re sorry, seems like we can’t proceed further as your current location is not supported";
+"onfido_doc_select_subtitle_country" = "Select issuing country to see which documents we accept";
+"onfido_doc_select_section_header_country" = "Issuing country";
+"onfido_doc_select_section_header_doc_type" = "Accepted documents";
+"onfido_doc_select_section_input_placeholder_country" = "Select issuing country";
+"onfido_doc_select_subtitle_entire_page" = "Entire page";
+"onfido_doc_select_subtitle_photo_page" = "Photo page";
+"onfido_doc_select_subtitle_front_back" = "Front and back";
+"onfido_doc_select_section_input_country_not_found" = "No Results";
+"onfido_doc_select_section_input_placeholder_country_copy" = "Select issuing country";
+"onfido_generic_errors_geoblocked_error_message" = "Service unavailable";
+"onfido_generic_errors_geoblocked_error_instruction" = "We’re sorry, seems like we can’t proceed further as your current location is not supported";
+"onfido_welcome_list_item_doc" = "your identity document";
+"onfido_welcome_list_header_photo" = "Use your device to photograph:";
+"onfido_welcome_list_header_record" = "Use your device to photograph or record:";
+"onfido_welcome_list_item_selfie" = "your face";
+"onfido_welcome_list_item_video" = "a video of yourself";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "View from camera. Position the photo page of your document in the frame, then tap the shutter button";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "View from camera. Position the cover of your document in the frame, then tap the shutter button";
+"onfido_welcome_list_header_doc_video" = "Use your device to record:";
+"onfido_welcome_list_item_face_generic" = "Scan your face";

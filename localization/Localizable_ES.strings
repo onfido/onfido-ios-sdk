@@ -26,7 +26,7 @@
 "onfido_country_select_list_header_suggested" = "País sugerido";
 "onfido_country_select_list_header_all" = "Todos los países";
 "onfido_country_select_bottom_sheet_title" = "¿No puede encontrar su país?";
-"onfido_country_select_bottom_sheet_details" = "Lo sentimos. Inténtelo con otro documento.";
+"onfido_country_select_bottom_sheet_details" = "Parece que el país del documento que ha seleccionado no es compatible. Seleccione un país diferente.";
 "onfido_country_select_bottom_sheet_link_doc_select" = "Seleccione otro documento";
 "onfido_country_select_bottom_sheet_link_close" = "Cerrar";
 
@@ -462,7 +462,7 @@
 "onfido_avc_face_capture_title" = "Gire la cabeza despacio hacia ambos lados";
 "onfido_avc_face_capture_title_completed" = "Grabación completada";
 "onfido_avc_face_capture_alert_timeout_title" = "Lo sentimos, debemos reiniciar la grabación";
-"onfido_avc_face_capture_alert_timeout_body" = "Dispone de 20 segundos para completar la grabación";
+"onfido_avc_face_capture_alert_timeout_body" = "Dispone de 15 segundos para completar la grabación";
 "onfido_avc_face_capture_alert_timeout_button_primary" = "Reintentar";
 "onfido_avc_face_capture_alert_too_fast_title" = "Ha girado la cabeza demasiado rápido";
 "onfido_avc_face_capture_alert_too_fast_body" = "Vuelva a intentarlo y gire la cabeza más despacio";
@@ -484,3 +484,23 @@
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Reiniciar la grabación";
 "onfido_generic_errors_geoblocked_error_message" = "Servicio no disponible";
 "onfido_generic_errors_geoblocked_error_instruction" = "Lo sentimos, parece que no podemos seguir adelante ya que su ubicación actual no es compatible";
+"onfido_doc_select_subtitle_country" = "Seleccione el país emisor para ver qué documentos aceptamos";
+"onfido_doc_select_section_header_country" = "País emisor";
+"onfido_doc_select_section_header_doc_type" = "Documentos aceptados";
+"onfido_doc_select_section_input_placeholder_country" = "Seleccione el país emisor";
+"onfido_doc_select_subtitle_entire_page" = "Página completa";
+"onfido_doc_select_subtitle_photo_page" = "página de fotos";
+"onfido_doc_select_subtitle_front_back" = "Frente y detrás";
+"onfido_doc_select_section_input_country_not_found" = "Sin resultados";
+"onfido_doc_select_section_input_placeholder_country_copy" = "Seleccione el país emisor";
+"onfido_generic_errors_geoblocked_error_message" = "Servicio no disponible";
+"onfido_generic_errors_geoblocked_error_instruction" = "Lo sentimos, parece que no podemos seguir adelante ya que su ubicación actual no es compatible";
+"onfido_welcome_list_item_doc" = "";
+"onfido_welcome_list_header_photo" = "";
+"onfido_welcome_list_header_record" = "";
+"onfido_welcome_list_item_selfie" = "";
+"onfido_welcome_list_item_video" = "";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "";
+"onfido_welcome_list_header_doc_video" = "";
+"onfido_welcome_list_item_face_generic" = "";
