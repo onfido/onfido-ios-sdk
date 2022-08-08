@@ -14,6 +14,8 @@
 *   [Handling callbacks](#handling-callbacks)
     *   [Success handling](#success-handling)
     *   [Error handling](#run-exceptions)
+*   [Custom callbacks](#custom-callbacks)
+    *   [Media callbacks](#media-callbacks)
 *   [Customizing SDK](#customizing-sdk)
     *   [Flow customization](#flow-customization)
     *   [UI customization](#ui-customization)
@@ -552,6 +554,92 @@ Otherwise you may encounter the following errors when calling the `build()` func
 | `ONFlowConfigErrorApplicantProvidedWithSDKToken` | When both an SDK token and an applicant are provided. |
 | `ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination` | When it is an unsupported document format for the specified country provided. See [Document Type Configuration](#document-type-configuration) to check supported combinations. |
 |`ONFlowConfigErrorInvalidCountryCode` | When an invalid country code is provided. |
+
+
+## Custom Callbacks
+
+### Media Callbacks (beta)
+
+### Introduction
+Onfido provides the possibility to integrate with our Smart Capture SDK, without the requirement of using this data only through the Onfido API. Media callbacks enable you to control the end user data collected by the SDK after the end user has submitted their captured media. As a result, you can leverage Onfido’s advanced on-device technology, including image quality validations, while still being able to handle end users’ data directly. This unlocks additional use cases, including compliance requirements and multi-vendor configurations, that require this additional flexibility.
+
+**This feature must be enabled for your account.** Please contact your Onfido Solution Engineer or Customer Success Manager.
+
+### Implementation
+To use this feature, use `.withMediaCallback` and provide the callbacks for `MediaDocumentResult` for documents and `MediaFile` for live photos and live videos.
+
+##### Swift
+
+```swift
+final class SwiftDynamicFrameworkOnfidoRunner: OnfidoRunner, MediaCallback {
+    func onMediaCaptured(result: MediaResult) {
+           switch result {
+               case let documentResult as MediaDocumentResult:
+                   // Your callback code here
+               case let selfieResult as SelfieResult:
+                   // Your callback code here
+               case let livenessResult as LivenessResult:
+                   // Your callback code here
+           default:
+               Break
+           }
+    }
+ 
+    configBuilder.withMediaCallback(mediaCallback: self)
+  
+ 
+}    
+```
+
+### User data
+The callbacks return an object including the information that the SDK normally sends directly to Onfido. The callbacks are invoked when the end user confirms submission of their image through the SDK’s user interface.
+
+**Note:** Currently, end user data will still automatically be sent to the Onfido backend, but you are not required to use Onfido to process this data. 
+
+The callback returns 3 possible objects:
+1. For documents, the callback returns a `MediaDocumentResult` object:
+```json5
+     {
+         metadata: DocumentMetadata
+         file: MediaFile
+     }
+``` 
+   The `DocumentMetadata` object contains the metadata of the captured document:
+```json5
+     {
+         side: String
+         type: String
+         issuingCountry: String?
+     }
+```
+**Note:** `issuingCountry` is optional based on end-user selection, and can be `null`.
+**Note:** If a document was scanned using NFC, the callback will return the passport photo in `file` but no additional data.
+
+2. For live photos, the callback returns a `SelfieResult` object:
+```json5
+{
+    fileData: MediaFile
+}
+```
+
+3. For videos, the callback returns a `LivenessResult` object:
+```json5
+{
+    fileData: MediaFile
+}
+```
+ 
+And the `MediaFile` object has:
+```json5
+{
+    name: String
+    data: Data
+}
+```
+#### Create a check with Onfido
+After receiving the user data from the SDK, you can choose to create a check with Onfido. In this case, you don’t need to re-upload the end user data as it is sent automatically from the SDK to the Onfido backend. 
+
+Please see our [API documentation](https://documentation.onfido.com/#create-check) for more information on how to create a check.
 
 ## Customizing SDK
 
@@ -1157,8 +1245,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.108|
-| Below 12.2       | up to 6.108* or up to 15.366**|
+| 12.2 and above   | 6.311|
+| Below 12.2       | up to 6.311* or up to 15.669**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

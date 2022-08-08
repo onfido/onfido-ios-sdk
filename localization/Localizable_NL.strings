@@ -182,7 +182,7 @@
 "onfido_country_select_list_header_suggested" = "Voorgesteld land";
 /* General */
 "onfido_video_intro_error_network" = "We konden niet laden vanwege een instabiel netwerk";
-"onfido_country_select_bottom_sheet_details" = "Het spijt ons. Probeer een ander document.";
+"onfido_country_select_bottom_sheet_details" = "Het lijkt erop dat het land van het document dat je hebt geselecteerd niet wordt ondersteund. Selecteer een ander land.";
 "onfido_country_select_bottom_sheet_title" = "Kunt u uw land niet vinden?";
 "onfido_doc_confirmation_button_primary" = "Verzend foto";
 /* Face capture */
@@ -417,7 +417,7 @@
 "onfido_avc_face_capture_title" = "Draai uw hoofd langzaam naar beide kanten";
 "onfido_avc_face_capture_title_completed" = "Opname voltooid";
 "onfido_avc_face_capture_alert_timeout_title" = "Sorry, we moeten de opname opnieuw starten";
-"onfido_avc_face_capture_alert_timeout_body" = "U heeft 20 seconden om de opname te maken";
+"onfido_avc_face_capture_alert_timeout_body" = "U heeft 15 seconden om de opname te maken";
 "onfido_avc_face_capture_alert_timeout_button_primary" = "Probeer opnieuw";
 "onfido_avc_face_capture_alert_too_fast_title" = "U heeft uw hoofd te snel gedraaid";
 "onfido_avc_face_capture_alert_too_fast_body" = "Probeer het opnieuw en draai uw hoofd dit keer langzamer";
@@ -439,3 +439,23 @@
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Opname opnieuw starten";
 "onfido_generic_errors_geoblocked_error_message" = "Service niet beschikbaar";
 "onfido_generic_errors_geoblocked_error_instruction" = "Het spijt ons, we kunnen niet verdergaan, omdat uw huidige locatie niet ondersteund wordt";
+"onfido_doc_select_subtitle_country" = "Selecteer het land van uitgifte om te zien welke documenten we accepteren";
+"onfido_doc_select_section_header_country" = "Land van uitgifte";
+"onfido_doc_select_section_header_doc_type" = "Geaccepteerde documenten";
+"onfido_doc_select_section_input_placeholder_country" = "Selecteer land van uitgifte";
+"onfido_doc_select_subtitle_entire_page" = "Hele pagina";
+"onfido_doc_select_subtitle_photo_page" = "Fotopagina";
+"onfido_doc_select_subtitle_front_back" = "Voor-en achterkant";
+"onfido_doc_select_section_input_country_not_found" = "Geen resultaten";
+"onfido_doc_select_section_input_placeholder_country_copy" = "Selecteer land van uitgifte";
+"onfido_generic_errors_geoblocked_error_message" = "Service niet beschikbaar";
+"onfido_generic_errors_geoblocked_error_instruction" = "Het spijt ons, we kunnen niet verdergaan, omdat uw huidige locatie niet ondersteund wordt";
+"onfido_welcome_list_item_doc" = "uw identiteitsbewijs";
+"onfido_welcome_list_header_photo" = "Gebruik uw apparaat om te fotograferen:";
+"onfido_welcome_list_header_record" = "Gebruik uw apparaat om een foto te maken of een filmpje op te nemen:";
+"onfido_welcome_list_item_selfie" = "uw gezicht";
+"onfido_welcome_list_item_video" = "een filmpje van uzelf";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Weergeven vanaf camera. Plaats de fotopagina van uw document in het kader en tik vervolgens op de sluiter";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Weergeven vanaf camera. Plaats de kaft van uw document in het kader en tik vervolgens op de sluiter";
+"onfido_welcome_list_header_doc_video" = "Gebruik uw apparaat om op te nemen:";
+"onfido_welcome_list_item_face_generic" = "Uw gezicht te scannen";

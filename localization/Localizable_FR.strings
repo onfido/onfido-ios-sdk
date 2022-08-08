@@ -26,7 +26,7 @@
 "onfido_country_select_list_header_suggested" = "Pays suggéré";
 "onfido_country_select_list_header_all" = "Tous les pays";
 "onfido_country_select_bottom_sheet_title" = "Vous ne trouvez pas votre pays ?";
-"onfido_country_select_bottom_sheet_details" = "Nous sommes désolés. Essayez d’utiliser un autre document à la place.";
+"onfido_country_select_bottom_sheet_details" = "Il semble que le pays du document que vous avez sélectionné n'est pas pris en charge. Veuillez sélectionner un autre pays.";
 "onfido_country_select_bottom_sheet_link_doc_select" = "Choisissez un autre document";
 "onfido_country_select_bottom_sheet_link_close" = "Fermer";
 
@@ -463,7 +463,7 @@
 "onfido_avc_face_capture_title" = "Tournez votre tête lentement des deux côtés";
 "onfido_avc_face_capture_title_completed" = "Enregistrement terminé";
 "onfido_avc_face_capture_alert_timeout_title" = "Désolé, nous devons redémarrer l'enregistrement";
-"onfido_avc_face_capture_alert_timeout_body" = "Vous avez jusqu'à 20 secondes pour compléter votre enregistrement";
+"onfido_avc_face_capture_alert_timeout_body" = "Vous avez jusqu'à 15 secondes pour compléter votre enregistrement";
 "onfido_avc_face_capture_alert_timeout_button_primary" = "Réessayer";
 "onfido_avc_face_capture_alert_too_fast_title" = "Vous avez tourné votre tête trop vite";
 "onfido_avc_face_capture_alert_too_fast_body" = "Veuillez réessayer et tournez votre tête plus lentement";
@@ -485,3 +485,23 @@
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Redémarrer l’enregistrement";
 "onfido_generic_errors_geoblocked_error_message" = "Service indisponible";
 "onfido_generic_errors_geoblocked_error_instruction" = "Nous sommes désolés, il semble que nous ne puissions pas poursuivre car votre emplacement actuel n'est pas pris en charge";
+"onfido_doc_select_subtitle_country" = "Sélectionnez le pays émetteur pour voir quels documents nous acceptons";
+"onfido_doc_select_section_header_country" = "Pays émetteur";
+"onfido_doc_select_section_header_doc_type" = "Documents acceptés";
+"onfido_doc_select_section_input_placeholder_country" = "Sélectionnez votre pays";
+"onfido_doc_select_subtitle_entire_page" = "Page entière";
+"onfido_doc_select_subtitle_photo_page" = "Page de photos";
+"onfido_doc_select_subtitle_front_back" = "Avant et arrière";
+"onfido_doc_select_section_input_country_not_found" = "Aucun résultat";
+"onfido_doc_select_section_input_placeholder_country_copy" = "Sélectionnez votre pays";
+"onfido_generic_errors_geoblocked_error_message" = "Service indisponible";
+"onfido_generic_errors_geoblocked_error_instruction" = "Nous sommes désolés, il semble que nous ne puissions pas poursuivre car votre emplacement actuel n'est pas pris en charge";
+"onfido_welcome_list_item_doc" = "votre document d’identité";
+"onfido_welcome_list_header_photo" = "Utilisez votre mobile pour prendre en photo :";
+"onfido_welcome_list_header_record" = "Utilisez votre mobile pour prendre en photo ou en vidéo :";
+"onfido_welcome_list_item_selfie" = "votre visage";
+"onfido_welcome_list_item_video" = "une vidéo de votre visage";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Vue depuis la caméra. Placez la page de la photo de votre document dans le cadre, puis appuyez sur le déclencheur";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vue depuis la caméra. Placez la couverture de votre document dans le cadre, puis appuyez sur le déclencheur";
+"onfido_welcome_list_header_doc_video" = "Utilisez votre mobile pour enregistrer :";
+"onfido_welcome_list_item_face_generic" = "Scannez votre visage";

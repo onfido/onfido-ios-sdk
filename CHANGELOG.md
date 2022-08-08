@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [25.2.0] - 2022-08-01
+
+### Added
+
+- Public: Expose Enterprise Features through WorkflowConfig
+- Public: Combined country and document type selection in one single screen (country first, document type second)
+
+### Fixed
+
+- Public: Fix missing (Visa, Work permit, Generic) document types for customized withDocumentStep API
+- Public: Fix crashing at end of the Orchestration flow in loading screen
+- Public: Correct unable to add audio output when throws the missing media type connection
+- UI: Fixed the issue which causes to show standard font despite custom font feature is enabled
+- Public: Fixed wrong screen being displayed and no error being returned after microphone permission denied
+- Public: Fix not possible to dismiss SDK after consent screen shown
+- Public: Fix response handle doesn't fire in the iOS release 25.1.0
+
 ## [25.1.1] - 2022-07-13
 
 ### Added
