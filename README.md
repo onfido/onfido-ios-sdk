@@ -641,6 +641,7 @@ After receiving the user data from the SDK, you can choose to create a check wit
 
 Please see our [API documentation](https://documentation.onfido.com/#create-check) for more information on how to create a check.
 
+
 ## Customizing SDK
 
 The iOS SDK has multiple customizable options. You can also read our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization).
@@ -1011,6 +1012,7 @@ ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 ```
 
+
 ### UI customization
 
 The iOS SDK supports the customization of colors, fonts and strings used in the SDK flow. For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#ios).
@@ -1053,7 +1055,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 - `primaryColor`: Defines the icon background color, button color and back navigation button color  
 - `primaryTitleColor`: Defines the primary button text color
-- `secondaryTitleColor`: Defines the secondary button text color
+- `secondaryTitleColor`: Defines the secondary button text and border color
 - `primaryBackgroundPressedColor`: Defines the primary button pressed state color
 - `secondaryBackgroundPressedColor`: Defines the secondary button pressed state color
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
@@ -1246,7 +1248,7 @@ Check the following before you go live:
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
 | 12.2 and above   | 6.311|
-| Below 12.2       | up to 6.311* or up to 15.669**|
+| Below 12.2       | up to 6.311* or up to 15.668**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
