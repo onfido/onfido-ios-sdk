@@ -641,6 +641,7 @@ After receiving the user data from the SDK, you can choose to create a check wit
 
 Please see our [API documentation](https://documentation.onfido.com/#create-check) for more information on how to create a check.
 
+
 ## Customizing SDK
 
 The iOS SDK has multiple customizable options. You can also read our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization).
@@ -682,9 +683,9 @@ if (configError) {
 
 #### Document step
 
-In the Document step, a user can pick the type of document to capture and its issuing country before capturing it with their phone camera. Document selection and country selection are both optional screens. These screens will only show to the end user if specific options are not configured to the SDK.
+In the Document step, a user can select the issuing country and document type before taking the photo. This selection screen is optional, and will only show to the end user if a specific country and document type is not configured for the SDK.
 
-You can configure the Document step to capture single document types with specific properties.
+You can configure the Document step to capture single document types with specific properties, as well as customize the screen to display only a limited list of document types:
 
 - **Document type**
 
@@ -704,11 +705,11 @@ The following document types are supported:
 
 **Note**: `Generic` document type doesn't offer an optimized capture experience for a desired document type.
 
-**Note:** If only one document type is specified, users will not see the document selection screen or country selection screen and will be taken directly to the capture screen.
+**Note:** If only one document type is specified, users will not see the selection screen and will be taken directly to the capture screen. Please see a more detailed guide [here](https://documentation.onfido.com/sdk/android/#document-capture-step) for Android, and [here](https://documentation.onfido.com/sdk/ios/#document-step) for iOS
 
 -  **Document country**
 
-Country configuration allows you to specify the country of origin of the document. If a document country is specified for a document type the country selection screen is not displayed.
+Country configuration allows you to specify the country of origin of the document. If issuing country is specified for a particular document type, the selection screen is not displayed.
 
 You'll need to pass the corresponding [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) 3 letter country code to the SDK.
 
@@ -803,9 +804,9 @@ if (documentVariantError) {
 
 ```
 
-- **Customize the document type selection screen**
+- **Customize the issuing country and document type selection screen**
 
-You can customize the screen to display a limited list of documents for a user to select from, using the configuration function to specify only the document types you want to show.
+You can also customize the screen to display only a limited list of document types, using the configuration function to specify the ones you want to show.
 
 ⚠️ Currently you can only include `passport`, `identityCard`, `drivingLicence`, `residencePermit` in the list.
 
@@ -1011,6 +1012,7 @@ ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 ```
 
+
 ### UI customization
 
 The iOS SDK supports the customization of colors, fonts and strings used in the SDK flow. For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#ios).
@@ -1053,7 +1055,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 - `primaryColor`: Defines the icon background color, button color and back navigation button color  
 - `primaryTitleColor`: Defines the primary button text color
-- `secondaryTitleColor`: Defines the secondary button text color
+- `secondaryTitleColor`: Defines the secondary button text and border color
 - `primaryBackgroundPressedColor`: Defines the primary button pressed state color
 - `secondaryBackgroundPressedColor`: Defines the secondary button pressed state color
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
@@ -1245,8 +1247,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.311|
-| Below 12.2       | up to 6.311* or up to 15.669**|
+| 12.2 and above   | 6.343|
+| Below 12.2       | up to 6.343* or up to 15.7**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

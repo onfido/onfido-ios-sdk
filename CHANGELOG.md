@@ -6,22 +6,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [25.2.0] - 2022-08-01
+## [26.0.0] - 2022-08-10
 
 ### Added
 
-- Public: Expose Enterprise Features through WorkflowConfig
-- Public: Combined country and document type selection in one single screen (country first, document type second)
+- Public: Set secondary button border color to equal secondaryTitleColor
 
 ### Fixed
 
-- Public: Fix missing (Visa, Work permit, Generic) document types for customized withDocumentStep API
-- Public: Fix crashing at end of the Orchestration flow in loading screen
-- Public: Correct unable to add audio output when throws the missing media type connection
-- UI: Fixed the issue which causes to show standard font despite custom font feature is enabled
-- Public: Fixed wrong screen being displayed and no error being returned after microphone permission denied
-- Public: Fix not possible to dismiss SDK after consent screen shown
 - Public: Fix response handle doesn't fire in the iOS release 25.1.0
+
+## [25.2.0] - 2022-07-22
+
+### Added
+
+- Public: Exposed Enterprise Features through WorkflowConfig
+
+### Fixed
+
+- Public: Fixed crashing at end of the Studio flow in loading screen
+- Public: Fixed error message to give a more accurate reason to the user when there is a missing media type connection error
+- UI: Fixed the issue which caused standard font to be shown even when the custom font feature was enabled
+- Public: Fixed wrong screen being displayed and no error being returned after microphone permission denied
+- Public: Fixed the issue where it was not possible to dismiss the SDK after the consent screen was shown
+- Public: Fixed missing document types (Visa, Work permit, Generic) for customized `withDocumentStep` API
 
 ## [25.1.1] - 2022-07-13
 
@@ -66,7 +74,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - UI: Fixed the missing body label in the CaptureConfirmationScreen
-- Public: NFC: Fixed the intro screen layout and user interaction 
+- Public: NFC: Fixed the intro screen layout and user interaction
 - UI: Fixed iOS crashes on Obj-C interface
 
 ## [24.4.0] - 2022-03-03
