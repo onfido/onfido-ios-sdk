@@ -438,3 +438,12 @@
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Ansicht der Kamera. Positionieren Sie das Deckblatt Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
 "onfido_welcome_list_header_doc_video" = "Nutzen Sie Ihr Gerät um Folgendes aufzunehmen:";
 "onfido_welcome_list_item_face_generic" = "Scannen Sie Ihr Gesicht";
+"onfido_doc_select_subtitle_country" = "Wählen Sie das ausstellende Land aus, um zu sehen, welche Dokumente wir akzeptieren";
+"onfido_doc_select_section_header_country" = "Ausstellendes Land";
+"onfido_doc_select_section_header_doc_type" = "Akzeptierte Dokumente";
+"onfido_doc_select_section_input_country_not_found" = "";
+"onfido_doc_select_subtitle_entire_page" = "Ganze Seite";
+"onfido_doc_select_subtitle_photo_page" = "Fotoseite";
+"onfido_doc_select_subtitle_front_back" = "Vorne und Hinten";
+"onfido_doc_select_section_input_placeholder_country_copy" = "Ausstellungsland auswählen";
+"onfido_doc_select_section_input_country_not_found" = "";
