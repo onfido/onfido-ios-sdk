@@ -6,15 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [26.0.1] - 2022-09-08
+
+### Fixed
+
+- Public: Fix end user stuck on Selfie-Video task
+
 ## [26.0.0] - 2022-08-10
 
 ### Added
 
 - Public: Set secondary button border color to equal secondaryTitleColor
+- Public: Update readme file to reflect the combined document type selection and country selection screen
 
 ### Fixed
 
 - Public: Fix response handle doesn't fire in the iOS release 25.1.0
+- Public: Disable image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
+- Public: Missing texts in DE locale
 
 ## [25.2.0] - 2022-07-22
 
