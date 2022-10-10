@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [26.1.0] - 2022-09-30
+
+### Added
+
+- Public: Motion can be set as the face step
+- Public: UX Selfie improvements, the end users knows the image that Onfido is storing
+- Public: Added support for DG11 and DG14 extraction on NFC
+- Public: Added Image Quality Service validations when NFC is enabled
+
+### Changed
+
+- Public: Increased image resolution and change camera stream UI (full width view in 4:3 aspect ratio) for document capture
+- Public: Updated readme file to reflect the combined document type selection and country selection screen
+
+### Fixed
+
+- Public: Fixed video freezing when another app has ongoing audio that we are unable to interrupt, displaying a message to the user when this is the case (most common case is ongoing phone calls)
+- Public: Fixed end user stuck on Selfie-Video task
+
 ## [26.0.1] - 2022-09-08
 
 ### Fixed

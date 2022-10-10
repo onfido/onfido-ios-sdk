@@ -1247,8 +1247,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.343|
-| Below 12.2       | up to 6.343* or up to 15.701**|
+| 12.2 and above   | 6.421|
+| Below 12.2       | up to 6.421* or up to 15.779**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
