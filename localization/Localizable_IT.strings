@@ -202,10 +202,10 @@
 "onfido_nfc_intro_title_passport" = "Scansiona il passaporto elettronico";
 "onfido_nfc_intro_subtitle_passport" = "Segua queste istruzioni";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Rimuova la custodia dal passaporto";
-"onfido_nfc_intro_passport_scan_guide_2" = "Posizioni il passaporto su una superficie piana";
-"onfido_nfc_intro_passport_scan_guide_3" = "Posizionare il telefono sul passaporto";
-"onfido_nfc_intro_passport_scan_guide_4" = "Far scorrere lentamente il telefono verso il basso";
+"onfido_nfc_intro_passport_scan_guide_1" = "Appoggiare il passaporto su una superficie piana";
+"onfido_nfc_intro_passport_scan_guide_2" = "Posizionare il telefono sopra il passaporto";
+"onfido_nfc_intro_passport_scan_guide_3" = "Far scorrere lentamente il telefono verso il basso e verso l'alto";
+"onfido_nfc_intro_passport_scan_guide_4" = "Una volta avviata la scansione, tenere fermo il telefono";
 
 "onfido_nfc_intro_button_primary_passport" = "Inizia la scansione";
 
@@ -588,3 +588,5 @@
 "onfido_video_capture_prompt_detail_audio" = "Per completare questo passaggio non devi riprodurre nessun audio in sottofondo. Assicurati di chiudere eventuali chiamate in corso.";
 "onfido_selfie_intro_list_item_no_face_cover" = "Rimuovi qualsiasi cosa copra il tuo viso. Puoi tenere gli occhiali da vista";
 "onfido_selfie_intro_banner_nudity_message" = "Il tuo viso e lo sfondo verranno acquisiti durante questo processo";
+"onfido_video_intro_error_network_accessibility" = "Impossibile caricare il video di esempio per instabilità di rete";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Ricarica video di esempio";

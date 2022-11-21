@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [27.0.0] - 2022-10-27
+
+### Added
+
+- Public: Added ability to configure Motion face step with Photo or Video fallback in the case that Motion is unsupported by the device
+
+### Changed
+
+- Public: Renamed withNFCReadBetaFeatureEnabled SDK configuration functions to withNFCReadFeatureEnabled
+
+### Fixed
+
+- Public: Fix possibility that UI freezes when green checkmark displayed after successfully taking photo of document
+
 ## [26.1.1] - 2022-10-20
 
 ### Fixed

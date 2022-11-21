@@ -220,10 +220,10 @@
 "onfido_nfc_intro_title_passport" = "Scan your ePassport";
 "onfido_nfc_intro_subtitle_passport" = "Follow these instructions";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Remove your passport cover";
-"onfido_nfc_intro_passport_scan_guide_2" = "Lay your passport on a flat surface";
-"onfido_nfc_intro_passport_scan_guide_3" = "Place your phone over the passport";
-"onfido_nfc_intro_passport_scan_guide_4" = "Slowly slide your phone down";
+"onfido_nfc_intro_passport_scan_guide_1" = "Lay your passport on a flat surface";
+"onfido_nfc_intro_passport_scan_guide_2" = "Place your phone on top of your passport";
+"onfido_nfc_intro_passport_scan_guide_3" = "Slowly slide your phone down and up";
+"onfido_nfc_intro_passport_scan_guide_4" = "Once the scan starts, hold your phone still";
 
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
 
@@ -588,3 +588,5 @@
 "onfido_video_capture_prompt_detail_microphone" = "Your microphone is needed to verify your identity. Please make sure to end any ongoing call.";
 "onfido_video_capture_prompt_header_audio" = "Restart the recording";
 "onfido_video_capture_prompt_detail_audio" = "To clear this step, you must not play any audio in the background. Please make sure to end any ongoing call.";
+"onfido_video_intro_error_network_accessibility" = "Unable to load the example video due to unstable network";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Reload example video";
