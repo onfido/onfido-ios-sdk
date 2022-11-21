@@ -203,10 +203,10 @@
 "onfido_nfc_intro_subtitle_passport" = "Befolgen Sie diese Anweisungen";
 "onfido_nfc_intro_button_primary_passport" = "Scannen starten";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Entfernen Sie die Hülle Ihres Reisepasses";
-"onfido_nfc_intro_passport_scan_guide_2" = "Legen Sie Ihren Reisepass auf eine ebene Fläche";
-"onfido_nfc_intro_passport_scan_guide_3" = "Halten Sie Ihr Telefon über den Reisepass";
-"onfido_nfc_intro_passport_scan_guide_4" = "Schieben Sie Ihr Handy langsam nach unten";
+"onfido_nfc_intro_passport_scan_guide_1" = "Legen Sie Ihren Reisepass auf eine ebene Fläche";
+"onfido_nfc_intro_passport_scan_guide_2" = "Legen Sie Ihr Handy auf Ihren Reisepass";
+"onfido_nfc_intro_passport_scan_guide_3" = "Schieben Sie Ihr Handy langsam nach unten und oben";
+"onfido_nfc_intro_passport_scan_guide_4" = "Sobald der Scanvorgang beginnt, halten Sie Ihr Telefon still.";
 
 "onfido_nfc_intro_sheet_header_ready_passport" = "Legen Sie Ihr Telefon auf Ihren zugeklappten Reisepass";
 "onfido_nfc_intro_sheet_header_scanning_passport" = "Scannen…";
@@ -577,3 +577,5 @@
 "onfido_video_capture_prompt_detail_audio" = "Um diesen Schritt zu durchlaufen, dürfen Sie im Hintergrund keinen Ton abspielen. Bitte sorgen Sie dafür, dass Sie alle aktuellen Telefonate beenden.";
 "onfido_selfie_intro_list_item_no_face_cover" = "Entfernen Sie alles, was Ihr Gesicht verdeckt. Brillen sind zulässig";
 "onfido_selfie_intro_banner_nudity_message" = "Ihr Gesicht und Ihr Hintergrund werden bei diesem Vorgang aufgenommen";
+"onfido_video_intro_error_network_accessibility" = "Beispielvideo kann aufgrund eines instabilen Netzwerks nicht geladen werden";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Beispielvideo neu laden";

@@ -259,10 +259,10 @@
 "onfido_nfc_intro_title_passport" = "Scannez votre passeport électronique";
 "onfido_nfc_intro_subtitle_passport" = "Suivez ces instructions";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Retirez la protection de votre passeport";
-"onfido_nfc_intro_passport_scan_guide_2" = "Mettez le passeport sur une surface plane";
-"onfido_nfc_intro_passport_scan_guide_3" = "Placez votre téléphone sur le passeport";
-"onfido_nfc_intro_passport_scan_guide_4" = "Faites glisser lentement votre téléphone vers le bas";
+"onfido_nfc_intro_passport_scan_guide_1" = "Posez votre passeport sur une surface plane";
+"onfido_nfc_intro_passport_scan_guide_2" = "Placez votre téléphone sur le dessus de votre passeport";
+"onfido_nfc_intro_passport_scan_guide_3" = "Faites glisser lentement votre téléphone vers le bas et vers le haut";
+"onfido_nfc_intro_passport_scan_guide_4" = "Une fois que le scan commence, tenez votre téléphone immobile";
 
 "onfido_nfc_intro_button_primary_passport" = "Commencer le scan";
 
@@ -633,3 +633,5 @@
 "onfido_video_capture_prompt_detail_audio" = "Pour que cette étape soit validée, vous ne devez pas diffuser d’audio en arrière-plan. Veillez à mettre fin à tout appel en cours.";
 "onfido_selfie_intro_list_item_no_face_cover" = "Ôtez tout élément couvrant votre visage. Les lunettes sont acceptées";
 "onfido_selfie_intro_banner_nudity_message" = "Au cours de ce processus, votre visage et votre arrière-plan seront capturés";
+"onfido_video_intro_error_network_accessibility" = "Impossible de charger la vidéo d’exemple en raison d’un réseau instable";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Recharger la vidéo d’exemple";

@@ -334,10 +334,10 @@
 "onfido_doc_capture_header_capturing" = "Houd het stil";
 "onfido_nfc_intro_subtitle_passport" = "Volg deze instructies";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Verwijder het hoesje van uw paspoort";
-"onfido_nfc_intro_passport_scan_guide_2" = "Leg uw paspoort op een vlakke oppervlak";
-"onfido_nfc_intro_passport_scan_guide_3" = "Plaats je telefoon over het paspoort";
-"onfido_nfc_intro_passport_scan_guide_4" = "Schuif je telefoon langzaam naar beneden";
+"onfido_nfc_intro_passport_scan_guide_1" = "Leg uw paspoort op een plat oppervlak";
+"onfido_nfc_intro_passport_scan_guide_2" = "Leg uw telefoon bovenop uw paspoort";
+"onfido_nfc_intro_passport_scan_guide_3" = "Schuif je telefoon langzaam omlaag en omhoog";
+"onfido_nfc_intro_passport_scan_guide_4" = "Zodra de scan begint, houdt u uw telefoon stil";
 
 /* User consent load error */
 "onfido_user_consent_button_primary" = "Accept";
@@ -587,3 +587,5 @@
 "onfido_video_capture_prompt_detail_audio" = "Om deze stap goed uit te voeren, mag er geen geluid op de achtergrond worden afgespeeld. Zorg ervoor dat u een lopend gesprek beëindigt.";
 "onfido_selfie_intro_list_item_no_face_cover" = "Zet alles af wat uw gezicht bedekt. Een bril mag wel";
 "onfido_selfie_intro_banner_nudity_message" = "Uw gezicht en uw achtergrond worden tijdens dit proces opgenomen";
+"onfido_video_intro_error_network_accessibility" = "We konden de voorbeeldvideo niet laden vanwege een instabiel netwerk";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Laad voorbeeldvideo opnieuw";

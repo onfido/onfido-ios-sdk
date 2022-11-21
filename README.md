@@ -584,17 +584,17 @@ final class SwiftDynamicFrameworkOnfidoRunner: OnfidoRunner, MediaCallback {
                Break
            }
     }
- 
+
     configBuilder.withMediaCallback(mediaCallback: self)
-  
- 
+
+
 }    
 ```
 
 ### User data
 The callbacks return an object including the information that the SDK normally sends directly to Onfido. The callbacks are invoked when the end user confirms submission of their image through the SDK’s user interface.
 
-**Note:** Currently, end user data will still automatically be sent to the Onfido backend, but you are not required to use Onfido to process this data. 
+**Note:** Currently, end user data will still automatically be sent to the Onfido backend, but you are not required to use Onfido to process this data.
 
 The callback returns 3 possible objects:
 1. For documents, the callback returns a `MediaDocumentResult` object:
@@ -603,7 +603,7 @@ The callback returns 3 possible objects:
          metadata: DocumentMetadata
          file: MediaFile
      }
-``` 
+```
    The `DocumentMetadata` object contains the metadata of the captured document:
 ```json5
      {
@@ -628,7 +628,7 @@ The callback returns 3 possible objects:
     fileData: MediaFile
 }
 ```
- 
+
 And the `MediaFile` object has:
 ```json5
 {
@@ -637,7 +637,7 @@ And the `MediaFile` object has:
 }
 ```
 #### Create a check with Onfido
-After receiving the user data from the SDK, you can choose to create a check with Onfido. In this case, you don’t need to re-upload the end user data as it is sent automatically from the SDK to the Onfido backend. 
+After receiving the user data from the SDK, you can choose to create a check with Onfido. In this case, you don’t need to re-upload the end user data as it is sent automatically from the SDK to the Onfido backend.
 
 Please see our [API documentation](https://documentation.onfido.com/#create-check) for more information on how to create a check.
 
@@ -924,7 +924,7 @@ if (configError) {
 }
 ```
 
-### Enabling ePassport NFC extraction (beta)
+### Enabling ePassport NFC extraction
 
 #### Pre-requisites
 
@@ -954,15 +954,13 @@ if (configError) {
 
 Some passports contain a chip which can be accessed using Near Field Communication. The SDK provides a set of screens to extract the information contained within the chip to verify the original document is present.
 
-⚠️ **Note** This feature is currently in beta and the API is subject to change. Changes to the API will not result in a breaking change.
-
 ##### Swift
 
 ```swift
 let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withDocumentStep()
-    .withNFCReadBetaFeatureEnabled()
+    .withNFCReadFeatureEnabled()
     .build()
 ```
 
@@ -974,7 +972,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withWelcomeStep];
 [configBuilder withDocumentStep];
-[configBuilder withNFCReadBetaFeatureEnabled];
+[configBuilder withNFCReadFeatureEnabled];
 
 NSError *configError = NULL;
 ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
@@ -1247,8 +1245,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.422|
-| Below 12.2       | up to 6.422* or up to 15.78**|
+| 12.2 and above   | 6.473|
+| Below 12.2       | up to 6.473* or up to 15.831**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

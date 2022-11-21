@@ -260,10 +260,10 @@
 "onfido_nfc_intro_title_passport" = "Escanee su pasaporte electrónico";
 "onfido_nfc_intro_subtitle_passport" = "Siga estas instrucciones";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Retire la funda del pasaporte";
-"onfido_nfc_intro_passport_scan_guide_2" = "Coloque el pasaporte en una superficie plana";
-"onfido_nfc_intro_passport_scan_guide_3" = "Coloca el teléfono sobre el pasaporte";
-"onfido_nfc_intro_passport_scan_guide_4" = "Desliza lentamente tu teléfono hacia abajo";
+"onfido_nfc_intro_passport_scan_guide_1" = "Poner el pasaporte en una superficie plana";
+"onfido_nfc_intro_passport_scan_guide_2" = "Coloca tu teléfono encima de tu pasaporte";
+"onfido_nfc_intro_passport_scan_guide_3" = "Desliza lentamente tu teléfono hacia abajo y hacia arriba";
+"onfido_nfc_intro_passport_scan_guide_4" = "Una vez que se inicie el escaneo, mantén tu teléfono quieto";
 
 "onfido_nfc_intro_button_primary_passport" = "Empezar a escanear";
 
@@ -641,3 +641,5 @@
 "onfido_video_capture_prompt_detail_audio" = "Para borrar este paso, no debe reproducir ningún audio en segundo plano. Asegúrese de finalizar cualquier llamada en curso.";
 "onfido_selfie_intro_list_item_no_face_cover" = "Elimine todo lo que cubra su cara. Se puede dejar las gafas puestas";
 "onfido_selfie_intro_banner_nudity_message" = "Su cara y el fondo serán capturados durante este proceso";
+"onfido_video_intro_error_network_accessibility" = "No se puede cargar el vídeo de ejemplo debido a la inestabilidad de la red";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Volver a cargar el vídeo de ejemplo";
