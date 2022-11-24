@@ -420,10 +420,12 @@ switch response {
     switch error {
       case OnfidoFlowError.cameraPermission:
         // It happens if the user denies permission to the sdk during the flow
-      case OnfidoFlowError.failedToWriteToDisk:
-        // It happens when the SDK tries to save capture to disk, maybe due to a lack of space
       case OnfidoFlowError.microphonePermission:
         // It happens when the user denies permission for microphone usage by the app during the flow
+      case OnfidoFlowError.motionUnsupported:
+        // It happens when the device does not support the Motion product and no fallback capture method has been configured
+      case OnfidoFlowError.failedToWriteToDisk:
+        // It happens when the SDK tries to save capture to disk, maybe due to a lack of space
       case OnfidoFlowError.upload(let OnfidoApiError):
         // It happens when the SDK receives an error from a API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
@@ -492,11 +494,14 @@ switch (error.code) {
     case ONFlowErrorCameraPermission:
         // It happens if the user denies permission to the sdk during the flow
         break;
-    case ONFlowErrorFailedToWriteToDisk:
-        // It happens when the SDK tries to save capture to disk, maybe due to a lack of space
-        break;
     case ONFlowErrorMicrophonePermission:
         // It happens when the user denies permission for microphone usage by the app during the flow
+        break;
+    case ONFlowErrorMotionUnsupported:
+        // It happens when the device does not support the Motion product and no fallback capture method has been configured
+        break;
+    case ONFlowErrorFailedToWriteToDisk:
+        // It happens when the SDK tries to save capture to disk, maybe due to a lack of space
         break;
     case ONFlowErrorUpload:
         // It happens when the SDK receives an error from a API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
@@ -828,12 +833,13 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 #### Face step
 
-In the Face step, a user can use the front camera to capture either a live photo of their face, or a live video.
+In the Face step, a user can use the front camera to capture a live photo of their face (Photo), a live video (Video) or a motion capture using the Motion product (Motion).
 
-The Face step has 2 variants for the Swift interface:
+The Face step has 3 variants for the Swift interface:
 
 - `FaceStepVariant.photo(with: PhotoStepConfiguration?)`
 - `FaceStepVariant.video(with: VideoStepConfiguration?)`
+- `FaceStepVariant.motion(with: MotionStepConfiguration?)`
 
 For the Objective-C interface, you should use `ONFaceStepVariantConfig` as below.
 
@@ -852,18 +858,105 @@ To configure for a live video:
 NSError * error;
 Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 [variantBuilder withVideoCaptureWithConfig:
- [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES]];
+   [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES manualLivenessCapture: NO]];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
 
+To configure for Motion with no fallback:
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withMotionWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+To configure for Motion with fallback to capturing a live photo:
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withMotionWithConfig:
+    [[MotionStepConfiguration alloc] initWithCaptureFallback:
+        [[MotionStepCaptureFallback alloc] initWithPhotoFallbackWithConfiguration:
+            [[PhotoStepConfiguration alloc] initWithShowSelfieIntroScreen: YES]]]];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+To configure for Motion with fallback to capturing a live video:
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withMotionWithConfig:
+    [[MotionStepConfiguration alloc] initWithCaptureFallback:
+        [[MotionStepCaptureFallback alloc] initWithVideoFallbackWithConfiguration:
+            [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES manualLivenessCapture: NO]]]];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
+The fallback configured for Motion will be triggered if the device does not support Motion, based on minimum device and OS requirements. In the case that the device does not support Motion and no fallback is configured, an `ONFlowError` of case `motionUnsupported` will be returned through the response handler.
+
 ##### Swift
+
+To configure for a live photo:
 
 ```swift
 let config = try! OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
-    .withFaceStep(ofVariant: .photo(withConfiguration: PhotoStepConfiguration(showSelfieIntroScreen: true)))  // specify the face capture variant here
+    .withFaceStep(ofVariant: .photo(withConfiguration: PhotoStepConfiguration(showSelfieIntroScreen: true)))
+    .build()
+```
+
+To configure for a live video:
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .video(withConfiguration: VideoStepConfiguration(showIntroVideo: true, manualLivenessCapture: false)))
+    .build()
+```
+
+To configure for Motion with no fallback:
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .motion(withConfiguration: nil))
+    .build()
+```
+
+To configure for Motion with fallback to capturing a live photo:
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .motion(withConfiguration:
+        MotionStepConfiguration(captureFallback:
+            MotionStepCaptureFallback(photoFallbackWithConfiguration:
+                PhotoStepConfiguration(showSelfieIntroScreen: true)))))
+    .build()
+```
+
+To configure for Motion with fallback to capturing a live video:
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .motion(withConfiguration:
+        MotionStepConfiguration(captureFallback:
+            MotionStepCaptureFallback(videoFallbackWithConfiguration:
+                VideoStepConfiguration(showIntroVideo: true, manualLivenessCapture: false)))))
     .build()
 ```
 
