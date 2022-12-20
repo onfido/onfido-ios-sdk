@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [27.1.0] - 2022-12-12
+
+### Added
+
+- Public: Added support for address cards as proof of address in certain regions
+- Public: Create Onfido Studio documentation file
+- Public: Added Studio support for Motion
+
+### Changed
+
+- Public: Added documentation for Motion to the README
+- : Add support of Dashboard feature to configure supported documents
+
+### Fixed
+
+- UI: Fixed the crash issue on iPads when device rotated while any alert is shown on UI
+
 ## [27.0.0] - 2022-10-27
 
 ### Added

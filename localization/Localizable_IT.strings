@@ -590,3 +590,9 @@
 "onfido_selfie_intro_banner_nudity_message" = "Il tuo viso e lo sfondo verranno acquisiti durante questo processo";
 "onfido_video_intro_error_network_accessibility" = "Impossibile caricare il video di esempio per instabilità di rete";
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Ricarica video di esempio";
+"onfido_doc_select_button_address_card" = "";
+"onfido_doc_select_button_address_card_detail" = "";
+"onfido_poa_guidance_subtitle_address_card" = "";
+"onfido_poa_guidance_instructions_full_address" = "";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "";
+"onfido_poa_guidance_instructions_expiry_date" = "";

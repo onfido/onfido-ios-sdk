@@ -579,3 +579,9 @@
 "onfido_selfie_intro_banner_nudity_message" = "Ihr Gesicht und Ihr Hintergrund werden bei diesem Vorgang aufgenommen";
 "onfido_video_intro_error_network_accessibility" = "Beispielvideo kann aufgrund eines instabilen Netzwerks nicht geladen werden";
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Beispielvideo neu laden";
+"onfido_doc_select_button_address_card" = "";
+"onfido_doc_select_button_address_card_detail" = "";
+"onfido_poa_guidance_subtitle_address_card" = "";
+"onfido_poa_guidance_instructions_full_address" = "";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "";
+"onfido_poa_guidance_instructions_expiry_date" = "";
