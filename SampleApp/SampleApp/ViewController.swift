@@ -1,9 +1,7 @@
 //
 //  ViewController.swift
-//  SampleApp
 //
-//  Created by Anurag Ajwani on 09/03/2017.
-//  Copyright © 2017 example. All rights reserved.
+//  Copyright © 2022 Onfido. All rights reserved.
 //
 
 import Onfido
@@ -18,9 +16,14 @@ final class ViewController: UIViewController {
             if case OnfidoResponse.error(let innerError) = response {
                 self.showErrorMessage(forError: innerError)
             } else if case OnfidoResponse.success = response {
-                // SDK flow has been completed successfully. You may want to create a check in your backend at this point.
-                // Follow https://github.com/onfido/onfido-ios-sdk#2-creating-a-check to understand how to create a check
-                let alert = UIAlertController(title: "Success", message: "SDK flow has been completed successfully", preferredStyle: .alert)
+                // SDK flow has been completed successfully. You may want to create a check in your backend at this
+                // point. Follow https://github.com/onfido/onfido-ios-sdk#2-creating-a-check to understand how to create
+                // a check
+                let alert = UIAlertController(
+                    title: "Success",
+                    message: "SDK flow has been completed successfully",
+                    preferredStyle: .alert
+                )
                 let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
                 alert.addAction(alertAction)
                 self.present(alert, animated: true)
@@ -33,7 +36,7 @@ final class ViewController: UIViewController {
         }
         
         // TODO: Call your backend to get `sdkToken` https://github.com/onfido/onfido-ios-sdk#31-sdk-tokens
-        let sdkToken: String = "SDK_TOKEN"
+        let sdkToken = "SDK_TOKEN"
         
         let config = try! OnfidoConfig.builder()
             .withSDKToken(sdkToken)
@@ -52,18 +55,19 @@ final class ViewController: UIViewController {
              Supported presentation styles are:
              For iPhones: .fullScreen
              For iPads: .fullScreen and .formSheet
+             Due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
              */
-            var modalPresentationStyle: UIModalPresentationStyle = .fullScreen // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
+            var modalPresentationStyle: UIModalPresentationStyle = .fullScreen
             
             if UIDevice.current.userInterfaceIdiom == .pad {
                 modalPresentationStyle = .formSheet // to present modally on iPads
             }
             
             onfidoRun.modalPresentationStyle = modalPresentationStyle
-            self.present(onfidoRun, animated: true, completion: nil)
+            present(onfidoRun, animated: true, completion: nil)
         } catch {
             // cannot execute the flow
-            self.showErrorMessage(forError: error)
+            showErrorMessage(forError: error)
         }
     }
     
@@ -71,6 +75,6 @@ final class ViewController: UIViewController {
         let alert = UIAlertController(title: "Error", message: "Onfido SDK errored \(error)", preferredStyle: .alert)
         let alertAction = UIAlertAction(title: "OK", style: .default, handler: { _ in })
         alert.addAction(alertAction)
-        self.present(alert, animated: true)
+        present(alert, animated: true)
     }
 }

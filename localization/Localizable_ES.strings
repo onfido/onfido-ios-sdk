@@ -643,3 +643,9 @@
 "onfido_selfie_intro_banner_nudity_message" = "Su cara y el fondo serán capturados durante este proceso";
 "onfido_video_intro_error_network_accessibility" = "No se puede cargar el vídeo de ejemplo debido a la inestabilidad de la red";
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Volver a cargar el vídeo de ejemplo";
+"onfido_doc_select_button_address_card" = "";
+"onfido_doc_select_button_address_card_detail" = "";
+"onfido_poa_guidance_subtitle_address_card" = "";
+"onfido_poa_guidance_instructions_full_address" = "";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "";
+"onfido_poa_guidance_instructions_expiry_date" = "";

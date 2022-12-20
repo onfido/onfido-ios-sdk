@@ -61,6 +61,10 @@ It offers a number of benefits to help you create the best identity verification
 
 ⚠️ The following content assumes you're using our API v3 versions for backend calls. If you are currently using API `v2` please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
 
+> ℹ️ 
+> 
+> If you are integrating using Onfido Studio please see our [Studio integration guide](ONFIDO_STUDIO.md)
+
 ### 1. Obtain an API token
 
 In order to start integrating, you'll need an [API token](https://documentation.onfido.com/#api-tokens).
@@ -1121,9 +1125,6 @@ appearance.fontRegular = <DESIRED_FONT_NAME_HERE>
 appearance.fontBold = <DESIRED_FONT_NAME_HERE>
 appearance.supportDarkMode = <true | false>
 appearance.captureSuccessColors = <CaptureSuccessColors object>
-
-let configBuilder = OnfidoConfig.builder()
-configBuilder.withAppearance(appearance)
 ```
 
 #### Objective-C
@@ -1139,9 +1140,6 @@ appearance.fontRegular = <DESIRED_FONT_NAME_HERE>;
 appearance.fontBold = <DESIRED_FONT_NAME_HERE>;
 appearance.supportDarkMode = <true | false>;
 appearance.captureSuccessColors = <CaptureSuccessColors object>;
-
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-[configBuilder withAppearance:appearance];
 ```
 
 - `primaryColor`: Defines the icon background color, button color and back navigation button color  
@@ -1176,6 +1174,23 @@ configBuilder.withAppearance(appearance)
 ```Objective-C
 ONAppearance *appearance = [[ONAppearance alloc] initWithSupportDarkMode:<true|false>];
 
+```
+
+#### Applying the Appearance object
+To apply the appearance you can use the methods below:
+
+##### Swift
+
+```Swift
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withAppearance(appearance)
+```
+
+##### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withAppearance:appearance];
 ```
 
 ### Language customization
@@ -1338,8 +1353,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 6.473|
-| Below 12.2       | up to 6.473* or up to 15.831**|
+| 12.2 and above   | 11.803|
+| Below 12.2       | up to 11.803* or up to 21.161**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

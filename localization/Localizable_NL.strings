@@ -589,3 +589,9 @@
 "onfido_selfie_intro_banner_nudity_message" = "Uw gezicht en uw achtergrond worden tijdens dit proces opgenomen";
 "onfido_video_intro_error_network_accessibility" = "We konden de voorbeeldvideo niet laden vanwege een instabiel netwerk";
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Laad voorbeeldvideo opnieuw";
+"onfido_doc_select_button_address_card" = "";
+"onfido_doc_select_button_address_card_detail" = "";
+"onfido_poa_guidance_subtitle_address_card" = "";
+"onfido_poa_guidance_instructions_full_address" = "";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "";
+"onfido_poa_guidance_instructions_expiry_date" = "";
