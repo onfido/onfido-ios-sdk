@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [27.2.0] - 2022-12-22
+
+### Added
+
+- Public: Extended localisation support to 44 languages
+- Public: Added RTL languages support
+
+### Fixed
+
+- Public: Fix issue with registration of Appearance
+- Public: Fix crash when user stops recording video
+- Public: Remove unnecessary camera exposure mode configuration
+
 ## [27.1.0] - 2022-12-12
 
 ### Added

@@ -1195,15 +1195,52 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 ### Language customization
 
-The SDK supports and maintains the following 7 languages:
+The SDK supports and maintains the following 44 languages:
 
- - English (en) 🇬🇧
- - Spanish (es) 🇪🇸
- - French (fr) 🇫🇷
- - German (de) 🇩🇪
- - Italian (it) 🇮🇹
- - Portuguese (pt) 🇵🇹
- - Dutch (nl) 🇳🇱
+- Arabic: ar 🇦🇪
+- Armenian: hy 🇦🇲
+- Bulgarian: bg 🇧🇬
+- Chinese (Simplified): zh_Hans 🇨🇳
+- Chinese (Traditional): zh_Hant 🇨🇳
+- Croatian: hr 🇭🇷
+- Czech: cs 🇨🇿
+- Danish: da 🇩🇰
+- Dutch: nl 🇳🇱
+- English (United Kingdom): en_GB 🇬🇧
+- English (United States): en_US 🇺🇸
+- Estonian: et 🇪🇪
+- Finnish: fi 🇫🇮
+- French (Canadian): fr_CA 🇫🇷 🇨🇦
+- French: fr 🇫🇷
+- German: de 🇩🇪
+- Greek: el 🇬🇷
+- Hebrew: he 🇮🇱
+- Hindi: hi 🇮🇳
+- Hungarian: hu 🇭🇺
+- Indonesian: id 🇮🇩
+- Italian: it 🇮🇹
+- Japanese: ja 🇯🇵
+- Korean: ko 🇰🇷
+- Latvian: lv 🇱🇻
+- Lithuanian: lt 🇱🇹
+- Malay: ms 🇲🇾
+- Norwegian: nb 🇳🇴
+- Persian: fa 🇮🇷
+- Polish: pl 🇵🇱
+- Portuguese (Brazil): pt_BR 🇵🇹 🇧🇷
+- Portuguese: pt 🇵🇹
+- Romanian: ro 🇷🇴
+- Russian: ru 🇷🇺
+- Serbian: sr_Latn 🇷🇸
+- Slovak: sk 🇸🇰
+- Slovenian: sl 🇸🇮
+- Spanish (Latin America): es_419 🇪🇸 🇺🇸
+- Spanish: es 🇪🇸
+- Swedish: sv 🇸🇪
+- Thai: th 🇹🇭
+- Turkish: tr 🇹🇷
+- Ukrainian: uk 🇺🇦
+- Vietnamese: vi 🇻🇳
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder.
 
@@ -1353,8 +1390,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 11.803|
-| Below 12.2       | up to 11.803* or up to 21.161**|
+| 12.2 and above   | 12.355|
+| Below 12.2       | up to 12.355* or up to 21.712**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

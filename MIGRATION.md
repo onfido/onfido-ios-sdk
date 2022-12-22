@@ -2,6 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 27.2.0 Migration Guide](#onfido-ios-sdk-2720-migration-guide)
+* [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
 * [Onfido iOS SDK 27.0.0 Migration Guide](#onfido-ios-sdk-2700-migration-guide)
 * [Onfido iOS SDK 25.0.0 Migration Guide](#onfido-ios-sdk-2500-migration-guide)
 * [Onfido iOS SDK 24.2.0 Migration Guide](#onfido-ios-sdk-2420-migration-guide)
@@ -56,6 +58,97 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+
+## Onfido iOS SDK 27.2.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_welcome_start_workflow_button_trial`
+
+- `onfido_enter_can_title`
+
+- `onfido_enter_can_subtitle`
+
+- `onfido_enter_can_disclaimer`
+
+- `onfido_enter_can_button_primary`
+
+- `onfido_nfc_scan_error_title`
+
+- `onfido_nfc_scan_error_list_item`
+
+- `onfido_nfc_scan_error_list_item_2`
+
+- `onfido_nfc_scan_error_button_primary`
+
+- `onfido_welcome_nfc_title`
+
+- `onfido_welcome_nfc_subtitle`
+
+- `onfido_welcome_nfc_list_header_nfc`
+
+- `onfido_welcome_nfc_list_item`
+
+- `onfido_welcome_nfc_list_item_2`
+
+- `onfido_welcome_nfc_button_primary`
+
+- `onfido_intro_scan_title`
+
+- `onfido_intro_scan_subtitle`
+
+- `onfido_intro_scan_list_item`
+
+- `onfido_intro_scan_list_item_3`
+
+- `onfido_intro_scan_button_primary`
+
+- `onfido_nfc_scan_sheet`
+
+- `onfido_nfc_scan_scanning_sheet_1`
+
+- `onfido_nfc_scan_can-required_sheet_2`
+
+- `onfido_nfc_scan_lost-contact_sheet_3`
+
+- `onfido_nfc_scan_lost-connection_sheet_4`
+
+- `onfido_nfc_scan_incorrect-can_sheet_5`
+
+- `onfido_enter_can_error_label`
+
+- `onfido_enter_can_substring_attempt_singular`
+
+- `onfido_enter_can_substring_attempt_plural`
+
+- `onfido_nfc_scan_error_button_secondary`
+
+- `onfido_intro_scan_animation_ios`
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_poa_intro_list_shows_address_ios`
+
+- `onfido_poa_intro_list_matches_signup_ios`
+
+- `onfido_poa_intro_list_most_recent_ios`
+
+- `onfido_poa_intro_title_ios`
+
+- `onfido_poa_guidance_subtitle_bill_ios`
+
+- `onfido_poa_guidance_subtitle_bank_statement_ios`
+
+- `onfido_poa_guidance_subtitle_tax_letter_ios`
+
+- `onfido_poa_guidance_subtitle_benefits_letter_ios`
 
 ## Onfido iOS SDK 27.0.0 Migration Guide
 
