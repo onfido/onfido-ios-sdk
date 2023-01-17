@@ -590,7 +590,7 @@
 "onfido_welcome_start_workflow_button_trial" = "Start verification (TEST)";
 "onfido_enter_can_title" = "Enter the CAN";
 "onfido_enter_can_subtitle" = "Please make sure the number provided matches the number on the document.";
-"onfido_enter_can_disclaimer" = "The [%i]-digit number is located at the front of your document.";
+"onfido_enter_can_disclaimer" = "The %d-digit number is located at the front of your document.";
 "onfido_enter_can_button_primary" = "Continue";
 "onfido_nfc_scan_error_title" = "We couldn't scan your document";
 "onfido_nfc_scan_error_list_item" = "Remove your phone cover";
@@ -613,8 +613,9 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Lost contact with NFC card\nMove your device slightly up or down.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Lost connection\nWe couldn’t scan your document";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Incorrect CAN";
-"onfido_enter_can_error_label" = "You have [%i] [%s] left.";
+"onfido_enter_can_error_label" = "You have %d %@ left.";
 "onfido_enter_can_substring_attempt_singular" = "attempt";
 "onfido_enter_can_substring_attempt_plural" = "attempts";
 "onfido_nfc_scan_error_button_secondary" = "Get verified without NFC";
 "onfido_intro_scan_animation_ios" = "Place your document at the top back of your device. Once the scan starts, hold them still.";
+"onfido_nfc_scan_sheet_success" = "Scanning successful";
