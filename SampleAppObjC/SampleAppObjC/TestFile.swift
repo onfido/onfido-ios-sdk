@@ -1,7 +1,7 @@
 //
 //  TestFile.swift
 //
-//  Copyright © 2022 Onfido. All rights reserved.
+//  Copyright © 2016-2023 Onfido. All rights reserved.
 //
 
 import Foundation
