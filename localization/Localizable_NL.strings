@@ -73,7 +73,6 @@
 /* Folded paper document confirmation */
 "onfido_doc_confirmation_body_folded_doc" = "Zorg dat uw document volledig uitgevouwen is en dat de foto scherp is";
 "onfido_doc_video_capture_detail_folded_doc_front" = "Leg uw document plat, inclusief alle binnenste pagina's (moeten uw foto bevatten)";
-"onfido_doc_video_capture_header_folded_doc_front" = "Zijde profielfoto";
 "onfido_doc_capture_prompt_button_paper" = "Papieren document";
 "onfido_app_title_doc_capture_license_fr" = "Frans rijbewijs";
 "onfido_app_title_doc_capture_license_de" = "Duits rijbewijs";
@@ -107,8 +106,8 @@
 "onfido_video_capture_prompt_header_restart" = "Start de opname";
 "onfido_video_capture_prompt_detail_restart" = "Om deze step te wissen, moet u uw gezicht tijdens de opname in het kader houden.";
 "onfido_video_capture_prompt_button_restart" = "Opnieuw starten";
-/* Locale identifier */
-"onfido_locale" = "en";
+
+
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Houd uw gezicht binnen de ovaal";
 "onfido_video_capture_body" = "Houd uw gezicht binnen de ovaal om te beginnen met opnemen.";
@@ -275,35 +274,12 @@
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
 
-"onfido_welcome_list_item_doc_video_flash" = "We zetten de flits van uw apparaat aan tijdens het opnemen van een filmpje";
-"onfido_welcome_list_item_doc_video_timeout" = "Opnemen is beperkt tot %d seconden";
-"onfido_doc_video_capture_header" = "Houd uw document vast en plaats de voorkant in het kader";
-"onfido_doc_video_capture_header_step1" = "Houd het nu stil";
-"onfido_doc_video_capture_header_step2" = "Draai uw document langzaam om, zodat de achterkant zichtbaar wordt";
 /* User consent load error */
 
 "onfido_app_title_user_consent_load_fail" = "Verifieer uw identiteit";
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
-"onfido_doc_video_capture_detail_step2" = "Zorg dat het document altijd volledig zichtbaar is";
-"onfido_doc_video_confirmation_button_secondary_preview" = "Video weergeven";
-"onfido_doc_video_capture_button_primary_fallback" = "Volgende stap";
-"onfido_doc_video_capture_button_primary_fallback_end" = "Voltooi opname";
-"onfido_doc_video_capture_header_passport" = "Houd uw paspoort vast en plaats de fotopagina in het kader";
-"onfido_doc_video_capture_header_passport_progress" = "Houd het stil";
-"onfido_doc_video_capture_header_paper_doc_step2" = "Draai uw document langzaam om, zodat de buitenste pagina's zichtbaar worden";
-"onfido_doc_video_capture_stepper" = "Stap %d van %d";
-"onfido_doc_video_capture_prompt_detail_timeout" = "Opnemen video is beperkt tot %d seconden";
-"onfido_doc_video_capture_alert_wrong_side" = "Toon de achterkant van uw document";
-"onfido_doc_video_capture_prompt_header_timeout" = "Het lijkt erop dat het te lang duurde";
-"onfido_doc_video_capture_prompt_button_timeout" = "Probeer opnieuw";
-"onfido_app_title_doc_video_confirmation" = "Verifieer uw identiteit";
-"onfido_doc_video_confirmation_button_primary" = "Verzend video";
-"onfido_doc_video_confirmation_body" = "Uw filmpje is opgenomen";
-"onfido_doc_video_capture_button_primary_start" = "Start met opnemen";
-"onfido_doc_video_confirmation_button_secondary_retake" = "Neem filmpje opnieuw op";
-"onfido_doc_video_confirmation_title" = "Dank u";
 "onfido_country_select_search_results_none_accessibility" = "Geen passende resultaten";
 "onfido_country_select_search_results_one_accessibility" = "Eén resultaat gevonden";
 "onfido_country_select_search_results_multiple_accessibility" = "%d resultaten gevonden";
@@ -318,7 +294,6 @@
 "onfido_video_capture_turn_success_accessibility" = "Draai hoofd gedetecteerd";
 "onfido_welcome_list_header" = "Gebruik uw apparaat om:";
 "onfido_welcome_list_item_doc_photo" = "Een foto te nemen van uw identiteitsbewijs";
-"onfido_welcome_list_item_doc_video" = "Een filmpje te maken van uw identiteitsbewijs";
 "onfido_welcome_list_item_doc_generic" = "Uw identiteitsbewijs te scannen";
 "onfido_welcome_list_item_face_photo" = "Een foto van uw gezicht te nemen";
 "onfido_welcome_list_item_face_video" = "Een filmpje van uw gezicht te maken";
@@ -412,7 +387,7 @@
 "onfido_avc_intro_list_item_one" = "Plaats eerst uw gezicht in het kader";
 "onfido_avc_intro_list_item_two" = "Draai uw hoofd dan langzaam naar beide kanten";
 "onfido_avc_intro_disclaimer" = "Wees u er bewust van dat we uw gezicht en achtergrond zullen opnemen";
-"onfido_avc_intro_button_primary_ready" = "Ik ben klaar";
+"onfido_avc_intro_button_primary_ready" = "Start met opnemen";
 "onfido_avc_face_alignment_title" = "Plaats uw gezicht in het kader";
 "onfido_avc_face_alignment_feedback_move_closer" = "Kom dichterbij";
 "onfido_avc_face_alignment_feedback_move_back" = "Ga naar achteren";
@@ -458,7 +433,6 @@
 "onfido_welcome_list_item_video" = "een filmpje van uzelf";
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Weergeven vanaf camera. Plaats de fotopagina van uw document in het kader en tik vervolgens op de sluiter";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Weergeven vanaf camera. Plaats de kaft van uw document in het kader en tik vervolgens op de sluiter";
-"onfido_welcome_list_header_doc_video" = "Gebruik uw apparaat om op te nemen:";
 "onfido_welcome_list_item_face_generic" = "Uw gezicht te scannen";
 "onfido_permission_recovery_subtitle_cam" = "We kunnen u niet verifiëren zonder camera";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Weergeven vanaf camera. Plaats de voorkant van uw document in het kader en tik vervolgens op de sluiter";
@@ -525,8 +499,6 @@
 "onfido_doc_capture_frame_accessibility_dl_back_auto" = "Weergeven vanaf camera. Plaats de achterkant van uw document in het kader";
 "onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Weergeven vanaf camera. Plaats de fotozijde van uw document in het kader en tik vervolgens op de sluiter";
 "onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Weergeven vanaf camera. Plaats de buitenste pagina's van uw document in het kader en tik vervolgens op de sluiter";
-"onfido_outro_title" = "Dank u";
-"onfido_doc_video_capture_success_accessibility" = "Gelukt";
 "onfido_doc_capture_button_primary" = "Start scannen van document";
 "onfido_selfie_capture_button_primary" = "Start een gezichtsscan";
 "onfido_nfc_sheet_success_instruction_card" = "We hebben uw kaart gescand";
@@ -613,7 +585,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Contact met NFC-kaart verloren\nBeweeg uw apparaat iets omhoog of omlaag.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Verbinding verbroken\nWe konden uw document niet scannen";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Onjuiste CAN";
-"onfido_enter_can_error_label" = "Je hebt %d %@ over.";
+"onfido_enter_can_error_label" = "Je hebt [%i] [%s] over.";
 "onfido_enter_can_substring_attempt_singular" = "poging";
 "onfido_enter_can_substring_attempt_plural" = "pogingen";
 "onfido_nfc_scan_error_button_secondary" = "Krijg geverifieerd zonder NFC";
@@ -674,3 +646,5 @@
 "onfido_nfc_intro_carousel_body_lay_flat" = "";
 "onfido_app_title_country_select_search" = "";
 "onfido_nfc_scan_sheet_success" = "Succesvol scannen";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Uw gezicht, achtergrond en geluid worden tijdens dit proces opgenomen";
+"onfido_avc_intro_disclaimer_camera_on" = "Uw gezicht en uw achtergrond worden tijdens dit proces opgenomen.";
