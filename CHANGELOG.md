@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [27.3.1] - 2023-03-01
+
+### Fixed
+
+- Fixed issue of Video product's video upload timing out after 5 seconds, increased to 60 seconds
+
 ## [27.3.0] - 2023-01-05
 
 ### Changed
