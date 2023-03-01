@@ -2,8 +2,8 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
-* [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
 * [Onfido iOS SDK 27.2.0 Migration Guide](#onfido-ios-sdk-2720-migration-guide)
+* [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
 * [Onfido iOS SDK 27.0.0 Migration Guide](#onfido-ios-sdk-2700-migration-guide)
 * [Onfido iOS SDK 25.0.0 Migration Guide](#onfido-ios-sdk-2500-migration-guide)
 * [Onfido iOS SDK 24.2.0 Migration Guide](#onfido-ios-sdk-2420-migration-guide)
@@ -58,50 +58,6 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
-## Onfido iOS SDK 28.0.0 Migration Guide
-
-### Breaking API Changes
-
-- Removed deprecated Document variant public APIs
-- Removed SegmentSDK for analytics
-
-### String Changes
-
-#### Removed
-
-The following string keys have been **removed**:
-- `onfido_app_title_doc_video_confirmation`
-- `onfido_doc_video_capture_alert_wrong_side`
-- `onfido_doc_video_capture_button_primary_fallback`
-- `onfido_doc_video_capture_button_primary_fallback_end`
-- `onfido_doc_video_capture_button_primary_start`
-- `onfido_doc_video_capture_detail_step2`
-- `onfido_doc_video_capture_header`
-- `onfido_doc_video_capture_header_paper_doc_step2`
-- `onfido_doc_video_capture_header_passport`
-- `onfido_doc_video_capture_header_passport_progress`
-- `onfido_doc_video_capture_header_step1`
-- `onfido_doc_video_capture_header_step2`
-- `onfido_doc_video_capture_prompt_button_timeout`
-- `onfido_doc_video_capture_prompt_detail_timeout`
-- `onfido_doc_video_capture_prompt_header_timeout`
-- `onfido_doc_video_capture_stepper`
-- `onfido_doc_video_capture_success_accessibility`
-- `onfido_doc_video_confirmation_body`
-- `onfido_doc_video_confirmation_button_primary`
-- `onfido_doc_video_confirmation_button_secondary`
-- `onfido_doc_video_confirmation_button_secondary_preview`
-- `onfido_doc_video_confirmation_button_secondary_retake`
-- `onfido_doc_video_confirmation_title`
-- `onfido_outro_title`
-- `onfido_welcome_list_header_doc_video`
-- `onfido_welcome_list_item_doc_video`
-- `onfido_welcome_list_item_doc_video_flash`
-- `onfido_welcome_list_item_doc_video_timeout`
-
-### Breaking API changes
-
-- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README]('https://github.com/onfido/onfido-ios-sdk/blob/28.0.0/README.md#document-step') page.
 
 ## Onfido iOS SDK 27.2.0 Migration Guide
 

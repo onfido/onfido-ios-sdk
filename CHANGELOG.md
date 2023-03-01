@@ -6,29 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [28.0.0] - 2023-02-06
-
-### Added
-
-- Added ability to configure Motion face step to enable audio recording
-
-### Changed
-
-- Removed deprecated Document variant public APIs
-- Removed SegmentSDK for analytics
-- Removed requirement for hardcoded `onfido_locale` value in the Localised strings files
+## [27.3.1] - 2023-03-01
 
 ### Fixed
 
-- Crash occurring with iOS 11/12
-- Crash occurring during document capture related to a rare race condition
-- Image orientation for RTL languages
-
-## [27.4.0] - 2023-01-13
-
-### Added
-
-- Support for NFC with ID Cards (PACEv2), CAN-based authentication
+- Fixed issue of Video product's video upload timing out after 5 seconds, increased to 60 seconds
 
 ## [27.3.0] - 2023-01-05
 

@@ -692,36 +692,7 @@ if (configError) {
 
 #### Document step
 
-In the Document step, an end user can select the issuing country and document type before taking the photo. This selection screen is optional, and will only show to the end user if a specific country and document type is **not** configured for the SDK.
-
-You can configure the document capture step in one of two ways: 
-
-- Designating eligible issuing countries and document types on your [Dashboard](https://onfido.com/dashboard/), enabling the SDK to automatically read these settings (**this is the preferred method**)
-- Hard coding eligible issuing countries and document types in your SDK integration
-
-Both methods of document capture configuration are detailed below. 
-
-##### Country and document type selection by Dashboard 
-
-Configuring the issuing country and document type selection step using your Dashboard is the **recommended method** of integration (available from SDK version [28.0.0](https://documentation.onfido.com/sdk/ios/) onwards).
-
-- Start by opening up the Accounts tab on your Dashboard, then click Supported Documents.
-- You will be presented with a list of all available countries and their associated supported documents. Once you have made your selections, click Save Change. 
-
-![The Supported Documents tab in the Dashboard](assets/supported_documents_dashboard.png)
-
-To enable the Dashboard configuration and display the appropriate choices to your end users through the SDK interface, Onfido must activate the feature. Contact [Client Support](mailto:client-support@onfido.com) or your Customer Support Manager to learn more or enable the Dashboard supported documents for your account.
-
-**Please note:**
-
-- Any custom country and document type configurations that have been coded into your SDK integration will override and ignore any Dashboard settings
-- Currently only passport, national ID card, driving licence and residence permit are supported by this feature. If you nominate other document types in your Dashboard (visa, for example), these will not be displayed in the user interface
-- If for any reason the configuration fails or is not enabled, the SDK will fallback to display the selection screen for the complete list of available countries and supported document types
-- Onfido will reject any checks submitted for countries or documents not configured as supported by a customer
-
-##### Country and document type selection - SDK integration code 
-
-Rather than configuring the document selection step using your Dashboard, you can hard code the issuing countries and supported document types in your SDK integration. Please note this is **not** the preferred integration method, we recommend the Dashboard configuration described above. 
+In the Document step, a user can select the issuing country and document type before taking the photo. This selection screen is optional, and will only show to the end user if a specific country and document type is not configured for the SDK.
 
 You can configure the Document step to capture single document types with specific properties, as well as customize the screen to display only a limited list of document types:
 
@@ -770,20 +741,20 @@ let config = try! OnfidoConfig.builder()
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withDrivingLicenceWithConfig:[[DrivingLicenceConfiguration alloc] initWithCountry: @"GBR"]];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: documentVariantError];
 
-NSError *documentConfigError = NULL;
-DocumentConfigBuilder *documentConfigBuilder = [ONDocumentTypeConfig builder];
-[documentConfigBuilder withDrivingLicenceWithConfig:[[DrivingLicenceConfiguration alloc] initWithCountry: @"GBR"]];
-ONDocumentTypeConfig *documentTypeConfig = [documentConfigBuilder buildAndReturnError: documentConfigError];
-
-if (documentConfigError) {
+if (documentVariantError) {
   // Handle variant config error
 } else {
   NSError *configError = NULL;
-  [configBuilder withDocumentStepOfType:documentTypeConfig];
   ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 }
+
 ```
 
 - **Document format**
@@ -825,20 +796,21 @@ let config = try! OnfidoConfig.builder()
 
 ```Objective-C
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+NSError *documentVariantError = NULL;
+DocumentConfigBuilder * documentVariantBuilder = [ONDocumentTypeVariantConfig builder];
+[documentVariantBuilder withNationalIdentityCardWithConfig:[[NationalIdentityConfiguration alloc] initWithDocumentFormat:DocumentFormatFolded country: @"ITA"]];
 
-NSError *documentConfigError = NULL;
-DocumentConfigBuilder *documentConfigBuilder = [ONDocumentTypeConfig builder];
-[documentConfigBuilder withNationalIdentityCardWithConfig:[[NationalIdentityConfiguration alloc] initWithDocumentFormat:DocumentFormatFolded country: @"ITA"]];
-ONDocumentTypeConfig *documentTypeConfig = [documentConfigBuilder buildAndReturnError: documentConfigError];
+ONDocumentTypeVariantConfig *documentStepVariant = [variantBuilder buildAndReturnError: documentVariantError];
 
-if (documentConfigError) {
+if (documentVariantError) {
   // Handle variant config error
 } else {
   NSError *configError = NULL;
-  [configBuilder withDocumentStepOfType:documentTypeConfig];
   ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 }
+
 ```
 
 - **Customize the issuing country and document type selection screen**
@@ -894,15 +866,14 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
 
-To configure for Motion:
+To configure for Motion with no fallback:
 
-The Motion variant may not be supported on certain devices based on minimum device and OS requirements, i.e. Motion currently is not supported on devices older than iPhone 7 and/or on iOS older than 12 as well as on iPads.
-
-If the Motion variant is not supported on the user's device, you can configure the SDK to allow the user to capture a Selfie or a Video instead by using the `MotionStepCaptureFallback` class.
-
-The following examples show how to configure the Motion variant with a Photo capture fallback and a Video capture fallback.
-
-Please note that if no fallback is configured and Motion is not supported on the user's device, an `ONFlowError` of case `motionUnsupported` will be returned through the response handler.
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withMotionWithConfig: NULL];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
 
 To configure for Motion with fallback to capturing a live photo:
 
@@ -928,23 +899,7 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
 
-To configure for Motion with no fallback:
-
-```
-NSError * error;
-Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withMotionWithConfig: NULL];
-[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
-```
-
-To configure for Motion with audio recording:
-
-```
-NSError * error;
-Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withMotionWithConfig: [[MotionStepConfiguration alloc] initWithRecordAudio: YES]];
-[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
-```
+The fallback configured for Motion will be triggered if the device does not support Motion, based on minimum device and OS requirements. In the case that the device does not support Motion and no fallback is configured, an `ONFlowError` of case `motionUnsupported` will be returned through the response handler.
 
 ##### Swift
 
@@ -970,15 +925,16 @@ let config = try! OnfidoConfig.builder()
     .build()
 ```
 
-To configure for Motion:
+To configure for Motion with no fallback:
 
-The Motion variant may not be supported on certain devices based on minimum device and OS requirements, i.e. Motion currently is not supported on devices older than iPhone 7 and/or on iOS older than 12 as well as on iPads.
-
-If the Motion variant is not supported on the user's device, you can configure the SDK to allow the user to capture a Selfie or a Video instead by using the `MotionStepCaptureFallback` class.
-
-The following examples show how to configure the Motion variant with a Photo capture fallback and a Video capture fallback.
-
-Please note that if no fallback is configured and Motion is not supported on the user's device, an `ONFlowError` of case `motionUnsupported` will be returned through the response handler.
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .motion(withConfiguration: nil))
+    .build()
+```
 
 To configure for Motion with fallback to capturing a live photo:
 
@@ -1005,28 +961,6 @@ let config = try! OnfidoConfig.builder()
         MotionStepConfiguration(captureFallback:
             MotionStepCaptureFallback(videoFallbackWithConfiguration:
                 VideoStepConfiguration(showIntroVideo: true, manualLivenessCapture: false)))))
-    .build()
-```
-
-To configure for Motion with no fallback:
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
-    .withWelcomeStep()
-    .withDocumentStep()
-    .withFaceStep(ofVariant: .motion(withConfiguration: nil))
-    .build()
-```
-
-To configure for Motion with audio recording:
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
-    .withWelcomeStep()
-    .withDocumentStep()
-    .withFaceStep(ofVariant: .motion(withConfiguration: MotionStepConfiguration(recordAudio: true)))
     .build()
 ```
 
@@ -1263,50 +1197,50 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 The SDK supports and maintains the following 44 languages:
 
-- Arabic: ar
-- Armenian: hy
-- Bulgarian: bg
-- Chinese (Simplified): zh_Hans
-- Chinese (Traditional): zh_Hant
-- Croatian: hr
-- Czech: cs
-- Danish: da
-- Dutch: nl
-- English (United Kingdom): en_GB
-- English (United States): en_US
-- Estonian: et
-- Finnish: fi
-- French (Canadian): fr_CA
-- French: fr
-- German: de
-- Greek: el
-- Hebrew: he
-- Hindi: hi
-- Hungarian: hu
-- Indonesian: id
-- Italian: it
-- Japanese: ja
-- Korean: ko
-- Latvian: lv
-- Lithuanian: lt
-- Malay: ms
-- Norwegian: nb
-- Persian: fa
-- Polish: pl
-- Portuguese (Brazil): pt_BR
-- Portuguese: pt
-- Romanian: ro
-- Russian: ru
-- Serbian: sr_Latn
-- Slovak: sk
-- Slovenian: sl
-- Spanish (Latin America): es_419
-- Spanish: es
-- Swedish: sv
-- Thai: th
-- Turkish: tr
-- Ukrainian: uk
-- Vietnamese: vi
+- Arabic: ar 🇦🇪
+- Armenian: hy 🇦🇲
+- Bulgarian: bg 🇧🇬
+- Chinese (Simplified): zh_Hans 🇨🇳
+- Chinese (Traditional): zh_Hant 🇨🇳
+- Croatian: hr 🇭🇷
+- Czech: cs 🇨🇿
+- Danish: da 🇩🇰
+- Dutch: nl 🇳🇱
+- English (United Kingdom): en_GB 🇬🇧
+- English (United States): en_US 🇺🇸
+- Estonian: et 🇪🇪
+- Finnish: fi 🇫🇮
+- French (Canadian): fr_CA 🇫🇷 🇨🇦
+- French: fr 🇫🇷
+- German: de 🇩🇪
+- Greek: el 🇬🇷
+- Hebrew: he 🇮🇱
+- Hindi: hi 🇮🇳
+- Hungarian: hu 🇭🇺
+- Indonesian: id 🇮🇩
+- Italian: it 🇮🇹
+- Japanese: ja 🇯🇵
+- Korean: ko 🇰🇷
+- Latvian: lv 🇱🇻
+- Lithuanian: lt 🇱🇹
+- Malay: ms 🇲🇾
+- Norwegian: nb 🇳🇴
+- Persian: fa 🇮🇷
+- Polish: pl 🇵🇱
+- Portuguese (Brazil): pt_BR 🇵🇹 🇧🇷
+- Portuguese: pt 🇵🇹
+- Romanian: ro 🇷🇴
+- Russian: ru 🇷🇺
+- Serbian: sr_Latn 🇷🇸
+- Slovak: sk 🇸🇰
+- Slovenian: sl 🇸🇮
+- Spanish (Latin America): es_419 🇪🇸 🇺🇸
+- Spanish: es 🇪🇸
+- Swedish: sv 🇸🇪
+- Thai: th 🇹🇭
+- Turkish: tr 🇹🇷
+- Ukrainian: uk 🇺🇦
+- Vietnamese: vi 🇻🇳
 
 The strings used within the SDK can be customised by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization()` method on the configuration builder.
 
@@ -1351,7 +1285,13 @@ if (variantError) {
 
 The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply full or partial translations. For any key without a translation, the supported language default will be used.
 
-When adding custom translations, you must add the whole set of keys included in the [`Localizable.strings`](localization) file.
+When adding custom translations, you must add the whole set of keys included in the [`Localizable.strings`](localization) file. In particular, `onfido_locale`, which identifies the current locale being added. The value for this string should be the ISO 639-1 2-letter language code corresponding to the translation being added.
+
+  For example:
+  - When strings file added for Russian language, the `onfido_locale` key should have `ru` as its value.
+  - When strings file added for American English language (en-US), the `onfido_locale` key should have `en` as its value.
+
+Without `onfido_locale` correctly included, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
 
 You can name the strings file with the translated keys as you desire but the name of the file will have to be provided to the SDK as a parameter to the `withCustomLocalization()` method:
 
@@ -1450,8 +1390,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 9.657|
-| Below 12.2       | up to 9.657* or up to 19.015**|
+| 12.2 and above   | 8.659|
+| Below 12.2       | up to 8.659* or up to 18.017**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
