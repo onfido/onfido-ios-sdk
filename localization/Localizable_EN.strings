@@ -585,11 +585,10 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Lost contact with NFC card\nMove your device slightly up or down.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Lost connection\nWe couldn’t scan your document";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Incorrect CAN";
-"onfido_enter_can_error_label" = "You have [%i] [%s] left.";
+"onfido_enter_can_error_label" = "You have %d %@ left.";
 "onfido_enter_can_substring_attempt_singular" = "attempt";
 "onfido_enter_can_substring_attempt_plural" = "attempts";
 "onfido_nfc_scan_error_button_secondary" = "Get verified without NFC";
 "onfido_intro_scan_animation_ios" = "Place your document at the top back of your device. Once the scan starts, hold them still.";
 "onfido_nfc_scan_sheet_success" = "Scanning successful";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Your face, background, and audio will be recorded during this process";
-"onfido_avc_intro_disclaimer_camera_on" = "Your face and your background will be recorded during this process";

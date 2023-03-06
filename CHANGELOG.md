@@ -6,11 +6,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [28.1.0] - 2023-03-02
+
+### Changed
+
+- Added backward compatible `withDocumentStep(ofType:...` signature
+- Improved translations
+- Increased the Facial Similarity Video upload timeout from 5 seconds to 60 seconds
+
+### Fixed
+
+- Accessibility: Fixed Document capture VoiceOver support
+- Fixed potential crash when dismissing Motion during recording
+- Re-added missing FACIAL_INTRO event
+- Fixed issue with Privacy Notices and Consent screen appearing when not required
+
 ## [28.0.1] - 2023-03-06
 
 ### Fixed
 
 - Accessibility: Fixed Document capture VoiceOver support
+- Fixed potential crash when dismissing Motion during recording
+- Re-added missing FACIAL_INTRO event
 - Fixed issue with Privacy Notices and Consent screen appearing when not required
 
 ## [28.0.0] - 2023-02-06

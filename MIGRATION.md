@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 28.1.0 Migration Guide](#onfido-ios-sdk-2810-migration-guide)
 * [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
 * [Onfido iOS SDK 27.2.0 Migration Guide](#onfido-ios-sdk-2720-migration-guide)
 * [Onfido iOS SDK 27.0.0 Migration Guide](#onfido-ios-sdk-2700-migration-guide)
@@ -57,6 +58,29 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 28.1.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_scan_sheet_success` (es-419, fr-CA, pt-BR, sr, zh)
+
+- `onfido_avc_intro_disclaimer_camera_and_audio_on` (es-419, fr-CA, pt-BR, sr, zh)
+
+- `onfido_avc_intro_disclaimer_camera_on` (es-419, fr-CA, pt-BR, sr, zh)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_avc_intro_disclaimer_camera_on` ()
+
+
 
 ## Onfido iOS SDK 28.0.0 Migration Guide
 
