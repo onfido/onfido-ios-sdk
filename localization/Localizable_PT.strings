@@ -271,7 +271,7 @@
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
 "onfido_user_consent_prompt_button_secondary" = "Review again";
 "onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_button_primary" = "Accept";
+"onfido_user_consent_button_primary" = "Acepipe";
 "onfido_user_consent_button_secondary" = "Do not accept";
 
 /* User consent load error */
@@ -387,7 +387,7 @@
 "onfido_avc_intro_list_item_one" = "Primeiro, posicione o seu rosto na moldura";
 "onfido_avc_intro_list_item_two" = "Depois, vire a cabeça lentamente para ambos os lados";
 "onfido_avc_intro_disclaimer" = "Tenha em atenção que iremos gravar o seu rosto e o seu fundo";
-"onfido_avc_intro_button_primary_ready" = "Estou pronto";
+"onfido_avc_intro_button_primary_ready" = "Começar a gravar";
 "onfido_avc_face_alignment_title" = "Posicione o seu rosto na moldura";
 "onfido_avc_face_alignment_feedback_move_closer" = "Aproxime-se";
 "onfido_avc_face_alignment_feedback_move_back" = "Afaste-se";
@@ -585,11 +585,10 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Perda de contacto com cartão NFC\nMova o seu dispositivo ligeiramente para cima ou para baixo.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ligação perdida\nNão podíamos digitalizar o seu documento";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorrecto";
-"onfido_enter_can_error_label" = "Ainda tem [%i] [%s].";
+"onfido_enter_can_error_label" = "Ainda tem [%i] [%@].";
 "onfido_enter_can_substring_attempt_singular" = "tentativa";
 "onfido_enter_can_substring_attempt_plural" = "tentativas";
 "onfido_nfc_scan_error_button_secondary" = "Seja verificado sem NFC";
 "onfido_intro_scan_animation_ios" = "Coloque o documento na parte superior traseira do dispositivo. Assim que o scanner começar, mantenha-os parados.";
 "onfido_nfc_scan_sheet_success" = "Digitalização bem sucedida";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "O seu rosto, fundo, e áudio serão gravados durante este processo";
-"onfido_avc_intro_disclaimer_camera_on" = "Seu rosto e seu histórico serão registrados durante este processo";
