@@ -434,6 +434,10 @@ switch response {
         // It happens when the SDK receives an error from a API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
         // It happens when an unexpected error occurs, please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+      case OnfidoFlowError.invalidImageData:
+        // It happens when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
+      case OnfidoFlowError.versionInsufficient:
+        // It happens when the workflow version is insufficient
       default: // necessary because swift
     }
 }
@@ -513,6 +517,12 @@ switch (error.code) {
         break;
     case ONFlowErrorException:
         // It happens when an unexpected error occurs, please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+        break;
+    case ONFlowErrorInvalidImageData:
+        // It happens when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
+        break;
+    case ONFlowErrorVersionInsufficient:
+        // It happens when the workflow version is insufficient
         break;
 }
 ```
@@ -1459,8 +1469,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 9.821|
-| Below 12.2       | up to 9.821* or up to 19.179**|
+| 12.2 and above   | 9.84|
+| Below 12.2       | up to 9.84* or up to 19.198**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
