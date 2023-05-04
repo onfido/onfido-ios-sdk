@@ -6,36 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [28.3.1] - 2023-04-18
+## [28.1.1] - 2023-05-03
 
 ### Fixed
 
-- Fixed SPM `28.3.0` packaging that was pointing to `28.2.0`
-
-## [28.3.0] - 2023-04-05
-
-### Changed
-
-- Enhanced security around payload tampering
-
-### Fixed
-
-- Fixed the text cut-off issue on document confirmation screen which happens on small screen devices (e.g iPhone SEs)
-- Fixed missing `OnfidoApiError` and `OnfidoFlowError` types
-
-## [28.2.0] - 2023-03-21
-
-### Added
-
-- Added user analytics tracked events for Motion
-
-### Changed
-
-- Fixed "Umbrella header missing" warnings with SPM
-
-### Fixed
-
-- Fixed OnfidoExtended framework variant
+- Now handling one rare case where timing of operations may cause app to crash during video recording
 
 ## [28.1.0] - 2023-03-02
 
