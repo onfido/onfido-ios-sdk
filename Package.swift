@@ -21,14 +21,14 @@ let package = Package(
         
             .binaryTarget(
                 name: "Onfido",
-                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v28.3.0.zip",
-                checksum: "a8a68ddf9af3ca9a39df842ba65b1d819d952203337e73cba7c6906268c5d3e1"
+                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v28.3.1.zip",
+                checksum: "10dedf8a3d598db382095c63433b0f158eb1e7814edad43f641ac3aff4161377"
             ),
         
             .binaryTarget(
                 name: "OnfidoExtended",
-                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/OnfidoExtended-v28.3.0.zip",
-                checksum: "e85e0df562150aedbf9fa0a1236d8060a7a47abf75fb51af2f82bdf7ddd0c131"
+                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/OnfidoExtended-v28.3.1.zip",
+                checksum: "f41e84356717db49215501a193e1b9aeac6ec4cd359ef2974f23a51c844a4072"
             ),
         
 
