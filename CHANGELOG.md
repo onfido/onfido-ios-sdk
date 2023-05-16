@@ -6,11 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [28.3.1] - 2023-04-18
+## [28.3.1] - 2023-05-11
 
 ### Fixed
 
-- Fixed SPM `28.3.0` packaging that was pointing to `28.2.0`
+- Attempted fix for rare UI freeze and subsequent crash on Selfie step
 
 ## [28.3.0] - 2023-04-05
 
