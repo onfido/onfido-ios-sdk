@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Fixed SPM `28.3.1` packaging that was pointing to `28.3.0`
 
-## [28.3.1] - 2023-05-11
+## [28.3.1] - 2023-04-18
 
 ### Fixed
 
