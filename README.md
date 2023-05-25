@@ -47,7 +47,7 @@ It offers a number of benefits to help you create the best identity verification
 ## Getting started
 
 * SDK supports iOS 11+
-* SDK supports Xcode 13+\*
+* SDK supports Xcode 14+\*
 * SDK has full bitcode support
 * SDK supports following presentation styles:
   - Only full screen style for iPhones
@@ -157,6 +157,12 @@ The SDK uses the device camera. You're required to have the following keys in yo
 
 ### 5. Add the SDK dependency
 
+#### Using Swift Package Manager
+
+The SDK is available with Swift Package Manager and you can include it in your project by adding the following package repository URL:
+
+https://github.com/onfido/onfido-ios-sdk.git
+
 #### Using Cocoapods
 
 The SDK is available on Cocoapods and you can include it in your projects by adding the following to your Podfile:
@@ -176,12 +182,6 @@ You can install the extended version of the Onfido SDK, which includes fraud det
 ```ruby
 pod 'OnfidoExtended'
 ```
-
-#### Using Swift Package Manager
-
-The SDK is available with Swift Package Manager and you can include it in your project by adding the following package repository URL:
-
-https://github.com/onfido/onfido-ios-sdk.git
 
 #### Manual installation
 
@@ -651,8 +651,9 @@ The callback returns 3 possible objects:
 And the `MediaFile` object has:
 ```json5
 {
-    name: String
-    data: Data
+    fileData: Data
+    fileName: String
+    fileType: String
 }
 ```
 #### Create a check with Onfido
@@ -702,38 +703,54 @@ if (configError) {
 
 #### Document step
 
-In the Document step, an end user can select the issuing country and document type before taking the photo. This selection screen is optional, and will only show to the end user if a specific country and document type is **not** configured for the SDK.
+In the Document Capture step, an end user can select the issuing country and document type before capture. In a very limited number of cases, the end user may also be asked if they have a card or paper version of their document.
 
-You can configure the document capture step in one of two ways: 
+This information is used to optimize the capture experience, as well as inform the end user about which documents they are allowed to use.
 
-- Designating eligible issuing countries and document types on your [Dashboard](https://onfido.com/dashboard/), enabling the SDK to automatically read these settings (**this is the preferred method**)
-- Hard coding eligible issuing countries and document types in your SDK integration
+This selection screen is optional, and will be automatically hidden where the end user is not required to indicate which document will be captured.
 
-Both methods of document capture configuration are detailed below. 
+By default, the country selection will be pre-populated based on the end user’s primary SIM, but the end user can select another country from the list where allowed. The selection will default to empty when no SIM is present.
+
+![The default country selection](assets/selection1.png)
+![The default country selection](assets/selection2.png)
+
+You can specify allowed issuing countries and document types for the document capture step in one of three ways:
+- If you are using Onfido Studio, this is configured within a Document Capture task, documented in the Studio Product Guide
+- Otherwise, for Onfido Classic you can set this globally in your Dashboard (recommended), or hard code it into your SDK integration. Both of these options are documented below.
 
 ##### Country and document type selection by Dashboard 
 
-Configuring the issuing country and document type selection step using your Dashboard is the **recommended method** of integration (available from SDK version [28.0.0](https://documentation.onfido.com/sdk/ios/) onwards).
+Configuring the issuing country and document type selection step using your Dashboard is the recommended method of customization (available from iOS SDK version [28.0.0](https://documentation.onfido.com/sdk/ios/) and Android SDK version [16.0.0](https://documentation.onfido.com/sdk/ios/) onwards) as this configuration is also applied to your Document Reports. **Any document that has been uploaded by an end user against your guidance will result in a Document Report sub-result of “rejected” and be flagged as Image Integrity > Supported Document.**
 
-- Start by opening up the Accounts tab on your Dashboard, then click Supported Documents.
-- You will be presented with a list of all available countries and their associated supported documents. Once you have made your selections, click Save Change. 
+*We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime, contact [support@onfido.com](support@onfido.com) or your Customer Support Manager to request access to this feature.*
+
+- Open the Accounts tab on your [Dashboard](https://dashboard.onfido.com/users/sign_in?redirect=%2F) then click Supported Documents
+- You will be presented with a list of all available countries and their associated supported documents. Make your selection, then click Save Change 
 
 ![The Supported Documents tab in the Dashboard](assets/supported_documents_dashboard.png)
 
-To enable the Dashboard configuration and display the appropriate choices to your end users through the SDK interface, Onfido must activate the feature. Contact [Client Support](mailto:client-support@onfido.com) or your Customer Support Manager to learn more or enable the Dashboard supported documents for your account.
+**Please note the following SDK behaviour:**
 
-**Please note:**
-
-- Any custom country and document type configurations that have been coded into your SDK integration will override and ignore any Dashboard settings
-- Currently only passport, national ID card, driving licence and residence permit are supported by this feature. If you nominate other document types in your Dashboard (visa, for example), these will not be displayed in the user interface
-- If for any reason the configuration fails or is not enabled, the SDK will fallback to display the selection screen for the complete list of available countries and supported document types
-- Onfido will reject any checks submitted for countries or documents not configured as supported by a customer
+- Hard coding any document type and issuing country configuration in your SDK integration will fully override the Dashboard-based settings
+- Currently, only passport, national ID card, driving licence and residence permit are visible for document selection by the end user in the SDK. If you nominate other document types in your Dashboard (visa, for example), these will not be displayed in the user interface
+- If you need to add other document types to the document selection screen, you can mitigate this limitation in the near-term, using the Custom Document feature
+- If for any reason the configuration fails or is not enabled, the SDK will fallback to display the selection screen for the complete list of documents supported within the selection screens
 
 ##### Country and document type selection - SDK integration code 
 
-Rather than configuring the document selection step using your Dashboard, you can hard code the issuing countries and supported document types in your SDK integration. Please note this is **not** the preferred integration method, we recommend the Dashboard configuration described above. 
+If you want to use your own custom document selection UI instead of displaying the Onfido document selection screen, you will need to specify the document details during SDK initialization.
 
-You can configure the Document step to capture single document types with specific properties, as well as customize the screen to display only a limited list of document types:
+The document selection screen will be skipped automatically when the single document type is specified.
+
+The SDK will accept the following:
+
+- The Document Type is required. This controls fundamental SDK document capture behaviour
+- The Country is optional, but recommended. This enables any optimizations the SDK may have for this specific document issued by this country
+- The Document Format is optional, and only accepted for French driving licence, Italian national identity card and South African national identity card This defaults to Card, representing modern forms of these documents. If the end user indicates that they have an older, paper version of one of these documents, use Folded to ensure an optimized capture experience
+
+See more details in the Technical Reference, [here](https://documentation.onfido.com/sdk/android/#document-capture-step) for Android, and [here](https://documentation.onfido.com/sdk/ios/#document-step) for iOS.
+
+Note: You may still wish to configure the Dashboard-based approach to ensure that the Document Report also rejects any document that has been uploaded by an end user against your guidance.
 
 - **Document type**
 
@@ -749,15 +766,11 @@ The following document types are supported:
 | residencePermit      | ResidencePermitConfiguration  | - country                  |
 | visa                 | VisaConfiguration             | - country                  |
 | workPermit           | WorkPermitConfiguration       | - country                  |
-| generic              | GenericDocumentConfiguration  | - country                  |
-
-**Note**: `Generic` document type doesn't offer an optimized capture experience for a desired document type.
-
 **Note:** If only one document type is specified, users will not see the selection screen and will be taken directly to the capture screen. Please see a more detailed guide [here](https://documentation.onfido.com/sdk/android/#document-capture-step) for Android, and [here](https://documentation.onfido.com/sdk/ios/#document-step) for iOS
 
 -  **Document country**
 
-Country configuration allows you to specify the country of origin of the document. If issuing country is specified for a particular document type, the selection screen is not displayed.
+Country configuration allows you to specify the country of origin of the document. This is optional, but recommended. This enables any optimizations the SDK may have for this specific document issued by this country.
 
 You'll need to pass the corresponding [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) 3 letter country code to the SDK.
 
@@ -798,7 +811,7 @@ if (documentConfigError) {
 
 - **Document format**
 
-The format of some documents can be specified as a plastic card `Card` or folded document `Folded`. `Card` is the default document format value for all document types.
+The Document Format is optional, and only accepted for French driving licence, Italian national identity card and South African national identity card This defaults to `Card`, representing modern forms of these documents. If the end user indicates that they have an older, paper version of one of these documents, use `Folded` to ensure an optimized capture experience
 
 If `Folded` is configured the SDK will show a specific template overlay during document capture.    
 
@@ -807,7 +820,7 @@ The following document formats are supported for each document type:
 | Document Type/ Document Format | card          |folded                           |
 |--------------------------|---------------|------------------------|
 | drivingLicence           | ALL COUNTRIES | Only France (Country code "FRA") |
-| nationalIdentityCard     | ALL COUNTRIES | Only Italy (Country code "ITA")  |
+| nationalIdentityCard     | ALL COUNTRIES | Italy (Country code "ITA")<br> South Africa (Country code "ZAF") |
 
 | Document Type/ Document Format |           |
 |--------------------------|---------------|
@@ -815,7 +828,6 @@ The following document formats are supported for each document type:
 | residencePermit          | NOT CONFIGURABLE |
 | visa                     | NOT CONFIGURABLE |
 | workPermit               | NOT CONFIGURABLE |
-| generic                  | NOT CONFIGURABLE |
 
 
 **Note:** If you configure the SDK with an unsupported document format the SDK will throw an `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` (`ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination` in Objective-C) error during runtime.
@@ -851,7 +863,7 @@ if (documentConfigError) {
 }
 ```
 
-- **Customize the issuing country and document type selection screen**
+- **Customize the issuing country and document type selection screen with pre-selected documents**
 
 You can also customize the screen to display only a limited list of document types, using the configuration function to specify the ones you want to show.
 
@@ -1156,34 +1168,6 @@ ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
 
 Please refer to our [NFC for document report guide in our developer hub](https://developers.onfido.com/guide/document-report-nfc) to learn [how to create a check containing a document report with nfc](https://developers.onfido.com/guide/document-report-nfc#create-a-check-containing-a-document-report-with-nfc).
 
-### Enabling Canadian Driver Licence Auto-capture (beta)
-
-##### Swift
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withSDKToken("YOUR_SDK_TOKEN_HERE")
-    .withDocumentStep()
-    .withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()
-    .build()
-```
-
-##### Objective-C
-
-```Objective-C
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-
-[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
-[configBuilder withWelcomeStep];
-[configBuilder withDocumentStep];
-[configBuilder withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled];
-
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
-
-```
-
-
 ### UI customization
 
 The iOS SDK supports the customization of colors, fonts and strings used in the SDK flow. For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#ios).
@@ -1469,8 +1453,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 9.84|
-| Below 12.2       | up to 9.84* or up to 19.198**|
+| 12.2 and above   | 9.903|
+| Below 12.2       | up to 9.903* or up to 19.161**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

@@ -6,11 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
-## [28.3.2] - 2023-05-16
+## [29.0.0] - 2023-05-03
 
-### Fixed
+### Changed
 
-- Fixed SPM `28.3.1` packaging that was pointing to `28.3.0`
+- Changed the Studio API to be compatible with Objective-C
+- Added Objective-C support for the Custom Media Callback feature
+- Removed Canadian driver's license autocapture beta feature `withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()`
 
 ## [28.3.1] - 2023-04-18
 
