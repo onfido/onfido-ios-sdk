@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added Objective-C support for the Custom Media Callback feature
 - Removed Canadian driver's license autocapture beta feature `withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()`
 
+## [28.3.2] - 2023-05-16
+
+### Fixed
+
+- Fixed SPM `28.3.1` packaging that was pointing to `28.3.0`
+
 ## [28.3.1] - 2023-04-18
 
 ### Fixed
