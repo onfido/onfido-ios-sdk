@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.0.0 Migration Guide](#onfido-ios-sdk-2900-migration-guide)
 * [Onfido iOS SDK 28.1.0 Migration Guide](#onfido-ios-sdk-2810-migration-guide)
 * [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
 * [Onfido iOS SDK 27.2.0 Migration Guide](#onfido-ios-sdk-2720-migration-guide)
@@ -58,6 +59,21 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.0.0 Migration Guide
+
+### Breaking API Changes
+
+- The Studio API has been changed to support Objective-C, please use the new `WorkflowConfiguration` methods to setup Studio workflow and use the `ONFlow` initialization method to access Studio from Objective-C codebase.
+
+### Experimental API Changes
+
+- The Custom Media Callback has changed the MediaFile model structure and now provides the file type and suggested file name
+
+#### Removed
+
+- Removed Canadian driver's license autocapture beta feature `withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()`
+
 
 ## Onfido iOS SDK 28.1.0 Migration Guide
 
