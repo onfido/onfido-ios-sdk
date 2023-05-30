@@ -16,18 +16,12 @@ The SDK communicates directly and dynamically with active workflows to show the 
 The SDK supports:
 
 * iOS 11+
-* Swift interface only
+* SDK supports Xcode 14+\*
+* SDK supports following presentation styles:
+  - Only full screen style for iPhones
+  - Full screen and form sheet styles for iPads
 
 ### 1. Add the SDK dependency
-
-#### Using CocoaPods
-The SDK is available on CocoaPods and you can include it in your project by adding the following to your Podfile:
-
-```ruby
-pod 'Onfido'
-```
-
-Run `pod install` to install the SDK.
 
 #### Using Swift Package Manager
 
@@ -39,18 +33,66 @@ dependencies: [
 ]
 ```
 
+#### Using CocoaPods
+
+The SDK is available on CocoaPods and you can include it in your project by adding the following to your Podfile:
+
+```ruby
+pod 'Onfido'
+```
+
+Run `pod install` to install the SDK.
+
+##### OnfidoExtended
+
+[![Version](https://img.shields.io/cocoapods/v/OnfidoExtended.svg?style=flat)](http://cocoapods.org/pods/OnfidoExtended)
+
+You can install the extended version of the Onfido SDK, which includes fraud detection signals, through Cocoapods by adding the following to your Podfile:
+
+```ruby
+pod 'OnfidoExtended'
+```
+
 ### 2. Build a configuration object
 
 To initiaise the SDK, you must provide a `workflowRunId`, obtained by [creating a workflow run](https://documentation.onfido.com/#create-workflow-run), and an `sdkToken`, obtained by [generating an SDK token](https://documentation.onfido.com/#generate-sdk-token).
+
+#### Swift
 
 ```swift
 let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId", sdkToken: "sdkToken")
 ```    
 
+#### Objective-C
+
+```objc
+ONWorkflowConfiguration *workflowConfiguration = [[ONWorkflowConfiguration alloc] initWithWorkflowRunId:@"workflowRunId" sdkToken:@"sdkToken"];
+```
+
 ### 3. Start the flow
+
+#### Swift
+
 ```swift
 let onfidoRun = OnfidoFlow(workflowConfiguration: orchestrationConfig)
-customerViewController.present(try onfidoRun.run(), animated: true, completion: nil)
+let flowViewController = try onfidoRun.run()
+yourViewController.present(flowViewController, animated: true, completion: nil)
+// listen for the result
+```    
+
+#### Objective-C
+
+```objc
+ONFlow *flow = [[ONFlow alloc] initWithWorkflowConfiguration:workflowConfiguration];
+
+NSError *flowRunError;
+UIViewController *flowViewController = [flow runAndReturnError:&flowRunError];
+
+if (!flowRunError) {
+    [yourViewController presentViewController:flowViewController
+                                     animated:YES
+                                   completion:nil];
+}
 // listen for the result
 ```    
 
@@ -118,23 +160,61 @@ The iOS SDK supports the customization of colors, fonts and strings used in the 
 let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId", sdkToken: "sdkToken")
 let appearance = Appearance()
 
-workflowConfiguration.appearance = appearance
+workflowConfiguration.withAppearance(appearance)
 ```
 
 You can find more information on how to create an appearance object [here](https://github.com/onfido/onfido-ios-sdk#ui-customization).
 
 ## Language Customization
-The SDK supports and maintains the following 7 languages:
 
- - English (en) 🇬🇧
- - Spanish (es) 🇪🇸
- - French (fr) 🇫🇷
- - German (de) 🇩🇪
- - Italian (it) 🇮🇹
- - Portuguese (pt) 🇵🇹
- - Dutch (nl) 🇳🇱
+The SDK supports and maintains the following 44 languages:
 
-The strings used within the SDK can be customized by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `localisation` property on the `WorkflowConfiguration` object.
+- Arabic: ar
+- Armenian: hy
+- Bulgarian: bg
+- Chinese (Simplified): zh_Hans
+- Chinese (Traditional): zh_Hant
+- Croatian: hr
+- Czech: cs
+- Danish: da
+- Dutch: nl
+- English (United Kingdom): en_GB
+- English (United States): en_US
+- Estonian: et
+- Finnish: fi
+- French (Canadian): fr_CA
+- French: fr
+- German: de
+- Greek: el
+- Hebrew: he
+- Hindi: hi
+- Hungarian: hu
+- Indonesian: id
+- Italian: it
+- Japanese: ja
+- Korean: ko
+- Latvian: lv
+- Lithuanian: lt
+- Malay: ms
+- Norwegian: nb
+- Persian: fa
+- Polish: pl
+- Portuguese (Brazil): pt_BR
+- Portuguese: pt
+- Romanian: ro
+- Russian: ru
+- Serbian: sr_Latn
+- Slovak: sk
+- Slovenian: sl
+- Spanish (Latin America): es_419
+- Spanish: es
+- Swedish: sv
+- Thai: th
+- Turkish: tr
+- Ukrainian: uk
+- Vietnamese: vi
+
+The strings used within the SDK can be customized by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization` method on the `WorkflowConfiguration` object.
 
 You can find the keys for the localizable strings under the [`localization`](localization) directory which contains strings files for supported languages.
 
@@ -142,7 +222,7 @@ You can find the keys for the localizable strings under the [`localization`](loc
 
 ```swift
 let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId", sdkToken: "sdkToken")
-workflowConfiguration.localisation = (Bundle.main, tableName: "Localizable.strings")
+workflowConfiguration.withCustomLocalization(withTableName: "Localizable.strings", in: Bundle.main)
 ```
 
 You can find more information on how to use a custom language [here](https://github.com/onfido/onfido-ios-sdk#custom-languages).
