@@ -1,0 +1,667 @@
+"onfido_doc_capture_button_accessibility" = "Závěrka";
+"onfido_selfie_capture_button_accessibility" = "Závěrka";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Pohled z kamery";
+"onfido_selfie_capture_frame_accessibility" = "Pohled ze selfie kamery. Udržujte obličej v oválu a klepněte na tlačítko spouště";
+"onfido_video_capture_frame_accessibility" = "Pohled ze selfie kamery. Chcete-li spustit nahrávání, držte obličej v oválu.";
+"onfido_selfie_confirmation_image_accessibility" = "Fotografie Vašeho obličeje";
+"onfido_video_capture_frame_success_accessibility" = "Detekce obličeje. Nahrávání bylo zahájeno.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Příklad videa, na kterém někdo nahrává selfie. Pokud chcete nahrávat selfie video, postavte se čelem k přední kameře a držte telefon mírně od obličeje. Poté budete muset odříkat několik čísel a natočit hlavu podle pokynů na obrazovce.";
+"onfido_video_intro_button_pause_accessibility" = "Pozastavit video";
+"onfido_video_intro_button_play_accessibility" = "Přehrát video";
+"onfido_country_select_list_header_all" = "Všechny země";
+"onfido_doc_capture_alert_manual_capture_detail" = "Zarovnejte dokument a stiskněte tlačítko";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Zkuste pořídit fotografii ručně";
+"onfido_doc_capture_alert_no_barcode_detail" = "Zůstaňte na dobře osvětleném místě a přiblížte kartu k fotoaparátu";
+"onfido_doc_capture_alert_no_barcode_title" = "Čárový kód nebyl detekován";
+"onfido_doc_confirmation_alert_blur_detail" = "Ujistěte se, že je vše jasné a čisté";
+"onfido_doc_confirmation_alert_blur_title" = "Detekce rozmazané fotografie";
+"onfido_selfie_intro_list_item_face_forward" = "Dívejte se dopředu a ujistěte se, že máte dobře viditelné oči";
+"onfido_selfie_intro_list_item_no_glasses" = "V případě potřeby si sundejte brýle";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "Porovnáme to s vaším dokumentem";
+"onfido_selfie_intro_title" = "Pořiďte si selfie";
+"onfido_selfie_intro_button_primary" = "Pořízení selfie fotografie";
+"onfido_country_select_bottom_sheet_link_close" = "Zavřít";
+"onfido_doc_confirmation_button_primary_license" = "Odeslat fotografii";
+"onfido_doc_confirmation_button_primary_generic" = "Odeslat fotografii";
+"onfido_doc_confirmation_button_primary_id" = "Odeslat fotografii";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "Nahrajte fotografii";
+"onfido_doc_confirmation_button_secondary" = "Znovu pořídit fotografii";
+"onfido_doc_confirmation_button_primary_passport" = "Odeslat fotografii";
+"onfido_doc_confirmation_button_primary_permit" = "Odeslat fotografii";
+"onfido_doc_confirmation_button_primary_visa" = "Odeslat fotografii";
+"onfido_selfie_confirmation_button_secondary" = "Znovu pořídit fotografii";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Povolte obě možnosti";
+"onfido_permission_button_primary_cam" = "Povolení kamery";
+"onfido_permission_button_primary_mic" = "Povolení mikrofonu";
+"onfido_permission_body_both" = "Bez použití kamery a mikrofonu Vás nemůžeme ověřit";
+"onfido_permission_body_cam" = "Bez kamery Vás nemůžeme ověřit";
+"onfido_permission_body_mic" = "Bez použití mikrofonu Vás nemůžeme ověřit";
+"onfido_permission_subtitle_both" = "Po výzvě musíte povolit přístup pro obě možnosti, potom můžete pokračovat";
+"onfido_permission_subtitle_cam" = "Po výzvě musíte povolit přístup ke kameře, abyste mohli pokračovat dále";
+"onfido_permission_subtitle_mic" = "Po výzvě musíte povolit přístup k mikrofonu, abyste mohli pokračovat";
+/* Device permission */
+"onfido_permission_title_both" = "Povolení přístupu ke kameře a mikrofonu";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Povolení přístupu ke kameře";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Povolení přístupu k mikrofonu";
+"onfido_doc_select_subtitle" = "Musí se jednat o oficiální průkaz totožnosti s fotografií";
+/* Document type selection */
+"onfido_doc_select_title" = "Vyberte svůj dokument";
+"onfido_doc_capture_prompt_title_license" = "Jaký typ licence máte?";
+"onfido_doc_select_button_passport" = "Pas";
+"onfido_doc_select_button_license" = "Řidičský průkaz";
+"onfido_doc_select_button_id" = "Národní průkaz totožnosti";
+"onfido_doc_select_button_permit" = "Povolení k pobytu";
+"onfido_generic_error_network_detail" = "Došlo k chybě sítě. Zkontrolujte své připojení.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "Ztráta spojení";
+"onfido_doc_capture_alert_no_face_detail" = "Ujistěte se, že je Váš obličej viditelný";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Položte dokument naplocho, aby byly vidět vnitřní stránky s fotografií";
+"onfido_doc_capture_alert_no_face_title" = "Obličej nebyl rozpoznán";
+"onfido_video_capture_button_primary_finish" = "Dokončení nahrávání";
+"onfido_welcome_button_primary_doc" = "Vyberte dokument";
+"onfido_doc_capture_detail_folded_doc_back" = "Položte dokument na plocho a přiložte všechny vnější stránky";
+"onfido_doc_capture_header_folded_doc_back" = "Umístěte vnější stránky dokumentu do rámečku";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Ujistěte se, že je dokument zcela rozložený a fotografie je zřetelná";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Položte dokument na plocho a připojte všechny vnitřní stránky (musí obsahovat Vaši fotografii)";
+"onfido_doc_capture_prompt_button_paper" = "Papírový dokument";
+"onfido_app_title_doc_capture_license_fr" = "Francouzský řidičský průkaz";
+"onfido_app_title_doc_capture_license_de" = "Německý řidičský průkaz";
+"onfido_doc_capture_alert_glare_detail" = "Odstupte od přímého světla";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Zjištěno oslnění";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "Italský průkaz totožnosti";
+"onfido_app_title_doc_capture_id_za" = "Jihoafrický průkaz totožnosti";
+"onfido_doc_select_button_generic" = "Dokument";
+/* Document Types */
+"onfido_doc_select_button_visa" = "Visa";
+"onfido_doc_select_button_permit_work" = "Pracovní povolení";
+"onfido_video_capture_header_challenge_digit_instructions" = "Vyslovte každou číslici nahlas";
+"onfido_video_capture_header_challenge_turn_forward" = "pak se otočte dopředu";
+"onfido_video_capture_header_challenge_turn_left" = "Otočte hlavu doleva";
+"onfido_video_capture_header_challenge_turn_right" = "Otočte hlavu doprava";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Pokyny pro opětovné nahrávání";
+"onfido_video_capture_prompt_network_timeout_detail" = "Zkontrolujte, zda je připojení stabilní, a opakujte akci";
+"onfido_video_capture_prompt_network_timeout_title" = "Časový limit připojení";
+"onfido_video_intro_loader" = "Příklad načítání";
+"onfido_video_intro_list_item_time_limit" = "Na dokončení máte %d sekund";
+"onfido_video_intro_list_item_move_speak" = "Postupujte podle pokynů k pohybu nebo mluvení";
+/* Liveness */
+"onfido_video_intro_subtitle" = "Pro zajištění bezpečnosti potřebujeme živé snímání";
+/* Liveness intro */
+"onfido_video_intro_title" = "Nahrajte video";
+"onfido_video_intro_button_primary" = "Nahrávání videa";
+"onfido_video_capture_prompt_detail_timeout" = "Po dokončení nezapomeňte stisknout tlačítko";
+"onfido_video_capture_prompt_header_timeout" = "Vypadá to, že vám to trvalo příliš dlouho";
+"onfido_video_capture_prompt_header_restart" = "Restart nahrávání";
+"onfido_video_capture_prompt_detail_restart" = "Pro vyřízení tohoto kroku musíte mít po celou dobu nahrávání na očích svůj obličej.";
+"onfido_video_capture_prompt_button_restart" = "Restartování";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Držte obličej v oválu";
+"onfido_video_capture_body" = "Při  nahrávání držte obličej v oválu";
+"onfido_doc_confirmation_body_license" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+"onfido_doc_confirmation_body_generic" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+"onfido_doc_confirmation_body_id" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+"onfido_doc_confirmation_body_permit" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+"onfido_doc_confirmation_body_visa" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Ujistěte se, že je vidět celý Váš obličej";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "Umístěte stránku s fotografií dokumentu do rámečku";
+"onfido_doc_capture_header_visa" = "Umístěte stránku s vízem Vašeho dokumentu do rámečku";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Načítání";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "Umístěte stránku s fotografií dokumentu do rámečku";
+"onfido_doc_capture_header_license_back" = "Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_header_license_back_auto" = "Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_header_generic_back" = "Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_header_id_back" = "Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_header_permit_back" = "Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_header_license_front" = "Umístěte přední stranu dokumentu do rámečku";
+"onfido_doc_capture_header_license_front_auto" = "Umístěte přední stranu dokumentu do rámečku";
+"onfido_doc_capture_header_generic_front" = "Umístěte přední stranu dokumentu do rámečku";
+"onfido_doc_capture_header_id_front" = "Umístěte přední stranu dokumentu do rámečku";
+"onfido_doc_capture_header_permit_front" = "Umístěte přední stranu dokumentu do rámečku";
+
+"onfido_generic_uploading" = "Nahrávání";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Ujistěte se, že je na fotografii celý dokument";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Ujistěte se, že je Váš obličej viditelný";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Na selfie může být pouze Váš obličej";
+"onfido_doc_capture_alert_no_mrz_detail" = "Ujistěte se, že je zobrazen celý dokument";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Spodní dva řádky nejsou viditelné";
+"onfido_doc_capture_alert_no_mrz3_title" = "Spodní tři řádky nejsou viditelné";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Nalezeno více obličejů";
+"onfido_doc_capture_prompt_title_id" = "Jaký typ průkazu totožnosti máte?";
+"onfido_video_capture_button_primary_fallback" = "Další krok";
+"onfido_doc_confirmation_alert_no_doc_title" = "Nebyl nalezen žádný dokument";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Obličej nebyl rozpoznán";
+"onfido_generic_alert_network_error_button_primary" = "OK";
+"onfido_info_tablet_orientation_subtitle" = "Podporujeme pouze režim na výšku";
+"onfido_info_tablet_orientation_title" = "Otočte iPad";
+"onfido_info_tablet_orientation_body" = "Tlačítko by mělo být v dolní části obrazovky";
+"onfido_doc_capture_prompt_button_card" = "Plastová karta";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Znovu načíst";
+"onfido_video_confirmation_button_secondary" = "Znovu pořídit video";
+"onfido_video_capture_prompt_button_timeout" = "Opakování";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Použijte jiný dokument";
+"onfido_welcome_button_primary" = "Začít";
+"onfido_video_capture_button_primary_start" = "Spuštění nahrávání";
+"onfido_video_confirmation_button_primary" = "Nahrát video";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Navrhovaná země";
+/* General */
+"onfido_video_intro_error_network" = "Nelze načíst z důvodu nestabilní sítě";
+"onfido_country_select_bottom_sheet_details" = "Zdá se, že země dokumentu, který jste vybrali, není podporována. Vyberte prosím jinou zemi.";
+"onfido_country_select_bottom_sheet_title" = "Nemůžete najít svou zemi?";
+"onfido_doc_confirmation_button_primary" = "Odeslat fotografii";
+/* Face capture */
+"onfido_welcome_subtitle" = "Mělo by to trvat několik minut";
+/* Welcome */
+"onfido_welcome_title" = "Potvrďte svou totožnost";
+"onfido_app_title_doc_confirmation" = "Potvrďte svou totožnost";
+"onfido_app_title_selfie_confirmation" = "Potvrďte svou totožnost";
+"onfido_app_title_nfc_select" = "Potvrďte svou totožnost";
+"onfido_app_title_nfc_intro" = "Potvrďte svou totožnost";
+"onfido_app_title_nfc_fail" = "Potvrďte svou totožnost";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Potvrďte svou totožnost";
+"onfido_app_title_country_select" = "Vyberte zemi, kde došlo k vydání";
+"onfido_app_title_selfie_intro" = "Potvrďte svou totožnost";
+"onfido_app_title_video_intro" = "Potvrďte svou totožnost";
+"onfido_app_title_permission" = "Potvrďte svou totožnost";
+"onfido_app_title_video_confirmation" = "Potvrďte svou totožnost";
+"onfido_video_capture_alert_wrong_side" = "Nesprávná strana";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "Urychlení procesu pomocí NFC";
+"onfido_nfc_select_subtitle_passport" = "Naskenujeme čip NFC z Vašeho pasu";
+"onfido_nfc_select_body_passport" = "ePasy mají na obalu tento symbol";
+"onfido_nfc_select_button_primary_passport" = "Použití ePasu";
+"onfido_nfc_select_button_secondary_passport" = "Toto není ePas";
+
+"onfido_nfc_select_title_card" = "Urychlení procesu pomocí NFC";
+"onfido_nfc_select_subtitle_card" = "Naskenujeme čip NFC na vaší kartě";
+"onfido_nfc_select_body_card" = "Karty s čipy NFC mají tento symbol";
+"onfido_nfc_select_button_primary_card" = "Použití karty NFC";
+"onfido_nfc_select_button_secondary_card" = "Toto není karta NFC";
+
+"onfido_nfc_intro_title_passport" = "Naskenujte svůj ePas";
+"onfido_nfc_intro_subtitle_passport" = "Postupujte podle těchto pokynů";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Položte pas na rovný povrch";
+"onfido_nfc_intro_passport_scan_guide_2" = "Položte telefon na horní část pasu";
+"onfido_nfc_intro_passport_scan_guide_3" = "Pomalu posouvejte telefon dolů a nahoru.";
+"onfido_nfc_intro_passport_scan_guide_4" = "Po spuštění skenování držte telefon v klidu.";
+
+"onfido_nfc_intro_button_primary_passport" = "Zahájení skenování";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "Naskenujte kartu NFC";
+"onfido_nfc_intro_subtitle_card" = "Položte telefon na kartu a držte tuto kartu v blízkosti horní části telefonu";
+"onfido_nfc_intro_button_primary_card" = "Zahájení skenování";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "Položte telefon na kartu";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "Váš pas jsme nemohli naskenovat";
+"onfido_nfc_fail_title_card" = "Vaši kartu NFC se nám nepodařilo naskenovat";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Odstraň si kryt pasu";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Lay your passport on a flat surface";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Umístěte telefon doprostřed pasu";
+"onfido_nfc_intro_carousel_body_last_page" = "Můžete také zkusit zadní stranu";
+"onfido_nfc_intro_carousel_body_dont_move" = "Při skenování nehýbejte telefonem ani pasem";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Sundejte obaly pasu a telefonu";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Udržujte telefon a pas v kontaktu, dokud skenování neproběhne.";
+"onfido_nfc_fail_button_primary_passport" = "Opakování skenování";
+"onfido_nfc_fail_button_secondary_passport" = "Získejte ověření bez skenování";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "Odstraňte kryt telefonu";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Udržujte telefon a kartu v kontaktu, dokud skenování neproběhne.";
+"onfido_nfc_fail_button_primary_card" = "Opakování skenování";
+"onfido_nfc_fail_button_secondary_card" = "Získejte ověření bez skenování";
+
+"onfido_doc_confirmation_zoom_button" = "Zvětšit obrázek";
+"onfido_doc_confirmation_image_accessibility" = "Fotografie dokumentu. Dvojitým klepnutím ji zvětšíte.";
+"onfido_doc_zoom_body" = "Pohybujte jedním prstem";
+"onfido_doc_zoom_button_close" = "Zavřít";
+
+"onfido_video_confirmation_body" = "Vaše video bylo nahráno";
+"onfido_app_title_country_select_search" = "Vyhledávání";
+"onfido_country_select_list_accessibility" = "Výsledky vyhledávání";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Potvrďte svou totožnost";
+"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
+"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
+"onfido_user_consent_prompt_button_secondary" = "Review again";
+"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
+"onfido_user_consent_button_primary" = "Accept";
+"onfido_user_consent_button_secondary" = "Do not accept";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Potvrďte svou totožnost";
+"onfido_user_consent_load_fail_title" = "Content failed to load";
+"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
+"onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_country_select_search_results_none_accessibility" = "Žádné odpovídající výsledky";
+"onfido_country_select_search_results_one_accessibility" = "Byl zjištěn jeden výsledek";
+"onfido_country_select_search_results_multiple_accessibility" = "Nalezeno %d výsledků";
+"onfido_doc_confirmation_alert_crop_detail" = "Ujistěte se, že je viditelný celý dokument";
+"onfido_doc_confirmation_alert_crop_title" = "Zjištěný obraz s oříznutým okrajem";
+"onfido_doc_upload_progress_label" = "Kontrola kvality obrazu";
+"onfido_doc_capture_frame_success_accessibility" = "Zachycený snímek";
+"onfido_generic_error_timeout_title" = "Časový limit připojení";
+"onfido_generic_error_timeout_detail" = "Zkontrolujte, zda je připojení stabilní, a opakujte akci";
+"onfido_generic_error_timeout_button_primary" = "Opakování";
+"onfido_generic_processing" = "Zpracování";
+"onfido_video_capture_turn_success_accessibility" = "Detekce otočení hlavy";
+"onfido_welcome_list_header" = "Pomocí svého zařízení můžete:";
+"onfido_welcome_list_item_doc_photo" = "Vyfoťte si svůj doklad totožnosti";
+"onfido_welcome_list_item_doc_generic" = "Naskenujte svůj doklad totožnosti";
+"onfido_welcome_list_item_face_photo" = "Vyfotit svůj obličej";
+"onfido_welcome_list_item_face_video" = "Nahrát video svého obličeje";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Podržte telefon nad dokumentem";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Nebyl nalezen žádný dokument. Podržte telefon nad dokumentem.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "Příliš blízký dokument";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "Dokument je příliš blízko kameře";
+"onfido_doc_capture_header_live_guidance_distance_far" = "Příliš vzdálený dokument";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "Dokument je příliš daleko od kamery";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Udržujte tuto vzdálenost";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Dodržujte tuto vzdálenost od dokumentu";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Přesun doleva";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Posuňte zařízení doleva";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Přesun doprava";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Posuňte zařízení doprava";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Přesun nahoru";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Posuňte zařízení nahoru";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Přesun nahoru";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Posuňte zařízení mírně nahoru";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Přesun dolů";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Přesuňte zařízení dolů";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Přesun dolů";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Posuňte zařízení mírně dolů";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Nehýbejte se, aby mohla být provedena fotografie";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "Podržením v klidu zachyťte snímek";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Pohled z kamery. Položte telefon na přední stranu dokumentu a pak se od něj pomalu vzdalujte v přímém směru.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Podržte telefon nad přední stranou dokumentu";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Podržte telefon nad zadní stranou dokumentu";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Pohled z kamery. Přiložte telefon na zadní stranu dokumentu a pak se od něj pomalu vzdalujte po přímce.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Podržte telefon nad stránkou s fotografií v pasu";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pohled z kamery. Přiložte telefon na stránku s fotografií v pasu a pak se od ní pomalu vzdalujte po přímce.";
+"onfido_doc_capture_header_capturing" = "Vydržte v klidu";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "Zahájit proces ověřování";
+"onfido_poa_intro_list_shows_address" = "Zobrazuje Vaši aktuální adresu";
+"onfido_poa_intro_list_matches_signup" = "Údaj odpovídá adrese, kterou jste použili při registraci";
+"onfido_poa_intro_list_most_recent" = "Je to Váš nejnovější dokument";
+"onfido_poa_intro_subtitle" = "Budete potřebovat dokument, který:";
+"onfido_poa_intro_title" = "Nyní ověříme Vaši adresu";
+"onfido_doc_confirmation_body" = "Ujistěte se, že jste nahráli celou stránku dokumentu a detaily jsou dobře čitelné bez rozmazání nebo odlesků.";
+"onfido_poa_guidance_instructions_label" = "Zachyťte celý dokument a ujistěte se o viditelnosti následujících údajů:";
+"onfido_poa_capture_confirm" = "Odeslat dokument";
+"onfido_poa_capture_redo" = "Znovu pořídit fotografii";
+"onfido_poa_capture_choose_another" = "Vybrat jiný";
+"onfido_poa_capture_image_accessibility" = "Zobrazit zvětšený náhled dokumentu";
+"onfido_poa_capture_enlarge" = "Zvětšit dokument";
+"onfido_poa_capture_enlarge_move" = "Pohybujte jedním prstem";
+"onfido_poa_capture_enlarge_close" = "Zavřít";
+"onfido_poa_capture_instructions" = "Přední strana adresního dokladu";
+"onfido_poa_upload_instructions_take_photo_button" = "Vyfotografovat";
+"onfido_poa_upload_instructions_upload_button" = "Nahrát";
+"onfido_poa_type_selection_title" = "Výběr dokumentu";
+"onfido_poa_type_selection_title_uk" = "Vyberte dokument Spojeného království";
+"onfido_poa_country_not_found" = "Litujeme. Pracujeme na budoucí podpoře dalších zemí.";
+"onfido_poa_welcome_text" = "Vyfotit dokument s Vaší adresou";
+"onfido_poa_photo_library" = "Knihovna fotografií";
+"onfido_poa_files" = "Soubory";
+"onfido_poa_cancel" = "Zrušit";
+"onfido_poa_err_invalid_file_title" = "Neplatný soubor";
+"onfido_poa_err_invalid_file_message" = "Vyberte jiný soubor.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Celé jméno";
+"onfido_poa_guidance_instructions_address" = "Aktuální adresa";
+"onfido_poa_guidance_instructions_issue_date" = "Datum vydání nebo souhrnné období";
+"onfido_doc_select_subtitle_poa" = "V těchto dokumentech je nejčastěji uvedena Vaše současná adresa bydliště";
+"onfido_doc_select_button_bill" = "Účet za komunální služby";
+"onfido_doc_select_extra_estatements_ok" = "Přijímání elektronických výpisů";
+"onfido_doc_select_button_bill_detail" = "Plyn, elektřina, voda, pevná linka nebo internetové připojení";
+"onfido_doc_select_extra_no_mobile" = "Litujeme, účty za mobilní telefon nepřijímáme";
+"onfido_poa_guidance_subtitle_bill" = "Musí být vydán během posledních 3 měsíců";
+"onfido_doc_select_button_bank_statement" = "Výpis z účtu banky nebo stavební spořitelny";
+"onfido_poa_guidance_subtitle_bank_statement" = "Musí být vydán během posledních 3 měsíců";
+"onfido_doc_select_button_tax_letter" = "Dopis o dani";
+"onfido_poa_guidance_subtitle_tax_letter" = "Musí být vydán během posledních 12 měsíců";
+"onfido_doc_select_button_benefits_letter" = "Dopis o výhodách";
+"onfido_doc_select_button_benefits_letter_detail" = "Vládou schválené dávky pro domácnosti, např. příspěvek pro uchazeče o zaměstnání, příspěvek na bydlení, daňové úlevy.";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Musí být vydán během posledních 12 měsíců";
+"onfido_poa_guidance_button_primary" = "Pokračovat";
+"onfido_livenessV2_intro_subtitle" = "Tím se ověří, že jste skutečná osoba";
+"onfido_livenessV2_intro_note_no1" = "Nejprve umístěte obličej do záběru";
+"onfido_livenessV2_intro_note_no2" = "Pak pomalu otáčejte hlavu na obě strany";
+"onfido_livenessV2_intro_warning" = "Mějte prosím na paměti, že budeme zaznamenávat Vaši tvář a pozadí obrazu";
+"onfido_livenessV2_intro_ready_button" = "Mějte prosím na paměti, že budeme zaznamenávat Vaši tvář a pozadí obrazu";
+"onfido_livenessV2_success_title" = "To je vše, co potřebujeme, abychom mohli začít ověřovat Vaši totožnost";
+"onfido_livenessV2_success_main_button" = "Odeslat ověření";
+"onfido_livenessV2_error_reload_instructions" = "Pokyny pro opětovné nahrávání";
+"onfido_avc_intro_title" = "Nahrajte video";
+"onfido_avc_intro_subtitle" = "Tím se ověří, že jste skutečná osoba";
+"onfido_avc_intro_list_item_one" = "Nejprve umístěte obličej do záběru";
+"onfido_avc_intro_list_item_two" = "Pak pomalu otáčejte hlavu na obě strany";
+"onfido_avc_intro_disclaimer" = "Během tohoto procesu bude zaznamenán váš obličej a pozadí obrazu";
+"onfido_avc_intro_button_primary_ready" = "Spuštění nahrávání";
+"onfido_avc_face_alignment_title" = "Umístěte obličej do záběru";
+"onfido_avc_face_alignment_feedback_move_closer" = "Přibližte se";
+"onfido_avc_face_alignment_feedback_move_back" = "Posuňte se dozadu";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "Obličej nebyl rozpoznán";
+"onfido_avc_face_capture_title" = "Pomalu otáčejte hlavou na obě strany";
+"onfido_avc_face_capture_title_completed" = "Nahrávání bylo dokončeno";
+"onfido_avc_face_capture_alert_timeout_title" = "Litujeme, musíme znovu spustit nahrávání";
+"onfido_avc_face_capture_alert_timeout_body" = "Na dokončení záznamu máte až 15 sekund";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "Opakování";
+"onfido_avc_face_capture_alert_too_fast_title" = "Otočil/a jste hlavu příliš rychle";
+"onfido_avc_face_capture_alert_too_fast_body" = "Zkuste to znovu a otáčejte hlavou pomaleji";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "Opakování";
+"onfido_avc_no_face_detected_title" = "Nemůžeme rozpoznat Váš obličej";
+"onfido_avc_no_face_detected_list_item_lighting" = "Ujistěte se, že jste na místě s dobrým osvětlením";
+"onfido_avc_no_face_detected_list_item_eyes" = "Ujistěte se, že jsou Vaše oči dobře viditelné";
+"onfido_avc_no_face_detected_list_item_mask" = "Nezapomeňte si sundat roušku nebo jiné předměty, které vám zakrývají obličej. Brýle jsou v pořádku";
+"onfido_avc_no_face_detected_list_item_face" = "Stačí, když se ukážete, nepotřebujeme vidět Váš průkaz totožnosti.";
+"onfido_avc_no_face_detected_button_primary_restart" = "Restart nahrávání";
+"onfido_avc_confirmation_title" = "Nahrávání bylo dokončeno";
+"onfido_avc_confirmation_subtitle" = "Video Vašeho obličeje bylo úspěšně nahráno";
+"onfido_avc_confirmation_button_primary_upload" = "Nahrávání záznamu";
+"onfido_avc_connection_error_title" = "Chyba připojení";
+"onfido_avc_connection_error_subtitle" = "Zkontrolujte, zda je připojení stabilní, a opakujte akci";
+"onfido_avc_connection_error_button_primary_reload" = "Pokyny pro opětovné nahrávání";
+"onfido_avc_face_alignment_feedback_not_centered" = "Obličej není vycentrovaný";
+"onfido_avc_connection_error_button_primary_retry_upload" = "Opakování nahrávání";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "Restart nahrávání";
+"onfido_generic_errors_geoblocked_error_message" = "Služba není k dispozici";
+"onfido_doc_select_subtitle_country" = "Vyberte zemi vydání a podívejte se, které doklady přijímáme";
+"onfido_doc_select_section_header_country" = "Vydávající země";
+"onfido_doc_select_section_header_doc_type" = "Akceptované dokumenty";
+"onfido_doc_select_section_input_placeholder_country" = "Vyberte zemi, kde došlo k vydání";
+"onfido_doc_select_subtitle_entire_page" = "Celá stránka";
+"onfido_doc_select_subtitle_photo_page" = "Přední strana s fotografií";
+"onfido_doc_select_subtitle_front_back" = "Přední a zadní strana";
+"onfido_doc_select_section_input_country_not_found" = "Žádné výsledky";
+"onfido_generic_errors_geoblocked_error_instruction" = "Litujeme, ale zdá se, že nemůžeme pokračovat dále, protože Vaše aktuální umístění není podporováno.";
+"onfido_welcome_list_item_doc" = "Váš doklad totožnosti";
+"onfido_welcome_list_header_photo" = "K fotografování používejte své zařízení:";
+"onfido_welcome_list_header_record" = "Pomocí zařízení můžete fotografovat nebo nahrávat:";
+"onfido_welcome_list_item_selfie" = "Váš obličej";
+"onfido_welcome_list_item_video" = "video s vámi";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Pohled z kamery. Umístěte stránku s fotografií dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Pohled z kamery. Umístěte obálku dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_welcome_list_item_face_generic" = "Skenování obličeje";
+"onfido_permission_recovery_subtitle_cam" = "Bez kamery Vás nemůžeme ověřit";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Pohled z kamery. Umístěte přední část dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Pohled z kamery. Umístěte zadní stranu dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Pohled z kamery. Umístěte přední část dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Pohled z kamery. Umístěte zadní stranu dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Pohled z kamery. Umístěte fotografovanou stranu dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Pohled z kamery. Umístěte vnější stránky dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Pohled z kamery. Umístěte fotografovanou stranu dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Pohled z kamery. Umístěte vnější stránky dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Umístěte telefon doprostřed pasu";
+"onfido_avc_intro_title_accessibility" = "Nahrát video svého obličeje";
+"onfido_avc_intro_video_accessibility" = "Příklad videa, na kterém někdo otáčí hlavou na obě strany až do dokončení";
+"onfido_avc_face_capture_frame_accessibility" = "Pohled ze selfie kamery";
+"onfido_avc_face_capture_title_accessibility" = "Pomalu otáčejte hlavou na obě strany. Po dokončení jedné strany uslyšíte potvrzení a ucítíte vibrace";
+"onfido_avc_face_capture_recording_started_accessibility" = "Nahrávání bylo zahájeno";
+"onfido_avc_face_capture_keep_turning_accessibility" = "Otáčejte hlavou";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "Levá strana je kompletní";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "Pravá strana je kompletní";
+"onfido_avc_face_alignment_title_accessibility" = "Umístěte obličej před zařízení";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "Obličej nebyl rozpoznán. Posuňte obličej před zařízení";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "Zarovnání obličeje";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "Přibližte zařízení";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "Posuňte zařízení zpět";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "Posuňte zařízení doleva";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "Posuňte zařízení doprava";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "Posuňte zařízení nahoru";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "Přesuňte zařízení dolů";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "Otočte hlavu na druhou stranu";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "Zkontrolujte své video";
+"onfido_generic_back" = "zpět";
+"onfido_nfc_sheet_ready_subtitle" = "Připraveno ke skenování";
+"onfido_nfc_sheet_scanning_instruction" = "Nechte telefon v klidu";
+"onfido_nfc_sheet_success_subtitle" = "Skenování proběhlo úspěšně";
+"onfido_nfc_sheet_success_instruction_passport" = "Úspěšně jsme naskenovali Váš pas";
+"onfido_outro_body" = "To je vše, co potřebujeme, abychom mohli začít ověřovat Vaši totožnost";
+"onfido_permission_recovery_title_cam" = "Přístup ke kameře byl zamítnut";
+"onfido_permission_recovery_list_item_how_to_cam" = "Přístup ke kameře můžete obnovit prostřednictvím nastavení zařízení";
+"onfido_permission_recovery_list_item_action_cam" = "Přejděte do nastavení aplikace a povolte přístup ke kameře pro tuto aplikaci";
+"onfido_permission_recovery_title_mic" = "Odmítnutí přístupu k mikrofonu";
+"onfido_permission_recovery_subtitle_mic" = "Bez Vašeho mikrofonu Vás nemůžeme ověřit";
+"onfido_permission_recovery_list_item_how_to_mic" = "Přístup k mikrofonu můžete obnovit prostřednictvím nastavení zařízení";
+"onfido_permission_recovery_list_item_action_mic" = "Přejděte do nastavení aplikace a povolte přístup k mikrofonu pro tuto aplikaci";
+"onfido_permission_recovery_title_both" = "Zamezení přístupu ke kameře a mikrofonu";
+"onfido_permission_recovery_subtitle_both" = "Vyberte zemi, kde došlo k vydání";
+"onfido_permission_recovery_list_item_how_to_both" = "Přístup k fotoaparátu a mikrofonu můžete obnovit prostřednictvím nastavení zařízení";
+"onfido_permission_recovery_list_item_action_both" = "Přejděte do nastavení aplikace a povolte pro tuto aplikaci přístup k fotoaparátu i mikrofonu";
+"onfido_permission_recovery_button_primary" = "Povolit v nastavení";
+"onfido_generic_error_network_title" = "Ztráta spojení";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Pohled z kamery. Umístěte stránku s fotografií dokumentu do rámečku. Po pořízení snímku zařízení zavibruje.";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Pohled z kamery. Umístěte přední část dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Pohled z kamery. Umístěte zadní stranu dokumentu do rámečku a klepněte na tlačítko spouště.";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Pohled z kamery. Umístěte přední část dokumentu do rámečku. Zařízení při pořizování snímku zavibruje";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Pohled z kamery. Umístěte zadní stranu dokumentu do rámečku";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Pohled z kamery. Umístěte fotografovanou stranu dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Pohled z kamery. Umístěte vnější stránky dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_button_primary" = "Spuštění skenování dokumentů";
+"onfido_selfie_capture_button_primary" = "Spuštění skenování obličeje";
+"onfido_nfc_sheet_success_instruction_card" = "Úspěšně jsme naskenovali Vaši kartu";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "Nechte telefon v klidu";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "Ztráta kontaktu s občanským průkazem";
+"onfido_doc_capture_header_scanning" = "Skenování dokumentu...";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Pohled z kamery. Umístěte fotografovanou stranu dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Pohled z kamery. Umístěte vnější stránky dokumentu do rámečku a klepněte na tlačítko spouště";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "Ztráta kontaktu s pasem";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "Posuňte telefon mírně nahoru nebo dolů";
+"onfido_doc_select_button_bank_statement_non_uk" = "Bankovní výpis";
+"onfido_retry_feedback_id_expired_title" = "Platnost Vašeho dokumentu vypršela";
+"onfido_retry_feedback_id_unaccepted_title" = "Neakceptovatelný dokument";
+"onfido_retry_feedback_id_generic_title" = "Došlo k problému ve Vašem dokumentu";
+"onfido_retry_feedback_selfie_generic_title" = "Došlo k problému s vaším selfie";
+"onfido_retry_feedback_id_expired_subtitle" = "Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.";
+"onfido_retry_feedback_id_generic_subtitle" = "Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.";
+"onfido_retry_feedback_selfie_generic_subtitle" = "Zkuste to znovu a ujistěte se, že je Váš obličej viditelný a dobře osvětlený.";
+"onfido_retry_feedback_button_primary" = "Zkuste to znovu";
+"onfido_workflow_complete_pass_title" = "Úspěšný výsledek";
+"onfido_workflow_complete_reject_description" = "Nepodařilo se nám ověřit Vaši totožnost.";
+"onfido_workflow_complete_reject_title" = "Odmítnuto";
+"onfido_workflow_complete_pass_description" = "Podařilo se nám ověřit Vaši totožnost";
+"onfido_workflow_erros_task_not_supported" = "Úloha není aktuálně podporována";
+"onfido_workflow_erros_task_not_completed" = "Nelze dokončit úlohu pracovního postupu.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "Nepodařilo se načíst úlohu pracovního postupu.";
+"onfido_workflow_erros_no_workflow_run_id" = "ID pro spuštění pracovního postupu není nastaveno.";
+"onfido_workflow_erros_generic_title" = "Došlo k chybě serveru!";
+"onfido_workflow_erros_reload_app" = "Zkuste aplikaci znovu načíst a opakujte akci.";
+"onfido_welcome_start_workflow_button" = "Zahájit proces ověřování";
+"onfido_avc_intro_list_item_one_accessibility" = "Nejdřív bude potřeba umístit obličej před zařízení";
+"onfido_avc_intro_list_item_two_accessibility" = "Pak bude potřeba pomalu otáčet hlavou na obě strany";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Chyba zarovnání obličeje";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "Stačí, když se ukážete, nepotřebujeme vidět Váš průkaz totožnosti.";
+"onfido_selfie_intro_list_item_no_face_cover" = "Odstraňte vše, co vám zakrývá obličej. Brýle si můžete nechat";
+"onfido_selfie_intro_banner_nudity_message" = "Během tohoto procesu bude zachycena Vaše tvář a pozadí obrazu";
+"onfido_video_capture_prompt_header_microphone" = "Mikrofon je používán v jiné aplikaci.";
+"onfido_video_capture_prompt_detail_microphone" = "Mikrofon je nutný k ověření vaší totožnosti. Nezapomeňte ukončit probíhající hovor.";
+"onfido_video_capture_prompt_header_audio" = "Restart nahrávání";
+"onfido_video_capture_prompt_detail_audio" = "Pokud chcete tento krok zrušit, nesmíte na pozadí přehrávat žádný zvuk. Nezapomeňte ukončit jakýkoli probíhající hovor.";
+"onfido_video_intro_error_network_accessibility" = "Nelze nahrát vzorové video z důvodu nestabilní sítě";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Nahrávání vzorového videa";
+"onfido_doc_select_button_address_card" = "Adresní karta";
+"onfido_doc_select_button_address_card_detail" = "Přijímají se dočasné i trvalé karty";
+"onfido_poa_guidance_subtitle_address_card" = "Musí se jednat o platnou adresní kartu";
+"onfido_poa_guidance_instructions_full_address" = "Úplná adresa";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Datum vydání";
+"onfido_poa_guidance_instructions_expiry_date" = "Případné datum ukončení platnosti";
+
+"onfido_welcome_start_workflow_button_trial" = "Zahájit proces ověřování (TEST)";
+"onfido_enter_can_title" = "Vstup do sběrnice CAN";
+"onfido_enter_can_subtitle" = "Ujistěte se, že uvedené číslo odpovídá číslu na dokladu.";
+"onfido_enter_can_disclaimer" = "Číslo %d je umístěno v přední části dokumentu.";
+"onfido_enter_can_button_primary" = "Pokračovat";
+"onfido_nfc_scan_error_title" = "Váš dokument se nám nepodařilo naskenovat";
+"onfido_nfc_scan_error_list_item" = "Odstraňte kryt telefonu";
+"onfido_nfc_scan_error_list_item_2" = "Jakmile se skenování spustí, držte se v klidu";
+"onfido_nfc_scan_error_button_primary" = "Opakování skenování";
+"onfido_welcome_nfc_title" = "Potvrďte svou totožnost";
+"onfido_welcome_nfc_subtitle" = "Mělo by to trvat několik minut";
+"onfido_welcome_nfc_list_header_nfc" = "Pomocí svého zařízení můžete:";
+"onfido_welcome_nfc_list_item" = "Vyfoťte si svůj doklad totožnosti";
+"onfido_welcome_nfc_list_item_2" = "Naskenujte svůj dokument";
+"onfido_welcome_nfc_button_primary" = "Vyfotografujte si dokument";
+"onfido_intro_scan_title" = "Naskenujte svůj dokument";
+"onfido_intro_scan_subtitle" = "Postupujte podle níže uvedených pokynů";
+"onfido_intro_scan_list_item" = "Umístěte kartu na zadní stranu zařízení";
+"onfido_intro_scan_list_item_3" = "Jakmile se skenování spustí, držte se v klidu";
+"onfido_intro_scan_button_primary" = "Zahájení skenování";
+"onfido_nfc_scan_sheet" = "Pomalu posouvejte dokument nahoru a dolů.";
+"onfido_nfc_scan_scanning_sheet_1" = "Probíhá skenování\nZařízení a dokument nechte v klidu.";
+"onfido_nfc_scan_can-required_sheet_2" = "Vyžaduje se CAN";
+"onfido_nfc_scan_lost-contact_sheet_3" = "Ztráta kontaktu s kartou NFC\nPosuňte zařízení mírně nahoru nebo dolů.";
+"onfido_nfc_scan_lost-connection_sheet_4" = "Ztráta spojení\nVáš dokument se nám nepodařilo naskenovat";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "Nesprávný CAN";
+"onfido_enter_can_error_label" = "Zbývá vám %d %@.";
+"onfido_enter_can_substring_attempt_singular" = "pokus";
+"onfido_enter_can_substring_attempt_plural" = "pokusy";
+"onfido_nfc_scan_error_button_secondary" = "Získej ověření bez NFC";
+"onfido_intro_scan_animation_ios" = "Dokument umístěte na horní zadní stranu zařízení. Jakmile začne skenování, držte je v klidu.";
+"onfido_nfc_scan_sheet_success" = "Úspěšné skenování";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Během tohoto procesu bude zaznamenán váš obličej, pozadí a zvuk";
+"onfido_welcome_list_header_doc_video" = "Nahrávejte pomocí svého zařízení:";
+"onfido_welcome_list_item_doc_video_flash" = "Během nahrávání videa zapneme blesk Vašeho zařízení";
+"onfido_welcome_list_item_doc_video_timeout" = "Nahrávání je omezeno na %d sekund";
+"onfido_doc_video_capture_header" = "Při držení dokumentu držte přední stranu v rámečku";
+"onfido_doc_video_capture_header_step1" = "Nyní se nehýbejte";
+"onfido_doc_video_capture_header_step2" = "Pomalu otočte dokument tak, abyste viděli jeho zadní stranu";
+"onfido_doc_video_capture_detail_step2" = "Mějte dokument stále na očích";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Náhled videa";
+"onfido_doc_video_capture_button_primary_fallback" = "Další krok";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Dokončení nahrávání";
+"onfido_doc_video_capture_header_passport" = "Když držíte pas, držte stránku s fotografií v rámečku";
+"onfido_doc_video_capture_header_passport_progress" = "Vydržte v klidu";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Pomalu otočte dokument tak, abyste viděli vnější stránky";
+"onfido_outro_title" = "Děkujeme";
+"onfido_doc_video_capture_stepper" = "Krok %d z %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Nahrávání videa je omezeno na %d sekund";
+"onfido_doc_video_capture_alert_wrong_side" = "Ujistěte se, že používáte zadní stranu dokumentu";
+"onfido_doc_video_capture_success_accessibility" = "Úspěch";
+"onfido_doc_video_capture_prompt_header_timeout" = "Vypadá to, že vám to trvalo příliš dlouho";
+"onfido_doc_video_capture_prompt_button_timeout" = "Opakování";
+"onfido_app_title_doc_video_confirmation" = "Potvrďte svou totožnost";
+"onfido_doc_video_confirmation_button_primary" = "Odeslat video";
+"onfido_doc_video_confirmation_title" = "Děkujeme";
+"onfido_doc_video_confirmation_body" = "Vaše video bylo nahráno";
+"onfido_doc_video_capture_button_primary_start" = "Spuštění nahrávání";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Znovu pořídit video";
+"onfido_doc_video_capture_header_folded_doc_front" = "Strana s profilovou fotografií";
+"onfido_welcome_list_item_doc_video" = "Nahrát video svého dokladu totožnosti";
+"onfido_welcome_info_original_document" = "Vyfoťte si originál dokumentu. Skeny, fotografie obrazovek nebo fotokopie nejsou povoleny.";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "Mikrofon je používán v jiné aplikaci";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "Ukončete veškeré probíhající hovory nebo činnosti, u nichž během nahrávání používáte svůj mikrofon";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "Opakování";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Opakování";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "Audiozáznam se přehrává na jiné aplikaci";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "Během nahrávání nepřehrávejte na svém zařízení žádný audiozáznam";
+
+"onfido_nfc_scan_welcome_card_title" = "Urychlení procesu pomocí NFC";
+"onfido_nfc_scan_welcome_card_subtitle" = "Naskenujeme NFC čip vašeho dokumentu";
+"onfido_nfc_scan_welcome_card_list_item" = "Umístěte dokument na zadní stranu zařízení";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Pomalu posuňte zařízení nahoru a dolů";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Jakmile se skenování spustí, držte jej v klidu";
+"onfido_nfc_scan_welcome_card_button_primary" = "Zahájení skenování";
+"onfido_nfc_scan_welcome_card_secondary_button" = "Získej ověření bez NFC";
+
+"onfido_nfc_scan_error_inter_title" = "Váš dokument se nám nepodařilo naskenovat";
+"onfido_nfc_scan_error_inter_list_item" = "Odstraňte kryt telefonu";
+"onfido_nfc_scan_error_inter_list_item_2" = "Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné";
+"onfido_nfc_scan_error_inter_primary_button" = "Opakování skenování";
+"onfido_nfc_scan_error_inter_secondary_button" = "Získej ověření bez NFC";
+
+"onfido_nfc_scan_error_final_title" = "Tento dokument se nám nepodařilo ověřit";
+"onfido_nfc_scan_error_final_subtitle" = "Tento dokument vyžaduje skenování NFC, které však nebylo možné dokončit.";
+"onfido_nfc_scan_error_final_list_item" = "Máte jiný dokument, se kterým můžete pokračovat?";
+"onfido_nfc_scan_error_final_primary_button" = "Použijte jiný dokument";
+"onfido_nfc_scan_error_final_secondary_button" = "Získej ověření bez NFC";
+
+"onfido_nfc_scan_welcome_passport_title" = "Urychlení procesu pomocí NFC";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Naskenujeme NFC čip vašeho dokumentu";
+"onfido_nfc_scan_welcome_passport_list_item" = "Položte dokument na rovný povrch";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Otevřete dokument na vnitřní zadní straně";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Umístěte dokument na zadní stranu zařízení";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Pomalu posuňte zařízení nahoru a dolů";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Jakmile se skenování spustí, držte jej v klidu";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Zahájení skenování";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "Získej ověření bez NFC";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Váš dokument se nám nepodařilo naskenovat";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Sundejte obaly pasu a telefonu";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Opakování skenování";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "Získej ověření bez NFC";
+
+"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
+"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
+"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
+"onfido_nfc_scan_error_final_primary_button"="Use different document";
+"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
+"onfido_doc_capture_alert_too_close_title" = "Posuňte se dozadu";
+"onfido_doc_capture_alert_rotated_title" = "Otočte dokument";
+"onfido_doc_capture_alert_too_far_title" = "Přibližte se";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Překlopte na přední stranu";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Překlopte na zadní stranu";
+"onfido_doc_capture_alert_hold_still_title" = "Nehýbej se";

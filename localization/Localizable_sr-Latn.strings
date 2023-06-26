@@ -1,0 +1,662 @@
+"onfido_doc_capture_button_accessibility" = "Okidač";
+"onfido_selfie_capture_button_accessibility" = "Okidač";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Prikaz sa kamere";
+"onfido_selfie_capture_frame_accessibility" = "Pogledajte na kameri za selfi. Uklopite lice u ovalni okvir, a zatim dodirnite okidač kamere";
+"onfido_video_capture_frame_accessibility" = "Pogledajte na kameri za selfi. Uklopite lice u ovalni okvir da biste započeli snimanje.";
+"onfido_selfie_confirmation_image_accessibility" = "Fotografija lica";
+"onfido_video_capture_frame_success_accessibility" = "Lice je nađeno. Snimanje je počelo.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Video sa primerom u kojem neko snima selfi-video. Da biste snimili selfi-video, okrenite se prema prednjoj kameri i držite telefon malo dalje od lica. Zatim ćete morati da izgovorite neke brojeve i okrenete glavu u skladu sa uputstvima na ekranu.";
+"onfido_video_intro_button_pause_accessibility" = "Pauziraj video";
+"onfido_video_intro_button_play_accessibility" = "Pusti video";
+"onfido_country_select_list_header_all" = "Sve zemlje";
+"onfido_doc_capture_alert_manual_capture_detail" = "Poravnajte dokument, a zatim pritisnite dugme";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Probajte da fotografišete ručno";
+"onfido_doc_capture_alert_no_barcode_detail" = "Stanite na dobro osvetljeno mesto i približite karticu kameri";
+"onfido_doc_capture_alert_no_barcode_title" = "Bar-kôd nije nađen";
+"onfido_doc_confirmation_alert_blur_detail" = "Proverite da li se sve jasno vidi";
+"onfido_doc_confirmation_alert_blur_title" = "Otkrivena je mutna fotografija";
+"onfido_selfie_intro_list_item_face_forward" = "Okrenite se prema napred i proverite da li vam se oči jasno vide";
+"onfido_selfie_intro_list_item_no_glasses" = "Skinite naočare ako je potrebno";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "Uporedićemo ovo sa vašim dokumentom";
+"onfido_selfie_intro_title" = "Snimite selfi";
+"onfido_selfie_intro_button_primary" = "Snimite selfi";
+"onfido_country_select_bottom_sheet_link_close" = "Zatvori";
+"onfido_doc_confirmation_button_primary_license" = "Pošalji fotografiju";
+"onfido_doc_confirmation_button_primary_generic" = "Pošalji fotografiju";
+"onfido_doc_confirmation_button_primary_id" = "Pošalji fotografiju";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "Otpremi fotografiju";
+"onfido_doc_confirmation_button_secondary" = "Snimite fotografiju ponovo";
+"onfido_doc_confirmation_button_primary_passport" = "Pošalji fotografiju";
+"onfido_doc_confirmation_button_primary_permit" = "Pošalji fotografiju";
+"onfido_doc_confirmation_button_primary_visa" = "Pošalji fotografiju";
+"onfido_selfie_confirmation_button_secondary" = "Snimite fotografiju ponovo";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Omogući oba";
+"onfido_permission_button_primary_cam" = "Omogući kameru";
+"onfido_permission_button_primary_mic" = "Omogući mikrofon";
+"onfido_permission_body_both" = "Ne možemo da vam proverimo identitet bez korišćenja i kamere i mikrofona";
+"onfido_permission_body_cam" = "Ne možemo da vam proverimo identitet bez kamere";
+"onfido_permission_body_mic" = "Ne možemo da vam proverimo identitet bez korišćenja mikrofona";
+"onfido_permission_subtitle_both" = "Kada se to od vas zatraži, morate da omogućite pristup za oba da biste nastavili";
+"onfido_permission_subtitle_cam" = "Kada se to od vas zatraži, morate da omogućite pristup kameri da biste nastavili";
+"onfido_permission_subtitle_mic" = "Kada se to od vas zatraži, morate da omogućite pristup mikrofonu da biste nastavili";
+/* Device permission */
+"onfido_permission_title_both" = "Dozvoli pristup kameri i mikrofonu";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Dozvoli pristup kameri";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Dozvoli pristup mikrofonu";
+"onfido_doc_select_subtitle" = "Mora da bude zvanični ID sa fotografijom";
+/* Document type selection */
+"onfido_doc_select_title" = "Izaberite dokument";
+"onfido_doc_capture_prompt_title_license" = "Koji tip dozvole imate?";
+"onfido_doc_select_button_passport" = "Pasoš";
+"onfido_doc_select_button_license" = "Vozačka dozvola";
+"onfido_doc_select_button_id" = "Nacionalna lična karta";
+"onfido_doc_select_button_permit" = "Boravišna dozvola";
+"onfido_generic_error_network_detail" = "Došlo je do greške u mreži. Proverite internet vezu.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "Veza je prekinuta";
+"onfido_doc_capture_alert_no_face_detail" = "Proverite da li vam se vidi lice";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Postavite dokument na ravnu podlogu tako da se vide unutrašnje stranice sa fotografijom";
+"onfido_doc_capture_alert_no_face_title" = "Lice nije nađeno";
+"onfido_video_capture_button_primary_finish" = "Završi snimanje";
+"onfido_welcome_button_primary_doc" = "Izaberite dokument";
+"onfido_doc_capture_detail_folded_doc_back" = "Postavite dokument na ravnu podlogu, obuhvatite sve spoljne stranice";
+"onfido_doc_capture_header_folded_doc_back" = "Postavite spoljne stranice dokumenta u okvir";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Proverite da li je dokument u potpunosti rasklopljen i da li se fotografija jasno vidi";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Postavite dokument na ravnu podlogu, obuhvatite sve unutrašnje stranice (mora da sadrži fotografiju)";
+"onfido_doc_capture_prompt_button_paper" = "Papirni dokument";
+"onfido_app_title_doc_capture_license_fr" = "Francuska vozačka dozvola";
+"onfido_app_title_doc_capture_license_de" = "Nemačka vozačka dozvola";
+"onfido_doc_capture_alert_glare_detail" = "Odmaknite se od direktnog svetla";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Otkriven je odsjaj";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "Italijanska lična karta";
+"onfido_app_title_doc_capture_id_za" = "Južnoafrička lična karta";
+"onfido_doc_select_button_generic" = "Dokument";
+/* Document Types */
+"onfido_doc_select_button_visa" = "Viza";
+"onfido_doc_select_button_permit_work" = "Radna dozvola";
+"onfido_video_capture_header_challenge_digit_instructions" = "Izgovorite svaku cifru naglas";
+"onfido_video_capture_header_challenge_turn_forward" = "zatim se okrenite prema napred";
+"onfido_video_capture_header_challenge_turn_left" = "Okrenite glavu ulevo";
+"onfido_video_capture_header_challenge_turn_right" = "Okrenite glavu udesno";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Ponovo učitaj uputstva";
+"onfido_video_capture_prompt_network_timeout_detail" = "Proverite da li je veza stabilna, a zatim probajte ponovo";
+"onfido_video_capture_prompt_network_timeout_title" = "Isteklo je vreme povezivanja";
+"onfido_video_intro_loader" = "Učitavanje primera";
+"onfido_video_intro_list_item_time_limit" = "Imate %d sek. da dovršite postupak";
+"onfido_video_intro_list_item_move_speak" = "Pratite uputstva za kretanje ili izgovaranje teksta";
+/* Liveness */
+"onfido_video_intro_subtitle" = "Zbog bezbednosti nam treba snimak uživo";
+/* Liveness intro */
+"onfido_video_intro_title" = "Snimite video";
+"onfido_video_intro_button_primary" = "Snimite video";
+"onfido_video_capture_prompt_detail_timeout" = "Ne zaboravite da pritisnete dugme kada završite.";
+"onfido_video_capture_prompt_header_timeout" = "Izgleda da vam je trebalo previše vremena";
+"onfido_video_capture_prompt_header_restart" = "Ponovo započnite snimanje";
+"onfido_video_capture_prompt_detail_restart" = "Da biste prošli ovaj korak, lice mora da vam bude u vidnom polju tokom celog snimanja.";
+"onfido_video_capture_prompt_button_restart" = "Započnite ponovo";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Uklopite lice u ovalni okvir";
+"onfido_video_capture_body" = "Uklopite lice u ovalni okvir da biste započeli snimanje";
+"onfido_doc_confirmation_body_license" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+"onfido_doc_confirmation_body_generic" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+"onfido_doc_confirmation_body_id" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+"onfido_doc_confirmation_body_permit" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+"onfido_doc_confirmation_body_visa" = "Proverite da li se podaci jasno vide i da li ih nešto ne zaklanja";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Proverite da li vam se vidi celo lice";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "Postavite u okvir stranicu dokumenta sa fotografijom";
+"onfido_doc_capture_header_visa" = "Postavite u okvir stranicu sa vizom u dokumentu";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Učitavanje";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "Postavite u okvir stranicu dokumenta sa fotografijom";
+"onfido_doc_capture_header_license_back" = "Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_header_license_back_auto" = "Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_header_generic_back" = "Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_header_id_back" = "Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_header_permit_back" = "Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_header_license_front" = "Postavite u okvir prednju stranu dokumenta";
+"onfido_doc_capture_header_license_front_auto" = "Postavite u okvir prednju stranu dokumenta";
+"onfido_doc_capture_header_generic_front" = "Postavite u okvir prednju stranu dokumenta";
+"onfido_doc_capture_header_id_front" = "Postavite u okvir prednju stranu dokumenta";
+"onfido_doc_capture_header_permit_front" = "Postavite u okvir prednju stranu dokumenta";
+
+"onfido_generic_uploading" = "Otpremanje";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Proverite da li je ceo dokument na fotografiji";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Proverite da li vam se vidi lice";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Samo vaše lice sme da bude na selfiju";
+"onfido_doc_capture_alert_no_mrz_detail" = "Proverite da li se vidi ceo dokument";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Donja dva reda nisu vidljiva";
+"onfido_doc_capture_alert_no_mrz3_title" = "Donja tri reda se ne vide";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Pronađeno je više lica";
+"onfido_doc_capture_prompt_title_id" = "Koji tip lične karte imate?";
+"onfido_video_capture_button_primary_fallback" = "Sledeći korak";
+"onfido_doc_confirmation_alert_no_doc_title" = "Nije nađen nijedan dokument";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Lice nije nađeno";
+"onfido_generic_alert_network_error_button_primary" = "OK";
+"onfido_info_tablet_orientation_subtitle" = "Podržavamo samo režim portreta";
+"onfido_info_tablet_orientation_title" = "Rotirajte iPad";
+"onfido_info_tablet_orientation_body" = "Dugme treba da bude na dnu ekrana";
+"onfido_doc_capture_prompt_button_card" = "Plastična kartica";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Učitaj ponovo";
+"onfido_video_confirmation_button_secondary" = "Snimite video ponovo";
+"onfido_video_capture_prompt_button_timeout" = "Probajte ponovo";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Izaberite drugi dokument";
+"onfido_welcome_button_primary" = "Započni";
+"onfido_video_capture_button_primary_start" = "Započnite snimanje";
+"onfido_video_confirmation_button_primary" = "Otpremite video";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Predložena zemlja";
+/* General */
+"onfido_video_intro_error_network" = "Nije moguće učitati zbog nestabilne mreže";
+"onfido_country_select_bottom_sheet_details" = "Čini se da zemlja izabranog dokumenta nije podržana. Izaberite drugu zemlju.";
+"onfido_country_select_bottom_sheet_title" = "Ne možete da nađete svoju zemlju?";
+"onfido_doc_confirmation_button_primary" = "Pošalji fotografiju";
+/* Face capture */
+"onfido_welcome_subtitle" = "Trebalo bi da traje nekoliko minuta";
+/* Welcome */
+"onfido_welcome_title" = "Obavite proveru identiteta";
+"onfido_app_title_doc_confirmation" = "Obavite proveru identiteta";
+"onfido_app_title_selfie_confirmation" = "Obavite proveru identiteta";
+"onfido_app_title_nfc_select" = "Obavite proveru identiteta";
+"onfido_app_title_nfc_intro" = "Obavite proveru identiteta";
+"onfido_app_title_nfc_fail" = "Obavite proveru identiteta";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Obavite proveru identiteta";
+"onfido_app_title_country_select" = "Izaberite zemlju izdavanja";
+"onfido_app_title_selfie_intro" = "Obavite proveru identiteta";
+"onfido_app_title_video_intro" = "Obavite proveru identiteta";
+"onfido_app_title_permission" = "Obavite proveru identiteta";
+"onfido_app_title_video_confirmation" = "Obavite proveru identiteta";
+"onfido_video_capture_alert_wrong_side" = "Pogrešna strana";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "Ubrzajte postupak pomoću NFC-a";
+"onfido_nfc_select_subtitle_passport" = "Skeniraćemo NFC čip u vašem pasošu";
+"onfido_nfc_select_body_passport" = "e-pasoši imaju ovaj simbol na koricama";
+"onfido_nfc_select_button_primary_passport" = "Upotrebite e-pasoš";
+"onfido_nfc_select_button_secondary_passport" = "To nije e-pasoš";
+
+"onfido_nfc_select_title_card" = "Ubrzajte postupak pomoću NFC-a";
+"onfido_nfc_select_subtitle_card" = "Skeniraćemo NFC čip na vašoj kartici";
+"onfido_nfc_select_body_card" = "Kartice sa NFC čipovima imaju ovaj simbol";
+"onfido_nfc_select_button_primary_card" = "Upotrebite NFC karticu";
+"onfido_nfc_select_button_secondary_card" = "To nije NFC kartica";
+
+"onfido_nfc_intro_title_passport" = "Skenirajte e-pasoš";
+"onfido_nfc_intro_subtitle_passport" = "Pratite ova uputstva";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Postavite pasoš na ravnu površinu";
+"onfido_nfc_intro_passport_scan_guide_2" = "Postavite telefon na gornji deo pasoša";
+"onfido_nfc_intro_passport_scan_guide_3" = "Polako pomerajte telefon nadole i nagore";
+"onfido_nfc_intro_passport_scan_guide_4" = "Kada skeniranje počne, držite telefon mirno";
+
+"onfido_nfc_intro_button_primary_passport" = "Započnite skeniranje";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "Skenirajte NFC karticu";
+"onfido_nfc_intro_subtitle_card" = "Postavite telefon na karticu i držite je blizu gornjeg dela telefona";
+"onfido_nfc_intro_button_primary_card" = "Započnite skeniranje";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "Postavite telefon na karticu";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "Nismo uspeli da skeniramo vaš pasoš";
+"onfido_nfc_fail_title_card" = "Nismo uspeli da skeniramo vašu NFC karticu";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Uklonite omot sa pasoša";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Postavite pasoš na ravnu površinu";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Postavite telefon blizu srednjeg dela pasoša";
+"onfido_nfc_intro_carousel_body_last_page" = "Možete da probate da snimite i zadnju stranicu s unutrašnje strane";
+"onfido_nfc_intro_carousel_body_dont_move" = "Ne pomerajte telefon niti pasoš dok skenirate";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Uklonite omot sa pasoša i masku sa telefona";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Telefon i pasoš moraju biti u kontaktu sve dok se skeniranje ne završi";
+"onfido_nfc_fail_button_primary_passport" = "Probajte ponovo da skenirate";
+"onfido_nfc_fail_button_secondary_passport" = "Proverite identitet bez skeniranja";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "Uklonite masku sa telefona";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Telefon i kartica moraju biti u kontaktu sve dok se skeniranje ne završi";
+"onfido_nfc_fail_button_primary_card" = "Probajte ponovo da skenirate";
+"onfido_nfc_fail_button_secondary_card" = "Proverite identitet bez skeniranja";
+
+"onfido_doc_confirmation_zoom_button" = "Uvećaj sliku";
+"onfido_doc_confirmation_image_accessibility" = "Fotografija dokumenta. Dodirnite dvaput da uvećate.";
+"onfido_doc_zoom_body" = "Krećite se po ekranu jednim prstom";
+"onfido_doc_zoom_button_close" = "Zatvori";
+
+"onfido_video_confirmation_body" = "Video je snimljen";
+"onfido_app_title_country_select_search" = "Pretraga";
+"onfido_country_select_list_accessibility" = "Rezultati pretrage";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Obavite proveru identiteta";
+"onfido_user_consent_prompt_no_consent_title" = "Jeste li sigurni?";
+"onfido_user_consent_prompt_no_consent_detail" = "Ako ne prihvatite Onfido-ve izjave o privatnosti i uslove korišćenja usluge, nećemo moći da proverimo vaš identitet i postupak će se prekinuti.";
+"onfido_user_consent_prompt_button_secondary" = "Pregledajte ponovo";
+"onfido_user_consent_prompt_button_primary" = "Da, nemojte mi proveravati identitet";
+"onfido_user_consent_button_primary" = "Prihvatam";
+"onfido_user_consent_button_secondary" = "Ne prihvatam";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Obavite proveru identiteta";
+"onfido_user_consent_load_fail_title" = "Sadržaj nije učitan";
+"onfido_user_consent_load_fail_detail" = "Proverite da li je veza stabilna, a zatim probajte ponovo";
+"onfido_user_consent_load_fail_button_primary" = "Ponovo učitaj ekran";
+"onfido_country_select_search_results_none_accessibility" = "Nema rezultata koji se podudaraju";
+"onfido_country_select_search_results_one_accessibility" = "Nađen je jedan rezultat";
+"onfido_country_select_search_results_multiple_accessibility" = "Nađenih rezultata: %d";
+"onfido_doc_confirmation_alert_crop_detail" = "Proverite da li je ceo dokument vidljiv";
+"onfido_doc_confirmation_alert_crop_title" = "Nađena je izrezana slika";
+"onfido_doc_upload_progress_label" = "Provera kvaliteta slike";
+"onfido_doc_capture_frame_success_accessibility" = "Slika je snimljena";
+"onfido_generic_error_timeout_title" = "Isteklo je vreme povezivanja";
+"onfido_generic_error_timeout_detail" = "Proverite da li je veza stabilna, a zatim probajte ponovo";
+"onfido_generic_error_timeout_button_primary" = "Probajte ponovo";
+"onfido_generic_processing" = "Obrađuje se";
+"onfido_video_capture_turn_success_accessibility" = "Uočeno je okretanje glave";
+"onfido_welcome_list_header" = "Upotrebite uređaj da:";
+"onfido_welcome_list_item_doc_photo" = "Snimite fotografiju identifikacionog dokumenta";
+"onfido_welcome_list_item_doc_generic" = "skenirate identifikacioni dokument";
+"onfido_welcome_list_item_face_photo" = "snimite fotografiju lica";
+"onfido_welcome_list_item_face_video" = "snimite video lica";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Držite telefon iznad dokumenta";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Nije nađen nijedan dokument. Držite telefon iznad dokumenta.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "Dokument je preblizu";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "Dokument je preblizu kameri";
+"onfido_doc_capture_header_live_guidance_distance_far" = "Dokument je predaleko";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "Dokument je predaleko od kamere";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Ostanite na ovoj udaljenosti";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Ostanite na ovoj udaljenosti od dokumenta";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Pomerite ulevo";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Pomerite uređaj ulevo";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Pomerite udesno";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Pomerite uređaj udesno";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Pomerite nagore";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Pomerite uređaj nagore";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Pomerite nagore";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Pomerite uređaj malo nagore";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Pomerite nadole";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Pomerite uređaj nadole";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Pomerite nadole";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Pomerite uređaj malo nadole";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Budite mirni dok snimate";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "Ne pomerajte se da biste snimili sliku";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Pogledajte na kameri. Postavite telefon na prednju stranu dokumenta, a zatim polako odmaknite telefon od njega tako da ostane u ravni s njim.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Držite telefon iznad prednje strane dokumenta";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Držite telefon iznad zadnje strane dokumenta";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Pogledajte na kameri. Postavite telefon na zadnju stranu dokumenta, a zatim polako odmaknite telefon od njega tako da ostane u ravni s njim.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Držite telefon iznad stranice pasoša sa fotografijom";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pogledajte na kameri. Postavite telefon na stranicu pasoša gde je fotografija, a zatim polako odmaknite telefon od njega tako da ostane u ravni s njim.";
+"onfido_doc_capture_header_capturing" = "Ne pomerajte se";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "Započnite proveru identiteta";
+"onfido_poa_intro_list_shows_address" = "prikazuje vašu trenutnu adresu";
+"onfido_poa_intro_list_matches_signup" = "odgovara adresi koju ste koristili prilikom registracije";
+"onfido_poa_intro_list_most_recent" = "je vaš najnoviji dokument";
+"onfido_poa_intro_subtitle" = "Potreban vam je dokument koji:";
+"onfido_poa_intro_title" = "Hajde da proverimo vašu adresu";
+"onfido_doc_confirmation_body" = "Proverite da li ste otpremili celu stranicu dokumenta i da li su podaci jasno čitljivi, nisu mutni i nema odsjaja";
+"onfido_poa_guidance_instructions_label" = "Snimite ceo dokument i proverite da li se jasno pokazuje:";
+"onfido_poa_capture_confirm" = "Pošalji dokument";
+"onfido_poa_capture_redo" = "Snimite fotografiju ponovo";
+"onfido_poa_capture_choose_another" = "Izaberite nešto drugo";
+"onfido_poa_capture_image_accessibility" = "Prikaži uvećani prikaz dokumenta";
+"onfido_poa_capture_enlarge" = "Uvećaj dokument";
+"onfido_poa_capture_enlarge_move" = "Krećite se po ekranu jednim prstom";
+"onfido_poa_capture_enlarge_close" = "Zatvori";
+"onfido_poa_capture_instructions" = "Prednja strana dokumenta sa adresom";
+"onfido_poa_upload_instructions_take_photo_button" = "Fotografišite";
+"onfido_poa_upload_instructions_upload_button" = "Nastavi";
+"onfido_poa_type_selection_title" = "Izaberite dokument";
+"onfido_poa_type_selection_title_uk" = "Izaberite dokument iz UK";
+"onfido_poa_country_not_found" = "Izvinite zbog toga. Radimo na tome da podržimo što veći broj zemalja.";
+"onfido_poa_welcome_text" = "Snimite fotografiju dokumenta sa adresom";
+"onfido_poa_photo_library" = "Fototeka";
+"onfido_poa_files" = "Datoteke";
+"onfido_poa_cancel" = "Otkaži";
+"onfido_poa_err_invalid_file_title" = "Nevažeća datoteka";
+"onfido_poa_err_invalid_file_message" = "Izaberite drugu datoteku.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_instructions_logo" = "Logotip";
+"onfido_poa_guidance_instructions_full_name" = "Ime i prezime";
+"onfido_poa_guidance_instructions_address" = "Trenutna adresa";
+"onfido_poa_guidance_instructions_issue_date" = "Datum izdavanja ili zbirni period";
+"onfido_doc_select_subtitle_poa" = "Ovo su dokumenti koji će najverovatnije prikazivati vašu trenutnu kućnu adresu";
+"onfido_doc_select_button_bill" = "Račun za komunalije";
+"onfido_doc_select_extra_estatements_ok" = "se prihvataju";
+"onfido_doc_select_button_bill_detail" = "E-izvodi za gas, struju, vodu, fiksni telefon i internet se prihvataju.";
+"onfido_doc_select_extra_no_mobile" = "Nažalost, ne i računi za mobilni telefon.";
+"onfido_poa_guidance_subtitle_bill" = "Mora biti izdato u poslednjih 3 meseci";
+"onfido_doc_select_button_bank_statement" = "Izvod iz banke ili stambene štedne zadruge";
+"onfido_poa_guidance_subtitle_bank_statement" = "Mora biti izdato u poslednjih 3 meseci";
+"onfido_doc_select_button_tax_letter" = "Potvrda o gradskom porezu";
+"onfido_poa_guidance_subtitle_tax_letter" = "Mora biti izdato u poslednjih 12 meseci";
+"onfido_doc_select_button_benefits_letter" = "Potvrda o naknadama";
+"onfido_doc_select_button_benefits_letter_detail" = "Vladine odobrene naknade za domaćinstva, npr. naknada za nezaposlene, naknada za stanovanje, poreski krediti";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Mora biti izdato u poslednjih 12 meseci";
+"onfido_poa_guidance_button_primary" = "Nastavi";
+"onfido_livenessV2_intro_subtitle" = "Ovim se potvrđuje da ste stvarna osoba";
+"onfido_livenessV2_intro_note_no1" = "Prvo postavite lice u okvir";
+"onfido_livenessV2_intro_note_no2" = "Zatim polako okrenite glavu na jednu pa na drugu stranu";
+"onfido_livenessV2_intro_warning" = "Imajte na umu da ćemo snimiti vaše lice i pozadinu";
+"onfido_livenessV2_intro_ready_button" = "Imajte na umu da ćemo snimiti vaše lice i pozadinu";
+"onfido_livenessV2_success_title" = "To je sve što nam treba da bismo započeli proveru vašeg identiteta";
+"onfido_livenessV2_success_main_button" = "Pošalji potvrdu identiteta";
+"onfido_livenessV2_error_reload_instructions" = "Ponovo učitaj uputstva";
+"onfido_avc_intro_title" = "Snimite video";
+"onfido_avc_intro_subtitle" = "Ovim se potvrđuje da ste stvarna osoba";
+"onfido_avc_intro_list_item_one" = "Prvo postavite lice u okvir";
+"onfido_avc_intro_list_item_two" = "Zatim polako okrenite glavu na jednu pa na drugu stranu";
+"onfido_avc_intro_disclaimer" = "Imajte na umu da ćemo snimiti vaše lice i pozadinu";
+"onfido_avc_intro_button_primary_ready" = "Započnite snimanje";
+"onfido_avc_face_alignment_title" = "Postavite lice u okvir";
+"onfido_avc_face_alignment_feedback_move_closer" = "Priđite bliže";
+"onfido_avc_face_alignment_feedback_move_back" = "Odaljite se";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "Lice nije nađeno";
+"onfido_avc_face_capture_title" = "Polako okrenite glavu na jednu pa na drugu stranu";
+"onfido_avc_face_capture_title_completed" = "Snimanje je završeno";
+"onfido_avc_face_capture_alert_timeout_title" = "Nažalost, moramo ponovo da pokrenemo snimanje";
+"onfido_avc_face_capture_alert_timeout_body" = "Imate najviše 15 sekundi da dovršite snimanje";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "Probajte ponovo";
+"onfido_avc_face_capture_alert_too_fast_title" = "Prebrzo ste okrenuli glavu";
+"onfido_avc_face_capture_alert_too_fast_body" = "Probajte ponovo i okrenite glavu sporije";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "Probajte ponovo";
+"onfido_avc_no_face_detected_title" = "Ne možemo da nađemo vaše lice";
+"onfido_avc_no_face_detected_list_item_lighting" = "Proverite da li se nalazite na dobro osvetljenom mestu";
+"onfido_avc_no_face_detected_list_item_eyes" = "Proverite da li vam se oči jasno vide";
+"onfido_avc_no_face_detected_list_item_mask" = "Obavezno uklonite maske ili druge predmete koji vam prekrivaju lice. Naočare neće smetati";
+"onfido_avc_no_face_detected_list_item_face" = "Prikažite samo svoje lice; ne moramo da vidimo vaš ID";
+"onfido_avc_no_face_detected_button_primary_restart" = "Ponovo započnite snimanje";
+"onfido_avc_confirmation_title" = "Snimanje je završeno";
+"onfido_avc_confirmation_subtitle" = "Video vašeg lica je uspešno snimljen";
+"onfido_avc_confirmation_button_primary_upload" = "Otpremite snimak";
+"onfido_avc_connection_error_title" = "Greška pri povezivanju";
+"onfido_avc_connection_error_subtitle" = "Proverite da li je veza stabilna, a zatim probajte ponovo";
+"onfido_avc_connection_error_button_primary_reload" = "Ponovo učitaj uputstva";
+"onfido_avc_face_alignment_feedback_not_centered" = "Lice nije centrirano";
+"onfido_avc_connection_error_button_primary_retry_upload" = "Probajte ponovo da otpremite";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "Ponovo započnite snimanje";
+"onfido_generic_errors_geoblocked_error_message" = "Usluga nije dostupna";
+"onfido_doc_select_subtitle_country" = "Izaberite zemlju izdavanja da biste videli koje dokumente prihvatamo";
+"onfido_doc_select_section_header_country" = "Zemlja izdavanja";
+"onfido_doc_select_section_header_doc_type" = "Prihvaćeni dokumenti";
+"onfido_doc_select_section_input_placeholder_country" = "Izaberite zemlju izdavanja";
+"onfido_doc_select_subtitle_entire_page" = "Cela stranica";
+"onfido_doc_select_subtitle_photo_page" = "Stranica sa fotografijom";
+"onfido_doc_select_subtitle_front_back" = "Prednja i zadnja strana";
+"onfido_doc_select_section_input_country_not_found" = "Nema rezultata";
+"onfido_generic_errors_geoblocked_error_instruction" = "Nažalost, izgleda da ne možemo da nastavimo jer vaša trenutna lokacija nije podržana";
+"onfido_welcome_list_item_doc" = "identifikacioni dokument";
+"onfido_welcome_list_header_photo" = "Snimite fotografiju pomoću svog uređaja:";
+"onfido_welcome_list_header_record" = "Snimite fotografiju ili video pomoću svog uređaja:";
+"onfido_welcome_list_item_selfie" = "vaše lice";
+"onfido_welcome_list_item_video" = "video o vama";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Pogledajte na kameri. Postavite u okvir stranicu dokumenta sa fotografijom, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Pogledajte na kameri. Postavite u okvir naslovnu stranu dokumenta, a zatim dodirnite okidač";
+"onfido_welcome_list_item_face_generic" = "skenirate lice";
+"onfido_permission_recovery_subtitle_cam" = "Ne možemo da vam proverimo identitet bez kamere";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Pogledajte na kameri. Postavite u okvir prednju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Pogledajte na kameri. Postavite u okvir zadnju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Pogledajte na kameri. Postavite u okvir prednju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Pogledajte na kameri. Postavite u okvir zadnju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Pogledajte na kameri. Postavite u okvir stranu sa fotografijom u dokumentu, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Pogledajte na kameri. Postavite u okvir spoljne strane dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Pogledajte na kameri. Postavite u okvir stranu sa fotografijom u dokumentu, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Pogledajte na kameri. Postavite u okvir spoljne strane dokumenta, a zatim dodirnite okidač";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Postavite telefon blizu srednjeg dela pasoša";
+"onfido_avc_intro_title_accessibility" = "snimite video lica";
+"onfido_avc_intro_video_accessibility" = "Video sa primerom u kojem neko okreće glavu na obe strane do završetka snimanja";
+"onfido_avc_face_capture_frame_accessibility" = "Pogledajte na kameri za selfi";
+"onfido_avc_face_capture_title_accessibility" = "Polako okrenite glavu na jednu pa na drugu stranu. Kada jedna strana bude gotova, čućete potvrdu i osetićete vibraciju";
+"onfido_avc_face_capture_recording_started_accessibility" = "Snimanje je počelo";
+"onfido_avc_face_capture_keep_turning_accessibility" = "Nastavite da okrećete glavu";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "Leva strana je završena";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "Desna strana završena";
+"onfido_avc_face_alignment_title_accessibility" = "Stanite licem okrenutim prema uređaju";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "Lice nije nađeno. Stanite licem okrenutim prema uređaju";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "Lice je poravnato";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "Približite uređaj";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "Odmaknite uređaj";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "Pomerite uređaj ulevo";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "Pomerite uređaj udesno";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "Pomerite uređaj nagore";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "Pomerite uređaj nadole";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "Okrenite glavu na drugu stranu";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "Proverite video";
+"onfido_generic_back" = "nazad";
+"onfido_nfc_sheet_ready_subtitle" = "Spremno za skeniranje";
+"onfido_nfc_sheet_scanning_instruction" = "Mirno držite telefon";
+"onfido_nfc_sheet_success_subtitle" = "Skeniranje je uspelo";
+"onfido_nfc_sheet_success_instruction_passport" = "Uspešno smo skenirali vaš pasoš";
+"onfido_outro_body" = "To je sve što nam treba da bismo započeli proveru vašeg identiteta";
+"onfido_permission_recovery_title_cam" = "Pristup kameri je odbijen";
+"onfido_permission_recovery_list_item_how_to_cam" = "Pristup kameri možete ponovo da odobrite putem podešavanja uređaja";
+"onfido_permission_recovery_list_item_action_cam" = "Idite na podešavanja aplikacije i omogućite pristup kameri za ovu aplikaciju";
+"onfido_permission_recovery_title_mic" = "Pristup mikrofonu je odbijen";
+"onfido_permission_recovery_subtitle_mic" = "Ne možemo da vam proverimo identitet bez mikrofona";
+"onfido_permission_recovery_list_item_how_to_mic" = "Pristup mikrofonu možete ponovo da odobrite putem podešavanja uređaja";
+"onfido_permission_recovery_list_item_action_mic" = "Idite na podešavanja aplikacije i omogućite pristup mikrofonu za ovu aplikaciju";
+"onfido_permission_recovery_title_both" = "Pristup kameri i mikrofonu je odbijen";
+"onfido_permission_recovery_subtitle_both" = "Ne možemo da vam proverimo identitet bez kamere i mikrofona";
+"onfido_permission_recovery_list_item_how_to_both" = "Pristup kameri i mikrofonu možete ponovo da odobrite putem podešavanja uređaja";
+"onfido_permission_recovery_list_item_action_both" = "Idite na podešavanja aplikacije i omogućite pristup i kameri i mikrofonu za ovu aplikaciju";
+"onfido_permission_recovery_button_primary" = "Omogućite u podešavanjima";
+"onfido_generic_error_network_title" = "Veza je prekinuta";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Pogledajte na kameri. Postavite u okvir stranicu dokumenta sa fotografijom. Uređaj će zavibrirati kada snimite fotografiju";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Pogledajte na kameri. Postavite u okvir prednju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Pogledajte na kameri. Postavite u okvir zadnju stranu dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Pogledajte na kameri. Postavite u okvir prednju stranu dokumenta. Uređaj će zavibrirati kada snimite fotografiju";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Pogledajte na kameri. Postavite u okvir zadnju stranu dokumenta";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Pogledajte na kameri. Postavite u okvir stranu sa fotografijom u dokumentu, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Pogledajte na kameri. Postavite u okvir spoljne strane dokumenta, a zatim dodirnite okidač";
+"onfido_doc_capture_button_primary" = "Započnite skeniranje dokumenta";
+"onfido_selfie_capture_button_primary" = "Započnite skeniranje lica";
+"onfido_nfc_sheet_success_instruction_card" = "Uspešno smo skenirali vašu karticu";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "Mirno držite telefon";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "Izgubljen je kontakt sa karticom";
+"onfido_doc_capture_header_scanning" = "Dokument se skenira…";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Pogledajte na kameri. Postavite u okvir stranu sa fotografijom u dokumentu, a zatim dodirnite okidač";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Pogledajte na kameri. Postavite u okvir spoljne strane dokumenta, a zatim dodirnite okidač";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "Izgubljen je kontakt sa pasošem";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "Pomerite telefon malo nagore ili nadole";
+"onfido_doc_select_button_bank_statement_non_uk" = "Izvod iz banke";
+"onfido_retry_feedback_id_expired_title" = "Vaš dokument je istekao";
+"onfido_retry_feedback_id_unaccepted_title" = "Neprihvaćen dokument";
+"onfido_retry_feedback_id_generic_title" = "Došlo je do problema sa dokumentom";
+"onfido_retry_feedback_selfie_generic_title" = "Došlo je do problema s selfijem";
+"onfido_retry_feedback_id_expired_subtitle" = "Probajte ponovo sa važećim ID-jem sa fotografijom i proverite da li se podaci jasno vide";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "Probajte ponovo sa važećim ID-jem sa fotografijom i proverite da li se podaci jasno vide";
+"onfido_retry_feedback_id_generic_subtitle" = "Probajte ponovo sa važećim ID-jem sa fotografijom i proverite da li se podaci jasno vide";
+"onfido_retry_feedback_selfie_generic_subtitle" = "Probajte ponovo i proverite da li vam se vidi lice i da li je dobro osvetljeno";
+"onfido_retry_feedback_button_primary" = "Probajte ponovo";
+"onfido_workflow_complete_pass_title" = "Potvrđeno";
+"onfido_workflow_complete_reject_description" = "Nismo uspeli da potvrdimo vaš identitet";
+"onfido_workflow_complete_reject_title" = "Odbijeno";
+"onfido_workflow_complete_pass_description" = "Potvrdili smo vaš identitet";
+"onfido_workflow_erros_task_not_supported" = "Zadatak trenutno nije podržan";
+"onfido_workflow_erros_task_not_completed" = "Nije moguće dovršiti zadatak toka posla.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "Nije moguće preuzeti zadatak toka posla.";
+"onfido_workflow_erros_no_workflow_run_id" = "ID izvršavanja toka posla nije konfigurisan.";
+"onfido_workflow_erros_generic_title" = "Došlo je do greške servera!";
+"onfido_workflow_erros_reload_app" = "Probajte ponovo da učitate aplikaciju i probajte ponovo.";
+"onfido_welcome_start_workflow_button" = "Započnite proveru identiteta";
+"onfido_avc_intro_list_item_one_accessibility" = "Prvo ćete morati da stanete licem okrenutim prema uređaju";
+"onfido_avc_intro_list_item_two_accessibility" = "Zatim ćete morati polako da okrenete glavu na jednu pa na drugu stranu";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Lice nije poravnato";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "Prikažite samo svoje lice; ne moramo da vidimo vaš identifikacioni dokument";
+"onfido_selfie_intro_list_item_no_face_cover" = "Uklonite sve što vam pokriva lice. Naočare neće smetati";
+"onfido_selfie_intro_banner_nudity_message" = "Tokom ovog postupka snimaće se vaše lice i pozadina";
+"onfido_video_capture_prompt_header_microphone" = "Vaš mikrofon koristi druga aplikacija";
+"onfido_video_capture_prompt_detail_microphone" = "Mikrofon nam je potreban da bismo proverili vaš identitet. Prekinite sve trenutne pozive.";
+"onfido_video_capture_prompt_header_audio" = "Ponovo započnite snimanje";
+"onfido_video_capture_prompt_detail_audio" = "Da biste prošli ovaj korak, ne smete da puštate nikakve audio-snimke u pozadini. Prekinite sve trenutne pozive.";
+"onfido_video_intro_error_network_accessibility" = "Nije moguće učitati video sa primerom zbog nestabilne mreže";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Ponovo učitajte video sa primerom";
+"onfido_doc_select_button_address_card" = "Kartica sa adresom";
+"onfido_doc_select_button_address_card_detail" = "Prihvataju se privremene i trajne kartice";
+"onfido_poa_guidance_subtitle_address_card" = "Mora da bude kartica sa važećom adresom";
+"onfido_poa_guidance_instructions_full_address" = "Puna adresa";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Datum izdavanja";
+"onfido_poa_guidance_instructions_expiry_date" = "Datum isteka, ako postoji";
+
+"onfido_welcome_start_workflow_button_trial" = "Započnite proveru identiteta (TEST)";
+"onfido_enter_can_title" = "Unesite CAN";
+"onfido_enter_can_subtitle" = "Proverite da li se navedeni broj podudara sa brojem na dokumentu.";
+"onfido_enter_can_disclaimer" = "Možete ga naći na prednjoj strani dokumenta. To je %d-cifren broj i nešto je krupnije odštampan.";
+"onfido_enter_can_button_primary" = "Nastavi";
+"onfido_nfc_scan_error_title" = "Nismo uspeli da skeniramo vaš dokument";
+"onfido_nfc_scan_error_list_item" = "Uklonite masku sa telefona";
+"onfido_nfc_scan_error_list_item_2" = "Kada skeniranje počne, nemojte se pomerati";
+"onfido_nfc_scan_error_button_primary" = "Probajte ponovo da skenirate";
+"onfido_welcome_nfc_title" = "Obavite proveru identiteta";
+"onfido_welcome_nfc_subtitle" = "Trebalo bi da traje nekoliko minuta";
+"onfido_welcome_nfc_list_header_nfc" = "Upotrebite uređaj da:";
+"onfido_welcome_nfc_list_item" = "snimite fotografiju identifikacionog dokumenta";
+"onfido_welcome_nfc_list_item_2" = "skenirate dokument";
+"onfido_welcome_nfc_button_primary" = "Snimite fotografiju dokumenta";
+"onfido_intro_scan_title" = "Skenirajte dokument";
+"onfido_intro_scan_subtitle" = "Sledite uputstva u nastavku";
+"onfido_intro_scan_list_item" = "Postavite karticu sa zadnje strane uređaja";
+"onfido_intro_scan_list_item_3" = "Kada skeniranje počne, nemojte se pomerati";
+"onfido_intro_scan_button_primary" = "Započnite skeniranje";
+"onfido_nfc_scan_sheet" = "Polako pomerajte dokument gore-dole";
+"onfido_nfc_scan_scanning_sheet_1" = "Skeniranje je u toku\nDržite uređaj i dokument mirno.";
+"onfido_nfc_scan_can-required_sheet_2" = "CAN je obavezan";
+"onfido_nfc_scan_lost-contact_sheet_3" = "Izgubljen je kontakt sa NFC karticom\nPomerajte polako uređaj gore-dole.";
+"onfido_nfc_scan_lost-connection_sheet_4" = "Veza je prekinuta\nNismo uspeli da skeniramo vaš dokument";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "Netačan CAN";
+"onfido_enter_can_error_label" = "Imate još %d %@.";
+"onfido_enter_can_substring_attempt_singular" = "pokušaj";
+"onfido_enter_can_substring_attempt_plural" = "pokušaj(a)";
+"onfido_nfc_scan_error_button_secondary" = "Verifikujte bez NFC-a";
+"onfido_intro_scan_animation_ios" = "Postavite dokument na gornji deo zadnje strane uređaja. Kada skeniranje počne, nemojte se pomerati.";
+"onfido_nfc_scan_sheet_success" = "Скенирање је успешно";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Ваше лице, позадина и звук биће снимљени током овог процеса";
+"onfido_welcome_list_header_doc_video" = "Upotrebite vaš uređaj za snimanje:";
+"onfido_welcome_list_item_doc_video_flash" = "Uključićemo blic vašeg uređaja tokom snimanja videa";
+"onfido_welcome_list_item_doc_video_timeout" = "Snimanje je ograničeno na %d sek.";
+"onfido_doc_video_capture_header" = "Dok držite dokument, držite prednju stranu unutar okvira";
+"onfido_doc_video_capture_header_step1" = "Sada se ne pomerajte";
+"onfido_doc_video_capture_header_step2" = "Polako okrenite dokument da biste prikazali poleđinu";
+"onfido_doc_video_capture_detail_step2" = "Vodite računa da se ceo dokument vidi u svakom trenutku";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Pregledajte video";
+"onfido_doc_video_capture_button_primary_fallback" = "Sledeći korak";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Završi snimanje";
+"onfido_doc_video_capture_header_passport" = "Dok držite pasoš, držite stranicu sa fotografijom unutar okvira";
+"onfido_doc_video_capture_header_passport_progress" = "Ne pomerajte se";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Polako okrenite dokument da biste prikazali spoljne stranice";
+"onfido_outro_title" = "Hvala";
+"onfido_doc_video_capture_stepper" = "Korak %d od %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Snimanje videa je ograničeno na %d sek.";
+"onfido_doc_video_capture_alert_wrong_side" = "Proverite da li se prikazuje poleđina dokumenta";
+"onfido_doc_video_capture_success_accessibility" = "Uspeli ste";
+"onfido_doc_video_capture_prompt_header_timeout" = "Izgleda da vam je trebalo previše vremena";
+"onfido_doc_video_capture_prompt_button_timeout" = "Probajte ponovo";
+"onfido_app_title_doc_video_confirmation" = "Obavite proveru identiteta";
+"onfido_doc_video_confirmation_button_primary" = "Pošalji video";
+"onfido_doc_video_confirmation_title" = "Hvala";
+"onfido_doc_video_confirmation_body" = "Video je snimljen";
+"onfido_doc_video_capture_button_primary_start" = "Započnite snimanje";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Snimite video ponovo";
+"onfido_doc_video_capture_header_folded_doc_front" = "Stranica profilne fotografije";
+"onfido_welcome_list_item_doc_video" = "snimite video identifikacionog dokumenta";
+"onfido_welcome_info_original_document" = "Снимите фотографију свог оригиналног документа. Скенирање, фотографије екрана или фотокопије нису дозвољени.";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "Mikrofon koristi druga aplikacija";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "Tokom snimanja prekinite sve telefonske pozive ili aktivnosti u kojima se koristi mikrofon";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "Probajte ponovo";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Probajte ponovo";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "Zvuk reprodukuje druga aplikacija";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "Tokom snimanja nemojte reprodukovati nikakav zvuk na uređaju";
+
+"onfido_nfc_scan_welcome_card_title" = "Ubrzajte postupak pomoću NFC-a";
+"onfido_nfc_scan_welcome_card_subtitle" = "Скенираћемо НФЦ чип вашег документа";
+"onfido_nfc_scan_welcome_card_list_item" = "Поставите документ на полеђину уређаја";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Полако померајте уређај горе-доле";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Када скенирање почне, држите га мирно";
+"onfido_nfc_scan_welcome_card_button_primary" = "Započnite skeniranje";
+"onfido_nfc_scan_welcome_card_secondary_button" = "Verifikujte bez NFC-a";
+
+"onfido_nfc_scan_error_inter_title" = "Nismo uspeli da skeniramo vaš dokument";
+"onfido_nfc_scan_error_inter_list_item" = "Uklonite masku sa telefona";
+"onfido_nfc_scan_error_inter_list_item_2" = "Држите уређај и документ у контакту док скенирање не буде успешно";
+"onfido_nfc_scan_error_inter_primary_button" = "Probajte ponovo da skenirate";
+"onfido_nfc_scan_error_inter_secondary_button" = "Verifikujte bez NFC-a";
+
+"onfido_nfc_scan_error_final_title" = "Нисмо могли да верификујемо овај документ";
+"onfido_nfc_scan_error_final_subtitle" = "НФЦ скенирање је потребно за овај документ, али није могло да се заврши.";
+"onfido_nfc_scan_error_final_list_item" = "Да ли имате неки други документ за наставак?";
+"onfido_nfc_scan_error_final_primary_button" = "Користите другачији документ";
+"onfido_nfc_scan_error_final_secondary_button" = "Verifikujte bez NFC-a";
+
+"onfido_nfc_scan_welcome_passport_title" = "Ubrzajte postupak pomoću NFC-a";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Скенираћемо НФЦ чип вашег документа";
+"onfido_nfc_scan_welcome_passport_list_item" = "Положите документ на равну површину";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Отворите свој документ на унутрашњој задњој страни";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Поставите документ на полеђину уређаја";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Полако померајте уређај горе-доле";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Када скенирање почне, држите га мирно";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Započnite skeniranje";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "Verifikujte bez NFC-a";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Nismo uspeli da skeniramo vaš dokument";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Uklonite omot sa pasoša i masku sa telefona";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "Држите уређај и документ у контакту док скенирање не буде успешно";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Probajte ponovo da skenirate";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "Verifikujte bez NFC-a";
+
+"onfido_doc_capture_alert_too_close_title" = "Odaljite se";
+"onfido_doc_capture_alert_rotated_title" = "Ротирајте документ";
+"onfido_doc_capture_alert_too_far_title" = "Priđite bliže";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Окрените на предњу страну";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Окрените на задњу страну";
+"onfido_doc_capture_alert_hold_still_title" = "Ne pomerajte se";

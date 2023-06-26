@@ -10,7 +10,7 @@
 "onfido_video_intro_video_accessibility" = "Example video of someone recording a selfie video. To record a selfie video, face the front camera and keep your phone slightly away from your face. You’ll then need to recite some numbers and turn your head according to the instructions on screen.";
 "onfido_video_intro_button_pause_accessibility" = "Pause video";
 "onfido_video_intro_button_play_accessibility" = "Play video";
-"onfido_country_select_list_header_all" = "All countries";
+"onfido_country_select_list_header_all" = "All Countries";
 "onfido_doc_capture_alert_manual_capture_detail" = "Align document, then press button";
 /* Document autocapture */
 "onfido_doc_capture_alert_manual_capture_title" = "Try taking photo manually";
@@ -55,9 +55,9 @@
 "onfido_doc_select_subtitle" = "It must be an official photo ID";
 /* Document type selection */
 "onfido_doc_select_title" = "Choose your document";
-"onfido_doc_capture_prompt_title_license" = "What type of license do you have?";
+"onfido_doc_capture_prompt_title_license" = "What type of licence do you have?";
 "onfido_doc_select_button_passport" = "Passport";
-"onfido_doc_select_button_license" = "Driver’s license";
+"onfido_doc_select_button_license" = "Driving licence";
 "onfido_doc_select_button_id" = "National identity card";
 "onfido_doc_select_button_permit" = "Residence permit";
 "onfido_generic_error_network_detail" = "There was a network error. Please check your connection.";
@@ -74,8 +74,8 @@
 "onfido_doc_confirmation_body_folded_doc" = "Make sure your document is fully unfolded and the photo is clear";
 "onfido_doc_video_capture_detail_folded_doc_front" = "Lay your document flat, include all inner pages (must contain your photo)";
 "onfido_doc_capture_prompt_button_paper" = "Paper document";
-"onfido_app_title_doc_capture_license_fr" = "French driver’s license";
-"onfido_app_title_doc_capture_license_de" = "German driver's license";
+"onfido_app_title_doc_capture_license_fr" = "French driving licence";
+"onfido_app_title_doc_capture_license_de" = "German driving licence";
 "onfido_doc_capture_alert_glare_detail" = "Move away from direct light";
 /* Glare Detection */
 "onfido_doc_capture_alert_glare_title" = "Glare detected";
@@ -212,7 +212,7 @@
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Lay your passport on a flat surface";
 "onfido_nfc_intro_passport_scan_guide_2" = "Place your phone on top of your passport";
-"onfido_nfc_intro_passport_scan_guide_3" = "Slowly slide your phone up and down";
+"onfido_nfc_intro_passport_scan_guide_3" = "Slowly slide your phone down and up";
 "onfido_nfc_intro_passport_scan_guide_4" = "Once the scan starts, hold your phone still";
 
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
@@ -354,7 +354,7 @@
 "onfido_doc_select_subtitle_poa" = "These are the documents most likely to show your current home address";
 "onfido_doc_select_button_bill" = "Utility Bill";
 "onfido_doc_select_extra_estatements_ok" = "e-statements accepted";
-"onfido_doc_select_button_bill_detail" = "Gas, electricity, water, landline, or broadband";
+"onfido_doc_select_button_bill_detail" = "Gas, electricity, water, landline or broadband";
 "onfido_doc_select_extra_no_mobile" = "Sorry, no mobile phone bills";
 "onfido_poa_guidance_subtitle_bill" = "Must have been issued in the last 3 months";
 "onfido_doc_select_button_bank_statement" = "Bank or building society statement";
@@ -552,7 +552,7 @@
 "onfido_welcome_start_workflow_button_trial" = "Start verification (TEST)";
 "onfido_enter_can_title" = "Enter the CAN";
 "onfido_enter_can_subtitle" = "Please make sure the number provided matches the number on the document.";
-"onfido_enter_can_disclaimer" = "The %d-digit number is located at the front of your document.";
+"onfido_enter_can_disclaimer" = "You can find it on the front of your document. It is %d-digit long and slightly larger in size.";
 "onfido_enter_can_button_primary" = "Continue";
 "onfido_nfc_scan_error_title" = "We couldn't scan your document";
 "onfido_nfc_scan_error_list_item" = "Remove your phone cover";
@@ -597,7 +597,7 @@
 "onfido_doc_video_capture_header_paper_doc_step2" = "Slowly turn your document around to show the outer pages";
 "onfido_outro_title" = "Thank you";
 "onfido_doc_video_capture_stepper" = "Step %d of %d";
-"onfido_doc_video_capture_prompt_detail_timeout" = "Video recording is limited to %d seconds";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Video recording is limited to ​%d​ seconds";
 "onfido_doc_video_capture_alert_wrong_side" = "Make sure you’re showing the back of your document";
 "onfido_doc_video_capture_success_accessibility" = "Success";
 "onfido_doc_video_capture_prompt_header_timeout" = "Looks like you took too long";
@@ -653,6 +653,12 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2"="Keep your device and document in contact until the scanning is successful";
 "onfido_nfc_scan_error_inter_passport_primary_button"="Retry scanning";
 "onfido_nfc_scan_error_inter_passport_secondary_button"="Get verified without NFC";
+
+"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
+"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
+"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
+"onfido_nfc_scan_error_final_primary_button"="Use different document";
+"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "Move back";
 "onfido_doc_capture_alert_rotated_title" = "Rotate your document";
 "onfido_doc_capture_alert_too_far_title" = "Move closer";

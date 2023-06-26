@@ -1,0 +1,667 @@
+"onfido_doc_capture_button_accessibility" = "Κλείστρο";
+"onfido_selfie_capture_button_accessibility" = "Κλείστρο";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Προβολή από κάμερα";
+"onfido_selfie_capture_frame_accessibility" = "Προβολή από κάμερα λήψης selfie. Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_video_capture_frame_accessibility" = "Προβολή από κάμερα λήψης selfie. Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ για να ξεκινήσετε την εγγραφή.";
+"onfido_selfie_confirmation_image_accessibility" = "Φωτογραφία του προσώπου σας";
+"onfido_video_capture_frame_success_accessibility" = "Ανιχνεύτηκε πρόσωπο. Η εγγραφή έχει ξεκινήσει.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Παράδειγμα βίντεο κάποιου που ηχογραφεί ένα βίντεο selfie. Για να καταγράψετε ένα βίντεο selfie, κοιτάξτε την μπροστινή κάμερα και κρατήστε το τηλέφωνό σας ελαφρώς μακριά από το πρόσωπό σας. Στη συνέχεια, θα πρέπει να απαγγείλετε ορισμένους αριθμούς και να γυρίσετε το κεφάλι σας σύμφωνα με τις οδηγίες στην οθόνη.";
+"onfido_video_intro_button_pause_accessibility" = "Παύση βίντεο";
+"onfido_video_intro_button_play_accessibility" = "Αναπαραγωγή βίντεο";
+"onfido_country_select_list_header_all" = "Όλες οι χώρες";
+"onfido_doc_capture_alert_manual_capture_detail" = "Ευθυγραμμίστε το έγγραφο και, στη συνέχεια, πατήστε το κουμπί";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Δοκιμάστε να τραβήξετε χειροκίνητα μια φωτογραφία";
+"onfido_doc_capture_alert_no_barcode_detail" = "Σταθείτε σε ένα καλά φωτισμένο μέρος και φέρτε το δελτίο πιο κοντά στην κάμερα";
+"onfido_doc_capture_alert_no_barcode_title" = "Δεν εντοπίστηκε γραμμωτός κώδικας";
+"onfido_doc_confirmation_alert_blur_detail" = "Βεβαιωθείτε ότι όλα εμφανίζονται με σαφήνεια";
+"onfido_doc_confirmation_alert_blur_title" = "Ανιχνεύτηκε θολή φωτογραφία";
+"onfido_selfie_intro_list_item_face_forward" = "Κοιτάξτε μπροστά και βεβαιωθείτε ότι τα μάτια σας είναι ευδιάκριτα";
+"onfido_selfie_intro_list_item_no_glasses" = "Αφαιρέστε τα γυαλιά σας, εάν είναι απαραίτητο";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "Θα το συγκρίνουμε με το έγγραφό σας";
+"onfido_selfie_intro_title" = "Τραβήξτε μια selfie";
+"onfido_selfie_intro_button_primary" = "Τραβήξτε μια selfie";
+"onfido_country_select_bottom_sheet_link_close" = "Κλείσιμο";
+"onfido_doc_confirmation_button_primary_license" = "Υποβολή φωτογραφίας";
+"onfido_doc_confirmation_button_primary_generic" = "Υποβολή φωτογραφίας";
+"onfido_doc_confirmation_button_primary_id" = "Υποβολή φωτογραφίας";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "Ανέβασμα φωτογραφίας";
+"onfido_doc_confirmation_button_secondary" = "Επανάληψη λήψης φωτογραφίας";
+"onfido_doc_confirmation_button_primary_passport" = "Υποβολή φωτογραφίας";
+"onfido_doc_confirmation_button_primary_permit" = "Υποβολή φωτογραφίας";
+"onfido_doc_confirmation_button_primary_visa" = "Υποβολή φωτογραφίας";
+"onfido_selfie_confirmation_button_secondary" = "Επανάληψη λήψης φωτογραφίας";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Ενεργοποίηση και των δύο";
+"onfido_permission_button_primary_cam" = "Ενεργοποίηση κάμερας";
+"onfido_permission_button_primary_mic" = "Ενεργοποίηση μικροφώνου";
+"onfido_permission_body_both" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς να χρησιμοποιήσουμε και την κάμερα και το μικρόφωνό σας";
+"onfido_permission_body_cam" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς την κάμερά σας";
+"onfido_permission_body_mic" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς να χρησιμοποιήσουμε το μικρόφωνό σας";
+"onfido_permission_subtitle_both" = "Όταν σας ζητηθεί, πρέπει να ενεργοποιήσετε την πρόσβαση και για τα δύο για να συνεχίσετε";
+"onfido_permission_subtitle_cam" = "Όταν σας ζητηθεί, πρέπει να ενεργοποιήσετε την πρόσβαση στην κάμερα για να συνεχίσετε";
+"onfido_permission_subtitle_mic" = "Όταν σας ζητηθεί, πρέπει να ενεργοποιήσετε την πρόσβαση στο μικρόφωνο για να συνεχίσετε";
+/* Device permission */
+"onfido_permission_title_both" = "Να επιτρέπεται η πρόσβαση στην κάμερα και στο μικρόφωνο";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Να επιτρέπεται η πρόσβαση στην κάμερα";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Να επιτρέπεται η πρόσβαση στο μικρόφωνο";
+"onfido_doc_select_subtitle" = "Πρέπει να είναι επίσημη ταυτότητα με φωτογραφία";
+/* Document type selection */
+"onfido_doc_select_title" = "Επιλέξτε το έγγραφό σας";
+"onfido_doc_capture_prompt_title_license" = "Τι είδους άδεια έχετε;";
+"onfido_doc_select_button_passport" = "Διαβατήριο";
+"onfido_doc_select_button_license" = "Άδεια οδήγησης";
+"onfido_doc_select_button_id" = "Εθνικό δελτίο ταυτότητας";
+"onfido_doc_select_button_permit" = "Άδεια διαμονής";
+"onfido_generic_error_network_detail" = "Παρουσιάστηκε σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "Η σύνδεση χάθηκε";
+"onfido_doc_capture_alert_no_face_detail" = "Βεβαιωθείτε ότι το πρόσωπό σας είναι ορατό";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Τοποθετήστε το έγγραφό σας σε επίπεδη θέση για να εμφανίσετε τις εσωτερικές σελίδες που περιέχουν τη φωτογραφία σας";
+"onfido_doc_capture_alert_no_face_title" = "Δεν ανιχνεύτηκε πρόσωπο";
+"onfido_video_capture_button_primary_finish" = "Ολοκλήρωση εγγραφής";
+"onfido_welcome_button_primary_doc" = "Επιλέξτε έγγραφο";
+"onfido_doc_capture_detail_folded_doc_back" = "Τοποθετήστε το έγγραφό σας σε επίπεδη θέση και συμπεριλάβετε όλες τις εξωτερικές σελίδες";
+"onfido_doc_capture_header_folded_doc_back" = "Τοποθετήστε τις εξωτερικές σελίδες του εγγράφου σας στο πλαίσιο";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Βεβαιωθείτε ότι το έγγραφό σας είναι πλήρως ξεδιπλωμένο και ότι η φωτογραφία είναι καθαρή";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Τοποθετήστε το έγγραφό σας σε επίπεδη θέση, συμπεριλάβετε όλες τις εσωτερικές σελίδες (πρέπει να περιέχεται η φωτογραφία σας)";
+"onfido_doc_capture_prompt_button_paper" = "Έντυπο έγγραφο";
+"onfido_app_title_doc_capture_license_fr" = "Γαλλικό δίπλωμα οδήγησης";
+"onfido_app_title_doc_capture_license_de" = "Γερμανική άδεια οδήγησης";
+"onfido_doc_capture_alert_glare_detail" = "Απομακρυνθείτε από το άμεσο φως";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Ανιχνεύτηκε αντανάκλαση";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "Ιταλικό δελτίο ταυτότητας";
+"onfido_app_title_doc_capture_id_za" = "Νοτιοαφρικανικό δελτίο ταυτότητας";
+"onfido_doc_select_button_generic" = "Έγγραφο";
+/* Document Types */
+"onfido_doc_select_button_visa" = "Βίζα";
+"onfido_doc_select_button_permit_work" = "Άδεια εργασίας";
+"onfido_video_capture_header_challenge_digit_instructions" = "Πείτε κάθε ψηφίο δυνατά";
+"onfido_video_capture_header_challenge_turn_forward" = "και, στη συνέχεια, κοιτάξτε προς τα εμπρός";
+"onfido_video_capture_header_challenge_turn_left" = "Γυρίστε το κεφάλι σας προς τα αριστερά";
+"onfido_video_capture_header_challenge_turn_right" = "Γυρίστε το κεφάλι σας προς τα δεξιά";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Επαναφόρτωση οδηγιών";
+"onfido_video_capture_prompt_network_timeout_detail" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
+"onfido_video_capture_prompt_network_timeout_title" = "Λήξη χρονικού ορίου σύνδεσης";
+"onfido_video_intro_loader" = "Παράδειγμα φόρτωσης";
+"onfido_video_intro_list_item_time_limit" = "Έχετε %d δευτερόλεπτα για να ολοκληρώσετε";
+"onfido_video_intro_list_item_move_speak" = "Ακολουθήστε τις οδηγίες για να μετακινηθείτε ή να μιλήσετε";
+/* Liveness */
+"onfido_video_intro_subtitle" = "Για ασφάλεια, χρειαζόμαστε ζωντανή καταγραφή";
+/* Liveness intro */
+"onfido_video_intro_title" = "Εγγραφή βίντεο";
+"onfido_video_intro_button_primary" = "Εγγραφή βίντεο";
+"onfido_video_capture_prompt_detail_timeout" = "Θυμηθείτε να πατήσετε το κουμπί όταν τελειώσετε.";
+"onfido_video_capture_prompt_header_timeout" = "Φαίνεται ότι αργήσατε πολύ";
+"onfido_video_capture_prompt_header_restart" = "Επανεκκίνηση της εγγραφής";
+"onfido_video_capture_prompt_detail_restart" = "Για να ολοκληρώσετε αυτό το βήμα, πρέπει να διατηρήσετε το πρόσωπό σας ορατό καθ' όλη τη διάρκεια της εγγραφής.";
+"onfido_video_capture_prompt_button_restart" = "Επανεκκίνηση";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ";
+"onfido_video_capture_body" = "Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ για να ξεκινήσετε την εγγραφή";
+"onfido_doc_confirmation_body_license" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+"onfido_doc_confirmation_body_generic" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+"onfido_doc_confirmation_body_id" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+"onfido_doc_confirmation_body_permit" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+"onfido_doc_confirmation_body_visa" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Βεβαιωθείτε ότι ολόκληρο το πρόσωπό σας είναι ορατό";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_visa" = "Τοποθετήστε τη σελίδα βίζας του εγγράφου σας στο πλαίσιο";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Φόρτωση";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_license_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_license_back_auto" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_generic_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_id_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_permit_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_license_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_license_front_auto" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_generic_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_id_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_header_permit_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
+
+"onfido_generic_uploading" = "Γίνεται αποστολή";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Βεβαιωθείτε ότι όλο το έγγραφο είναι στη φωτογραφία";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Βεβαιωθείτε ότι το πρόσωπό σας είναι ορατό";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Μόνο το πρόσωπό σας μπορεί να περιλαμβάνεται στη selfie";
+"onfido_doc_capture_alert_no_mrz_detail" = "Βεβαιωθείτε ότι εμφανίζεται το πλήρες έγγραφο";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Οι δύο τελευταίες γραμμές δεν είναι ορατές";
+"onfido_doc_capture_alert_no_mrz3_title" = "Οι κάτω τρεις γραμμές δεν είναι ορατές";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Βρέθηκαν πολλά πρόσωπα";
+"onfido_doc_capture_prompt_title_id" = "Τι είδους δελτίο ταυτότητας έχετε;";
+"onfido_video_capture_button_primary_fallback" = "Επόμενο βήμα";
+"onfido_doc_confirmation_alert_no_doc_title" = "Δεν βρέθηκε έγγραφο";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Δεν ανιχνεύτηκε πρόσωπο";
+"onfido_generic_alert_network_error_button_primary" = "OK";
+"onfido_info_tablet_orientation_subtitle" = "Υποστηρίζουμε μόνο τη λειτουργία πορτραίτου";
+"onfido_info_tablet_orientation_title" = "Περιστρέψτε το iPad σας";
+"onfido_info_tablet_orientation_body" = "Το κουμπί θα πρέπει να βρίσκεται στο κάτω μέρος της οθόνης";
+"onfido_doc_capture_prompt_button_card" = "Πλαστικό δελτίο";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Επαναφόρτωση";
+"onfido_video_confirmation_button_secondary" = "Επανάληψη λήψης βίντεο";
+"onfido_video_capture_prompt_button_timeout" = "Προσπαθήστε ξανά";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Επιλέξτε άλλο έγγραφο";
+"onfido_welcome_button_primary" = "Έναρξη";
+"onfido_video_capture_button_primary_start" = "Έναρξη εγγραφής";
+"onfido_video_confirmation_button_primary" = "Αποστολή βίντεο";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Προτεινόμενη χώρα";
+/* General */
+"onfido_video_intro_error_network" = "Η φόρτωση δεν είναι δυνατή λόγω ασταθούς δικτύου";
+"onfido_country_select_bottom_sheet_details" = "Φαίνεται ότι η χώρα του εγγράφου που επιλέξατε δεν υποστηρίζεται. Επιλέξτε μια διαφορετική χώρα.";
+"onfido_country_select_bottom_sheet_title" = "Δεν μπορείτε να βρείτε τη χώρα σας;";
+"onfido_doc_confirmation_button_primary" = "Υποβολή φωτογραφίας";
+/* Face capture */
+"onfido_welcome_subtitle" = "Θα διαρκέσει μερικά λεπτά";
+/* Welcome */
+"onfido_welcome_title" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_doc_confirmation" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_selfie_confirmation" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_nfc_select" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_nfc_intro" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_nfc_fail" = "Επαληθεύστε την ταυτότητά σας";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_country_select" = "Επιλέξτε χώρα έκδοσης";
+"onfido_app_title_selfie_intro" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_video_intro" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_permission" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_app_title_video_confirmation" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_video_capture_alert_wrong_side" = "Λάθος πλευρά";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "Επιτάχυνση της διαδικασίας με NFC";
+"onfido_nfc_select_subtitle_passport" = "Θα σαρώσουμε το τσιπ NFC στο διαβατήριό σας";
+"onfido_nfc_select_body_passport" = "Τα ηλεκτρονικά διαβατήρια έχουν αυτό το σύμβολο στο εξώφυλλο";
+"onfido_nfc_select_button_primary_passport" = "Χρήση ηλεκτρονικού διαβατηρίου";
+"onfido_nfc_select_button_secondary_passport" = "Δεν είναι ηλεκτρονικό διαβατήριο";
+
+"onfido_nfc_select_title_card" = "Επιτάχυνση της διαδικασίας με NFC";
+"onfido_nfc_select_subtitle_card" = "Θα σαρώσουμε το τσιπ NFC στο δελτίο σας";
+"onfido_nfc_select_body_card" = "Τα δελτία με τσιπ NFC έχουν αυτό το σύμβολο";
+"onfido_nfc_select_button_primary_card" = "Χρήση δελτίου με NFC";
+"onfido_nfc_select_button_secondary_card" = "Δεν είναι δελτίο με NFC";
+
+"onfido_nfc_intro_title_passport" = "Σαρώστε το ηλεκτρονικό σας διαβατήριο";
+"onfido_nfc_intro_subtitle_passport" = "Ακολουθήστε τις παρακάτω οδηγίες";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Τοποθετήστε το διαβατήριό σας σε μια επίπεδη επιφάνεια";
+"onfido_nfc_intro_passport_scan_guide_2" = "Τοποθετήστε το τηλέφωνό σας στο επάνω μέρος του διαβατηρίου σας";
+"onfido_nfc_intro_passport_scan_guide_3" = "Σύρετε αργά το τηλέφωνό σας προς τα κάτω και προς τα επάνω";
+"onfido_nfc_intro_passport_scan_guide_4" = "Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνό σας ακίνητο";
+
+"onfido_nfc_intro_button_primary_passport" = "Έναρξη σάρωσης";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "Σαρώστε το δελτίο σας με NFC";
+"onfido_nfc_intro_subtitle_card" = "Τοποθετήστε το τηλέφωνό σας επάνω στο δελτίο και κρατήστε το κοντά στο επάνω μέρος του τηλεφώνου σας";
+"onfido_nfc_intro_button_primary_card" = "Έναρξη σάρωσης";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "Τοποθετήστε το τηλέφωνό σας επάνω στο δελτίο";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "Δεν ήταν δυνατή η σάρωση του διαβατηρίου σας";
+"onfido_nfc_fail_title_card" = "Δεν ήταν δυνατή η σάρωση του δελτίου σας με NFC";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Αφαιρέστε το κάλυμμα του διαβατηρίου σας";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Τοποθετήστε το διαβατήριό σας σε μια επίπεδη επιφάνεια";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Τοποθετήστε το τηλέφωνό σας κοντά στη μέση του διαβατηρίου σας";
+"onfido_nfc_intro_carousel_body_last_page" = "Μπορείτε επίσης να δοκιμάσετε το εσωτερικό της πίσω σελίδας";
+"onfido_nfc_intro_carousel_body_dont_move" = "Μη μετακινείτε το τηλέφωνο ή το διαβατήριό σας κατά τη σάρωση";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Κρατήστε το τηλέφωνο και το διαβατήριό σας σε επαφή μέχρι η σάρωση να ολοκληρωθεί με επιτυχία";
+"onfido_nfc_fail_button_primary_passport" = "Επανάληψη σάρωσης";
+"onfido_nfc_fail_button_secondary_passport" = "Επαληθεύστε την ταυτότητά σας χωρίς σάρωση";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "Αφαιρέστε το κάλυμμα του τηλεφώνου σας";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Κρατήστε το τηλέφωνο και το δελτίο σας σε επαφή μέχρι η σάρωση να ολοκληρωθεί με επιτυχία";
+"onfido_nfc_fail_button_primary_card" = "Επανάληψη σάρωσης";
+"onfido_nfc_fail_button_secondary_card" = "Επαληθεύστε την ταυτότητά σας χωρίς σάρωση";
+
+"onfido_doc_confirmation_zoom_button" = "Μεγέθυνση εικόνας";
+"onfido_doc_confirmation_image_accessibility" = "Φωτογραφία του εγγράφου σας. Πατήστε δύο φορές για μεγέθυνση.";
+"onfido_doc_zoom_body" = "Μετακινηθείτε χρησιμοποιώντας ένα δάχτυλο";
+"onfido_doc_zoom_button_close" = "Κλείσιμο";
+
+"onfido_video_confirmation_body" = "Το βίντεό σας έχει εγγραφεί";
+"onfido_app_title_country_select_search" = "Αναζήτηση";
+"onfido_country_select_list_accessibility" = "Αποτελέσματα αναζήτησης";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_user_consent_prompt_no_consent_title" = "Είστε σίγουρος/-η;";
+"onfido_user_consent_prompt_no_consent_detail" = "Εάν δεν αποδεχτείτε τις δήλωση προστασίας προσωπικών δεδομένων και τους όρους χρήσης του Onfido, δεν θα μπορέσουμε να επαληθεύσουμε την ταυτότητά σας και θα εξέλθετε από αυτό το βήμα.";
+"onfido_user_consent_prompt_button_secondary" = "Νέος έλεγχος";
+"onfido_user_consent_prompt_button_primary" = "Ναι, μην με επαληθεύσετε";
+"onfido_user_consent_button_primary" = "Αποδοχή";
+"onfido_user_consent_button_secondary" = "Μη αποδοχή";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_user_consent_load_fail_title" = "Αποτυχία φόρτωσης περιεχομένου";
+"onfido_user_consent_load_fail_detail" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
+"onfido_user_consent_load_fail_button_primary" = "Επαναφόρτωση οθόνης";
+"onfido_country_select_search_results_none_accessibility" = "Δεν υπάρχουν αποτελέσματα που να ταιριάζουν";
+"onfido_country_select_search_results_one_accessibility" = "Βρέθηκε ένα αποτέλεσμα";
+"onfido_country_select_search_results_multiple_accessibility" = "%d αποτελέσματα βρέθηκαν";
+"onfido_doc_confirmation_alert_crop_detail" = "Βεβαιωθείτε ότι είναι ορατό το πλήρες έγγραφο";
+"onfido_doc_confirmation_alert_crop_title" = "Ανιχνεύθηκε αποκομμένη εικόνα";
+"onfido_doc_upload_progress_label" = "Έλεγχος ποιότητας εικόνας";
+"onfido_doc_capture_frame_success_accessibility" = "Η εικόνα έχει καταγραφεί";
+"onfido_generic_error_timeout_title" = "Λήξη χρονικού ορίου σύνδεσης";
+"onfido_generic_error_timeout_detail" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
+"onfido_generic_error_timeout_button_primary" = "Επανάληψη προσπάθειας";
+"onfido_generic_processing" = "Γίνεται επεξεργασία";
+"onfido_video_capture_turn_success_accessibility" = "Ανιχνεύτηκε στροφή κεφαλής";
+"onfido_welcome_list_header" = "Χρησιμοποιήστε τη συσκευή σας για να:";
+"onfido_welcome_list_item_doc_photo" = "Τραβήξετε μια φωτογραφία του εγγράφου ταυτότητάς σας";
+"onfido_welcome_list_item_doc_generic" = "Σαρώσετε το έγγραφο ταυτότητάς σας";
+"onfido_welcome_list_item_face_photo" = "Τραβήξετε μια φωτογραφία του προσώπου σας";
+"onfido_welcome_list_item_face_video" = "Εγγράψτε ένα βίντεο του προσώπου σας";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Κρατήστε το τηλέφωνό σας επάνω από το έγγραφο";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Δεν βρέθηκε έγγραφο. Κρατήστε το τηλέφωνό σας επάνω από το έγγραφο.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "Το έγγραφο είναι πολύ κοντά";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "Το έγγραφο είναι πολύ κοντά στην κάμερα";
+"onfido_doc_capture_header_live_guidance_distance_far" = "Το έγγραφο είναι πολύ μακριά";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "Το έγγραφο είναι πολύ μακριά από την κάμερα";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Διατηρήστε αυτήν την απόσταση";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Διατηρήστε αυτήν την απόσταση από το έγγραφό σας";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Μετακίνηση προς τα αριστερά";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Μετακινήστε τη συσκευή σας προς τα αριστερά";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Μετακίνηση προς τα δεξιά";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Μετακινήστε τη συσκευή σας προς τα δεξιά";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Μετακίνηση προς τα επάνω";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Μετακινήστε τη συσκευή σας προς τα επάνω";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Μετακίνηση προς τα επάνω";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Μετακινήστε ελαφρώς τη συσκευή σας προς τα επάνω";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Μετακίνηση προς τα κάτω";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Μετακινήστε τη συσκευή σας προς τα κάτω";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Μετακίνηση προς τα κάτω";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Μετακινήστε ελαφρώς τη συσκευή σας προς τα κάτω";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Μείνετε ακίνητοι για λήψη";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "Μείνετε ακίνητοι για λήψη της εικόνας";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Προβολή από κάμερα. Τοποθετήστε το τηλέφωνό σας στην μπροστινή όψη του εγγράφου σας και, στη συνέχεια, απομακρύνετε αργά το τηλέφωνό σας από αυτό κινώντας το σε ευθεία γραμμή.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Κρατήστε το τηλέφωνό σας επάνω από την μπροστινή όψη του εγγράφου σας";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Κρατήστε το τηλέφωνό σας επάνω από την πίσω όψη του εγγράφου σας";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Προβολή από κάμερα. Τοποθετήστε το τηλέφωνό σας στην πίσω όψη του εγγράφου σας και, στη συνέχεια, απομακρύνετε αργά το τηλέφωνό σας από αυτό κινώντας το σε ευθεία γραμμή.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Κρατήστε το τηλέφωνό σας επάνω από τη σελίδα της φωτογραφίας του διαβατηρίου σας";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Προβολή από κάμερα. Τοποθετήστε το τηλέφωνό σας επάνω στη σελίδα της φωτογραφίας του διαβατηρίου σας και, στη συνέχεια, απομακρύνετε αργά το τηλέφωνό σας από αυτή σε ευθεία γραμμή.";
+"onfido_doc_capture_header_capturing" = "Μείνετε ακίνητος/η";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "Έναρξη επαλήθευσης";
+"onfido_poa_intro_list_shows_address" = "Εμφανίζει την τρέχουσα διεύθυνσή σας";
+"onfido_poa_intro_list_matches_signup" = "Ταιριάζει με τη διεύθυνση που χρησιμοποιήσατε κατά την εγγραφή";
+"onfido_poa_intro_list_most_recent" = "Είναι το πιο πρόσφατο έγγραφό σας";
+"onfido_poa_intro_subtitle" = "Θα χρειαστείτε ένα έγγραφο που:";
+"onfido_poa_intro_title" = "Ας επαληθεύσουμε τη διεύθυνσή σας";
+"onfido_doc_confirmation_body" = "Βεβαιωθείτε ότι έχετε αποστείλει ολόκληρη τη σελίδα του εγγράφου και ότι τα στοιχεία είναι ευανάγνωστα, το έγγραφο δεν είναι θολό και δεν υπάρχει αντανάκλαση";
+"onfido_poa_guidance_instructions_label" = "Καταγράψτε ολόκληρο το έγγραφο και βεβαιωθείτε ότι εμφανίζει καθαρά:";
+"onfido_poa_capture_confirm" = "Υποβολή εγγράφου";
+"onfido_poa_capture_redo" = "Επανάληψη λήψης φωτογραφίας";
+"onfido_poa_capture_choose_another" = "Επιλέξτε ένα άλλο";
+"onfido_poa_capture_image_accessibility" = "Εμφάνιση προεπισκόπησης μεγεθυμένου εγγράφου";
+"onfido_poa_capture_enlarge" = "Μεγέθυνση εγγράφου";
+"onfido_poa_capture_enlarge_move" = "Μετακινηθείτε χρησιμοποιώντας ένα δάχτυλο";
+"onfido_poa_capture_enlarge_close" = "Κλείσιμο";
+"onfido_poa_capture_instructions" = "Μπροστινή όψη εγγράφου διεύθυνσης";
+"onfido_poa_upload_instructions_take_photo_button" = "Λήψη φωτογραφίας";
+"onfido_poa_upload_instructions_upload_button" = "Αποστολή";
+"onfido_poa_type_selection_title" = "Επιλέξτε ένα έγγραφο";
+"onfido_poa_type_selection_title_uk" = "Επιλέξτε ένα έγγραφο του Ηνωμένου Βασιλείου";
+"onfido_poa_country_not_found" = "Λυπούμαστε για αυτό. Καταβάλουμε προσπάθειες να υποστηρίξουμε περισσότερες χώρες.";
+"onfido_poa_welcome_text" = "Τραβήξτε μια φωτογραφία ενός εγγράφου με τη διεύθυνσή σας";
+"onfido_poa_photo_library" = "Βιβλιοθήκη φωτογραφιών";
+"onfido_poa_files" = "Αρχεία";
+"onfido_poa_cancel" = "Ακύρωση";
+"onfido_poa_err_invalid_file_title" = "Μη έγκυρο αρχείο";
+"onfido_poa_err_invalid_file_message" = "Επιλέξτε ένα διαφορετικό αρχείο.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_instructions_logo" = "Λογότυπο";
+"onfido_poa_guidance_instructions_full_name" = "Ονοματεπώνυμο";
+"onfido_poa_guidance_instructions_address" = "Τρέχουσα διεύθυνση";
+"onfido_poa_guidance_instructions_issue_date" = "Ημερομηνία έκδοσης ή συνοπτική περίοδος";
+"onfido_doc_select_subtitle_poa" = "Αυτά είναι τα έγγραφα που είναι πιθανότερο να εμφανίζουν την τρέχουσα διεύθυνση κατοικίας σας";
+"onfido_doc_select_button_bill" = "Λογαριασμός υπηρεσιών κοινής ωφελείας";
+"onfido_doc_select_extra_estatements_ok" = "αποδεκτές ηλεκτρονικές δηλώσεις";
+"onfido_doc_select_button_bill_detail" = "Αέριο, ηλεκτρικό ρεύμα, νερό, σταθερό τηλέφωνο ή ευρυζωνική σύνδεση";
+"onfido_doc_select_extra_no_mobile" = "Δυστυχώς, δεν δεχόμαστε λογαριασμούς κινητού τηλεφώνου";
+"onfido_poa_guidance_subtitle_bill" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
+"onfido_doc_select_button_bank_statement" = "Τράπεζα ή στεγαστικό ταμιευτήριο";
+"onfido_poa_guidance_subtitle_bank_statement" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
+"onfido_doc_select_button_tax_letter" = "Επιστολή Δημοτικού φόρου";
+"onfido_poa_guidance_subtitle_tax_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
+"onfido_doc_select_button_benefits_letter" = "Επιστολή επιδομάτων";
+"onfido_doc_select_button_benefits_letter_detail" = "Επιδόματα νοικοκυριών που έχουν εγκριθεί από το κράτος, π.χ. Επίδομα αναζήτησης εργασίας, Στεγαστικό επίδομα, Εκπτώσεις φόρου";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
+"onfido_poa_guidance_button_primary" = "Συνέχεια";
+"onfido_livenessV2_intro_subtitle" = "Αυτό είναι για να επαληθεύσετε ότι είστε πραγματικό πρόσωπο";
+"onfido_livenessV2_intro_note_no1" = "Πρώτα, τοποθετήστε το πρόσωπό σας στο πλαίσιο";
+"onfido_livenessV2_intro_note_no2" = "Στη συνέχεια, γυρίστε το κεφάλι σας αργά και προς τις δύο πλευρές";
+"onfido_livenessV2_intro_warning" = "Λάβετε υπόψη ότι θα καταγράψουμε το πρόσωπό σας και το φόντο σας";
+"onfido_livenessV2_intro_ready_button" = "Λάβετε υπόψη ότι θα καταγράψουμε το πρόσωπό σας και το φόντο σας";
+"onfido_livenessV2_success_title" = "Δεν χρειαζόμαστε κάτι άλλο για να αρχίσουμε να επαληθεύουμε την ταυτότητά σας";
+"onfido_livenessV2_success_main_button" = "Υποβολή επαλήθευσης";
+"onfido_livenessV2_error_reload_instructions" = "Επαναφόρτωση οδηγιών";
+"onfido_avc_intro_title" = "Εγγραφή βίντεο";
+"onfido_avc_intro_subtitle" = "Αυτό είναι για να επαληθεύσετε ότι είστε πραγματικό πρόσωπο";
+"onfido_avc_intro_list_item_one" = "Πρώτα, τοποθετήστε το πρόσωπό σας στο πλαίσιο";
+"onfido_avc_intro_list_item_two" = "Στη συνέχεια, γυρίστε το κεφάλι σας αργά και προς τις δύο πλευρές";
+"onfido_avc_intro_disclaimer" = "Το πρόσωπό σας και το φόντο σας θα καταγραφούν κατά τη διάρκεια αυτής της διαδικασίας";
+"onfido_avc_intro_button_primary_ready" = "Έναρξη εγγραφής";
+"onfido_avc_face_alignment_title" = "Τοποθετήστε το πρόσωπό σας στο πλαίσιο";
+"onfido_avc_face_alignment_feedback_move_closer" = "Πλησιάστε";
+"onfido_avc_face_alignment_feedback_move_back" = "Μετακινηθείτε προς τα πίσω";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "Δεν ανιχνεύτηκε πρόσωπο";
+"onfido_avc_face_capture_title" = "Γυρίστε το κεφάλι σας αργά και προς τις δύο πλευρές";
+"onfido_avc_face_capture_title_completed" = "Η εγγραφή ολοκληρώθηκε";
+"onfido_avc_face_capture_alert_timeout_title" = "Δυστυχώς, πρέπει να επανεκκινήσουμε την εγγραφή";
+"onfido_avc_face_capture_alert_timeout_body" = "Έχετε στη διάθεσή σας έως και 15 δευτερόλεπτα για να ολοκληρώσετε την εγγραφή";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "Επανάληψη προσπάθειας";
+"onfido_avc_face_capture_alert_too_fast_title" = "Γυρίσατε το κεφάλι σας πολύ γρήγορα";
+"onfido_avc_face_capture_alert_too_fast_body" = "Προσπαθήστε ξανά και γυρίστε το κεφάλι σας πιο αργά";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "Επανάληψη προσπάθειας";
+"onfido_avc_no_face_detected_title" = "Δεν μπορούμε να ανιχνεύσουμε το πρόσωπό σας";
+"onfido_avc_no_face_detected_list_item_lighting" = "Βεβαιωθείτε ότι βρίσκεστε σε χώρο με καλό φωτισμό";
+"onfido_avc_no_face_detected_list_item_eyes" = "Βεβαιωθείτε ότι τα μάτια σας είναι ευδιάκριτα";
+"onfido_avc_no_face_detected_list_item_mask" = "Βεβαιωθείτε ότι έχετε αφαιρέσει τις μάσκες ή άλλα αντικείμενα που καλύπτουν το πρόσωπό σας. Τα γυαλιά επιτρέπονται";
+"onfido_avc_no_face_detected_list_item_face" = "Βεβαιωθείτε ότι έχετε δείξει μόνο το πρόσωπό σας, δεν χρειάζεται να δούμε την ταυτότητά σας";
+"onfido_avc_no_face_detected_button_primary_restart" = "Επανεκκίνηση εγγραφής";
+"onfido_avc_confirmation_title" = "Η εγγραφή ολοκληρώθηκε";
+"onfido_avc_confirmation_subtitle" = "Ένα βίντεο του προσώπου σας έχει εγγραφεί με επιτυχία";
+"onfido_avc_confirmation_button_primary_upload" = "Αποστολή εγγραφής";
+"onfido_avc_connection_error_title" = "Σφάλμα σύνδεσης";
+"onfido_avc_connection_error_subtitle" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
+"onfido_avc_connection_error_button_primary_reload" = "Επαναφόρτωση οδηγιών";
+"onfido_avc_face_alignment_feedback_not_centered" = "Πρόσωπο μη κεντραρισμένο";
+"onfido_avc_connection_error_button_primary_retry_upload" = "Επανάληψη αποστολής";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "Επανεκκίνηση εγγραφής";
+"onfido_generic_errors_geoblocked_error_message" = "Μη διαθέσιμη υπηρεσία";
+"onfido_doc_select_subtitle_country" = "Επιλέξτε εκδούσα χώρα για να δείτε ποια έγγραφα αποδεχόμαστε";
+"onfido_doc_select_section_header_country" = "Εκδούσα χώρα";
+"onfido_doc_select_section_header_doc_type" = "Αποδεκτά έγγραφα";
+"onfido_doc_select_section_input_placeholder_country" = "Επιλέξτε χώρα έκδοσης";
+"onfido_doc_select_subtitle_entire_page" = "Ολόκληρη σελίδα";
+"onfido_doc_select_subtitle_photo_page" = "Σελίδα φωτογραφίας";
+"onfido_doc_select_subtitle_front_back" = "Μπροστινή και πίσω όψη";
+"onfido_doc_select_section_input_country_not_found" = "Δε βρέθηκαν αποτελέσματα";
+"onfido_generic_errors_geoblocked_error_instruction" = "Δυστυχώς, φαίνεται ότι δεν μπορούμε να προχωρήσουμε περαιτέρω, καθώς η τρέχουσα τοποθεσία σας δεν υποστηρίζεται";
+"onfido_welcome_list_item_doc" = "το έγγραφο ταυτότητάς σας";
+"onfido_welcome_list_header_photo" = "Χρησιμοποιήστε τη συσκευή σας για να φωτογραφίσετε:";
+"onfido_welcome_list_header_record" = "Χρησιμοποιήστε τη συσκευή σας για να φωτογραφίσετε ή να καταγράψετε:";
+"onfido_welcome_list_item_selfie" = "το πρόσωπό σας";
+"onfido_welcome_list_item_video" = "ένα βίντεο του εαυτού σας";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Προβολή από κάμερα. Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Προβολή από κάμερα. Τοποθετήστε το εξώφυλλο του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_welcome_list_item_face_generic" = "Σαρώσετε το πρόσωπό σας";
+"onfido_permission_recovery_subtitle_cam" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς την κάμερά σας";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Προβολή από κάμερα. Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Προβολή από κάμερα. Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την πλευρά με τη φωτογραφία του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Προβολή από κάμερα. Τοποθετήστε τις εξωτερικές σελίδες του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την πλευρά με τη φωτογραφία του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Προβολή από κάμερα. Τοποθετήστε τις εξωτερικές σελίδες του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Τοποθετήστε το τηλέφωνό σας κοντά στη μέση του διαβατηρίου σας";
+"onfido_avc_intro_title_accessibility" = "Εγγράψτε ένα βίντεο του προσώπου σας";
+"onfido_avc_intro_video_accessibility" = "Παράδειγμα βίντεο κάποιου που γυρίζει το κεφάλι του και προς τις δύο πλευρές έως την ολοκλήρωση";
+"onfido_avc_face_capture_frame_accessibility" = "Προβολή από κάμερα λήψης selfie";
+"onfido_avc_face_capture_title_accessibility" = "Γυρίστε το κεφάλι σας αργά και προς τις δύο πλευρές. Όταν ολοκληρωθεί η μια πλευρά θα ακούσετε μια επιβεβαίωση και θα νιώσετε μια δόνηση";
+"onfido_avc_face_capture_recording_started_accessibility" = "Η εγγραφή έχει ξεκινήσει";
+"onfido_avc_face_capture_keep_turning_accessibility" = "Συνεχίστε να γυρνάτε το κεφάλι σας";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "Η αριστερή πλευρά ολοκληρώθηκε";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "Η δεξιά πλευρά ολοκληρώθηκε";
+"onfido_avc_face_alignment_title_accessibility" = "Τοποθετήστε το πρόσωπό σας μπροστά από τη συσκευή σας";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "Δεν ανιχνεύτηκε πρόσωπο. Τοποθετήστε το πρόσωπό σας μπροστά από τη συσκευή σας";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "Το πρόσωπο ευθυγραμμίστηκε";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "Μετακινήστε τη συσκευή σας πιο κοντά";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "Μετακινήστε τη συσκευή σας πίσω";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "Μετακινήστε τη συσκευή σας προς τα αριστερά";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "Μετακινήστε τη συσκευή σας προς τα δεξιά";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "Μετακινήστε τη συσκευή σας προς τα επάνω";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "Μετακινήστε τη συσκευή σας προς τα κάτω";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "Γυρίστε το κεφάλι σας προς την άλλη πλευρά";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "Δείτε το βίντεό σας";
+"onfido_generic_back" = "επιστροφή";
+"onfido_nfc_sheet_ready_subtitle" = "Έτοιμοι για σάρωση";
+"onfido_nfc_sheet_scanning_instruction" = "Κρατήστε το τηλέφωνό σας ακίνητο";
+"onfido_nfc_sheet_success_subtitle" = "Επιτυχής σάρωση";
+"onfido_nfc_sheet_success_instruction_passport" = "Σαρώσαμε με επιτυχία το διαβατήριό σας";
+"onfido_outro_body" = "Δεν χρειαζόμαστε κάτι άλλο για να αρχίσουμε να επαληθεύουμε την ταυτότητά σας";
+"onfido_permission_recovery_title_cam" = "Δεν επιτρέπεται η πρόσβαση στην κάμερα";
+"onfido_permission_recovery_list_item_how_to_cam" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα μέσω των ρυθμίσεων της συσκευής σας";
+"onfido_permission_recovery_list_item_action_cam" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα για αυτήν την εφαρμογή";
+"onfido_permission_recovery_title_mic" = "Δεν επιτρέπεται η πρόσβαση στο μικρόφωνο";
+"onfido_permission_recovery_subtitle_mic" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς το μικρόφωνό σας";
+"onfido_permission_recovery_list_item_how_to_mic" = "Μπορείτε να ανακτήσετε την πρόσβαση στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
+"onfido_permission_recovery_list_item_action_mic" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στο μικρόφωνο για αυτήν την εφαρμογή";
+"onfido_permission_recovery_title_both" = "Απαγορεύεται η πρόσβαση στην κάμερα και στο μικρόφωνο";
+"onfido_permission_recovery_subtitle_both" = "Δεν μπορούμε να επαληθεύσουμε την ταυτότητά σας χωρίς την κάμερα και το μικρόφωνό σας";
+"onfido_permission_recovery_list_item_how_to_both" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα και στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
+"onfido_permission_recovery_list_item_action_both" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα και στο μικρόφωνο για αυτήν την εφαρμογή";
+"onfido_permission_recovery_button_primary" = "Ενεργοποίηση στις ρυθμίσεις";
+"onfido_generic_error_network_title" = "Η σύνδεση χάθηκε";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Προβολή από κάμερα. Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο. Η συσκευή σας θα δονείται ενώ η εικόνα καταγράφεται";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Προβολή από κάμερα. Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο. Η συσκευή σας θα δονείται ενώ η εικόνα καταγράφεται";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Προβολή από κάμερα. Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την πλευρά με τη φωτογραφία του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Προβολή από κάμερα. Τοποθετήστε τις εξωτερικές σελίδες του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_button_primary" = "Έναρξη σάρωσης εγγράφου";
+"onfido_selfie_capture_button_primary" = "Έναρξη σάρωσης προσώπου";
+"onfido_nfc_sheet_success_instruction_card" = "Σαρώσαμε με επιτυχία το δελτίο σας";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "Κρατήστε το τηλέφωνό σας ακίνητο";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "Χάθηκε η επαφή με το δελτίο";
+"onfido_doc_capture_header_scanning" = "Σάρωση εγγράφου...";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την πλευρά με τη φωτογραφία του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Προβολή από κάμερα. Τοποθετήστε τις εξωτερικές σελίδες του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "Χάθηκε η επαφή με το διαβατήριο";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "Μετακινήστε το τηλέφωνό σας ελαφρώς προς τα επάνω ή προς τα κάτω";
+"onfido_doc_select_button_bank_statement_non_uk" = "Εκκαθαριστικό τράπεζας";
+"onfido_retry_feedback_id_expired_title" = "Το έγγραφό σας έχει λήξει";
+"onfido_retry_feedback_id_unaccepted_title" = "Μη αποδεκτό έγγραφο";
+"onfido_retry_feedback_id_generic_title" = "Παρουσιάστηκε πρόβλημα με το έγγραφό σας";
+"onfido_retry_feedback_selfie_generic_title" = "Παρουσιάστηκε πρόβλημα με τη selfie σας";
+"onfido_retry_feedback_id_expired_subtitle" = "Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα";
+"onfido_retry_feedback_id_generic_subtitle" = "Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα";
+"onfido_retry_feedback_selfie_generic_subtitle" = "Δοκιμάστε ξανά και βεβαιωθείτε ότι το πρόσωπό σας είναι ορατό και καλά φωτισμένο";
+"onfido_retry_feedback_button_primary" = "Προσπαθήστε ξανά";
+"onfido_workflow_complete_pass_title" = "Επιτυχές";
+"onfido_workflow_complete_reject_description" = "Δεν καταφέραμε να επαληθεύσουμε την ταυτότητά σας";
+"onfido_workflow_complete_reject_title" = "Απορρίφθηκε";
+"onfido_workflow_complete_pass_description" = "Επαληθεύσαμε την ταυτότητά σας";
+"onfido_workflow_erros_task_not_supported" = "Η εργασία δεν υποστηρίζεται προς το παρόν";
+"onfido_workflow_erros_task_not_completed" = "Δεν ήταν δυνατή η ολοκλήρωση της εργασίας ροής εργασιών.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "Δεν ήταν δυνατή η ανάκτηση της εργασίας ροής εργασιών.";
+"onfido_workflow_erros_no_workflow_run_id" = "Το αναγνωριστικό εκτέλεσης ροής εργασιών δεν έχει οριστεί.";
+"onfido_workflow_erros_generic_title" = "Παρουσιάστηκε σφάλμα διακομιστή!";
+"onfido_workflow_erros_reload_app" = "Δοκιμάστε να επαναφορτώσετε την εφαρμογή και δοκιμάστε ξανά.";
+"onfido_welcome_start_workflow_button" = "Έναρξη επαλήθευσης";
+"onfido_avc_intro_list_item_one_accessibility" = "Πρώτα, θα πρέπει να τοποθετήσετε το πρόσωπό σας μπροστά από τη συσκευή σας";
+"onfido_avc_intro_list_item_two_accessibility" = "Στη συνέχεια, θα πρέπει να γυρίσετε το κεφάλι σας αργά και προς τις δύο πλευρές";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Εσφαλμένη ευθυγράμμιση προσώπου";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "Βεβαιωθείτε ότι έχετε δείξει μόνο το πρόσωπό σας, δεν χρειάζεται να δούμε το έγγραφο ταυτότητας";
+"onfido_selfie_intro_list_item_no_face_cover" = "Αφαιρέστε οτιδήποτε καλύπτει το πρόσωπό σας. Τα γυαλιά επιτρέπονται";
+"onfido_selfie_intro_banner_nudity_message" = "Το πρόσωπο και το φόντο σας θα καταγραφούν κατά τη διάρκεια αυτής της διαδικασίας";
+"onfido_video_capture_prompt_header_microphone" = "Το μικρόφωνό σας χρησιμοποιείται από άλλη εφαρμογή";
+"onfido_video_capture_prompt_detail_microphone" = "Το μικρόφωνό σας είναι απαραίτητο για να επαληθεύσετε την ταυτότητά σας. Βεβαιωθείτε ότι έχετε τερματίσει οποιαδήποτε κλήση σε εξέλιξη.";
+"onfido_video_capture_prompt_header_audio" = "Επανεκκίνηση της εγγραφής";
+"onfido_video_capture_prompt_detail_audio" = "Για να ολοκληρώσετε αυτό το βήμα, δεν πρέπει να αναπαραγάγετε κανέναν ήχο στο παρασκήνιο. Βεβαιωθείτε ότι έχετε τερματίσει οποιαδήποτε κλήση σε εξέλιξη.";
+"onfido_video_intro_error_network_accessibility" = "Η φόρτωση του παραδείγματος βίντεο δεν είναι δυνατή λόγω ασταθούς δικτύου";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Επαναφόρτωση παραδείγματος βίντεο";
+"onfido_doc_select_button_address_card" = "Κάρτα διεύθυνσης";
+"onfido_doc_select_button_address_card_detail" = "Γίνονται δεκτές προσωρινές και μόνιμες κάρτες";
+"onfido_poa_guidance_subtitle_address_card" = "Πρέπει να είναι έγκυρη κάρτα διεύθυνσης";
+"onfido_poa_guidance_instructions_full_address" = "Πλήρης διεύθυνση";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Ημερομηνία έκδοσης";
+"onfido_poa_guidance_instructions_expiry_date" = "Ημερομηνία λήξης, κατά περίπτωση";
+
+"onfido_welcome_start_workflow_button_trial" = "Έναρξη επαλήθευσης (ΔΟΚΙΜΗ)";
+"onfido_enter_can_title" = "Εισάγετε το CAN";
+"onfido_enter_can_subtitle" = "Βεβαιωθείτε ότι ο αριθμός που παρείχατε αντιστοιχεί στον αριθμό που αναγράφεται στο έγγραφο.";
+"onfido_enter_can_disclaimer" = "Μπορείτε να τον βρείτε στην μπροστινή όψη του εγγράφου σας. Είναι %dψήφιος και ελαφρώς μεγαλύτερος σε μέγεθος.";
+"onfido_enter_can_button_primary" = "Συνέχεια";
+"onfido_nfc_scan_error_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
+"onfido_nfc_scan_error_list_item" = "Αφαιρέστε το κάλυμμα του τηλεφώνου σας";
+"onfido_nfc_scan_error_list_item_2" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητος/η";
+"onfido_nfc_scan_error_button_primary" = "Επανάληψη σάρωσης";
+"onfido_welcome_nfc_title" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_welcome_nfc_subtitle" = "Θα διαρκέσει μερικά λεπτά";
+"onfido_welcome_nfc_list_header_nfc" = "Χρησιμοποιήστε τη συσκευή σας για να:";
+"onfido_welcome_nfc_list_item" = "Τραβήξετε μια φωτογραφία του εγγράφου ταυτότητάς σας";
+"onfido_welcome_nfc_list_item_2" = "Σαρώσετε το έγγραφό σας";
+"onfido_welcome_nfc_button_primary" = "Τραβήξετε μια φωτογραφία του εγγράφου σας";
+"onfido_intro_scan_title" = "Σαρώσετε το έγγραφό σας";
+"onfido_intro_scan_subtitle" = "Ακολουθήστε τις παρακάτω οδηγίες";
+"onfido_intro_scan_list_item" = "Τοποθετήστε την κάρτα σας στο πίσω μέρος της συσκευής σας";
+"onfido_intro_scan_list_item_3" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητος/η";
+"onfido_intro_scan_button_primary" = "Έναρξη σάρωσης";
+"onfido_nfc_scan_sheet" = "Σύρετε αργά το έγγραφο επάνω και κάτω";
+"onfido_nfc_scan_scanning_sheet_1" = "Σάρωση σε εξέλιξη\nΚρατήστε τη συσκευή και το έγγραφό σας ακίνητα.";
+"onfido_nfc_scan_can-required_sheet_2" = "Απαιτείται αριθμός CAN";
+"onfido_nfc_scan_lost-contact_sheet_3" = "Χάθηκε η επαφή με την κάρτα NFC\nΜετακινήστε τη συσκευή σας ελαφρώς προς τα πάνω ή προς τα κάτω.";
+"onfido_nfc_scan_lost-connection_sheet_4" = "Χάθηκε η σύνδεση\nΔεν ήταν δυνατή η σάρωση του εγγράφου σας";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "Εσφαλμένο CAN";
+"onfido_enter_can_error_label" = "Έχετε %d %@ ακόμη.";
+"onfido_enter_can_substring_attempt_singular" = "προσπάθεια";
+"onfido_enter_can_substring_attempt_plural" = "προσπάθειες";
+"onfido_nfc_scan_error_button_secondary" = "Επαληθεύστε χωρίς NFC";
+"onfido_intro_scan_animation_ios" = "Τοποθετήστε το έγγραφό σας στο πάνω μέρος της συσκευής σας. Μόλις ξεκινήσει η σάρωση, κράτα τους ακίνητους.";
+"onfido_nfc_scan_sheet_success" = "Επιτυχής σάρωση";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Το πρόσωπο, το φόντο και ο ήχος σας θα καταγραφούν κατά τη διάρκεια αυτής της διαδικασίας";
+"onfido_welcome_list_header_doc_video" = "Χρησιμοποιήστε τη συσκευή σας για εγγραφή:";
+"onfido_welcome_list_item_doc_video_flash" = "Θα ενεργοποιήσουμε το φλας της συσκευής σας κατά τη διάρκεια της εγγραφής βίντεο";
+"onfido_welcome_list_item_doc_video_timeout" = "Η εγγραφή περιορίζεται σε %d δευτερόλεπτα";
+"onfido_doc_video_capture_header" = "Κρατώντας το έγγραφο στα χέρια σας, κρατήστε την μπροστινή όψη εντός του πλαισίου";
+"onfido_doc_video_capture_header_step1" = "Τώρα, μείνετε ακίνητος/η";
+"onfido_doc_video_capture_header_step2" = "Γυρίστε αργά το έγγραφό σας για να εμφανιστεί η πίσω όψη";
+"onfido_doc_video_capture_detail_step2" = "Να διατηρείτε το έγγραφο πλήρως ορατό ανά πάσα στιγμή";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Προεπισκόπηση βίντεο";
+"onfido_doc_video_capture_button_primary_fallback" = "Επόμενο βήμα";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Ολοκλήρωση εγγραφής";
+"onfido_doc_video_capture_header_passport" = "Κρατώντας το διαβατήριο στα χέρια σας, κρατήστε τη σελίδα με τη φωτογραφία εντός του πλαισίου";
+"onfido_doc_video_capture_header_passport_progress" = "Μείνετε ακίνητος/η";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Γυρίστε αργά το έγγραφό σας για να εμφανιστούν οι εξωτερικές σελίδες";
+"onfido_outro_title" = "Σας ευχαριστούμε";
+"onfido_doc_video_capture_stepper" = "Βήμα %d από %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Η εγγραφή βίντεο περιορίζεται σε %d δευτερόλεπτα";
+"onfido_doc_video_capture_alert_wrong_side" = "Βεβαιωθείτε ότι εμφανίζεται η πίσω όψη του εγγράφου σας";
+"onfido_doc_video_capture_success_accessibility" = "Επιτυχία";
+"onfido_doc_video_capture_prompt_header_timeout" = "Φαίνεται ότι αργήσατε πολύ";
+"onfido_doc_video_capture_prompt_button_timeout" = "Επανάληψη προσπάθειας";
+"onfido_app_title_doc_video_confirmation" = "Επαληθεύστε την ταυτότητά σας";
+"onfido_doc_video_confirmation_button_primary" = "Υποβολή βίντεο";
+"onfido_doc_video_confirmation_title" = "Σας ευχαριστούμε";
+"onfido_doc_video_confirmation_body" = "Το βίντεό σας έχει εγγραφεί";
+"onfido_doc_video_capture_button_primary_start" = "Έναρξη εγγραφής";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Επανάληψη λήψης βίντεο";
+"onfido_doc_video_capture_header_folded_doc_front" = "Πλευρά φωτογραφίας προφίλ";
+"onfido_welcome_list_item_doc_video" = "Εγγράψετε ένα βίντεο του εγγράφου ταυτότητάς σας";
+"onfido_welcome_info_original_document" = "Φωτογραφήστε το πρωτότυπο έγγραφό σας. Δεν επιτρέπονται σαρώσεις, φωτογραφίες οθονών ή φωτοτυπίες.";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "Το μικρόφωνό σας χρησιμοποιείται από άλλη εφαρμογή";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "Τερματίστε οποιεσδήποτε τρέχουσες κλήσεις ή δραστηριότητες που χρησιμοποιούν το μικρόφωνό σας κατά τη διάρκεια της εγγραφής";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "Προσπαθήστε ξανά";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Προσπαθήστε ξανά";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "Γίνεται αναπαραγωγή ήχου από άλλη εφαρμογή";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής";
+
+"onfido_nfc_scan_welcome_card_title" = "Επιτάχυνση της διαδικασίας με NFC";
+"onfido_nfc_scan_welcome_card_subtitle" = "Θα σαρώσουμε το τσιπ NFC του εγγράφου σας";
+"onfido_nfc_scan_welcome_card_list_item" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Σύρετε αργά τη συσκευή σας πάνω και κάτω";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη";
+"onfido_nfc_scan_welcome_card_button_primary" = "Έναρξη σάρωσης";
+"onfido_nfc_scan_welcome_card_secondary_button" = "Επαληθεύστε χωρίς NFC";
+
+"onfido_nfc_scan_error_inter_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
+"onfido_nfc_scan_error_inter_list_item" = "Αφαιρέστε το κάλυμμα του τηλεφώνου σας";
+"onfido_nfc_scan_error_inter_list_item_2" = "Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής";
+"onfido_nfc_scan_error_inter_primary_button" = "Επανάληψη σάρωσης";
+"onfido_nfc_scan_error_inter_secondary_button" = "Επαληθεύστε χωρίς NFC";
+
+"onfido_nfc_scan_error_final_title" = "Δεν μπορέσαμε να επαληθεύσουμε αυτό το έγγραφο";
+"onfido_nfc_scan_error_final_subtitle" = "Απαιτείται σάρωση NFC για αυτό το έγγραφο, αλλά δεν ήταν δυνατό να ολοκληρωθεί.";
+"onfido_nfc_scan_error_final_list_item" = "Έχετε διαφορετικό έγγραφο για να προχωρήσετε;";
+"onfido_nfc_scan_error_final_primary_button" = "Χρησιμοποιήστε διαφορετικό έγγραφο";
+"onfido_nfc_scan_error_final_secondary_button" = "Επαληθεύστε χωρίς NFC";
+
+"onfido_nfc_scan_welcome_passport_title" = "Επιτάχυνση της διαδικασίας με NFC";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Θα σαρώσουμε το τσιπ NFC του εγγράφου σας";
+"onfido_nfc_scan_welcome_passport_list_item" = "Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Ανοίξτε το έγγραφό σας στην εσωτερική πίσω σελίδα";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Σύρετε αργά τη συσκευή σας πάνω και κάτω";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Έναρξη σάρωσης";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Επανάληψη σάρωσης";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
+
+"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
+"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
+"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
+"onfido_nfc_scan_error_final_primary_button"="Use different document";
+"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
+"onfido_doc_capture_alert_too_close_title" = "Μετακινηθείτε προς τα πίσω";
+"onfido_doc_capture_alert_rotated_title" = "Περιστρέψτε το έγγραφό σας";
+"onfido_doc_capture_alert_too_far_title" = "Πλησιάστε";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Γυρίστε στην μπροστινή πλευρά";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Αναποδογυρίστε στην πίσω πλευρά";
+"onfido_doc_capture_alert_hold_still_title" = "Μείνετε ακίνητος/η";

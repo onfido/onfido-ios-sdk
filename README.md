@@ -1109,7 +1109,13 @@ if (configError) {
 }
 ```
 
-### Enabling ePassport NFC extraction
+### NFC capture
+
+Recent passports, national identity cards and residence permits contain a chip that can be accessed using Near Field Communication (NFC).
+The Onfido SDKs provide a set of screens and functionalities to extract this information, verify its authenticity and provide the results as part of a Document report.
+With version [29.1.0] of the Onfido iOS SDK, NFC is enabled by default and offered to customer when both the document and the device support NFC.
+
+For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 #### Pre-requisites
 
@@ -1135,38 +1141,6 @@ if (configError) {
   <string>D2760000850101</string>
 </array>
 ```
-#### SDK integration
-
-Some passports contain a chip which can be accessed using Near Field Communication. The SDK provides a set of screens to extract the information contained within the chip to verify the original document is present.
-
-##### Swift
-
-```swift
-let config = try! OnfidoConfig.builder()
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
-    .withDocumentStep()
-    .withNFCReadFeatureEnabled()
-    .build()
-```
-
-##### Objective-C
-
-```Objective-C
-ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
-
-[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
-[configBuilder withWelcomeStep];
-[configBuilder withDocumentStep];
-[configBuilder withNFCReadFeatureEnabled];
-
-NSError *configError = NULL;
-ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
-
-```
-
-#### Creating checks with NFC
-
-Please refer to our [NFC for document report guide in our developer hub](https://developers.onfido.com/guide/document-report-nfc) to learn [how to create a check containing a document report with nfc](https://developers.onfido.com/guide/document-report-nfc#create-a-check-containing-a-document-report-with-nfc).
 
 ### UI customization
 
@@ -1260,17 +1234,17 @@ The SDK supports and maintains the following 44 languages:
 - Arabic: ar
 - Armenian: hy
 - Bulgarian: bg
-- Chinese (Simplified): zh_Hans
-- Chinese (Traditional): zh_Hant
+- Chinese (Simplified): zh-Hans
+- Chinese (Traditional): zh-Hant
 - Croatian: hr
 - Czech: cs
 - Danish: da
 - Dutch: nl
-- English (United Kingdom): en_GB
-- English (United States): en_US
+- English (United Kingdom): en-GB
+- English: en
 - Estonian: et
 - Finnish: fi
-- French (Canadian): fr_CA
+- French (Canadian): fr-CA
 - French: fr
 - German: de
 - Greek: el
@@ -1284,17 +1258,17 @@ The SDK supports and maintains the following 44 languages:
 - Latvian: lv
 - Lithuanian: lt
 - Malay: ms
-- Norwegian: nb
+- Norwegian (Bokmål): no
 - Persian: fa
 - Polish: pl
-- Portuguese (Brazil): pt_BR
+- Portuguese (Brazil): pt-BR
 - Portuguese: pt
 - Romanian: ro
 - Russian: ru
-- Serbian: sr_Latn
+- Serbian (Latin): sr-Latn
 - Slovak: sk
 - Slovenian: sl
-- Spanish (Latin America): es_419
+- Spanish (Latin America): es-419
 - Spanish: es
 - Swedish: sv
 - Thai: th
@@ -1453,8 +1427,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 9.904|
-| Below 12.2       | up to 9.904* or up to 19.161**|
+| 12.2 and above   | 9.979|
+| Below 12.2       | up to 9.979* or up to 19.236**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
