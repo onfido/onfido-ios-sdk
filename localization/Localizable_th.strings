@@ -1,0 +1,662 @@
+"onfido_doc_capture_button_accessibility" = "ชัตเตอร์";
+"onfido_selfie_capture_button_accessibility" = "ชัตเตอร์";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "ดูจากกล้อง";
+"onfido_selfie_capture_frame_accessibility" = "ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่ จากนั้นแตะปุ่มชัตเตอร์";
+"onfido_video_capture_frame_accessibility" = "ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่เพื่อเริ่มบันทึก";
+"onfido_selfie_confirmation_image_accessibility" = "รูปถ่ายใบหน้าของคุณ";
+"onfido_video_capture_frame_success_accessibility" = "ตรวจพบใบหน้า เริ่มบันทึกแล้ว";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "ตัวอย่างวิดีโอแสดงคนที่กำลังบันทึกวิดีโอเซลฟี่ วิธีบันทึกวิดีโอเซลฟี่ ให้หันหน้าไปทางกล้องหน้าและถือโทรศัพท์ให้ห่างจากใบหน้าเล็กน้อย จากนั้นคุณจะต้องพูดตัวเลข และหันศีรษะของคุณไปตามคำแนะนำบนหน้าจอ";
+"onfido_video_intro_button_pause_accessibility" = "หยุดวิดีโอชั่วคราว";
+"onfido_video_intro_button_play_accessibility" = "เล่นวิดีโอ";
+"onfido_country_select_list_header_all" = "ทุกประเทศ";
+"onfido_doc_capture_alert_manual_capture_detail" = "จัดเรียงเอกสาร แล้วกดปุ่ม";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "ลองถ่ายรูปด้วยตนเอง";
+"onfido_doc_capture_alert_no_barcode_detail" = "อยู่ในที่ที่มีแสงสว่างเพียงพอ และนำบัตรมาใกล้ๆ กล้อง";
+"onfido_doc_capture_alert_no_barcode_title" = "ไม่พบบาร์โค้ด";
+"onfido_doc_confirmation_alert_blur_detail" = "เช็คให้แน่ใจว่าทุกอย่างชัดเจน";
+"onfido_doc_confirmation_alert_blur_title" = "ตรวจพบรูปภาพเบลอ";
+"onfido_selfie_intro_list_item_face_forward" = "มองตรงไปข้างหน้าและเช็คให้แน่ใจว่าเห็นดวงตาของคุณได้อย่างชัดเจน";
+"onfido_selfie_intro_list_item_no_glasses" = "ถอดแว่นตาออก หากจำเป็น";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "เราจะเปรียบเทียบรูปนี้กับเอกสารของคุณ";
+"onfido_selfie_intro_title" = "ถ่ายเซลฟี่";
+"onfido_selfie_intro_button_primary" = "ถ่ายเซลฟี่";
+"onfido_country_select_bottom_sheet_link_close" = "ปิด";
+"onfido_doc_confirmation_button_primary_license" = "ส่งรูปภาพ";
+"onfido_doc_confirmation_button_primary_generic" = "ส่งรูปภาพ";
+"onfido_doc_confirmation_button_primary_id" = "ส่งรูปภาพ";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "อัปโหลดรูปภาพ";
+"onfido_doc_confirmation_button_secondary" = "ถ่ายรูปอีกครั้ง";
+"onfido_doc_confirmation_button_primary_passport" = "ส่งรูปภาพ";
+"onfido_doc_confirmation_button_primary_permit" = "ส่งรูปภาพ";
+"onfido_doc_confirmation_button_primary_visa" = "ส่งรูปภาพ";
+"onfido_selfie_confirmation_button_secondary" = "ถ่ายรูปอีกครั้ง";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "เปิดใช้งานทั้ง 2 อย่าง";
+"onfido_permission_button_primary_cam" = "เปิดใช้งานกล้อง";
+"onfido_permission_button_primary_mic" = "เปิดใช้งานไมโครโฟน";
+"onfido_permission_body_both" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้องและไมโครโฟน";
+"onfido_permission_body_cam" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง";
+"onfido_permission_body_mic" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้ไมโครโฟน";
+"onfido_permission_subtitle_both" = "เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงสำหรับทั้งคู่เพื่อดำเนินการต่อ";
+"onfido_permission_subtitle_cam" = "เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงกล้องเพื่อดำเนินการต่อ";
+"onfido_permission_subtitle_mic" = "เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงไมโครโฟนเพื่อดำเนินการต่อ";
+/* Device permission */
+"onfido_permission_title_both" = "อนุญาตให้เข้าถึงกล้องและไมโครโฟน";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "อนุญาตให้เข้าถึงกล้อง";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "อนุญาตให้เข้าถึงไมโครโฟน";
+"onfido_doc_select_subtitle" = "ต้องเป็นบัตรประจำตัวอย่างเป็นทางการที่มีรูปถ่าย";
+/* Document type selection */
+"onfido_doc_select_title" = "เลือกเอกสารของคุณ";
+"onfido_doc_capture_prompt_title_license" = "คุณมีใบอนุญาตประเภทใด?";
+"onfido_doc_select_button_passport" = "หนังสือเดินทาง";
+"onfido_doc_select_button_license" = "ใบอนุญาตขับขี่";
+"onfido_doc_select_button_id" = "บัตรประจำตัวประชาชน";
+"onfido_doc_select_button_permit" = "ใบอนุญาตพำนักอาศัย";
+"onfido_generic_error_network_detail" = "เกิดข้อผิดพลาดในเครือข่าย โปรดตรวจสอบการเชื่อมต่อของคุณ";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "การเชื่อมต่อขาด";
+"onfido_doc_capture_alert_no_face_detail" = "เช็คให้แน่ใจว่ามองเห็นใบหน้าของคุณได้ชัดเจน";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "วางเอกสารให้ราบเรียบ เพื่อให้เห็นหน้าด้านในที่มีรูปถ่ายของคุณ";
+"onfido_doc_capture_alert_no_face_title" = "ไม่พบใบหน้า";
+"onfido_video_capture_button_primary_finish" = "ยุติการบันทึก";
+"onfido_welcome_button_primary_doc" = "เลือกเอกสาร";
+"onfido_doc_capture_detail_folded_doc_back" = "วางเอกสารของคุณให้ราบเรียบ โดยให้เห็นหน้าด้านนอกทั้งหมด";
+"onfido_doc_capture_header_folded_doc_back" = "วางหน้าด้านนอกของเอกสารคุณให้อยู่ในกรอบ";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "เช็คให้แน่ใจว่าคุณคลี่เอกสารออกหมดแล้ว และเห็นรูปถ่ายอย่างชัดเจน";
+"onfido_doc_video_capture_detail_folded_doc_front" = "วางเอกสารของคุณให้ราบเรียบ โดยให้เห็นหน้าด้านในทั้งหมด (ต้องมีรูปภาพของคุณด้วย)";
+"onfido_doc_capture_prompt_button_paper" = "เอกสารกระดาษ";
+"onfido_app_title_doc_capture_license_fr" = "ใบขับขี่ฝรั่งเศส";
+"onfido_app_title_doc_capture_license_de" = "ใบขับขี่เยอรมนี";
+"onfido_doc_capture_alert_glare_detail" = "เลื่อนไม่ให้มีแสงส่องโดยตรง";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "ตรวจพบแสงสะท้อน";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "บัตรประจำตัวประชาชนอิตาลี";
+"onfido_app_title_doc_capture_id_za" = "บัตรประจำตัวประชาชนแอฟริกาใต้";
+"onfido_doc_select_button_generic" = "เอกสาร";
+/* Document Types */
+"onfido_doc_select_button_visa" = "วีซ่า";
+"onfido_doc_select_button_permit_work" = "ใบอนุญาตทำงาน";
+"onfido_video_capture_header_challenge_digit_instructions" = "พูดตัวเลขแต่ละตัวออกมาดังๆ";
+"onfido_video_capture_header_challenge_turn_forward" = "แล้วหันหน้าไปข้างหน้า";
+"onfido_video_capture_header_challenge_turn_left" = "หันศีรษะไปทางซ้าย";
+"onfido_video_capture_header_challenge_turn_right" = "หันศีรษะไปทางขวา";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "โหลดคำแนะนำอีกครั้ง";
+"onfido_video_capture_prompt_network_timeout_detail" = "เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง";
+"onfido_video_capture_prompt_network_timeout_title" = "การเชื่อมต่อหมดเวลา";
+"onfido_video_intro_loader" = "กำลังโหลดตัวอย่าง";
+"onfido_video_intro_list_item_time_limit" = "คุณมีเวลา %d วินาทีเพื่อทำให้เสร็จ";
+"onfido_video_intro_list_item_move_speak" = "ทำตามคำแนะนำในการขยับหรือพูด";
+/* Liveness */
+"onfido_video_intro_subtitle" = "เราต้องการการจับภาพแบบสดเพื่อความปลอดภัย";
+/* Liveness intro */
+"onfido_video_intro_title" = "บันทึกวิดีโอ";
+"onfido_video_intro_button_primary" = "บันทึกวิดีโอ";
+"onfido_video_capture_prompt_detail_timeout" = "อย่าลืมกดปุ่มเมื่อคุณทำเสร็จแล้ว";
+"onfido_video_capture_prompt_header_timeout" = "ดูเหมือนว่าคุณใช้เวลานานเกินไป";
+"onfido_video_capture_prompt_header_restart" = "รีสตาร์ทการบันทึก";
+"onfido_video_capture_prompt_detail_restart" = "คุณต้องถ่ายให้เห็นใบหน้าของคุณตลอดการบันทึก จึงจะผ่านขั้นตอนนี้";
+"onfido_video_capture_prompt_button_restart" = "เริ่มต้นอีกครั้ง";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "วางใบหน้าของคุณให้อยู่ในกรอบรูปไข่";
+"onfido_video_capture_body" = "วางใบหน้าของคุณไว้ในกรอบรูปไข่เพื่อเริ่มบันทึก";
+"onfido_doc_confirmation_body_license" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+"onfido_doc_confirmation_body_generic" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+"onfido_doc_confirmation_body_id" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+"onfido_doc_confirmation_body_permit" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+"onfido_doc_confirmation_body_visa" = "เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "เช็คให้แน่ใจว่ามองเห็นทั้งใบหน้าของคุณได้ชัดเจน";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ";
+"onfido_doc_capture_header_visa" = "วางหน้าที่มีวีซ่าของคุณให้อยู่ในกรอบ";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "กำลังโหลด";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ";
+"onfido_doc_capture_header_license_back" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_license_back_auto" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_generic_back" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_id_back" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_permit_back" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_license_front" = "วางด้านหน้าเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_license_front_auto" = "วางด้านหน้าเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_generic_front" = "วางด้านหน้าเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_id_front" = "วางด้านหน้าเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_header_permit_front" = "วางด้านหน้าเอกสารให้อยู่ในกรอบ";
+
+"onfido_generic_uploading" = "กำลังอัปโหลด";
+"onfido_doc_confirmation_alert_no_doc_detail" = "เช็คให้แน่ใจว่าเอกสารทั้งหมดอยู่ในรูปถ่าย";
+"onfido_selfie_confirmation_alert_no_face_detail" = "เช็คให้แน่ใจว่ามองเห็นใบหน้าของคุณได้ชัดเจน";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "รูปเซลฟี่ต้องมีเฉพาะใบหน้าของคุณ";
+"onfido_doc_capture_alert_no_mrz_detail" = "เช็คให้แน่ใจว่าเห็นเอกสารทั้งหน้า";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "ไม่เห็น 2 บรรทัดด้านล่าง";
+"onfido_doc_capture_alert_no_mrz3_title" = "มองไม่เห็น 3 บรรทัดด้านล่าง";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "พบหลายใบหน้า";
+"onfido_doc_capture_prompt_title_id" = "คุณมีบัตรประจำตัวประเภทใด?";
+"onfido_video_capture_button_primary_fallback" = "ขั้นตอนถัดไป";
+"onfido_doc_confirmation_alert_no_doc_title" = "ไม่พบเอกสาร";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "ไม่พบใบหน้า";
+"onfido_generic_alert_network_error_button_primary" = "ตกลง";
+"onfido_info_tablet_orientation_subtitle" = "เรารองรับโหมดถ่ายภาพบุคคลเท่านั้น";
+"onfido_info_tablet_orientation_title" = "โปรดหมุน iPad ของคุณ";
+"onfido_info_tablet_orientation_body" = "ปุ่มควรอยู่ที่ด้านล่างของหน้าจอ";
+"onfido_doc_capture_prompt_button_card" = "บัตรพลาสติก";
+"onfido_video_intro_prompt_button_primary_reload_player" = "โหลดอีกครั้ง";
+"onfido_video_confirmation_button_secondary" = "ถ่ายวิดีโออีกครั้ง";
+"onfido_video_capture_prompt_button_timeout" = "ลองอีกครั้ง";
+"onfido_country_select_bottom_sheet_link_doc_select" = "เลือกเอกสารอื่น";
+"onfido_welcome_button_primary" = "เริ่ม";
+"onfido_video_capture_button_primary_start" = "เริ่มบันทึก";
+"onfido_video_confirmation_button_primary" = "อัปโหลดวิดีโอ";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "ประเทศที่แนะนำ";
+/* General */
+"onfido_video_intro_error_network" = "โหลดไม่ได้เนื่องจากเครือข่ายไม่เสถียร";
+"onfido_country_select_bottom_sheet_details" = "ดูเหมือนว่าระบบจะไม่รองรับประเทศของเอกสารที่คุณเลือก โปรดเลือกประเทศอื่น";
+"onfido_country_select_bottom_sheet_title" = "ไม่พบประเทศของคุณใช่ไหม?";
+"onfido_doc_confirmation_button_primary" = "ส่งรูปภาพ";
+/* Face capture */
+"onfido_welcome_subtitle" = "น่าจะใช้เวลาสักครู่";
+/* Welcome */
+"onfido_welcome_title" = "ยืนยันตัวตน";
+"onfido_app_title_doc_confirmation" = "ยืนยันตัวตน";
+"onfido_app_title_selfie_confirmation" = "ยืนยันตัวตน";
+"onfido_app_title_nfc_select" = "ยืนยันตัวตน";
+"onfido_app_title_nfc_intro" = "ยืนยันตัวตน";
+"onfido_app_title_nfc_fail" = "ยืนยันตัวตน";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "ยืนยันตัวตน";
+"onfido_app_title_country_select" = "เลือกประเทศที่ออกเอกสาร";
+"onfido_app_title_selfie_intro" = "ยืนยันตัวตน";
+"onfido_app_title_video_intro" = "ยืนยันตัวตน";
+"onfido_app_title_permission" = "ยืนยันตัวตน";
+"onfido_app_title_video_confirmation" = "ยืนยันตัวตน";
+"onfido_video_capture_alert_wrong_side" = "ผิดข้าง";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "ยืนยันได้เร็วขึ้นด้วย NFC";
+"onfido_nfc_select_subtitle_passport" = "เราจะสแกนชิป NFC ในหนังสือเดินทางของคุณ";
+"onfido_nfc_select_body_passport" = "หนังสือเดินทางอิเล็กทรอนิกส์จะมีสัญลักษณ์นี้บนหน้าปก";
+"onfido_nfc_select_button_primary_passport" = "ใช้หนังสือเดินทางอิเล็กทรอนิกส์";
+"onfido_nfc_select_button_secondary_passport" = "เอกสารนี้ไม่ใช่หนังสือเดินทางอิเล็กทรอนิกส์";
+
+"onfido_nfc_select_title_card" = "ยืนยันได้เร็วขึ้นด้วย NFC";
+"onfido_nfc_select_subtitle_card" = "เราจะสแกนชิป NFC ในบัตรของคุณ";
+"onfido_nfc_select_body_card" = "บัตรที่มีชิป NFC จะมีสัญลักษณ์นี้";
+"onfido_nfc_select_button_primary_card" = "ใช้บัตรที่มี NFC";
+"onfido_nfc_select_button_secondary_card" = "บัตรไม่มี NFC";
+
+"onfido_nfc_intro_title_passport" = "สแกนหนังสือเดินทางอิเล็กทรอนิกส์ของคุณ";
+"onfido_nfc_intro_subtitle_passport" = "ทำตามคำแนะนำต่อไปนี้";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "วางหนังสือเดินทางของคุณบนพื้นผิวราบ";
+"onfido_nfc_intro_passport_scan_guide_2" = "วางโทรศัพท์ไว้บนหนังสือเดินทาง";
+"onfido_nfc_intro_passport_scan_guide_3" = "ค่อยๆ เลื่อนโทรศัพท์ของคุณลงและขึ้นช้าๆ";
+"onfido_nfc_intro_passport_scan_guide_4" = "ถือโทรศัพท์ของคุณไว้นิ่งๆ เมื่อเริ่มสแกน";
+
+"onfido_nfc_intro_button_primary_passport" = "เริ่มสแกน";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "สแกนบัตร NFC ของคุณ";
+"onfido_nfc_intro_subtitle_card" = "วางโทรศัพท์ของคุณไว้บนบัตร โดยให้อยู่ใกล้ๆ ด้านบนของโทรศัพท์";
+"onfido_nfc_intro_button_primary_card" = "เริ่มสแกน";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "วางโทรศัพท์ของคุณไว้บนบัตร";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "เราสแกนหนังสือเดินทางของคุณไม่ได้";
+"onfido_nfc_fail_title_card" = "เราสแกนบัตร NFC ของคุณไม่ได้";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "นำปกหนังสือเดินทางออก";
+"onfido_nfc_intro_carousel_body_lay_flat" = "วางหนังสือเดินทางของคุณบนพื้นผิวราบ";
+"onfido_nfc_intro_carousel_body_phone_middle" = "วางโทรศัพท์ไว้ใกล้ๆ ส่วนกลางของหนังสือเดินทาง";
+"onfido_nfc_intro_carousel_body_last_page" = "คุณยังลองด้านในของหน้าหลังได้ด้วย";
+"onfido_nfc_intro_carousel_body_dont_move" = "อย่าเลื่อนโทรศัพท์หรือหนังสือเดินทางขณะสแกน";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "ถอดซองหนังสือเดินทางและเคสโทรศัพท์ออก";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "วางโทรศัพท์และหนังสือเดินทางของคุณติดกันไว้จนกว่าจะสแกนสำเร็จ";
+"onfido_nfc_fail_button_primary_passport" = "ลองสแกนอีกครั้ง";
+"onfido_nfc_fail_button_secondary_passport" = "ยืนยันตัวตนโดยไม่ต้องสแกน";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "ถอดเคสโทรศัพท์ออก";
+"onfido_nfc_fail_list_item_keep_contact_card" = "วางโทรศัพท์และบัตรของคุณติดกันไว้จนกว่าจะสแกนสำเร็จ";
+"onfido_nfc_fail_button_primary_card" = "ลองสแกนอีกครั้ง";
+"onfido_nfc_fail_button_secondary_card" = "ยืนยันตัวตนโดยไม่ต้องสแกน";
+
+"onfido_doc_confirmation_zoom_button" = "ขยายภาพ";
+"onfido_doc_confirmation_image_accessibility" = "รูปถ่ายเอกสารของคุณ แตะ 2 ครั้งเพื่อขยายภาพ";
+"onfido_doc_zoom_body" = "เลื่อนไปรอบๆ โดยใช้นิ้วเดียว";
+"onfido_doc_zoom_button_close" = "ปิด";
+
+"onfido_video_confirmation_body" = "บันทึกวิดีโอของคุณแล้ว";
+"onfido_app_title_country_select_search" = "ค้นหา";
+"onfido_country_select_list_accessibility" = "ผลการค้นหา";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "ยืนยันตัวตน";
+"onfido_user_consent_prompt_no_consent_title" = "แน่ใจใช่ไหม";
+"onfido_user_consent_prompt_no_consent_detail" = "หากคุณไม่ยอมรับนโยบายความเป็นส่วนตัวและข้อกำหนดในการให้บริการของ Onfido เราจะไม่สามารถยืนยันตัวตนของคุณได้ และคุณจะออกจากขั้นตอนนี้";
+"onfido_user_consent_prompt_button_secondary" = "ตรวจสอบอีกครั้ง";
+"onfido_user_consent_prompt_button_primary" = "ใช่ ไม่ต้องยืนยันตัวตนฉัน";
+"onfido_user_consent_button_primary" = "ยอมรับ";
+"onfido_user_consent_button_secondary" = "ไม่ยอมรับ";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "ยืนยันตัวตน";
+"onfido_user_consent_load_fail_title" = "ไม่สามารถโหลดเนื้อหาได้";
+"onfido_user_consent_load_fail_detail" = "เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง";
+"onfido_user_consent_load_fail_button_primary" = "โหลดหน้าจออีกครั้ง";
+"onfido_country_select_search_results_none_accessibility" = "ไม่มีผลลัพธ์ที่ตรงกัน";
+"onfido_country_select_search_results_one_accessibility" = "พบผลลัพธ์ 1 รายการ";
+"onfido_country_select_search_results_multiple_accessibility" = "พบผลลัพธ์ %d รายการ";
+"onfido_doc_confirmation_alert_crop_detail" = "เช็คให้แน่ใจว่ามองเห็นเอกสารทั้งหน้าอย่างชัดเจน";
+"onfido_doc_confirmation_alert_crop_title" = "ตรวจพบภาพถูกตัด";
+"onfido_doc_upload_progress_label" = "กำลังตรวจสอบคุณภาพของภาพ";
+"onfido_doc_capture_frame_success_accessibility" = "จับภาพแล้ว";
+"onfido_generic_error_timeout_title" = "การเชื่อมต่อหมดเวลา";
+"onfido_generic_error_timeout_detail" = "เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง";
+"onfido_generic_error_timeout_button_primary" = "ลองอีกครั้ง";
+"onfido_generic_processing" = "กำลังดำเนินการ";
+"onfido_video_capture_turn_success_accessibility" = "ตรวจพบการหันศีรษะ";
+"onfido_welcome_list_header" = "ใช้อุปกรณ์ของคุณ:";
+"onfido_welcome_list_item_doc_photo" = "ถ่ายรูปเอกสารยืนยันตัวตนของคุณ";
+"onfido_welcome_list_item_doc_generic" = "สแกนเอกสารยืนยันตัวตนของคุณ";
+"onfido_welcome_list_item_face_photo" = "ถ่ายรูปใบหน้าของคุณ";
+"onfido_welcome_list_item_face_video" = "บันทึกวิดีโอใบหน้าของคุณ";
+"onfido_doc_capture_header_live_guidance_no_doc" = "ถือโทรศัพท์ไว้เหนือเอกสาร";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "ไม่พบเอกสาร ถือโทรศัพท์ไว้เหนือเอกสาร";
+"onfido_doc_capture_header_live_guidance_distance_close" = "เอกสารอยู่ใกล้เกินไป";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "เอกสารอยู่ใกล้กล้องเกินไป";
+"onfido_doc_capture_header_live_guidance_distance_far" = "เอกสารอยู่ไกลเกินไป";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "เอกสารอยู่ห่างจากกล้องเกินไป";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "รักษาระยะห่างนี้ไว้";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "รักษาระยะห่างนี้จากเอกสารของคุณ";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "เลื่อนไปทางซ้าย";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "เลื่อนอุปกรณ์ของคุณไปทางซ้าย";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "เลื่อนไปทางขวา";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "เลื่อนอุปกรณ์ของคุณไปทางขวา";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "เลื่อนขึ้น";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "เลื่อนอุปกรณ์ของคุณขึ้น";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "เลื่อนขึ้น";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "เลื่อนอุปกรณ์ของคุณขึ้นเล็กน้อย";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "เลื่อนลง";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "เลื่อนอุปกรณ์ของคุณลง";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "เลื่อนลง";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "เลื่อนอุปกรณ์ของคุณลงเล็กน้อย";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "อยู่นิ่งๆ เพื่อจับภาพ";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "ถือค้างไว้เพื่อจับภาพ";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่ด้านหน้าของเอกสาร จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากเอกสารเป็นเส้นตรง";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "ถือโทรศัพท์ไว้เหนือด้านหน้าของเอกสาร";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "ถือโทรศัพท์ไว้เหนือด้านหลังของเอกสาร";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่ด้านหลังของเอกสาร จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากเอกสารเป็นเส้นตรง";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "ถือโทรศัพท์ไว้เหนือหน้ารูปถ่ายของหนังสือเดินทาง";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่หน้ารูปถ่ายของหนังสือเดินทาง จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากหนังสือเดินทางเป็นเส้นตรง";
+"onfido_doc_capture_header_capturing" = "อยู่นิ่งๆ";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "เริ่มการยืนยันตัวตน";
+"onfido_poa_intro_list_shows_address" = "แสดงที่อยู่ปัจจุบันของคุณ";
+"onfido_poa_intro_list_matches_signup" = "ตรงกับที่อยู่ที่คุณใช้ลงทะเบียน";
+"onfido_poa_intro_list_most_recent" = "เป็นเอกสารล่าสุดของคุณ";
+"onfido_poa_intro_subtitle" = "คุณจะต้องมีเอกสารที่:";
+"onfido_poa_intro_title" = "มายืนยันที่อยู่ของคุณกัน";
+"onfido_doc_confirmation_body" = "เช็คให้แน่ใจว่าคุณอัปโหลดเอกสารทั้งหน้า และสามารถอ่านรายละเอียดได้อย่างชัดเจนโดยไม่มีตัวหนังสือพร่ามัวหรือมีแสงสะท้อน";
+"onfido_poa_guidance_instructions_label" = "จับภาพเอกสารทั้งหมดและตรวจสอบให้แน่ใจว่าเห็น:";
+"onfido_poa_capture_confirm" = "ส่งเอกสาร";
+"onfido_poa_capture_redo" = "ถ่ายรูปอีกครั้ง";
+"onfido_poa_capture_choose_another" = "เลือกรายการอื่น";
+"onfido_poa_capture_image_accessibility" = "แสดงตัวอย่างเอกสารแบบขยาย";
+"onfido_poa_capture_enlarge" = "ขยายเอกสาร";
+"onfido_poa_capture_enlarge_move" = "เลื่อนไปรอบๆ โดยใช้นิ้วเดียว";
+"onfido_poa_capture_enlarge_close" = "ปิด";
+"onfido_poa_capture_instructions" = "ด้านหน้าของเอกสารที่อยู่";
+"onfido_poa_upload_instructions_take_photo_button" = "ถ่ายรูปภาพ";
+"onfido_poa_upload_instructions_upload_button" = "อัปโหลด";
+"onfido_poa_type_selection_title" = "เลือกเอกสาร";
+"onfido_poa_type_selection_title_uk" = "เลือกเอกสารของสหราชอาณาจักร";
+"onfido_poa_country_not_found" = "ขอโทษด้วย เรากำลังเพิ่มประเทศที่รองรับ";
+"onfido_poa_welcome_text" = "ถ่ายรูปเอกสารที่มีที่อยู่ของคุณ";
+"onfido_poa_photo_library" = "คลังรูปภาพ";
+"onfido_poa_files" = "ไฟล์";
+"onfido_poa_cancel" = "ยกเลิก";
+"onfido_poa_err_invalid_file_title" = "ไฟล์ไม่ถูกต้อง";
+"onfido_poa_err_invalid_file_message" = "โปรดเลือกไฟล์อื่น";
+"onfido_poa_err_invalid_file_ok" = "ตกลง";
+"onfido_poa_guidance_instructions_logo" = "โลโก้";
+"onfido_poa_guidance_instructions_full_name" = "ชื่อ";
+"onfido_poa_guidance_instructions_address" = "ที่อยู่ปัจจุบัน";
+"onfido_poa_guidance_instructions_issue_date" = "วันที่ออกเอกสารหรืองวดบิล";
+"onfido_doc_select_subtitle_poa" = "เอกสารเหล่านี้น่าจะแสดงที่อยู่ปัจจุบันของคุณ";
+"onfido_doc_select_button_bill" = "ใบแจ้งหนี้ค่าสาธารณูปโภค";
+"onfido_doc_select_extra_estatements_ok" = "จะใช้เอกสารอิเล็กทรอนิกส์ก็ได้";
+"onfido_doc_select_button_bill_detail" = "แก๊ซ ไฟฟ้า ประปา โทรศัพท์บ้าน หรือบรอดแบนด์";
+"onfido_doc_select_extra_no_mobile" = "ขออภัยที่ใช้ใบเรียกเก็บเงินโทรศัพท์มือถือไม่ได้";
+"onfido_poa_guidance_subtitle_bill" = "ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา";
+"onfido_doc_select_button_bank_statement" = "รายการเดินบัญชีของธนาคารหรือสหกรณ์ออมทรัพย์เพื่อการเคหะ";
+"onfido_poa_guidance_subtitle_bank_statement" = "ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา";
+"onfido_doc_select_button_tax_letter" = "หนังสือภาษีที่อยู่อาศัย";
+"onfido_poa_guidance_subtitle_tax_letter" = "ต้องออกเอกสารภายใน 12 เดือนที่ผ่านมา";
+"onfido_doc_select_button_benefits_letter" = "หนังสือยืนยันการรับสวัสดิการ";
+"onfido_doc_select_button_benefits_letter_detail" = "สวัสดิการเพื่อการอยู่อาศัยที่ได้รับจากรัฐบาล เช่น เงินทดแทนระหว่างการว่างงาน สวัสดิการค่าที่อยู่อาศัย เครดิตภาษี";
+"onfido_poa_guidance_subtitle_benefits_letter" = "ต้องออกเอกสารภายใน 12 เดือนที่ผ่านมา";
+"onfido_poa_guidance_button_primary" = "ดำเนินการต่อ";
+"onfido_livenessV2_intro_subtitle" = "ขั้นตอนนี้มีเพื่อยืนยันว่าคุณเป็นบุคคลตามที่กล่าวอ้างจริงๆ";
+"onfido_livenessV2_intro_note_no1" = "อันดับแรก วางตำแหน่งใบหน้าของคุณไว้ในกรอบ";
+"onfido_livenessV2_intro_note_no2" = "จากนั้นค่อยๆ หันศีรษะไปทั้ง 2 ข้าง";
+"onfido_livenessV2_intro_warning" = "โปรดทราบว่าเราจะบันทึกใบหน้าและพื้นหลังของคุณ";
+"onfido_livenessV2_intro_ready_button" = "โปรดทราบว่าเราจะบันทึกใบหน้าและพื้นหลังของคุณ";
+"onfido_livenessV2_success_title" = "เพียงเท่านี้เราก็จะเริ่มยืนยันตัวตนของคุณได้";
+"onfido_livenessV2_success_main_button" = "ส่งการยืนยัน";
+"onfido_livenessV2_error_reload_instructions" = "โหลดคำแนะนำอีกครั้ง";
+"onfido_avc_intro_title" = "บันทึกวิดีโอ";
+"onfido_avc_intro_subtitle" = "ขั้นตอนนี้มีเพื่อยืนยันว่าคุณเป็นบุคคลตามที่กล่าวอ้างจริงๆ";
+"onfido_avc_intro_list_item_one" = "อันดับแรก วางตำแหน่งใบหน้าของคุณไว้ในกรอบ";
+"onfido_avc_intro_list_item_two" = "จากนั้นค่อยๆ หันศีรษะไปทั้ง 2 ข้าง";
+"onfido_avc_intro_disclaimer" = "โปรดทราบว่าเราจะบันทึกใบหน้าและพื้นหลังของคุณ";
+"onfido_avc_intro_button_primary_ready" = "เริ่มบันทึก";
+"onfido_avc_face_alignment_title" = "วางตำแหน่งใบหน้าของคุณไว้ในกรอบ";
+"onfido_avc_face_alignment_feedback_move_closer" = "ขยับเข้ามาใกล้ๆ";
+"onfido_avc_face_alignment_feedback_move_back" = "ถอยออกไปเล็กน้อย";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "ไม่พบใบหน้า";
+"onfido_avc_face_capture_title" = "ค่อยๆ หันศีรษะไปทั้ง 2 ข้าง";
+"onfido_avc_face_capture_title_completed" = "บันทึกเสร็จสมบูรณ์";
+"onfido_avc_face_capture_alert_timeout_title" = "ขออภัย เราต้องเริ่มบันทึกใหม่";
+"onfido_avc_face_capture_alert_timeout_body" = "คุณมีเวลาไม่เกิน 15 วินาทีในการบันทึกให้เสร็จ";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "ลองอีกครั้ง";
+"onfido_avc_face_capture_alert_too_fast_title" = "คุณหันศีรษะเร็วเกินไป";
+"onfido_avc_face_capture_alert_too_fast_body" = "โปรดลองอีกครั้ง และหันศีรษะของคุณให้ช้าลง";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "ลองอีกครั้ง";
+"onfido_avc_no_face_detected_title" = "เราตรวจหาใบหน้าของคุณไม่พบ";
+"onfido_avc_no_face_detected_list_item_lighting" = "เช็คให้แน่ใจว่าอยู่ในที่ที่มีแสงสว่างเพียงพอ";
+"onfido_avc_no_face_detected_list_item_eyes" = "เช็คให้แน่ใจว่าสามารถมองเห็นดวงตาของคุณในภาพ";
+"onfido_avc_no_face_detected_list_item_mask" = "เช็คให้แน่ใจว่าถอดหน้ากากหรือสิ่งของอื่นๆ ที่คลุมใบหน้าของคุณอยู่ แต่สวมแว่นสายตาได้";
+"onfido_avc_no_face_detected_list_item_face" = "เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นบัตรประจำตัว";
+"onfido_avc_no_face_detected_button_primary_restart" = "รีสตาร์ทการบันทึก";
+"onfido_avc_confirmation_title" = "บันทึกเสร็จสมบูรณ์";
+"onfido_avc_confirmation_subtitle" = "บันทึกวิดีโอใบหน้าของคุณเรียบร้อยแล้ว";
+"onfido_avc_confirmation_button_primary_upload" = "อัปโหลดบันทึก";
+"onfido_avc_connection_error_title" = "เกิดข้อผิดพลาดในการเชื่อมต่อ";
+"onfido_avc_connection_error_subtitle" = "เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง";
+"onfido_avc_connection_error_button_primary_reload" = "โหลดคำแนะนำอีกครั้ง";
+"onfido_avc_face_alignment_feedback_not_centered" = "ใบหน้าไม่อยู่ตรงกลาง";
+"onfido_avc_connection_error_button_primary_retry_upload" = "ลองอัปโหลดอีกครั้ง";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "รีสตาร์ทการบันทึก";
+"onfido_generic_errors_geoblocked_error_message" = "บริการไม่พร้อมใช้";
+"onfido_doc_select_subtitle_country" = "เลือกประเทศที่ออกเอกสาร เพื่อดูว่าเรารับเอกสารใดบ้าง";
+"onfido_doc_select_section_header_country" = "ประเทศที่ออกเอกสาร";
+"onfido_doc_select_section_header_doc_type" = "เอกสารที่ยอมรับ";
+"onfido_doc_select_section_input_placeholder_country" = "เลือกประเทศที่ออกเอกสาร";
+"onfido_doc_select_subtitle_entire_page" = "ทั้งหน้า";
+"onfido_doc_select_subtitle_photo_page" = "หน้ารูปภาพ";
+"onfido_doc_select_subtitle_front_back" = "ด้านหน้าและด้านหลัง";
+"onfido_doc_select_section_input_country_not_found" = "ไม่มีผลลัพธ์";
+"onfido_generic_errors_geoblocked_error_instruction" = "ขออภัย ดูเหมือนว่าเราดำเนินการต่อไม่ได้ เนื่องจากระบบไม่รองรับตำแหน่งปัจจุบันของคุณ";
+"onfido_welcome_list_item_doc" = "เอกสารยืนยันตัวตนของคุณ";
+"onfido_welcome_list_header_photo" = "ใช้อุปกรณ์ของคุณถ่ายภาพ:";
+"onfido_welcome_list_header_record" = "ใช้อุปกรณ์ของคุณถ่ายภาพหรือบันทึก:";
+"onfido_welcome_list_item_selfie" = "ใบหน้าของคุณ";
+"onfido_welcome_list_item_video" = "วิดีโอของตัวคุณเอง";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "ดูจากกล้อง วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "ดูจากกล้อง วางปกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_welcome_list_item_face_generic" = "สแกนใบหน้าของคุณ";
+"onfido_permission_recovery_subtitle_cam" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "วางโทรศัพท์ไว้ใกล้ๆ ส่วนกลางของหนังสือเดินทาง";
+"onfido_avc_intro_title_accessibility" = "บันทึกวิดีโอใบหน้าของคุณ";
+"onfido_avc_intro_video_accessibility" = "ตัวอย่างวิดีโอแสดงคนที่หันศีรษะไปทั้ง 2 ข้างจนเสร็จสิ้น";
+"onfido_avc_face_capture_frame_accessibility" = "ดูจากกล้องหน้า";
+"onfido_avc_face_capture_title_accessibility" = "ค่อยๆ หันศีรษะไปทั้ง 2 ข้าง เมื่อถ่ายด้านหนึ่งเสร็จ คุณจะได้ยินเสียงยืนยันและโทรศัพท์จะสั่น";
+"onfido_avc_face_capture_recording_started_accessibility" = "เริ่มบันทึกแล้ว";
+"onfido_avc_face_capture_keep_turning_accessibility" = "หันศีรษะของคุณไปเรื่อยๆ";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "ด้านซ้ายเสร็จแล้ว";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "ด้านขวาเสร็จแล้ว";
+"onfido_avc_face_alignment_title_accessibility" = "มองตรงไปที่ด้านหน้าอุปกรณ์";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "ไม่พบใบหน้า มองตรงไปที่ด้านหน้าอุปกรณ์";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "จัดตำแหน่งใบหน้าแล้ว";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "เลื่อนอุปกรณ์ของคุณมาใกล้ๆ";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "เลื่อนอุปกรณ์ของคุณออก";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "เลื่อนอุปกรณ์ของคุณไปทางซ้าย";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "เลื่อนอุปกรณ์ของคุณไปทางขวา";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "เลื่อนอุปกรณ์ของคุณขึ้น";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "เลื่อนอุปกรณ์ของคุณลง";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "หันศีรษะไปอีกด้าน";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "เช็ควิดีโอของคุณ";
+"onfido_generic_back" = "ย้อนกลับ";
+"onfido_nfc_sheet_ready_subtitle" = "พร้อมสแกน";
+"onfido_nfc_sheet_scanning_instruction" = "ถือโทรศัพท์ไว้นิ่งๆ";
+"onfido_nfc_sheet_success_subtitle" = "สแกนสำเร็จ";
+"onfido_nfc_sheet_success_instruction_passport" = "เราสแกนหนังสือเดินทางของคุณเรียบร้อยแล้ว";
+"onfido_outro_body" = "เพียงเท่านี้เราก็จะเริ่มยืนยันตัวตนของคุณได้";
+"onfido_permission_recovery_title_cam" = "การเข้าถึงกล้องถูกปฏิเสธ";
+"onfido_permission_recovery_list_item_how_to_cam" = "คุณกู้คืนสิทธิ์การเข้าถึงกล้องได้ทางการตั้งค่าอุปกรณ์ของคุณ";
+"onfido_permission_recovery_list_item_action_cam" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงกล้องสำหรับแอปนี้";
+"onfido_permission_recovery_title_mic" = "การเข้าถึงไมโครโฟนถูกปฏิเสธ";
+"onfido_permission_recovery_subtitle_mic" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่มีไมโครโฟน";
+"onfido_permission_recovery_list_item_how_to_mic" = "คุณกู้คืนสิทธิ์การเข้าถึงไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ";
+"onfido_permission_recovery_list_item_action_mic" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงไมโครโฟนสำหรับแอปนี้";
+"onfido_permission_recovery_title_both" = "การเข้าถึงกล้องและไมโครโฟนถูกปฏิเสธ";
+"onfido_permission_recovery_subtitle_both" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่มีกล้องและไมโครโฟน";
+"onfido_permission_recovery_list_item_how_to_both" = "คุณกู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ";
+"onfido_permission_recovery_list_item_action_both" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงทั้งกล้องและไมโครโฟนสำหรับแอปนี้";
+"onfido_permission_recovery_button_primary" = "เปิดใช้งานในการตั้งค่า";
+"onfido_generic_error_network_title" = "การเชื่อมต่อขาด";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "ดูจากกล้อง วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ อุปกรณ์ของคุณจะสั่นเมื่อจับภาพแล้ว";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ อุปกรณ์ของคุณจะสั่นเมื่อจับภาพแล้ว";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "ดูจากกล้อง วางด้านหลังเอกสารให้อยู่ในกรอบ";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_button_primary" = "เริ่มสแกนเอกสาร";
+"onfido_selfie_capture_button_primary" = "เริ่มสแกนใบหน้า";
+"onfido_nfc_sheet_success_instruction_card" = "เราสแกนบัตรของคุณเรียบร้อยแล้ว";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "ถือโทรศัพท์ไว้นิ่งๆ";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "ขาดการติดต่อกับบัตร";
+"onfido_doc_capture_header_scanning" = "กำลังสแกนเอกสาร…";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "ขาดการติดต่อกับหนังสือเดินทาง";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "เลื่อนโทรศัพท์ขึ้นหรือลงเล็กน้อย";
+"onfido_doc_select_button_bank_statement_non_uk" = "รายการเดินบัญชีธนาคาร";
+"onfido_retry_feedback_id_expired_title" = "เอกสารของคุณหมดอายุแล้ว";
+"onfido_retry_feedback_id_unaccepted_title" = "เอกสารที่ไม่ยอมรับ";
+"onfido_retry_feedback_id_generic_title" = "เอกสารของคุณมีปัญหา";
+"onfido_retry_feedback_selfie_generic_title" = "รูปเซลฟี่ของคุณมีปัญหา";
+"onfido_retry_feedback_id_expired_subtitle" = "โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน";
+"onfido_retry_feedback_id_generic_subtitle" = "โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน";
+"onfido_retry_feedback_selfie_generic_subtitle" = "โปรดลองอีกครั้ง และเช็คให้แน่ใจว่ามองเห็นใบหน้าของคุณได้ชัดเจนและมีแสงสว่างเพียงพอ";
+"onfido_retry_feedback_button_primary" = "ลองอีกครั้ง";
+"onfido_workflow_complete_pass_title" = "ผ่าน";
+"onfido_workflow_complete_reject_description" = "เราไม่สามารถยืนยันตัวตนของคุณได้";
+"onfido_workflow_complete_reject_title" = "ปฏิเสธ";
+"onfido_workflow_complete_pass_description" = "เรายืนยันตัวตนของคุณแล้ว";
+"onfido_workflow_erros_task_not_supported" = "ปัจจุบันเรายังไม่รองรับงานนี้";
+"onfido_workflow_erros_task_not_completed" = "ดำเนินการตามเวิร์กโฟลว์ให้เสร็จสมบูรณ์ไม่ได้";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "เรียกดูงานในเวิร์กโฟลว์ไม่ได้";
+"onfido_workflow_erros_no_workflow_run_id" = "ไม่ได้ตั้งค่าการเรียกใช้ ID ในเวิร์กโฟลว์";
+"onfido_workflow_erros_generic_title" = "เกิดข้อผิดพลาดกับเซิร์ฟเวอร์";
+"onfido_workflow_erros_reload_app" = "โปรดลองโหลดแอปอีกครั้งแล้วลองใหม่";
+"onfido_welcome_start_workflow_button" = "เริ่มการยืนยันตัวตน";
+"onfido_avc_intro_list_item_one_accessibility" = "อันดับแรก คุณต้องจัดวางใบหน้าไว้ที่ด้านหน้าของอุปกรณ์ของคุณ";
+"onfido_avc_intro_list_item_two_accessibility" = "แล้วก็หันศีรษะไปทั้ง 2 ข้างช้าๆ";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "จัดตำแหน่งใบหน้าไม่ถูกต้อง";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นเอกสารประจำตัว";
+"onfido_selfie_intro_list_item_no_face_cover" = "ถอดสิ่งที่คลุมหน้าออกไป แต่สวมแว่นสายตาได้";
+"onfido_selfie_intro_banner_nudity_message" = "ใบหน้าและพื้นหลังของคุณจะถูกบันทึกไว้ในขั้นตอนนี้";
+"onfido_video_capture_prompt_header_microphone" = "แอปอื่นกำลังใช้ไมโครโฟนของคุณ";
+"onfido_video_capture_prompt_detail_microphone" = "เราต้องใช้ไมโครโฟนเพื่อยืนยันตัวตนของคุณ โปรดเช็คให้แน่ใจว่าวางสายโทรศัพท์แล้ว";
+"onfido_video_capture_prompt_header_audio" = "รีสตาร์ทการบันทึก";
+"onfido_video_capture_prompt_detail_audio" = "คุณต้องไม่เล่นเสียงใดๆ ในพื้นหลัง จึงจะผ่านขั้นตอนนี้ โปรดเช็คให้แน่ใจว่าวางสายโทรศัพท์แล้ว";
+"onfido_video_intro_error_network_accessibility" = "โหลดวิดีโอตัวอย่างไม่ได้ เนื่องจากเครือข่ายไม่เสถียร";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "โหลดวิดีโอตัวอย่างอีกครั้ง";
+"onfido_doc_select_button_address_card" = "บัตรที่อยู่";
+"onfido_doc_select_button_address_card_detail" = "รับทั้งบัตรชั่วคราวและบัตรถาวร";
+"onfido_poa_guidance_subtitle_address_card" = "ต้องเป็นบัตรที่อยู่ที่ถูกต้อง";
+"onfido_poa_guidance_instructions_full_address" = "ที่อยู่เต็ม";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "วันที่ออก";
+"onfido_poa_guidance_instructions_expiry_date" = "วันหมดอายุ (ถ้ามี)";
+
+"onfido_welcome_start_workflow_button_trial" = "เริ่มยืนยันตัวตน (ทดลอง)";
+"onfido_enter_can_title" = "กรอก CAN";
+"onfido_enter_can_subtitle" = "โปรดเช็คให้แน่ใจว่าหมายเลขที่กรอกตรงกับหมายเลขบนเอกสาร";
+"onfido_enter_can_disclaimer" = "ดูได้ที่ด้านหน้าเอกสารของคุณ โดยจะเป็นหมายเลข %d หลักที่มีขนาดใหญ่กว่าเล็กน้อย";
+"onfido_enter_can_button_primary" = "ดำเนินการต่อ";
+"onfido_nfc_scan_error_title" = "เราสแกนเอกสารของคุณไม่ได้";
+"onfido_nfc_scan_error_list_item" = "ถอดเคสโทรศัพท์ออก";
+"onfido_nfc_scan_error_list_item_2" = "ให้อยู่นิ่งๆ เมื่อเริ่มสแกน";
+"onfido_nfc_scan_error_button_primary" = "ลองสแกนอีกครั้ง";
+"onfido_welcome_nfc_title" = "ยืนยันตัวตน";
+"onfido_welcome_nfc_subtitle" = "น่าจะใช้เวลาสักครู่";
+"onfido_welcome_nfc_list_header_nfc" = "ใช้อุปกรณ์ของคุณ:";
+"onfido_welcome_nfc_list_item" = "ถ่ายรูปเอกสารยืนยันตัวตนของคุณ";
+"onfido_welcome_nfc_list_item_2" = "สแกนเอกสารของคุณ";
+"onfido_welcome_nfc_button_primary" = "ถ่ายรูปเอกสารของคุณ";
+"onfido_intro_scan_title" = "สแกนเอกสารของคุณ";
+"onfido_intro_scan_subtitle" = "ทำตามคำแนะนำด้านล่าง";
+"onfido_intro_scan_list_item" = "วางบัตรไว้ที่ด้านหลังอุปกรณ์";
+"onfido_intro_scan_list_item_3" = "ให้อยู่นิ่งๆ เมื่อเริ่มสแกน";
+"onfido_intro_scan_button_primary" = "เริ่มสแกน";
+"onfido_nfc_scan_sheet" = "เลื่อนเอกสารขึ้นและลงช้าๆ";
+"onfido_nfc_scan_scanning_sheet_1" = "กำลังสแกน\nถืออุปกรณ์และวางเอกสารของคุณให้อยู่นิ่งๆ";
+"onfido_nfc_scan_can-required_sheet_2" = "ต้องระบุ CAN";
+"onfido_nfc_scan_lost-contact_sheet_3" = "ขาดการติดต่อกับบัตร NFC\nเลื่อนอุปกรณ์ของคุณขึ้นหรือลงเล็กน้อย";
+"onfido_nfc_scan_lost-connection_sheet_4" = "การเชื่อมต่อสูญหาย\nเราสแกนเอกสารของคุณไม่ได้";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "CAN ไม่ถูกต้อง";
+"onfido_enter_can_error_label" = "คุณลองได้อีก %d %@";
+"onfido_enter_can_substring_attempt_singular" = "ครั้ง";
+"onfido_enter_can_substring_attempt_plural" = "ครั้ง";
+"onfido_nfc_scan_error_button_secondary" = "รับการตรวจสอบโดยไม่มี NFC";
+"onfido_intro_scan_animation_ios" = "วางเอกสารของคุณไว้ที่ด้านหลังด้านบนของอุปกรณ์ เมื่อการสแกนเริ่มขึ้นให้พวกเขาอยู่นิ่งๆ";
+"onfido_nfc_scan_sheet_success" = "การสแกนสำเร็จ";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "ใบหน้า พื้นหลัง และเสียงของคุณจะถูกบันทึกในระหว่างขั้นตอนนี้";
+"onfido_welcome_list_header_doc_video" = "ใช้อุปกรณ์ของคุณเพื่อบันทึก:";
+"onfido_welcome_list_item_doc_video_flash" = "เราจะเปิดแฟลชอุปกรณ์ของคุณระหว่างบันทึกวิดีโอ";
+"onfido_welcome_list_item_doc_video_timeout" = "บันทึกได้ไม่เกิน %d วินาที";
+"onfido_doc_video_capture_header" = "ถือเอกสารของคุณโดยให้ด้านหน้าอยู่ในกรอบ";
+"onfido_doc_video_capture_header_step1" = "ตอนนี้ก็อยู่นิ่งๆ";
+"onfido_doc_video_capture_header_step2" = "ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงด้านหลัง";
+"onfido_doc_video_capture_detail_step2" = "ให้เอกสารอยู่ในมุมที่เห็นได้ทั้งหมดตลอดเวลา";
+"onfido_doc_video_confirmation_button_secondary_preview" = "ดูตัวอย่างวิดีโอ";
+"onfido_doc_video_capture_button_primary_fallback" = "ขั้นตอนถัดไป";
+"onfido_doc_video_capture_button_primary_fallback_end" = "ยุติการบันทึก";
+"onfido_doc_video_capture_header_passport" = "ถือหนังสือเดินทางโดยให้หน้ารูปถ่ายอยู่ในกรอบ";
+"onfido_doc_video_capture_header_passport_progress" = "อยู่นิ่งๆ";
+"onfido_doc_video_capture_header_paper_doc_step2" = "ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงหน้าด้านนอก";
+"onfido_outro_title" = "ขอบคุณ";
+"onfido_doc_video_capture_stepper" = "ขั้นตอนที่ %d จาก %d";
+"onfido_doc_video_capture_prompt_detail_timeout" = "บันทึกวิดีโอได้ไม่เกิน %d วินาที";
+"onfido_doc_video_capture_alert_wrong_side" = "เช็คให้แน่ใจว่าคุณแสดงด้านหลังของเอกสาร";
+"onfido_doc_video_capture_success_accessibility" = "สำเร็จ";
+"onfido_doc_video_capture_prompt_header_timeout" = "ดูเหมือนว่าคุณใช้เวลานานเกินไป";
+"onfido_doc_video_capture_prompt_button_timeout" = "ลองอีกครั้ง";
+"onfido_app_title_doc_video_confirmation" = "ยืนยันตัวตน";
+"onfido_doc_video_confirmation_button_primary" = "ส่งวิดีโอ";
+"onfido_doc_video_confirmation_title" = "ขอบคุณ";
+"onfido_doc_video_confirmation_body" = "บันทึกวิดีโอของคุณแล้ว";
+"onfido_doc_video_capture_button_primary_start" = "เริ่มบันทึก";
+"onfido_doc_video_confirmation_button_secondary_retake" = "ถ่ายวิดีโออีกครั้ง";
+"onfido_doc_video_capture_header_folded_doc_front" = "ด้านรูปโปรไฟล์";
+"onfido_welcome_list_item_doc_video" = "บันทึกวิดีโอเอกสารยืนยันตัวตนของคุณ";
+"onfido_welcome_info_original_document" = "ถ่ายภาพเอกสารต้นฉบับของคุณ ไม่อนุญาตให้สแกน ภาพถ่ายหน้าจอ หรือถ่ายเอกสาร";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "แอปอื่นกำลังใช้ไมโครโฟนอยู่";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "โปรดวางสายหรือหยุดกิจกรรมที่ใช้ไมโครโฟนขณะกำลังบันทึกเสียง";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "ลองอีกครั้ง";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "ลองอีกครั้ง";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "แอปอื่นกำลังเล่นเสียงอยู่";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "โปรดอย่าเล่นเสียงบนอุปกรณ์ขณะกำลังบันทึกเสียง";
+
+"onfido_nfc_scan_welcome_card_title" = "ยืนยันได้เร็วขึ้นด้วย NFC";
+"onfido_nfc_scan_welcome_card_subtitle" = "เราจะสแกนชิป NFC ของเอกสารของคุณ";
+"onfido_nfc_scan_welcome_card_list_item" = "วางเอกสารของคุณที่ด้านหลังอุปกรณ์ของคุณ";
+"onfido_nfc_scan_welcome_card_list_item_2" = "เลื่อนอุปกรณ์ของคุณขึ้นและลงช้าๆ";
+"onfido_nfc_scan_welcome_card_list_item_3" = "เมื่อการสแกนเริ่มขึ้น ให้กดค้างไว้";
+"onfido_nfc_scan_welcome_card_button_primary" = "เริ่มสแกน";
+"onfido_nfc_scan_welcome_card_secondary_button" = "รับการตรวจสอบโดยไม่มี NFC";
+
+"onfido_nfc_scan_error_inter_title" = "เราสแกนเอกสารของคุณไม่ได้";
+"onfido_nfc_scan_error_inter_list_item" = "ถอดเคสโทรศัพท์ออก";
+"onfido_nfc_scan_error_inter_list_item_2" = "ให้อุปกรณ์และเอกสารของคุณติดต่อกันจนกว่าการสแกนจะสำเร็จ";
+"onfido_nfc_scan_error_inter_primary_button" = "ลองสแกนอีกครั้ง";
+"onfido_nfc_scan_error_inter_secondary_button" = "รับการตรวจสอบโดยไม่มี NFC";
+
+"onfido_nfc_scan_error_final_title" = "เราไม่สามารถยืนยันเอกสารนี้ได้";
+"onfido_nfc_scan_error_final_subtitle" = "จำเป็นต้องมีการสแกน NFC สำหรับเอกสารนี้ แต่ไม่สามารถทำได้";
+"onfido_nfc_scan_error_final_list_item" = "คุณมีเอกสารอื่นที่จะดำเนินการต่อหรือไม่?";
+"onfido_nfc_scan_error_final_primary_button" = "ใช้เอกสารอื่น";
+"onfido_nfc_scan_error_final_secondary_button" = "รับการตรวจสอบโดยไม่มี NFC";
+
+"onfido_nfc_scan_welcome_passport_title" = "ยืนยันได้เร็วขึ้นด้วย NFC";
+"onfido_nfc_scan_welcome_passport_subtitle" = "เราจะสแกนชิป NFC ของเอกสารของคุณ";
+"onfido_nfc_scan_welcome_passport_list_item" = "วางเอกสารของคุณบนพื้นผิวเรียบ";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "เปิดเอกสารของคุณที่หน้าหลังด้านใน";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "วางเอกสารของคุณที่ด้านหลังอุปกรณ์ของคุณ";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "เลื่อนอุปกรณ์ของคุณขึ้นและลงช้าๆ";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "เมื่อการสแกนเริ่มขึ้น ให้กดค้างไว้";
+"onfido_nfc_scan_welcome_passport_button_primary" = "เริ่มสแกน";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "รับการตรวจสอบโดยไม่มี NFC";
+
+"onfido_nfc_scan_error_inter_passport_title" = "เราสแกนเอกสารของคุณไม่ได้";
+"onfido_nfc_scan_error_inter_passport_list_item" = "ถอดซองหนังสือเดินทางและเคสโทรศัพท์ออก";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "ให้อุปกรณ์และเอกสารของคุณติดต่อกันจนกว่าการสแกนจะสำเร็จ";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "ลองสแกนอีกครั้ง";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "รับการตรวจสอบโดยไม่มี NFC";
+
+"onfido_doc_capture_alert_too_close_title" = "ถอยออกไปเล็กน้อย";
+"onfido_doc_capture_alert_rotated_title" = "หมุนเอกสารของคุณ";
+"onfido_doc_capture_alert_too_far_title" = "ขยับเข้ามาใกล้ๆ";
+"onfido_doc_capture_alert_wrong_side_front_title" = "พลิกไปด้านหน้า";
+"onfido_doc_capture_alert_wrong_side_back_title" = "พลิกไปด้านหลัง";
+"onfido_doc_capture_alert_hold_still_title" = "ถือนิ่ง";

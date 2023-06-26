@@ -1,0 +1,662 @@
+"onfido_doc_capture_button_accessibility" = "Exponáló gomb";
+"onfido_selfie_capture_button_accessibility" = "Exponáló gomb";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Kamera képe";
+"onfido_selfie_capture_frame_accessibility" = "Szelfikamera képe. Tartsa az arcát az ovális kereten belül, majd érintse meg az exponáló gombot";
+"onfido_video_capture_frame_accessibility" = "Kamera képe. A felvétel megkezdéséhez tartsa az arcát az ovális kereten belül.";
+"onfido_selfie_confirmation_image_accessibility" = "Arckép";
+"onfido_video_capture_frame_success_accessibility" = "Arc érzékelve. A felvétel elindult.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Példavideó szelfivideó készítéséről. Szelfi-videófelvétel készítéséhez nézzen az elülső kamerába, és tartsa kissé távol a telefont az arcától. Ezután ki kell mondania néhány számot, majd elfordítania a fejét a képernyőn megjelenő utasításoknak megfelelően.";
+"onfido_video_intro_button_pause_accessibility" = "Videó szüneteltetése";
+"onfido_video_intro_button_play_accessibility" = "Videó lejátszása";
+"onfido_country_select_list_header_all" = "Összes ország";
+"onfido_doc_capture_alert_manual_capture_detail" = "Igazítsa el a dokumentumot, majd nyomja meg a gombot";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Próbáljon manuálisan készíteni képet";
+"onfido_doc_capture_alert_no_barcode_detail" = "Tartózkodjon jól megvilágított helyen, és tartsa közelebb a kártyát a fényképezőgéphez";
+"onfido_doc_capture_alert_no_barcode_title" = "Vonalkód nem észlelhető";
+"onfido_doc_confirmation_alert_blur_detail" = "Győződjön meg róla, hogy minden jól látható";
+"onfido_doc_confirmation_alert_blur_title" = "Homályos a fénykép";
+"onfido_selfie_intro_list_item_face_forward" = "Nézzen előre, és ügyeljen, hogy mindkét szeme tisztán látszódjon";
+"onfido_selfie_intro_list_item_no_glasses" = "Ha szükséges, vegye le a szemüvegét";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "Összehasonlítjuk ezt a dokumentumán szereplő képpel";
+"onfido_selfie_intro_title" = "Készítsen egy szelfit";
+"onfido_selfie_intro_button_primary" = "Készítsen egy szelfit";
+"onfido_country_select_bottom_sheet_link_close" = "Bezár";
+"onfido_doc_confirmation_button_primary_license" = "Küldje el a fényképet";
+"onfido_doc_confirmation_button_primary_generic" = "Küldje el a fényképet";
+"onfido_doc_confirmation_button_primary_id" = "Küldje el a fényképet";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "Töltse fel a fotót";
+"onfido_doc_confirmation_button_secondary" = "Készítse el a fényképet újra";
+"onfido_doc_confirmation_button_primary_passport" = "Küldje el a fényképet";
+"onfido_doc_confirmation_button_primary_permit" = "Küldje el a fényképet";
+"onfido_doc_confirmation_button_primary_visa" = "Küldje el a fényképet";
+"onfido_selfie_confirmation_button_secondary" = "Készítse el a fényképet újra";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Mindkettő engedélyezése";
+"onfido_permission_button_primary_cam" = "Kamera engedélyezése";
+"onfido_permission_button_primary_mic" = "Mikrofon engedélyezése";
+"onfido_permission_body_both" = "A fényképezőgép és a mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát";
+"onfido_permission_body_cam" = "A kamera nélkül nem tudjuk igazolni a személyazonosságát";
+"onfido_permission_body_mic" = "A mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát";
+"onfido_permission_subtitle_both" = "Ha a rendszer kéri, a folytatáshoz engedélyeznie kell a hozzáférést mindkettőhöz";
+"onfido_permission_subtitle_cam" = "Ha a rendszer kéri, a folytatáshoz engedélyeznie kell a kamerához való hozzáférést";
+"onfido_permission_subtitle_mic" = "Ha a rendszer kéri, a folytatáshoz engedélyeznie kell a mikrofonhoz való hozzáférést";
+/* Device permission */
+"onfido_permission_title_both" = "Kamera- és mikrofon-hozzáférés engedélyezése";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Kamerához való hozzáférés engedélyezése";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Mikrofon-hozzáférés engedélyezése";
+"onfido_doc_select_subtitle" = "Hivatalos fényképes igazolványnak kell lennie";
+/* Document type selection */
+"onfido_doc_select_title" = "Válassza ki a dokumentumot";
+"onfido_doc_capture_prompt_title_license" = "Milyen típusú jogosítványa van?";
+"onfido_doc_select_button_passport" = "Útlevél";
+"onfido_doc_select_button_license" = "Vezetői engedély";
+"onfido_doc_select_button_id" = "Személyazonosító igazolvány";
+"onfido_doc_select_button_permit" = "Tartózkodási engedély";
+"onfido_generic_error_network_detail" = "Hálózati hiba történt. Kérjük, ellenőrizze az internetkapcsolatot.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "A kapcsolat megszakadt";
+"onfido_doc_capture_alert_no_face_detail" = "Ügyeljen arra, hogy az arca látható legyen";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Fektesse a dokumentumot síkba, hogy a fényképet tartalmazó belső oldalak láthatóak legyenek";
+"onfido_doc_capture_alert_no_face_title" = "Arc nem észlelhető";
+"onfido_video_capture_button_primary_finish" = "Felvétel befejezése";
+"onfido_welcome_button_primary_doc" = "Dokumentum kiválasztása";
+"onfido_doc_capture_detail_folded_doc_back" = "Fektesse a dokumentumot sík felületre, és mutassa mindegyik külső oldalt";
+"onfido_doc_capture_header_folded_doc_back" = "Illessze a dokumentum külső oldalait a keretbe";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Győződjön meg róla, hogy a dokumentuma teljesen ki van hajtva, és a fénykép éles";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Fektesse a dokumentumot sík felületre, és mutassa az összes belső oldalt (a fényképes oldalt is beleértve)";
+"onfido_doc_capture_prompt_button_paper" = "Papíralapú dokumentum";
+"onfido_app_title_doc_capture_license_fr" = "Francia jogosítvány";
+"onfido_app_title_doc_capture_license_de" = "Német vezetői engedély";
+"onfido_doc_capture_alert_glare_detail" = "Kerülje el a közvetlen fényt";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Tükröződés észlelhető";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "Olasz személyi igazolvány";
+"onfido_app_title_doc_capture_id_za" = "Dél-afrikai személyazonosító igazolvány";
+"onfido_doc_select_button_generic" = "Dokumentum";
+/* Document Types */
+"onfido_doc_select_button_visa" = "Vízum";
+"onfido_doc_select_button_permit_work" = "Munkavállalási engedély";
+"onfido_video_capture_header_challenge_digit_instructions" = "Mondja ki hangosan az egyes számjegyeket";
+"onfido_video_capture_header_challenge_turn_forward" = "majd nézzen előre";
+"onfido_video_capture_header_challenge_turn_left" = "Fordítsa a fejét balra";
+"onfido_video_capture_header_challenge_turn_right" = "Fordítsa a fejét jobbra";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Utasítások újratöltése";
+"onfido_video_capture_prompt_network_timeout_detail" = "Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra";
+"onfido_video_capture_prompt_network_timeout_title" = "Kapcsolati időkorlát";
+"onfido_video_intro_loader" = "Példa betöltése";
+"onfido_video_intro_list_item_time_limit" = "A befejezéshez %d másodperc áll rendelkezésére";
+"onfido_video_intro_list_item_move_speak" = "Kövesse a mozgásra és beszédre vonatkozó utasításokat";
+/* Liveness */
+"onfido_video_intro_subtitle" = "A biztonsága érdekében szükségünk van egy élő felvételre";
+/* Liveness intro */
+"onfido_video_intro_title" = "Készítsen videófelvételt";
+"onfido_video_intro_button_primary" = "Készítsen videófelvételt";
+"onfido_video_capture_prompt_detail_timeout" = "Ne felejtse el megnyomni a gombot, ha végzett.";
+"onfido_video_capture_prompt_header_timeout" = "Úgy tűnik, túllépte az időkorlátot";
+"onfido_video_capture_prompt_header_restart" = "Indítsa újra a felvételt";
+"onfido_video_capture_prompt_detail_restart" = "Ennek a lépésnek az elvégzéséhez a felvétel alatt az arcának végig láthatónak kell lennie.";
+"onfido_video_capture_prompt_button_restart" = "Újraindítás";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Tartsa az arcát az ovális kereten belül";
+"onfido_video_capture_body" = "A rögzítés megkezdéséhez tartsa az arcát az ovális kereten belül";
+"onfido_doc_confirmation_body_license" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+"onfido_doc_confirmation_body_generic" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+"onfido_doc_confirmation_body_id" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+"onfido_doc_confirmation_body_permit" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+"onfido_doc_confirmation_body_visa" = "Gondoskodjon arról, hogy az adatai világosan és egyértelműen olvashatók legyenek";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Ügyeljen arra, hogy arca teljes egészében látható legyen";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "A dokumentum fényképes oldalát illessze a keretbe";
+"onfido_doc_capture_header_visa" = "A dokumentum vízumoldalát illessze a keretbe";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Betöltés";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "A dokumentum fényképes oldalát illessze a keretbe";
+"onfido_doc_capture_header_license_back" = "A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_header_license_back_auto" = "A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_header_generic_back" = "A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_header_id_back" = "A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_header_permit_back" = "A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_header_license_front" = "A dokumentum előlapját illessze a keretbe";
+"onfido_doc_capture_header_license_front_auto" = "A dokumentum előlapját illessze a keretbe";
+"onfido_doc_capture_header_generic_front" = "A dokumentum előlapját illessze a keretbe";
+"onfido_doc_capture_header_id_front" = "A dokumentum előlapját illessze a keretbe";
+"onfido_doc_capture_header_permit_front" = "A dokumentum előlapját illessze a keretbe";
+
+"onfido_generic_uploading" = "Feltöltés";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Győződjön meg róla, hogy a teljes dokumentum szerepel a fényképen";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Ügyeljen arra, hogy az arca látható legyen";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Csak az Ön arca lehet a szelfin";
+"onfido_doc_capture_alert_no_mrz_detail" = "Győződjön meg róla, hogy a teljes dokumentum látható";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Az alsó két sor nem látható";
+"onfido_doc_capture_alert_no_mrz3_title" = "Az alsó három sor nem látható";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Több arcot is észleltünk";
+"onfido_doc_capture_prompt_title_id" = "Milyen típusú személyazonosító igazolványa van?";
+"onfido_video_capture_button_primary_fallback" = "Következő lépés";
+"onfido_doc_confirmation_alert_no_doc_title" = "Nem található dokumentum";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Arc nem észlelhető";
+"onfido_generic_alert_network_error_button_primary" = "OK";
+"onfido_info_tablet_orientation_subtitle" = "Csak a portré módot támogatjuk";
+"onfido_info_tablet_orientation_title" = "Forgassa el az iPadet";
+"onfido_info_tablet_orientation_body" = "A gombnak a képernyő alján kell lennie";
+"onfido_doc_capture_prompt_button_card" = "Műanyag kártya";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Újratöltés";
+"onfido_video_confirmation_button_secondary" = "Vegye fel újra a videót";
+"onfido_video_capture_prompt_button_timeout" = "Próbálja újra";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Válasszon másik dokumentumot";
+"onfido_welcome_button_primary" = "Kezdés";
+"onfido_video_capture_button_primary_start" = "Felvétel indítása";
+"onfido_video_confirmation_button_primary" = "Töltse fel a videót";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Javasolt ország";
+/* General */
+"onfido_video_intro_error_network" = "Instabil hálózat miatt a betöltés nem sikerült";
+"onfido_country_select_bottom_sheet_details" = "Úgy tűnik, a kiválasztott dokumentumhoz tartozó ország nem támogatott. Válasszon ki egy másik országot.";
+"onfido_country_select_bottom_sheet_title" = "Nem találja az országot?";
+"onfido_doc_confirmation_button_primary" = "Küldje el a fényképet";
+/* Face capture */
+"onfido_welcome_subtitle" = "Pár percet vesz igénybe";
+/* Welcome */
+"onfido_welcome_title" = "Igazolja személyazonosságát";
+"onfido_app_title_doc_confirmation" = "Igazolja személyazonosságát";
+"onfido_app_title_selfie_confirmation" = "Igazolja személyazonosságát";
+"onfido_app_title_nfc_select" = "Igazolja személyazonosságát";
+"onfido_app_title_nfc_intro" = "Igazolja személyazonosságát";
+"onfido_app_title_nfc_fail" = "Igazolja személyazonosságát";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Igazolja személyazonosságát";
+"onfido_app_title_country_select" = "Kibocsátó ország kiválasztása";
+"onfido_app_title_selfie_intro" = "Igazolja személyazonosságát";
+"onfido_app_title_video_intro" = "Igazolja személyazonosságát";
+"onfido_app_title_permission" = "Igazolja személyazonosságát";
+"onfido_app_title_video_confirmation" = "Igazolja személyazonosságát";
+"onfido_video_capture_alert_wrong_side" = "Rossz oldal";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "Gyorsítsa fel a folyamatot NFC-vel";
+"onfido_nfc_select_subtitle_passport" = "Leolvassuk az NFC-chipet az útlevelében";
+"onfido_nfc_select_body_passport" = "Az e-útlevelek borítóján ez a szimbólum látható";
+"onfido_nfc_select_button_primary_passport" = "Használjon elektronikus útlevelet";
+"onfido_nfc_select_button_secondary_passport" = "Ez nem elektronikus útlevél";
+
+"onfido_nfc_select_title_card" = "Gyorsítsa fel a folyamatot NFC-vel";
+"onfido_nfc_select_subtitle_card" = "Leolvassuk a kártyáján lévő NFC-chipet";
+"onfido_nfc_select_body_card" = "Az NFC-chipekkel rendelkező kártyákon ez a szimbólum látható";
+"onfido_nfc_select_button_primary_card" = "Használjon NFC-kártyát";
+"onfido_nfc_select_button_secondary_card" = "Ez nem egy NFC-kártya";
+
+"onfido_nfc_intro_title_passport" = "Olvassa be az e-útlevelét";
+"onfido_nfc_intro_subtitle_passport" = "Kövesse az alábbi utasításokat";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Fektesse az útlevelét egy sima felületre";
+"onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját az útlevelére";
+"onfido_nfc_intro_passport_scan_guide_3" = "Lassan csúsztassa a telefont le és fel";
+"onfido_nfc_intro_passport_scan_guide_4" = "A szkennelés megkezdése után tartsa mozdulatlanul a telefont";
+
+"onfido_nfc_intro_button_primary_passport" = "Szkennelés indítása";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "NFC-kártya beolvasása";
+"onfido_nfc_intro_subtitle_card" = "Helyezze a telefont a kártyára, és tartsa a telefon tetejének közelében";
+"onfido_nfc_intro_button_primary_card" = "Szkennelés indítása";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "Helyezze a telefont a kártyára";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "Nem tudtuk beolvasni az útlevelét";
+"onfido_nfc_fail_title_card" = "Nem sikerült beolvasni az NFC-kártyát";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Távolítsd el az útleveled borítóját";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Fektesse az útlevelét egy sima felületre";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Helyezze a telefonját útlevele középső része közelébe";
+"onfido_nfc_intro_carousel_body_last_page" = "A hátlap belső oldalával is próbálkozhat";
+"onfido_nfc_intro_carousel_body_dont_move" = "Szkennelés közben ne mozgassa a telefont és az útlevelet";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Távolítsa el az útlevél- és telefonborítót";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "A beolvasás végéig tartsa a telefont az útlevél felett";
+"onfido_nfc_fail_button_primary_passport" = "A beolvasás megismétlése";
+"onfido_nfc_fail_button_secondary_passport" = "Igazolja személyazonosságát beolvasás nélkül";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "Távolítsa el a telefon tokját";
+"onfido_nfc_fail_list_item_keep_contact_card" = "A beolvasás végéig tartsa egymáson a telefont és a kártyát";
+"onfido_nfc_fail_button_primary_card" = "A beolvasás megismétlése";
+"onfido_nfc_fail_button_secondary_card" = "Igazolja személyazonosságát beolvasás nélkül";
+
+"onfido_doc_confirmation_zoom_button" = "Kép nagyítása";
+"onfido_doc_confirmation_image_accessibility" = "Igazolványképe. Koppintson kétszer a nagyításhoz.";
+"onfido_doc_zoom_body" = "Mozgatás egy ujjal";
+"onfido_doc_zoom_button_close" = "Bezár";
+
+"onfido_video_confirmation_body" = "Videóját rögzítettük";
+"onfido_app_title_country_select_search" = "Keresés";
+"onfido_country_select_list_accessibility" = "Keresési találatok";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Igazolja személyazonosságát";
+"onfido_user_consent_prompt_no_consent_title" = "Biztos benne?";
+"onfido_user_consent_prompt_no_consent_detail" = "Ha nem fogadja el az Onfido adatvédelmi nyilatkozatát és szolgáltatási feltételeit, nem tudjuk ellenőrizni személyazonosságát, és kilép ebből a lépésből.";
+"onfido_user_consent_prompt_button_secondary" = "Ismételt ellenőrzés";
+"onfido_user_consent_prompt_button_primary" = "Igen, ne azonosítson";
+"onfido_user_consent_button_primary" = "Elfogad";
+"onfido_user_consent_button_secondary" = "Nem fogadja el";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Igazolja személyazonosságát";
+"onfido_user_consent_load_fail_title" = "A tartalmat nem sikerült betölteni";
+"onfido_user_consent_load_fail_detail" = "Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra";
+"onfido_user_consent_load_fail_button_primary" = "Képernyő újratöltése";
+"onfido_country_select_search_results_none_accessibility" = "Nincs megfelelő találat";
+"onfido_country_select_search_results_one_accessibility" = "Egy találat";
+"onfido_country_select_search_results_multiple_accessibility" = "%d találat";
+"onfido_doc_confirmation_alert_crop_detail" = "Győződjön meg róla, hogy a teljes dokumentum látható";
+"onfido_doc_confirmation_alert_crop_title" = "Levágott kép észlelve";
+"onfido_doc_upload_progress_label" = "Képminőség ellenőrzése";
+"onfido_doc_capture_frame_success_accessibility" = "Kép rögzítve";
+"onfido_generic_error_timeout_title" = "Kapcsolati időkorlát";
+"onfido_generic_error_timeout_detail" = "Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra";
+"onfido_generic_error_timeout_button_primary" = "Próbálja újra";
+"onfido_generic_processing" = "Feldolgozás alatt";
+"onfido_video_capture_turn_success_accessibility" = "Fejforgás észlelve";
+"onfido_welcome_list_header" = "Használja eszközét a következőkhöz:";
+"onfido_welcome_list_item_doc_photo" = "Készítsen fényképet személyazonosító okmányáról";
+"onfido_welcome_list_item_doc_generic" = "Szkennelje be személyazonosító okmányát";
+"onfido_welcome_list_item_face_photo" = "Fényképezze le az arcát";
+"onfido_welcome_list_item_face_video" = "Készítsen videófelvételt az arcáról";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Tartsa a telefont a dokumentum fölé";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Nem található a dokumentum. Tartsa a telefonját a dokumentum fölé.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "A dokumentum túl közel van";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "A dokumentum túl közel van a kamerához";
+"onfido_doc_capture_header_live_guidance_distance_far" = "A dokumentum túl messze van";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "A dokumentum túl messze van a kamerától";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Tartsa ezt a távolságot";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Tartsd ezt a távolságot a dokumentumtól";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Mozgatás balra";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Mozgassa az eszközt balra";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Mozgatás jobbra";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Mozgassa az eszközt jobbra";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Mozgatás felfelé";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Mozgassa az eszközt felfelé";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Mozgatás felfelé";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Mozgassa kissé feljebb az eszközt";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Mozgatás lefelé";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Mozgassa lefelé az eszközt";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Mozgatás lefelé";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Mozgassa kissé lejjebb az eszközt";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Ne mozogjon a rögzítéshez";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "A kép rögzítéséhez maradjon mozdulatlan";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Kamera képe. Helyezze a telefont a dokumentum elejére, majd lassan, egyenes vonalban távolítsa onnan.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Tartsa a telefonját a dokumentum eleje fölé";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Tartsa a telefonját a dokumentum hátoldala fölé";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Kamera képe. Helyezze a telefont a dokumentum hátuljára, majd lassan, egyenes vonalban távolítsa onnan.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Tartsa a telefonját útlevele fényképes oldala fölé";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Kamera képe. Helyezze a telefont az útlevele fényképes oldalára, majd lassan, egyenes vonalban távolítsa onnan.";
+"onfido_doc_capture_header_capturing" = "Ne mozduljon";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "Ellenőrzés megkezdése";
+"onfido_poa_intro_list_shows_address" = "Megjeleníti a jelenlegi címét";
+"onfido_poa_intro_list_matches_signup" = "Amely egyezik a regisztrációkor megadott címmel";
+"onfido_poa_intro_list_most_recent" = "* * Legfrissebb * * dokumentuma";
+"onfido_poa_intro_subtitle" = "Olyan dokumentumra lesz szüksége:";
+"onfido_poa_intro_title" = "Ellenőrizzük a lakcímét";
+"onfido_doc_confirmation_body" = "Győződjön meg róla, hogy feltöltötte a teljes dokumentumoldalt, és az adatok tisztán, elmosódás- és tükröződésmentesen olvashatók";
+"onfido_poa_guidance_instructions_label" = "Készítsen fényképet a teljes dokumentumról, és győződjön meg arról, hogy tisztán látszik:";
+"onfido_poa_capture_confirm" = "Dokumentum elküldése";
+"onfido_poa_capture_redo" = "Készítse el a fényképet újra";
+"onfido_poa_capture_choose_another" = "Válasszon másikat";
+"onfido_poa_capture_image_accessibility" = "A dokumentum nagyított előnézetének megjelenítése";
+"onfido_poa_capture_enlarge" = "Dokumentum nagyítása";
+"onfido_poa_capture_enlarge_move" = "Mozgatás egy ujjal";
+"onfido_poa_capture_enlarge_close" = "Bezár";
+"onfido_poa_capture_instructions" = "Lakcím dokumentum eleje";
+"onfido_poa_upload_instructions_take_photo_button" = "Készítsen egy fényképet";
+"onfido_poa_upload_instructions_upload_button" = "Feltöltés";
+"onfido_poa_type_selection_title" = "Dokumentum kiválasztása";
+"onfido_poa_type_selection_title_uk" = "Egyesült királyságbeli dokumentum kiválasztása";
+"onfido_poa_country_not_found" = "Sajnáljuk! Dolgozunk azon, hogy több ország legyen támogatott.";
+"onfido_poa_welcome_text" = "Készítsen fényképet a címét tartalmazó dokumentumról";
+"onfido_poa_photo_library" = "Fotótár";
+"onfido_poa_files" = "Fájlok";
+"onfido_poa_cancel" = "Mégse";
+"onfido_poa_err_invalid_file_title" = "Nem megfelelő fájl";
+"onfido_poa_err_invalid_file_message" = "Válasszon egy másik fájlt.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_instructions_logo" = "Logó";
+"onfido_poa_guidance_instructions_full_name" = "Teljes név";
+"onfido_poa_guidance_instructions_address" = "Jelenlegi lakcím";
+"onfido_poa_guidance_instructions_issue_date" = "Kibocsátás dátuma vagy időtartama";
+"onfido_doc_select_subtitle_poa" = "Ezek azok a dokumentumok, amelyek a legnagyobb valószínűséggel jelzik az Ön jelenlegi lakcímét";
+"onfido_doc_select_button_bill" = "Közüzemi számla";
+"onfido_doc_select_extra_estatements_ok" = "elfogadott e-nyilatkozatok";
+"onfido_doc_select_button_bill_detail" = "Gáz, villamos energia, víz, vezetékes telefon vagy szélessávú kapcsolat";
+"onfido_doc_select_extra_no_mobile" = "Sajnáljuk, mobiltelefon-számlát nem fogadunk el";
+"onfido_poa_guidance_subtitle_bill" = "Kizárólag az elmúlt 3 hónapban kibocsájtott";
+"onfido_doc_select_button_bank_statement" = "Banki vagy lakás-takarékpénztári számlakivonat";
+"onfido_poa_guidance_subtitle_bank_statement" = "Kizárólag az elmúlt 3 hónapban kibocsájtott";
+"onfido_doc_select_button_tax_letter" = "Önkormányzati adóigazolás";
+"onfido_poa_guidance_subtitle_tax_letter" = "Kizárólag az elmúlt 12 hónapban kibocsájtott";
+"onfido_doc_select_button_benefits_letter" = "Társadalombiztosítási igazolás";
+"onfido_doc_select_button_benefits_letter_detail" = "A kormány által engedélyezett háztartási juttatások, pl. álláskeresési támogatás, lakhatási támogatás, adójóváírás";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Kizárólag az elmúlt 12 hónapban kibocsájtott";
+"onfido_poa_guidance_button_primary" = "Tovább";
+"onfido_livenessV2_intro_subtitle" = "Ez annak igazolására szolgál, hogy Ön egy valós személy";
+"onfido_livenessV2_intro_note_no1" = "Először illessze az arcát a keretbe";
+"onfido_livenessV2_intro_note_no2" = "Ezután lassan fordítsa a fejét mindkét oldalra";
+"onfido_livenessV2_intro_warning" = "Kérjük, vegye figyelembe, hogy mind az arcát, mind a hátterét rögzítjük";
+"onfido_livenessV2_intro_ready_button" = "Kérjük, vegye figyelembe, hogy mind az arcát, mind a hátterét rögzítjük";
+"onfido_livenessV2_success_title" = "Ez minden, amire szükségünk van személyazonossága ellenőrzésének megkezdéséhez";
+"onfido_livenessV2_success_main_button" = "Hitelesítés elküldése";
+"onfido_livenessV2_error_reload_instructions" = "Utasítások újratöltése";
+"onfido_avc_intro_title" = "Készítsen videófelvételt";
+"onfido_avc_intro_subtitle" = "Ez annak igazolására szolgál, hogy Ön egy valós személy";
+"onfido_avc_intro_list_item_one" = "Először illessze az arcát a keretbe";
+"onfido_avc_intro_list_item_two" = "Ezután lassan fordítsa a fejét mindkét oldalra";
+"onfido_avc_intro_disclaimer" = "A folyamat során az arcát és a hátterét is rögzítjük";
+"onfido_avc_intro_button_primary_ready" = "Felvétel indítása";
+"onfido_avc_face_alignment_title" = "Illessze az arcát a keretbe";
+"onfido_avc_face_alignment_feedback_move_closer" = "Közelítsen";
+"onfido_avc_face_alignment_feedback_move_back" = "Távolodjon";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "Arc nem észlelhető";
+"onfido_avc_face_capture_title" = "Fordítsa el a fejét lassan mindkét oldalra";
+"onfido_avc_face_capture_title_completed" = "Felvétel kész";
+"onfido_avc_face_capture_alert_timeout_title" = "Sajnáljuk, újra kell indítanunk a felvételt";
+"onfido_avc_face_capture_alert_timeout_body" = "Legfeljebb 15 másodperce van, hogy befejezze a felvételt";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "Próbálja újra";
+"onfido_avc_face_capture_alert_too_fast_title" = "Túl gyorsan fordította el a fejét";
+"onfido_avc_face_capture_alert_too_fast_body" = "Kezdje újra, és lassabban fordítsa el a fejét";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "Próbálja újra";
+"onfido_avc_no_face_detected_title" = "Arca nem érzékelhető";
+"onfido_avc_no_face_detected_list_item_lighting" = "Ügyeljen arra, hogy jó megvilágítású helyen legyen";
+"onfido_avc_no_face_detected_list_item_eyes" = "Ügyeljen arra, hogy a szeme jól látható legyen";
+"onfido_avc_no_face_detected_list_item_mask" = "Távolítsa el az arcát takaró maszkot és egyéb tárgyakat. Szemüvege maradhat";
+"onfido_avc_no_face_detected_list_item_face" = "Ügyeljen rá, hogy csak az arca látszódjon, nem kell látnunk a személyazonosító okmányát";
+"onfido_avc_no_face_detected_button_primary_restart" = "Rögzítés újraindítása";
+"onfido_avc_confirmation_title" = "Felvétel kész";
+"onfido_avc_confirmation_subtitle" = "Az arcáról készült videót sikeresen rögzítettük";
+"onfido_avc_confirmation_button_primary_upload" = "Felvétel feltöltése";
+"onfido_avc_connection_error_title" = "Kapcsolati hiba";
+"onfido_avc_connection_error_subtitle" = "Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra";
+"onfido_avc_connection_error_button_primary_reload" = "Utasítások újratöltése";
+"onfido_avc_face_alignment_feedback_not_centered" = "Arca nincs középen";
+"onfido_avc_connection_error_button_primary_retry_upload" = "Próbálja újra feltölteni";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "Rögzítés újraindítása";
+"onfido_generic_errors_geoblocked_error_message" = "A szolgáltatás nem elérhető";
+"onfido_doc_select_subtitle_country" = "Válassza ki a kibocsátó országot, hogy lássa, mely dokumentumokat fogadjuk el";
+"onfido_doc_select_section_header_country" = "Kibocsátó ország";
+"onfido_doc_select_section_header_doc_type" = "Elfogadott dokumentumok";
+"onfido_doc_select_section_input_placeholder_country" = "Kibocsátó ország kiválasztása";
+"onfido_doc_select_subtitle_entire_page" = "Teljes oldal";
+"onfido_doc_select_subtitle_photo_page" = "Arcképes oldal";
+"onfido_doc_select_subtitle_front_back" = "Elülső és hátsó oldal";
+"onfido_doc_select_section_input_country_not_found" = "Nincs találat";
+"onfido_generic_errors_geoblocked_error_instruction" = "Sajnáljuk, de úgy tűnik, nem tudunk továbblépni, mert a jelenlegi tartózkodási helye nem támogatott";
+"onfido_welcome_list_item_doc" = "az Ön személyazonosító okmánya";
+"onfido_welcome_list_header_photo" = "Használja eszközét a fényképezéshez:";
+"onfido_welcome_list_header_record" = "Használja eszközét fényképezéshez vagy felvételhez:";
+"onfido_welcome_list_item_selfie" = "az Ön arca";
+"onfido_welcome_list_item_video" = "egy önmagáról készített videó";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
+"onfido_welcome_list_item_face_generic" = "Szkennelje az arcát";
+"onfido_permission_recovery_subtitle_cam" = "A kamera nélkül nem tudjuk igazolni a személyazonosságát";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Kamera képe. Helyezze a dokumentum hátoldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Kamera képe. Helyezze a dokumentum hátoldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Helyezze a telefonját útlevele középső része közelébe";
+"onfido_avc_intro_title_accessibility" = "Készítsen videófelvételt az arcáról";
+"onfido_avc_intro_video_accessibility" = "Példavideó, amelyen valaki mindkét oldalra elfordítja a fejét a befejezésig";
+"onfido_avc_face_capture_frame_accessibility" = "Szelfikamera képe";
+"onfido_avc_face_capture_title_accessibility" = "Fordítsa el a fejét lassan mindkét oldal irányába. Amikor egy oldal elkészült, egy megerősítést fog hallani, és rezgést fog érezni";
+"onfido_avc_face_capture_recording_started_accessibility" = "A felvétel elindult";
+"onfido_avc_face_capture_keep_turning_accessibility" = "Fordítsa el a fejét";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "A bal oldal kész";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "A jobb oldal kész";
+"onfido_avc_face_alignment_title_accessibility" = "Arca legyen az eszköz előtt";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "Arc nem észlelhető. Arca legyen az eszköz előtt";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "Igazítsa be az arcát";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "Mozgassa közelebb az eszközt";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "Vigye távolabb az eszközt";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "Mozgassa az eszközt balra";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "Mozgassa az eszközt jobbra";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "Mozgassa az eszközt felfelé";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "Mozgassa lefelé az eszközt";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "Fordítsa el fejét a másik oldalra";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "Nézze meg a videóját";
+"onfido_generic_back" = "vissza";
+"onfido_nfc_sheet_ready_subtitle" = "Szkennelésre kész";
+"onfido_nfc_sheet_scanning_instruction" = "Tartsa a telefonját egy helyben";
+"onfido_nfc_sheet_success_subtitle" = "Sikeres beolvasás";
+"onfido_nfc_sheet_success_instruction_passport" = "Sikeresen beolvastuk az útlevelét";
+"onfido_outro_body" = "Ez minden, amire szükségünk van személyazonossága ellenőrzésének megkezdéséhez";
+"onfido_permission_recovery_title_cam" = "Kamerához való hozzáférés elutasítva";
+"onfido_permission_recovery_list_item_how_to_cam" = "Az eszköz beállításaiban visszaállíthatja a kamerához való hozzáférést";
+"onfido_permission_recovery_list_item_action_cam" = "A beállításokban engedélyezze a kamerához való hozzáférést az alkalmazás számára";
+"onfido_permission_recovery_title_mic" = "Mikrofon-hozzáférés megtagadva";
+"onfido_permission_recovery_subtitle_mic" = "A mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát";
+"onfido_permission_recovery_list_item_how_to_mic" = "Az eszköz beállításaiban visszaállíthatja a mikrofonhoz való hozzáférést";
+"onfido_permission_recovery_list_item_action_mic" = "A beállításokban engedélyezze a mikrofonhoz való hozzáférést az alkalmazás számára";
+"onfido_permission_recovery_title_both" = "Kamera- és mikrofon-hozzáférés megtagadva";
+"onfido_permission_recovery_subtitle_both" = "A fényképezőgép és a mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát";
+"onfido_permission_recovery_list_item_how_to_both" = "Az eszköz beállításaiban visszaállíthatja a kamerához és a mikrofonhoz való hozzáférést";
+"onfido_permission_recovery_list_item_action_both" = "A beállításokban engedélyezze mind a kamerához, mind a mikrofonhoz való hozzáférést az alkalmazás számára";
+"onfido_permission_recovery_button_primary" = "Engedélyezés a beállításokban";
+"onfido_generic_error_network_title" = "A kapcsolat megszakadt";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Kamera képe. A dokumentum fényképes oldalát illessze a keretbe. Az eszköz rezegni fog a kép rögzítésekor";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Kamera képe. Helyezze a dokumentum hátoldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Kamera képe. A dokumentum előlapját illessze a keretbe. Az eszköz rezegni fog a kép rögzítésekor";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Kamera képe. A dokumentum hátlapját illessze a keretbe";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_button_primary" = "Dokumentumbeolvasás indítása";
+"onfido_selfie_capture_button_primary" = "Arcszkennelés indítása";
+"onfido_nfc_sheet_success_instruction_card" = "Sikeresen beszkenneltük a kártyáját";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "Tartsa a telefonját egy helyben";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "Megszakadt a kapcsolat a kártyával";
+"onfido_doc_capture_header_scanning" = "Dokumentum beolvasása…";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "Megszakadt a kapcsolat az útlevéllel";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "Mozgassa a telefont kissé feljebb vagy lejjebb";
+"onfido_doc_select_button_bank_statement_non_uk" = "Bankszámlakivonat";
+"onfido_retry_feedback_id_expired_title" = "A dokumentuma lejárt";
+"onfido_retry_feedback_id_unaccepted_title" = "Nem elfogadott dokumentum";
+"onfido_retry_feedback_id_generic_title" = "Probléma merült fel a dokumentumával kapcsolatban";
+"onfido_retry_feedback_selfie_generic_title" = "Probléma merült fel a szelfijével kapcsolatban";
+"onfido_retry_feedback_id_expired_subtitle" = "Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók";
+"onfido_retry_feedback_id_generic_subtitle" = "Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók";
+"onfido_retry_feedback_selfie_generic_subtitle" = "Próbálkozzon újra, és ügyeljen, hogy arca látható és jól megvilágított legyen";
+"onfido_retry_feedback_button_primary" = "Próbálja újra";
+"onfido_workflow_complete_pass_title" = "Átment";
+"onfido_workflow_complete_reject_description" = "Nem tudtuk ellenőrizni a személyazonosságát";
+"onfido_workflow_complete_reject_title" = "Elutasítva";
+"onfido_workflow_complete_pass_description" = "Igazoltuk személyazonosságát";
+"onfido_workflow_erros_task_not_supported" = "A feladat jelenleg nem támogatott";
+"onfido_workflow_erros_task_not_completed" = "A munkafolyamat feladat végrehajtása nem sikerült.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "Nem sikerült lekérdezni a munkafolyamat feladatot.";
+"onfido_workflow_erros_no_workflow_run_id" = "A munkafolyamat futtatásának azonosítója nincs beállítva.";
+"onfido_workflow_erros_generic_title" = "Szerverhiba történt!";
+"onfido_workflow_erros_reload_app" = "Próbálja újratölteni az alkalmazást, majd próbálkozzon újra.";
+"onfido_welcome_start_workflow_button" = "Ellenőrzés megkezdése";
+"onfido_avc_intro_list_item_one_accessibility" = "Először, helyezkedjen el úgy, hogy az arca a készüléke előtt legyen";
+"onfido_avc_intro_list_item_two_accessibility" = "Majd lassan fordítsa el a fejét mindkét oldalra";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Arca nincs a megfelelő helyzetben";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "Ügyeljen rá, hogy csak az arca látszódjon, nem kell látnunk a személyazonosító okmányát";
+"onfido_selfie_intro_list_item_no_face_cover" = "Távolítson el mindent, ami eltakarja az arcát. Szemüvege maradhat";
+"onfido_selfie_intro_banner_nudity_message" = "A folyamat során rögzítjük az arcát és a hátterét";
+"onfido_video_capture_prompt_header_microphone" = "A mikrofont egy másik alkalmazás használja";
+"onfido_video_capture_prompt_detail_microphone" = "Személyazonossága igazolásához szükség van a mikrofonra. Kérjük, minden folyamatban lévő hívást fejezzen be.";
+"onfido_video_capture_prompt_header_audio" = "Indítsa újra a felvételt";
+"onfido_video_capture_prompt_detail_audio" = "A lépés teljesítése során tilos a hanglejátszás a háttérben. Kérjük, minden folyamatban lévő hívást fejezzen be.";
+"onfido_video_intro_error_network_accessibility" = "Instabil hálózat miatt nem lehet betölteni a példavideót";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Példavideó újratöltése";
+"onfido_doc_select_button_address_card" = "Lakcímkártya";
+"onfido_doc_select_button_address_card_detail" = "Ideiglenes és állandó kártyák is elfogadottak";
+"onfido_poa_guidance_subtitle_address_card" = "A lakcímkártya érvényes kell legyen";
+"onfido_poa_guidance_instructions_full_address" = "Teljes lakcím";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Kibocsátás dátuma";
+"onfido_poa_guidance_instructions_expiry_date" = "Lejárat időpontja, ha van";
+
+"onfido_welcome_start_workflow_button_trial" = "Ellenőrzés megkezdése (TEST)";
+"onfido_enter_can_title" = "Adja meg a CAN-t";
+"onfido_enter_can_subtitle" = "Ellenőrizze, hogy a megadott szám egyezik-e a dokumentumon szereplő számmal.";
+"onfido_enter_can_disclaimer" = "A dokumentum előlapján található. %d számjegy hosszú és valamivel nagyobb méretű.";
+"onfido_enter_can_button_primary" = "Tovább";
+"onfido_nfc_scan_error_title" = "Nem tudtuk beolvasni a dokumentumát";
+"onfido_nfc_scan_error_list_item" = "Távolítsa el a telefon tokját";
+"onfido_nfc_scan_error_list_item_2" = "Miután a szkennelés elkezdődött, tartsa mozdulatlanul";
+"onfido_nfc_scan_error_button_primary" = "A beolvasás megismétlése";
+"onfido_welcome_nfc_title" = "Igazolja személyazonosságát";
+"onfido_welcome_nfc_subtitle" = "Pár percet vesz igénybe";
+"onfido_welcome_nfc_list_header_nfc" = "Használja eszközét a következőkhöz:";
+"onfido_welcome_nfc_list_item" = "Készítsen fényképet személyazonosító okmányáról";
+"onfido_welcome_nfc_list_item_2" = "Dokumentum beolvasása";
+"onfido_welcome_nfc_button_primary" = "Készítsen fényképet személyazonosító okmányáról";
+"onfido_intro_scan_title" = "Dokumentum beolvasása";
+"onfido_intro_scan_subtitle" = "Kövesse az alábbi utasításokat";
+"onfido_intro_scan_list_item" = "Helyezze a kártyát az eszköz hátuljára";
+"onfido_intro_scan_list_item_3" = "Miután a szkennelés elkezdődött, tartsa mozdulatlanul";
+"onfido_intro_scan_button_primary" = "Szkennelés indítása";
+"onfido_nfc_scan_sheet" = "Lassan csúsztassa fel-le a dokumentumot";
+"onfido_nfc_scan_scanning_sheet_1" = "Szkennelés folyamatban\nTartsa mozdulatlanul az eszközt és a dokumentumot.";
+"onfido_nfc_scan_can-required_sheet_2" = "Szükség van a CAN számra";
+"onfido_nfc_scan_lost-contact_sheet_3" = "Megszakadt a kapcsolat az NFC-kártyával\nMozgassa az eszközt kissé felfele vagy lefele.";
+"onfido_nfc_scan_lost-connection_sheet_4" = "Megszakadt a kapcsolat\nNem tudtuk beolvasni a dokumentumát";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "Helytelen CAN";
+"onfido_enter_can_error_label" = "Összesen %d %@ maradt.";
+"onfido_enter_can_substring_attempt_singular" = "próbálkozás";
+"onfido_enter_can_substring_attempt_plural" = "próbálkozások";
+"onfido_nfc_scan_error_button_secondary" = "Ellenőrzés NFC nélkül";
+"onfido_intro_scan_animation_ios" = "Helyezze a dokumentumot az eszköz hátoldalára. Amint a szkennelés elkezdődik, tartsa őket mozdulatlanul.";
+"onfido_nfc_scan_sheet_success" = "A szkennelés sikeres";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Az Ön arcát, hátterét és hangját rögzítjük a folyamat során";
+"onfido_welcome_list_header_doc_video" = "Használja eszközét a felvételhez:";
+"onfido_welcome_list_item_doc_video_flash" = "A videófelvétel közben bekapcsoljuk az eszköz vakuját";
+"onfido_welcome_list_item_doc_video_timeout" = "A felvétel időkorlátja ​%d​ másodperc";
+"onfido_doc_video_capture_header" = "Tartsa úgy a dokumentumot, hogy az elülső oldala a kereten belül legyen";
+"onfido_doc_video_capture_header_step1" = "Maradjon most mozdulatlan";
+"onfido_doc_video_capture_header_step2" = "Lassan fordítsa meg a dokumentumot, hogy látszódjon a hátoldala";
+"onfido_doc_video_capture_detail_step2" = "A dokumentum mindig legyen teljes egészében látható";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Videó előnézete";
+"onfido_doc_video_capture_button_primary_fallback" = "Következő lépés";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Felvétel befejezése";
+"onfido_doc_video_capture_header_passport" = "Tartsa úgy az útlevélét, hogy a fényképes oldal a kereten belül legyen";
+"onfido_doc_video_capture_header_passport_progress" = "Ne mozduljon";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Lassan fordítsa meg a dokumentumot, hogy a külső oldalai láthatóak legyenek";
+"onfido_outro_title" = "Köszönjük";
+"onfido_doc_video_capture_stepper" = "%d/%d lépés";
+"onfido_doc_video_capture_prompt_detail_timeout" = "A videófelvétel időkorlátja ​%d​ másodperc";
+"onfido_doc_video_capture_alert_wrong_side" = "Győződjön meg róla, hogy a dokumentuma hátoldalát mutatja";
+"onfido_doc_video_capture_success_accessibility" = "Sikeres";
+"onfido_doc_video_capture_prompt_header_timeout" = "Úgy tűnik, túllépte az időkorlátot";
+"onfido_doc_video_capture_prompt_button_timeout" = "Próbálja újra";
+"onfido_app_title_doc_video_confirmation" = "Igazolja személyazonosságát";
+"onfido_doc_video_confirmation_button_primary" = "Videó beküldése";
+"onfido_doc_video_confirmation_title" = "Köszönjük";
+"onfido_doc_video_confirmation_body" = "Videóját rögzítettük";
+"onfido_doc_video_capture_button_primary_start" = "Felvétel indítása";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Vegye fel újra a videót";
+"onfido_doc_video_capture_header_folded_doc_front" = "Profilkép";
+"onfido_welcome_list_item_doc_video" = "Készítsen videót személyazonosító okmányáról";
+"onfido_welcome_info_original_document" = "Fényképezze le az eredeti dokumentumot. Szkennelés, képernyőfotó vagy fénymásolat nem megengedett.";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "Mikrofonját egy másik alkalmazás használja";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "Kérjük, a felvétel idejére fejezzen be minden folyamatban lévő hívást vagy tevékenységet";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "Újrapróbálkozás";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Próbálja újra";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "A hangot egy másik alkalmazás játsza le";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "Kérjük, felvétel közben ne játsszon le semmilyen hangot a készülékén";
+
+"onfido_nfc_scan_welcome_card_title" = "Gyorsítsa fel a folyamatot NFC-vel";
+"onfido_nfc_scan_welcome_card_subtitle" = "Leolvassuk a dokumentumán lévő NFC-chipet";
+"onfido_nfc_scan_welcome_card_list_item" = "Illessze eszközét a dokumentuma tetejéhez";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Lassan csúsztassa eszközet fel és le";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul";
+"onfido_nfc_scan_welcome_card_button_primary" = "Szkennelés indítása";
+"onfido_nfc_scan_welcome_card_secondary_button" = "Ellenőrzés NFC nélkül";
+
+"onfido_nfc_scan_error_inter_title" = "Nem tudtuk beolvasni a dokumentumát";
+"onfido_nfc_scan_error_inter_list_item" = "Távolítsa el a telefon tokját";
+"onfido_nfc_scan_error_inter_list_item_2" = "A beolvasás végéig tartsa egymáson a telefont és a dokumentumot";
+"onfido_nfc_scan_error_inter_primary_button" = "A beolvasás megismétlése";
+"onfido_nfc_scan_error_inter_secondary_button" = "Ellenőrzés NFC nélkül";
+
+"onfido_nfc_scan_error_final_title" = "Nem tudtuk ellenőrizni dokumentumát";
+"onfido_nfc_scan_error_final_subtitle" = "Dokumentuma ellenőrzéséhez NFC szükséges, de a szkennelés sikertelen volt.";
+"onfido_nfc_scan_error_final_list_item" = "Van másik dokumentuma amit használni tud?";
+"onfido_nfc_scan_error_final_primary_button" = "Használjon egy másik dokumentumot";
+"onfido_nfc_scan_error_final_secondary_button" = "Ellenőrzés NFC nélkül";
+
+"onfido_nfc_scan_welcome_passport_title" = "Gyorsítsa fel a folyamatot NFC-vel";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Leolvassuk a dokumentumán lévő NFC-chipet";
+"onfido_nfc_scan_welcome_passport_list_item" = "Tegye a dokumentumat egy sík feluletre";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Nyissa ki a dokumentumát a hátsó lapnál";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Illessze eszközét a dokumentuma tetejéhez";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Lassan csúsztassa eszközet fel és le";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Szkennelés indítása";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "Ellenőrzés NFC nélkül";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Nem tudtuk beolvasni a dokumentumát";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Távolítsa el az útlevél- és telefonborítót";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "A beolvasás végéig tartsa egymáson a telefont és a dokumentumot";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "A beolvasás megismétlése";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "Ellenőrzés NFC nélkül";
+
+"onfido_doc_capture_alert_too_close_title" = "Távolodjon";
+"onfido_doc_capture_alert_rotated_title" = "Forgassa el a dokumentumot";
+"onfido_doc_capture_alert_too_far_title" = "Közelítsen";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Fordítsa az elülső oldalra";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Fordítsa a hátsó oldalra";
+"onfido_doc_capture_alert_hold_still_title" = "Ne mozduljon";

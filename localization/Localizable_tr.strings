@@ -1,0 +1,662 @@
+"onfido_doc_capture_button_accessibility" = "Deklanşör";
+"onfido_selfie_capture_button_accessibility" = "Deklanşör";
+/* Accessibility */
+"onfido_doc_capture_frame_accessibility" = "Kameradan görüntü";
+"onfido_selfie_capture_frame_accessibility" = "Selfie kamerasından görüntü. Yüzünüzü ovalin içinde tutun, ardından deklanşör düğmesine dokunun";
+"onfido_video_capture_frame_accessibility" = "Kameradan görüntü. Kayda başlamak için yüzünüzü oval içinde tutun.";
+"onfido_selfie_confirmation_image_accessibility" = "Yüzünüzün fotoğrafı";
+"onfido_video_capture_frame_success_accessibility" = "Yüz tespit edildi. Kayıt başladı.";
+/* Accessibility strings for screen readers */
+"onfido_video_intro_video_accessibility" = "Selfie videosu kaydeden birinin örnek videosu. Bir selfie videosu kaydetmek için ön kameraya dönün ve telefonu yüzünüzden biraz uzakta tutun. Sonrasında bazı sayıları ezberden okumanız ve başınızı ekrandaki talimatlara göre çevirmeniz gerekecek.";
+"onfido_video_intro_button_pause_accessibility" = "Videoyu durdur";
+"onfido_video_intro_button_play_accessibility" = "Videoyu oynat";
+"onfido_country_select_list_header_all" = "Tüm ülkeler";
+"onfido_doc_capture_alert_manual_capture_detail" = "Belgeyi hizalayın, ardından düğmeye basın";
+/* Document autocapture */
+"onfido_doc_capture_alert_manual_capture_title" = "Fotoğrafı manuel olarak çekmeyi deneyin";
+"onfido_doc_capture_alert_no_barcode_detail" = "İyi aydınlatılmış bir yerde durun ve kartı kameraya yaklaştırın";
+"onfido_doc_capture_alert_no_barcode_title" = "Barkod tespit edilemedi";
+"onfido_doc_confirmation_alert_blur_detail" = "Her şeyin net olduğundan emin olun";
+"onfido_doc_confirmation_alert_blur_title" = "Bulanık fotoğraf tespit edildi";
+"onfido_selfie_intro_list_item_face_forward" = "Yüzünüzü öne çevirin ve gözlerinizin açıkça görülebildiğinden emin olun";
+"onfido_selfie_intro_list_item_no_glasses" = "Gerekirse gözlüklerinizi çıkarın";
+/* Capture Face Intro */
+"onfido_selfie_intro_subtitle" = "Bunu belgenizle karşılaştıracağız";
+"onfido_selfie_intro_title" = "Bir selfie çekin";
+"onfido_selfie_intro_button_primary" = "Selfie çekin";
+"onfido_country_select_bottom_sheet_link_close" = "Kapat";
+"onfido_doc_confirmation_button_primary_license" = "Fotoğrafı gönder";
+"onfido_doc_confirmation_button_primary_generic" = "Fotoğrafı gönder";
+"onfido_doc_confirmation_button_primary_id" = "Fotoğrafı gönder";
+/* Face/Document Confirmation */
+"onfido_selfie_confirmation_button_primary" = "Fotoğraf yükleyin";
+"onfido_doc_confirmation_button_secondary" = "Fotoğrafı tekrar çekin";
+"onfido_doc_confirmation_button_primary_passport" = "Fotoğrafı gönder";
+"onfido_doc_confirmation_button_primary_permit" = "Fotoğrafı gönder";
+"onfido_doc_confirmation_button_primary_visa" = "Fotoğrafı gönder";
+"onfido_selfie_confirmation_button_secondary" = "Fotoğrafı tekrar çekin";
+
+/* Country Selection Screen */
+"onfido_permission_button_primary_both" = "Her ikisini de etkinleştir";
+"onfido_permission_button_primary_cam" = "Kamerayı etkinleştir";
+"onfido_permission_button_primary_mic" = "Mikrofonu etkinleştir";
+"onfido_permission_body_both" = "Hem kameranızı hem de mikrofonunuzu kullanmadan sizi doğrulayamayız";
+"onfido_permission_body_cam" = "Kamera erişimi olmadan sizi doğrulayamayız";
+"onfido_permission_body_mic" = "Mikrofonunuzu kullanmadan sizi doğrulayamayız";
+"onfido_permission_subtitle_both" = "İstendiğinde, devam etmek için her ikisine de erişimi etkinleştirmeniz gerekir";
+"onfido_permission_subtitle_cam" = "İstendiğinde, devam etmek için kamera erişimini etkinleştirmeniz gerekir";
+"onfido_permission_subtitle_mic" = "İstendiğinde, devam etmek için mikrofon erişimini etkinleştirmeniz gerekir";
+/* Device permission */
+"onfido_permission_title_both" = "Kamera ve mikrofon erişimine izin ver";
+/* Camera Permissions */
+"onfido_permission_title_cam" = "Kamera erişimine izin ver";
+/* Microphone Permissions */
+"onfido_permission_title_mic" = "Mikrofon erişimine izin ver";
+"onfido_doc_select_subtitle" = "Resmî bir fotoğraflı kimlik olmalıdır";
+/* Document type selection */
+"onfido_doc_select_title" = "Belgenizi seçin";
+"onfido_doc_capture_prompt_title_license" = "Ne tür bir sürücü belgeniz var?";
+"onfido_doc_select_button_passport" = "Pasaport";
+"onfido_doc_select_button_license" = "Sürücü belgesi";
+"onfido_doc_select_button_id" = "Ulusal kimlik no";
+"onfido_doc_select_button_permit" = "Oturma izni";
+"onfido_generic_error_network_detail" = "Bir ağ hatası oluştu. Lütfen bağlantınızı kontrol edin.";
+/* Network error */
+"onfido_generic_alert_network_error_label" = "Bağlantı kesildi";
+"onfido_doc_capture_alert_no_face_detail" = "Yüzünüzün görünür olduğundan emin olun";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Fotoğrafınızın bulunduğu iç sayfaları göstermek için belgenizi düz bir şekilde yerleştirin";
+"onfido_doc_capture_alert_no_face_title" = "Yüz tespit edilmedi";
+"onfido_video_capture_button_primary_finish" = "Kaydı bitir";
+"onfido_welcome_button_primary_doc" = "Belge seçin";
+"onfido_doc_capture_detail_folded_doc_back" = "Belgenizi düz bir şekilde yerleştirin, tüm dış sayfaları dâhil edin";
+"onfido_doc_capture_header_folded_doc_back" = "Belgenizin dış sayfalarını çerçeveye yerleştirin";
+/* Folded paper document confirmation */
+"onfido_doc_confirmation_body_folded_doc" = "Belgenizin tamamen açıldığından ve fotoğrafın net olduğundan emin olun";
+"onfido_doc_video_capture_detail_folded_doc_front" = "Belgenizi düz bir şekilde yerleştirin, tüm iç sayfaları ekleyin (fotoğrafınızı içermelidir)";
+"onfido_doc_capture_prompt_button_paper" = "Kağıt belge";
+"onfido_app_title_doc_capture_license_fr" = "Fransız sürücü belgesi";
+"onfido_app_title_doc_capture_license_de" = "Almanya sürücü belgesi";
+"onfido_doc_capture_alert_glare_detail" = "Doğrudan ışıktan uzak durun";
+/* Glare Detection */
+"onfido_doc_capture_alert_glare_title" = "Parlama algılandı";
+/* Folded paper document capture */
+"onfido_app_title_doc_capture_id_it" = "İtalyan kimlik kartı";
+"onfido_app_title_doc_capture_id_za" = "Güney Afrika kimlik kartı";
+"onfido_doc_select_button_generic" = "Belge";
+/* Document Types */
+"onfido_doc_select_button_visa" = "Vize";
+"onfido_doc_select_button_permit_work" = "Çalışma İzni";
+"onfido_video_capture_header_challenge_digit_instructions" = "Her rakamı yüksek sesle söyleyin";
+"onfido_video_capture_header_challenge_turn_forward" = "ileri doğru bakın";
+"onfido_video_capture_header_challenge_turn_left" = "Başınızı sola çevirin";
+"onfido_video_capture_header_challenge_turn_right" = "Başınızı sağa çevirin";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Talimatları yeniden yükle";
+"onfido_video_capture_prompt_network_timeout_detail" = "Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin";
+"onfido_video_capture_prompt_network_timeout_title" = "Bağlantı zaman aşımı";
+"onfido_video_intro_loader" = "Örnek yükleniyor";
+"onfido_video_intro_list_item_time_limit" = "Bitirmek için %d saniyeniz var";
+"onfido_video_intro_list_item_move_speak" = "Hareket etmek veya konuşmak için talimatları izleyin";
+/* Liveness */
+"onfido_video_intro_subtitle" = "Güvenliğiniz için canlı bir kayda ihtiyacımız var";
+/* Liveness intro */
+"onfido_video_intro_title" = "Video kaydetme";
+"onfido_video_intro_button_primary" = "Video kaydedin";
+"onfido_video_capture_prompt_detail_timeout" = "İşiniz bittiğinde düğmeye basmayı unutmayın.";
+"onfido_video_capture_prompt_header_timeout" = "Çok uzun sürmüş gibi görünüyor";
+"onfido_video_capture_prompt_header_restart" = "Kaydı yeniden başlatın";
+"onfido_video_capture_prompt_detail_restart" = "Bu adımı tamamlamak için kayıt boyunca yüzünüzü görüş alanınızda tutmalısınız.";
+"onfido_video_capture_prompt_button_restart" = "Yeniden başlat";
+
+
+/* Capture Document/Face */
+"onfido_selfie_capture_body" = "Yüzünüzü oval içinde tutun";
+"onfido_video_capture_body" = "Kayda başlamak için yüzünüzü oval içinde tutun";
+"onfido_doc_confirmation_body_license" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+"onfido_doc_confirmation_body_generic" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+"onfido_doc_confirmation_body_id" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+
+/* Document capture confirmation */
+
+"onfido_doc_confirmation_body_passport" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+"onfido_doc_confirmation_body_permit" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+"onfido_doc_confirmation_body_visa" = "Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun";
+
+/* Face capture confirmation */
+"onfido_selfie_confirmation_body" = "Tüm yüzünüzün görünür olduğundan emin olun";
+/* Document capture */
+"onfido_doc_capture_header_passport" = "Belgenizin fotoğraf sayfasını çerçeveye yerleştirin";
+"onfido_doc_capture_header_visa" = "Belgenizin vize sayfasını çerçeveye yerleştirin";
+/* Loading */
+"onfido_video_capture_loader_accessibility" = "Yükleniyor";
+"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
+"onfido_doc_capture_header_passport_auto" = "Belgenizin fotoğraf sayfasını çerçeveye yerleştirin";
+"onfido_doc_capture_header_license_back" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_license_back_auto" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_generic_back" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_id_back" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_permit_back" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_license_front" = "Belgenizin ön yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_license_front_auto" = "Belgenizin ön yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_generic_front" = "Belgenizin ön yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_id_front" = "Belgenizin ön yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_header_permit_front" = "Belgenizin ön yüzünü çerçeveye yerleştirin";
+
+"onfido_generic_uploading" = "Yükleniyor";
+"onfido_doc_confirmation_alert_no_doc_detail" = "Belgenin tamamının fotoğrafta olduğundan emin olun";
+"onfido_selfie_confirmation_alert_no_face_detail" = "Yüzünüzün görünür olduğundan emin olun";
+"onfido_selfie_confirmation_alert_multiple_faces_detail" = "Csak az Ön arca lehet a szelfin";
+"onfido_doc_capture_alert_no_mrz_detail" = "Belgenin tamamının göründüğünden emin olun";
+/* Document Error */
+"onfido_doc_capture_alert_no_mrz_title" = "Alt iki satır görünür değil";
+"onfido_doc_capture_alert_no_mrz3_title" = "En alttaki üç satır görünür değil";
+"onfido_selfie_confirmation_alert_multiple_faces_title" = "Birden fazla yüz bulundu";
+"onfido_doc_capture_prompt_title_id" = "Ne tür bir kimlik kartınız var?";
+"onfido_video_capture_button_primary_fallback" = "Sonraki adım";
+"onfido_doc_confirmation_alert_no_doc_title" = "Belge bulunamadı";
+/* Face error */
+"onfido_selfie_confirmation_alert_no_face_title" = "Yüz tespit edilmedi";
+"onfido_generic_alert_network_error_button_primary" = "Tamam";
+"onfido_info_tablet_orientation_subtitle" = "Yalnızca portre modunu destekliyoruz";
+"onfido_info_tablet_orientation_title" = "Lütfen iPad'inizi döndürün";
+"onfido_info_tablet_orientation_body" = "Düğme ekranın alt kısmında olmalıdır";
+"onfido_doc_capture_prompt_button_card" = "Plastik kart";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Yeniden yükle";
+"onfido_video_confirmation_button_secondary" = "Videoyu tekrar çek";
+"onfido_video_capture_prompt_button_timeout" = "Yeniden dene";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Başka bir belge seçin";
+"onfido_welcome_button_primary" = "Başlat";
+"onfido_video_capture_button_primary_start" = "Kaydı başlatın";
+"onfido_video_confirmation_button_primary" = "Video yükle";
+/* Country selection */
+"onfido_country_select_list_header_suggested" = "Önerilen ülke";
+/* General */
+"onfido_video_intro_error_network" = "Kararsız ağ nedeniyle yüklenemiyor";
+"onfido_country_select_bottom_sheet_details" = "Seçtiğiniz belgenin ülkesi desteklenmiyor gibi görünüyor. Lütfen farklı bir ülke seçin.";
+"onfido_country_select_bottom_sheet_title" = "Ülkenizi bulamadınız mı?";
+"onfido_doc_confirmation_button_primary" = "Fotoğrafı gönder";
+/* Face capture */
+"onfido_welcome_subtitle" = "Sadece birkaç dakika sürer";
+/* Welcome */
+"onfido_welcome_title" = "Kimliğinizi doğrulayın";
+"onfido_app_title_doc_confirmation" = "Kimliğinizi doğrulayın";
+"onfido_app_title_selfie_confirmation" = "Kimliğinizi doğrulayın";
+"onfido_app_title_nfc_select" = "Kimliğinizi doğrulayın";
+"onfido_app_title_nfc_intro" = "Kimliğinizi doğrulayın";
+"onfido_app_title_nfc_fail" = "Kimliğinizi doğrulayın";
+/* Liveness confirmation */
+"onfido_app_title_doc_select" = "Kimliğinizi doğrulayın";
+"onfido_app_title_country_select" = "Düzenleyen ülkeyi seçin";
+"onfido_app_title_selfie_intro" = "Kimliğinizi doğrulayın";
+"onfido_app_title_video_intro" = "Kimliğinizi doğrulayın";
+"onfido_app_title_permission" = "Kimliğinizi doğrulayın";
+"onfido_app_title_video_confirmation" = "Kimliğinizi doğrulayın";
+"onfido_video_capture_alert_wrong_side" = "Yanlış taraf";
+
+/* NFC Read */
+
+"onfido_nfc_select_title_passport" = "NFC ile süreci hızlandırın";
+"onfido_nfc_select_subtitle_passport" = "Pasaportunuzdaki NFC çipini tarayacağız";
+"onfido_nfc_select_body_passport" = "e-Pasaportların kapağında bu sembol bulunur";
+"onfido_nfc_select_button_primary_passport" = "e-Passport kullan";
+"onfido_nfc_select_button_secondary_passport" = "Bu bir e-pasaport değil";
+
+"onfido_nfc_select_title_card" = "NFC ile süreci hızlandırın";
+"onfido_nfc_select_subtitle_card" = "Kimliğinizdeki NFC çipini tarayacağız";
+"onfido_nfc_select_body_card" = "NFC çipli kimliklerde bu sembol bulunur";
+"onfido_nfc_select_button_primary_card" = "NFC'li kimlik kullan";
+"onfido_nfc_select_button_secondary_card" = "Bu kimlikte NFC yok";
+
+"onfido_nfc_intro_title_passport" = "e-Passport'unuzu tarayın";
+"onfido_nfc_intro_subtitle_passport" = "Aşağıdaki yönergeleri izleyin";
+
+"onfido_nfc_intro_passport_scan_guide_1" = "Pasaportunuzu düz bir yüzeye koyun";
+"onfido_nfc_intro_passport_scan_guide_2" = "Telefonunuzu pasaportunuzun üzerine yerleştirin";
+"onfido_nfc_intro_passport_scan_guide_3" = "Telefonunuzu yavaşça aşağı ve yukarı kaydırın";
+"onfido_nfc_intro_passport_scan_guide_4" = "Tarama başladıktan sonra telefonunuzu sabit tutun";
+
+"onfido_nfc_intro_button_primary_passport" = "Taramaya başla";
+
+"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
+"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+
+"onfido_nfc_intro_title_card" = "NFC'li kimliğinizi tarayın";
+"onfido_nfc_intro_subtitle_card" = "Telefonunuzu kimliğin üzerine yerleştirin ve telefonunuzun üst kısmına yakın tutun";
+"onfido_nfc_intro_button_primary_card" = "Taramaya başla";
+
+"onfido_nfc_intro_sheet_ready_subtitle_card" = "Telefonunuzu kimliğin üstüne yerleştirin";
+"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
+
+"onfido_nfc_fail_title_passport" = "Pasaportunuzu tarayamadık";
+"onfido_nfc_fail_title_card" = "NFC'li kimliğinizi tarayamadık";
+
+"onfido_nfc_intro_carousel_body_remove_cover" = "Pasaport kılıfınızı çıkarın";
+"onfido_nfc_intro_carousel_body_lay_flat" = "Pasaportunuzu düz bir yüzeye koyun";
+"onfido_nfc_intro_carousel_body_phone_middle" = "Telefonunuzu pasaportunuzun ortasına yakın bir yere yerleştirin";
+"onfido_nfc_intro_carousel_body_last_page" = "Arka sayfanın iç kısmını da deneyebilirsiniz";
+"onfido_nfc_intro_carousel_body_dont_move" = "Tarama sırasında telefonunuzu veya pasaportunuzu hareket ettirmeyin";
+
+"onfido_nfc_fail_list_item_remove_cover_passport" = "Pasaport ve telefon koruyucularını çıkarın";
+"onfido_nfc_fail_list_item_keep_contact_passport" = "Tarama başarıyla yapılana kadar telefonunuzu ve pasaportunuzu birbiriyle temas hâlinde tutun";
+"onfido_nfc_fail_button_primary_passport" = "Taramayı yeniden deneyin";
+"onfido_nfc_fail_button_secondary_passport" = "Tarama yapmadan doğrulayın";
+
+"onfido_nfc_fail_list_item_remove_cover_card" = "Telefon kılıfınızı çıkarın";
+"onfido_nfc_fail_list_item_keep_contact_card" = "Tarama başarıyla yapılana kadar telefonunuzu ve kimliğinizi birbiriyle temas hâlinde tutun";
+"onfido_nfc_fail_button_primary_card" = "Taramayı yeniden deneyin";
+"onfido_nfc_fail_button_secondary_card" = "Tarama yapmadan doğrulayın";
+
+"onfido_doc_confirmation_zoom_button" = "Resmi büyüt";
+"onfido_doc_confirmation_image_accessibility" = "Belgenizin fotoğrafı. Büyütmek için iki kez dokunun.";
+"onfido_doc_zoom_body" = "Tek parmağınızı kullanarak hareket ettirin";
+"onfido_doc_zoom_button_close" = "Kapat";
+
+"onfido_video_confirmation_body" = "Videonuz kaydedildi";
+"onfido_app_title_country_select_search" = "Ara";
+"onfido_country_select_list_accessibility" = "Arama sonuçları";
+
+/* User consent */
+
+"onfido_app_title_user_consent" = "Kimliğinizi doğrulayın";
+"onfido_user_consent_prompt_no_consent_title" = "Emin misiniz?";
+"onfido_user_consent_prompt_no_consent_detail" = "Onfido'nun gizlilik beyanlarını ve hizmet şartlarını kabul etmiyorsanız kimliğinizi doğrulayamayız ve bu adımdan çıkarsınız.";
+"onfido_user_consent_prompt_button_secondary" = "Tekrar gözden geçirin";
+"onfido_user_consent_prompt_button_primary" = "Evet, beni doğrulamayın";
+"onfido_user_consent_button_primary" = "Kabul et";
+"onfido_user_consent_button_secondary" = "Kabul etme";
+
+/* User consent load error */
+
+"onfido_app_title_user_consent_load_fail" = "Kimliğinizi doğrulayın";
+"onfido_user_consent_load_fail_title" = "İçerik yüklenemedi";
+"onfido_user_consent_load_fail_detail" = "Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin";
+"onfido_user_consent_load_fail_button_primary" = "Ekranı yeniden yükleyin";
+"onfido_country_select_search_results_none_accessibility" = "Eşleşen sonuç yok";
+"onfido_country_select_search_results_one_accessibility" = "Bir sonuç bulundu";
+"onfido_country_select_search_results_multiple_accessibility" = "%d sonuç bulundu";
+"onfido_doc_confirmation_alert_crop_detail" = "Belgenin tamamının görünür olduğundan emin olun";
+"onfido_doc_confirmation_alert_crop_title" = "Kesik görüntü tespit edildi";
+"onfido_doc_upload_progress_label" = "Görüntü kalitesi kontrol ediliyor";
+"onfido_doc_capture_frame_success_accessibility" = "Görüntü alındı";
+"onfido_generic_error_timeout_title" = "Bağlantı zaman aşımı";
+"onfido_generic_error_timeout_detail" = "Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin";
+"onfido_generic_error_timeout_button_primary" = "Yeniden dene";
+"onfido_generic_processing" = "İşleniyor";
+"onfido_video_capture_turn_success_accessibility" = "Başın döndüğü tespit edildi";
+"onfido_welcome_list_header" = "Cihazınızı şu amaçlarla kullanın:";
+"onfido_welcome_list_item_doc_photo" = "Kimlik belgenizin fotoğrafını çekin";
+"onfido_welcome_list_item_doc_generic" = "Kimlik belgenizi tarayın";
+"onfido_welcome_list_item_face_photo" = "Yüzünüzün fotoğrafını çekin";
+"onfido_welcome_list_item_face_video" = "Yüzünüzün bir videosunu kaydedin";
+"onfido_doc_capture_header_live_guidance_no_doc" = "Telefonunuzu belgenin üzerinde tutun";
+"onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Belge bulunamadı. Telefonunuzu belgenin üzerinde tutun.";
+"onfido_doc_capture_header_live_guidance_distance_close" = "Belge çok yakın";
+"onfido_doc_capture_header_live_guidance_distance_close_accessibility" = "Belge kameraya çok yakın";
+"onfido_doc_capture_header_live_guidance_distance_far" = "Belge çok uzak";
+"onfido_doc_capture_header_live_guidance_distance_far_accessibility" = "Belge kameradan çok uzakta";
+"onfido_doc_capture_header_live_guidance_distance_ok" = "Bu mesafeyi koruyun";
+"onfido_doc_capture_header_live_guidance_distance_ok_accessibility" = "Belgenizle aranızdaki mesafeyi koruyun";
+"onfido_doc_capture_header_live_guidance_doc_too_left" = "Sola hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_left_accessibility" = "Cihazınızı sola hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_right" = "Sağa hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_right_accessibility" = "Cihazınızı sağa hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_high" = "Yukarı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_high_accessibility" = "Cihazınızı yukarı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high" = "Yukarı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility" = "Cihazınızı hafifçe yukarı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_low" = "Aşağı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_too_low_accessibility" = "Cihazınızı aşağı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low" = "Aşağı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility" = "Cihazınızı hafifçe aşağı hareket ettirin";
+"onfido_doc_capture_header_live_guidance_doc_position_ok" = "Görüntü alabilmek için hareketsiz durun";
+"onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility" = "Görüntü alabilmek için hareketsiz durun";
+"onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility" = "Kameradan görüntü. Telefonunuzu belgenizin ön tarafına yerleştirin, ardından telefonunuzu düz bir çizgi hâlinde yavaşça belgenizden uzaklaştırın.";
+"onfido_doc_capture_header_live_guidance_intro_doc_front" = "Telefonunuzu belgenizin önünde tutun";
+"onfido_doc_capture_header_live_guidance_intro_doc_back" = "Telefonunuzu belgenizin arkasında tutun";
+"onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility" = "Kameradan görüntü. Telefonunuzu belgenizin arka tarafına yerleştirin, ardından telefonunuzu düz bir çizgi hâlinde yavaşça belgenizden uzaklaştırın.";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Telefonunuzu pasaportunuzun fotoğraf sayfasının üzerinde tutun";
+"onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Kameradan görüntü. Telefonunuzu pasaportunuzun fotoğraf sayfasına yerleştirin, ardından telefonunuzu düz bir çizgide yavaşça uzaklaştırın.";
+"onfido_doc_capture_header_capturing" = "Sabit kalın";
+
+/* Proof of Address */
+"onfido_poa_intro_button_primary" = "Doğrulamayı başlat";
+"onfido_poa_intro_list_shows_address" = "Geçerli adresinizi göstermelidir";
+"onfido_poa_intro_list_matches_signup" = "Kayıt sırasında kullandığınız adresle eşleşmelidir";
+"onfido_poa_intro_list_most_recent" = "En güncel belgeniz olmalıdır";
+"onfido_poa_intro_subtitle" = "Aşağıdaki niteliklerde bir belgeye ihtiyacınız olacak:";
+"onfido_poa_intro_title" = "Şimdi adresinizi doğrulayalım";
+"onfido_doc_confirmation_body" = "Belge sayfasının tamamını yüklediğinizden ve ayrıntıların bulanıklık veya parlama olmadan okunabilecek netlikte olduğundan emin olun";
+"onfido_poa_guidance_instructions_label" = "Készítsen fényképet a teljes dokumentumról, és győződjön meg arról, hogy tisztán látszik:";
+"onfido_poa_capture_confirm" = "Belgeyi gönderin";
+"onfido_poa_capture_redo" = "Fotoğrafı tekrar çekin";
+"onfido_poa_capture_choose_another" = "Başka bir tane seçin";
+"onfido_poa_capture_image_accessibility" = "Büyütülmüş belge ön izlemesini göster";
+"onfido_poa_capture_enlarge" = "Belgeyi büyüt";
+"onfido_poa_capture_enlarge_move" = "Tek parmağınızı kullanarak hareket ettirin";
+"onfido_poa_capture_enlarge_close" = "Kapat";
+"onfido_poa_capture_instructions" = "Adres belgesinin ön yüzü";
+"onfido_poa_upload_instructions_take_photo_button" = "Fotoğraf çekin";
+"onfido_poa_upload_instructions_upload_button" = "Yükle";
+"onfido_poa_type_selection_title" = "Bir belge seçin";
+"onfido_poa_type_selection_title_uk" = "Bir Birleşik Krallık belgesi seçin";
+"onfido_poa_country_not_found" = "Üzgünüz. Daha fazla ülkeyi desteklemek için çalışıyoruz.";
+"onfido_poa_welcome_text" = "Adresinizi içeren bir belgenin fotoğrafını çekin";
+"onfido_poa_photo_library" = "Fotoğraf Kitaplığı";
+"onfido_poa_files" = "Dosyalar";
+"onfido_poa_cancel" = "İptal";
+"onfido_poa_err_invalid_file_title" = "Geçersiz Dosya";
+"onfido_poa_err_invalid_file_message" = "Lütfen farklı bir dosya seçin.";
+"onfido_poa_err_invalid_file_ok" = "Tamam";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Ad soyadı";
+"onfido_poa_guidance_instructions_address" = "Geçerli adres";
+"onfido_poa_guidance_instructions_issue_date" = "Düzenleme tarihi veya özet dönemi";
+"onfido_doc_select_subtitle_poa" = "Bunlar mevcut ev adresinizi göstermesi en muhtemel belgelerdir";
+"onfido_doc_select_button_bill" = "Fatura";
+"onfido_doc_select_extra_estatements_ok" = "e-beyannameler kabul edilir";
+"onfido_doc_select_button_bill_detail" = "Gaz, elektrik, su, sabit hat veya internet";
+"onfido_doc_select_extra_no_mobile" = "Üzgünüz, cep telefonu faturası kabul edilmez";
+"onfido_poa_guidance_subtitle_bill" = "Son 3 ay içinde düzenlenmiş olmalıdır";
+"onfido_doc_select_button_bank_statement" = "Banka veya kooperatif beyanı";
+"onfido_poa_guidance_subtitle_bank_statement" = "Son 3 ay içinde düzenlenmiş olmalıdır";
+"onfido_doc_select_button_tax_letter" = "Belediye Meclisi Vergi Mektubu";
+"onfido_poa_guidance_subtitle_tax_letter" = "Son 12 ay içinde düzenlenmiş olmalıdır";
+"onfido_doc_select_button_benefits_letter" = "Sosyal Yardım Mektubu";
+"onfido_doc_select_button_benefits_letter_detail" = "Devlet tarafından yetkilendirilmiş hane halkı yardımları, ör. İş arayan ödeneği, Konut yardımı, Vergi kredileri";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Son 12 ay içinde düzenlenmiş olmalıdır";
+"onfido_poa_guidance_button_primary" = "Devam et";
+"onfido_livenessV2_intro_subtitle" = "Bu işlem, gerçek bir kişi olduğunuzu doğrulamak amacıyla yapılır";
+"onfido_livenessV2_intro_note_no1" = "İlk olarak, yüzünüzü çerçeveye yerleştirin";
+"onfido_livenessV2_intro_note_no2" = "Ardından, başınızı yavaşça her iki tarafa çevirin";
+"onfido_livenessV2_intro_warning" = "Lütfen yüzünüzü ve arka planı kaydedeceğimizi unutmayın";
+"onfido_livenessV2_intro_ready_button" = "Lütfen yüzünüzü ve arka planı kaydedeceğimizi unutmayın";
+"onfido_livenessV2_success_title" = "Kimliğinizi doğrulamaya başlamak için ihtiyacımız olan tek şey bu";
+"onfido_livenessV2_success_main_button" = "Doğrulamayı gönder";
+"onfido_livenessV2_error_reload_instructions" = "Talimatları yeniden yükle";
+"onfido_avc_intro_title" = "Video kaydetme";
+"onfido_avc_intro_subtitle" = "Bu işlem, gerçek bir kişi olduğunuzu doğrulamak amacıyla yapılır";
+"onfido_avc_intro_list_item_one" = "İlk olarak, yüzünüzü çerçeveye yerleştirin";
+"onfido_avc_intro_list_item_two" = "Ardından, başınızı yavaşça her iki tarafa çevirin";
+"onfido_avc_intro_disclaimer" = "Bu işlem sırasında yüzünüz ve arka planınız kaydedilecektir";
+"onfido_avc_intro_button_primary_ready" = "Kaydı başlatın";
+"onfido_avc_face_alignment_title" = "Yüzünüzü çerçeveye yerleştirin";
+"onfido_avc_face_alignment_feedback_move_closer" = "Biraz daha yaklaşın";
+"onfido_avc_face_alignment_feedback_move_back" = "Biraz daha geri gidin";
+"onfido_avc_face_alignment_feedback_no_face_detected" = "Yüz tespit edilmedi";
+"onfido_avc_face_capture_title" = "Başınızı yavaşça her iki tarafa çevirin";
+"onfido_avc_face_capture_title_completed" = "Kayıt tamamlandı";
+"onfido_avc_face_capture_alert_timeout_title" = "Üzgünüz, kaydı yeniden başlatmamız gerekiyor";
+"onfido_avc_face_capture_alert_timeout_body" = "Kaydı tamamlamak için 15 saniyeniz var";
+"onfido_avc_face_capture_alert_timeout_button_primary" = "Yeniden dene";
+"onfido_avc_face_capture_alert_too_fast_title" = "Kafanızı çok hızlı çevirdiniz";
+"onfido_avc_face_capture_alert_too_fast_body" = "Lütfen tekrar deneyin ve başınızı daha yavaş çevirin";
+"onfido_avc_face_capture_alert_too_fast_button_primary" = "Yeniden dene";
+"onfido_avc_no_face_detected_title" = "Yüzünü tespit edemiyoruz";
+"onfido_avc_no_face_detected_list_item_lighting" = "İyi aydınlatılmış bir yerde olduğunuzdan emin olun";
+"onfido_avc_no_face_detected_list_item_eyes" = "Gözlerinizin net bir şekilde göründüğünden emin olun";
+"onfido_avc_no_face_detected_list_item_mask" = "Yüzünüzü kapatan maskeleri veya diğer eşyaları çıkardığınızdan emin olun. Gözlükleriniz kalabilir";
+"onfido_avc_no_face_detected_list_item_face" = "Sadece yüzünüzü gösterdiğinizden emin olun, kimliğinizi görmemize gerek yok";
+"onfido_avc_no_face_detected_button_primary_restart" = "Kaydı yeniden başlat";
+"onfido_avc_confirmation_title" = "Kayıt tamamlandı";
+"onfido_avc_confirmation_subtitle" = "Yüzünüzün bir videosu başarıyla kaydedildi";
+"onfido_avc_confirmation_button_primary_upload" = "Kaydı yükle";
+"onfido_avc_connection_error_title" = "Bağlantı hatası";
+"onfido_avc_connection_error_subtitle" = "Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin";
+"onfido_avc_connection_error_button_primary_reload" = "Talimatları yeniden yükle";
+"onfido_avc_face_alignment_feedback_not_centered" = "Yüz ortalanmamış";
+"onfido_avc_connection_error_button_primary_retry_upload" = "Yüklemeyi yeniden dene";
+"onfido_avc_connection_error_button_secondary_restart_recording" = "Kaydı yeniden başlat";
+"onfido_generic_errors_geoblocked_error_message" = "Hizmet kullanılamıyor";
+"onfido_doc_select_subtitle_country" = "Hangi belgeleri kabul ettiğimizi görmek için düzenleyen ülkeyi seçin";
+"onfido_doc_select_section_header_country" = "Düzenleyen ülke";
+"onfido_doc_select_section_header_doc_type" = "Kabul edilen belgeler";
+"onfido_doc_select_section_input_placeholder_country" = "Düzenleyen ülkeyi seçin";
+"onfido_doc_select_subtitle_entire_page" = "Tüm sayfa";
+"onfido_doc_select_subtitle_photo_page" = "Fotoğraf sayfası";
+"onfido_doc_select_subtitle_front_back" = "Ön ve arka";
+"onfido_doc_select_section_input_country_not_found" = "Sonuç Yok";
+"onfido_generic_errors_geoblocked_error_instruction" = "Üzgünüz, mevcut konumunuz desteklenmediği için daha fazla ilerleyemiyoruz";
+"onfido_welcome_list_item_doc" = "kimlik belgeniz";
+"onfido_welcome_list_header_photo" = "Fotoğraf çekmek için cihazınızı kullanın:";
+"onfido_welcome_list_header_record" = "Fotoğraf çekmek veya kayıt almak için cihazınızı kullanın:";
+"onfido_welcome_list_item_selfie" = "yüzünüz";
+"onfido_welcome_list_item_video" = "kendinizin bir videosu";
+"onfido_doc_capture_frame_accessibility_pp_manual" = "Kameradan görüntü. Belgenizin fotoğraf sayfasını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Kameradan görüntü. Belgenizin kapak sayfasını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_welcome_list_item_face_generic" = "Yüzünüzü tarayın";
+"onfido_permission_recovery_subtitle_cam" = "Kamera erişimi olmadan sizi doğrulayamayız";
+"onfido_doc_capture_frame_accessibility_ic_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_ic_back_manual" = "Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_rp_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_rp_back_manual" = "Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_dl_fr_front_manual" = "Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Telefonunuzu pasaportunuzun ortasına yakın bir yere yerleştirin";
+"onfido_avc_intro_title_accessibility" = "Yüzünüzün bir videosunu kaydedin";
+"onfido_avc_intro_video_accessibility" = "Tamamlanana kadar başını iki yana çeviren birinin örnek videosu";
+"onfido_avc_face_capture_frame_accessibility" = "Selfie kamerasından görüntü";
+"onfido_avc_face_capture_title_accessibility" = "Başınızı yavaşça her iki tarafa çevirin. Bir taraf tamamlandığında onay sesi duyacak ve titreşim hissedeceksiniz";
+"onfido_avc_face_capture_recording_started_accessibility" = "Kayıt başladı";
+"onfido_avc_face_capture_keep_turning_accessibility" = "Başınızı çevirmeye devam edin";
+"onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "Sol taraf tamamlandı";
+"onfido_avc_face_capture_confirmation_right_side_complete_accessibility" = "Sağ taraf tamamlandı";
+"onfido_avc_face_alignment_title_accessibility" = "Yüzünüzü cihazınızın önüne yerleştirin";
+"onfido_avc_face_alignment_feedback_no_face_detected_accessibility" = "Yüz tespit edilemedi. Yüzünüzü cihazınızın önüne yerleştirin";
+"onfido_avc_face_alignment_feedback_face_aligned_accessibility" = "Yüz hizalandı";
+"onfido_avc_face_alignment_feedback_move_closer_accessibility" = "Cihazınızı daha yakına getirin";
+"onfido_avc_face_alignment_feedback_move_back_accessibility" = "Cihazınızı daha uzağa götürün";
+"onfido_avc_face_alignment_feedback_move_left_accessibility" = "Cihazınızı sola hareket ettirin";
+"onfido_avc_face_alignment_feedback_move_right_accessibility" = "Cihazınızı sağa hareket ettirin";
+"onfido_avc_face_alignment_feedback_move_up_accessibility" = "Cihazınızı yukarı hareket ettirin";
+"onfido_avc_face_alignment_feedback_move_down_accessibility" = "Cihazınızı aşağı hareket ettirin";
+"onfido_avc_face_capture_feedback_turn_head_other_side_accessibility" = "Başınızı diğer tarafa çevirin";
+"onfido_doc_capture_detail_passport" = "";
+"onfido_doc_capture_detail_visa" = "";
+"onfido_doc_capture_detail_license_front" = "";
+"onfido_doc_capture_detail_license_back" = "";
+"onfido_doc_capture_detail_permit_front" = "";
+"onfido_doc_capture_detail_permit_back" = "";
+"onfido_doc_capture_detail_id_front" = "";
+"onfido_doc_capture_detail_id_back" = "";
+"onfido_doc_capture_detail_generic_front" = "";
+"onfido_doc_capture_detail_generic_back" = "";
+"onfido_video_confirmation_title" = "Videonuzu kontrol edin";
+"onfido_generic_back" = "geri";
+"onfido_nfc_sheet_ready_subtitle" = "Taramaya hazır";
+"onfido_nfc_sheet_scanning_instruction" = "Telefonunuzu sabit tutun";
+"onfido_nfc_sheet_success_subtitle" = "Tarama başarılı";
+"onfido_nfc_sheet_success_instruction_passport" = "Pasaportunuzu başarıyla taradık";
+"onfido_outro_body" = "Kimliğinizi doğrulamaya başlamak için ihtiyacımız olan tek şey bu";
+"onfido_permission_recovery_title_cam" = "Kamera erişimi reddedildi";
+"onfido_permission_recovery_list_item_how_to_cam" = "Cihaz ayarlarınızdan kamera erişimini kurtarabilirsiniz";
+"onfido_permission_recovery_list_item_action_cam" = "Uygulama ayarlarına gidin ve bu uygulama için kamera erişimini etkinleştirin";
+"onfido_permission_recovery_title_mic" = "Mikrofon erişimi reddedildi";
+"onfido_permission_recovery_subtitle_mic" = "Mikrofonunuzu kullanmadan sizi doğrulayamayız";
+"onfido_permission_recovery_list_item_how_to_mic" = "Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz";
+"onfido_permission_recovery_list_item_action_mic" = "Uygulama ayarlarına gidin ve bu uygulama için mikrofon erişimini etkinleştirin";
+"onfido_permission_recovery_title_both" = "Kamera ve mikrofon erişimi reddedildi";
+"onfido_permission_recovery_subtitle_both" = "Kameranız ve mikrofonunuz olmadan sizi doğrulayamayız";
+"onfido_permission_recovery_list_item_how_to_both" = "Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz";
+"onfido_permission_recovery_list_item_action_both" = "Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin";
+"onfido_permission_recovery_button_primary" = "Ayarlarda etkinleştir";
+"onfido_generic_error_network_title" = "Bağlantı kesildi";
+"onfido_doc_capture_frame_accessibility_pp_auto" = "Kameradan görüntü. Belgenizin fotoğraf sayfasını çerçeveye yerleştirin. Görüntü yakalandığında cihazınız titreyecektir";
+"onfido_doc_capture_frame_accessibility_dl_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_dl_back_manual" = "Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_dl_front_auto" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin. Görüntü yakalandığında cihazınız titreyecektir";
+"onfido_doc_capture_frame_accessibility_dl_back_auto" = "Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin";
+"onfido_doc_capture_frame_accessibility_ic_it_front_manual" = "Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_ic_it_back_manual" = "Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_button_primary" = "Belge taramasını başlat";
+"onfido_selfie_capture_button_primary" = "Yüz taramasını başlat";
+"onfido_nfc_sheet_success_instruction_card" = "Kimliğinizi başarıyla taradık";
+"onfido_nfc_intro_sheet_fail_instructions_card" = "Telefonunuzu sabit tutun";
+"onfido_nfc_intro_sheet_fail_subtitle_card" = "Kimlik ile temas kesildi";
+"onfido_doc_capture_header_scanning" = "Belge taranıyor…";
+"onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
+"onfido_nfc_intro_sheet_fail_subtitle_passport" = "Pasaportla teması kayboldu";
+"onfido_nfc_intro_sheet_fail_instructions_passport" = "Telefonunuzu hafifçe yukarı veya aşağı hareket ettirin";
+"onfido_doc_select_button_bank_statement_non_uk" = "Banka hesap özeti";
+"onfido_retry_feedback_id_expired_title" = "Belgenizin süresi doldu";
+"onfido_retry_feedback_id_unaccepted_title" = "Belge kabul edilmiyor";
+"onfido_retry_feedback_id_generic_title" = "Belgenizle ilgili bir sorun oluştu";
+"onfido_retry_feedback_selfie_generic_title" = "Selfie'nizle ilgili bir sorun oluştu";
+"onfido_retry_feedback_id_expired_subtitle" = "Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun";
+"onfido_retry_feedback_id_unaccepted_subtitle" = "Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun";
+"onfido_retry_feedback_id_generic_subtitle" = "Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun";
+"onfido_retry_feedback_selfie_generic_subtitle" = "Lütfen tekrar deneyin ve yüzünüzün görünür ve iyi aydınlatılmış olduğundan emin olun";
+"onfido_retry_feedback_button_primary" = "Tekrar deneyin";
+"onfido_workflow_complete_pass_title" = "Başarılı";
+"onfido_workflow_complete_reject_description" = "Kimliğinizi doğrulayamadık";
+"onfido_workflow_complete_reject_title" = "Reddedildi";
+"onfido_workflow_complete_pass_description" = "Kimliğinizi doğruladık";
+"onfido_workflow_erros_task_not_supported" = "Görev şu anda desteklenmiyor";
+"onfido_workflow_erros_task_not_completed" = "İş akışı görevi tamamlanamadı.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
+"onfido_workflow_erros_task_not_retrieved" = "İş akışı görevi alınamadı.";
+"onfido_workflow_erros_no_workflow_run_id" = "İş akışı çalışma kimliği ayarlanmadı.";
+"onfido_workflow_erros_generic_title" = "Sunucu hatası oluştu!";
+"onfido_workflow_erros_reload_app" = "Lütfen uygulamayı yeniden yüklemeyi deneyin ve tekrar deneyin.";
+"onfido_welcome_start_workflow_button" = "Doğrulamayı başlat";
+"onfido_avc_intro_list_item_one_accessibility" = "İlk olarak, yüzünüzü cihazınızın önünde konumlandırmanız gerekiyor";
+"onfido_avc_intro_list_item_two_accessibility" = "Sonra, başınızı yavaşça her iki tarafa çevirmeniz gerekecek";
+"onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Yüz hizalanmadı";
+"onfido_avc_no_face_detected_list_item_face_accessiblity" = "Sadece yüzünüzü gösterdiğinizden emin olun, Kimlik Belgenizi görmemize gerek yok";
+"onfido_selfie_intro_list_item_no_face_cover" = "Yüzünüzü kapatan unsurları kadrajdan çıkarın. Gözlükleriniz kalabilir";
+"onfido_selfie_intro_banner_nudity_message" = "Bu işlem sırasında yüzünüz ve arka planınız kaydedilecektir";
+"onfido_video_capture_prompt_header_microphone" = "Mikrofonunuz başka bir uygulama tarafından kullanılıyor";
+"onfido_video_capture_prompt_detail_microphone" = "Kimliğinizi doğrulamak için mikrofonunuz gereklidir. Devam eden aramaları sonlandırdığınızdan emin olun.";
+"onfido_video_capture_prompt_header_audio" = "Kaydı yeniden başlatın";
+"onfido_video_capture_prompt_detail_audio" = "Bu adımı tamamlamak için arka planda herhangi bir ses olmamalıdır. Devam eden aramaları sonlandırdığınızdan emin olun.";
+"onfido_video_intro_error_network_accessibility" = "Ağ kararsızlığı nedeniyle örnek video yüklenemiyor";
+"onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Örnek videoyu yeniden yükle";
+"onfido_doc_select_button_address_card" = "Adres kartı";
+"onfido_doc_select_button_address_card_detail" = "Geçici ve kalıcı kartlar kabul edilir";
+"onfido_poa_guidance_subtitle_address_card" = "Geçerli bir adres kartı olmalıdır";
+"onfido_poa_guidance_instructions_full_address" = "Açık adres";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Düzenleme tarihi";
+"onfido_poa_guidance_instructions_expiry_date" = "Son kullanma tarihi (varsa)";
+
+"onfido_welcome_start_workflow_button_trial" = "Doğrulamayı başlat (TEST)";
+"onfido_enter_can_title" = "CAN'ı girin";
+"onfido_enter_can_subtitle" = "Lütfen verilen numaranın belgedeki numarayla eşleştiğinden emin olun.";
+"onfido_enter_can_disclaimer" = "Belgenizin ön yüzünde bulabilirsiniz. %d hanelidir ve biraz daha büyük boyuttadır.";
+"onfido_enter_can_button_primary" = "Devam et";
+"onfido_nfc_scan_error_title" = "Belgenizi tarayamadık";
+"onfido_nfc_scan_error_list_item" = "Telefon kılıfınızı çıkarın";
+"onfido_nfc_scan_error_list_item_2" = "Tarama başladıktan sonra sabit tutun";
+"onfido_nfc_scan_error_button_primary" = "Taramayı yeniden deneyin";
+"onfido_welcome_nfc_title" = "Kimliğinizi doğrulayın";
+"onfido_welcome_nfc_subtitle" = "Sadece birkaç dakika sürer";
+"onfido_welcome_nfc_list_header_nfc" = "Cihazınızı şu amaçlarla kullanın:";
+"onfido_welcome_nfc_list_item" = "Kimlik belgenizin fotoğrafını çekin";
+"onfido_welcome_nfc_list_item_2" = "Belgenizi tarayın";
+"onfido_welcome_nfc_button_primary" = "Belgenizin fotoğrafını çekin";
+"onfido_intro_scan_title" = "Belgenizi tarayın";
+"onfido_intro_scan_subtitle" = "Aşağıdaki talimatları izleyin";
+"onfido_intro_scan_list_item" = "Kartınızı cihazınızın arkasına yerleştirin";
+"onfido_intro_scan_list_item_3" = "Tarama başladıktan sonra sabit tutun";
+"onfido_intro_scan_button_primary" = "Taramaya başla";
+"onfido_nfc_scan_sheet" = "Belgeyi yavaşça yukarı ve aşağı kaydırın";
+"onfido_nfc_scan_scanning_sheet_1" = "Tarama devam ediyor\nCihazınızı ve belgenizi sabit tutun.";
+"onfido_nfc_scan_can-required_sheet_2" = "CAN gerekli";
+"onfido_nfc_scan_lost-contact_sheet_3" = "NFC kartı ile teması kayboldu\nCihazınızı hafifçe yukarı veya aşağı hareket ettirin.";
+"onfido_nfc_scan_lost-connection_sheet_4" = "Bağlantı kesildi\nBelgenizi tarayamadık";
+"onfido_nfc_scan_incorrect-can_sheet_5" = "Yanlış CAN";
+"onfido_enter_can_error_label" = "%d %@ kaldı.";
+"onfido_enter_can_substring_attempt_singular" = "deneme";
+"onfido_enter_can_substring_attempt_plural" = "deneme";
+"onfido_nfc_scan_error_button_secondary" = "NFC olmadan doğrulanın";
+"onfido_intro_scan_animation_ios" = "Belgenizi cihazınızın üst arka kısmına yerleştirin. Tarama başladıktan sonra, onları sabit tutun.";
+"onfido_nfc_scan_sheet_success" = "Tarama başarılı";
+"onfido_avc_intro_disclaimer_camera_and_audio_on" = "Bu işlem sırasında yüzünüz, arka planınız ve sesiniz kaydedilecek";
+"onfido_welcome_list_header_doc_video" = "Kayıt yapmak için cihazınızı kullanın:";
+"onfido_welcome_list_item_doc_video_flash" = "Video kaydı sırasında cihazınızın flaşını açacağız";
+"onfido_welcome_list_item_doc_video_timeout" = "Kayıt %d saniye ile sınırlıdır";
+"onfido_doc_video_capture_header" = "Belgenizi tutarken, ön tarafı çerçevenin içinde tutun";
+"onfido_doc_video_capture_header_step1" = "Şimdi, kıpırdamayın";
+"onfido_doc_video_capture_header_step2" = "Belgenizin arkasını göstermek için yavaşça çevirin";
+"onfido_doc_video_capture_detail_step2" = "Belgeyi her zaman tamamen görünecek şekilde tutun";
+"onfido_doc_video_confirmation_button_secondary_preview" = "Videoyu ön izle";
+"onfido_doc_video_capture_button_primary_fallback" = "Sonraki adım";
+"onfido_doc_video_capture_button_primary_fallback_end" = "Kaydı bitir";
+"onfido_doc_video_capture_header_passport" = "Pasaportunuzu tutarken fotoğraf sayfasını çerçeve içinde tutun";
+"onfido_doc_video_capture_header_passport_progress" = "Sabit kalın";
+"onfido_doc_video_capture_header_paper_doc_step2" = "Dış sayfaları göstermek için belgenizi yavaşça çevirin";
+"onfido_outro_title" = "Teşekkürler";
+"onfido_doc_video_capture_stepper" = "Adım ​%d​/​%d​";
+"onfido_doc_video_capture_prompt_detail_timeout" = "Video kaydı ​%d​ saniye ile sınırlıdır";
+"onfido_doc_video_capture_alert_wrong_side" = "Belgenizin arka yüzünü gösterdiğinizden emin olun";
+"onfido_doc_video_capture_success_accessibility" = "Başarılı";
+"onfido_doc_video_capture_prompt_header_timeout" = "Çok uzun sürmüş gibi görünüyor";
+"onfido_doc_video_capture_prompt_button_timeout" = "Yeniden dene";
+"onfido_app_title_doc_video_confirmation" = "Kimliğinizi doğrulayın";
+"onfido_doc_video_confirmation_button_primary" = "Videoyu gönder";
+"onfido_doc_video_confirmation_title" = "Teşekkürler";
+"onfido_doc_video_confirmation_body" = "Videonuz kaydedildi";
+"onfido_doc_video_capture_button_primary_start" = "Kaydı başlatın";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Videoyu tekrar çek";
+"onfido_doc_video_capture_header_folded_doc_front" = "Profil resmi tarafı";
+"onfido_welcome_list_item_doc_video" = "Kimlik belgenizin bir videosunu kaydedin";
+"onfido_welcome_info_original_document" = "Orijinal belgenizin bir fotoğrafını çekin. Taramalara, ekran fotoğraflarına veya fotokopilere izin verilmez.";
+"onfido_avc_face_capture_alert_mic_conflict_title" = "Mikrofonunuz başka bir uygulama tarafından kullanılıyor";
+"onfido_avc_face_capture_alert_mic_conflict_body" = "Lütfen kayıt sırasında mikrofonunuzu kullanan tüm aktif arama veya etkinlikleri sonlandırın";
+"onfido_avc_face_capture_alert_mic_conflict_button_primary" = "Tekrar dene";
+"onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Yeniden dene";
+"onfido_avc_face_capture_alert_audio_conflict_title" = "Ses başka bir uygulama tarafından oynatılıyor";
+"onfido_avc_face_capture_alert_audio_conflict_body" = "Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın";
+
+"onfido_nfc_scan_welcome_card_title" = "NFC ile süreci hızlandırın";
+"onfido_nfc_scan_welcome_card_subtitle" = "Belgenizin NFC çipini tarayacağız";
+"onfido_nfc_scan_welcome_card_list_item" = "Belgenizi cihazınızın arkasına yerleştirin";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Cihazınızı yavaşça yukarı ve aşağı kaydırın";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Tarama başladığında, sabit tutun";
+"onfido_nfc_scan_welcome_card_button_primary" = "Taramaya başla";
+"onfido_nfc_scan_welcome_card_secondary_button" = "NFC olmadan doğrulanın";
+
+"onfido_nfc_scan_error_inter_title" = "Belgenizi tarayamadık";
+"onfido_nfc_scan_error_inter_list_item" = "Telefon kılıfınızı çıkarın";
+"onfido_nfc_scan_error_inter_list_item_2" = "Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun";
+"onfido_nfc_scan_error_inter_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_inter_secondary_button" = "NFC olmadan doğrulanın";
+
+"onfido_nfc_scan_error_final_title" = "Bu belgeyi doğrulayamadık";
+"onfido_nfc_scan_error_final_subtitle" = "Bu belge için NFC taraması gerekiyor, ancak tamamlanamadı.";
+"onfido_nfc_scan_error_final_list_item" = "Devam etmek için farklı bir belgeniz var mı?";
+"onfido_nfc_scan_error_final_primary_button" = "Farklı belge kullan";
+"onfido_nfc_scan_error_final_secondary_button" = "NFC olmadan doğrulanın";
+
+"onfido_nfc_scan_welcome_passport_title" = "NFC ile süreci hızlandırın";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Belgenizin NFC çipini tarayacağız";
+"onfido_nfc_scan_welcome_passport_list_item" = "Belgenizi düz bir yüzeye yerleştirin";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Belgenizi iç arka sayfada açın";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Belgenizi cihazınızın arkasına yerleştirin";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Cihazınızı yavaşça yukarı ve aşağı kaydırın";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Tarama başladığında, sabit tutun";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Taramaya başla";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "NFC olmadan doğrulanın";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Belgenizi tarayamadık";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Pasaport ve telefon koruyucularını çıkarın";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "NFC olmadan doğrulanın";
+
+"onfido_doc_capture_alert_too_close_title" = "Biraz daha geri gidin";
+"onfido_doc_capture_alert_rotated_title" = "Belgenizi döndürün";
+"onfido_doc_capture_alert_too_far_title" = "Biraz daha yaklaşın";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Ön tarafa çevir";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Arka tarafa çevir";
+"onfido_doc_capture_alert_hold_still_title" = "Sabit kalın";

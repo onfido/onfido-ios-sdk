@@ -6,6 +6,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.1.0] - 2023-06-16
+
+### Added
+
+- Enable consent screen buttons only when user scrolls to bottom of text
+- Added experimental feature to detect and validate document on device
+- Add swipe gesture for navigating back to previous viewControllers
+- Enabled NFC by default in `OnfidoConfig`. Added `disable()` for disabling it
+- Deprecated `withNFCReadFeature()` in `OnfidoConfig`
+- Combined NFC Intro & Read screens into single Scan screen
+- Add back swipe gesture for Photo, Video and Motion capture screens
+
+### Changed
+
+- Enhanced security around payload tampering
+- Removed Bitcode from binaries as it has been deprecated by Apple
+- Document capture: Hide shutter button momentarily when automatic capture is enabled
+
+### Fixed
+
+- Fix capture screen squeezed button and title design issue
+- Attempted fix for rare UI freeze and subsequent crash on Selfie step
+
 ## [29.0.0] - 2023-05-03
 
 ### Changed

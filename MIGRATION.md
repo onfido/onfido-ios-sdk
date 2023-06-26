@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.1.0 Migration Guide](#onfido-ios-sdk-2910-migration-guide)
 * [Onfido iOS SDK 29.0.0 Migration Guide](#onfido-ios-sdk-2900-migration-guide)
 * [Onfido iOS SDK 28.1.0 Migration Guide](#onfido-ios-sdk-2810-migration-guide)
 * [Onfido iOS SDK 28.0.0 Migration Guide](#onfido-ios-sdk-2800-migration-guide)
@@ -59,6 +60,94 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.1.0 Migration Guide
+
+### Deprecated API Changes
+
+- Deprecated `withNFCReadFeature()` in `OnfidoConfig`, as NFC is now enabled by default. Use `disableNFC()` if you want to disable NFC
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_capture_alert_too_close_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_rotated_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_too_far_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_wrong_side_front_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_wrong_side_back_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_hold_still_title` (en, fr, de, es, it, pt, nl)
+
+
+- `onfido_nfc_scan_welcome_card_title` ()
+
+- `onfido_nfc_scan_welcome_card_subtitle` ()
+
+- `onfido_nfc_scan_welcome_card_list_item` ()
+
+- `onfido_nfc_scan_welcome_card_list_item_2` ()
+
+- `onfido_nfc_scan_welcome_card_list_item_3` ()
+
+- `onfido_nfc_scan_welcome_card_button_primary` ()
+
+- `onfido_nfc_scan_welcome_card_secondary_button` ()
+
+- `onfido_nfc_scan_error_inter_title` ()
+
+- `onfido_nfc_scan_error_inter_list_item` ()
+
+- `onfido_nfc_scan_error_inter_list_item_2` ()
+
+- `onfido_nfc_scan_error_inter_primary_button` ()
+
+- `onfido_nfc_scan_error_inter_secondary_button` ()
+
+- `onfido_nfc_scan_error_final_title` ()
+
+- `onfido_nfc_scan_error_final_subtitle` ()
+
+- `onfido_nfc_scan_error_final_list_item` ()
+
+- `onfido_nfc_scan_error_final_primary_button` ()
+
+- `onfido_nfc_scan_error_final_secondary_button` ()
+
+- `onfido_nfc_scan_welcome_passport_title` ()
+
+- `onfido_nfc_scan_welcome_passport_subtitle` ()
+
+- `onfido_nfc_scan_welcome_passport_list_item` ()
+
+- `onfido_nfc_scan_welcome_passport_list_item_2` ()
+
+- `onfido_nfc_scan_welcome_passport_list_item_3` ()
+
+- `onfido_nfc_scan_welcome_passport_list_item_4` ()
+
+- `onfido_nfc_scan_welcome_passport_list_item_5` ()
+
+- `onfido_nfc_scan_welcome_passport_button_primary` ()
+
+- `onfido_nfc_scan_welcome_passport_secondary_button` ()
+
+- `onfido_nfc_scan_error_inter_passport_title` ()
+
+- `onfido_nfc_scan_error_inter_passport_list_item` ()
+
+- `onfido_nfc_scan_error_inter_passport_list_item_2` ()
+
+- `onfido_nfc_scan_error_inter_passport_primary_button` ()
+
+- `onfido_nfc_scan_error_inter_passport_secondary_button` ()
+
+
 
 ## Onfido iOS SDK 29.0.0 Migration Guide
 

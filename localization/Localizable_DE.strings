@@ -111,26 +111,18 @@
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Positionieren Sie Ihr Gesicht im angezeigten Oval";
 "onfido_video_capture_body" = "Halten Sie Ihr Gesicht innerhalb des Ovals, um mit der Aufnahme zu beginnen";
-"onfido_doc_confirmation_body_license" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
-"onfido_doc_confirmation_body_generic" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_license" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_generic" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_id" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 
 /* Document capture confirmation */
 
 "onfido_doc_confirmation_body_passport" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
-"onfido_doc_confirmation_body_permit" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
-"onfido_doc_confirmation_body_visa" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_permit" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_visa" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Stellen Sie sicher, dass Ihr Selfie Ihr Gesicht deutlich zeigt";
-"onfido_doc_capture_detail_license_back" = "";
-"onfido_doc_capture_detail_generic_back" = "";
-"onfido_doc_capture_detail_id_back" = "";
-"onfido_doc_capture_detail_permit_back" = "";
-"onfido_doc_capture_detail_license_front" = "";
-"onfido_doc_capture_detail_generic_front" = "";
-"onfido_doc_capture_detail_id_front" = "";
-"onfido_doc_capture_detail_permit_front" = "";
 /* Document capture */
 "onfido_doc_capture_header_passport" = "Positionieren Sie die Fotoseite Ihres Dokuments im Rahmen";
 "onfido_doc_capture_header_visa" = "Positionieren Sie die Visaseite Ihres Dokuments im Rahmen";
@@ -154,7 +146,6 @@
 "onfido_doc_confirmation_alert_no_doc_detail" = "Stellen Sie sicher, dass das gesamte Dokument auf dem Foto zu sehen ist";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Stellen Sie sicher, dass Ihr Gesicht sichtbar ist";
 "onfido_selfie_confirmation_alert_multiple_faces_detail" = "Nur Ihr Gesicht kann im Selfie zu sehen sein";
-"onfido_doc_capture_detail_visa" = "";
 "onfido_doc_capture_alert_no_mrz_detail" = "Stellen Sie sicher, dass das vollständige Dokument zu sehen ist";
 /* Document Error */
 "onfido_doc_capture_alert_no_mrz_title" = "Die unteren beiden Zeilen sind nicht sichtbar";
@@ -524,6 +515,16 @@
 "onfido_workflow_complete_pass_description" = "Wir haben Ihre Identität überprüft";
 "onfido_workflow_erros_task_not_supported" = "Aufgabe wird derzeit nicht unterstützt";
 "onfido_workflow_erros_task_not_completed" = "Die Workflow-Aufgabe konnte nicht abgeschlossen werden.";
+"onfido_doc_capture_detail_passport_copy" = "";
+"onfido_doc_capture_detail_visa_copy" = "";
+"onfido_doc_capture_detail_license_front_copy" = "";
+"onfido_doc_capture_detail_license_back_copy" = "";
+"onfido_doc_capture_detail_permit_front_copy" = "";
+"onfido_doc_capture_detail_permit_back_copy" = "";
+"onfido_doc_capture_detail_id_front_copy" = "";
+"onfido_doc_capture_detail_id_back_copy" = "";
+"onfido_doc_capture_detail_generic_front_copy" = "";
+"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Workflow-Aufgabe konnte nicht abgerufen werden.";
 "onfido_workflow_erros_no_workflow_run_id" = "Die Workflow-Lauf-ID ist nicht gesetzt.";
 "onfido_workflow_erros_generic_title" = "Es gab einen Serverfehler!";
@@ -609,16 +610,6 @@
 "onfido_doc_video_confirmation_button_secondary_retake" = "Video erneut aufnehmen";
 "onfido_doc_video_capture_header_folded_doc_front" = "Profilfotoseite";
 "onfido_welcome_list_item_doc_video" = "Nehmen Sie ein Video von Ihrem Ausweisdokument auf";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_welcome_info_original_document" = "Machen Sie ein Foto von Ihrem Originaldokument. Scans, Fotos von Bildschirmen oder Fotokopien sind nicht zulässig.";
 "onfido_avc_face_capture_alert_mic_conflict_title" = "Ihr Mikrofon wird von einer anderen App genutzt";
 "onfido_avc_face_capture_alert_mic_conflict_body" = "Bitte beenden Sie bei der Aufnahme alle laufenden Gespräche oder Aktivitäten, die Ihr Mikrofon nutzen";
@@ -626,3 +617,45 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Erneut versuchen";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio wird von einer anderen App abgespielt";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Bitte spielen Sie während der Aufnahme kein Audio auf Ihrem Gerät";
+
+"onfido_nfc_scan_welcome_card_title" = "Beschleunigen Sie den Prozess mit NFC";
+"onfido_nfc_scan_welcome_card_subtitle" = "Wir scannen den NFC-Chip Ihres Dokuments";
+"onfido_nfc_scan_welcome_card_list_item" = "Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Schieben Sie Ihr Gerät langsam auf und ab";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Sobald der Scan beginnt, halten Sie ihn ruhig";
+"onfido_nfc_scan_welcome_card_button_primary" = "Scannen starten";
+"onfido_nfc_scan_welcome_card_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
+
+"onfido_nfc_scan_error_inter_title" = "Wir konnten Ihr Dokument nicht scannen";
+"onfido_nfc_scan_error_inter_list_item" = "Entfernen Sie die Hülle Ihres Telefons";
+"onfido_nfc_scan_error_inter_list_item_2" = "Halten Sie den Kontakt zwischen Gerät und Dokument aufrecht, bis der Scanvorgang erfolgreich ist";
+"onfido_nfc_scan_error_inter_primary_button" = "Scannen wiederholen";
+"onfido_nfc_scan_error_inter_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
+
+"onfido_nfc_scan_error_final_title" = "Wir konnten dieses Dokument nicht überprüfen";
+"onfido_nfc_scan_error_final_subtitle" = "Für dieses Dokument ist ein NFC-Scan erforderlich, der jedoch nicht abgeschlossen werden konnte.";
+"onfido_nfc_scan_error_final_list_item" = "Möchten Sie mit einem anderen Dokument fortfahren?";
+"onfido_nfc_scan_error_final_primary_button" = "Anderes Dokument verwenden";
+"onfido_nfc_scan_error_final_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
+
+"onfido_nfc_scan_welcome_passport_title" = "Beschleunigen Sie den Prozess mit NFC";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Wir scannen den NFC-Chip Ihres Dokuments";
+"onfido_nfc_scan_welcome_passport_list_item" = "Legen Sie Ihr Dokument auf eine ebene Fläche";
+"onfido_nfc_scan_welcome_passport_list_item_2" = "Öffnen Sie Ihr Dokument auf der inneren Rückseite";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Schieben Sie Ihr Gerät langsam auf und ab";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Sobald der Scan beginnt, halten Sie ihn ruhig";
+"onfido_nfc_scan_welcome_passport_button_primary" = "Scannen starten";
+"onfido_nfc_scan_welcome_passport_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
+
+"onfido_nfc_scan_error_inter_passport_title" = "Wir konnten Ihr Dokument nicht scannen";
+"onfido_nfc_scan_error_inter_passport_list_item" = "Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons";
+"onfido_nfc_scan_error_inter_passport_list_item_2" = "Halten Sie den Kontakt zwischen Gerät und Dokument aufrecht, bis der Scanvorgang erfolgreich ist";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Scannen wiederholen";
+"onfido_nfc_scan_error_inter_passport_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
+"onfido_doc_capture_alert_too_close_title" = "Gehen Sie zurück";
+"onfido_doc_capture_alert_rotated_title" = "Drehen Sie Ihr Dokument";
+"onfido_doc_capture_alert_too_far_title" = "Rücken Sie näher heran";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Auf die Vorderseite drehen";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Auf die Rückseite drehen";
+"onfido_doc_capture_alert_hold_still_title" = "Stillhalten";
