@@ -259,18 +259,18 @@
 
 "onfido_app_title_user_consent" = "Verifieer uw identiteit";
 "onfido_user_consent_prompt_no_consent_title" = "Weet u het zeker?";
-"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
+"onfido_user_consent_prompt_no_consent_detail" = "Als u de privacyverklaringen en de servicevoorwaarden van Onfido niet accepteert, kunnen we uw identiteit niet verifiëren en zult u deze stap verlaten.";
 "onfido_user_consent_prompt_button_secondary" = "Controleer opniew";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
+"onfido_user_consent_prompt_button_primary" = "Ja, verifieer mij niet";
 "onfido_user_consent_button_primary" = "Accepteren";
-"onfido_user_consent_button_secondary" = "Niet accepteren";
+"onfido_user_consent_button_secondary" = "Niet aanvaarden";
 
 /* User consent load error */
 
 "onfido_app_title_user_consent_load_fail" = "Verifieer uw identiteit";
-"onfido_user_consent_load_fail_title" = "Content failed to load";
-"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
-"onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_user_consent_load_fail_title" = "Inhoud laden mislukt";
+"onfido_user_consent_load_fail_detail" = "Controleer of u een stabiele verbinding heeft en probeer het daarna opnieuw";
+"onfido_user_consent_load_fail_button_primary" = "Scherm opnieuw laden";
 "onfido_country_select_search_results_none_accessibility" = "Geen passende resultaten";
 "onfido_country_select_search_results_one_accessibility" = "Eén resultaat gevonden";
 "onfido_country_select_search_results_multiple_accessibility" = "%d resultaten gevonden";
@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Draaien van het hoofd gedetecteerd";
 "onfido_welcome_list_header" = "Gebruik uw apparaat om:";
 "onfido_welcome_list_item_doc_photo" = "Maak een foto van uw identiteitsbewijs";
-"onfido_welcome_list_item_doc_generic" = "Scan uw identiteitsbewijs";
+"onfido_welcome_list_item_doc_generic" = "Maak een video van uw identiteitsdocument";
 "onfido_welcome_list_item_face_photo" = "Maak een foto van uw gezicht";
 "onfido_welcome_list_item_face_video" = "Maak een fimpje van uw gezicht";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Houd uw telefoon boven het document";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Contact met NFC-kaart verloren\nBeweeg uw apparaat iets omhoog of omlaag.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Verbinding verbroken\nWe konden uw document niet scannen";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Onjuiste CAN";
-"onfido_enter_can_error_label" = "Je hebt %d %@ over.";
+"onfido_enter_can_error_label" = "Je hebt %1$d %2$s over.";
 "onfido_enter_can_substring_attempt_singular" = "poging";
 "onfido_enter_can_substring_attempt_plural" = "pogingen";
 "onfido_nfc_scan_error_button_secondary" = "Word geverifieerd zonder NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Draai naar de voorkant";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Draai naar de achterkant";
 "onfido_doc_capture_alert_hold_still_title" = "Niet bewegen";
+
+"onfido_doc_capture_alert_photo_page_title" = "Toon alleen fotopagina";
+"onfido_doc_capture_alert_tilted_title" = "Houd het document recht";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Video opnemen";

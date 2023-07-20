@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Fejforgás észlelve";
 "onfido_welcome_list_header" = "Használja eszközét a következőkhöz:";
 "onfido_welcome_list_item_doc_photo" = "Készítsen fényképet személyazonosító okmányáról";
-"onfido_welcome_list_item_doc_generic" = "Szkennelje be személyazonosító okmányát";
+"onfido_welcome_list_item_doc_generic" = "Készítsen videót személyazonosító okmányáról";
 "onfido_welcome_list_item_face_photo" = "Fényképezze le az arcát";
 "onfido_welcome_list_item_face_video" = "Készítsen videófelvételt az arcáról";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Tartsa a telefont a dokumentum fölé";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Megszakadt a kapcsolat az NFC-kártyával\nMozgassa az eszközt kissé felfele vagy lefele.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Megszakadt a kapcsolat\nNem tudtuk beolvasni a dokumentumát";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Helytelen CAN";
-"onfido_enter_can_error_label" = "Összesen %d %@ maradt.";
+"onfido_enter_can_error_label" = "Összesen %1$d %2$s maradt.";
 "onfido_enter_can_substring_attempt_singular" = "próbálkozás";
 "onfido_enter_can_substring_attempt_plural" = "próbálkozások";
 "onfido_nfc_scan_error_button_secondary" = "Ellenőrzés NFC nélkül";
@@ -658,5 +658,10 @@
 "onfido_doc_capture_alert_rotated_title" = "Forgassa el a dokumentumot";
 "onfido_doc_capture_alert_too_far_title" = "Közelítsen";
 "onfido_doc_capture_alert_wrong_side_front_title" = "Fordítsa az elülső oldalra";
-"onfido_doc_capture_alert_wrong_side_back_title" = "Fordítsa a hátsó oldalra";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Fordítsa meg a dokumentumot";
 "onfido_doc_capture_alert_hold_still_title" = "Ne mozduljon";
+
+"onfido_doc_capture_alert_photo_page_title" = "Mutassa csak a fényképes oldalt";
+"onfido_doc_capture_alert_tilted_title" = "Tartsa egyenesen az okmányt";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Videó rögzítése";

@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Aptiktas galvos pasukimas";
 "onfido_welcome_list_header" = "Naudodami savo įrenginį, galite:";
 "onfido_welcome_list_item_doc_photo" = "Nufotografuokite savo asmens tapatybės dokumentą";
-"onfido_welcome_list_item_doc_generic" = "Nuskaitykite savo asmens tapatybės dokumentą";
+"onfido_welcome_list_item_doc_generic" = "Įrašykite vaizdo įrašą su savo asmens tapatybės dokumentu";
 "onfido_welcome_list_item_face_photo" = "Nufotografuokite savo veidą";
 "onfido_welcome_list_item_face_video" = "Padarykite savo veido vaizdo įrašą";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Laikykite telefoną virš dokumento";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Nebėra sąlyčio su NFC kortele\nŠiek tiek pakelkite arba nuleiskite įrenginį.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Nebėra sąlyčio\nNepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Neteisingas CAN";
-"onfido_enter_can_error_label" = "Jums liko %d %@.";
+"onfido_enter_can_error_label" = "Jums liko %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "mėginimas";
 "onfido_enter_can_substring_attempt_plural" = "bandymai";
 "onfido_nfc_scan_error_button_secondary" = "Gauti patvirtinimą be NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pasukite į priekinę pusę";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Apverskite į galinę pusę";
 "onfido_doc_capture_alert_hold_still_title" = "Laikykite nejudindami";
+
+"onfido_doc_capture_alert_photo_page_title" = "Rodyti tik nuotraukos puslapį";
+"onfido_doc_capture_alert_tilted_title" = "Laikykite dokumentą tiesiai";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Įrašomas vaizdo įrašas";

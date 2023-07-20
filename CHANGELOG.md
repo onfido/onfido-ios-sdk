@@ -6,6 +6,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.2.0] - 2023-07-14
+
+### Added
+
+- Ability to customise logo and branding available on all Motion screens. This is an enterprise feature, please reach out to your CSM if you want to know more
+- Adding translations for live feedback on wrong passport page or tilted document.
+- Enable screen background colour customisation
+- Enable explicitly setting the user interface style
+- When using Studio, Selfie and Video are configured based on the configuration set in Studio
+
+### Changed
+
+- Increase document overlay width to 90% for all devices that do not have a 16:9 screen.
+
+### Fixed
+
+- Fixed umbrella header importing private header files
+- Added missing Norwegian localisations for document capture. Improved Hungarian message for wrong document side detected.
+- Fixed missing country setting issue on document capture Studio flow which affects capture UX and validations
+- Fixed incorrect image quality messages being reported on document confirmation screen after 3 attempts
+- Disabled swipe to dismiss gesture on loading screen in model presentation contexts
+- Fixed reporting the incorrect NFC Media ID in flow response
+
 ## [29.1.0] - 2023-06-16
 
 ### Added

@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Kepala memutar terdeteksi";
 "onfido_welcome_list_header" = "Gunakan perangkat Anda untuk:";
 "onfido_welcome_list_item_doc_photo" = "Mengambil foto dokumen identitas Anda";
-"onfido_welcome_list_item_doc_generic" = "Memindai dokumen identitas Anda";
+"onfido_welcome_list_item_doc_generic" = "Rekam video dari dokumen identitas Anda";
 "onfido_welcome_list_item_face_photo" = "Mengambil foto wajah Anda";
 "onfido_welcome_list_item_face_video" = "Merekam video wajah Anda";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Tahan ponsel Anda di hadapan dokumen";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Kehilangan kontak dengan kartu NFC\nGerakkan perangkat Anda ke atas atau ke bawah sedikit.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Koneksi terputus\nKami tidak dapat memindai dokumen Anda";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN salah";
-"onfido_enter_can_error_label" = "Anda memiliki %d %@ tersisa.";
+"onfido_enter_can_error_label" = "Anda memiliki %1$d %2$s tersisa.";
 "onfido_enter_can_substring_attempt_singular" = "upaya";
 "onfido_enter_can_substring_attempt_plural" = "upaya";
 "onfido_nfc_scan_error_button_secondary" = "Dapatkan verifikasi tanpa NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Balik ke sisi depan";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Balik ke sisi belakang";
 "onfido_doc_capture_alert_hold_still_title" = "Jangan sampai goyang";
+
+"onfido_doc_capture_alert_photo_page_title" = "Tampilkan halaman foto saja";
+"onfido_doc_capture_alert_tilted_title" = "Tahan dokumen dengan lurus";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Merekam video";

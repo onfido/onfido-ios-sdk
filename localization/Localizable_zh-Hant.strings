@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "偵測到轉頭";
 "onfido_welcome_list_header" = "使用您的裝置：";
 "onfido_welcome_list_item_doc_photo" = "拍攝身分證件相片";
-"onfido_welcome_list_item_doc_generic" = "掃描您的身份證件";
+"onfido_welcome_list_item_doc_generic" = "錄製您身份證件的影片";
 "onfido_welcome_list_item_face_photo" = "拍攝您的臉部相片";
 "onfido_welcome_list_item_face_video" = "錄製您的臉部影片";
 "onfido_doc_capture_header_live_guidance_no_doc" = "將手機置於文件上方";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "失去與 NFC 卡片的接觸\n稍微向上或向下移動裝置。";
 "onfido_nfc_scan_lost-connection_sheet_4" = "失去連線\n我們無法掃描您的文件";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN 不正確";
-"onfido_enter_can_error_label" = "目前剩下 %d %@ 嘗試次數。";
+"onfido_enter_can_error_label" = "目前剩下 %1$d %2$s 嘗試次數。";
 "onfido_enter_can_substring_attempt_singular" = "嘗試";
 "onfido_enter_can_substring_attempt_plural" = "嘗試";
 "onfido_nfc_scan_error_button_secondary" = "無需NFC即可獲得驗證";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "翻到正面";
 "onfido_doc_capture_alert_wrong_side_back_title" = "翻到背面";
 "onfido_doc_capture_alert_hold_still_title" = "保持不動";
+
+"onfido_doc_capture_alert_photo_page_title" = "僅顯示照片頁面";
+"onfido_doc_capture_alert_tilted_title" = "保持文件直立";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "錄製影片";

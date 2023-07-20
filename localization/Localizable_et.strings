@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Tuvastati pööratud pea";
 "onfido_welcome_list_header" = "Seadme abil saate teha järgmist.";
 "onfido_welcome_list_item_doc_photo" = "Isikut tõendava dokumendi pildistamine";
-"onfido_welcome_list_item_doc_generic" = "Isikut tõendava dokumendi skannimine";
+"onfido_welcome_list_item_doc_generic" = "Salvesta video oma isikut tõendavast dokumendist";
 "onfido_welcome_list_item_face_photo" = "Näo pildistamine";
 "onfido_welcome_list_item_face_video" = "Näost video salvestamine";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Hoidke telefoni dokumendi kohal";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Kontakt NFC-kiibiga kaardiga kadus\nLiigutage seadet veidi üles või alla.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ühendus katkes\nMeil ei õnnestunud teie dokumenti skannida";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Vale CAN";
-"onfido_enter_can_error_label" = "Jäänud on %d %@.";
+"onfido_enter_can_error_label" = "Jäänud on %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "katse";
 "onfido_enter_can_substring_attempt_plural" = "katset";
 "onfido_nfc_scan_error_button_secondary" = "Kinnitamine ilma NFC-ta";
@@ -659,3 +659,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pöörake esiküljele";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Pöörake tagaküljele";
 "onfido_doc_capture_alert_hold_still_title" = "Olge paigal";
+
+"onfido_doc_capture_alert_photo_page_title" = "Näita ainult fotolehte";
+"onfido_doc_capture_alert_tilted_title" = "Hoia dokumenti sirgelt";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Video salvestamine";

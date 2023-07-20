@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "تم اكتشاف التفات الرأس";
 "onfido_welcome_list_header" = "استخدم جهازك من أجل:";
 "onfido_welcome_list_item_doc_photo" = "التقط صورة لمستند هويتك";
-"onfido_welcome_list_item_doc_generic" = "امسح مستند هويتك ضوئيًا";
+"onfido_welcome_list_item_doc_generic" = "قم بتسجيل فيديو لمستند هويتك";
 "onfido_welcome_list_item_face_photo" = "التقط صورة لوجهك";
 "onfido_welcome_list_item_face_video" = "سجِّل فيديو لوجهك";
 "onfido_doc_capture_header_live_guidance_no_doc" = "امسك هاتفك فوق المستند";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "فقد الاتصال ببطاقة NFC\nحرك جهازك للأعلى أو للأسفل قليلاً.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "الاتصال مفقود\nلم نتمكن من مسح المستند ضوئيًا";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN غير صحيحة";
-"onfido_enter_can_error_label" = "لدي %d %@ متبقية.";
+"onfido_enter_can_error_label" = "لدي %1$d %2$s متبقية.";
 "onfido_enter_can_substring_attempt_singular" = "محاولة";
 "onfido_enter_can_substring_attempt_plural" = "محاولات";
 "onfido_nfc_scan_error_button_secondary" = "الحصول على التحقق دون NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "اقلبه إلى الجانب الأمامي";
 "onfido_doc_capture_alert_wrong_side_back_title" = "قلب للجانب الخلفي";
 "onfido_doc_capture_alert_hold_still_title" = "ابقَ ساكنًا";
+
+"onfido_doc_capture_alert_photo_page_title" = "أظهر صفحة الصور فقط";
+"onfido_doc_capture_alert_tilted_title" = "أمسك الوثيقة بشكل مستقيم";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "تسجيل الفيديو";

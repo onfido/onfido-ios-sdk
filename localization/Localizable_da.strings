@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Drejning af hovedet detekteret";
 "onfido_welcome_list_header" = "Brug din enhed til at:";
 "onfido_welcome_list_item_doc_photo" = "Tag et billede af dit ID-dokument";
-"onfido_welcome_list_item_doc_generic" = "Scan dit ID-dokument";
+"onfido_welcome_list_item_doc_generic" = "Optag en video af dit identitetsdokument";
 "onfido_welcome_list_item_face_photo" = "Tag et billede af dit ansigt";
 "onfido_welcome_list_item_face_video" = "Optag en video af dit ansigt";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Hold din telefon oven over dokumentet";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ingen berøring af NFC-kortet\nFlyt enheden lidt op- eller nedad.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ingen forbindelse\nVi kan ikke scanne dit dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Forkert CAN";
-"onfido_enter_can_error_label" = "Du har %d %@ tilbage.";
+"onfido_enter_can_error_label" = "Du har %1$d %2$s tilbage.";
 "onfido_enter_can_substring_attempt_singular" = "forsøg";
 "onfido_enter_can_substring_attempt_plural" = "forsøg";
 "onfido_nfc_scan_error_button_secondary" = "Bliv bekræftet uden NFC";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Vend til forsiden";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Vend til bagsiden";
 "onfido_doc_capture_alert_hold_still_title" = "Hold det stille";
+
+"onfido_doc_capture_alert_photo_page_title" = "Vis kun fotoside";
+"onfido_doc_capture_alert_tilted_title" = "Hold dokumentet lige";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Optager video";

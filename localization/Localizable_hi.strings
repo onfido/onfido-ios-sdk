@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "सिर घूमने का पता चला";
 "onfido_welcome_list_header" = "अपने डिवाइस का इस्तेमाल करके:";
 "onfido_welcome_list_item_doc_photo" = "अपनी पहचान से जुड़े डॉक्यूमेंट की फ़ोटो खींचें";
-"onfido_welcome_list_item_doc_generic" = "अपनी पहचान से जुड़े डॉक्यूमेंट को स्कैन करें";
+"onfido_welcome_list_item_doc_generic" = "अपने पहचान पत्र का वीडियो रिकॉर्ड करें";
 "onfido_welcome_list_item_face_photo" = "अपने चेहरे की फ़ोटो खींचें";
 "onfido_welcome_list_item_face_video" = "अपने चेहरे का वीडियो रिकॉर्ड करें";
 "onfido_doc_capture_header_live_guidance_no_doc" = "अपने फ़ोन को डॉक्यूमेंट के ऊपर होल्ड करें";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC कार्ड से संपर्क टूट गया\nअपने डिवाइस को थोड़ा ऊपर या नीचे की ओर ले जाएँ।";
 "onfido_nfc_scan_lost-connection_sheet_4" = "कनेक्शन टूट गया\nहम आपका डॉक्यूमेंट स्कैन नहीं कर सके";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "गलत CAN";
-"onfido_enter_can_error_label" = "आपके पास %d %@ बचे हैं।";
+"onfido_enter_can_error_label" = "आपके पास %1$d %2$s बचे हैं।";
 "onfido_enter_can_substring_attempt_singular" = "प्रयास";
 "onfido_enter_can_substring_attempt_plural" = "प्रयास";
 "onfido_nfc_scan_error_button_secondary" = "एनएफसी के बिना सत्यापित हो जाओ";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "सामने की तरफ पलटें";
 "onfido_doc_capture_alert_wrong_side_back_title" = "पीछे की तरफ पलटें";
 "onfido_doc_capture_alert_hold_still_title" = "बिना हिलाए होल्ड करें";
+
+"onfido_doc_capture_alert_photo_page_title" = "केवल फ़ोटो पेज दिखाएं";
+"onfido_doc_capture_alert_tilted_title" = "दस्तावेज़ को सीधा रखें";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "वीडियो रिकॉर्ड करना";

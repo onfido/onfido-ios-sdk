@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Wykryto obrót głowy";
 "onfido_welcome_list_header" = "Użyj urządzenia, aby:";
 "onfido_welcome_list_item_doc_photo" = "Zrobić zdjęcie swojego dokumentu tożsamości";
-"onfido_welcome_list_item_doc_generic" = "Zeskanować swój dokument tożsamości";
+"onfido_welcome_list_item_doc_generic" = "Nagraj wideo swojego dokumentu tożsamości";
 "onfido_welcome_list_item_face_photo" = "Zrobić zdjęcie swojej twarzy";
 "onfido_welcome_list_item_face_video" = "Nagrać wideo swojej twarzy";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Przytrzymaj telefon nad dokumentem";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Utracono kontakt z kartą NFC\nPrzesuń swoje urządzenie lekko w górę lub w dół.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Utracono połączenie\nNie mogliśmy zeskanować Twojego dokumentu";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Nieprawidłowy CAN";
-"onfido_enter_can_error_label" = "Zostało Ci %d %@.";
+"onfido_enter_can_error_label" = "Zostało Ci %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "prób";
 "onfido_enter_can_substring_attempt_plural" = "prób";
 "onfido_nfc_scan_error_button_secondary" = "Uzyskaj weryfikację bez NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Odwróć na przednią stronę";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Odwróć na bok";
 "onfido_doc_capture_alert_hold_still_title" = "Nie ruszaj się";
+
+"onfido_doc_capture_alert_photo_page_title" = "Pokaż tylko stronę ze zdjęciem";
+"onfido_doc_capture_alert_tilted_title" = "Trzymaj dokument prosto";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Nagrywanie wideo";

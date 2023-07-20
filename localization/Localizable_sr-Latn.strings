@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Uočeno je okretanje glave";
 "onfido_welcome_list_header" = "Upotrebite uređaj da:";
 "onfido_welcome_list_item_doc_photo" = "Snimite fotografiju identifikacionog dokumenta";
-"onfido_welcome_list_item_doc_generic" = "skenirate identifikacioni dokument";
+"onfido_welcome_list_item_doc_generic" = "Napravite video snimak svog identifikacionog dokumenta";
 "onfido_welcome_list_item_face_photo" = "snimite fotografiju lica";
 "onfido_welcome_list_item_face_video" = "snimite video lica";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Držite telefon iznad dokumenta";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Izgubljen je kontakt sa NFC karticom\nPomerajte polako uređaj gore-dole.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Veza je prekinuta\nNismo uspeli da skeniramo vaš dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Netačan CAN";
-"onfido_enter_can_error_label" = "Imate još %d %@.";
+"onfido_enter_can_error_label" = "Imate još %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "pokušaj";
 "onfido_enter_can_substring_attempt_plural" = "pokušaj(a)";
 "onfido_nfc_scan_error_button_secondary" = "Verifikujte bez NFC-a";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Окрените на предњу страну";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Окрените на задњу страну";
 "onfido_doc_capture_alert_hold_still_title" = "Ne pomerajte se";
+
+"onfido_doc_capture_alert_photo_page_title" = "Prikaži samo stranicu sa fotografijom";
+"onfido_doc_capture_alert_tilted_title" = "Držite dokument pravo";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Snimanje videa";

@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Detekce otočení hlavy";
 "onfido_welcome_list_header" = "Pomocí svého zařízení můžete:";
 "onfido_welcome_list_item_doc_photo" = "Vyfoťte si svůj doklad totožnosti";
-"onfido_welcome_list_item_doc_generic" = "Naskenujte svůj doklad totožnosti";
+"onfido_welcome_list_item_doc_generic" = "Vytvořte video svého dokladu totožnosti";
 "onfido_welcome_list_item_face_photo" = "Vyfotit svůj obličej";
 "onfido_welcome_list_item_face_video" = "Nahrát video svého obličeje";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Podržte telefon nad dokumentem";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ztráta kontaktu s kartou NFC\nPosuňte zařízení mírně nahoru nebo dolů.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ztráta spojení\nVáš dokument se nám nepodařilo naskenovat";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Nesprávný CAN";
-"onfido_enter_can_error_label" = "Zbývá vám %d %@.";
+"onfido_enter_can_error_label" = "Zbývá vám %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "pokus";
 "onfido_enter_can_substring_attempt_plural" = "pokusy";
 "onfido_nfc_scan_error_button_secondary" = "Získej ověření bez NFC";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Překlopte na přední stranu";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Překlopte na zadní stranu";
 "onfido_doc_capture_alert_hold_still_title" = "Nehýbej se";
+
+"onfido_doc_capture_alert_photo_page_title" = "Zobrazit pouze stránku s fotografiemi";
+"onfido_doc_capture_alert_tilted_title" = "Držte dokument rovně";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Nahrávání videa";

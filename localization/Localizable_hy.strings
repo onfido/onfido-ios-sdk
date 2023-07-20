@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Գլխի շարժում է նկատվել";
 "onfido_welcome_list_header" = "Օգտագործեք ձեր սարքը հետևյալ նպատակներով․";
 "onfido_welcome_list_item_doc_photo" = "Լուսանկարեք ձեր անձը հաստատող փաստաթուղթը";
-"onfido_welcome_list_item_doc_generic" = "Սկանավորեք ձեր անձը հաստատող փաստաթուղթը";
+"onfido_welcome_list_item_doc_generic" = "Ձեր անձը հաստատող փաստաթուղթի վիդեոն գրանցեք";
 "onfido_welcome_list_item_face_photo" = "Լուսանկարեք ձեր դեմքը";
 "onfido_welcome_list_item_face_video" = "Տեսագրեք ձեր դեմքը";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Հեռախոսը պահեք փաստաթղթի վրա։";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC քարտի հետ կապը կորել է\nՍարքը մի փոքր վերև կամ ներքև շարժեք։";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Կապի խափանում\nՁեր փաստաթուղթը սկանավորել չհաջողվեց";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Սխալ CAN";
-"onfido_enter_can_error_label" = "Ձեզ մնացել է %d %@։";
+"onfido_enter_can_error_label" = "Ձեզ մնացել է %1$d %2$s։";
 "onfido_enter_can_substring_attempt_singular" = "փորձ";
 "onfido_enter_can_substring_attempt_plural" = "փորձեր";
 "onfido_nfc_scan_error_button_secondary" = "Ստացեք հաստատում առանց NFC - ի";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Շրջեք առջևի կողմը";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Շրջեք հետևի կողմը";
 "onfido_doc_capture_alert_hold_still_title" = "Մի շարժվեք";
+
+"onfido_doc_capture_alert_photo_page_title" = "Ցուցադրել միայն լուսանկարի էջը";
+"onfido_doc_capture_alert_tilted_title" = "Պահեք փաստաթուղթը ուղիղ";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Տեսանյութի գրանցում";

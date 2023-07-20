@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Đã phát hiện xoay đầu";
 "onfido_welcome_list_header" = "Sử dụng thiết bị của bạn để:";
 "onfido_welcome_list_item_doc_photo" = "Chụp ảnh giấy tờ tùy thân của bạn";
-"onfido_welcome_list_item_doc_generic" = "Quét giấy tờ tùy thân của bạn";
+"onfido_welcome_list_item_doc_generic" = "Ghi lại video của giấy tờ tùy thân của bạn";
 "onfido_welcome_list_item_face_photo" = "Chụp ảnh khuôn mặt của bạn";
 "onfido_welcome_list_item_face_video" = "Quay video khuôn mặt của bạn";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Giữ điện thoại của bạn ở phía trên giấy tờ";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Mất tiếp xúc với thẻ NFC\nDi chuyển thiết bị của bạn lên hoặc xuống một chút.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Mất kết nối\nChúng tôi không thể quét giấy tờ của bạn";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN không chính xác";
-"onfido_enter_can_error_label" = "Bạn còn lại %d %@.";
+"onfido_enter_can_error_label" = "Bạn còn lại %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "lần thực hiện";
 "onfido_enter_can_substring_attempt_plural" = "lần thực hiện";
 "onfido_nfc_scan_error_button_secondary" = "Được xác minh mà không cần NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "";
 "onfido_doc_capture_alert_wrong_side_back_title" = "";
 "onfido_doc_capture_alert_hold_still_title" = "Hãy giữ yên";
+
+"onfido_doc_capture_alert_photo_page_title" = "Chỉ hiển thị trang ảnh";
+"onfido_doc_capture_alert_tilted_title" = "Giữ tài liệu thẳng";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Ghi video";

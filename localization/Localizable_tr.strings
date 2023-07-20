@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Başın döndüğü tespit edildi";
 "onfido_welcome_list_header" = "Cihazınızı şu amaçlarla kullanın:";
 "onfido_welcome_list_item_doc_photo" = "Kimlik belgenizin fotoğrafını çekin";
-"onfido_welcome_list_item_doc_generic" = "Kimlik belgenizi tarayın";
+"onfido_welcome_list_item_doc_generic" = "Kimlik belgenizin bir video kaydını yapın";
 "onfido_welcome_list_item_face_photo" = "Yüzünüzün fotoğrafını çekin";
 "onfido_welcome_list_item_face_video" = "Yüzünüzün bir videosunu kaydedin";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Telefonunuzu belgenin üzerinde tutun";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC kartı ile teması kayboldu\nCihazınızı hafifçe yukarı veya aşağı hareket ettirin.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Bağlantı kesildi\nBelgenizi tarayamadık";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Yanlış CAN";
-"onfido_enter_can_error_label" = "%d %@ kaldı.";
+"onfido_enter_can_error_label" = "%1$d %2$s kaldı.";
 "onfido_enter_can_substring_attempt_singular" = "deneme";
 "onfido_enter_can_substring_attempt_plural" = "deneme";
 "onfido_nfc_scan_error_button_secondary" = "NFC olmadan doğrulanın";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Ön tarafa çevir";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Arka tarafa çevir";
 "onfido_doc_capture_alert_hold_still_title" = "Sabit kalın";
+
+"onfido_doc_capture_alert_photo_page_title" = "Sadece fotoğraf sayfasını göster";
+"onfido_doc_capture_alert_tilted_title" = "Belgeyi düz tutun";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Video kaydediliyor";

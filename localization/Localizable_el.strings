@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Ανιχνεύτηκε στροφή κεφαλής";
 "onfido_welcome_list_header" = "Χρησιμοποιήστε τη συσκευή σας για να:";
 "onfido_welcome_list_item_doc_photo" = "Τραβήξετε μια φωτογραφία του εγγράφου ταυτότητάς σας";
-"onfido_welcome_list_item_doc_generic" = "Σαρώσετε το έγγραφο ταυτότητάς σας";
+"onfido_welcome_list_item_doc_generic" = "Καταγράψτε ένα βίντεο του εγγράφου ταυτότητάς σας";
 "onfido_welcome_list_item_face_photo" = "Τραβήξετε μια φωτογραφία του προσώπου σας";
 "onfido_welcome_list_item_face_video" = "Εγγράψτε ένα βίντεο του προσώπου σας";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Κρατήστε το τηλέφωνό σας επάνω από το έγγραφο";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Χάθηκε η επαφή με την κάρτα NFC\nΜετακινήστε τη συσκευή σας ελαφρώς προς τα πάνω ή προς τα κάτω.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Χάθηκε η σύνδεση\nΔεν ήταν δυνατή η σάρωση του εγγράφου σας";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Εσφαλμένο CAN";
-"onfido_enter_can_error_label" = "Έχετε %d %@ ακόμη.";
+"onfido_enter_can_error_label" = "Έχετε %1$d %2$s ακόμη.";
 "onfido_enter_can_substring_attempt_singular" = "προσπάθεια";
 "onfido_enter_can_substring_attempt_plural" = "προσπάθειες";
 "onfido_nfc_scan_error_button_secondary" = "Επαληθεύστε χωρίς NFC";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Γυρίστε στην μπροστινή πλευρά";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Αναποδογυρίστε στην πίσω πλευρά";
 "onfido_doc_capture_alert_hold_still_title" = "Μείνετε ακίνητος/η";
+
+"onfido_doc_capture_alert_photo_page_title" = "Εμφάνιση μόνο της σελίδας φωτογραφίας";
+"onfido_doc_capture_alert_tilted_title" = "Κρατήστε το έγγραφο ευθεία";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Καταγραφή βίντεο";

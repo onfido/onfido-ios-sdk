@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Поворот голови виявлено";
 "onfido_welcome_list_header" = "Використовуйте свій пристрій, щоб:";
 "onfido_welcome_list_item_doc_photo" = "сфотографувати документ, що посвідчує особу;";
-"onfido_welcome_list_item_doc_generic" = "відсканувати документ, що посвідчує особу;";
+"onfido_welcome_list_item_doc_generic" = "Зробіть відеозапис вашого документа, що посвідчує особу";
 "onfido_welcome_list_item_face_photo" = "сфотографувати своє обличчя;";
 "onfido_welcome_list_item_face_video" = "зняти відео свого обличчя;";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Тримайте телефон над документом";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Утрачено контакт із карткою NFC\nЗлегка перемістіть пристрій угору або вниз.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "З’єднання втрачено\nНе вдалося відсканувати документ";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Неправильний номер CAN";
-"onfido_enter_can_error_label" = "Залишилося: %d %@.";
+"onfido_enter_can_error_label" = "Залишилося: %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "спроба";
 "onfido_enter_can_substring_attempt_plural" = "спроби/спроб";
 "onfido_nfc_scan_error_button_secondary" = "Отримати підтвердження без NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Переверніть на лицьову сторону";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Переверніть на зворотний бік";
 "onfido_doc_capture_alert_hold_still_title" = "Тримайте телефон непорушно";
+
+"onfido_doc_capture_alert_photo_page_title" = "Показувати лише сторінку з фото";
+"onfido_doc_capture_alert_tilted_title" = "Тримайте документ прямо";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Запис відео";

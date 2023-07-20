@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Se detectó un giro de cabeza";
 "onfido_welcome_list_header" = "Utilice su dispositivo para:";
 "onfido_welcome_list_item_doc_photo" = "Tome una foto de su documento de identidad";
-"onfido_welcome_list_item_doc_generic" = "Escanee su documento de identidad";
+"onfido_welcome_list_item_doc_generic" = "Grabe un video de su documento de identidad";
 "onfido_welcome_list_item_face_photo" = "Tome una foto de su cara";
 "onfido_welcome_list_item_face_video" = "Grabe un vídeo de su cara";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Mantenga el documento encima del documento";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Pérdida de contacto con la tarjeta NFC\nMueva su dispositivo ligeramente hacia arriba o hacia abajo.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Conexión perdida\nNo hemos podido escanear su documento";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorrecto";
-"onfido_enter_can_error_label" = "Te quedan %d %@.";
+"onfido_enter_can_error_label" = "Te quedan %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "intente";
 "onfido_enter_can_substring_attempt_plural" = "intentos";
 "onfido_nfc_scan_error_button_secondary" = "Verifícate sin NFC";
@@ -659,3 +659,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Voltear hacia el frente";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Voltear hacia atrás";
 "onfido_doc_capture_alert_hold_still_title" = "No se mueva";
+
+"onfido_doc_capture_alert_photo_page_title" = "Mostrar solo la página de la foto";
+"onfido_doc_capture_alert_tilted_title" = "Sostenga el documento recto";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Grabando vídeo";

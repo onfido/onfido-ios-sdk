@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Hodesving oppdaget";
 "onfido_welcome_list_header" = "Bruk enheten til å:";
 "onfido_welcome_list_item_doc_photo" = "Ta et bilde av legitimasjonen din";
-"onfido_welcome_list_item_doc_generic" = "Skanne legitimasjonen din";
+"onfido_welcome_list_item_doc_generic" = "Lag en video av identitetsdokumentet ditt";
 "onfido_welcome_list_item_face_photo" = "Ta et bilde av ansiktet ditt";
 "onfido_welcome_list_item_face_video" = "Ta opp en video av ansiktet ditt";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Hold telefonen over dokumentet";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Mistet kontakten med NFC-kortet\nFlytt enheten litt opp eller ned.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Mistet tilkobling\nVi kunne ikke skanne dokumentet ditt";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Feil CAN";
-"onfido_enter_can_error_label" = "Du har %d %@ igjen.";
+"onfido_enter_can_error_label" = "Du har %1$d %2$s igjen.";
 "onfido_enter_can_substring_attempt_singular" = "forsøk";
 "onfido_enter_can_substring_attempt_plural" = "forsøk";
 "onfido_nfc_scan_error_button_secondary" = "Bli verifisert uten NFC";
@@ -659,3 +659,15 @@
 "onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
 "onfido_nfc_scan_error_final_primary_button"="Use different document";
 "onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
+
+"onfido_doc_capture_alert_photo_page_title" = "Vis kun fotoside";
+"onfido_doc_capture_alert_tilted_title" = "Hold dokumentet rett";
+"onfido_doc_capture_alert_too_close_title" = "Flytt deg lenger unna";
+"onfido_doc_capture_alert_rotated_title" = "Roter dokumentet";
+"onfido_doc_capture_alert_too_far_title" = "Flytt deg nærmere";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Vend til forsiden";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Vend til baksiden";
+"onfido_doc_capture_alert_hold_still_title" = "Hold det stille";
+
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Opptak av video";
