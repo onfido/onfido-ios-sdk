@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.2.0 Migration Guide](#onfido-ios-sdk-2920-migration-guide)
 * [Onfido iOS SDK 29.1.0 Migration Guide](#onfido-ios-sdk-2910-migration-guide)
 * [Onfido iOS SDK 29.0.0 Migration Guide](#onfido-ios-sdk-2900-migration-guide)
 * [Onfido iOS SDK 28.1.0 Migration Guide](#onfido-ios-sdk-2810-migration-guide)
@@ -60,6 +61,40 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.2.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_capture_alert_too_close_title` (no)
+
+- `onfido_doc_capture_alert_rotated_title` (no)
+
+- `onfido_doc_capture_alert_too_far_title` (no)
+
+- `onfido_doc_capture_alert_wrong_side_front_title` (no)
+
+- `onfido_doc_capture_alert_wrong_side_back_title` (no)
+
+- `onfido_doc_capture_alert_hold_still_title` (no)
+
+
+- `onfido_doc_capture_alert_photo_page_title` (en, fr, de, es, it, pt, nl)
+
+- `onfido_doc_capture_alert_tilted_title` (en, fr, de, es, it, pt, nl)
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_doc_capture_alert_wrong_side_back_title` (hu)
+
+
 
 ## Onfido iOS SDK 29.1.0 Migration Guide
 

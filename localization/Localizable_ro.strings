@@ -285,8 +285,8 @@
 "onfido_video_capture_turn_success_accessibility" = "Mișcare a capului detectată";
 "onfido_welcome_list_header" = "Utilizați dispozitivul dvs. pentru:";
 "onfido_welcome_list_item_doc_photo" = "Faceți o poză cu documentul dvs. de identitate";
-"onfido_welcome_list_item_doc_generic" = "Scanați documentul dvs. de identitate";
-"onfido_welcome_list_item_face_photo" = "Faceți o poză cu fața dvs.";
+"onfido_welcome_list_item_doc_generic" = "Înregistrați un videoclip cu documentul dvs. de identitate";
+"onfido_welcome_list_item_face_photo" = "A face o poză a feței dvs.";
 "onfido_welcome_list_item_face_video" = "Înregistrați un clip video cu fața dvs.";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Mențineți telefonul dvs. deasupra documentului";
 "onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Niciun document găsit. Mențineți telefonul dvs. deasupra documentului.";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ați pierdut contactul cu cardul NFC\nMutați ușor dispozitivul în sus sau în jos.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Conexiune pierdută\nNu am putut scana documentul dvs.";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorect";
-"onfido_enter_can_error_label" = "Mai aveți %d %@.";
+"onfido_enter_can_error_label" = "Mai aveți %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "încercare";
 "onfido_enter_can_substring_attempt_plural" = "încercări";
 "onfido_nfc_scan_error_button_secondary" = "Obțineți verificarea fără NFC";
@@ -659,3 +659,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Întoarceți spre partea din față";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Întoarceți în spate";
 "onfido_doc_capture_alert_hold_still_title" = "Țineți nemișcat";
+
+"onfido_doc_capture_alert_photo_page_title" = "Afișează doar pagina cu fotografie";
+"onfido_doc_capture_alert_tilted_title" = "Ține documentul drept";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Înregistrare video";

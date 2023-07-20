@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Pään kääntyminen havaittu";
 "onfido_welcome_list_header" = "Käytä laitettasi:";
 "onfido_welcome_list_item_doc_photo" = "ottaaksesi kuvan henkilötodistuksestasi";
-"onfido_welcome_list_item_doc_generic" = "skannataksesi henkilötodistuksesi";
+"onfido_welcome_list_item_doc_generic" = "Tee video henkilöllisyysasiakirjastasi";
 "onfido_welcome_list_item_face_photo" = "ottaaksesi kuvan kasvoistasi";
 "onfido_welcome_list_item_face_video" = "tallentaaksesi videon kasvoistasi";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Pidä puhelintasi asiakirjan yllä";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Yhteys NFC-korttiin katkesi\nSiirrä laitettasi hieman ylös tai alas.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Yhteys katkesi\nAsiakirjaasi ei voitu skannata";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Virheellinen CAN";
-"onfido_enter_can_error_label" = "Sinulla on %d %@ jäljellä.";
+"onfido_enter_can_error_label" = "Sinulla on %1$d %2$s jäljellä.";
 "onfido_enter_can_substring_attempt_singular" = "yritys";
 "onfido_enter_can_substring_attempt_plural" = "yritystä";
 "onfido_nfc_scan_error_button_secondary" = "Vahvista ilman NFC: tä";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Käännä etupuolelle";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Käännä takapuolelle";
 "onfido_doc_capture_alert_hold_still_title" = "Pidä paikallaan";
+
+"onfido_doc_capture_alert_photo_page_title" = "Näytä vain valokuvasivu";
+"onfido_doc_capture_alert_tilted_title" = "Pidä asiakirja suorassa";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Video tallennus";

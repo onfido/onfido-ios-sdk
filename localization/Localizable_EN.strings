@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Head turn detected";
 "onfido_welcome_list_header" = "Use your device to:";
 "onfido_welcome_list_item_doc_photo" = "Take a photo of your identity document";
-"onfido_welcome_list_item_doc_generic" = "Scan your identity document";
+"onfido_welcome_list_item_doc_generic" = "Record a video of your identity document";
 "onfido_welcome_list_item_face_photo" = "Take a photo of your face";
 "onfido_welcome_list_item_face_video" = "Record a video of your face";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Hold your phone over the document";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Lost contact with NFC card\nMove your device slightly up or down.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Lost connection\nWe couldn’t scan your document";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Incorrect CAN";
-"onfido_enter_can_error_label" = "You have %d %@ left.";
+"onfido_enter_can_error_label" = "You have %1$d %2$s left.";
 "onfido_enter_can_substring_attempt_singular" = "attempt";
 "onfido_enter_can_substring_attempt_plural" = "attempts";
 "onfido_nfc_scan_error_button_secondary" = "Get verified without NFC";
@@ -659,3 +659,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Flip to front side";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Flip to back side";
 "onfido_doc_capture_alert_hold_still_title" = "Hold still";
+
+"onfido_doc_capture_alert_photo_page_title" = "Show photo page only";
+"onfido_doc_capture_alert_tilted_title" = "Hold document straight";
+"ai-test" = "Deposit €0.01";
+"onfido_doc_capture_header_recording_video" = "Recording video";

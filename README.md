@@ -1154,10 +1154,11 @@ appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>
 appearance.secondaryTitleColor = <DESIRED_UI_COLOR_HERE>
 appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
 appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>
+appearance.backgroundColor = <DESIRED_UI_COLOR_HERE>
 appearance.borderCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>
 appearance.fontRegular = <DESIRED_FONT_NAME_HERE>
 appearance.fontBold = <DESIRED_FONT_NAME_HERE>
-appearance.supportDarkMode = <true | false>
+appearance.setUserInterfaceStyle(<.unspecified | .light | .dark>)
 appearance.captureSuccessColors = <CaptureSuccessColors object>
 ```
 
@@ -1169,10 +1170,11 @@ appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>;
 appearance.secondaryTitleColor = <DESIRED_UI_COLOR_HERE>;
 appearance.primaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
 appearance.secondaryBackgroundPressedColor = <DESIRED_UI_COLOR_HERE>;
+appearance.backgroundColor = <DESIRED_UI_COLOR_HERE>;
 appearance.buttonCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>;
 appearance.fontRegular = <DESIRED_FONT_NAME_HERE>;
 appearance.fontBold = <DESIRED_FONT_NAME_HERE>;
-appearance.supportDarkMode = <true | false>;
+[appearance setUserInterfaceStyle: <.unspecified | .light | .dark>];
 appearance.captureSuccessColors = <CaptureSuccessColors object>;
 ```
 
@@ -1181,10 +1183,11 @@ appearance.captureSuccessColors = <CaptureSuccessColors object>;
 - `secondaryTitleColor`: Defines the secondary button text and border color
 - `primaryBackgroundPressedColor`: Defines the primary button pressed state color
 - `secondaryBackgroundPressedColor`: Defines the secondary button pressed state color
+- `backgroundColor`: Defines the screen's background color
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
 - `fontRegular`: Defines the custom font name for the regular style labels  
 - `fontBold`: Defines the custom font name for the bold style labels   
-- `supportDarkMode`: Defines if iOS Dark Mode will be enabled on SDK screens. The value is true by default.
+- `interfaceStyle`: Defines the interface style. The value is unspecified by default.
   **Note:** This property is applicable only for Xcode 11 and above built apps and devices running on iOS 13 and above
 - `captureSuccessColors`: Defines the color values for the capture screen success auto capture state
   - `borderColor`: Defines the border color of the area of interest in capture screen
@@ -1193,12 +1196,12 @@ appearance.captureSuccessColors = <CaptureSuccessColors object>;
 
 **Dark Mode only UI customisation**
 
-To just change `supportDarkMode`, you can use initialiser below:   
+To just change the user interface style to `.dark`, you can use initialiser below:   
 
 ##### Swift
 
 ```Swift
-let appearance = Appearance(supportDarkMode: <true|false>)
+let appearance = Appearance(interfaceStyle: .dark)
 let configBuilder = OnfidoConfig.builder()
 configBuilder.withAppearance(appearance)
 ```
@@ -1206,7 +1209,7 @@ configBuilder.withAppearance(appearance)
 ##### Objective-C
 
 ```Objective-C
-ONAppearance *appearance = [[ONAppearance alloc] initWithSupportDarkMode:<true|false>];
+ONAppearance *appearance = [[ONAppearance alloc] initWithInterfaceStyle:<.light|.dark|.unspecified>];
 
 ```
 
@@ -1427,8 +1430,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 9.979|
-| Below 12.2       | up to 9.979* or up to 19.236**|
+| 12.2 and above   | 10.025|
+| Below 12.2       | up to 10.025* or up to 19.282**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  

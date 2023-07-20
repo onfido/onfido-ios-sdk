@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Konstatēta pagriezta galva";
 "onfido_welcome_list_header" = "Izmantojiet ierīci, lai:";
 "onfido_welcome_list_item_doc_photo" = "Nofotografētu savu personu apliecinošo dokumentu.";
-"onfido_welcome_list_item_doc_generic" = "Noskenētu savu personu apliecinošo dokumentu.";
+"onfido_welcome_list_item_doc_generic" = "Ierakstiet video, kurā redzams jūsu identitātes dokuments";
 "onfido_welcome_list_item_face_photo" = "Nofotografētu savu seju.";
 "onfido_welcome_list_item_face_video" = "Ierakstītu savas sejas videoklipu.";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Turiet tālruni virs dokumenta";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Pārtrūka saskare ar NFC karti\nPavirziet ierīci nedaudz augšup vai lejup.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Pārtrūka savienojums\nMēs nevarējām noskenēt jūsu dokumentu";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Nepareizs CAN";
-"onfido_enter_can_error_label" = "Jums ir atlicis %d %@.";
+"onfido_enter_can_error_label" = "Jums ir atlicis %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "mēģinājums";
 "onfido_enter_can_substring_attempt_plural" = "mēģinājumu";
 "onfido_nfc_scan_error_button_secondary" = "Iegūt verifikāciju bez NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pagrieziet uz priekšējo pusi";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Pagrieziet uz aizmuguri";
 "onfido_doc_capture_alert_hold_still_title" = "Turiet nekustīgi";
+
+"onfido_doc_capture_alert_photo_page_title" = "Rādīt tikai foto lapu";
+"onfido_doc_capture_alert_tilted_title" = "Turiet dokumentu taisni";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Ieraksta video";

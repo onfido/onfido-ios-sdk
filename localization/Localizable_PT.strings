@@ -257,20 +257,20 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verify your identity";
-"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
-"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
-"onfido_user_consent_prompt_button_secondary" = "Review again";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_button_primary" = "Acepipe";
-"onfido_user_consent_button_secondary" = "Do not accept";
+"onfido_app_title_user_consent" = "Verifique a sua identidade";
+"onfido_user_consent_prompt_no_consent_title" = "Tem a certeza?";
+"onfido_user_consent_prompt_no_consent_detail" = "Se não aceitar as declarações de privacidade e os termos de serviço da Onfido, não poderemos verificar a sua identidade e você sairá deste passo.";
+"onfido_user_consent_prompt_button_secondary" = "Reveja novamente";
+"onfido_user_consent_prompt_button_primary" = "Sim, não me verifique";
+"onfido_user_consent_button_primary" = "Aceitar";
+"onfido_user_consent_button_secondary" = "Não aceite";
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verify your identity";
-"onfido_user_consent_load_fail_title" = "Content failed to load";
-"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
-"onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_app_title_user_consent_load_fail" = "Verifique a sua identidade";
+"onfido_user_consent_load_fail_title" = "O conteúdo falhou ao carregar";
+"onfido_user_consent_load_fail_detail" = "Verifique se a sua ligação é estável e tente novamente";
+"onfido_user_consent_load_fail_button_primary" = "Recarregar ecrã";
 "onfido_country_select_search_results_none_accessibility" = "Sem resultados";
 "onfido_country_select_search_results_one_accessibility" = "Um resultado encontrados";
 "onfido_country_select_search_results_multiple_accessibility" = "%d resultados encontrados";
@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Cabeça virada detectada";
 "onfido_welcome_list_header" = "Utilize o seu dispositivo para:";
 "onfido_welcome_list_item_doc_photo" = "Tire uma fotografia de um documento de identidade";
-"onfido_welcome_list_item_doc_generic" = "Digitalizar o seu documento de identidade";
+"onfido_welcome_list_item_doc_generic" = "Faça uma gravação do seu documento de identidade";
 "onfido_welcome_list_item_face_photo" = "Tirar uma foto da sua cara";
 "onfido_welcome_list_item_face_video" = "Grave um vídeo da sua cara";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Mantenha o seu telemóvel sobre o documento";
@@ -392,9 +392,9 @@
 "onfido_avc_face_capture_alert_too_fast_body" = "Tente novamente e rode a sua cabeça mais lentamente";
 "onfido_avc_face_capture_alert_too_fast_button_primary" = "Tentar novamente";
 "onfido_avc_no_face_detected_title" = "Não conseguimos detetar o seu rosto";
-"onfido_avc_no_face_detected_list_item_lighting" = "Certifique-se de está num local com boa iluminação";
+"onfido_avc_no_face_detected_list_item_lighting" = "Certifique-se de que está num local com boa iluminação";
 "onfido_avc_no_face_detected_list_item_eyes" = "Assegure-se de que os seus olhos estão claramente visíveis";
-"onfido_avc_no_face_detected_list_item_mask" = "Certifique-se de que remove as máscaras ou outros artigos que cobrem o seu rosto. Os óculos não precisa de retirar";
+"onfido_avc_no_face_detected_list_item_mask" = "Certifique-se de que remove as máscaras ou outros objetos que cobrem o seu rosto. Os óculos não precisa de retirar";
 "onfido_avc_no_face_detected_list_item_face" = "Certifique-se de que apenas mostra a sua cara. Não precisamos de ver a sua identificação";
 "onfido_avc_no_face_detected_button_primary_restart" = "Reiniciar a gravação";
 "onfido_avc_confirmation_title" = "Gravação concluída";
@@ -558,7 +558,7 @@
 "onfido_nfc_scan_error_list_item" = "Remova a capa do celular";
 "onfido_nfc_scan_error_list_item_2" = "Assim que a digitalização começar, não se mova";
 "onfido_nfc_scan_error_button_primary" = "Repetir digitalização";
-"onfido_welcome_nfc_title" = "";
+"onfido_welcome_nfc_title" = "Verifique a sua identidade";
 "onfido_welcome_nfc_subtitle" = "";
 "onfido_welcome_nfc_list_header_nfc" = "";
 "onfido_welcome_nfc_list_item" = "";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Perda de contacto com cartão NFC\nMova o seu dispositivo ligeiramente para cima ou para baixo.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ligação perdida\nNão podíamos digitalizar o seu documento";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorrecto";
-"onfido_enter_can_error_label" = "Ainda tem %d %@.";
+"onfido_enter_can_error_label" = "Ainda tem %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "tentativa";
 "onfido_enter_can_substring_attempt_plural" = "tentativas";
 "onfido_nfc_scan_error_button_secondary" = "Seja verificado sem NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Virar para a frente";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Vire para trás";
 "onfido_doc_capture_alert_hold_still_title" = "Mantenha-se imóvel";
+
+"onfido_doc_capture_alert_photo_page_title" = "Mostre apenas a página da foto";
+"onfido_doc_capture_alert_tilted_title" = "Mantenha o documento direito";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "A gravar vídeo";

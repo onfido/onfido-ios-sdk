@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "چرخش سر تشخیص داده شد";
 "onfido_welcome_list_header" = "از دستگاه خود برای موارد زیر استفاده کنید:";
 "onfido_welcome_list_item_doc_photo" = "از مدرک هویتی خود عکس بگیرید";
-"onfido_welcome_list_item_doc_generic" = "مدارک هویتی خود را اسکن کنید";
+"onfido_welcome_list_item_doc_generic" = "یک ویدیو از سند هویتی خود ضبط کنید";
 "onfido_welcome_list_item_face_photo" = "از چهره خود عکس بگیرید";
 "onfido_welcome_list_item_face_video" = "از چهره خود فیلم بگیرید";
 "onfido_doc_capture_header_live_guidance_no_doc" = "گوشی خود را روی مدرک نگه دارید";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "به سمت جلو برگردانید";
 "onfido_doc_capture_alert_wrong_side_back_title" = "به سمت عقب برگردانید";
 "onfido_doc_capture_alert_hold_still_title" = "ثابت بمانید";
+
+"onfido_doc_capture_alert_photo_page_title" = "فقط صفحه عکس را نشان دهید";
+"onfido_doc_capture_alert_tilted_title" = "سند را راست نگه دارید";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "ضبط ویدیو";

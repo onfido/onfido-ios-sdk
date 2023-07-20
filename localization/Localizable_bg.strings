@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Засечено е движение на главата";
 "onfido_welcome_list_header" = "Използвайте устройството си, за да:";
 "onfido_welcome_list_item_doc_photo" = "Направите снимка на документа си за самоличност";
-"onfido_welcome_list_item_doc_generic" = "Сканирате документа си за самоличност";
+"onfido_welcome_list_item_doc_generic" = "Запишете видео на вашия документ за самоличност";
 "onfido_welcome_list_item_face_photo" = "Направите снимка на лицето си";
 "onfido_welcome_list_item_face_video" = "Запишете видео на лицето си";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Задръжте телефона си над документа";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Прекъснат контакт с NFC картата\nПреместете устройството си леко нагоре или надолу.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Връзката прекъсна\nНе можахме да сканираме документа ви";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Неправилен CAN";
-"onfido_enter_can_error_label" = "Остава ви %d %@.";
+"onfido_enter_can_error_label" = "Остава ви %1$d %2$s.";
 "onfido_enter_can_substring_attempt_singular" = "опит";
 "onfido_enter_can_substring_attempt_plural" = "опити";
 "onfido_nfc_scan_error_button_secondary" = "Получаване на потвърждение без NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Обърнете на предната страна";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Обърнете на задната страна";
 "onfido_doc_capture_alert_hold_still_title" = "Стойте неподвижно";
+
+"onfido_doc_capture_alert_photo_page_title" = "Показване само на страницата със снимки";
+"onfido_doc_capture_alert_tilted_title" = "Дръжте документа право";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Запис на видео";

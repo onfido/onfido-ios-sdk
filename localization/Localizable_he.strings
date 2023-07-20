@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "זוהתה תנועת ראש";
 "onfido_welcome_list_header" = "השתמש במכשיר שלך כדי:";
 "onfido_welcome_list_item_doc_photo" = "לצלם את תעודת הזהות שלך";
-"onfido_welcome_list_item_doc_generic" = "לסרוק את תעודת הזהות שלך";
+"onfido_welcome_list_item_doc_generic" = "הקלט סרטון של תעודת הזהות שלך";
 "onfido_welcome_list_item_face_photo" = "לצלם תמונה של הפנים שלך";
 "onfido_welcome_list_item_face_video" = "לצלם סרטון של הפנים שלך";
 "onfido_doc_capture_header_live_guidance_no_doc" = "החזק את הטלפון מעל המסמך";
@@ -665,3 +665,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "הפוך לצד הקדמי";
 "onfido_doc_capture_alert_wrong_side_back_title" = "הפוך לצד האחורי";
 "onfido_doc_capture_alert_hold_still_title" = "אל תזוז";
+
+"onfido_doc_capture_alert_photo_page_title" = "הצג רק דף התמונה";
+"onfido_doc_capture_alert_tilted_title" = "החזק את המסמך באופן ישר";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "מקליט וידאו";

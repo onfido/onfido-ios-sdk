@@ -113,11 +113,11 @@
 "onfido_video_capture_body" = "Halten Sie Ihr Gesicht innerhalb des Ovals, um mit der Aufnahme zu beginnen";
 "onfido_doc_confirmation_body_license" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_generic" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
-"onfido_doc_confirmation_body_id" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_id" = "Einzelheiten müssen klar lesbar sein, ohne Unschärfe oder Spiegelung";
 
 /* Document capture confirmation */
 
-"onfido_doc_confirmation_body_passport" = "Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
+"onfido_doc_confirmation_body_passport" = "Einzelheiten müssen klar lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_permit" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 "onfido_doc_confirmation_body_visa" = "Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung";
 
@@ -257,20 +257,20 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verify your identity";
-"onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
-"onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
-"onfido_user_consent_prompt_button_secondary" = "Review again";
-"onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
-"onfido_user_consent_button_primary" = "Accept";
-"onfido_user_consent_button_secondary" = "Do not accept";
+"onfido_app_title_user_consent" = "Identität überprüfen";
+"onfido_user_consent_prompt_no_consent_title" = "Bist du sicher?";
+"onfido_user_consent_prompt_no_consent_detail" = "Wenn Sie die Datenschutzerklärungen und Nutzungsbedingungen von Onfido nicht akzeptieren, können wir Ihre Identität nicht überprüfen und Sie werden diesen Schritt beenden.";
+"onfido_user_consent_prompt_button_secondary" = "Nochmal überprüfen";
+"onfido_user_consent_prompt_button_primary" = "Ja, verifizieren Sie mich nicht";
+"onfido_user_consent_button_primary" = "Akzeptieren";
+"onfido_user_consent_button_secondary" = "Nicht akzeptieren";
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verify your identity";
-"onfido_user_consent_load_fail_title" = "Content failed to load";
-"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
-"onfido_user_consent_load_fail_button_primary" = "Reload screen";
+"onfido_app_title_user_consent_load_fail" = "Identität überprüfen";
+"onfido_user_consent_load_fail_title" = "Inhalt konnte nicht geladen werden";
+"onfido_user_consent_load_fail_detail" = "Prüfen Sie, ob Ihre Internetverbindung stabil ist, und versuchen Sie es dann erneut";
+"onfido_user_consent_load_fail_button_primary" = "Bildschirm neu laden";
 "onfido_country_select_search_results_none_accessibility" = "Keine Treffer";
 "onfido_country_select_search_results_one_accessibility" = "Ein Ergebnis gefunden";
 "onfido_country_select_search_results_multiple_accessibility" = "%d Ergebnisse gefunden";
@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Kopfdrehung erkannt";
 "onfido_welcome_list_header" = "Benutzen Sie Ihr Gerät:";
 "onfido_welcome_list_item_doc_photo" = "Machen Sie ein Foto von Ihrem Ausweisdokument";
-"onfido_welcome_list_item_doc_generic" = "Scannen Sie Ihr Ausweisdokument";
+"onfido_welcome_list_item_doc_generic" = "Nehmen Sie ein Video von Ihrem Identitätsdokument auf";
 "onfido_welcome_list_item_face_photo" = "Machen Sie ein Foto von Ihrem Gesicht";
 "onfido_welcome_list_item_face_video" = "Nehmen Sie ein Video von Ihrem Gesicht auf";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Bitte halten Sie Ihr Handy über das Dokument.";
@@ -558,7 +558,7 @@
 "onfido_nfc_scan_error_list_item" = "Entfernen Sie die Hülle Ihres Telefons";
 "onfido_nfc_scan_error_list_item_2" = "Sobald der Scan beginnt, halten Sie still";
 "onfido_nfc_scan_error_button_primary" = "Scannen wiederholen";
-"onfido_welcome_nfc_title" = "";
+"onfido_welcome_nfc_title" = "Identität überprüfen";
 "onfido_welcome_nfc_subtitle" = "";
 "onfido_welcome_nfc_list_header_nfc" = "";
 "onfido_welcome_nfc_list_item" = "";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Kontakt mit NFC-Karte verloren\nBewegen Sie Ihr Gerät leicht nach oben oder unten.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Verbindung verloren\nWir konnten Ihr Dokument nicht scannen";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Falsches CAN";
-"onfido_enter_can_error_label" = "Sie haben noch %d %@ übrig.";
+"onfido_enter_can_error_label" = "Sie haben noch %1$d %2$s übrig.";
 "onfido_enter_can_substring_attempt_singular" = "Versuch";
 "onfido_enter_can_substring_attempt_plural" = "Versuche";
 "onfido_nfc_scan_error_button_secondary" = "Lassen Sie sich ohne NFC verifizieren";
@@ -659,3 +659,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Auf die Vorderseite drehen";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Auf die Rückseite drehen";
 "onfido_doc_capture_alert_hold_still_title" = "Stillhalten";
+
+"onfido_doc_capture_alert_photo_page_title" = "Nur Fotoseite anzeigen";
+"onfido_doc_capture_alert_tilted_title" = "Halten Sie das Dokument gerade";
+"ai-test" = "Zahlen Sie €0,01 ein";
+"onfido_doc_capture_header_recording_video" = "Videoaufnahme";

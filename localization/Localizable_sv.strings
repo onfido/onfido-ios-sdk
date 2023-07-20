@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Huvudvridning upptäckt";
 "onfido_welcome_list_header" = "Använd din enhet för att:";
 "onfido_welcome_list_item_doc_photo" = "Ta ett foto av ditt identitetsdokument";
-"onfido_welcome_list_item_doc_generic" = "Skanna ditt identitetsdokument";
+"onfido_welcome_list_item_doc_generic" = "Spela in en video av ditt identitetsdokument";
 "onfido_welcome_list_item_face_photo" = "Ta ett foto av ditt ansikte";
 "onfido_welcome_list_item_face_video" = "Spela in en video av ditt ansikte";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Håll telefonen över dokumentet";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Förlorade anslutningen med NFC-kort\nFlytta enheten något uppåt eller nedåt.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Förlorade anslutningen\nVi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Felaktigt CAN";
-"onfido_enter_can_error_label" = "Du har %d %@ kvar.";
+"onfido_enter_can_error_label" = "Du har %1$d %2$s kvar.";
 "onfido_enter_can_substring_attempt_singular" = "försök";
 "onfido_enter_can_substring_attempt_plural" = "försök";
 "onfido_nfc_scan_error_button_secondary" = "Bli verifierad utan NFC";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Vänd till framsidan";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Vänd till baksidan";
 "onfido_doc_capture_alert_hold_still_title" = "Håll stilla";
+
+"onfido_doc_capture_alert_photo_page_title" = "Visa endast fotosida";
+"onfido_doc_capture_alert_tilted_title" = "Håll dokumentet rakt";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "Spelar in video";

@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "고개 돌림이 감지되었습니다";
 "onfido_welcome_list_header" = "기기로 진행할 작업:";
 "onfido_welcome_list_item_doc_photo" = "신분증 서류 사진을 촬영합니다";
-"onfido_welcome_list_item_doc_generic" = "신분증 서류를 스캔합니다";
+"onfido_welcome_list_item_doc_generic" = "당신의 신분증 문서를 비디오로 기록하세요";
 "onfido_welcome_list_item_face_photo" = "얼굴 사진을 촬영합니다";
 "onfido_welcome_list_item_face_video" = "얼굴 동영상을 녹화합니다";
 "onfido_doc_capture_header_live_guidance_no_doc" = "서류 위에 휴대폰 배치하기";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC 카드와의 연결이 끊겼습니다.\n기기를 위아래로 천천히 옮기세요.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "연결이 끊겼습니다\n서류를 스캔할 수 없습니다";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN이 올바르지 않습니다";
-"onfido_enter_can_error_label" = "%d%@이(가) 남았습니다.";
+"onfido_enter_can_error_label" = "%1$d%2$s이(가) 남았습니다.";
 "onfido_enter_can_substring_attempt_singular" = "회 시도";
 "onfido_enter_can_substring_attempt_plural" = "회 시도";
 "onfido_nfc_scan_error_button_secondary" = "NFC 없이 인증 받기";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "앞면으로 뒤집기";
 "onfido_doc_capture_alert_wrong_side_back_title" = "뒷면으로 뒤집기";
 "onfido_doc_capture_alert_hold_still_title" = "움직이지 마세요";
+
+"onfido_doc_capture_alert_photo_page_title" = "사진 페이지만 표시";
+"onfido_doc_capture_alert_tilted_title" = "문서를 곧게 들어주세요";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "비디오 녹화";

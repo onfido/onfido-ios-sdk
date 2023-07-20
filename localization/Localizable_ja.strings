@@ -285,7 +285,7 @@
 "onfido_video_capture_turn_success_accessibility" = "顔の回転が検出されました";
 "onfido_welcome_list_header" = "デバイスを使用して次のことを行います。";
 "onfido_welcome_list_item_doc_photo" = "身分証明書の写真を撮影する";
-"onfido_welcome_list_item_doc_generic" = "本人確認書類をスキャンする";
+"onfido_welcome_list_item_doc_generic" = "あなたの身分証明書のビデオを記録してください";
 "onfido_welcome_list_item_face_photo" = "顔写真を撮る";
 "onfido_welcome_list_item_face_video" = "顔の動画を録画する";
 "onfido_doc_capture_header_live_guidance_no_doc" = "ドキュメントの上でスマートフォンを固定してください";
@@ -575,7 +575,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFCカードとの接続を失いました\nデバイスをわずかに上下に動かしてください。";
 "onfido_nfc_scan_lost-connection_sheet_4" = "接続が失われました\nドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CANが正しくありません";
-"onfido_enter_can_error_label" = "%d%@が残っています。";
+"onfido_enter_can_error_label" = "%1$d%2$sが残っています。";
 "onfido_enter_can_substring_attempt_singular" = "試行";
 "onfido_enter_can_substring_attempt_plural" = "試行";
 "onfido_nfc_scan_error_button_secondary" = "NFCなしで認証を受ける";
@@ -660,3 +660,8 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "表側に反転";
 "onfido_doc_capture_alert_wrong_side_back_title" = "裏側に裏返す";
 "onfido_doc_capture_alert_hold_still_title" = "そのまま動かさないでください";
+
+"onfido_doc_capture_alert_photo_page_title" = "写真ページのみを表示";
+"onfido_doc_capture_alert_tilted_title" = "書類をまっすぐに保持してください";
+"ai-test" = "";
+"onfido_doc_capture_header_recording_video" = "ビデオを録画する";
