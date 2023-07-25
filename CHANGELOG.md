@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.2.1] - 2023-07-24
+
+### Fixed
+
+- Fixed USA and Canadian API calls that were incorrectly calling EU servers
+
 ## [29.2.0] - 2023-07-14
 
 ### Added
@@ -28,6 +34,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed incorrect image quality messages being reported on document confirmation screen after 3 attempts
 - Disabled swipe to dismiss gesture on loading screen in model presentation contexts
 - Fixed reporting the incorrect NFC Media ID in flow response
+- Fixed endless spinner appearing when navigating back from document capturing screen
 
 ## [29.1.0] - 2023-06-16
 
