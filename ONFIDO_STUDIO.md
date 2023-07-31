@@ -43,16 +43,6 @@ pod 'Onfido'
 
 Run `pod install` to install the SDK.
 
-##### OnfidoExtended
-
-[![Version](https://img.shields.io/cocoapods/v/OnfidoExtended.svg?style=flat)](http://cocoapods.org/pods/OnfidoExtended)
-
-You can install the extended version of the Onfido SDK, which includes fraud detection signals, through Cocoapods by adding the following to your Podfile:
-
-```ruby
-pod 'OnfidoExtended'
-```
-
 ### 2. Build a configuration object
 
 To initiaise the SDK, you must provide a `workflowRunId`, obtained by [creating a workflow run](https://documentation.onfido.com/#create-workflow-run), and an `sdkToken`, obtained by [generating an SDK token](https://documentation.onfido.com/#generate-sdk-token).

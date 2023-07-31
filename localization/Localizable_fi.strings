@@ -670,3 +670,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Pidä asiakirja suorassa";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video tallennus";
+"onfido_doc_capture_header_recording_complete" = "Tallennus valmis";

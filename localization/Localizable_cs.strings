@@ -670,3 +670,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Držte dokument rovně";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Nahrávání videa";
+"onfido_doc_capture_header_recording_complete" = "Nahrávání bylo dokončeno";

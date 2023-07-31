@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Tahan dokumen dengan lurus";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Merekam video";
+"onfido_doc_capture_header_recording_complete" = "Perekaman selesai";

@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Tartsa egyenesen az okmányt";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Videó rögzítése";
+"onfido_doc_capture_header_recording_complete" = "Felvétel kész";

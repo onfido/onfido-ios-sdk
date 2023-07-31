@@ -664,3 +664,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Halten Sie das Dokument gerade";
 "ai-test" = "Zahlen Sie €0,01 ein";
 "onfido_doc_capture_header_recording_video" = "Videoaufnahme";
+"onfido_doc_capture_header_recording_complete" = "Aufnahme abgeschlossen";

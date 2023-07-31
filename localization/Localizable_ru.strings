@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Держите документ прямо";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Запись видео";
+"onfido_doc_capture_header_recording_complete" = "Запись завершена";

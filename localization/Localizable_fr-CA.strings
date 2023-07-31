@@ -670,3 +670,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Tenez le document droit";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Enregistrement vidéo";
+"onfido_doc_capture_header_recording_complete" = "Enregistrement terminé";

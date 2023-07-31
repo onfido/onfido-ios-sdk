@@ -8,9 +8,7 @@ import Onfido
 import UIKit
 
 final class ViewController: UIViewController {
-        
     @IBAction func verifyUser(_ sender: Any) {
-        
         let responseHandler: (OnfidoResponse) -> Void = { response in
             
             if case OnfidoResponse.error(let innerError) = response {

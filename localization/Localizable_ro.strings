@@ -664,3 +664,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Ține documentul drept";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Înregistrare video";
+"onfido_doc_capture_header_recording_complete" = "Înregistrare finalizată";

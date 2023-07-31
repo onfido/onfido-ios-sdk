@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "문서를 곧게 들어주세요";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "비디오 녹화";
+"onfido_doc_capture_header_recording_complete" = "녹화 완료";

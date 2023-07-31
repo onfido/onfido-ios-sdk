@@ -671,3 +671,4 @@
 
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Opptak av video";
+"onfido_doc_capture_header_recording_complete" = "Opptaket er fullført";
