@@ -664,3 +664,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Hoia dokumenti sirgelt";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video salvestamine";
+"onfido_doc_capture_header_recording_complete" = "Salvestamine lõpetatud";

@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "書類をまっすぐに保持してください";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "ビデオを録画する";
+"onfido_doc_capture_header_recording_complete" = "記録が完了しました";

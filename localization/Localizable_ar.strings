@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "أمسك الوثيقة بشكل مستقيم";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "تسجيل الفيديو";
+"onfido_doc_capture_header_recording_complete" = "اكتمل التسجيل";

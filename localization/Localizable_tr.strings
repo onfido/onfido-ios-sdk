@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Belgeyi düz tutun";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video kaydediliyor";
+"onfido_doc_capture_header_recording_complete" = "Kayıt tamamlandı";

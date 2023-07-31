@@ -670,3 +670,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Hold dokumentet lige";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Optager video";
+"onfido_doc_capture_header_recording_complete" = "Optagelsen er fuldført";

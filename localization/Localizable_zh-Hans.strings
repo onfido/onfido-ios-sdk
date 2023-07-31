@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "保持文件直立";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "录制视频";
+"onfido_doc_capture_header_recording_complete" = "录制完成";

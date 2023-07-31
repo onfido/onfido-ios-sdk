@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Håll dokumentet rakt";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Spelar in video";
+"onfido_doc_capture_header_recording_complete" = "Inspelning slutförd";

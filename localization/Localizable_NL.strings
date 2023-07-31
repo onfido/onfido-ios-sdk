@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Houd het document recht";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video opnemen";
+"onfido_doc_capture_header_recording_complete" = "Opname voltooid";

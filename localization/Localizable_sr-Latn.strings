@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Držite dokument pravo";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Snimanje videa";
+"onfido_doc_capture_header_recording_complete" = "Snimanje je završeno";

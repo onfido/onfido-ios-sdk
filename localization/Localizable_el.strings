@@ -670,3 +670,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Κρατήστε το έγγραφο ευθεία";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Καταγραφή βίντεο";
+"onfido_doc_capture_header_recording_complete" = "Η εγγραφή ολοκληρώθηκε";

@@ -664,3 +664,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Hold document straight";
 "ai-test" = "Deposit €0.01";
 "onfido_doc_capture_header_recording_video" = "Recording video";
+"onfido_doc_capture_header_recording_complete" = "Recording complete";

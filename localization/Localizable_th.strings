@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "ถือเอกสารให้ตรง";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "กำลังบันทึกวิดีโอ";
+"onfido_doc_capture_header_recording_complete" = "บันทึกเสร็จสมบูรณ์";

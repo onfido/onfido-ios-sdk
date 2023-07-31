@@ -665,3 +665,4 @@
 "onfido_doc_capture_alert_tilted_title" = "Tieni il documento dritto";
 "ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Registrazione video";
+"onfido_doc_capture_header_recording_complete" = "Registrazione completata";

@@ -124,7 +124,7 @@ func getSDKToken(_ completion: @escaping (String) -> Void) {
     completion(myNewSDKtoken)
 }
 
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN>", expireHandler: getSDKToken)
 ```
 
@@ -172,16 +172,6 @@ pod 'Onfido'
 ```
 
 Run `pod install` to get the SDK.
-
-##### OnfidoExtended
-
-[![Version](https://img.shields.io/cocoapods/v/OnfidoExtended.svg?style=flat)](http://cocoapods.org/pods/OnfidoExtended)
-
-You can install the extended version of the Onfido SDK, which includes fraud detection signals, through Cocoapods by adding the following to your Podfile:
-
-```ruby
-pod 'OnfidoExtended'
-```
 
 #### Manual installation
 
@@ -233,7 +223,7 @@ Once you have an added the SDK as a dependency, and you have an applicant ID, yo
 #### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -281,19 +271,17 @@ if (variantConfigError == NULL) {
 #### Swift
 
 ```swift
-let onfidoRun = try! onfidoFlow.run()
-
-self.present(onfidoRun, animated: true, completion: nil) //`self` should be your view controller
+try onfidoRun.run(from: yourViewController, animated: true) //`yourViewController` should be your view controller
 ```
 
 #### Objective-C
 
 ```Objective-C
 NSError *runError = NULL;
-UIViewController *onfidoController = [onFlow runAndReturnError:&runError];
+[onFlow runFrom:yourViewController animated:YES error:&runError completion:nil]; //`yourViewController` should be your view controller
 
-if (runError == NULL) {
-    [self presentViewController:onfidoController animated:YES completion:NULL];
+if (runError != NULL) {
+    // do fallback logic
 }
 ```
 
@@ -453,8 +441,7 @@ You can handle run exceptions in Swift with a `do/catch` as shown below:
 
 ```swift
 do {
-  let onfidoRun = try self.onfidoFlow!.run()
-  self.present(onfidoRun, animated: true, completion: nil)
+  try onfidoFlow.run(from: yourViewController, animated: true)
 }
 catch let error {
   switch error {
@@ -535,7 +522,7 @@ You can handle run exceptions as shown below:
 
 ```Objective-C
 NSError *runError = NULL;
-UIViewController *onfidoController = [onFlow runAndReturnError:&runError];
+[onFlow runFrom:yourViewController animated:YES error:&runError completion:nil]; //`yourViewController` should be your view controller
 
 if (runError) {
     switch (runError.code) {
@@ -549,8 +536,6 @@ if (runError) {
             // do something about it here
             break;
     }
-} else {
-    [self presentViewController:onfidoController animated:YES completion:NULL];
 }
 ```
 
@@ -677,7 +662,7 @@ You can show the welcome screen by calling `configBuilder.withWelcomeStep()` in 
 ##### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withWelcomeStep()
     ...
     .build()
@@ -783,7 +768,7 @@ For example, to only capture UK driving licenses:
 ##### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR")))
     .build()
@@ -837,7 +822,7 @@ For example, for a folded Italian national identity card:
 ##### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("YOUR_SDK_TOKEN_HERE")
     .withDocumentStep(ofType: .nationalIdentityCard(config: NationalIdentityConfiguration(documentFormat: .folded, country: "ITA")))
     .build()
@@ -874,7 +859,7 @@ For example, to show only the `passport` and `drivingLicence` document types:
 #### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withDocumentStep(ofSelectableTypes: [.passport, .drivingLicence])
 ```
 
@@ -973,7 +958,7 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 To configure for a live photo:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -984,7 +969,7 @@ let config = try! OnfidoConfig.builder()
 To configure for a live video:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -1005,7 +990,7 @@ Please note that if no fallback is configured and Motion is not supported on the
 To configure for Motion with fallback to capturing a live photo:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -1019,7 +1004,7 @@ let config = try! OnfidoConfig.builder()
 To configure for Motion with fallback to capturing a live video:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -1033,7 +1018,7 @@ let config = try! OnfidoConfig.builder()
 To configure for Motion with no fallback:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -1044,7 +1029,7 @@ let config = try! OnfidoConfig.builder()
 To configure for Motion with audio recording:
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep()
@@ -1086,7 +1071,7 @@ In the Proof of Address step, a user picks the issuing country and type of docum
 ##### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withProofOfAddressStep()
     .build()
@@ -1178,7 +1163,7 @@ appearance.fontBold = <DESIRED_FONT_NAME_HERE>;
 appearance.captureSuccessColors = <CaptureSuccessColors object>;
 ```
 
-- `primaryColor`: Defines the icon background color, button color and back navigation button color  
+- `primaryColor`: Defines the button color and back navigation button color  
 - `primaryTitleColor`: Defines the primary button text color
 - `secondaryTitleColor`: Defines the secondary button text and border color
 - `primaryBackgroundPressedColor`: Defines the primary button pressed state color
@@ -1286,7 +1271,7 @@ You can find the keys for the localizable strings under the [`localization`](loc
 #### Swift
 
 ```swift
-let config = try! OnfidoConfig.builder()
+let config = try OnfidoConfig.builder()
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
     .withWelcomeStep()
     .withDocumentStep(ofType: .drivingLicence(config: DrivingLicenceConfiguration(country: "GBR")))
@@ -1430,8 +1415,8 @@ Check the following before you go live:
 
 | User iOS Version | SDK Size Impact (MB)              |
 |------------------|-----------------------------------|
-| 12.2 and above   | 10.025|
-| Below 12.2       | up to 10.025* or up to 19.282**|
+| 12.2 and above   | 10.07|
+| Below 12.2       | up to 10.07* or up to 19.327**|
 
 
 **\*** If the application is in Swift but doesn't include any Swift libraries that Onfido iOS SDK requires  
@@ -1456,7 +1441,7 @@ For more information about the hashes, please email [ios-sdk@onfido.com](mailto:
 #### Swift
 
 ```swift
-    let config = try! OnfidoConfig.builder()
+    let config = try OnfidoConfig.builder()
     ...
     do {
       config.withCertificatePinning(try CertificatePinningConfiguration(hashes: ["<EXAMPLE_HASH>"]))
