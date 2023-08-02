@@ -1159,7 +1159,7 @@ appearance.backgroundColor = <DESIRED_UI_COLOR_HERE>;
 appearance.buttonCornerRadius = <DESIRED_CGFLOAT_BORDER_RADIUS_HERE>;
 appearance.fontRegular = <DESIRED_FONT_NAME_HERE>;
 appearance.fontBold = <DESIRED_FONT_NAME_HERE>;
-[appearance setUserInterfaceStyle: <.unspecified | .light | .dark>];
+[appearance setUserInterfaceStyle: <UIUserInterfaceStyleUnspecified | UIUserInterfaceStyleLight | UIUserInterfaceStyleDark>];
 appearance.captureSuccessColors = <CaptureSuccessColors object>;
 ```
 
@@ -1172,30 +1172,34 @@ appearance.captureSuccessColors = <CaptureSuccessColors object>;
 - `borderCornerRadius`: Defined border corner radius for all the buttons (default 5.0)
 - `fontRegular`: Defines the custom font name for the regular style labels  
 - `fontBold`: Defines the custom font name for the bold style labels   
-- `interfaceStyle`: Defines the interface style. The value is unspecified by default.
+- `interfaceStyle`: Defines the interface style
   **Note:** This property is applicable only for Xcode 11 and above built apps and devices running on iOS 13 and above
 - `captureSuccessColors`: Defines the color values for the capture screen success auto capture state
   - `borderColor`: Defines the border color of the area of interest in capture screen
   - `tickViewImageTintColor`: Defines the tick icon's tint color shown in capture screen after auto capture happens
   - `tickViewBackgroundColor`: Defines the tick icon's background color shown in capture screen after auto capture happens
 
-**Dark Mode only UI customisation**
+**Dark Mode Customization**
 
-To just change the user interface style to `.dark`, you can use initialiser below:   
+`interfaceStyle` allows you to force light or dark mode via `.dark` and `.light` respectively. By default it is set to `.unspecified`, which will follow the system's interface style.
+
+**Note:**
+The previous attribute `supportDarkMode` is now deprecated. Please use `interfaceStyle` instead.
+
+For example, to set the interface style to `.dark`, you can use the code below:
 
 ##### Swift
 
 ```Swift
-let appearance = Appearance(interfaceStyle: .dark)
-let configBuilder = OnfidoConfig.builder()
-configBuilder.withAppearance(appearance)
+let appearance = Appearance()
+appearance.setUserInterfaceStyle(.dark)
 ```
 
 ##### Objective-C
 
 ```Objective-C
-ONAppearance *appearance = [[ONAppearance alloc] initWithInterfaceStyle:<.light|.dark|.unspecified>];
-
+ONAppearance *appearance = [ONAppearance new];
+[appearance setUserInterfaceStyle:UIUserInterfaceStyleDark];
 ```
 
 #### Applying the Appearance object
