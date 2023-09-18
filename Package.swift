@@ -17,8 +17,8 @@ let package = Package(
         
             .binaryTarget(
                 name: "Onfido",
-                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v29.4.0.zip",
-                checksum: "bf3bda8fa2eadcab8d8ad2de293d101a400ae1d0f542d40eac25d76a7eab1406"
+                url: "https://s3-eu-west-1.amazonaws.com/onfido-sdks/ios/Onfido-v29.4.2.zip",
+                checksum: "af6c161c016fc7c50e36679b1a7428d3c01119f1bbefb47f3eeae33a4f710901"
             ),
         
 
