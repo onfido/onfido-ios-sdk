@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Поместите страницу с визой в Вашем документе в рамку";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Загрузка";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Поместите страницу с фото в Вашем документе в рамку";
 "onfido_doc_capture_header_license_back" = "Поместите оборотную сторону документа в рамку";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Выберите другой документ";
 "onfido_welcome_button_primary" = "Начать";
 "onfido_video_capture_button_primary_start" = "Начать запись";
-"onfido_video_confirmation_button_primary" = "Загрузить видео";
+"onfido_video_confirmation_button_primary" = "Отправить видео";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Предлагаемая страна";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Начать сканирование";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Разместите телефон посередине паспорта";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Сканирование...";
 
 "onfido_nfc_intro_title_card" = "Отсканируйте карточку NFC";
 "onfido_nfc_intro_subtitle_card" = "Поместите телефон на карту и держите ее рядом с верхней частью телефона";
 "onfido_nfc_intro_button_primary_card" = "Начать сканирование";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Поместите телефон на карточку";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Мы не смогли отсканировать ваш паспорт";
 "onfido_nfc_fail_title_card" = "Не удалось отсканировать Вашу карточку NFC";
@@ -322,7 +321,7 @@
 "onfido_poa_intro_button_primary" = "Начать проверку";
 "onfido_poa_intro_list_shows_address" = "Содержит Ваш текущий адрес";
 "onfido_poa_intro_list_matches_signup" = "Соответствует адресу, который Вы использовали при регистрации";
-"onfido_poa_intro_list_most_recent" = "Является самым недавним Вашим документом";
+"onfido_poa_intro_list_most_recent" = "Является вашим самым недавним документом";
 "onfido_poa_intro_subtitle" = "Вам понадобится документ, который:";
 "onfido_poa_intro_title" = "Давайте проверим Ваш адрес";
 "onfido_doc_confirmation_body" = "Убедитесь, что Вы загрузили всю страницу документа, данные четко видны, нет размытия или бликов";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Доступ к камере можно восстановить с помощью настроек устройства";
 "onfido_permission_recovery_list_item_action_cam" = "Перейдите в настройки приложения и включите доступ к камере для этого приложения";
 "onfido_permission_recovery_title_mic" = "Доступ к микрофону запрещен";
-"onfido_permission_recovery_subtitle_mic" = "Мы не можем верифицировать Вас без микрофона";
 "onfido_permission_recovery_list_item_how_to_mic" = "Доступ к микрофону можно восстановить с помощью настроек устройства";
 "onfido_permission_recovery_list_item_action_mic" = "Перейдите в настройки приложения и включите доступ к микрофону для этого приложения";
 "onfido_permission_recovery_title_both" = "Доступ к камере и микрофону запрещен";
-"onfido_permission_recovery_subtitle_both" = "Мы не можем верифицировать вас без использования камеры и микрофона";
 "onfido_permission_recovery_list_item_how_to_both" = "Доступ к камере и микрофону можно восстановить с помощью настроек устройства";
 "onfido_permission_recovery_list_item_action_both" = "Перейдите в настройки приложения и включите доступ к камере и микрофону для этого приложения";
 "onfido_permission_recovery_button_primary" = "Включить в настройках";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Мы подтвердили Вашу личность";
 "onfido_workflow_erros_task_not_supported" = "Задача в настоящее время не поддерживается";
 "onfido_workflow_erros_task_not_completed" = "Не удалось завершить задачу рабочего процесса.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Не удалось получить задачу рабочего процесса.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID выполнения рабочего процесса не задан.";
 "onfido_workflow_erros_generic_title" = "Произошла ошибка сервера.";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Контакт с картой NFC утерян\nПереместите устройство немного вверх и вниз.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Соединение потеряно\nНе удалось отсканировать документ";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Неправильный CAN";
-"onfido_enter_can_error_label" = "У Вас осталось %1$d%2$s";
+"onfido_enter_can_error_label" = "У Вас осталось %1$d%2$@";
 "onfido_enter_can_substring_attempt_singular" = "попытка";
 "onfido_enter_can_substring_attempt_plural" = "попытки/попыток";
 "onfido_nfc_scan_error_button_secondary" = "Получить верификацию без NFC";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Показать только страницу с фотографией";
 "onfido_doc_capture_alert_tilted_title" = "Держите документ прямо";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Запись видео";
 "onfido_doc_capture_header_recording_complete" = "Запись завершена";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Обнаружен скриншот";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Попробуйте записать видео вручную";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Обнаружено фото экрана";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Обнаружена фотокопия";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Сканирование обнаружено";
+"onfido_doc_confirmation_alert_odp_detail" = "Пожалуйста, используйте ваш оригинальный документ. Фотографии экрана или фотокопии не принимаются";

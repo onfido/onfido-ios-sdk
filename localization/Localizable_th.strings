@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "วางหน้าที่มีวีซ่าของคุณให้อยู่ในกรอบ";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "กำลังโหลด";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ";
 "onfido_doc_capture_header_license_back" = "วางด้านหลังเอกสารให้อยู่ในกรอบ";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "เลือกเอกสารอื่น";
 "onfido_welcome_button_primary" = "เริ่ม";
 "onfido_video_capture_button_primary_start" = "เริ่มบันทึก";
-"onfido_video_confirmation_button_primary" = "อัปโหลดวิดีโอ";
+"onfido_video_confirmation_button_primary" = "ส่งวิดีโอ";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "ประเทศที่แนะนำ";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "เริ่มสแกน";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "วางโทรศัพท์ไว้ใกล้ๆ ส่วนกลางของหนังสือเดินทาง";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "กำลังสแกน...";
 
 "onfido_nfc_intro_title_card" = "สแกนบัตร NFC ของคุณ";
 "onfido_nfc_intro_subtitle_card" = "วางโทรศัพท์ของคุณไว้บนบัตร โดยให้อยู่ใกล้ๆ ด้านบนของโทรศัพท์";
 "onfido_nfc_intro_button_primary_card" = "เริ่มสแกน";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "วางโทรศัพท์ของคุณไว้บนบัตร";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "เราสแกนหนังสือเดินทางของคุณไม่ได้";
 "onfido_nfc_fail_title_card" = "เราสแกนบัตร NFC ของคุณไม่ได้";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "คุณกู้คืนสิทธิ์การเข้าถึงกล้องได้ทางการตั้งค่าอุปกรณ์ของคุณ";
 "onfido_permission_recovery_list_item_action_cam" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงกล้องสำหรับแอปนี้";
 "onfido_permission_recovery_title_mic" = "การเข้าถึงไมโครโฟนถูกปฏิเสธ";
-"onfido_permission_recovery_subtitle_mic" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่มีไมโครโฟน";
 "onfido_permission_recovery_list_item_how_to_mic" = "คุณกู้คืนสิทธิ์การเข้าถึงไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ";
 "onfido_permission_recovery_list_item_action_mic" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงไมโครโฟนสำหรับแอปนี้";
 "onfido_permission_recovery_title_both" = "การเข้าถึงกล้องและไมโครโฟนถูกปฏิเสธ";
-"onfido_permission_recovery_subtitle_both" = "เรายืนยันตัวตนคุณไม่ได้ หากไม่มีกล้องและไมโครโฟน";
 "onfido_permission_recovery_list_item_how_to_both" = "คุณกู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ";
 "onfido_permission_recovery_list_item_action_both" = "ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงทั้งกล้องและไมโครโฟนสำหรับแอปนี้";
 "onfido_permission_recovery_button_primary" = "เปิดใช้งานในการตั้งค่า";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "เรายืนยันตัวตนของคุณแล้ว";
 "onfido_workflow_erros_task_not_supported" = "ปัจจุบันเรายังไม่รองรับงานนี้";
 "onfido_workflow_erros_task_not_completed" = "ดำเนินการตามเวิร์กโฟลว์ให้เสร็จสมบูรณ์ไม่ได้";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "เรียกดูงานในเวิร์กโฟลว์ไม่ได้";
 "onfido_workflow_erros_no_workflow_run_id" = "ไม่ได้ตั้งค่าการเรียกใช้ ID ในเวิร์กโฟลว์";
 "onfido_workflow_erros_generic_title" = "เกิดข้อผิดพลาดกับเซิร์ฟเวอร์";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "ขาดการติดต่อกับบัตร NFC\nเลื่อนอุปกรณ์ของคุณขึ้นหรือลงเล็กน้อย";
 "onfido_nfc_scan_lost-connection_sheet_4" = "การเชื่อมต่อสูญหาย\nเราสแกนเอกสารของคุณไม่ได้";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN ไม่ถูกต้อง";
-"onfido_enter_can_error_label" = "คุณลองได้อีก %1$d %2$s";
+"onfido_enter_can_error_label" = "คุณลองได้อีก %1$d %2$@";
 "onfido_enter_can_substring_attempt_singular" = "ครั้ง";
 "onfido_enter_can_substring_attempt_plural" = "ครั้ง";
 "onfido_nfc_scan_error_button_secondary" = "รับการตรวจสอบโดยไม่มี NFC";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "แสดงหน้ารูปเท่านั้น";
 "onfido_doc_capture_alert_tilted_title" = "ถือเอกสารให้ตรง";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "กำลังบันทึกวิดีโอ";
 "onfido_doc_capture_header_recording_complete" = "บันทึกเสร็จสมบูรณ์";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "ตรวจพบภาพหน้าจอ";
+"onfido_doc_capture_alert_manual_capture_video_title" = "ลองบันทึกวิดีโอด้วยตนเอง";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "ตรวจพบภาพของหน้าจอ";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "ตรวจพบการถ่ายเอกสาร";
+"onfido_doc_confirmation_alert_odp_scan_title" = "ตรวจพบการสแกน";
+"onfido_doc_confirmation_alert_odp_detail" = "โปรดใช้เอกสารต้นฉบับของคุณ ภาพถ่ายจากหน้าจอหรือการถ่ายเอกสารไม่ได้รับการยอมรับ";

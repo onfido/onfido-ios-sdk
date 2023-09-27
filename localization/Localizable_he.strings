@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "מקם את עמוד הוויזה שבמסמך בתוך המסגרת";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "טוען";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "מקם את עמוד הוויזה של המסמך בתוך המסגרת";
 "onfido_doc_capture_header_license_back" = "מקם את הצד האחורי של המסמך בתוך המסגרת";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "בחר מסמך אחר";
 "onfido_welcome_button_primary" = "התחל";
 "onfido_video_capture_button_primary_start" = "התחל לצלם";
-"onfido_video_confirmation_button_primary" = "העלה סרטון";
+"onfido_video_confirmation_button_primary" = "שלח סרטון";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "מדינה";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "התחל בסריקה";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון ליד החלק האמצעי של הדרכון";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "מתבצעת סריקה...";
 
 "onfido_nfc_intro_title_card" = "סריקת כרטיס NFC";
 "onfido_nfc_intro_subtitle_card" = "מקם את הכרטיס על הטלפון והשאר אותו צמוד לחלקו העליון";
 "onfido_nfc_intro_button_primary_card" = "התחל בסריקה";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "מקם את הכרטיס על הטלפון";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "לא הצלחנו לסרוק את הדרכון שלך";
 "onfido_nfc_fail_title_card" = "לא הצלחנו לסרוק את כרטיס ה-NFC שלך";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "אפשר לשחזר את הגישה למצלמה דרך הגדרות המכשיר";
 "onfido_permission_recovery_list_item_action_cam" = "עבור להגדרות האפליקציה והפעל גישה למצלמה עבור אפליקציה זו";
 "onfido_permission_recovery_title_mic" = "הגישה למיקרופון נדחתה";
-"onfido_permission_recovery_subtitle_mic" = "לא ניתן לאמת את זהותך בלי להשתמש במיקרופון";
 "onfido_permission_recovery_list_item_how_to_mic" = "ניתן לשחזר את הגישה למצלמה דרך הגדרות המכשיר";
 "onfido_permission_recovery_list_item_action_mic" = "עבור להגדרות האפליקציה והפעל גישה למצלמה עבור אפליקציה זו";
 "onfido_permission_recovery_title_both" = "הגישה למצלמה ולמיקרופון נדחתה";
-"onfido_permission_recovery_subtitle_both" = "לא ניתן לאמת את זהותך בלי להשתמש גם במצלמה וגם במיקרופון";
 "onfido_permission_recovery_list_item_how_to_both" = "ניתן לשחזר את הגישה למצלמה דרך הגדרות המכשיר";
 "onfido_permission_recovery_list_item_action_both" = "עבור להגדרות האפליקציה והפעל גישה למצלמה עבור אפליקציה זו";
 "onfido_permission_recovery_button_primary" = "הפעל בהגדרות";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "זהותך אומתה בהצלחה";
 "onfido_workflow_erros_task_not_supported" = "המשימה אינה נתמכת כרגע";
 "onfido_workflow_erros_task_not_completed" = "לא ניתן להשלים את משימת זרימת העבודה.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "לא ניתן לאחזר את משימת זרימת העבודה.";
 "onfido_workflow_erros_no_workflow_run_id" = "מזהה הרצת זרימת עבודה אינו מוגדר.";
 "onfido_workflow_erros_generic_title" = "אירעה שגיאה בשרת!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "החיבור עם כרטיס ה-NFC אבד\nהזז את המכשיר מעט למעלה או למטה.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "החיבור אבד\nלא הצלחנו לסרוק את המסמך שלך";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN שגוי";
-"onfido_enter_can_error_label" = "נותרו לך %d %@.";
+"onfido_enter_can_error_label" = "נותרו לך %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "נסיון";
 "onfido_enter_can_substring_attempt_plural" = "ניסיונות";
 "onfido_nfc_scan_error_button_secondary" = "אימות ללא NFC";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "נסה לבצע סריקה חוזרת";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "אימות ללא NFC";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "זוז אחורה";
 "onfido_doc_capture_alert_rotated_title" = "סובב את המסמך שלך";
 "onfido_doc_capture_alert_too_far_title" = "התקרב";
@@ -668,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "הצג רק דף התמונה";
 "onfido_doc_capture_alert_tilted_title" = "החזק את המסמך באופן ישר";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "מקליט וידאו";
 "onfido_doc_capture_header_recording_complete" = "הצילום הושלם";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "צילום מסך זוהה";
+"onfido_doc_capture_alert_manual_capture_video_title" = "נסה להקליט וידאו באופן ידני";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "זוהתה תמונה של מסך";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "זוהתה צילום";
+"onfido_doc_confirmation_alert_odp_scan_title" = "סריקה זוהתה";
+"onfido_doc_confirmation_alert_odp_detail" = "אנא השתמש במסמך המקורי שלך. תמונות של מסך או צילומי עותק לא מתקבלות";

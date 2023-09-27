@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Plaats de visumpagina van uw document in het kader";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Bezig met laden";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Plaats de fotopagina van uw document in het kader";
 "onfido_doc_capture_header_license_back" = "Plaats de achterkant van uw document in het kader";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Kies een ander document";
 "onfido_welcome_button_primary" = "Start";
 "onfido_video_capture_button_primary_start" = "Start met opnemen";
-"onfido_video_confirmation_button_primary" = "Upload filmpje";
+"onfido_video_confirmation_button_primary" = "Verzend video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Voorgesteld land";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Start met scannen";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Leg uw telefoon ter hoogte van het midden van uw paspoort";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Bezig met scannen...";
 
 "onfido_nfc_intro_title_card" = "Scan uw NFC-kaart";
 "onfido_nfc_intro_subtitle_card" = "Plaats uw telefoon op de kaart en houd deze bij de bovenkant van uw telefoon";
 "onfido_nfc_intro_button_primary_card" = "Start met scannen";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Plaats uw telefoon op de kaart";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "We konden uw paspoort niet scannen";
 "onfido_nfc_fail_title_card" = "We konden uw NFC-kaart niet scannen";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "U kunt toegang tot de camera herstellen via de instellingen van uw apparaat";
 "onfido_permission_recovery_list_item_action_cam" = "Ga naar de instellingen van de app en schakel toegang tot de camera in voor deze app";
 "onfido_permission_recovery_title_mic" = "Toegang tot microfoon geweigerd";
-"onfido_permission_recovery_subtitle_mic" = "We kunnen u niet verifiëren zonder microfoon";
 "onfido_permission_recovery_list_item_how_to_mic" = "U kunt toegang tot de microfoon herstellen via de instellingen van uw apparaat";
 "onfido_permission_recovery_list_item_action_mic" = "Ga naar de instellingen van de app en schakel toegang tot de microfoon in voor deze app";
 "onfido_permission_recovery_title_both" = "Toegang tot camera en microfoon geweigerd";
-"onfido_permission_recovery_subtitle_both" = "We kunnen u niet verifiëren zonder gebruik van uw camera en microfoon";
 "onfido_permission_recovery_list_item_how_to_both" = "U kunt toegang tot de camera en de microfoon herstellen via de instellingen van uw apparaat";
 "onfido_permission_recovery_list_item_action_both" = "Ga naar de instellingen van de app en schakel toegang tot zowel de camera als de microfoon in voor deze app";
 "onfido_permission_recovery_button_primary" = "Inschakelen in instellingen";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "We hebben uw identiteit geverifieerd";
 "onfido_workflow_erros_task_not_supported" = "De taak wordt momenteel niet ondersteund";
 "onfido_workflow_erros_task_not_completed" = "Kon de workflow taak niet voltooien.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Kon geen workflow taak ophalen.";
 "onfido_workflow_erros_no_workflow_run_id" = "Workflow run ID is niet ingesteld.";
 "onfido_workflow_erros_generic_title" = "Er was een server fout!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Contact met NFC-kaart verloren\nBeweeg uw apparaat iets omhoog of omlaag.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Verbinding verbroken\nWe konden uw document niet scannen";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Onjuiste CAN";
-"onfido_enter_can_error_label" = "Je hebt %1$d %2$s over.";
+"onfido_enter_can_error_label" = "Je hebt %1$d %2$@ over.";
 "onfido_enter_can_substring_attempt_singular" = "poging";
 "onfido_enter_can_substring_attempt_plural" = "pogingen";
 "onfido_nfc_scan_error_button_secondary" = "Word geverifieerd zonder NFC";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Toon alleen fotopagina";
 "onfido_doc_capture_alert_tilted_title" = "Houd het document recht";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video opnemen";
 "onfido_doc_capture_header_recording_complete" = "Opname voltooid";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Schermafbeelding gedetecteerd";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Probeer handmatig video op te nemen";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto van scherm gedetecteerd";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopie gedetecteerd";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Scan gedetecteerd";
+"onfido_doc_confirmation_alert_odp_detail" = "Gebruik alstublieft uw originele document. Foto's van schermen of fotokopieën worden niet geaccepteerd";

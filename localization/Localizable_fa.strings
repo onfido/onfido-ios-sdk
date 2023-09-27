@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "صفحه ویزای مدرک خود را در کادر قرار دهید";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "در حال بارگذاری";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "صفحه عکس‌دار مدرک خود را درون کادر قرار دهید";
 "onfido_doc_capture_header_license_back" = "پشت مدرک خود را درون کادر قرار دهید";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "مدرک دیگری را انتخاب کنید";
 "onfido_welcome_button_primary" = "شروع";
 "onfido_video_capture_button_primary_start" = "شروع ضبط";
-"onfido_video_confirmation_button_primary" = "بارگذاری ویدئو";
+"onfido_video_confirmation_button_primary" = "ارسال ویدئو";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "کشور پیشنهادی";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "شروع اسکن";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "گوشی خود را نزدیک وسط گذرنامه خود قرار دهید";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "در حال اسکن ...";
 
 "onfido_nfc_intro_title_card" = "کارت NFC خود را اسکن کنید";
 "onfido_nfc_intro_subtitle_card" = "گوشی خود را روی کارت قرار دهید و آن را نزدیک بالای گوشی خود نگه دارید";
 "onfido_nfc_intro_button_primary_card" = "شروع اسکن";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "گوشی خود را روی کارت قرار دهید";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "نتوانستیم گذرنامه شما را اسکن کنیم";
 "onfido_nfc_fail_title_card" = "نتوانستیم کارت NFC شما را اسکن کنیم";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "از بخش تنظیمات مرورگر خود، مجوز دسترسی به دوربین و میکروفون را بدهید";
 "onfido_permission_recovery_list_item_action_cam" = "به بخش تنظیمات برنامه بروید و دسترسی به دوربین را برای این برنامه فعال کنید";
 "onfido_permission_recovery_title_mic" = "دسترسی به میکروفون رد شد";
-"onfido_permission_recovery_subtitle_mic" = "ما نمی‌توانیم بدون میکروفون، هویت شما را تأیید کنیم";
 "onfido_permission_recovery_list_item_how_to_mic" = "می‌توانید از طریق تنظیمات دستگاه خود دسترسی به میکروفون را مجدداً فعال کنید";
 "onfido_permission_recovery_list_item_action_mic" = "به بخش تنظیمات برنامه بروید و دسترسی به میکروفون را برای این برنامه فعال کنید";
 "onfido_permission_recovery_title_both" = "دسترسی به دوربین و میکروفون رد شد";
-"onfido_permission_recovery_subtitle_both" = "ما نمی‌توانیم بدون استفاده از دوربین و میکروفون، هویت شما را تأیید کنیم";
 "onfido_permission_recovery_list_item_how_to_both" = "می‌توانید از طریق تنظیمات دستگاه خود دسترسی به دوربین و میکروفون را مجدداً فعال کنید";
 "onfido_permission_recovery_list_item_action_both" = "به بخش تنظیمات برنامه بروید و دسترسی به دوربین و میکروفون را برای این برنامه فعال کنید";
 "onfido_permission_recovery_button_primary" = "فعالسازی در بخش تنظیمات";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "ما هویت شما را تأیید کردیم";
 "onfido_workflow_erros_task_not_supported" = "این کار در حال حاضر پشتیبانی نمی‌شود";
 "onfido_workflow_erros_task_not_completed" = "فرآیند گردش کار کامل نشد.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "فرآیند گردش کار قابل بازیابی نیست.";
 "onfido_workflow_erros_no_workflow_run_id" = "شناسه گردش کار تنظیم نشده است.";
 "onfido_workflow_erros_generic_title" = "خطای سرور رخ داد!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "ارتباط با کارت NFC قطع شد\nدستگاه خود را کمی به بالا یا پایین حرکت دهید.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "ارتباط قطع شد\nنتوانستیم مدرک شما را اسکن کنیم";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN نادرست است";
-"onfido_enter_can_error_label" = "شما %d %@ باقی‌مانده دارید.";
+"onfido_enter_can_error_label" = "شما %1$d %2$@ باقی‌مانده دارید.";
 "onfido_enter_can_substring_attempt_singular" = "فرصت";
 "onfido_enter_can_substring_attempt_plural" = "فرصت";
 "onfido_nfc_scan_error_button_secondary" = "بدون NFC تأیید شوید";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "اسکن مجدد";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "بدون NFC تأیید شوید";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "عقب بروید";
 "onfido_doc_capture_alert_rotated_title" = "سند خود را بچرخانید";
 "onfido_doc_capture_alert_too_far_title" = "نزدیکتر بیایید";
@@ -668,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "فقط صفحه عکس را نشان دهید";
 "onfido_doc_capture_alert_tilted_title" = "سند را راست نگه دارید";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "ضبط ویدیو";
 "onfido_doc_capture_header_recording_complete" = "ضبط کامل شد";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "اسکرین شات شناسایی شد";
+"onfido_doc_capture_alert_manual_capture_video_title" = "سعی کنید ویدیو را به صورت دستی رکورد کنید";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "عکس از صفحه نمایش شناسایی شد";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "رونوشت تشخیص داده شده است";
+"onfido_doc_confirmation_alert_odp_scan_title" = "اسکن شناسایی شد";
+"onfido_doc_confirmation_alert_odp_detail" = "لطفا از سند اصلی خود استفاده کنید. عکس های صفحه نمایش یا فتوکپی ها پذیرفته نمی شوند";

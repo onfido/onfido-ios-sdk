@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.5.0] - 2023-09-21
+
+### Changed
+
+- Improved document country search accessibility
+- Changed NFC intro related translation keys
+
+### Fixed
+
+- Fixed issue where NFC scan was asked for unsupported documents without MRZ
+- Fixed media callbacks not working in Studio
+
 ## [29.4.2] - 2023-09-15
 
 ### Fixed
@@ -16,7 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fix Studio document filtering considering passport for all countries
+- Fixed Studio document filtering considering passport for all countries
 - Fixed authentication issue with consecutive verification flows
 
 ## [29.4.0] - 2023-08-08
@@ -34,10 +46,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - Ability to customise logo and branding available on all Motion screens. This is an enterprise feature, please reach out to your CSM if you want to know more
-- Adding translations for live feedback on wrong passport page or tilted document.
-- Changed primaryColor description
-- Enable screen background colour customisation
-- Enable explicitly setting the user interface style
+- Added translations for live feedback on wrong passport page or tilted document
+- Added screen background colour customisation
+- Introduced `InterfaceStyle` which enables you to either force set the dark/light theme, or follow the device’s system setting. The previous attribute `supportDarkMode` is now deprecated. Please use this instead. More details can be found [here](https://documentation.onfido.com/sdk/ios/#ui-customization)
 - When using Studio, Selfie and Video are configured based on the configuration set in Studio
 
 ### Changed

@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Asetage oma dokumendi viisaleht kaadrisse";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Laadimine";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Asetage oma dokumendi fotoleht kaadrisse";
 "onfido_doc_capture_header_license_back" = "Asetage dokumendi tagakülg kaadrisse";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Valige teine dokument";
 "onfido_welcome_button_primary" = "Alustage";
 "onfido_video_capture_button_primary_start" = "Alustage salvestamist";
-"onfido_video_confirmation_button_primary" = "Video üleslaadimine";
+"onfido_video_confirmation_button_primary" = "Esitage video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Soovitatud riik";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Alustage skannimist";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Asetage telefon passi keskosa lähedale";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Skaneerimine...";
 
 "onfido_nfc_intro_title_card" = "Skannige oma NFC-kiibiga kaart";
 "onfido_nfc_intro_subtitle_card" = "Asetage telefon kaardile ja hoidke kaarti telefoni ülaosa lähedal";
 "onfido_nfc_intro_button_primary_card" = "Alustage skannimist";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Asetage telefon kaardile";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Meil ei õnnestunud teie passi skannida";
 "onfido_nfc_fail_title_card" = "Teie NFC-kiibiga kaarti ei õnnestunud skannida";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Juurdepääsu kaamerale saate taastada seadme sätete kaudu";
 "onfido_permission_recovery_list_item_action_cam" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale";
 "onfido_permission_recovery_title_mic" = "Mikrofoni juurdepääs keelatud";
-"onfido_permission_recovery_subtitle_mic" = "Meil ei ole võimalik teie isikut kinnitada ilma mikrofonita";
 "onfido_permission_recovery_list_item_how_to_mic" = "Juurdepääsu mikrofonile saate taastada seadme sätete kaudu";
 "onfido_permission_recovery_list_item_action_mic" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs mikrofonile";
 "onfido_permission_recovery_title_both" = "Juurdepääs kaamerale ja mikrofonile on keelatud";
-"onfido_permission_recovery_subtitle_both" = "Meil ei ole võimalik teie isikut kinnitada ilma nii kaamerat kui ka mikrofoni kasutamata";
 "onfido_permission_recovery_list_item_how_to_both" = "Juurdepääsu kaamerale ja mikrofonile saate taastada seadme sätete kaudu";
 "onfido_permission_recovery_list_item_action_both" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale ning mikrofonile";
 "onfido_permission_recovery_button_primary" = "Lubage sätetes";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Kinnitasime teie isikusamasuse";
 "onfido_workflow_erros_task_not_supported" = "Ülesannet ei toetata praegu";
 "onfido_workflow_erros_task_not_completed" = "Töövoo ülesannet ei saanud lõpule viia.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Töövoo ülesannet ei olnud võimalik esitada.";
 "onfido_workflow_erros_no_workflow_run_id" = "Töövoo käituse ID on määramata.";
 "onfido_workflow_erros_generic_title" = "Serveri tõrge!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Kontakt NFC-kiibiga kaardiga kadus\nLiigutage seadet veidi üles või alla.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ühendus katkes\nMeil ei õnnestunud teie dokumenti skannida";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Vale CAN";
-"onfido_enter_can_error_label" = "Jäänud on %1$d %2$s.";
+"onfido_enter_can_error_label" = "Jäänud on %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "katse";
 "onfido_enter_can_substring_attempt_plural" = "katset";
 "onfido_nfc_scan_error_button_secondary" = "Kinnitamine ilma NFC-ta";
@@ -662,6 +649,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Näita ainult fotolehte";
 "onfido_doc_capture_alert_tilted_title" = "Hoia dokumenti sirgelt";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video salvestamine";
 "onfido_doc_capture_header_recording_complete" = "Salvestamine lõpetatud";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Ekraanipilt tuvastatud";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Proovige videot käsitsi salvestada";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Ekraanipildi foto tuvastatud";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokoopia tuvastatud";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Skaneerimine tuvastatud";
+"onfido_doc_confirmation_alert_odp_detail" = "Palun kasutage oma algset dokumenti. Ekraanipiltide või fotokoopiate kasutamine ei ole lubatud";

@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Placer dit dokuments side med visummet inden for rammen";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Indlæser";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Placer dit dokuments side med billedet inden for rammen";
 "onfido_doc_capture_header_license_back" = "Placer dit dokuments bagside inden for rammen";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Vælg et andet dokument";
 "onfido_welcome_button_primary" = "Start";
 "onfido_video_capture_button_primary_start" = "Start optagelsen";
-"onfido_video_confirmation_button_primary" = "Upload video";
+"onfido_video_confirmation_button_primary" = "Indsend video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Foreslået land";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placer din telefon i nærheden af midten af passet";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Scanner...";
 
 "onfido_nfc_intro_title_card" = "Scan dit NFC-kort";
 "onfido_nfc_intro_subtitle_card" = "Placer din telefon på kortet, og hold den tæt på den øverste del af din telefon";
 "onfido_nfc_intro_button_primary_card" = "Start scanning";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Placer din telefon på kortet";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Vi kan ikke scanne dit pas";
 "onfido_nfc_fail_title_card" = "Vi kan ikke scanne dit NFC-kort";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Du kan gendanne adgang til kameraet via dine enhedsindstillinger";
 "onfido_permission_recovery_list_item_action_cam" = "Gå til appindstillinger, og aktivér adgang til kameraet for denne app";
 "onfido_permission_recovery_title_mic" = "Adgang til mikrofon er nægtet";
-"onfido_permission_recovery_subtitle_mic" = "Vi kan ikke verificere dig uden din mikrofon";
 "onfido_permission_recovery_list_item_how_to_mic" = "Du kan gendanne adgang til mikrofonen via dine enhedsindstillinger";
 "onfido_permission_recovery_list_item_action_mic" = "Gå til appindstillinger, og aktivér adgang til mikrofonen for denne app";
 "onfido_permission_recovery_title_both" = "Adgang til mikrofon og kamera er nægtet";
-"onfido_permission_recovery_subtitle_both" = "Vi kan ikke verificere dig uden dit kamera og din mikrofon";
 "onfido_permission_recovery_list_item_how_to_both" = "Du kan gendanne adgang til kameraet og mikrofonen via dine enhedsindstillinger";
 "onfido_permission_recovery_list_item_action_both" = "Gå til appindstillinger, og aktivér adgang til både kameraet og mikrofonen for denne app";
 "onfido_permission_recovery_button_primary" = "Aktivér i indstillinger";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Vi har verificeret din identitet";
 "onfido_workflow_erros_task_not_supported" = "Opgaven er ikke understøttet i øjeblikket";
 "onfido_workflow_erros_task_not_completed" = "Kunne ikke fuldføre arbejdsgangens opgave.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Kan ikke hente arbejdsgangens opgave.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID for kørsel af arbejdsgang er ikke angivet.";
 "onfido_workflow_erros_generic_title" = "Der opstod en serverfejl!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ingen berøring af NFC-kortet\nFlyt enheden lidt op- eller nedad.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ingen forbindelse\nVi kan ikke scanne dit dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Forkert CAN";
-"onfido_enter_can_error_label" = "Du har %1$d %2$s tilbage.";
+"onfido_enter_can_error_label" = "Du har %1$d %2$@ tilbage.";
 "onfido_enter_can_substring_attempt_singular" = "forsøg";
 "onfido_enter_can_substring_attempt_plural" = "forsøg";
 "onfido_nfc_scan_error_button_secondary" = "Bliv bekræftet uden NFC";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Prøv at scanne igen";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Bliv bekræftet uden NFC";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "Flyt tilbage";
 "onfido_doc_capture_alert_rotated_title" = "Roter dit dokument";
 "onfido_doc_capture_alert_too_far_title" = "Flyt tættere på";
@@ -668,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Vis kun fotoside";
 "onfido_doc_capture_alert_tilted_title" = "Hold dokumentet lige";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Optager video";
 "onfido_doc_capture_header_recording_complete" = "Optagelsen er fuldført";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Skærmbillede registreret";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Prøv at optage video manuelt";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto af skærm registreret";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi detekteret";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Scan registreret";
+"onfido_doc_confirmation_alert_odp_detail" = "Brug venligst dit originale dokument. Fotos af skærm eller fotokopier accepteres ikke";

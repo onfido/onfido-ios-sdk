@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "프레임 안에 서류의 비자 페이지가 들어가도록 배치하세요";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "불러오는 중";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "프레임 안에 사진이 부착된 페이지가 들어가도록 배치하세요";
 "onfido_doc_capture_header_license_back" = "프레임 안에 서류 뒷면이 들어가도록 배치하세요";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "다른 서류 선택하기";
 "onfido_welcome_button_primary" = "시작하기";
 "onfido_video_capture_button_primary_start" = "녹화 시작";
-"onfido_video_confirmation_button_primary" = "동영상 업로드";
+"onfido_video_confirmation_button_primary" = "동영상 제출하기";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "추천 국가";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "스캔 시작";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "휴대폰이 여권 중앙 근처에 오도록 배치하세요";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "스캔 중...";
 
 "onfido_nfc_intro_title_card" = "NFC 카드 스캔";
 "onfido_nfc_intro_subtitle_card" = "카드 상단 근처에 휴대폰이 오도록 하여 카드 위에 휴대폰을 올려놓으세요";
 "onfido_nfc_intro_button_primary_card" = "스캔 시작";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "카드 위에 휴대폰을 올려놓으세요";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "여권을 스캔할 수 없습니다";
 "onfido_nfc_fail_title_card" = "NFC 카드를 스캔할 수 없습니다";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "기기 설정에서 카메라 접근 권한을 복원할 수 있습니다";
 "onfido_permission_recovery_list_item_action_cam" = "앱 설정으로 이동하여 이 앱에 카메라 접근 권한을 허용하세요";
 "onfido_permission_recovery_title_mic" = "마이크 접근 권한이 거부되었습니다";
-"onfido_permission_recovery_subtitle_mic" = "마이크 없이는 본인 인증 절차를 진행할 수 없습니다";
 "onfido_permission_recovery_list_item_how_to_mic" = "기기 설정에서 마이크 접근 권한을 복원할 수 있습니다";
 "onfido_permission_recovery_list_item_action_mic" = "앱 설정으로 이동하여 이 앱에 마이크 접근 권한을 허용하세요";
 "onfido_permission_recovery_title_both" = "카메라와 마이크 접근 권한이 거부되었습니다";
-"onfido_permission_recovery_subtitle_both" = "카메라와 마이크 없이는 본인 인증 절차를 진행할 수 없습니다";
 "onfido_permission_recovery_list_item_how_to_both" = "기기 설정에서 카메라와 마이크 접근 권한을 복원할 수 있습니다";
 "onfido_permission_recovery_list_item_action_both" = "앱 설정으로 이동하여 이 앱에 카메라와 마이크 접근 권한을 허용하세요";
 "onfido_permission_recovery_button_primary" = "설정에서 접근 허용";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "본인 인증이 완료되었습니다";
 "onfido_workflow_erros_task_not_supported" = "이 작업은 현재 지원되지 않습니다";
 "onfido_workflow_erros_task_not_completed" = "워크플로 작업을 완료할 수 없습니다.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "워크플로 작업을 검색할 수 없습니다.";
 "onfido_workflow_erros_no_workflow_run_id" = "워크플로 실행 ID가 설정되지 않았습니다.";
 "onfido_workflow_erros_generic_title" = "서버 오류가 발생했습니다!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC 카드와의 연결이 끊겼습니다.\n기기를 위아래로 천천히 옮기세요.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "연결이 끊겼습니다\n서류를 스캔할 수 없습니다";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN이 올바르지 않습니다";
-"onfido_enter_can_error_label" = "%1$d%2$s이(가) 남았습니다.";
+"onfido_enter_can_error_label" = "%1$d%2$@이(가) 남았습니다.";
 "onfido_enter_can_substring_attempt_singular" = "회 시도";
 "onfido_enter_can_substring_attempt_plural" = "회 시도";
 "onfido_nfc_scan_error_button_secondary" = "NFC 없이 인증 받기";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "사진 페이지만 표시";
 "onfido_doc_capture_alert_tilted_title" = "문서를 곧게 들어주세요";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "비디오 녹화";
 "onfido_doc_capture_header_recording_complete" = "녹화 완료";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "스크린샷이 감지되었습니다";
+"onfido_doc_capture_alert_manual_capture_video_title" = "비디오를 수동으로 녹화해 보세요";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "화면의 사진이 감지되었습니다";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "사진 복사본이 감지되었습니다";
+"onfido_doc_confirmation_alert_odp_scan_title" = "스캔 감지됨";
+"onfido_doc_confirmation_alert_odp_detail" = "원본 문서를 사용해 주세요. 화면의 사진이나 사본은 허용되지 않습니다.";

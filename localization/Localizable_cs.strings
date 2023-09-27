@@ -29,7 +29,7 @@
 "onfido_doc_confirmation_button_primary_generic" = "Odeslat fotografii";
 "onfido_doc_confirmation_button_primary_id" = "Odeslat fotografii";
 /* Face/Document Confirmation */
-"onfido_selfie_confirmation_button_primary" = "Nahrajte fotografii";
+"onfido_selfie_confirmation_button_primary" = "Nahrát fotku";
 "onfido_doc_confirmation_button_secondary" = "Znovu pořídit fotografii";
 "onfido_doc_confirmation_button_primary_passport" = "Odeslat fotografii";
 "onfido_doc_confirmation_button_primary_permit" = "Odeslat fotografii";
@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Umístěte stránku s vízem Vašeho dokumentu do rámečku";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Načítání";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Umístěte stránku s fotografií dokumentu do rámečku";
 "onfido_doc_capture_header_license_back" = "Umístěte zadní stranu dokumentu do rámečku";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Použijte jiný dokument";
 "onfido_welcome_button_primary" = "Začít";
 "onfido_video_capture_button_primary_start" = "Spuštění nahrávání";
-"onfido_video_confirmation_button_primary" = "Nahrát video";
+"onfido_video_confirmation_button_primary" = "Odeslat video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Navrhovaná země";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Zahájení skenování";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Umístěte telefon doprostřed pasu";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Skenování...";
 
 "onfido_nfc_intro_title_card" = "Naskenujte kartu NFC";
 "onfido_nfc_intro_subtitle_card" = "Položte telefon na kartu a držte tuto kartu v blízkosti horní části telefonu";
 "onfido_nfc_intro_button_primary_card" = "Zahájení skenování";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Položte telefon na kartu";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Váš pas jsme nemohli naskenovat";
 "onfido_nfc_fail_title_card" = "Vaši kartu NFC se nám nepodařilo naskenovat";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Přístup ke kameře můžete obnovit prostřednictvím nastavení zařízení";
 "onfido_permission_recovery_list_item_action_cam" = "Přejděte do nastavení aplikace a povolte přístup ke kameře pro tuto aplikaci";
 "onfido_permission_recovery_title_mic" = "Odmítnutí přístupu k mikrofonu";
-"onfido_permission_recovery_subtitle_mic" = "Bez Vašeho mikrofonu Vás nemůžeme ověřit";
 "onfido_permission_recovery_list_item_how_to_mic" = "Přístup k mikrofonu můžete obnovit prostřednictvím nastavení zařízení";
 "onfido_permission_recovery_list_item_action_mic" = "Přejděte do nastavení aplikace a povolte přístup k mikrofonu pro tuto aplikaci";
 "onfido_permission_recovery_title_both" = "Zamezení přístupu ke kameře a mikrofonu";
-"onfido_permission_recovery_subtitle_both" = "Vyberte zemi, kde došlo k vydání";
 "onfido_permission_recovery_list_item_how_to_both" = "Přístup k fotoaparátu a mikrofonu můžete obnovit prostřednictvím nastavení zařízení";
 "onfido_permission_recovery_list_item_action_both" = "Přejděte do nastavení aplikace a povolte pro tuto aplikaci přístup k fotoaparátu i mikrofonu";
 "onfido_permission_recovery_button_primary" = "Povolit v nastavení";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Podařilo se nám ověřit Vaši totožnost";
 "onfido_workflow_erros_task_not_supported" = "Úloha není aktuálně podporována";
 "onfido_workflow_erros_task_not_completed" = "Nelze dokončit úlohu pracovního postupu.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Nepodařilo se načíst úlohu pracovního postupu.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID pro spuštění pracovního postupu není nastaveno.";
 "onfido_workflow_erros_generic_title" = "Došlo k chybě serveru!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ztráta kontaktu s kartou NFC\nPosuňte zařízení mírně nahoru nebo dolů.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Ztráta spojení\nVáš dokument se nám nepodařilo naskenovat";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Nesprávný CAN";
-"onfido_enter_can_error_label" = "Zbývá vám %1$d %2$s.";
+"onfido_enter_can_error_label" = "Zbývá vám %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "pokus";
 "onfido_enter_can_substring_attempt_plural" = "pokusy";
 "onfido_nfc_scan_error_button_secondary" = "Získej ověření bez NFC";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Opakování skenování";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Získej ověření bez NFC";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "Posuňte se dozadu";
 "onfido_doc_capture_alert_rotated_title" = "Otočte dokument";
 "onfido_doc_capture_alert_too_far_title" = "Přibližte se";
@@ -668,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Zobrazit pouze stránku s fotografiemi";
 "onfido_doc_capture_alert_tilted_title" = "Držte dokument rovně";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Nahrávání videa";
 "onfido_doc_capture_header_recording_complete" = "Nahrávání bylo dokončeno";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Detekován snímek obrazovky";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Zkuste nahrávat video manuálně";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Fotografie obrazovky detekována";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Detekována fotokopie";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Skenování detekováno";
+"onfido_doc_confirmation_alert_odp_detail" = "Prosím, použijte svůj původní dokument. Fotografie obrazovky nebo fotokopie nejsou přijímány.";

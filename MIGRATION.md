@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.5.0 Migration Guide](#onfido-ios-sdk-2950-migration-guide)
 * [Onfido iOS SDK 29.3.0 Migration Guide](#onfido-ios-sdk-2930-migration-guide)
 * [Onfido iOS SDK 29.2.0 Migration Guide](#onfido-ios-sdk-2920-migration-guide)
 * [Onfido iOS SDK 29.1.0 Migration Guide](#onfido-ios-sdk-2910-migration-guide)
@@ -62,6 +63,36 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.5.0 Migration Guide
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_confirmation_alert_odp_screenshot_title` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `onfido_doc_confirmation_alert_odp_photo_of_screen_title` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `nfido_doc_confirmation_alert_odp_photocopy_title` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `onfido_doc_confirmation_alert_odp_scan_title` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `onfido_doc_confirmation_alert_odp_detail` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_nfc_intro_sheet_header_ready_passport` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `onfido_nfc_intro_sheet_header_scanning_passport` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+- `onfido_nfc_intro_sheet_header_scanning_card` (ar, hy, bg, zh-Hans, zh-Hant, hr, cs, da, nl, en-GB, en, et, fi, fr-CA, fr, de, el, he, hi, hu, id, it, ja, ko, lv, lt, ms, no, fa, pl, pt-BR, pt, ro, ru, sr-Latn, sk, sl, es-419, es, sv, th, tr, uk, v)
+
+
 
 ## Onfido iOS SDK 29.3.0 Migration Guide
 

@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Postavite stranicu dokumenta s vizom u okvir";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Učitavanje u tijeku";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Postavite stranicu s fotografijom svog dokumenta u okvir";
 "onfido_doc_capture_header_license_back" = "Postavite stražnju stranu dokumenta u okvir";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Odaberite drugi dokument";
 "onfido_welcome_button_primary" = "Započni";
 "onfido_video_capture_button_primary_start" = "Počnite snimati";
-"onfido_video_confirmation_button_primary" = "Prenesite videozapis";
+"onfido_video_confirmation_button_primary" = "Pošaljite videozapis";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Predložena zemlja";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Započnite skeniranje";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Stavite mobitel pored sredine putovnice";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Skeniranje u tijeku...";
 
 "onfido_nfc_intro_title_card" = "Skenirajte svoju osobnu iskaznicu s NFC čipom";
 "onfido_nfc_intro_subtitle_card" = "Stavite mobitel na osobnu iskaznicu i držite iskaznicu blizu gornjeg dijela mobitela";
 "onfido_nfc_intro_button_primary_card" = "Započnite skeniranje";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Stavite mobitel na osobnu iskaznicu";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Nismo uspjeli skenirati vašu putovnicu";
 "onfido_nfc_fail_title_card" = "Nismo uspjeli skenirati vašu osobnu iskaznicu s NFC čipom";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Pristup kameri možete ponovno dopustiti vratiti putem postavki uređaja";
 "onfido_permission_recovery_list_item_action_cam" = "Otvorite postavke aplikacije i omogućite pristup kameri za ovu aplikaciju";
 "onfido_permission_recovery_title_mic" = "Pristup mikrofonu je odbijen";
-"onfido_permission_recovery_subtitle_mic" = "Ne možemo potvrditi vaš identitet bez mikrofona";
 "onfido_permission_recovery_list_item_how_to_mic" = "Pristup mikrofonu možete ponovno odobriti putem postavki uređaja";
 "onfido_permission_recovery_list_item_action_mic" = "Otvorite postavke aplikacije i omogućite pristup mikrofonu za ovu aplikaciju";
 "onfido_permission_recovery_title_both" = "Pristup kameri i mikrofonu je odbijen";
-"onfido_permission_recovery_subtitle_both" = "Ne možemo potvrditi vaš identitet bez kamere i mikrofona";
 "onfido_permission_recovery_list_item_how_to_both" = "Pristup kameri i mikrofonu možete ponovno odobriti putem postavki uređaja";
 "onfido_permission_recovery_list_item_action_both" = "Otvorite postavke aplikacije i omogućite pristup kameri i mikrofonu za ovu aplikaciju";
 "onfido_permission_recovery_button_primary" = "Omogućite u postavkama";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Potvrdili smo vaš identitet";
 "onfido_workflow_erros_task_not_supported" = "Ova radnja trenutačno nije podržana";
 "onfido_workflow_erros_task_not_completed" = "Ovu radnju nismo uspjeli izvršiti.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Nismo uspjeli dohvatiti željenu radnju.";
 "onfido_workflow_erros_no_workflow_run_id" = "Nema zadanog ID-ja pokretanje tijeka rada.";
 "onfido_workflow_erros_generic_title" = "Dogodila se pogreška na poslužitelju!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Izgubljen je kontakt s iskaznicom s NFC čipom\nPolako pomičite uređaj gore ili dolje.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Veza je prekinuta\nNismo uspjeli skenirati vaš dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN nije točan";
-"onfido_enter_can_error_label" = "Preostaje vam još nekoliko pokušaja (%1$d %2$s).";
+"onfido_enter_can_error_label" = "Preostaje vam još nekoliko pokušaja (%1$d %2$@).";
 "onfido_enter_can_substring_attempt_singular" = "pokušaj";
 "onfido_enter_can_substring_attempt_plural" = "pokušaja";
 "onfido_nfc_scan_error_button_secondary" = "Provjeri bez NFC-a";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Prikaži samo stranicu s fotografijama";
 "onfido_doc_capture_alert_tilted_title" = "Držite dokument ravno";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Snimanje videa";
 "onfido_doc_capture_header_recording_complete" = "Snimanje je završeno";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Otkriven je snimak zaslona";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Pokušajte ručno snimiti video";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Fotografija ekrana detektirana";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Otkrivena fotokopija";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Otkriveno skeniranje";
+"onfido_doc_confirmation_alert_odp_detail" = "Molimo koristite svoj izvorni dokument. Fotografije ekrana ili fotokopije nisu prihvaćene";

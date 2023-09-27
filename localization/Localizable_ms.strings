@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Letakkan halaman visa dokumen anda dalam bingkai";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Memuatkan";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Letakkan halaman foto dokumen anda dalam bingkai";
 "onfido_doc_capture_header_license_back" = "Letakkan bahagian belakang dokumen anda dalam bingkai";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Pilih dokumen lain";
 "onfido_welcome_button_primary" = "Mula";
 "onfido_video_capture_button_primary_start" = "Mula rakaman";
-"onfido_video_confirmation_button_primary" = "Muat naik video";
+"onfido_video_confirmation_button_primary" = "Hantar video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Negara cadangan";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Mula mengimbas";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Letakkan telefon anda berhampiran bahagian tengah pasport anda";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Mengimbas...";
 
 "onfido_nfc_intro_title_card" = "Imbas kad NFC anda";
 "onfido_nfc_intro_subtitle_card" = "Letakkan telefon anda pada kad dan pastikan kad berada berhampiran bahagian atas telefon anda";
 "onfido_nfc_intro_button_primary_card" = "Mula mengimbas";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Letakkan telefon anda pada kad";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Kami tidak dapat mengimbas pasport anda";
 "onfido_nfc_fail_title_card" = "Kami tidak dapat mengimbas kad NFC anda";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Anda boleh mengembalikan akses kamera melalui tetapan peranti anda";
 "onfido_permission_recovery_list_item_action_cam" = "Pergi ke tetapan aplikasi dan dayakan akses kamera untuk aplikasi ini";
 "onfido_permission_recovery_title_mic" = "Akses mikrofon tidak dibenarkan";
-"onfido_permission_recovery_subtitle_mic" = "Kami tidak dapat mengesahkan anda tanpa mikrofon anda";
 "onfido_permission_recovery_list_item_how_to_mic" = "Anda boleh mengembalikan akses mikrofon melalui tetapan peranti anda";
 "onfido_permission_recovery_list_item_action_mic" = "Pergi ke tetapan aplikasi dan dayakan akses mikrofon untuk aplikasi ini";
 "onfido_permission_recovery_title_both" = "Akses kamera dan mikrofon tidak dibenarkan";
-"onfido_permission_recovery_subtitle_both" = "Kami tidak dapat mengesahkan anda tanpa kamera dan mikrofon anda";
 "onfido_permission_recovery_list_item_how_to_both" = "Anda boleh mengembalikan semula akses mikrofon melalui tetapan peranti anda";
 "onfido_permission_recovery_list_item_action_both" = "Pergi ke tetapan aplikasi dan dayakan akses kamera dan mikrofon untuk aplikasi ini";
 "onfido_permission_recovery_button_primary" = "Dayakannya pada tetapan";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Kami telah mengesahkan identiti anda";
 "onfido_workflow_erros_task_not_supported" = "Tugasan tidak disokong buat masa ini";
 "onfido_workflow_erros_task_not_completed" = "Tidak dapat menyelesaikan tugasan aliran kerja.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Tidak boleh mendapatkan semula tugasan aliran kerja.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID pengenal pasti aliran kerja tidak ditetapkan.";
 "onfido_workflow_erros_generic_title" = "Berlaku ralat pelayan!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Terputus sambungan dengan kad NFC\nGerakkan peranti anda ke atas atau ke bawah sedikit.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Sambungan terputus\nKami tidak dapat mengimbas dokumen anda";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN tidak betul";
-"onfido_enter_can_error_label" = "Anda mempunyai %1$d %2$s lagi.";
+"onfido_enter_can_error_label" = "Anda mempunyai %1$d %2$@ lagi.";
 "onfido_enter_can_substring_attempt_singular" = "percubaan";
 "onfido_enter_can_substring_attempt_plural" = "percubaan";
 "onfido_nfc_scan_error_button_secondary" = "Dapatkan pengesahan tanpa NFC";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Paparkan halaman foto sahaja";
 "onfido_doc_capture_alert_tilted_title" = "Pegang dokumen dengan lurus";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Merekod video";
 "onfido_doc_capture_header_recording_complete" = "Rakaman selesai";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Pengambilan skrin dikesan";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Cuba merakam video secara manual";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Gambar skrin dikesan";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi dikesan";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Imbasan dikesan";
+"onfido_doc_confirmation_alert_odp_detail" = "Sila gunakan dokumen asal anda. Foto skrin atau fotokopi tidak diterima";

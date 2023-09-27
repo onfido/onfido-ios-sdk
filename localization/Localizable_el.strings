@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Τοποθετήστε τη σελίδα βίζας του εγγράφου σας στο πλαίσιο";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Φόρτωση";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο";
 "onfido_doc_capture_header_license_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Επιλέξτε άλλο έγγραφο";
 "onfido_welcome_button_primary" = "Έναρξη";
 "onfido_video_capture_button_primary_start" = "Έναρξη εγγραφής";
-"onfido_video_confirmation_button_primary" = "Αποστολή βίντεο";
+"onfido_video_confirmation_button_primary" = "Υποβολή βίντεο";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Προτεινόμενη χώρα";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Έναρξη σάρωσης";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Τοποθετήστε το τηλέφωνό σας κοντά στη μέση του διαβατηρίου σας";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Σάρωση σε εξέλιξη...";
 
 "onfido_nfc_intro_title_card" = "Σαρώστε το δελτίο σας με NFC";
 "onfido_nfc_intro_subtitle_card" = "Τοποθετήστε το τηλέφωνό σας επάνω στο δελτίο και κρατήστε το κοντά στο επάνω μέρος του τηλεφώνου σας";
 "onfido_nfc_intro_button_primary_card" = "Έναρξη σάρωσης";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Τοποθετήστε το τηλέφωνό σας επάνω στο δελτίο";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Δεν ήταν δυνατή η σάρωση του διαβατηρίου σας";
 "onfido_nfc_fail_title_card" = "Δεν ήταν δυνατή η σάρωση του δελτίου σας με NFC";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα μέσω των ρυθμίσεων της συσκευής σας";
 "onfido_permission_recovery_list_item_action_cam" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα για αυτήν την εφαρμογή";
 "onfido_permission_recovery_title_mic" = "Δεν επιτρέπεται η πρόσβαση στο μικρόφωνο";
-"onfido_permission_recovery_subtitle_mic" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς το μικρόφωνό σας";
 "onfido_permission_recovery_list_item_how_to_mic" = "Μπορείτε να ανακτήσετε την πρόσβαση στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
 "onfido_permission_recovery_list_item_action_mic" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στο μικρόφωνο για αυτήν την εφαρμογή";
 "onfido_permission_recovery_title_both" = "Απαγορεύεται η πρόσβαση στην κάμερα και στο μικρόφωνο";
-"onfido_permission_recovery_subtitle_both" = "Δεν μπορούμε να επαληθεύσουμε την ταυτότητά σας χωρίς την κάμερα και το μικρόφωνό σας";
 "onfido_permission_recovery_list_item_how_to_both" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα και στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
 "onfido_permission_recovery_list_item_action_both" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα και στο μικρόφωνο για αυτήν την εφαρμογή";
 "onfido_permission_recovery_button_primary" = "Ενεργοποίηση στις ρυθμίσεις";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Επαληθεύσαμε την ταυτότητά σας";
 "onfido_workflow_erros_task_not_supported" = "Η εργασία δεν υποστηρίζεται προς το παρόν";
 "onfido_workflow_erros_task_not_completed" = "Δεν ήταν δυνατή η ολοκλήρωση της εργασίας ροής εργασιών.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Δεν ήταν δυνατή η ανάκτηση της εργασίας ροής εργασιών.";
 "onfido_workflow_erros_no_workflow_run_id" = "Το αναγνωριστικό εκτέλεσης ροής εργασιών δεν έχει οριστεί.";
 "onfido_workflow_erros_generic_title" = "Παρουσιάστηκε σφάλμα διακομιστή!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Χάθηκε η επαφή με την κάρτα NFC\nΜετακινήστε τη συσκευή σας ελαφρώς προς τα πάνω ή προς τα κάτω.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Χάθηκε η σύνδεση\nΔεν ήταν δυνατή η σάρωση του εγγράφου σας";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Εσφαλμένο CAN";
-"onfido_enter_can_error_label" = "Έχετε %1$d %2$s ακόμη.";
+"onfido_enter_can_error_label" = "Έχετε %1$d %2$@ ακόμη.";
 "onfido_enter_can_substring_attempt_singular" = "προσπάθεια";
 "onfido_enter_can_substring_attempt_plural" = "προσπάθειες";
 "onfido_nfc_scan_error_button_secondary" = "Επαληθεύστε χωρίς NFC";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Επανάληψη σάρωσης";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "Μετακινηθείτε προς τα πίσω";
 "onfido_doc_capture_alert_rotated_title" = "Περιστρέψτε το έγγραφό σας";
 "onfido_doc_capture_alert_too_far_title" = "Πλησιάστε";
@@ -668,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Εμφάνιση μόνο της σελίδας φωτογραφίας";
 "onfido_doc_capture_alert_tilted_title" = "Κρατήστε το έγγραφο ευθεία";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Καταγραφή βίντεο";
 "onfido_doc_capture_header_recording_complete" = "Η εγγραφή ολοκληρώθηκε";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Ανιχνεύτηκε στιγμιότυπο οθόνης";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Δοκιμάστε να καταγράψετε βίντεο χειροκίνητα";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Ανιχνεύτηκε φωτογραφία οθόνης";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Ανιχνεύθηκε φωτοτυπία";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Εντοπίστηκε σάρωση";
+"onfido_doc_confirmation_alert_odp_detail" = "Παρακαλώ χρησιμοποιήστε το αρχικό σας έγγραφο. Οι φωτογραφίες από οθόνη ή φωτοτυπίες δεν γίνονται δεκτές";
