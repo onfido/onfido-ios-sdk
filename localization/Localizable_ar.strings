@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "ضع صفحة التأشيرة في مستندك داخل الإطار";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "جارٍ التحميل";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "ضع صفحة الصورة في مستندك ضمن الإطار";
 "onfido_doc_capture_header_license_back" = "ضع الجزء الخلفي من مستندك في الإطار";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "اختر مستندًا آخر";
 "onfido_welcome_button_primary" = "بدء";
 "onfido_video_capture_button_primary_start" = "بدء التسجيل";
-"onfido_video_confirmation_button_primary" = "حمّل الفيديو";
+"onfido_video_confirmation_button_primary" = "إرسال فيديو";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "البلد المقترح";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "بدء المسح الضوئي";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "ضع هاتفك بالقرب من منتصف جواز سفرك";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "جارٍ المسح الضوئي...";
 
 "onfido_nfc_intro_title_card" = "مسح بطاقة NFC ‏ضوئيًا";
 "onfido_nfc_intro_subtitle_card" = "ضع هاتفك على البطاقة واحتفظ به بالقرب من الجزء العلوي من هاتفك";
 "onfido_nfc_intro_button_primary_card" = "بدء المسح الضوئي";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "ضع هاتفك على البطاقة";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "لم نتمكن من مسح جواز سفرك";
 "onfido_nfc_fail_title_card" = "تعذّر علينا مسح بطاقة NFC الخاصة بك ضوئيًا";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "يمكنك استرداد الوصول إلى الكاميرا من خلال إعدادات جهازك";
 "onfido_permission_recovery_list_item_action_cam" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الكاميرا لهذا التطبيق";
 "onfido_permission_recovery_title_mic" = "تم رفض الوصول إلى الميكروفون";
-"onfido_permission_recovery_subtitle_mic" = "لا يمكننا التحقق منك من دون الميكروفون الخاص بك";
 "onfido_permission_recovery_list_item_how_to_mic" = "يمكنك استعادة الوصول إلى الميكروفون من خلال إعدادات جهازك";
 "onfido_permission_recovery_list_item_action_mic" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الميكروفون لهذا التطبيق";
 "onfido_permission_recovery_title_both" = "تم رفض الوصول إلى الكاميرا والميكروفون";
-"onfido_permission_recovery_subtitle_both" = "لا يمكننا التحقق منك من دون الكاميرا والميكروفون";
 "onfido_permission_recovery_list_item_how_to_both" = "يمكنك استرداد الوصول إلى الكاميرا والميكروفون من خلال إعدادات جهازك";
 "onfido_permission_recovery_list_item_action_both" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى كل من الكاميرا والميكروفون لهذا التطبيق";
 "onfido_permission_recovery_button_primary" = "تمكين في الإعدادات";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "لقد تحققنا من هويتك";
 "onfido_workflow_erros_task_not_supported" = "المهمة غير مدعومة حاليًا";
 "onfido_workflow_erros_task_not_completed" = "تعذّر إكمال مهمة سير العمل.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "تعذّرت استعادة مهمة سير العمل.";
 "onfido_workflow_erros_no_workflow_run_id" = "لم يتم تعيين معرف تشغيل سير العمل.";
 "onfido_workflow_erros_generic_title" = "حدث خطأ في الخادم!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "فقد الاتصال ببطاقة NFC\nحرك جهازك للأعلى أو للأسفل قليلاً.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "الاتصال مفقود\nلم نتمكن من مسح المستند ضوئيًا";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN غير صحيحة";
-"onfido_enter_can_error_label" = "لدي %1$d %2$s متبقية.";
+"onfido_enter_can_error_label" = "لدي %1$d %2$@ متبقية.";
 "onfido_enter_can_substring_attempt_singular" = "محاولة";
 "onfido_enter_can_substring_attempt_plural" = "محاولات";
 "onfido_nfc_scan_error_button_secondary" = "الحصول على التحقق دون NFC";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "أظهر صفحة الصور فقط";
 "onfido_doc_capture_alert_tilted_title" = "أمسك الوثيقة بشكل مستقيم";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "تسجيل الفيديو";
 "onfido_doc_capture_header_recording_complete" = "اكتمل التسجيل";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "تم اكتشاف لقطة شاشة";
+"onfido_doc_capture_alert_manual_capture_video_title" = "حاول تسجيل الفيديو يدويًا";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "تم اكتشاف صورة للشاشة";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "تم اكتشاف نسخة طبق الأصل";
+"onfido_doc_confirmation_alert_odp_scan_title" = "تم اكتشاف الفحص";
+"onfido_doc_confirmation_alert_odp_detail" = "يرجى استخدام المستند الأصلي الخاص بك. لا يتم قبول الصور من الشاشة أو النسخ الفوتوغرافية";

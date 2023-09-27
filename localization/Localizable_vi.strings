@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Đặt trang có thị thực trong giấy tờ của bạn trong khung hình";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Đang tải";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Đặt trang có ảnh trong giấy tờ của bạn trong khung hình";
 "onfido_doc_capture_header_license_back" = "Đặt mặt sau giấy tờ của bạn trong khung hình";
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Bắt đầu quét";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Đặt điện thoại gần giữa hộ chiếu của bạn";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Đang quét...";
 
 "onfido_nfc_intro_title_card" = "Quét thẻ NFC của bạn";
 "onfido_nfc_intro_subtitle_card" = "Đặt điện thoại của bạn trên thẻ và giữ nó gần với đầu điện thoại";
 "onfido_nfc_intro_button_primary_card" = "Bắt đầu quét";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Đặt điện thoại của bạn trên thẻ";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Chúng tôi không thể quét hộ chiếu của bạn";
 "onfido_nfc_fail_title_card" = "Chúng tôi không thể quét thẻ NFC của bạn";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Bạn có thể khôi phục quyền truy cập máy ảnh thông qua phần cài đặt thiết bị";
 "onfido_permission_recovery_list_item_action_cam" = "Vào phần cài đặt ứng dụng và bật quyền truy cập vào máy ảnh cho ứng dụng này";
 "onfido_permission_recovery_title_mic" = "Quyền truy cập micrô bị từ chối";
-"onfido_permission_recovery_subtitle_mic" = "Chúng tôi không thể xác minh bạn mà không có micrô";
 "onfido_permission_recovery_list_item_how_to_mic" = "Bạn có thể khôi phục quyền truy cập micrô thông qua phần cài đặt thiết bị";
 "onfido_permission_recovery_list_item_action_mic" = "Vào phần cài đặt ứng dụng và bật quyền truy cập vào micrô cho ứng dụng này";
 "onfido_permission_recovery_title_both" = "Quyền truy cập máy ảnh và micrô bị từ chối";
-"onfido_permission_recovery_subtitle_both" = "Chúng tôi không thể xác minh bạn mà không có máy ảnh và micrô";
 "onfido_permission_recovery_list_item_how_to_both" = "Bạn có thể khôi phục quyền truy cập máy ảnh và micrô thông qua phần cài đặt thiết bị";
 "onfido_permission_recovery_list_item_action_both" = "Vào phần cài đặt ứng dụng và bật quyền truy cập vào máy ảnh và micrô cho ứng dụng này";
 "onfido_permission_recovery_button_primary" = "Bật trong phần cài đặt";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Chúng tôi đã xác minh danh tính của bạn";
 "onfido_workflow_erros_task_not_supported" = "Tác vụ hiện không được hỗ trợ";
 "onfido_workflow_erros_task_not_completed" = "Không thể hoàn thành tác vụ quy trình công việc.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Không thể truy xuất tác vụ quy trình công việc.";
 "onfido_workflow_erros_no_workflow_run_id" = "Chưa đặt ID chạy quy trình công việc.";
 "onfido_workflow_erros_generic_title" = "Đã xảy ra lỗi máy chủ!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Mất tiếp xúc với thẻ NFC\nDi chuyển thiết bị của bạn lên hoặc xuống một chút.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Mất kết nối\nChúng tôi không thể quét giấy tờ của bạn";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN không chính xác";
-"onfido_enter_can_error_label" = "Bạn còn lại %1$d %2$s.";
+"onfido_enter_can_error_label" = "Bạn còn lại %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "lần thực hiện";
 "onfido_enter_can_substring_attempt_plural" = "lần thực hiện";
 "onfido_nfc_scan_error_button_secondary" = "Được xác minh mà không cần NFC";
@@ -655,14 +642,20 @@
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Được xác minh mà không cần NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "Lùi lại";
-"onfido_doc_capture_alert_rotated_title" = "";
+"onfido_doc_capture_alert_rotated_title" = "Xoay tài liệu của bạn";
 "onfido_doc_capture_alert_too_far_title" = "Di chuyển gần hơn nữa";
-"onfido_doc_capture_alert_wrong_side_front_title" = "";
-"onfido_doc_capture_alert_wrong_side_back_title" = "";
+"onfido_doc_capture_alert_wrong_side_front_title" = "Lật sang mặt trước";
+"onfido_doc_capture_alert_wrong_side_back_title" = "Lật sang mặt sau";
 "onfido_doc_capture_alert_hold_still_title" = "Hãy giữ yên";
 
 "onfido_doc_capture_alert_photo_page_title" = "Chỉ hiển thị trang ảnh";
 "onfido_doc_capture_alert_tilted_title" = "Giữ tài liệu thẳng";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Ghi video";
 "onfido_doc_capture_header_recording_complete" = "Ghi hình đã hoàn tất";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Đã phát hiện ảnh chụp màn hình";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Thử quay video theo cách thủ công";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Đã phát hiện ảnh của màn hình";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Phát hiện bản sao";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Quét đã phát hiện";
+"onfido_doc_confirmation_alert_odp_detail" = "Vui lòng sử dụng tài liệu gốc của bạn. Ảnh chụp màn hình hoặc bản sao không được chấp nhận";

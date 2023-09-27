@@ -29,7 +29,7 @@
 "onfido_doc_confirmation_button_primary_generic" = "Trimiteți poză";
 "onfido_doc_confirmation_button_primary_id" = "Trimiteți poză";
 /* Face/Document Confirmation */
-"onfido_selfie_confirmation_button_primary" = "Încărcați poza";
+"onfido_selfie_confirmation_button_primary" = "Încarcă fotografie";
 "onfido_doc_confirmation_button_secondary" = "Faceți din nou poză";
 "onfido_doc_confirmation_button_primary_passport" = "Trimiteți poză";
 "onfido_doc_confirmation_button_primary_permit" = "Trimiteți poză";
@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Poziționați pagina vize a documentului dvs. în cadru";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Se încarcă";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Poziționați pagina cu poză a documentului dvs. în cadru";
 "onfido_doc_capture_header_license_back" = "Poziționați pagina verso a documentului dvs. în cadru";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Alegeți alt document";
 "onfido_welcome_button_primary" = "Începeți";
 "onfido_video_capture_button_primary_start" = "Începeți înregistrarea";
-"onfido_video_confirmation_button_primary" = "Înregistrați un clip video";
+"onfido_video_confirmation_button_primary" = "Trimiteți clip video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Țară sugerată";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Începeți scanarea";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Plasați telefonul dvs. aproape de partea de mijloc a pașaportului dvs.";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Scanare în curs...";
 
 "onfido_nfc_intro_title_card" = "Scanați cardul dvs. NFC";
 "onfido_nfc_intro_subtitle_card" = "Plasați telefonul dvs. deasupra cardului și mențineți-l aproape de partea superioară a telefonului dvs.";
 "onfido_nfc_intro_button_primary_card" = "Începeți scanarea";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Plasați telefonul dvs. deasupra cardului";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Nu am reușit să vă scanăm pașaportul";
 "onfido_nfc_fail_title_card" = "Nu am reușit să vă scanăm cardul NFC";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Puteți recupera accesul la camera video din setările dispozitivului dvs.";
 "onfido_permission_recovery_list_item_action_cam" = "Mergeți în setările aplicației și activați accesul la camera video pentru această aplicație";
 "onfido_permission_recovery_title_mic" = "Accesul la microfon este refuzat";
-"onfido_permission_recovery_subtitle_mic" = "Nu vă putem verifica fără microfonul dvs.";
 "onfido_permission_recovery_list_item_how_to_mic" = "Puteți recupera accesul la microfon din setările dispozitivului dvs.";
 "onfido_permission_recovery_list_item_action_mic" = "Mergeți în setările aplicației și activați accesul la microfon pentru această aplicație";
 "onfido_permission_recovery_title_both" = "Accesul la camera video și microfon este refuzat";
-"onfido_permission_recovery_subtitle_both" = "Nu vă putem verifica fără camera video și microfonul dvs.";
 "onfido_permission_recovery_list_item_how_to_both" = "Puteți recupera accesul la camera video și microfon din setările dispozitivului dvs.";
 "onfido_permission_recovery_list_item_action_both" = "Mergeți în setările aplicației și activați atât accesul la camera video, cât și la microfon pentru această aplicație";
 "onfido_permission_recovery_button_primary" = "Activați în setări";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Am reușit să vă verificăm identitatea";
 "onfido_workflow_erros_task_not_supported" = "Sarcina nu este în mod prezent acoperită";
 "onfido_workflow_erros_task_not_completed" = "Imposibilitate de a finaliza sarcina de flux de lucru.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Imposibilitate de a relua sarcina de flux de lucru.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID-ul de executare flux de lucru nu este setat.";
 "onfido_workflow_erros_generic_title" = "A survenit o eroare de server!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Ați pierdut contactul cu cardul NFC\nMutați ușor dispozitivul în sus sau în jos.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Conexiune pierdută\nNu am putut scana documentul dvs.";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorect";
-"onfido_enter_can_error_label" = "Mai aveți %1$d %2$s.";
+"onfido_enter_can_error_label" = "Mai aveți %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "încercare";
 "onfido_enter_can_substring_attempt_plural" = "încercări";
 "onfido_nfc_scan_error_button_secondary" = "Obțineți verificarea fără NFC";
@@ -662,6 +649,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Afișează doar pagina cu fotografie";
 "onfido_doc_capture_alert_tilted_title" = "Ține documentul drept";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Înregistrare video";
 "onfido_doc_capture_header_recording_complete" = "Înregistrare finalizată";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Captură de ecran detectată";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Încearcă să înregistrezi video manual";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Fotografie a ecranului detectată";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotocopie detectată";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Scanare detectată";
+"onfido_doc_confirmation_alert_odp_detail" = "Vă rugăm să utilizați documentul dvs. original. Fotografiile de pe ecran sau fotocopiile nu sunt acceptate";

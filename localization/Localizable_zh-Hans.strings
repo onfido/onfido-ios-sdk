@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "将证明文件的签证页放在框中";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "正在加载";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "将证明文件的照片页放在框中";
 "onfido_doc_capture_header_license_back" = "将证明文件背面放在框中";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "选择另一个证明文件";
 "onfido_welcome_button_primary" = "开始";
 "onfido_video_capture_button_primary_start" = "开始录制";
-"onfido_video_confirmation_button_primary" = "上传视频";
+"onfido_video_confirmation_button_primary" = "提交视频";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "建议的国家/地区";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "开始扫描";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "将手机放在护照中间附近";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "正在扫描......";
 
 "onfido_nfc_intro_title_card" = "扫描您的NFC身份证";
 "onfido_nfc_intro_subtitle_card" = "将手机放在身份证上，并放在手机顶部附近";
 "onfido_nfc_intro_button_primary_card" = "开始扫描";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "将手机放在身份证上";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "我们无法扫描您的护照";
 "onfido_nfc_fail_title_card" = "我们无法扫描您的NFC身份证";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "您可以通过设备设置恢复相机访问";
 "onfido_permission_recovery_list_item_action_cam" = "转到应用设置并启用此应用的相机访问";
 "onfido_permission_recovery_title_mic" = "麦克风访问被拒绝";
-"onfido_permission_recovery_subtitle_mic" = "如果不使用麦克风，我们就无法验证您的身份";
 "onfido_permission_recovery_list_item_how_to_mic" = "您可以通过设备设置恢复麦克风访问";
 "onfido_permission_recovery_list_item_action_mic" = "转到应用设置并启用此应用的麦克风访问";
 "onfido_permission_recovery_title_both" = "相机和麦克风访问被拒绝";
-"onfido_permission_recovery_subtitle_both" = "如果不使用相机和麦克风，我们就无法验证您的身份";
 "onfido_permission_recovery_list_item_how_to_both" = "您可以通过设备设置恢复相机和麦克风访问";
 "onfido_permission_recovery_list_item_action_both" = "转到应用设置并将此应用的相机和麦克风访问全部启用";
 "onfido_permission_recovery_button_primary" = "在设置中启用";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "我们已验证您的身份";
 "onfido_workflow_erros_task_not_supported" = "任务当前不受支持";
 "onfido_workflow_erros_task_not_completed" = "无法完成工作流任务。";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "无法检索工作流任务。";
 "onfido_workflow_erros_no_workflow_run_id" = "未设置工作流运行ID。";
 "onfido_workflow_erros_generic_title" = "存在服务器错误！";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "失去与NFC身份证的接触\n将设备稍微向上或向下移动。";
 "onfido_nfc_scan_lost-connection_sheet_4" = "失去连接\n我们无法扫描您的证明文件";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN不正确";
-"onfido_enter_can_error_label" = "您还可以尝试%1$d%2$s。";
+"onfido_enter_can_error_label" = "您还可以尝试%1$d%2$@。";
 "onfido_enter_can_substring_attempt_singular" = "次";
 "onfido_enter_can_substring_attempt_plural" = "次";
 "onfido_nfc_scan_error_button_secondary" = "不用NFC获得验证";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "仅显示照片页面";
 "onfido_doc_capture_alert_tilted_title" = "保持文件直立";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "录制视频";
 "onfido_doc_capture_header_recording_complete" = "录制完成";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "检测到截图";
+"onfido_doc_capture_alert_manual_capture_video_title" = "尝试手动录制视频";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "检测到屏幕照片";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "检测到复印件";
+"onfido_doc_confirmation_alert_odp_scan_title" = "扫描检测到";
+"onfido_doc_confirmation_alert_odp_detail" = "请使用您的原始文件。屏幕照片或复印件将不被接受";

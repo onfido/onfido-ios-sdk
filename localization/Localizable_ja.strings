@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "ドキュメント内のビザのページを枠内に配置する";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "ローディング中です";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "ドキュメント内の写真ページを枠内に配置する";
 "onfido_doc_capture_header_license_back" = "ドキュメントの背面を枠内に配置する";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "別のドキュメントを選択";
 "onfido_welcome_button_primary" = "開始";
 "onfido_video_capture_button_primary_start" = "録画を開始する";
-"onfido_video_confirmation_button_primary" = "動画をアップロードする";
+"onfido_video_confirmation_button_primary" = "動画を送信する";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "推奨される国";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "スキャンを開始する";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "パスポートの中心付近にスマートフォンを置いてください";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "スキャンしています...";
 
 "onfido_nfc_intro_title_card" = "NFCカードをスキャンしてください";
 "onfido_nfc_intro_subtitle_card" = "スマートフォンをカードの上に置き、カードはスマートフォンの上部近くで固定してください";
 "onfido_nfc_intro_button_primary_card" = "スキャンを開始する";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "スマートフォンをカードにのせる";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "パスポートをスキャンできませんでした";
 "onfido_nfc_fail_title_card" = "NFCカードをスキャンできませんでした";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "デバイスの設定からカメラへのアクセスを回復できます";
 "onfido_permission_recovery_list_item_action_cam" = "アプリの設定に移動して、このアプリのカメラアクセスを有効にします";
 "onfido_permission_recovery_title_mic" = "マイクへのアクセスが拒否されました";
-"onfido_permission_recovery_subtitle_mic" = "マイクを使用しないと確認できません";
 "onfido_permission_recovery_list_item_how_to_mic" = "デバイスの設定からマイクへのアクセスを回復できます";
 "onfido_permission_recovery_list_item_action_mic" = "アプリの設定に移動して、このアプリのマイクへのアクセスを有効にします";
 "onfido_permission_recovery_title_both" = "カメラとマイクへのアクセスが拒否されました";
-"onfido_permission_recovery_subtitle_both" = "カメラとマイクを使用しないと認証できません";
 "onfido_permission_recovery_list_item_how_to_both" = "デバイスの設定からカメラとマイクへのアクセスを回復できます";
 "onfido_permission_recovery_list_item_action_both" = "アプリの設定に移動して、このアプリのカメラとマイク両方へのアクセスを有効にします";
 "onfido_permission_recovery_button_primary" = "設定で有効にする";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "本人確認が完了しました";
 "onfido_workflow_erros_task_not_supported" = "タスクは現在サポートされていません";
 "onfido_workflow_erros_task_not_completed" = "ワークフロータスクを完了できませんでした。";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "ワークフロータスクを取得できませんでした。";
 "onfido_workflow_erros_no_workflow_run_id" = "ワークフロー実行IDが設定されていません。";
 "onfido_workflow_erros_generic_title" = "サーバーエラーが発生しました。";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFCカードとの接続を失いました\nデバイスをわずかに上下に動かしてください。";
 "onfido_nfc_scan_lost-connection_sheet_4" = "接続が失われました\nドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CANが正しくありません";
-"onfido_enter_can_error_label" = "%1$d%2$sが残っています。";
+"onfido_enter_can_error_label" = "%1$d%2$@が残っています。";
 "onfido_enter_can_substring_attempt_singular" = "試行";
 "onfido_enter_can_substring_attempt_plural" = "試行";
 "onfido_nfc_scan_error_button_secondary" = "NFCなしで認証を受ける";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "写真ページのみを表示";
 "onfido_doc_capture_alert_tilted_title" = "書類をまっすぐに保持してください";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "ビデオを録画する";
 "onfido_doc_capture_header_recording_complete" = "記録が完了しました";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "スクリーンショットが検出されました";
+"onfido_doc_capture_alert_manual_capture_video_title" = "手動でビデオを録画してみてください";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "画面の写真が検出されました";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "複写検出されました";
+"onfido_doc_confirmation_alert_odp_scan_title" = "スキャンが検出されました";
+"onfido_doc_confirmation_alert_odp_detail" = "元のドキュメントを使用してください。スクリーンの写真やコピーは受け付けていません";

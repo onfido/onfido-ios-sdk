@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Placera dokumentets visumsida i ramen";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Laddar";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Placera dokumentets fotosida i ramen";
 "onfido_doc_capture_header_license_back" = "Placera dokumentets baksida i ramen";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Välj ett annat dokument";
 "onfido_welcome_button_primary" = "Starta";
 "onfido_video_capture_button_primary_start" = "Starta inspelning";
-"onfido_video_confirmation_button_primary" = "Ladda upp video";
+"onfido_video_confirmation_button_primary" = "Skicka in video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Föreslaget land";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Starta skanning";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placera telefonen nära mitten av ditt pass";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Skannar...";
 
 "onfido_nfc_intro_title_card" = "Skanna ditt NFC-kort";
 "onfido_nfc_intro_subtitle_card" = "Placera din telefon på kortet och håll det nära toppen av telefonen";
 "onfido_nfc_intro_button_primary_card" = "Starta skanning";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Placera din telefon på kortet";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Vi kunde inte skanna ditt pass";
 "onfido_nfc_fail_title_card" = "Vi kunde inte skanna ditt NFC-kort";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Du kan återställa kameraåtkomst via dina enhetsinställningar";
 "onfido_permission_recovery_list_item_action_cam" = "Gå till appinställningarna och aktivera kameraåtkomst för den här appen";
 "onfido_permission_recovery_title_mic" = "Mikrofonåtkomst nekad";
-"onfido_permission_recovery_subtitle_mic" = "Vi kan inte verifiera dig utan din mikrofon";
 "onfido_permission_recovery_list_item_how_to_mic" = "Du kan återställa mikrofonåtkomst via dina enhetsinställningar";
 "onfido_permission_recovery_list_item_action_mic" = "Gå till appinställningarna och aktivera mikrofonåtkomst för den här appen";
 "onfido_permission_recovery_title_both" = "Kamera- och mikrofonåtkomst nekad";
-"onfido_permission_recovery_subtitle_both" = "Vi kan inte verifiera dig utan din kamera och mikrofon";
 "onfido_permission_recovery_list_item_how_to_both" = "Du kan återställa kamera- och mikrofonåtkomst via dina enhetsinställningar";
 "onfido_permission_recovery_list_item_action_both" = "Gå till appinställningarna och aktivera både kamera- och mikrofonåtkomst för den här appen";
 "onfido_permission_recovery_button_primary" = "Aktivera i inställningar";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Vi har verifierat din identitet";
 "onfido_workflow_erros_task_not_supported" = "Uppgiften stöds för närvarande inte";
 "onfido_workflow_erros_task_not_completed" = "Det gick inte att slutföra denna arbetsuppgift i flödet.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Det gick inte att hämta denna arbetsuppgift i flödet.";
 "onfido_workflow_erros_no_workflow_run_id" = "ID för arbetsflöde är inte inställt.";
 "onfido_workflow_erros_generic_title" = "Det uppstod ett serverfel!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Förlorade anslutningen med NFC-kort\nFlytta enheten något uppåt eller nedåt.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Förlorade anslutningen\nVi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Felaktigt CAN";
-"onfido_enter_can_error_label" = "Du har %1$d %2$s kvar.";
+"onfido_enter_can_error_label" = "Du har %1$d %2$@ kvar.";
 "onfido_enter_can_substring_attempt_singular" = "försök";
 "onfido_enter_can_substring_attempt_plural" = "försök";
 "onfido_nfc_scan_error_button_secondary" = "Bli verifierad utan NFC";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Visa endast fotosida";
 "onfido_doc_capture_alert_tilted_title" = "Håll dokumentet rakt";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Spelar in video";
 "onfido_doc_capture_header_recording_complete" = "Inspelning slutförd";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Skärmdump upptäckt";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Försök att spela in video manuellt";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto av skärm upptäckt";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopia upptäckt";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Skanning upptäckt";
+"onfido_doc_confirmation_alert_odp_detail" = "Använd ditt ursprungliga dokument. Foton av skärm eller fotokopior accepteras inte";

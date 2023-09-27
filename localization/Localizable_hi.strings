@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "अपने डॉक्यूमेंट के वीज़ा पेज को फ़्रेम के बीच में रखें";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "लोड हो रहा है";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "अपने डॉक्यूमेंट के फ़ोटो वाले पेज को फ़्रेम के बीच में रखें";
 "onfido_doc_capture_header_license_back" = "अपने डॉक्यूमेंट के पीछे के हिस्से को फ़्रेम के बीच में रखें";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "कोई दूसरा डॉक्यूमेंट चुनें";
 "onfido_welcome_button_primary" = "शुरू करें";
 "onfido_video_capture_button_primary_start" = "रिकॉर्डिंग शुरू करें";
-"onfido_video_confirmation_button_primary" = "वीडियो अपलोड करें";
+"onfido_video_confirmation_button_primary" = "वीडियो सबमिट करें";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "सुझाया गया देश";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "स्कैन करना शुरू करें";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "अपने फ़ोन को अपने पासपोर्ट के बीच वाले हिस्से के करीब रखें";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "स्कैन हो रहा है...";
 
 "onfido_nfc_intro_title_card" = "अपना NFC कार्ड स्कैन करें";
 "onfido_nfc_intro_subtitle_card" = "अपने फ़ोन को कार्ड के ऊपर और इसे अपने फ़ोन के ऊपरी हिस्से के करीब रखें";
 "onfido_nfc_intro_button_primary_card" = "स्कैन करना शुरू करें";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "अपने फ़ोन को कार्ड के ऊपर रखें";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "हम आपका पासपोर्ट स्कैन नहीं कर सके";
 "onfido_nfc_fail_title_card" = "हम आपका NFC कार्ड स्कैन नहीं कर सके";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "आप अपनी डिवाइस सेटिंग के ज़रिए कैमरे का ऐक्सेस रिकवर कर सकते हैं";
 "onfido_permission_recovery_list_item_action_cam" = "ऐप सेटिंग पर जाएँ और इस ऐप के लिए कैमरे का ऐक्सेस चालू करें";
 "onfido_permission_recovery_title_mic" = "माइक्रोफ़ोन का ऐक्सेस नहीं मिला";
-"onfido_permission_recovery_subtitle_mic" = "हम आपके माइक्रोफ़ोन के बिना आपको वेरिफ़ाई नहीं कर सकते";
 "onfido_permission_recovery_list_item_how_to_mic" = "आप अपनी डिवाइस सेटिंग के ज़रिए माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं";
 "onfido_permission_recovery_list_item_action_mic" = "ऐप सेटिंग पर जाएँ और इस ऐप के लिए माइक्रोफ़ोन का ऐक्सेस चालू करें";
 "onfido_permission_recovery_title_both" = "कैमरे और माइक्रोफ़ोन का ऐक्सेस अस्वीकार कर दिया गया";
-"onfido_permission_recovery_subtitle_both" = "हम आपके कैमरे और माइक्रोफ़ोन के बिना आपको वेरिफ़ाई नहीं कर सकते";
 "onfido_permission_recovery_list_item_how_to_both" = "आप अपनी डिवाइस सेटिंग के ज़रिए कैमरे और माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं";
 "onfido_permission_recovery_list_item_action_both" = "ऐप सेटिंग पर जाएँ और इस ऐप के लिए कैमरे और माइक्रोफ़ोन दोनों का ऐक्सेस चालू करें";
 "onfido_permission_recovery_button_primary" = "सेटिंग में चालू करें";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "हमने आपकी पहचान वेरिफ़ाई कर दी है";
 "onfido_workflow_erros_task_not_supported" = "अभी यह टास्क समर्थित नहीं है";
 "onfido_workflow_erros_task_not_completed" = "वर्कफ़्लो टास्क पूरा नहीं हो सका।";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "वर्कफ़्लो टास्क फिर से हासिल नहीं किया जा सका।";
 "onfido_workflow_erros_no_workflow_run_id" = "वर्कफ़्लो रन आईडी सेट नहीं है।";
 "onfido_workflow_erros_generic_title" = "सर्वर में कोई गड़बड़ी हुई!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC कार्ड से संपर्क टूट गया\nअपने डिवाइस को थोड़ा ऊपर या नीचे की ओर ले जाएँ।";
 "onfido_nfc_scan_lost-connection_sheet_4" = "कनेक्शन टूट गया\nहम आपका डॉक्यूमेंट स्कैन नहीं कर सके";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "गलत CAN";
-"onfido_enter_can_error_label" = "आपके पास %1$d %2$s बचे हैं।";
+"onfido_enter_can_error_label" = "आपके पास %1$d %2$@ बचे हैं।";
 "onfido_enter_can_substring_attempt_singular" = "प्रयास";
 "onfido_enter_can_substring_attempt_plural" = "प्रयास";
 "onfido_nfc_scan_error_button_secondary" = "एनएफसी के बिना सत्यापित हो जाओ";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "केवल फ़ोटो पेज दिखाएं";
 "onfido_doc_capture_alert_tilted_title" = "दस्तावेज़ को सीधा रखें";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "वीडियो रिकॉर्ड करना";
 "onfido_doc_capture_header_recording_complete" = "रिकॉर्डिंग पूरी हुई";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "स्क्रीनशॉट का पता चला";
+"onfido_doc_capture_alert_manual_capture_video_title" = "मैन्युअल रूप से वीडियो रिकॉर्ड करने का प्रयास करें";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "स्क्रीन की फ़ोटो का पता चला";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "फोटोकॉपी पता चली";
+"onfido_doc_confirmation_alert_odp_scan_title" = "स्कैन संस्थापित";
+"onfido_doc_confirmation_alert_odp_detail" = "कृपया अपना मूल दस्तावेज़ उपयोग करें। स्क्रीन की फ़ोटो या फ़ोटोकॉपी स्वीकार नहीं की जाती हैं";

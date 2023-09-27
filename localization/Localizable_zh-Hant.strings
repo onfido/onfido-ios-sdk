@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "將文件的簽證頁置於框架中";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "載入中";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "請將文件的相片頁置於框架中";
 "onfido_doc_capture_header_license_back" = "請將文件背面置於框架中";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "選擇其他文件";
 "onfido_welcome_button_primary" = "開始";
 "onfido_video_capture_button_primary_start" = "開始錄製";
-"onfido_video_confirmation_button_primary" = "上傳影片";
+"onfido_video_confirmation_button_primary" = "提交影片";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "建議國家";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "開始掃描";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "將手機放在靠近護照中間的位置";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "正在掃描……";
 
 "onfido_nfc_intro_title_card" = "掃描您的 NFC 卡片";
 "onfido_nfc_intro_subtitle_card" = "將手機放在卡片上，並使其靠近您的手機頂部";
 "onfido_nfc_intro_button_primary_card" = "開始掃描";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "把手機放在卡片上";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "我們無法掃描您的護照";
 "onfido_nfc_fail_title_card" = "我們無法掃描您的 NFC 卡片";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "您可以透過裝置設定恢復相機存取權限";
 "onfido_permission_recovery_list_item_action_cam" = "前往應用程式設定，為此應用程式啟用相機存取功能";
 "onfido_permission_recovery_title_mic" = "麥克風存取被拒絕";
-"onfido_permission_recovery_subtitle_mic" = "不使用麥克風，我們無法驗證您的身份";
 "onfido_permission_recovery_list_item_how_to_mic" = "您可以透過裝置設定恢復麥克風存取權限";
 "onfido_permission_recovery_list_item_action_mic" = "前往應用程式設定，為此應用程式啟用麥克風存取權限";
 "onfido_permission_recovery_title_both" = "相機和麥克風存取被拒絕";
-"onfido_permission_recovery_subtitle_both" = "不使用相機和麥克風，我們無法驗證您的身份";
 "onfido_permission_recovery_list_item_how_to_both" = "您可以透過裝置設定恢復相機和麥克風存取權限";
 "onfido_permission_recovery_list_item_action_both" = "前往應用程式設定，為此應用程式啟用相機和麥克風存取權限";
 "onfido_permission_recovery_button_primary" = "在設定中啟用";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "我們已驗證您的身份";
 "onfido_workflow_erros_task_not_supported" = "目前不支援此任務";
 "onfido_workflow_erros_task_not_completed" = "無法完成工作流程任務。";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "無法檢索工作流程任務。";
 "onfido_workflow_erros_no_workflow_run_id" = "未設定工作流程執行 ID。";
 "onfido_workflow_erros_generic_title" = "伺服器發生錯誤！";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "失去與 NFC 卡片的接觸\n稍微向上或向下移動裝置。";
 "onfido_nfc_scan_lost-connection_sheet_4" = "失去連線\n我們無法掃描您的文件";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN 不正確";
-"onfido_enter_can_error_label" = "目前剩下 %1$d %2$s 嘗試次數。";
+"onfido_enter_can_error_label" = "目前剩下 %1$d %2$@ 嘗試次數。";
 "onfido_enter_can_substring_attempt_singular" = "嘗試";
 "onfido_enter_can_substring_attempt_plural" = "嘗試";
 "onfido_nfc_scan_error_button_secondary" = "無需NFC即可獲得驗證";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "僅顯示照片頁面";
 "onfido_doc_capture_alert_tilted_title" = "保持文件直立";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "錄製影片";
 "onfido_doc_capture_header_recording_complete" = "錄製完成";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "偵測到截圖";
+"onfido_doc_capture_alert_manual_capture_video_title" = "嘗試手動錄製影片";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "偵測到螢幕的照片";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "偵測到影印件";
+"onfido_doc_confirmation_alert_odp_scan_title" = "掃描檢測到";
+"onfido_doc_confirmation_alert_odp_detail" = "請使用您的原始文件。不接受螢幕照片或影印本";

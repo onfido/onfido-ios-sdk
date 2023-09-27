@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Coloque la página del visado del documento dentro del cuadro";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Cargando";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Coloque la página del documento con fotografía dentro del cuadro";
 "onfido_doc_capture_header_license_back" = "Ponga la parte trasera de su documento en el marco";
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Empezar a escanear";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Coloque el teléfono cerca de la parte central de su pasaporte";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Escaneando...";
 
 "onfido_nfc_intro_title_card" = "Escanee su tarjeta NFC";
 "onfido_nfc_intro_subtitle_card" = "Coloque el teléfono sobre la tarjeta de manera que la tarjeta quede cerca de la parte superior del teléfono";
 "onfido_nfc_intro_button_primary_card" = "Empezar a escanear";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Coloque el teléfono sobre la tarjeta";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "No pudimos escanear su pasaporte";
 "onfido_nfc_fail_title_card" = "No pudimos escanear su tarjeta NFC";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Puede recuperar el acceso a la cámara a través de la configuración de su dispositivo";
 "onfido_permission_recovery_list_item_action_cam" = "Vaya a la configuración de la aplicación y habilite el acceso a la cámara para esta aplicación";
 "onfido_permission_recovery_title_mic" = "Acceso al micrófono denegado";
-"onfido_permission_recovery_subtitle_mic" = "No podemos verificar su identidad sin su micrófono";
 "onfido_permission_recovery_list_item_how_to_mic" = "Puede recuperar el acceso al micrófono a través de la configuración de su dispositivo";
 "onfido_permission_recovery_list_item_action_mic" = "Vaya a la configuración de la aplicación y habilite el acceso al micrófono para esta aplicación";
 "onfido_permission_recovery_title_both" = "Acceso denegado a la cámara y al micrófono";
-"onfido_permission_recovery_subtitle_both" = "No podemos verificar su identidad sin su cámara ni su micrófono";
 "onfido_permission_recovery_list_item_how_to_both" = "Puede recuperar el acceso a la cámara y al micrófono a través de la configuración de su dispositivo";
 "onfido_permission_recovery_list_item_action_both" = "Vaya a la configuración de la aplicación y habilite el acceso a la cámara y al micrófono para esta aplicación";
 "onfido_permission_recovery_button_primary" = "Habilitar en la configuración";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Hemos verificado su identidad";
 "onfido_workflow_erros_task_not_supported" = "Actualmente no se admite la tarea";
 "onfido_workflow_erros_task_not_completed" = "No se ha podido completar la tarea del flujo de trabajo.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "No se pudo recuperar la tarea de flujo de trabajo.";
 "onfido_workflow_erros_no_workflow_run_id" = "No se ha establecido el ID de ejecución del flujo de trabajo.";
 "onfido_workflow_erros_generic_title" = "Se ha producido un error en el servidor.";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Pérdida de contacto con la tarjeta NFC\nMueva su dispositivo ligeramente hacia arriba o hacia abajo.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Conexión perdida\nNo hemos podido escanear su documento";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "CAN incorrecto";
-"onfido_enter_can_error_label" = "Te quedan %1$d %2$s.";
+"onfido_enter_can_error_label" = "Te quedan %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "intente";
 "onfido_enter_can_substring_attempt_plural" = "intentos";
 "onfido_nfc_scan_error_button_secondary" = "Verifícate sin NFC";
@@ -662,6 +649,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Mostrar solo la página de la foto";
 "onfido_doc_capture_alert_tilted_title" = "Sostenga el documento recto";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Grabando vídeo";
 "onfido_doc_capture_header_recording_complete" = "Grabación completada";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Captura de pantalla detectada";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Intenta grabar el vídeo manualmente";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto de pantalla detectada";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotocopia detectada";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Escaneo detectado";
+"onfido_doc_confirmation_alert_odp_detail" = "Por favor, utilice su documento original. No se aceptan fotos de pantalla ni fotocopias";

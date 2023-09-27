@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Belgenizin vize sayfasını çerçeveye yerleştirin";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Yükleniyor";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Belgenizin fotoğraf sayfasını çerçeveye yerleştirin";
 "onfido_doc_capture_header_license_back" = "Belgenizin arka yüzünü çerçeveye yerleştirin";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Başka bir belge seçin";
 "onfido_welcome_button_primary" = "Başlat";
 "onfido_video_capture_button_primary_start" = "Kaydı başlatın";
-"onfido_video_confirmation_button_primary" = "Video yükle";
+"onfido_video_confirmation_button_primary" = "Videoyu gönder";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Önerilen ülke";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Taramaya başla";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Telefonunuzu pasaportunuzun ortasına yakın bir yere yerleştirin";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Taranıyor...";
 
 "onfido_nfc_intro_title_card" = "NFC'li kimliğinizi tarayın";
 "onfido_nfc_intro_subtitle_card" = "Telefonunuzu kimliğin üzerine yerleştirin ve telefonunuzun üst kısmına yakın tutun";
 "onfido_nfc_intro_button_primary_card" = "Taramaya başla";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Telefonunuzu kimliğin üstüne yerleştirin";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Pasaportunuzu tarayamadık";
 "onfido_nfc_fail_title_card" = "NFC'li kimliğinizi tarayamadık";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Cihaz ayarlarınızdan kamera erişimini kurtarabilirsiniz";
 "onfido_permission_recovery_list_item_action_cam" = "Uygulama ayarlarına gidin ve bu uygulama için kamera erişimini etkinleştirin";
 "onfido_permission_recovery_title_mic" = "Mikrofon erişimi reddedildi";
-"onfido_permission_recovery_subtitle_mic" = "Mikrofonunuzu kullanmadan sizi doğrulayamayız";
 "onfido_permission_recovery_list_item_how_to_mic" = "Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz";
 "onfido_permission_recovery_list_item_action_mic" = "Uygulama ayarlarına gidin ve bu uygulama için mikrofon erişimini etkinleştirin";
 "onfido_permission_recovery_title_both" = "Kamera ve mikrofon erişimi reddedildi";
-"onfido_permission_recovery_subtitle_both" = "Kameranız ve mikrofonunuz olmadan sizi doğrulayamayız";
 "onfido_permission_recovery_list_item_how_to_both" = "Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz";
 "onfido_permission_recovery_list_item_action_both" = "Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin";
 "onfido_permission_recovery_button_primary" = "Ayarlarda etkinleştir";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Kimliğinizi doğruladık";
 "onfido_workflow_erros_task_not_supported" = "Görev şu anda desteklenmiyor";
 "onfido_workflow_erros_task_not_completed" = "İş akışı görevi tamamlanamadı.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "İş akışı görevi alınamadı.";
 "onfido_workflow_erros_no_workflow_run_id" = "İş akışı çalışma kimliği ayarlanmadı.";
 "onfido_workflow_erros_generic_title" = "Sunucu hatası oluştu!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "NFC kartı ile teması kayboldu\nCihazınızı hafifçe yukarı veya aşağı hareket ettirin.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Bağlantı kesildi\nBelgenizi tarayamadık";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Yanlış CAN";
-"onfido_enter_can_error_label" = "%1$d %2$s kaldı.";
+"onfido_enter_can_error_label" = "%1$d %2$@ kaldı.";
 "onfido_enter_can_substring_attempt_singular" = "deneme";
 "onfido_enter_can_substring_attempt_plural" = "deneme";
 "onfido_nfc_scan_error_button_secondary" = "NFC olmadan doğrulanın";
@@ -663,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Sadece fotoğraf sayfasını göster";
 "onfido_doc_capture_alert_tilted_title" = "Belgeyi düz tutun";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video kaydediliyor";
 "onfido_doc_capture_header_recording_complete" = "Kayıt tamamlandı";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Ekran görüntüsü algılandı";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Videoyu manuel olarak kaydetmeyi deneyin";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Ekran fotoğrafı algılandı";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi tespit edildi";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Tarama algılandı";
+"onfido_doc_confirmation_alert_odp_detail" = "Lütfen orijinal belgenizi kullanın. Ekran fotoğrafları veya fotokopiler kabul edilmez";

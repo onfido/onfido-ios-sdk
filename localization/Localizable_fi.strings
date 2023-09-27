@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Aseta asiakirjasi viisumisivu kehykseen";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Ladataan";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Aseta asiakirjasi valokuvasivu kehykseen";
 "onfido_doc_capture_header_license_back" = "Aseta asiakirjasi takaosa kehykseen";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Valitse toinen asiakirja";
 "onfido_welcome_button_primary" = "Aloita";
 "onfido_video_capture_button_primary_start" = "Aloita tallennus";
-"onfido_video_confirmation_button_primary" = "Lataa video";
+"onfido_video_confirmation_button_primary" = "Lähetä video";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Ehdotettu maa";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Aloita skannaus";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Aseta puhelimesi passisi keskiosan lähelle";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Skannataan...";
 
 "onfido_nfc_intro_title_card" = "Skannaa NFC-korttisi";
 "onfido_nfc_intro_subtitle_card" = "Aseta puhelimesi korttia vasten ja pidä sitä puhelimesi yläosan lähellä";
 "onfido_nfc_intro_button_primary_card" = "Aloita skannaus";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Aseta puhelimesi korttia vasten";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Passisi skannaus epäonnistui";
 "onfido_nfc_fail_title_card" = "NFC-korttiasi ei voitu skannata";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Voit palauttaa kameran käyttöoikeuden laitteesi asetuksista";
 "onfido_permission_recovery_list_item_action_cam" = "Siirry sovellusasetuksiin ja salli kameran käyttö tässä sovelluksessa";
 "onfido_permission_recovery_title_mic" = "Mikrofonin käyttö estetty";
-"onfido_permission_recovery_subtitle_mic" = "Emme voi vahvistaa sinua ilman mikrofoniasi";
 "onfido_permission_recovery_list_item_how_to_mic" = "Voit palauttaa mikrofonin käyttöoikeuden laitteesi asetuksista";
 "onfido_permission_recovery_list_item_action_mic" = "Siirry sovellusasetuksiin ja salli mikrofonin käyttö tässä sovelluksessa";
 "onfido_permission_recovery_title_both" = "Kameran ja mikrofonin käyttö estetty";
-"onfido_permission_recovery_subtitle_both" = "Emme voi vahvistaa sinua ilman kameraasi ja mikrofoniasi";
 "onfido_permission_recovery_list_item_how_to_both" = "Voit palauttaa kameran ja mikrofonin käyttöoikeuden laitteesi asetuksista";
 "onfido_permission_recovery_list_item_action_both" = "Siirry sovellusasetuksiin ja salli kameran ja mikrofonin käyttö tässä sovelluksessa";
 "onfido_permission_recovery_button_primary" = "Ota käyttöön asetuksissa";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Olemme vahvistaneet henkilöllisyytesi";
 "onfido_workflow_erros_task_not_supported" = "Tehtävää ei tueta tällä hetkellä";
 "onfido_workflow_erros_task_not_completed" = "Työnkulun tehtävää ei voitu suorittaa.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Työnkulun tehtävää ei voitu noutaa.";
 "onfido_workflow_erros_no_workflow_run_id" = "Työnkulun ajon ID:tä ei ole asetettu.";
 "onfido_workflow_erros_generic_title" = "Tapahtui palvelinvirhe!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Yhteys NFC-korttiin katkesi\nSiirrä laitettasi hieman ylös tai alas.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Yhteys katkesi\nAsiakirjaasi ei voitu skannata";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Virheellinen CAN";
-"onfido_enter_can_error_label" = "Sinulla on %1$d %2$s jäljellä.";
+"onfido_enter_can_error_label" = "Sinulla on %1$d %2$@ jäljellä.";
 "onfido_enter_can_substring_attempt_singular" = "yritys";
 "onfido_enter_can_substring_attempt_plural" = "yritystä";
 "onfido_nfc_scan_error_button_secondary" = "Vahvista ilman NFC: tä";
@@ -654,11 +641,6 @@
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Yritä skannata uudell.";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Vahvista ilman NFC: tä";
 
-"onfido_nfc_scan_error_final_title"="We couldn't verify this document";
-"onfido_nfc_scan_error_final_subtitle"="NFC scanning is required for this document, but could not be completed.";
-"onfido_nfc_scan_error_final_list_item"="Do you have a different document to proceed with?";
-"onfido_nfc_scan_error_final_primary_button"="Use different document";
-"onfido_nfc_scan_error_final_secondary_button"="Get verified without NFC";
 "onfido_doc_capture_alert_too_close_title" = "Siirry taaksepäin";
 "onfido_doc_capture_alert_rotated_title" = "Kierrä asiakirjaa";
 "onfido_doc_capture_alert_too_far_title" = "Siirry lähemmäs";
@@ -668,6 +650,12 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Näytä vain valokuvasivu";
 "onfido_doc_capture_alert_tilted_title" = "Pidä asiakirja suorassa";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Video tallennus";
 "onfido_doc_capture_header_recording_complete" = "Tallennus valmis";
+
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Näyttökuva havaittu";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Yritä tallentaa video manuaalisesti";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Näytön kuva havaittu";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopio havaittu";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Skannaus havaittu";
+"onfido_doc_confirmation_alert_odp_detail" = "Käytä alkuperäistä asiakirjaasi. Näytön valokuvia tai valokopioita ei hyväksytä";

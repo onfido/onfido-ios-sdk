@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Positionieren Sie die Visaseite Ihres Dokuments im Rahmen";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Wird geladen";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Positionieren Sie die Fotoseite Ihres Dokuments im Rahmen";
 "onfido_doc_capture_header_license_back" = "Positionieren Sie die Rückseite Ihres Dokuments im Rahmen";
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Scannen starten";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Legen Sie Ihr Telefon in die Nähe des mittleren Teils Ihres Reisepasses";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Scannen…";
 
 "onfido_nfc_intro_title_card" = "Scannen Sie Ihre NFC-Karte";
 "onfido_nfc_intro_subtitle_card" = "Legen Sie Ihr Telefon auf die Karte und platzieren Sie es so, dass die Karte möglichst am oberen Rand des Telefons liegt";
 "onfido_nfc_intro_button_primary_card" = "Scannen starten";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Legen Sie Ihr Telefon auf Ihre Karte";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Wir konnten Ihren Reisepass nicht scannen";
 "onfido_nfc_fail_title_card" = "Wir konnten Ihre NFC-Karte nicht scannen";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Sie können den Kamerazugriff über Ihre Geräteeinstellungen wiederherstellen";
 "onfido_permission_recovery_list_item_action_cam" = "Gehen Sie zu App-Einstellungen und aktivieren Sie den Kamerazugriff für diese App";
 "onfido_permission_recovery_title_mic" = "Mikrofonzugriff verweigert";
-"onfido_permission_recovery_subtitle_mic" = "Wir können Sie nicht ohne Ihr Mikrofon überprüfen";
 "onfido_permission_recovery_list_item_how_to_mic" = "Sie können den Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen";
 "onfido_permission_recovery_list_item_action_mic" = "Gehen Sie zu App-Einstellungen und aktivieren Sie den Mikrofonzugriff für diese App";
 "onfido_permission_recovery_title_both" = "Kamera- und Mikrofonzugriff verweigert";
-"onfido_permission_recovery_subtitle_both" = "Wir können Sie nicht ohne Ihre Kamera und Ihr Mikrofon überprüfen";
 "onfido_permission_recovery_list_item_how_to_both" = "Sie können Kamera- und Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen";
 "onfido_permission_recovery_list_item_action_both" = "Gehen Sie zu App-Einstellungen und aktivieren Sie Kamera- und Mikrofonzugriff für diese App";
 "onfido_permission_recovery_button_primary" = "In den Einstellungen aktivieren";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Wir haben Ihre Identität überprüft";
 "onfido_workflow_erros_task_not_supported" = "Aufgabe wird derzeit nicht unterstützt";
 "onfido_workflow_erros_task_not_completed" = "Die Workflow-Aufgabe konnte nicht abgeschlossen werden.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Workflow-Aufgabe konnte nicht abgerufen werden.";
 "onfido_workflow_erros_no_workflow_run_id" = "Die Workflow-Lauf-ID ist nicht gesetzt.";
 "onfido_workflow_erros_generic_title" = "Es gab einen Serverfehler!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Kontakt mit NFC-Karte verloren\nBewegen Sie Ihr Gerät leicht nach oben oder unten.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Verbindung verloren\nWir konnten Ihr Dokument nicht scannen";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Falsches CAN";
-"onfido_enter_can_error_label" = "Sie haben noch %1$d %2$s übrig.";
+"onfido_enter_can_error_label" = "Sie haben noch %1$d %2$@ übrig.";
 "onfido_enter_can_substring_attempt_singular" = "Versuch";
 "onfido_enter_can_substring_attempt_plural" = "Versuche";
 "onfido_nfc_scan_error_button_secondary" = "Lassen Sie sich ohne NFC verifizieren";
@@ -662,6 +649,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Nur Fotoseite anzeigen";
 "onfido_doc_capture_alert_tilted_title" = "Halten Sie das Dokument gerade";
-"ai-test" = "Zahlen Sie €0,01 ein";
 "onfido_doc_capture_header_recording_video" = "Videoaufnahme";
 "onfido_doc_capture_header_recording_complete" = "Aufnahme abgeschlossen";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Screenshot erkannt";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Versuchen Sie, das Video manuell aufzunehmen";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto des Bildschirms erkannt";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopie erkannt";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Scan erkannt";
+"onfido_doc_confirmation_alert_odp_detail" = "Bitte verwenden Sie Ihr Originaldokument. Fotos vom Bildschirm oder Fotokopien werden nicht akzeptiert";

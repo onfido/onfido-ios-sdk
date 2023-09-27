@@ -128,7 +128,7 @@
 "onfido_doc_capture_header_visa" = "Позиционирайте визовата страницата на документа в рамката";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Зареждане";
-"onfido_doc_capture_detail_passport" = ""; // optionally to be used by integrator
+
 
 "onfido_doc_capture_header_passport_auto" = "Позиционирайте страницата със снимката от документа в рамката";
 "onfido_doc_capture_header_license_back" = "Позиционирайте задната страна на документа в рамката";
@@ -167,7 +167,7 @@
 "onfido_country_select_bottom_sheet_link_doc_select" = "Изберете друг документ";
 "onfido_welcome_button_primary" = "Начало";
 "onfido_video_capture_button_primary_start" = "Начало на запис";
-"onfido_video_confirmation_button_primary" = "Качване на видеоклип";
+"onfido_video_confirmation_button_primary" = "Подаване на видеото";
 /* Country selection */
 "onfido_country_select_list_header_suggested" = "Предложена държава";
 /* General */
@@ -217,15 +217,14 @@
 
 "onfido_nfc_intro_button_primary_passport" = "Започнете сканирането";
 
-"onfido_nfc_intro_sheet_header_ready_passport" = "Place your phone on your closed passport";
-"onfido_nfc_intro_sheet_header_scanning_passport" = "Scanning...";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Поставете телефона си близо до средната част на паспорта";
+"onfido_nfc_intro_sheet_scanning_subtitle" = "Сканиране...";
 
 "onfido_nfc_intro_title_card" = "Сканирайте вашата NFC карта";
 "onfido_nfc_intro_subtitle_card" = "Поставете телефона си върху картата и задръжте картата близо до горната част на телефона";
 "onfido_nfc_intro_button_primary_card" = "Започнете сканирането";
 
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Поставете телефона си върху картата";
-"onfido_nfc_intro_sheet_header_scanning_card" = "Scanning...";
 
 "onfido_nfc_fail_title_passport" = "Неуспешно сканиране на паспорта ви";
 "onfido_nfc_fail_title_card" = "Не можахме да сканираме вашата NFC карта";
@@ -473,11 +472,9 @@
 "onfido_permission_recovery_list_item_how_to_cam" = "Можете да възстановите достъпа до камерата от настройките на устройството си";
 "onfido_permission_recovery_list_item_action_cam" = "Влезте в настройките на приложението и активирайте достъпа до камерата за това приложение";
 "onfido_permission_recovery_title_mic" = "Достъпът до микрофона е отказан";
-"onfido_permission_recovery_subtitle_mic" = "Не можем да потвърдим самоличността ви, без да използваме микрофона";
 "onfido_permission_recovery_list_item_how_to_mic" = "Можете да възстановите достъпа до микрофона от настройките на устройството си";
 "onfido_permission_recovery_list_item_action_mic" = "Влезте в настройките на приложението и активирайте достъпа до микрофона за това приложение";
 "onfido_permission_recovery_title_both" = "Достъпът до камерата и микрофона е отказан";
-"onfido_permission_recovery_subtitle_both" = "Не можем да потвърдим самоличността ви, без да използваме камерата и микрофона";
 "onfido_permission_recovery_list_item_how_to_both" = "Можете да възстановите достъпа до камерата и микрофона от настройките на устройството си";
 "onfido_permission_recovery_list_item_action_both" = "Влезте в настройките на приложението и активирайте достъпа до камерата и микрофона за това приложение";
 "onfido_permission_recovery_button_primary" = "Активиране в настройките";
@@ -515,16 +512,6 @@
 "onfido_workflow_complete_pass_description" = "Потвърдихме самоличността ви";
 "onfido_workflow_erros_task_not_supported" = "Задачата не се поддържа в момента";
 "onfido_workflow_erros_task_not_completed" = "Не успяхме да изпълним задачата от работния поток.";
-"onfido_doc_capture_detail_passport_copy" = "";
-"onfido_doc_capture_detail_visa_copy" = "";
-"onfido_doc_capture_detail_license_front_copy" = "";
-"onfido_doc_capture_detail_license_back_copy" = "";
-"onfido_doc_capture_detail_permit_front_copy" = "";
-"onfido_doc_capture_detail_permit_back_copy" = "";
-"onfido_doc_capture_detail_id_front_copy" = "";
-"onfido_doc_capture_detail_id_back_copy" = "";
-"onfido_doc_capture_detail_generic_front_copy" = "";
-"onfido_doc_capture_detail_generic_back_copy" = "";
 "onfido_workflow_erros_task_not_retrieved" = "Не успяхме да възстановим задачата от работния поток.";
 "onfido_workflow_erros_no_workflow_run_id" = "Идентификационният номер на работния поток не е зададен.";
 "onfido_workflow_erros_generic_title" = "Възникна грешка в сървъра!";
@@ -575,7 +562,7 @@
 "onfido_nfc_scan_lost-contact_sheet_3" = "Прекъснат контакт с NFC картата\nПреместете устройството си леко нагоре или надолу.";
 "onfido_nfc_scan_lost-connection_sheet_4" = "Връзката прекъсна\nНе можахме да сканираме документа ви";
 "onfido_nfc_scan_incorrect-can_sheet_5" = "Неправилен CAN";
-"onfido_enter_can_error_label" = "Остава ви %1$d %2$s.";
+"onfido_enter_can_error_label" = "Остава ви %1$d %2$@.";
 "onfido_enter_can_substring_attempt_singular" = "опит";
 "onfido_enter_can_substring_attempt_plural" = "опити";
 "onfido_nfc_scan_error_button_secondary" = "Получаване на потвърждение без NFC";
@@ -663,6 +650,11 @@
 
 "onfido_doc_capture_alert_photo_page_title" = "Показване само на страницата със снимки";
 "onfido_doc_capture_alert_tilted_title" = "Дръжте документа право";
-"ai-test" = "";
 "onfido_doc_capture_header_recording_video" = "Запис на видео";
 "onfido_doc_capture_header_recording_complete" = "Записът е завършен";
+"onfido_doc_confirmation_alert_odp_screenshot_title" = "Засечен екранен снимак";
+"onfido_doc_capture_alert_manual_capture_video_title" = "Опитайте да записвате видео ръчно";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Засечено е снимка на екрана";
+"onfido_doc_confirmation_alert_odp_photocopy_title" = "Открито е фотокопие";
+"onfido_doc_confirmation_alert_odp_scan_title" = "Сканирането откри";
+"onfido_doc_confirmation_alert_odp_detail" = "Моля, използвайте оригиналния си документ. Снимки на екран или фотокопия не се приемат";
