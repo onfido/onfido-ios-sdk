@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopio havaittu";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skannaus havaittu";
 "onfido_doc_confirmation_alert_odp_detail" = "Käytä alkuperäistä asiakirjaasi. Näytön valokuvia tai valokopioita ei hyväksytä";
+
+"onfido_interactive_task_waiting_title_1" = "Tarkistetaan kuvan laatua...";
+"onfido_interactive_task_waiting_title_2" = "Kuvan lataaminen...";
+"onfido_interactive_task_waiting_title_3" = "Ladataan videota...";
+"onfido_interactive_task_waiting_title_4" = "Tarkistetaan tietojen laatua...";
+"onfido_interactive_task_waiting_subtitle_1" = "Yhteys on epävakaa. Odota hieman kauemmin, että tehtävä saadaan päätökseen.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Kokoaa tietoja...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kokoamme kerättyjä tietoja, odota hetki.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Turvataan tietoja...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Olemme turvaamassa tietojasi, odota hetki.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Tietojesi turvaaminen on tärkeää, odota hetki, että tehtävä saadaan päätökseen.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Käsitellään tietoja...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Käsittelemme tietojasi, odota hetki.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Käsittely käynnissä...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Ole hyvä ja odota hieman kauemmin, että tämä prosessi saadaan päätökseen, kärsivällisyytesi on arvostettu.";

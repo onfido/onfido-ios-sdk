@@ -657,3 +657,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokoopia tuvastatud";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skaneerimine tuvastatud";
 "onfido_doc_confirmation_alert_odp_detail" = "Palun kasutage oma algset dokumenti. Ekraanipiltide või fotokoopiate kasutamine ei ole lubatud";
+
+"onfido_interactive_task_waiting_title_1" = "Kontrollin pildi kvaliteeti...";
+"onfido_interactive_task_waiting_title_2" = "Pildi üleslaadimine...";
+"onfido_interactive_task_waiting_title_3" = "Video üleslaadimine...";
+"onfido_interactive_task_waiting_title_4" = "Kontrollin andmete kvaliteeti...";
+"onfido_interactive_task_waiting_subtitle_1" = "Ühendus on ebastabiilne. Palun oodake natuke kauem, kuni ülesanne on lõpetatud.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Andmete koostamine...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Me koondame kogutud andmeid, palun oodake.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Andmete turvamine...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Me turvame teie teavet, palun oodake.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Teie andmete turvamine on oluline, palun oodake hetk, kuni see ülesanne on lõpule viidud.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Andmete töötlemine...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Me töötleme teie andmeid, palun oodake.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Töötlemine käib...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.";

@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopie gedetecteerd";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scan gedetecteerd";
 "onfido_doc_confirmation_alert_odp_detail" = "Gebruik alstublieft uw originele document. Foto's van schermen of fotokopieën worden niet geaccepteerd";
+
+"onfido_interactive_task_waiting_title_1" = "Beeldkwaliteit controleren...";
+"onfido_interactive_task_waiting_title_2" = "Afbeelding uploaden...";
+"onfido_interactive_task_waiting_title_3" = "Video uploaden...";
+"onfido_interactive_task_waiting_title_4" = "Controleren van datakwaliteit...";
+"onfido_interactive_task_waiting_subtitle_1" = "De verbinding is onstabiel. Wacht alstublieft iets langer tot de taak is voltooid.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Gegevens aan het compileren...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "We zijn de verzamelde gegevens aan het compileren, even geduld aub.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Gegevens beveiligen...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "We beveiligen uw informatie, even geduld a.u.b.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Het beveiligen van uw gegevens is belangrijk, wacht alstublieft even tot deze taak is voltooid.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Gegevens verwerken...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "We verwerken uw informatie, even geduld aub.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Verwerking bezig...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Wacht alstublieft nog even tot dit proces is voltooid, uw geduld wordt op prijs gesteld.";

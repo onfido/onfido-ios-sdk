@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "זוהתה צילום";
 "onfido_doc_confirmation_alert_odp_scan_title" = "סריקה זוהתה";
 "onfido_doc_confirmation_alert_odp_detail" = "אנא השתמש במסמך המקורי שלך. תמונות של מסך או צילומי עותק לא מתקבלות";
+
+"onfido_interactive_task_waiting_title_1" = "בודק את איכות התמונה...";
+"onfido_interactive_task_waiting_title_2" = "מעלה תמונה...";
+"onfido_interactive_task_waiting_title_3" = "מעלה סרטון...";
+"onfido_interactive_task_waiting_title_4" = "בודק את איכות הנתונים...";
+"onfido_interactive_task_waiting_subtitle_1" = "החיבור אינו יציב. אנא המתן קצת יותר עד שהמשימה תסתיים.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "מהדר נתונים...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "אנו מקבצים את הנתונים שנאספו, אנא המתן.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "מאבטח נתונים...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "אנו מאבטחים את המידע שלך, אנא המתן.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "אבטחת המידע שלך חשובה, אנא המתן רגע עד שהמשימה תסתיים.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "מעבד נתונים...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "אנו מעבדים את המידע שלך, אנא המתן.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "העיבוד בתהליך...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "אנא המתן עוד מעט עד שהתהליך יסתיים, אנו מעריכים את סבלנותך.";

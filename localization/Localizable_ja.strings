@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "複写検出されました";
 "onfido_doc_confirmation_alert_odp_scan_title" = "スキャンが検出されました";
 "onfido_doc_confirmation_alert_odp_detail" = "元のドキュメントを使用してください。スクリーンの写真やコピーは受け付けていません";
+
+"onfido_interactive_task_waiting_title_1" = "画像の品質を確認しています...";
+"onfido_interactive_task_waiting_title_2" = "画像をアップロード中...";
+"onfido_interactive_task_waiting_title_3" = "ビデオをアップロード中...";
+"onfido_interactive_task_waiting_title_4" = "データ品質を確認中...";
+"onfido_interactive_task_waiting_subtitle_1" = "接続が不安定です。タスクが終了するまで少し長くお待ちください。";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "データをコンパイル中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "収集したデータをコンパイルしています、お待ちください。";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "データを保護中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "お客様の情報を保護しています、お待ちください。";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "あなたのデータの安全性は重要です、このタスクが終了するまで少々お待ちください。";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "データを処理中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "お客様の情報を処理しています、お待ちください。";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "処理中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。";

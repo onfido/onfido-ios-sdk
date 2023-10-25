@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopija konstatēta";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skenēšana konstatēta";
 "onfido_doc_confirmation_alert_odp_detail" = "Lūdzu, izmantojiet savu oriģinālo dokumentu. Ekrāna fotogrāfijas vai fotokopijas netiek pieņemtas.";
+
+"onfido_interactive_task_waiting_title_1" = "Pārbauda attēla kvalitāti...";
+"onfido_interactive_task_waiting_title_2" = "Augšupielādē attēlu...";
+"onfido_interactive_task_waiting_title_3" = "Augšupielādē video...";
+"onfido_interactive_task_waiting_title_4" = "Pārbauda datu kvalitāti...";
+"onfido_interactive_task_waiting_subtitle_1" = "Savienojums ir nestabils. Lūdzu, nedaudz ilgāk pagaidiet, līdz uzdevums tiks pabeigts.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilē datus...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Mēs apkopojam savāktos datus, lūdzu, uzgaidiet.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Datu nodrošināšana...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Mēs nodrošinām jūsu informāciju, lūdzu, uzgaidiet.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Jūsu datu drošība ir svarīga, lūdzu, uzgaidiet brīdi, kamēr šis uzdevums tiek pabeigts.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Apstrādā datus...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Mēs apstrādājam jūsu informāciju, lūdzu, uzgaidiet.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Apstrāde notiek...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Lūdzu, vēl nedaudz pagaidiet, kamēr šis process tiek pabeigts, mēs novērtējam jūsu pacietību.";

@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi oppdaget";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skanning oppdaget";
 "onfido_doc_confirmation_alert_odp_detail" = "Vennligst bruk ditt originale dokument. Bilder av skjerm eller fotokopier blir ikke akseptert";
+
+"onfido_interactive_task_waiting_title_1" = "Sjekker bildekvalitet...";
+"onfido_interactive_task_waiting_title_2" = "Laster opp bilde...";
+"onfido_interactive_task_waiting_title_3" = "Laster opp video...";
+"onfido_interactive_task_waiting_title_4" = "Sjekker datakvalitet...";
+"onfido_interactive_task_waiting_subtitle_1" = "Tilkoblingen er ustabil. Vennligst vent litt lenger for at oppgaven skal bli ferdig.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi samler inn dataene som er samlet inn, vennligst vent.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Sikrer data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Vi sikrer informasjonen din, vennligst vent.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Sikring av dataene dine er viktig, vennligst vent et øyeblikk for at denne oppgaven skal bli ferdig.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Behandler data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Vi behandler informasjonen din, vennligst vent.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Bearbeiding pågår...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vennligst vent litt lenger for at denne prosessen skal bli ferdig, din tålmodighet settes pris på.";

@@ -1702,15 +1702,14 @@ the `SampleApp` and `SampleAppObjC` directories for more information.
 
 ### Support
 
-Please open an issue through [GitHub](https://github.com/onfido/onfido-ios-sdk/issues). Please be as detailed as you
-can. Remember **not** to submit your token in the issue. Also check the closed issues to see whether it has been
-previously raised and answered.
+Should you encounter any technical issues during integration, please contact Onfido’s Customer Support team
+via [email](mailto:support@onfido.com), including the word ISSUE: at the start of the subject line.
 
-If you have any issues that contain sensitive information please send us an email with the `ISSUE:` at the start of the
-subject to [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A)
+Alternatively, you can search the support documentation available via the customer experience
+portal, [public.support.onfido.com](http://public.support.onfido.com).
 
 Previous versions of the SDK will be supported for a month after a new major version release. Note that when the support
 period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further
 notice).
 
-Copyright 2022 Onfido, Ltd. All rights reserved.
+Copyright 2023 Onfido, Ltd. All rights reserved.

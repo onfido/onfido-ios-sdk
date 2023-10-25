@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "ตรวจพบการถ่ายเอกสาร";
 "onfido_doc_confirmation_alert_odp_scan_title" = "ตรวจพบการสแกน";
 "onfido_doc_confirmation_alert_odp_detail" = "โปรดใช้เอกสารต้นฉบับของคุณ ภาพถ่ายจากหน้าจอหรือการถ่ายเอกสารไม่ได้รับการยอมรับ";
+
+"onfido_interactive_task_waiting_title_1" = "กำลังตรวจสอบคุณภาพรูปภาพ...";
+"onfido_interactive_task_waiting_title_2" = "กำลังอัปโหลดรูปภาพ...";
+"onfido_interactive_task_waiting_title_3" = "กำลังอัปโหลดวิดีโอ...";
+"onfido_interactive_task_waiting_title_4" = "กำลังตรวจสอบคุณภาพข้อมูล...";
+"onfido_interactive_task_waiting_subtitle_1" = "การเชื่อมต่อไม่เสถียร โปรดรอสักครู่ให้งานเสร็จสิ้น";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "กำลังรวบรวมข้อมูล...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "เรากำลังรวบรวมข้อมูลที่ได้รับ โปรดรอสักครู่";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "กำลังรักษาความปลอดภัยของข้อมูล...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "เรากำลังรักษาความปลอดภัยของข้อมูลของคุณ กรุณารอสักครู่";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "การรักษาความปลอดภัยของข้อมูลของคุณเป็นสิ่งสคัญ โปรดรอสักครู่ให้งานนี้เสร็จสิ้น";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "กำลังประมวลผลข้อมูล...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "เรากำลังประมวลผลข้อมูลของคุณ โปรดรอ";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "กำลังดำเนินการ...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "โปรดรออีกสักครู่ให้กระบวนการนี้เสร็จสิ้น วามอดทนของคุณมีค่ามาก";

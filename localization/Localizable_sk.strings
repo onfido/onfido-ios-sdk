@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Detekovaná fotokópia";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scanovanie zistené";
 "onfido_doc_confirmation_alert_odp_detail" = "Prosím, použite svoj pôvodný dokument. Fotografie obrazovky alebo fotokópie nie sú akceptované.";
+
+"onfido_interactive_task_waiting_title_1" = "Kontrola kvality obrázka...";
+"onfido_interactive_task_waiting_title_2" = "Nahrávanie obrázka...";
+"onfido_interactive_task_waiting_title_3" = "Nahrávanie videa...";
+"onfido_interactive_task_waiting_title_4" = "Kontrola kvality dát...";
+"onfido_interactive_task_waiting_subtitle_1" = "Spojenie je nestabilné. Prosím, počkajte ešte chvíľu, kým sa úloha dokončí.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilácia dát...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kompilujeme zhromaždené údaje, prosím počkajte.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Zabezpečovanie dát...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Zabezpečujeme vaše informácie, prosím počkajte.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Zabezpečenie vašich údajov je dôležité, prosím počkajte chvíľu, kým sa táto úloha dokončí.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Spracovávam dáta...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Spracovávame vaše informácie, prosím počkajte.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Spracovávanie prebieha...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prosím, počkajte ešte chvíľu, kým sa tento proces dokončí, vaša trpezlivosť je ocenená.";

@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "फोटोकॉपी पता चली";
 "onfido_doc_confirmation_alert_odp_scan_title" = "स्कैन संस्थापित";
 "onfido_doc_confirmation_alert_odp_detail" = "कृपया अपना मूल दस्तावेज़ उपयोग करें। स्क्रीन की फ़ोटो या फ़ोटोकॉपी स्वीकार नहीं की जाती हैं";
+
+"onfido_interactive_task_waiting_title_1" = "छवि की गुणवत्ता की जांच कर रहे हैं...";
+"onfido_interactive_task_waiting_title_2" = "छवि अपलोड कर रहे हैं...";
+"onfido_interactive_task_waiting_title_3" = "वीडियो अपलोड कर रहा है...";
+"onfido_interactive_task_waiting_title_4" = "डेटा की गुणवत्ता जांच रहे हैं...";
+"onfido_interactive_task_waiting_subtitle_1" = "कनेक्शन अस्थिर है। कृपया कार्य समाप्त होने के लिए थोड़ा और इंतजार करें।";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "डेटा संकलित कर रहा है...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "हम संग्रहित डेटा को संकलित कर रहे हैं, कृपया प्रतीक्षा करें।";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "डेटा सुरक्षित कर रहा है...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "हम आपकी जानकारी को सुरक्षित कर रहे हैं, कृपया प्रतीक्षा करें।";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "आपका डाटा सुरक्षित करना महत्वपूर्ण है, कृपया इस कार्य को समाप्त होने के लिए एक क्षण प्रतीक्षा करें।";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "डेटा प्रसंस्करण कर रहा है...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "हम आपकी जानकारी को प्रसंस्करण कर रहे हैं, कृपया प्रतीक्षा करें।";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "प्रक्रिया जारी है...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "कृपया इस प्रक्रिया को समाप्त होने के लिए थोड़ा और इंतजार करें, आपकी धैर्यशीलता की सराहना की जाती है।";

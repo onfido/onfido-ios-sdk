@@ -321,7 +321,7 @@
 "onfido_poa_intro_button_primary" = "Ellenőrzés megkezdése";
 "onfido_poa_intro_list_shows_address" = "Megjeleníti a jelenlegi címét";
 "onfido_poa_intro_list_matches_signup" = "Amely egyezik a regisztrációkor megadott címmel";
-"onfido_poa_intro_list_most_recent" = "* * Legfrissebb * * dokumentuma";
+"onfido_poa_intro_list_most_recent" = "Legfrissebb dokumentuma";
 "onfido_poa_intro_subtitle" = "Olyan dokumentumra lesz szüksége:";
 "onfido_poa_intro_title" = "Ellenőrizzük a lakcímét";
 "onfido_doc_confirmation_body" = "Győződjön meg róla, hogy feltöltötte a teljes dokumentumoldalt, és az adatok tisztán, elmosódás- és tükröződésmentesen olvashatók";
@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fénymásolat észlelve";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Szkennelés észlelve";
 "onfido_doc_confirmation_alert_odp_detail" = "Kérjük, az eredeti dokumentumot használja. A képernyőfotók vagy fénymásolatok nem megfelelőek.";
+
+"onfido_interactive_task_waiting_title_1" = "Képminőség ellenőrzése...";
+"onfido_interactive_task_waiting_title_2" = "Kép feltöltése...";
+"onfido_interactive_task_waiting_title_3" = "Videó feltöltése...";
+"onfido_interactive_task_waiting_title_4" = "Az adatminőség ellenőrzése...";
+"onfido_interactive_task_waiting_subtitle_1" = "A kapcsolat instabil. Kérjük, várjon egy kicsit tovább, hogy a feladat befejeződjön.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Adatok összegyűjtése...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Összeállítjuk a gyűjtött adatokat, kérjük várjon.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Adatok biztosítása...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Biztosítjuk az Ön információit, kérjük várjon.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Fontos, hogy adatai biztonságban legyenek, kérjük várjon egy kicsit, amíg a művelet befejeződik.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Adatfeldolgozás...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Adatainak feldolgozása folyamatban van, kérjük várjon.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Feldolgozás folyamatban...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Kérjük, várjon még egy kicsit, amíg a folyamat befejeződik, értékeljük a türelmét.";

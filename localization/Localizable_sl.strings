@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Zaznana fotokopija";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Prepoznano skeniranje";
 "onfido_doc_confirmation_alert_odp_detail" = "Prosimo, uporabite svoj izvirni dokument. Fotografije zaslona ali fotokopije niso sprejemljive.";
+
+"onfido_interactive_task_waiting_title_1" = "Preverjanje kakovosti slike...";
+"onfido_interactive_task_waiting_title_2" = "Nalaganje slike...";
+"onfido_interactive_task_waiting_title_3" = "Nalaganje videa...";
+"onfido_interactive_task_waiting_title_4" = "Preverjanje kakovosti podatkov...";
+"onfido_interactive_task_waiting_subtitle_1" = "Povezava je nestabilna. Prosimo, počakajte malo dlje, da se naloga konča.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Zbiranje podatkov...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Zbiramo zbrane podatke, prosimo počakajte.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Zavarovanje podatkov...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Varujemo vaše podatke, prosimo počakajte.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Zaščita vaših podatkov je pomembna, prosimo, počakajte trenutek, da se to opravilo konča.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Obdelava podatkov...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Obdelujemo vaše podatke, prosimo počakajte.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Obdelava v teku...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prosimo, počakajte malo dlje, da se ta postopek konča, vaša potrpežljivost je cenjena.";
