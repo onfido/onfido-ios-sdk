@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "رونوشت تشخیص داده شده است";
 "onfido_doc_confirmation_alert_odp_scan_title" = "اسکن شناسایی شد";
 "onfido_doc_confirmation_alert_odp_detail" = "لطفا از سند اصلی خود استفاده کنید. عکس های صفحه نمایش یا فتوکپی ها پذیرفته نمی شوند";
+
+"onfido_interactive_task_waiting_title_1" = "در حال بررسی کیفیت تصویر...";
+"onfido_interactive_task_waiting_title_2" = "در حال بارگذاری تصویر...";
+"onfido_interactive_task_waiting_title_3" = "در حال بارگذاری ویدیو...";
+"onfido_interactive_task_waiting_title_4" = "در حال بررسی کیفیت داده...";
+"onfido_interactive_task_waiting_subtitle_1" = "اتصال ناپایدار است. لطفاً کمی بیشتر منتظر بمانید تا کار تمام شود.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "در حال جمع‌آوری داده‌ها...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "ما در حال تهیه داده های جمع آوری شده هستیم، لطفا صبر کنید.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "در حال امن سازی داده ها...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "ما در حال امن کردن اطلاعات شما هستیم، لطفا صبر کنید.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "امنیت داده های شما مهم است، لطفاً یک لحظه منتظر بمانید تا این کار تمام شود.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "در حال پردازش داده...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "ما در حال پردازش اطلاعات شما هستیم، لطفا صبر کنید.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "در حال پردازش...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "لطفاً کمی بیشتر برای اتمام این فرآیند صبر کنید، صبر شما قدردانی می شود.";

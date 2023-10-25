@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Обнаружена фотокопия";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Сканирование обнаружено";
 "onfido_doc_confirmation_alert_odp_detail" = "Пожалуйста, используйте ваш оригинальный документ. Фотографии экрана или фотокопии не принимаются";
+
+"onfido_interactive_task_waiting_title_1" = "Проверка качества изображения...";
+"onfido_interactive_task_waiting_title_2" = "Загрузка изображения...";
+"onfido_interactive_task_waiting_title_3" = "Загрузка видео...";
+"onfido_interactive_task_waiting_title_4" = "Проверка качества данных...";
+"onfido_interactive_task_waiting_subtitle_1" = "Соединение нестабильно. Пожалуйста, подождите немного дольше, чтобы задача завершилась.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Компиляция данных...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Мы компилируем собранные данные, пожалуйста, подождите.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Защита данных...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Мы обеспечиваем безопасность вашей информации, пожалуйста, подождите.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Защита ваших данных важна, пожалуйста, подождите немного, пока задача не будет завершена.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Обработка данных...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Мы обрабатываем вашу информацию, пожалуйста, подождите.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Выполняется обработка...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Пожалуйста, подождите немного дольше, чтобы этот процесс завершился, ваше терпение ценится.";

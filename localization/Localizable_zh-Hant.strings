@@ -319,9 +319,9 @@
 
 /* Proof of Address */
 "onfido_poa_intro_button_primary" = "開始驗證";
-"onfido_poa_intro_list_shows_address" = "顯示您的* *目前* *地址";
+"onfido_poa_intro_list_shows_address" = "顯示您的 目前 地址";
 "onfido_poa_intro_list_matches_signup" = "與您在註冊時使用的地址相符";
-"onfido_poa_intro_list_most_recent" = "這是您的* *最新* *文件嗎";
+"onfido_poa_intro_list_most_recent" = "這是您的 最新 文件嗎";
 "onfido_poa_intro_subtitle" = "您需要提供以下文件：";
 "onfido_poa_intro_title" = "讓我們驗證您的地址";
 "onfido_doc_confirmation_body" = "請確保您已上傳整個文件頁面，且詳細資料清晰可閱，沒有模糊或眩光";
@@ -355,14 +355,14 @@
 "onfido_doc_select_extra_estatements_ok" = "接受電子對帳單";
 "onfido_doc_select_button_bill_detail" = "天然氣、電力、水、有線電話或寬頻";
 "onfido_doc_select_extra_no_mobile" = "對不起，不能使用手機帳單";
-"onfido_poa_guidance_subtitle_bill" = "必須在* *最近 3 個月* *內核發";
+"onfido_poa_guidance_subtitle_bill" = "必須在 最近 3 個月 內核發";
 "onfido_doc_select_button_bank_statement" = "銀行或房屋建築協會報表";
-"onfido_poa_guidance_subtitle_bank_statement" = "必須在* *最近 3 個月* *內核發";
+"onfido_poa_guidance_subtitle_bank_statement" = "必須在 最近 3 個月 內核發";
 "onfido_doc_select_button_tax_letter" = "市政稅務信件";
-"onfido_poa_guidance_subtitle_tax_letter" = "必須在* *最近 12 個月* *內核發";
+"onfido_poa_guidance_subtitle_tax_letter" = "必須在 最近 12 個月 內核發";
 "onfido_doc_select_button_benefits_letter" = "福利證明函";
 "onfido_doc_select_button_benefits_letter_detail" = "政府批准的家庭福利，例如：求職者津貼、住房福利、稅收抵免";
-"onfido_poa_guidance_subtitle_benefits_letter" = "必須在* *最近 12 個月* *內核發";
+"onfido_poa_guidance_subtitle_benefits_letter" = "必須在 最近 12 個月 內核發";
 "onfido_poa_guidance_button_primary" = "繼續";
 "onfido_livenessV2_intro_subtitle" = "這是為了驗證您的真實身份";
 "onfido_livenessV2_intro_note_no1" = "首先，請將臉部置於框架中";
@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "偵測到影印件";
 "onfido_doc_confirmation_alert_odp_scan_title" = "掃描檢測到";
 "onfido_doc_confirmation_alert_odp_detail" = "請使用您的原始文件。不接受螢幕照片或影印本";
+
+"onfido_interactive_task_waiting_title_1" = "正在檢查圖像質量...";
+"onfido_interactive_task_waiting_title_2" = "正在上峰圖片...";
+"onfido_interactive_task_waiting_title_3" = "正在上傳影片...";
+"onfido_interactive_task_waiting_title_4" = "正在檢查數據質量...";
+"onfido_interactive_task_waiting_subtitle_1" = "連線不穩定。請稍等一會，讓任務完成。";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "正在編譯數據...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "我們正在彙總收集的數據，請稍候。";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "正在保護數據...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "我們正在保護您的資訊，請稍候。";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "保護您的數據非常重要，請稍等片刻讓此任務完成。";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "正在處理數據...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "我們正在處理您的資訊，請稍候。";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "處理中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "請稍等一下，讓這個過程完成，感謝您的耐心等待。";

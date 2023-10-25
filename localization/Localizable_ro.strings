@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotocopie detectată";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scanare detectată";
 "onfido_doc_confirmation_alert_odp_detail" = "Vă rugăm să utilizați documentul dvs. original. Fotografiile de pe ecran sau fotocopiile nu sunt acceptate";
+
+"onfido_interactive_task_waiting_title_1" = "Verificarea calității imaginii...";
+"onfido_interactive_task_waiting_title_2" = "Încărcare imagine...";
+"onfido_interactive_task_waiting_title_3" = "Încărcare video...";
+"onfido_interactive_task_waiting_title_4" = "Verificarea calității datelor...";
+"onfido_interactive_task_waiting_subtitle_1" = "Conexiunea este instabilă. Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilare date...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Compilăm datele colectate, vă rugăm să așteptați.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Securizarea datelor...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Securizăm informațiile dvs., vă rugăm să așteptați.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Securizarea datelor dumneavoastră este importantă, vă rugăm să așteptați un moment pentru ca această sarcină să se finalizeze.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Procesare date...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Procesăm informațiile dumneavoastră, vă rugăm să așteptați.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Procesare în curs...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vă rugăm să așteptați puțin mai mult pentru ca acest proces să se încheie, răbdarea dvs. este apreciată.";

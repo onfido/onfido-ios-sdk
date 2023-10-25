@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi tespit edildi";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Tarama algılandı";
 "onfido_doc_confirmation_alert_odp_detail" = "Lütfen orijinal belgenizi kullanın. Ekran fotoğrafları veya fotokopiler kabul edilmez";
+
+"onfido_interactive_task_waiting_title_1" = "Görüntü kalitesi kontrol ediliyor...";
+"onfido_interactive_task_waiting_title_2" = "Resim yükleniyor...";
+"onfido_interactive_task_waiting_title_3" = "Video yükleniyor...";
+"onfido_interactive_task_waiting_title_4" = "Veri kalitesi kontrol ediliyor...";
+"onfido_interactive_task_waiting_subtitle_1" = "Bağlantı kararsız. Lütfen görevin bitmesi için biraz daha bekleyin.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Veri derleniyor...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Toplanan verileri derliyoruz, lütfen bekleyin.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Verileri güvenceye alıyor...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Bilgilerinizi güvence altına alıyoruz, lütfen bekleyin.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Verilerinizi güvence altına almak önemlidir, bu görevin bitmesi için lütfen bir an bekleyin.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Veri işleniyor...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Bilgilerinizi işliyoruz, lütfen bekleyin.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "İşlem devam ediyor...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.";

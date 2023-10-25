@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Виявлено фотокопію";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Сканування виявлено";
 "onfido_doc_confirmation_alert_odp_detail" = "Будь ласка, використовуйте ваш оригінальний документ. Фотографії екрану або ксерокопії не приймаються";
+
+"onfido_interactive_task_waiting_title_1" = "Перевірка якості зображення...";
+"onfido_interactive_task_waiting_title_2" = "Завантаження зображення...";
+"onfido_interactive_task_waiting_title_3" = "Завантаження відео...";
+"onfido_interactive_task_waiting_title_4" = "Перевірка якості даних...";
+"onfido_interactive_task_waiting_subtitle_1" = "З'єднання нестабільне. Будь ласка, зачекайте трохи довше, щоб завдання завершилося.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Компіляція даних...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Ми обробляємо зібрані дані, будь ласка, зачекайте.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Забезпечення даних...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Ми захищаємо вашу інформацію, будь ласка, зачекайте.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Захист вашого даних є важливим, будь ласка, зачекайте момент, поки це завдання завершиться.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Обробка даних...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Ми обробляємо вашу інформацію, будь ласка, зачекайте.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Обробка триває...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Будь ласка, зачекайте трохи довше, поки цей процес завершиться, ваше терпіння оцінюється.";

@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Պատճենի հայտնաբերում";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Հայտնաբերվել է սկանավորում";
 "onfido_doc_confirmation_alert_odp_detail" = "Օգտագործեք ձեր սկզբնական փաստաթուղթը։ Էկրանի լուսանկարները կամ ֆոտոկոպիաները չեն ընդունվում:";
+
+"onfido_interactive_task_waiting_title_1" = "Ստուգում ենք պատկերի որակը․․․";
+"onfido_interactive_task_waiting_title_2" = "Նկարը բեռնվում է...";
+"onfido_interactive_task_waiting_title_3" = "Վիդեոն բեռնվում է․․․";
+"onfido_interactive_task_waiting_title_4" = "Ստուգում ենք տվյալների որակը․․․";
+"onfido_interactive_task_waiting_subtitle_1" = "Կապը անվտանգ չէ։ Խնդրում ենք մի փոքր սպասել, որպեսզի առաջադրանքը ավարտվի։";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Տվյալների կոմպիլյացիա...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Տվյալների ապահովում...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Մենք ապահովում ենք ձեր տվյալները, խնդրում ենք սպասել:";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Ձեր տվյալների ապահովությունը կարևոր է, խնդրում ենք մի հատ պահ սպասել, մինչդեռ այս առաջադրանքը ավարտվի։";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Տվյալների մշակում...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Մենք մշակում ենք ձեր տվյալները, խնդրում ենք սպասել:";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Կատարումը ընթացքում է․․․";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Հաճելի է մի քիչ ավելի երկար սպասել, որպեսզի այս գործընթացը ավարտվի, ձեր համբերատարությունը գնահատվում է։";

@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Ανιχνεύθηκε φωτοτυπία";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Εντοπίστηκε σάρωση";
 "onfido_doc_confirmation_alert_odp_detail" = "Παρακαλώ χρησιμοποιήστε το αρχικό σας έγγραφο. Οι φωτογραφίες από οθόνη ή φωτοτυπίες δεν γίνονται δεκτές";
+
+"onfido_interactive_task_waiting_title_1" = "Έλεγχος ποιότητας εικόνας...";
+"onfido_interactive_task_waiting_title_2" = "Μεταφόρτωση εικόνας...";
+"onfido_interactive_task_waiting_title_3" = "Μεταφόρτωση βίντεο...";
+"onfido_interactive_task_waiting_title_4" = "Έλεγχος ποιότητας δεδομένων...";
+"onfido_interactive_task_waiting_subtitle_1" = "Η σύνδεση είναι ασταθής. Παρακαλώ περιμένετε λίγο περισσότερο για να ολοκληρωθεί η εργασία.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Συγκεντρώνοντας δεδομένα...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Ασφάλιση δεδομένων...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Ασφαλίζουμε τις πληροφορίες σας, παρακαλώ περιμένετε.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Η ασφάλεια των δεδομένων σας είναι σημαντική, παρακαλώ περιμένετε λίγο για να ολοκληρωθεί αυτή η εργασία.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Επεξεργασία δεδομένων...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Επεξεργασία σε εξέλιξη...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.";

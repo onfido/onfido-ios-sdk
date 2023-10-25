@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "检测到复印件";
 "onfido_doc_confirmation_alert_odp_scan_title" = "扫描检测到";
 "onfido_doc_confirmation_alert_odp_detail" = "请使用您的原始文件。屏幕照片或复印件将不被接受";
+
+"onfido_interactive_task_waiting_title_1" = "正在检查图像质量...";
+"onfido_interactive_task_waiting_title_2" = "正在上传图片...";
+"onfido_interactive_task_waiting_title_3" = "正在上传视频...";
+"onfido_interactive_task_waiting_title_4" = "正在检查数据质量...";
+"onfido_interactive_task_waiting_subtitle_1" = "连接不稳定。请稍等一会，等待任务完成。";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "正在编译数据...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "我们正在整理收集的数据，请等待。";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "正在保护数据...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "我们正在保护您的信息，请等待。";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "保护您的数据非常重要，请稍等片刻，让此任务完成。";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "正在处理数据...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "我们正在处理您的信息，请等待。";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "处理中...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "请稍等一会，等待此过程完成，感谢您的耐心等待。";

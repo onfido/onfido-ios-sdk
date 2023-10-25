@@ -659,3 +659,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi dikesan";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Imbasan dikesan";
 "onfido_doc_confirmation_alert_odp_detail" = "Sila gunakan dokumen asal anda. Foto skrin atau fotokopi tidak diterima";
+
+"onfido_interactive_task_waiting_title_1" = "Memeriksa kualiti imej...";
+"onfido_interactive_task_waiting_title_2" = "Memuat naik imej...";
+"onfido_interactive_task_waiting_title_3" = "Memuat naik video...";
+"onfido_interactive_task_waiting_title_4" = "Memeriksa kualiti data...";
+"onfido_interactive_task_waiting_subtitle_1" = "Sambungan tidak stabil. Sila tunggu sebentar lagi untuk tugas selesai.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Memproses data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kami sedang mengumpulkan data yang dikumpulkan, sila tunggu.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Mengamankan data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Kami sedang melindungi maklumat anda, sila tunggu.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Mengamankan data anda adalah penting, sila tunggu sebentar untuk tugas ini selesai.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Memproses data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Kami sedang memproses maklumat anda, sila tunggu.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Pemprosesan sedang berlangsung...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Sila tunggu sebentar lagi untuk proses ini selesai, kesabaran anda sangat dihargai.";

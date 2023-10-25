@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "تم اكتشاف نسخة طبق الأصل";
 "onfido_doc_confirmation_alert_odp_scan_title" = "تم اكتشاف الفحص";
 "onfido_doc_confirmation_alert_odp_detail" = "يرجى استخدام المستند الأصلي الخاص بك. لا يتم قبول الصور من الشاشة أو النسخ الفوتوغرافية";
+
+"onfido_interactive_task_waiting_title_1" = "جارٍ التحقق من جودة الصورة...";
+"onfido_interactive_task_waiting_title_2" = "جاري تحميل الصورة...";
+"onfido_interactive_task_waiting_title_3" = "جاري تحميل الفيديو...";
+"onfido_interactive_task_waiting_title_4" = "جارٍ التحقق من جودة البيانات...";
+"onfido_interactive_task_waiting_subtitle_1" = "الاتصال غير مستقر. يرجى الانتظار قليلاً حتى ينتهي العمل.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "جاري تجميع البيانات...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "تأمين البيانات...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "نحن نؤمن معلوماتك، يرجى الانتظار.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "تأمين بياناتك مهم، يرجى الانتظار لحظة لإنهاء هذه المهمة.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "جاري معالجة البيانات...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "نحن نقوم بمعالجة معلوماتك، يرجى الانتظار.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "المعالجة جارية...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "يرجى الانتظار قليلاً أطول حتى ينتهي هذا العمل، نقدر صبرك.";

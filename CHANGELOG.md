@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.5.2] - 2023-10-19
+
+### Fixed
+
+- Fixed a blocking bug involving JSON encoding on iOS 11 & 12
+
 ## [29.5.1] - 2023-10-05
 
 ### Fixed

@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi detekteret";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scan registreret";
 "onfido_doc_confirmation_alert_odp_detail" = "Brug venligst dit originale dokument. Fotos af skærm eller fotokopier accepteres ikke";
+
+"onfido_interactive_task_waiting_title_1" = "Kontrollerer billedkvalitet...";
+"onfido_interactive_task_waiting_title_2" = "Uploader billede...";
+"onfido_interactive_task_waiting_title_3" = "Uploader video...";
+"onfido_interactive_task_waiting_title_4" = "Kontrollerer datakvalitet...";
+"onfido_interactive_task_waiting_subtitle_1" = "Forbindelsen er ustabil. Vent venligst lidt længere for at opgaven kan blive færdig.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi samler de indsamlede data, vent venligst.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Sikrer data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Vi sikrer dine oplysninger, vent venligst.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Det er vigtigt at sikre dine data, vent venligst et øjeblik på, at denne opgave bliver færdig.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Behandler data...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Vi behandler dine oplysninger, vent venligst.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Bearbejdning i gang...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vent venligst lidt længere på, at denne proces er færdig, din tålmodighed værdsættes.";

@@ -658,3 +658,18 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Nufotografuota kopija aptikta";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Nuskaitymas aptiktas";
 "onfido_doc_confirmation_alert_odp_detail" = "Prašome naudoti savo originalų dokumentą. Ekrano nuotraukos arba fotokopijos nėra priimamos";
+
+"onfido_interactive_task_waiting_title_1" = "Tikrinama vaizdo kokybė...";
+"onfido_interactive_task_waiting_title_2" = "Įkeliamas vaizdas...";
+"onfido_interactive_task_waiting_title_3" = "Įkeliamas vaizdo įrašas...";
+"onfido_interactive_task_waiting_title_4" = "Tikrinama duomenų kokybė...";
+"onfido_interactive_task_waiting_subtitle_1" = "Ryšys yra nestabilus. Prašome palaukti šiek tiek ilgiau, kol užduotis bus baigta.";
+"onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompiliuojami duomenys...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Mes surinkome surinktus duomenis, prašome palaukti.";
+"onfido_studio_between_interactive_tasks_waiting_title_2" = "Apsaugojama informacija...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_2" = "Mes užtikriname jūsų informacijos saugumą, prašome palaukti.";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_3" = "Jūsų duomenų apsauga yra svarbi, prašome palaukti kol šis uždavinys bus baigtas.";
+"onfido_studio_between_interactive_tasks_waiting_title_3" = "Apdorojami duomenys...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Mes apdorojame jūsų informaciją, prašome palaukti.";
+"onfido_studio_between_interactive_tasks_waiting_title_4" = "Apdorojimas vyksta...";
+"onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.";
