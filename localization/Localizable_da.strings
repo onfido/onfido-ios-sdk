@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Brug et NFC-kort";
 "onfido_nfc_select_button_secondary_card" = "Det er ikke et NFC-kort";
 
-"onfido_nfc_intro_title_passport" = "Scan dit ePas";
-"onfido_nfc_intro_subtitle_passport" = "Følg disse anvisninger";
+"onfido_nfc_intro_title_passport" = "Scan dit pas";
+"onfido_nfc_intro_subtitle_passport" = "Brug din telefon til at scanne chippen i dit pas";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Læg dit pas på en plan overflade";
-"onfido_nfc_intro_passport_scan_guide_2" = "Placer din telefon på den øverste del af passet";
-"onfido_nfc_intro_passport_scan_guide_3" = "Skub din telefon langsomt ned- og opad";
-"onfido_nfc_intro_passport_scan_guide_4" = "Når scanningen starter, skal du holde telefonen stille";
+"onfido_nfc_intro_passport_scan_guide_1" = "Læg dit pas åbent på en flad overflade";
+"onfido_nfc_intro_passport_scan_guide_2" = "Placer din telefon direkte oven på dit pas, så de rører ved hinanden";
+"onfido_nfc_intro_passport_scan_guide_3" = "Skub langsomt din telefon hen over begge sider, indtil scanningen starter";
+"onfido_nfc_intro_passport_scan_guide_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
 
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Visning fra kameraet. Placer dit dokuments side med billedet inden for rammen, og tryk derefter på udløserknappen";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Visning fra kameraet. Placer dit dokuments forside inden for rammen, og tryk derefter på udløserknappen";
 "onfido_welcome_list_item_face_generic" = "Scan dit ansigt";
-"onfido_permission_recovery_subtitle_cam" = "Vi kan ikke verificere dig uden dit kamera";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Visning fra kameraet. Placer dit dokuments forside inden for rammen, og tryk derefter på udløserknappen";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Visning fra kameraet. Placer dit dokuments bagside inden for rammen, og tryk derefter på udløserknappen";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Visning fra kameraet. Placer dit dokuments forside inden for rammen, og tryk derefter på udløserknappen";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Scanning er gennemført";
 "onfido_nfc_sheet_success_instruction_passport" = "Vi har nu scannet dit pas";
 "onfido_outro_body" = "Det er alt, hvad vi behøver for at starte verificeringen af din identitet";
-"onfido_permission_recovery_title_cam" = "Der er nægtet adgang til kameraet";
-"onfido_permission_recovery_list_item_how_to_cam" = "Du kan gendanne adgang til kameraet via dine enhedsindstillinger";
-"onfido_permission_recovery_list_item_action_cam" = "Gå til appindstillinger, og aktivér adgang til kameraet for denne app";
-"onfido_permission_recovery_title_mic" = "Adgang til mikrofon er nægtet";
-"onfido_permission_recovery_list_item_how_to_mic" = "Du kan gendanne adgang til mikrofonen via dine enhedsindstillinger";
-"onfido_permission_recovery_list_item_action_mic" = "Gå til appindstillinger, og aktivér adgang til mikrofonen for denne app";
-"onfido_permission_recovery_title_both" = "Adgang til mikrofon og kamera er nægtet";
-"onfido_permission_recovery_list_item_how_to_both" = "Du kan gendanne adgang til kameraet og mikrofonen via dine enhedsindstillinger";
-"onfido_permission_recovery_list_item_action_both" = "Gå til appindstillinger, og aktivér adgang til både kameraet og mikrofonen for denne app";
-"onfido_permission_recovery_button_primary" = "Aktivér i indstillinger";
 "onfido_generic_error_network_title" = "Forbindelsen gik tabt";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Visning fra kameraet. Placer dit dokuments side med billedet inden for rammen. Din enhed vibrerer, når billedet bliver taget";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Visning fra kameraet. Placer dit dokuments forside inden for rammen, og tryk derefter på udløserknappen";
@@ -538,7 +527,7 @@
 
 "onfido_welcome_start_workflow_button_trial" = "Start verificering (TEST)";
 "onfido_enter_can_title" = "Indtast CAN-nummeret";
-"onfido_enter_can_subtitle" = "Sørg for, at det angivne nummer stemmer overens med nummeret på dokumentet.";
+"onfido_enter_can_subtitle" = "Det %d-cifrede nummer er placeret på forsiden af dit dokument";
 "onfido_enter_can_disclaimer" = "Du kan finde det på dit dokuments forside. Nummeret er på %d cifre og lidt større i størrelse.";
 "onfido_enter_can_button_primary" = "Fortsæt";
 "onfido_nfc_scan_error_title" = "Vi kan ikke scanne dit dokument";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "forsøg";
 "onfido_nfc_scan_error_button_secondary" = "Bliv bekræftet uden NFC";
 "onfido_intro_scan_animation_ios" = "Placer dit dokument øverst på bagsiden af din enhed. Når scanningen starter, så hold dem stille.";
-"onfido_nfc_scan_sheet_success" = "Scanning vellykket";
+"onfido_nfc_scan_sheet_success" = "Scanning succesfuldt";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Dit ansigt, din baggrund og din lyd vil blive optaget under denne proces";
 "onfido_welcome_list_header_doc_video" = "Brug din enhed til at optage:";
 "onfido_welcome_list_item_doc_video_flash" = "Vi slår din enheds blitz til under videooptagelsen";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Der afspilles lyd i anden app";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Afspil ikke lyd på enheden under optagelsen";
 
-"onfido_nfc_scan_welcome_card_title" = "Fremskynd processen med NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Vi scanner NFC-chippen på dit dokument";
-"onfido_nfc_scan_welcome_card_list_item" = "Placer dit dokument på bagsiden af din enhed";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Skub langsomt din enhed op og ned";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Når scanningen starter, skal du holde den stille";
+"onfido_nfc_scan_welcome_card_title" = "Scan dit dokument";
+"onfido_nfc_scan_welcome_card_subtitle" = "Brug din telefon til at scanne chippen i dit dokument";
+"onfido_nfc_scan_welcome_card_list_item" = "Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
 "onfido_nfc_scan_welcome_card_button_primary"="Start scanning";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Bliv bekræftet uden NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Bliv bekræftet uden NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Fremskynd processen med NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Vi scanner NFC-chippen på dit dokument";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Brug din telefon til at scanne chippen i dit dokument";
 "onfido_nfc_scan_welcome_passport_list_item" = "Læg dit dokument på en flad overflade";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Åbn dit dokument på den indre bagside";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Placer dit dokument på bagsiden af din enhed";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Skub langsomt din enhed op og ned";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Når scanningen starter, skal du holde den stille";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
 "onfido_nfc_scan_welcome_passport_button_primary"="Start scanning";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Bliv bekræftet uden NFC";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Vi behandler dine oplysninger, vent venligst.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Bearbejdning i gang...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vent venligst lidt længere på, at denne proces er færdig, din tålmodighed værdsættes.";
+"onfido_interactive_task_waiting_subtitle_2" = "Opgaven kører stadig, din tålmodighed værdsættes.";
+"onfido_nfc_fail_passport_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_fail_passport_list_item_1" = "Fjern alle omslag fra dit dokument og enhed";
+"onfido_nfc_fail_passport_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er vellykket";
+"onfido_nfc_fail_passport_list_item_3" = "Skub langsomt din telefon hen over begge sider, indtil scanningen starter";
+"onfido_nfc_fail_passport_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_fail_passport_button_primary" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Fjern alle omslag fra dit dokument og enhed";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er vellykket";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Skub langsomt din telefon hen over begge sider, indtil scanningen starter";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Bekræft uden scanning";
+"onfido_nfc_scan_error_final_required_passport_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Fjern alle omslag fra dit dokument og enhed";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er succesfuld";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Skub langsomt din telefon hen over begge sider, indtil scanningen starter";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Afslut verifikation";
+"onfido_nfc_scan_error_document_title" = "Dokument understøttes ikke";
+"onfido_nfc_scan_error_document_subtitle" = "Prøv venligst med et andet dokument";
+"onfido_nfc_scan_error_document_primary_button" = "Vælg et andet dokument";
+"onfido_nfc_scan_error_document_secondary_button" = "Afslut verifikation";
+"onfido_nfc_scan_error_device_title" = "Ikke-understøttet enhed";
+"onfido_nfc_scan_error_device_subtitle" = "Beklager eventuelle ulemper. Brug venligst en anden enhed til at verificere din identitet";
+"onfido_nfc_scan_error_device_primary_button" = "Afslut verifikation";
+"onfido_nfc_scan_sheet_passport_ready" = "Skub langsomt din enhed hen over begge sider";
+"onfido_nfc_scan_sheet_ready_scanning" = "Hold din enhed og dokument stille";
+"onfido_nfc_scan_sheet_error_1" = "Mistet forbindelse.";
+"onfido_nfc_scan_sheet_error_2" = "Vi kunne ikke scanne dit dokument";
+"onfido_nfc_scan_sheet_button" = "Annuller";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Vi accepterer kun dokumenter med en chip. Kig efter dette ikon på dit dokument";
+"onfido_nfc_fail_card_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_fail_card_list_item_1" = "Fjern alle covers fra din enhed";
+"onfido_nfc_fail_card_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er vellykket";
+"onfido_nfc_fail_card_list_item_3" = "Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter";
+"onfido_nfc_fail_card_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_fail_card_button_primary" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_possible_card_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Fjern alle covers fra din enhed";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er vellykket";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Bekræft uden scanning";
+"onfido_nfc_scan_error_final_required_card_title" = "Vi kunne ikke scanne dette dokument";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Fjern alle covers fra din enhed";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er succesfuld";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Prøv at scanne igen";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Afslut verifikation";
+"onfido_nfc_scan_sheet_card_ready" = "Skub langsomt dit dokument op og ned";
+"onfido_nfc_scan_sheet_card_button" = "Annuller";
+"onfido_nfc_scan_sheet_card_error_can" = "Ukorrekt CAN-nummer";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Du kan blive bedt om at indtaste CAN, før du fortsætter til scanningen";
+"onfido_enter_can_secondary_button" = "Jeg har ikke en CAN";
+"onfido_enter_can_warning" = "Du har %d %@ tilbage";
+
+"onfido_otp_send_code_input_label" = "Telefonnummer";
+"onfido_otp_send_code_error_invalid_phone_number" = "Angiv venligst et gyldigt telefonnummer.";
+"onfido_otp_error_title" = "Noget gik galt";
+"onfido_otp_error_subtitle" = "Vent venligst et par sekunder og prøv igen";
+"onfido_otp_error_cta" = "Gå tilbage";
+"onfido_nfc_scan_error_can_title" = "Maksimalt antal forsøg nået";
+"onfido_nfc_scan_error_can_subtitle" = "Du har nået det maksimale antal forsøg på at indtaste dit CAN-nummer";
+"onfido_nfc_scan_error_can_primary_button" = "Afslut verifikation";

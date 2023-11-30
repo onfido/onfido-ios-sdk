@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.6.0 Migration Guide](#onfido-ios-sdk-2960-migration-guide)
 * [Onfido iOS SDK 29.5.0 Migration Guide](#onfido-ios-sdk-2950-migration-guide)
 * [Onfido iOS SDK 29.3.0 Migration Guide](#onfido-ios-sdk-2930-migration-guide)
 * [Onfido iOS SDK 29.2.0 Migration Guide](#onfido-ios-sdk-2920-migration-guide)
@@ -63,6 +64,128 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.6.0 Migration Guide
+
+### Functionality Changes
+
+#### Removed
+
+Due to a change introduced by Apple in March 2023 with iOS v16.0, PACE-only documents can no longer be read by iOS devices installed with iOS 16 (or newer). To minimise integration complexity and instability with future releases of iOS, Onfido is removing support for NFC-PACE.
+
+PACE is an optional authentication protocol used by some identity documents during NFC processing. All passports support BAC which is still supported by both iOS and the Onfido iOS SDK.
+
+Impact:
+- None: all currently [supported NFC documents](https://developers.onfido.com/guide/supported-documents-nfc#pacific) can still be read by the Onfido iOS SDK, including the documents that support both BAC and PACE as authentication methods (e.g. French passport, Dutch national ID card, Polish ID card).
+- CAN-entry: As CAN (Card Authentication Number) is only required for PACE Authentication, for documents require the user to enter the CAN, those screens will no longer be shown but the NFC read will proceed with BAC (which is based on the extracted MRZ).
+
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_scan_error_final_possible_passport_title` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_list_item_1` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_list_item_2` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_list_item_3` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_list_item_4` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_primary_button` ()
+
+- `onfido_nfc_scan_error_final_possible_passport_secondary_button` ()
+
+- `onfido_nfc_scan_error_final_required_passport_title` ()
+
+- `onfido_nfc_scan_error_final_required_passport_list_item_1` ()
+
+- `onfido_nfc_scan_error_final_required_passport_list_item_2` ()
+
+- `onfido_nfc_scan_error_final_required_passport_list_item_3` ()
+
+- `onfido_nfc_scan_error_final_required_passport_list_item_4` ()
+
+- `onfido_nfc_scan_error_final_required_passport_primary_button` ()
+
+- `onfido_nfc_scan_error_final_required_passport_secondary_button` ()
+
+- `onfido_nfc_scan_error_document_title` ()
+
+- `onfido_nfc_scan_error_document_subtitle` ()
+
+- `onfido_nfc_scan_error_document_primary_button` ()
+
+- `onfido_nfc_scan_doc_selection_disclaimer` ()
+
+- `onfido_nfc_scan_error_final_possible_card_title` ()
+
+- `onfido_nfc_scan_error_final_possible_card_list_item_1` ()
+
+- `onfido_nfc_scan_error_final_possible_card_list_item_2` ()
+
+- `onfido_nfc_scan_error_final_possible_card_list_item_3` ()
+
+- `onfido_nfc_scan_error_final_possible_card_list_item_4` ()
+
+- `onfido_nfc_scan_error_final_possible_card_primary_button` ()
+
+- `onfido_nfc_scan_error_final_possible_card_secondary_button` ()
+
+- `onfido_nfc_scan_error_final_required_card_title` ()
+
+- `onfido_nfc_scan_error_final_required_card_list_item_1` ()
+
+- `onfido_nfc_scan_error_final_required_card_list_item_2` ()
+
+- `onfido_nfc_scan_error_final_required_card_list_item_3` ()
+
+- `onfido_nfc_scan_error_final_required_card_list_item_4` ()
+
+- `onfido_nfc_scan_error_final_required_card_primary_button` ()
+
+- `onfido_nfc_scan_error_final_required_card_secondary_button` ()
+
+- `onfido_nfc_scan_welcome_card_disclaimer` ()
+
+- `onfido_enter_can_secondary_button` ()
+
+- `onfido_enter_can_warning` ()
+
+- `onfido_nfc_scan_error_can_title` ()
+
+- `onfido_nfc_scan_error_can_subtitle` ()
+
+- `onfido_nfc_scan_error_can_primary_button` ()
+
+
+#### Changed
+
+The following string keys have been **changed**:
+
+- `onfido_nfc_intro_title_passport` ()
+
+- `onfido_nfc_intro_subtitle_passport` ()
+
+- `onfido_nfc_intro_passport_scan_guide_1` ()
+
+- `onfido_nfc_intro_passport_scan_guide_2` ()
+
+- `onfido_nfc_intro_passport_scan_guide_3` ()
+
+- `onfido_nfc_intro_passport_scan_guide_4` ()
+
+- `onfido_enter_can_title` ()
+
+- `onfido_enter_can_subtitle` ()
+
+- `onfido_nfc_scan_sheet_success` ()
+
+
 
 ## Onfido iOS SDK 29.5.0 Migration Guide
 
@@ -486,7 +609,7 @@ The following string keys have been **removed**:
 - Removed cases missingApplicant, multipleTokenTypes, applicantProvidedWithSDKToken and enterpriseFeatureProvidedWithMobileToken from OnfidoConfigError. Mobile tokens are no longer supported.
 - Renamed OnfidoConfigError.missingToken to OnfidoConfigError.missingSDKToken.
 - Added new OnfidoConfigError case named invalidSDKToken when invalid SDK token supplied.
-- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaputreSuccessColors), and made properties public. i.e. let appearance = Appearance(); appearance.primaryColor = UIColor.red;
+- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaptureSuccessColors), and made properties public. i.e. let appearance = Appearance(); appearance.primaryColor = UIColor.red;
 - Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
 - Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
 
@@ -1201,7 +1324,7 @@ The following string keys have been **added**:
 
 - `onfido_nfc_intro_button_primary` (en, fr, es, de)
 
-- `onfido_nfc_sheet_ready_intruction` (en, fr, es, de)
+- `onfido_nfc_sheet_ready_instruction` (en, fr, es, de)
 
 - `onfido_nfc_sheet_scanning_subtitle` (en, fr, es, de)
 

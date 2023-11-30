@@ -41,9 +41,9 @@
 "onfido_permission_button_primary_cam" = "Įjungti kamerą";
 "onfido_permission_button_primary_mic" = "Įjungti mikrofoną";
 "onfido_permission_body_both" = "Negalime jūsų patvirtinti, jei kamera ir mikrofonas nenaudojami kartu";
-"onfido_permission_body_cam" = "Negalime jūsų patvirtinti be jūsų kameros";
+"onfido_permission_body_cam" = "Negalime patvirtinti Jūsų be prieigos prie kameros";
 "onfido_permission_body_mic" = "Negalime jūsų patvirtinti nenaudojant mikrofono";
-"onfido_permission_subtitle_both" = "Kai būsite paraginti, turėsite įgalinti prieigą abiems, kad galėtumėte tęsti";
+"onfido_permission_subtitle_both" = "Kai būsite paprašyti, turėsite suteikti prieigą prie kameros ir mikrofono, kad galėtumėte tęsti";
 "onfido_permission_subtitle_cam" = "Kai būsite paraginti, turite įjungti prieigą prie kameros, kad galėtumėte tęsti";
 "onfido_permission_subtitle_mic" = "Kai būsite paraginti, turėsite įgalinti prieigą prie mikrofono, kad galėtumėte tęsti";
 /* Device permission */
@@ -186,7 +186,7 @@
 "onfido_app_title_nfc_fail" = "Patvirtinkite savo tapatybę";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Patvirtinkite savo tapatybę";
-"onfido_app_title_country_select" = "Pasirinkite išdavusią šalį";
+"onfido_app_title_country_select" = "Dokumentą išdavusi šalis";
 "onfido_app_title_selfie_intro" = "Patvirtinkite savo tapatybę";
 "onfido_app_title_video_intro" = "Patvirtinkite savo tapatybę";
 "onfido_app_title_permission" = "Patvirtinkite savo tapatybę";
@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Naudoti NFC kortelę";
 "onfido_nfc_select_button_secondary_card" = "Tai ne NFC kortelė";
 
-"onfido_nfc_intro_title_passport" = "Nuskaitykite savo e pasą";
-"onfido_nfc_intro_subtitle_passport" = "Laikykitės šių nurodymų";
+"onfido_nfc_intro_title_passport" = "Nuskanuokite savo pasą";
+"onfido_nfc_intro_subtitle_passport" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo pase";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Padėkite pasą ant lygaus paviršiaus";
-"onfido_nfc_intro_passport_scan_guide_2" = "Pakelkite telefoną virš paso";
-"onfido_nfc_intro_passport_scan_guide_3" = "Lėtai stumkite telefoną žemyn ir aukštyn";
-"onfido_nfc_intro_passport_scan_guide_4" = "Prasidėjus nuskaitymui, telefoną laikykite nejudindami";
+"onfido_nfc_intro_passport_scan_guide_1" = "Padėkite savo pasą atvertą ant plokščios paviršiaus";
+"onfido_nfc_intro_passport_scan_guide_2" = "Padėkite savo telefoną tiesiai ant savo paso, kad jie liestųsi";
+"onfido_nfc_intro_passport_scan_guide_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
+"onfido_nfc_intro_passport_scan_guide_4" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 
 "onfido_nfc_intro_button_primary_passport" = "Pradėti nuskaitymą";
 
@@ -282,11 +282,11 @@
 "onfido_generic_error_timeout_button_primary" = "Bandyti dar kartą";
 "onfido_generic_processing" = "Apdorojama";
 "onfido_video_capture_turn_success_accessibility" = "Aptiktas galvos pasukimas";
-"onfido_welcome_list_header" = "Naudodami savo įrenginį, galite:";
-"onfido_welcome_list_item_doc_photo" = "Nufotografuokite savo asmens tapatybės dokumentą";
+"onfido_welcome_list_header" = "Naudodami savo įrenginį:";
+"onfido_welcome_list_item_doc_photo" = "Nufotografuosite savo asmens tapatybės dokumentą";
 "onfido_welcome_list_item_doc_generic" = "Įrašykite vaizdo įrašą su savo asmens tapatybės dokumentu";
-"onfido_welcome_list_item_face_photo" = "Nufotografuokite savo veidą";
-"onfido_welcome_list_item_face_video" = "Padarykite savo veido vaizdo įrašą";
+"onfido_welcome_list_item_face_photo" = "Nufotografuosite savo veidą";
+"onfido_welcome_list_item_face_video" = "Padarysite savo veido vaizdo įrašą";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Laikykite telefoną virš dokumento";
 "onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Nerastas joks dokumentas. Laikykite telefoną virš dokumento.";
 "onfido_doc_capture_header_live_guidance_distance_close" = "Dokumentas per arti";
@@ -350,7 +350,7 @@
 "onfido_poa_guidance_instructions_full_name" = "Vardas ir pavardė";
 "onfido_poa_guidance_instructions_address" = "Dabartinis adresas";
 "onfido_poa_guidance_instructions_issue_date" = "Išdavimo data arba suvestinis laikotarpis";
-"onfido_doc_select_subtitle_poa" = "Štai dokumentai, kuriuose labiausiai tikėtas jūsų namų adreso buvimas";
+"onfido_doc_select_subtitle_poa" = "Dokumentai, kuriuose nurodytas Jūsų namų adresas";
 "onfido_doc_select_button_bill" = "Sąskaita už komunalines paslaugas";
 "onfido_doc_select_extra_estatements_ok" = "el. išrašai yra tinkami";
 "onfido_doc_select_button_bill_detail" = "Dujos, elektra, vanduo, fiksuotasis ryšys arba plačiajuostis ryšys";
@@ -394,7 +394,7 @@
 "onfido_avc_no_face_detected_list_item_lighting" = "Įsitikinkite, kad esate gerai apšviestoje vietoje";
 "onfido_avc_no_face_detected_list_item_eyes" = "Įsitikinkite, kad jūsų akys aiškiai matomos";
 "onfido_avc_no_face_detected_list_item_mask" = "Būtinai nusiimkite kaukes ar kitus veidą dengiančius elementus. Galima būti su akiniais";
-"onfido_avc_no_face_detected_list_item_face" = "Įsitikinkite, kad matosi tik jūsų veidas, mums nereikia matyti jūsų asmens tapatybės dokumento";
+"onfido_avc_no_face_detected_list_item_face" = "Įsitikinkite, kad matomas tik Jūsų veidas. Asmens tapatybės dokumentas nuotraukai nereikalingas";
 "onfido_avc_no_face_detected_button_primary_restart" = "Iš naujo pradėti įrašymą";
 "onfido_avc_confirmation_title" = "Įrašymas baigtas";
 "onfido_avc_confirmation_subtitle" = "Jūsų veido vaizdo įrašas sėkmingai padarytas";
@@ -406,9 +406,9 @@
 "onfido_avc_connection_error_button_primary_retry_upload" = "Bandyti įkelti dar kartą";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Iš naujo pradėti įrašymą";
 "onfido_generic_errors_geoblocked_error_message" = "Paslauga nepasiekiama";
-"onfido_doc_select_subtitle_country" = "Pasirinkite išdavusią šalį, kad pamatytumėte, kuriuos dokumentus priimame";
-"onfido_doc_select_section_header_country" = "Išdavusi šalis";
-"onfido_doc_select_section_header_doc_type" = "Priimtini dokumentai";
+"onfido_doc_select_subtitle_country" = "Pasirinkite dokumento išdavimo šalį, kad pamatytumėte dokumentus, kuriuos priimame";
+"onfido_doc_select_section_header_country" = "Dokumentą išdavusi šalis";
+"onfido_doc_select_section_header_doc_type" = "Priimami dokumentai";
 "onfido_doc_select_section_input_placeholder_country" = "Pasirinkite išdavusią šalį";
 "onfido_doc_select_subtitle_entire_page" = "Visas puslapį";
 "onfido_doc_select_subtitle_photo_page" = "Nuotraukos puslapis";
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento nuotraukos puslapis būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento viršelis būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_welcome_list_item_face_generic" = "Nuskaitykite savo veidą";
-"onfido_permission_recovery_subtitle_cam" = "Negalime jūsų patvirtinti be jūsų kameros";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad galinė dokumento pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
@@ -433,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento nuotraukos pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento išoriniai puslapiai būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Laikykite telefoną netoli paso vidurio";
-"onfido_avc_intro_title_accessibility" = "Padarykite savo veido vaizdo įrašą";
+"onfido_avc_intro_title_accessibility" = "Padarysite savo veido vaizdo įrašą";
 "onfido_avc_intro_video_accessibility" = "Vaizdo įrašo, kaip žmogus sukinėja galvą į abi puses iki pabaigos, pavyzdys";
 "onfido_avc_face_capture_frame_accessibility" = "Vaizdas iš asmenukių kameros";
 "onfido_avc_face_capture_title_accessibility" = "Lėtai pasukite galvą į abi puses. Kai pusė bus baigta, išgirsite patvirtinimą ir pajusite vibraciją";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Nuskaitymas sėkmingas";
 "onfido_nfc_sheet_success_instruction_passport" = "Sėkmingai nuskaitėme jūsų pasą";
 "onfido_outro_body" = "Tai viskas, ko mums reikia, kad galėtume pradėti tikrinti jūsų tapatybę";
-"onfido_permission_recovery_title_cam" = "Prieiga prie kameros uždrausta";
-"onfido_permission_recovery_list_item_how_to_cam" = "Prieigą prie kameros galite atkurti įrenginio nustatymuose";
-"onfido_permission_recovery_list_item_action_cam" = "Eikite į programėlės nustatymus ir įjunkite šios programėlės prieigą prie kameros";
-"onfido_permission_recovery_title_mic" = "Prieiga prie mikrofono uždrausta";
-"onfido_permission_recovery_list_item_how_to_mic" = "Prieigą prie mikrofono galite atkurti naudodami įrenginio nustatymus";
-"onfido_permission_recovery_list_item_action_mic" = "Eikite į programėlės nustatymus ir įjunkite šios programėlės prieigą prie mikrofono";
-"onfido_permission_recovery_title_both" = "Kameros ir mikrofono prieiga uždrausta";
-"onfido_permission_recovery_list_item_how_to_both" = "Prieigą prie kameros ir mikrofono galite atkurti naudodami įrenginio nustatymus";
-"onfido_permission_recovery_list_item_action_both" = "Eikite į programėlės nustatymus ir šiai programėlei įjunkite prieigą ir prie kameros, ir prie mikrofono";
-"onfido_permission_recovery_button_primary" = "Įjungti nustatymuose";
 "onfido_generic_error_network_title" = "Nutrūko ryšys";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento nuotraukos puslapis būtų rėmelyje. Jūsų įrenginys suvibruos, kai vaizdas bus užfiksuotas";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Galiojimo terminas (jei taikoma)";
 
 "onfido_welcome_start_workflow_button_trial" = "Pradėti patikrinimą (TEST)";
-"onfido_enter_can_title" = "Įveskite CAN";
-"onfido_enter_can_subtitle" = "Įsitikinkite, kad pateiktas numeris atitinka dokumente nurodytą numerį.";
+"onfido_enter_can_title" = "Įveskite CAN numerį";
+"onfido_enter_can_subtitle" = "%d-skaitmeninis numeris yra priešakinėje jūsų dokumento pusėje";
 "onfido_enter_can_disclaimer" = "Jį rasite dokumento priekinėje pusėje. Jis yra %d skaitmenų ilgio ir šiek tiek didesniu šriftu.";
 "onfido_enter_can_button_primary" = "Tęsti";
 "onfido_nfc_scan_error_title" = "Nepavyko nuskaityti jūsų dokumento";
@@ -547,8 +536,8 @@
 "onfido_nfc_scan_error_button_primary" = "Bandyti nuskaityti dar kartą";
 "onfido_welcome_nfc_title" = "Patvirtinkite savo tapatybę";
 "onfido_welcome_nfc_subtitle" = "Tai turėtų užtrukti kelias minutes";
-"onfido_welcome_nfc_list_header_nfc" = "Naudodami savo įrenginį, galite:";
-"onfido_welcome_nfc_list_item" = "Nufotografuokite savo asmens tapatybės dokumentą";
+"onfido_welcome_nfc_list_header_nfc" = "Naudodami savo įrenginį:";
+"onfido_welcome_nfc_list_item" = "Nufotografuosite savo asmens tapatybės dokumentą";
 "onfido_welcome_nfc_list_item_2" = "Nuskaitykite dokumentą";
 "onfido_welcome_nfc_button_primary" = "Nufotografuokite dokumentą";
 "onfido_intro_scan_title" = "Nuskaitykite dokumentą";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "bandymai";
 "onfido_nfc_scan_error_button_secondary" = "Gauti patvirtinimą be NFC";
 "onfido_intro_scan_animation_ios" = "Dokumentą padėkite prietaiso užpakalinės dalies viršuje. Prasidėjus nuskaitymui, laikykite juos nejudindami.";
-"onfido_nfc_scan_sheet_success" = "Sėkmingas nuskaitymas";
+"onfido_nfc_scan_sheet_success" = "Nuskaitymas sėkmingas";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Šio proceso metu bus įrašomas jūsų veidas, fonas ir garsas";
 "onfido_welcome_list_header_doc_video" = "Naudodamiesi įrenginiu įrašykite:";
 "onfido_welcome_list_item_doc_video_flash" = "Vaizdo įrašo darymo metu įjungsime jūsų įrenginio blykstę";
@@ -582,7 +571,7 @@
 "onfido_doc_video_capture_header_passport" = "Laikydami pasą, nuotraukos puslapį išlaikykite rėmelyje";
 "onfido_doc_video_capture_header_passport_progress" = "Laikykite nejudindami";
 "onfido_doc_video_capture_header_paper_doc_step2" = "Lėtai apverskite dokumentą, kad būtų matomi išoriniai puslapiai";
-"onfido_outro_title" = "Dėkojame jums";
+"onfido_outro_title" = "Dėkojame";
 "onfido_doc_video_capture_stepper" = "%d veiksmas iš %d";
 "onfido_doc_video_capture_prompt_detail_timeout" = "Vaizdo įrašo trukmė ribojama iki ​%d​ sek.";
 "onfido_doc_video_capture_alert_wrong_side" = "Įsitikinkite, kad matosi galinė dokumento pusė";
@@ -591,12 +580,12 @@
 "onfido_doc_video_capture_prompt_button_timeout" = "Bandyti dar kartą";
 "onfido_app_title_doc_video_confirmation" = "Patvirtinkite savo tapatybę";
 "onfido_doc_video_confirmation_button_primary" = "Pateikti vaizdo įrašą";
-"onfido_doc_video_confirmation_title" = "Dėkojame jums";
+"onfido_doc_video_confirmation_title" = "Dėkojame";
 "onfido_doc_video_confirmation_body" = "Jūsų vaizdo įrašas padarytas";
 "onfido_doc_video_capture_button_primary_start" = "Pradėti įrašymą";
-"onfido_doc_video_confirmation_button_secondary_retake" = "Pakartotinai padaryti vaizdo įrašą";
+"onfido_doc_video_confirmation_button_secondary_retake" = "Padaryti vaizdo įrašą iš naujo";
 "onfido_doc_video_capture_header_folded_doc_front" = "Paskyros nuotraukos pusė";
-"onfido_welcome_list_item_doc_video" = "Padarykite savo asmens tapatybės dokumento vaizdo įrašą";
+"onfido_welcome_list_item_doc_video" = "Padarysite savo asmens tapatybės dokumento vaizdo įrašą";
 "onfido_welcome_info_original_document" = "Nufotografuokite dokumento originalą. Skenuoti, fotografuoti ekranų ar fotokopijų negalima.";
 "onfido_avc_face_capture_alert_mic_conflict_title" = "Mikrofoną naudoja kita programėlė";
 "onfido_avc_face_capture_alert_mic_conflict_body" = "Baikite visus pokalbius telefonu ar kitus procesus, kurie įrašymo metu naudoja jūsų mikrofoną";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Garso įrašą groja kita programėlė";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Įrašymo metu savo įrenginyje negrokite jokių garso įrašų";
 
-"onfido_nfc_scan_welcome_card_title" = "Pagreitinkite procesą naudodami NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Nuskaitysime jūsų dokumento NFC lustą";
-"onfido_nfc_scan_welcome_card_list_item" = "Padėkite dokumentą įrenginio gale";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Lėtai stumkite savo įrenginį aukštyn ir žemyn";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Pradėjus skenuoti, nejudinkite įrenginio";
+"onfido_nfc_scan_welcome_card_title" = "Nuskanuokite savo dokumentą";
+"onfido_nfc_scan_welcome_card_subtitle" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente";
+"onfido_nfc_scan_welcome_card_list_item" = "Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 "onfido_nfc_scan_welcome_card_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Gauti patvirtinimą be NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Gauti patvirtinimą be NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Pagreitinkite procesą naudodami NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Nuskaitysime jūsų dokumento NFC lustą";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente";
 "onfido_nfc_scan_welcome_passport_list_item" = "Padėkite dokumentą ant lygaus paviršiaus";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Atidarykite dokumento vidinį galinį puslapį";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Padėkite dokumentą įrenginio gale";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Lėtai stumkite savo įrenginį aukštyn ir žemyn";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Pradėjus skenuoti, nejudinkite įrenginio";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Gauti patvirtinimą be NFC";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Mes apdorojame jūsų informaciją, prašome palaukti.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Apdorojimas vyksta...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.";
+"onfido_interactive_task_waiting_subtitle_2" = "Užduotis vis dar vykdoma, dėkojame už kantrybę.";
+"onfido_nfc_fail_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_fail_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
+"onfido_nfc_fail_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_fail_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
+"onfido_nfc_fail_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_fail_passport_button_primary" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės skenavimas";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Patvirtinkite be skenavimo";
+"onfido_nfc_scan_error_final_required_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Išėjimo patikrinimas";
+"onfido_nfc_scan_error_document_title" = "Dokumentas nepalaikomas";
+"onfido_nfc_scan_error_document_subtitle" = "Prašome bandyti su kitu dokumentu";
+"onfido_nfc_scan_error_document_primary_button" = "Pasirinkite kitą dokumentą";
+"onfido_nfc_scan_error_document_secondary_button" = "Išėjimo patikrinimas";
+"onfido_nfc_scan_error_device_title" = "Nepalaikomas įrenginys";
+"onfido_nfc_scan_error_device_subtitle" = "Atsiprašome už bet kokius nepatogumus. Prašome naudoti kitą įrenginį, kad patvirtintumėte savo tapatybę";
+"onfido_nfc_scan_error_device_primary_button" = "Išėjimo patikrinimas";
+"onfido_nfc_scan_sheet_passport_ready" = "Lėtai perstumkite savo įrenginį per abu puslapius";
+"onfido_nfc_scan_sheet_ready_scanning" = "Laikykite savo įrenginį ir dokumentą nejudant";
+"onfido_nfc_scan_sheet_error_1" = "Prarasta ryšio.";
+"onfido_nfc_scan_sheet_error_2" = "Mes negalėjome nuskaityti jūsų dokumento";
+"onfido_nfc_scan_sheet_button" = "Atšaukti";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Mes priimame tik dokumentus su lustu. Ieškokite šios piktogramos savo dokumente";
+"onfido_nfc_fail_card_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_fail_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
+"onfido_nfc_fail_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_fail_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
+"onfido_nfc_fail_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_fail_card_button_primary" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_card_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Patikrinti be skenavimo";
+"onfido_nfc_scan_error_final_required_card_title" = "Mes negalėjome nuskaityti šio dokumento";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Išėjimo patikrinimas";
+"onfido_nfc_scan_sheet_card_ready" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn";
+"onfido_nfc_scan_sheet_card_button" = "Atšaukti";
+"onfido_nfc_scan_sheet_card_error_can" = "Neteisingas CAN numeris";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Jums gali būti paprašyta įvesti CAN prieš tęsiant skenavimą";
+"onfido_enter_can_secondary_button" = "Aš neturiu CAN";
+"onfido_enter_can_warning" = "Jums liko %d %@";
+
+"onfido_otp_send_code_input_label" = "Telefono numeris";
+"onfido_otp_send_code_error_invalid_phone_number" = "Prašome pateikti galiojantį telefono numerį.";
+"onfido_otp_error_title" = "Kažkas nepavyko";
+"onfido_otp_error_subtitle" = "Prašome palaukti kelias sekundes ir bandyti dar kartą";
+"onfido_otp_error_cta" = "Grįžti atgal";
+"onfido_nfc_scan_error_can_title" = "Maksimalus bandymų skaičius pasiektas";
+"onfido_nfc_scan_error_can_subtitle" = "Jūs pasiekėte maksimalų bandymų įvesti savo CAN numerį";
+"onfido_nfc_scan_error_can_primary_button" = "Išėjimo patikrinimas";

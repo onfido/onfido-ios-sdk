@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "使用NFC身份证";
 "onfido_nfc_select_button_secondary_card" = "这不是NFC身份证";
 
-"onfido_nfc_intro_title_passport" = "扫描您的电子护照";
-"onfido_nfc_intro_subtitle_passport" = "按照以下说明操作";
+"onfido_nfc_intro_title_passport" = "扫描您的护照";
+"onfido_nfc_intro_subtitle_passport" = "使用您的手机扫描护照中的芯片";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "将护照放在平坦的表面上";
-"onfido_nfc_intro_passport_scan_guide_2" = "将手机放在护照顶部";
-"onfido_nfc_intro_passport_scan_guide_3" = "慢慢地将手机向下和向上滑动";
-"onfido_nfc_intro_passport_scan_guide_4" = "扫描开始后，请保持手机不动";
+"onfido_nfc_intro_passport_scan_guide_1" = "将您的护照打开放在平面上";
+"onfido_nfc_intro_passport_scan_guide_2" = "将您的手机直接放在护照上，使它们接触";
+"onfido_nfc_intro_passport_scan_guide_3" = "慢慢滑动您的手机跨越两页，直到扫描开始";
+"onfido_nfc_intro_passport_scan_guide_4" = "一旦扫描开始，保持不动以便扫描能够完成";
 
 "onfido_nfc_intro_button_primary_passport" = "开始扫描";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "在相机上查看。将证明文件的照片页放在框中，然后轻触快门按钮";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "在相机上查看。将证明文件的封面放在框中，然后轻触快门按钮";
 "onfido_welcome_list_item_face_generic" = "扫描您的面部";
-"onfido_permission_recovery_subtitle_cam" = "如果不使用相机，我们就无法验证您的身份";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "在相机上查看。将证明文件的正面放在框中，然后轻触快门按钮";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "在相机上查看。将证明文件的背面放在框中，然后轻触快门按钮";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "在相机上查看。将证明文件的正面放在框中，然后轻触快门按钮";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "扫描成功";
 "onfido_nfc_sheet_success_instruction_passport" = "我们已成功扫描您的护照";
 "onfido_outro_body" = "这就是我们开始验证您的身份所需的一切";
-"onfido_permission_recovery_title_cam" = "相机访问被拒绝";
-"onfido_permission_recovery_list_item_how_to_cam" = "您可以通过设备设置恢复相机访问";
-"onfido_permission_recovery_list_item_action_cam" = "转到应用设置并启用此应用的相机访问";
-"onfido_permission_recovery_title_mic" = "麦克风访问被拒绝";
-"onfido_permission_recovery_list_item_how_to_mic" = "您可以通过设备设置恢复麦克风访问";
-"onfido_permission_recovery_list_item_action_mic" = "转到应用设置并启用此应用的麦克风访问";
-"onfido_permission_recovery_title_both" = "相机和麦克风访问被拒绝";
-"onfido_permission_recovery_list_item_how_to_both" = "您可以通过设备设置恢复相机和麦克风访问";
-"onfido_permission_recovery_list_item_action_both" = "转到应用设置并将此应用的相机和麦克风访问全部启用";
-"onfido_permission_recovery_button_primary" = "在设置中启用";
 "onfido_generic_error_network_title" = "连接已丢失";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "在相机上查看。将证明文件的照片页放在框中。捕捉到图像时，您的设备将振动";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "在相机上查看。将证明文件的正面放在框中，然后轻触快门按钮";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "有效期（如适用）";
 
 "onfido_welcome_start_workflow_button_trial" = "开始验证（测试）";
-"onfido_enter_can_title" = "输入CAN";
-"onfido_enter_can_subtitle" = "请确保提供的号码与证明文件上的号码相符。";
+"onfido_enter_can_title" = "输入CAN号码";
+"onfido_enter_can_subtitle" = "这个%d位数的数字位于您的文件的正面";
 "onfido_enter_can_disclaimer" = "您可以在证明文件的正面找到它。其长度为%d位数字，尺寸略大。";
 "onfido_enter_can_button_primary" = "继续";
 "onfido_nfc_scan_error_title" = "我们无法扫描您的证明文件";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "音频正在被另一个应用播放";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "录制期间请勿在您的设备上播放任何音频";
 
-"onfido_nfc_scan_welcome_card_title" = "使用NFC加快流程";
-"onfido_nfc_scan_welcome_card_subtitle" = "我们将扫描您文件的 NFC 芯片";
-"onfido_nfc_scan_welcome_card_list_item" = "将文档放在设备的背面";
-"onfido_nfc_scan_welcome_card_list_item_2" = "慢慢上下滑动您的设备";
-"onfido_nfc_scan_welcome_card_list_item_3" = "扫描开始后，保持不动";
+"onfido_nfc_scan_welcome_card_title" = "扫描您的文档";
+"onfido_nfc_scan_welcome_card_subtitle" = "使用您的手机扫描您的文档中的芯片";
+"onfido_nfc_scan_welcome_card_list_item" = "将您的文件放在设备的背面，使它们接触";
+"onfido_nfc_scan_welcome_card_list_item_2" = "慢慢地将您的文档在设备上上下滑动，直到扫描开始";
+"onfido_nfc_scan_welcome_card_list_item_3" = "一旦扫描开始，保持不动以便扫描能够完成";
 "onfido_nfc_scan_welcome_card_button_primary" = "开始扫描";
 "onfido_nfc_scan_welcome_card_secondary_button" = "不用NFC获得验证";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "不用NFC获得验证";
 
 "onfido_nfc_scan_welcome_passport_title" = "使用NFC加快流程";
-"onfido_nfc_scan_welcome_passport_subtitle" = "我们将扫描您文件的 NFC 芯片";
+"onfido_nfc_scan_welcome_passport_subtitle" = "使用您的手机扫描您的文档中的芯片";
 "onfido_nfc_scan_welcome_passport_list_item" = "将文档放在平坦的表面上";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "在内页打开您的文件";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "将文档放在设备的背面";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "将您的文件放在设备的背面，使它们接触";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "慢慢上下滑动您的设备";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "扫描开始后，保持不动";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "一旦扫描开始，保持不动以便扫描能够完成";
 "onfido_nfc_scan_welcome_passport_button_primary" = "开始扫描";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "不用NFC获得验证";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "我们正在处理您的信息，请等待。";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "处理中...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "请稍等一会，等待此过程完成，感谢您的耐心等待。";
+"onfido_interactive_task_waiting_subtitle_2" = "任务仍在运行中，感谢您的耐心等待。";
+"onfido_nfc_fail_passport_title" = "我们无法扫描此文档";
+"onfido_nfc_fail_passport_list_item_1" = "从您的文档和设备上移除所有的覆盖物";
+"onfido_nfc_fail_passport_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
+"onfido_nfc_fail_passport_list_item_3" = "慢慢滑动您的手机跨越两页，直到扫描开始";
+"onfido_nfc_fail_passport_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_fail_passport_button_primary" = "重试扫描";
+"onfido_nfc_scan_error_final_possible_passport_title" = "我们无法扫描此文档";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "从您的文档和设备中移除任何封面";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "慢慢滑动您的手机跨越两页，直到扫描开始";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "重试扫描";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "无需扫描即可验证";
+"onfido_nfc_scan_error_final_required_passport_title" = "我们无法扫描此文档";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "从您的文档和设备上移除所有的覆盖物";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "慢慢滑动您的手机跨越两页，直到扫描开始";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "重试扫描";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "退出验证";
+"onfido_nfc_scan_error_document_title" = "不支持的文档";
+"onfido_nfc_scan_error_document_subtitle" = "请尝试使用另一份文档";
+"onfido_nfc_scan_error_document_primary_button" = "选择另一个文档";
+"onfido_nfc_scan_error_document_secondary_button" = "退出验证";
+"onfido_nfc_scan_error_device_title" = "不支持的设备";
+"onfido_nfc_scan_error_device_subtitle" = "对于给您带来的任何不便，我们深感抱歉。请使用其他设备来验证您的身份";
+"onfido_nfc_scan_error_device_primary_button" = "退出验证";
+"onfido_nfc_scan_sheet_passport_ready" = "慢慢地将您的设备滑过两页";
+"onfido_nfc_scan_sheet_ready_scanning" = "保持您的设备和文件静止";
+"onfido_nfc_scan_sheet_error_1" = "丢失连接。";
+"onfido_nfc_scan_sheet_error_2" = "我们无法扫描您的文档";
+"onfido_nfc_scan_sheet_button" = "取消";
+"onfido_nfc_scan_doc_selection_disclaimer" = "我们只接受带有芯片的文件。请在您的文件上寻找此图标";
+"onfido_nfc_fail_card_title" = "我们无法扫描此文档";
+"onfido_nfc_fail_card_list_item_1" = "从您的设备上移除所有的覆盖物";
+"onfido_nfc_fail_card_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
+"onfido_nfc_fail_card_list_item_3" = "慢慢地将您的文档在设备上上下滑动，直到扫描开始";
+"onfido_nfc_fail_card_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_fail_card_button_primary" = "重试扫描";
+"onfido_nfc_scan_error_final_possible_card_title" = "我们无法扫描此文档";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "从您的设备上移除所有的覆盖物";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "慢慢地将您的文件在设备上上下滑动，直到扫描开始";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "重试扫描";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "无需扫描即可验证";
+"onfido_nfc_scan_error_final_required_card_title" = "我们无法扫描此文档";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "从您的设备上移除所有的覆盖物";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "保持您的设备和文件接触，直到扫描成功";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "慢慢地将您的文件在设备上上下滑动，直到扫描开始";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "重试扫描";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "退出验证";
+"onfido_nfc_scan_sheet_card_ready" = "慢慢地将您的文档上下滑动";
+"onfido_nfc_scan_sheet_card_button" = "取消";
+"onfido_nfc_scan_sheet_card_error_can" = "错误的CAN号码";
+"onfido_nfc_scan_welcome_card_disclaimer" = "在继续扫描之前，您可能会被提示输入CAN";
+"onfido_enter_can_secondary_button" = "我没有CAN";
+"onfido_enter_can_warning" = "您还剩下%d %@";
+
+"onfido_otp_send_code_input_label" = "电话号码";
+"onfido_otp_send_code_error_invalid_phone_number" = "请提供有效的电话号码。";
+"onfido_otp_error_title" = "出了些问题";
+"onfido_otp_error_subtitle" = "请等待几秒钟后再试";
+"onfido_otp_error_cta" = "返回";
+"onfido_nfc_scan_error_can_title" = "已达到最大尝试次数";
+"onfido_nfc_scan_error_can_subtitle" = "您已达到输入CAN号码的最大尝试次数";
+"onfido_nfc_scan_error_can_primary_button" = "退出验证";

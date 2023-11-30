@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Օգտագործել NFC քարտ";
 "onfido_nfc_select_button_secondary_card" = "Դա NFC քարտ չէ";
 
-"onfido_nfc_intro_title_passport" = "Սկանավորեք ձեր էլեկտրոնային անձնագիրը";
-"onfido_nfc_intro_subtitle_passport" = "Հետևեք այս հրահանգներին";
+"onfido_nfc_intro_title_passport" = "Սկանավորեք ձեր անձնագիրը";
+"onfido_nfc_intro_subtitle_passport" = "Օգտագործեք ձեր հեռախոսը ձեր անձնագրի չիպը սկանավորելու համար";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Դրեք ձեր անձնագիրը հարթ մակերեսի վրա";
-"onfido_nfc_intro_passport_scan_guide_2" = "Հեռախոսը դրեք ձեր անձնագրի վերևի մասում";
-"onfido_nfc_intro_passport_scan_guide_3" = "Դանդաղ սահեցրեք ձեր հեռախոսը ներքև և վերև";
-"onfido_nfc_intro_passport_scan_guide_4" = "Սկանավորումը սկսելուն պես՝ հեռախոսն անշարժ պահեք";
+"onfido_nfc_intro_passport_scan_guide_1" = "Հարթ մակերեսի վրա դնեք ձեր բացված անձնագիրը";
+"onfido_nfc_intro_passport_scan_guide_2" = "Ձեր անձնագրի վրա դրեք ձեր հեռախոսը";
+"onfido_nfc_intro_passport_scan_guide_3" = "Դանդաղ սահեցրեք ձեր հեռախոսը երկու էջերի վրա, մինչև սկանավորումը չսկսվի:";
+"onfido_nfc_intro_passport_scan_guide_4" = "Սկանավորումը սկսվելուն պես՝ պահեք ձեր մարմինը անշարժ";
 
 "onfido_nfc_intro_button_primary_passport" = "Սկսել սկանավորումը";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի կազմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը";
 "onfido_welcome_list_item_face_generic" = "Սկանավորեք ձեր դեմքը";
-"onfido_permission_recovery_subtitle_cam" = "Մենք չենք կարող նույնականացնել ձեզ առանց ձեր տեսախցիկի";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Սկանավորումը հաջողվեց";
 "onfido_nfc_sheet_success_instruction_passport" = "Մենք հաջողությամբ սկանավորեցինք ձեր անձնագիրը";
 "onfido_outro_body" = "Դա այն ամենն է, ինչ մեզ պետք է՝ սկսելու համար ձեր ինքնության հաստատումը";
-"onfido_permission_recovery_title_cam" = "Տեսախցիկի հասանելիությունը մերժվել է";
-"onfido_permission_recovery_list_item_how_to_cam" = "Դուք կարող եք վերականգնել տեսախցիկի հասանելիությունը ձեր սարքի կարգավորումների միջոցով";
-"onfido_permission_recovery_list_item_action_cam" = "Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար";
-"onfido_permission_recovery_title_mic" = "Խոսափողի հասանելիությունը մերժվել է";
-"onfido_permission_recovery_list_item_how_to_mic" = "Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով";
-"onfido_permission_recovery_list_item_action_mic" = "Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար";
-"onfido_permission_recovery_title_both" = "Տեսախցիկի և խոսափողի հասանելիությունը մերժվել է";
-"onfido_permission_recovery_list_item_how_to_both" = "Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով";
-"onfido_permission_recovery_list_item_action_both" = "Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար";
-"onfido_permission_recovery_button_primary" = "Ակտիվացնել կարգավորումների միջոցով";
 "onfido_generic_error_network_title" = "Կապի խափանում";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ։ Ձեր սարքը կթրթռա, երբ պատկերը լուսանկարվի";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Գործողության ժամկետը (եթե առկա է)";
 
 "onfido_welcome_start_workflow_button_trial" = "Սկսել նույնականացումը (ԹԵՍՏ)";
-"onfido_enter_can_title" = "Մուտքագրեք CAN-ը";
-"onfido_enter_can_subtitle" = "Համոզվեք, որ տրամադրված համարը համապատասխանում է փաստաթղթում նշված համարին։";
+"onfido_enter_can_title" = "Մուտքագրեք CAN համարը";
+"onfido_enter_can_subtitle" = "Ձեր փաստաթուղթի վրա գտնվող %d-նիշանոց համարը ստուգեք։";
 "onfido_enter_can_disclaimer" = "Այն կարող եք գտնել ձեր փաստաթղթի դիմերեսի վրա։ Այն պարունակում է %d նիշ և մի փոքր ավելի մեծ չափի է։";
 "onfido_enter_can_button_primary" = "Շարունակել";
 "onfido_nfc_scan_error_title" = "Ձեր փաստաթուղթը չհաջողվեց սկանավորել";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա";
 
-"onfido_nfc_scan_welcome_card_title" = "Արագացնել գործընթացը՝ օգտագործելով NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը";
+"onfido_nfc_scan_welcome_card_title" = "Սկանավորեք ձեր փաստաթուղթը";
+"onfido_nfc_scan_welcome_card_subtitle" = "Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար";
 "onfido_nfc_scan_welcome_card_list_item" = "Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Դանդաղ սահեցրեք ձեր սարքը վեր ու վար";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Սկանավորումը սկսելուց հետո այն անշարժ պահեք";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Դանդաղ տեղաշարժեք ձեր փաստաթուղթը վրաև ներքև սարքի դեմ, մինչդեռ չսկսվի սկանավորումը:";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:";
 "onfido_nfc_scan_welcome_card_button_primary" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
 
 "onfido_nfc_scan_welcome_passport_title" = "Արագացնել գործընթացը՝ օգտագործելով NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար";
 "onfido_nfc_scan_welcome_passport_list_item" = "Դրեք ձեր փաստաթուղթը հարթ մակերեսի վրա";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Բացեք ձեր փաստաթուղթը ներքին հետևի էջում";
 "onfido_nfc_scan_welcome_passport_list_item_3" = "Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Դանդաղ սահեցրեք ձեր սարքը վեր ու վար";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Սկանավորումը սկսելուց հետո այն անշարժ պահեք";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Մենք մշակում ենք ձեր տվյալները, խնդրում ենք սպասել:";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Կատարումը ընթացքում է․․․";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Հաճելի է մի քիչ ավելի երկար սպասել, որպեսզի այս գործընթացը ավարտվի, ձեր համբերատարությունը գնահատվում է։";
+"onfido_interactive_task_waiting_subtitle_2" = "Առաջադրանքը դեռ շարունակվում է, ձեր համբերատարությունը գնահատվում է:";
+"onfido_nfc_fail_passport_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_fail_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպողները";
+"onfido_nfc_fail_passport_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոտակային, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_fail_passport_list_item_3" = "Աստիճան ձեր հեռախոսը սարքեք երկու էջերի վրա, մինչև սկանավորումը չսկսվի";
+"onfido_nfc_fail_passport_list_item_4" = "Սկանավո";
+"onfido_nfc_fail_passport_button_primary" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպությունները";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Աստիճանաբար սարքեք ձեր հեռախոսը երկու էջերի վրա, մինչև սկանավորումը չսկսվի";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Ստուգել սկանավորման առանց";
+"onfido_nfc_scan_error_final_required_passport_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպությունները";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Ավազական ձեր հեռախոսը երկու էջերի վրա, մինչդեռ սկանավորումը չսկսվի";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Ելքի ստուգում";
+"onfido_nfc_scan_error_document_title" = "Փաստաթուղթը չի աջակցվում";
+"onfido_nfc_scan_error_document_subtitle" = "Փորձեք այլ փաստաթուղթով";
+"onfido_nfc_scan_error_document_primary_button" = "Ընտրեք մեկ այլ փաստաթուղթ";
+"onfido_nfc_scan_error_document_secondary_button" = "Ելքի ստուգում";
+"onfido_nfc_scan_error_device_title" = "Չաջակցվող սարք";
+"onfido_nfc_scan_error_device_subtitle" = "Ներողություն ամենայն անհարմարության համար։ Խնդրում ենք օգտագործել այլ սարքը ձեր իսկությունը հաստատելու համար";
+"onfido_nfc_scan_error_device_primary_button" = "Ելքի հաստատում";
+"onfido_nfc_scan_sheet_passport_ready" = "Աստիճան սահմանեք ձեր սարքը երկու էջերի վրա";
+"onfido_nfc_scan_sheet_ready_scanning" = "Պահեք ձեր սարքը և փաստաթուղթը անշարժ";
+"onfido_nfc_scan_sheet_error_1" = "Կապը կորավ.";
+"onfido_nfc_scan_sheet_error_2" = "Մենք չկարողացանք սկանավորել ձեր փաստաթուղթը";
+"onfido_nfc_scan_sheet_button" = "Չեղարկել";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Մենք ընդունում ենք միայն շերտեր չիպով։ Որոնեք այս պատկերը ձեր շերտում";
+"onfido_nfc_fail_card_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_fail_card_list_item_1" = "Հեռացրեք ձեր սարքից բոլոր կազմակերպողները";
+"onfido_nfc_fail_card_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_fail_card_list_item_3" = "Դանդաղ սարքեք ձեր փաստաթուղթը վերև և ներքև սարքի դեմ, մինչդեռ սկանավորումը չսկսվի:";
+"onfido_nfc_fail_card_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը ավարտվի";
+"onfido_nfc_fail_card_button_primary" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_possible_card_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Հեռացրեք ձեր սարքից բոլոր կազմակերպողները";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Դանդաղ ձեր փաստաթուղթը տեղադրեք սարքի վրա և տարածեք այն մինչև սկանավորումը սկսվի:";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը ավարտվի";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Ստուգել սկանավորման առանց";
+"onfido_nfc_scan_error_final_required_card_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Հեռացրեք ձեր սարքից բոլոր կազմակերպողները";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոտակային, մինչև սկանավորումը հաջողվի";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Դանդաղ սարքեք ձեր փաստաթուղթը վերև և ներքև սարքի դեմ, մինչեւ սկանավորումը չսկսվի:";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Սկանավորման մեկնարկից հետո մի շարժվեք";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Վերսկանալ";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Ելքի հաստատում";
+"onfido_nfc_scan_sheet_card_ready" = "Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք";
+"onfido_nfc_scan_sheet_card_button" = "Չեղարկել";
+"onfido_nfc_scan_sheet_card_error_can" = "Սխալ CAN համար";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Ձեզ կարող է խնդրվել մուտքագրել CAN-ը, մինչև շարունակել սկանավորումը";
+"onfido_enter_can_secondary_button" = "Ես չունեմ CAN";
+"onfido_enter_can_warning" = "Դուք ունեք %d %@ մնացել է";
+
+"onfido_otp_send_code_input_label" = "Հեռախոսահամար";
+"onfido_otp_send_code_error_invalid_phone_number" = "Տրամադրեք գործող հեռախոսահամար։";
+"onfido_otp_error_title" = "Ինչ-որ բան այնքան էլ ճիշտ չէ";
+"onfido_otp_error_subtitle" = "Համբերեք մի քանի վայրկյան և փորձեք կրկին";
+"onfido_otp_error_cta" = "Վերադառնալ";
+"onfido_nfc_scan_error_can_title" = "Մաքսիմալ փորձերը հասել են";
+"onfido_nfc_scan_error_can_subtitle" = "Դուք հասել եք ձեր CAN համարը մուտքագրելու առավելագույն փորձերին";
+"onfido_nfc_scan_error_can_primary_button" = "Ելքի հաստատում";

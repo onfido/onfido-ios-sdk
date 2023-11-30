@@ -8,7 +8,8 @@ import Onfido
 import UIKit
 
 final class ViewController: UIViewController {
-    @IBAction func verifyUser(_ sender: Any) {
+    @IBAction
+    func verifyUser(_ sender: Any) {
         // TODO: Call your backend to get `sdkToken` https://github.com/onfido/onfido-ios-sdk#31-sdk-tokens
         let sdkToken = ""
 
@@ -20,7 +21,7 @@ final class ViewController: UIViewController {
             .build()
 
         let responseHandler: (OnfidoResponse) -> Void = { [weak self] response in
-            if case OnfidoResponse.error(let error) = response {
+            if case let OnfidoResponse.error(error) = response {
                 self?.showError(error)
             } else if case OnfidoResponse.success = response {
                 // SDK flow has been completed successfully. You may want to create a check in your backend at this

@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "از کارت NFC استفاده کنید";
 "onfido_nfc_select_button_secondary_card" = "این کارت از نوع NFC نیست";
 
-"onfido_nfc_intro_title_passport" = "گذرنامه الکترونیکی خود را اسکن کنید";
-"onfido_nfc_intro_subtitle_passport" = "این دستورالعمل‌ها را دنبال کنید";
+"onfido_nfc_intro_title_passport" = "گذرنامه خود را بررسی کنید";
+"onfido_nfc_intro_subtitle_passport" = "از تلفن خود برای اسکن چیپ در گذرنامه خود استفاده کنید";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "گذرنامه خود را روی یک سطح صاف قرار دهید";
-"onfido_nfc_intro_passport_scan_guide_2" = "گوشی خود را روی گذرنامه خود قرار دهید";
-"onfido_nfc_intro_passport_scan_guide_3" = "به آرامی گوشی خود را به پایین و بالا حرکت دهید";
-"onfido_nfc_intro_passport_scan_guide_4" = "پس از شروع اسکن، گوشی خود را ثابت نگه دارید";
+"onfido_nfc_intro_passport_scan_guide_1" = "گذرنامه خود را روی یک سطح صاف باز کنید";
+"onfido_nfc_intro_passport_scan_guide_2" = "گوشی خود را مستقیماً روی گذرنامه خود بگذارید تا با هم تماس داشته باشند";
+"onfido_nfc_intro_passport_scan_guide_3" = "گوشی خود را به آرامی روی هر دو صفحه بکشید تا عملیات اسکن آغاز شود";
+"onfido_nfc_intro_passport_scan_guide_4" = "هنگامی که اسکن شروع می شود، برای اتمام اسکن باید ثابت بمانید";
 
 "onfido_nfc_intro_button_primary_passport" = "شروع اسکن";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "مشاهده از دوربین. صفحه عکس‌دار مدرک خود را در کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "مشاهده از دوربین. جلد مدرک خود را در کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_welcome_list_item_face_generic" = "چهره خود را اسکن کنید";
-"onfido_permission_recovery_subtitle_cam" = "ما نمی‌توانیم بدون دوربین هویت شما را تأیید کنیم";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "مشاهده از دوربین. روی مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "مشاهده از دوربین. پشت مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "مشاهده از دوربین. روی مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "اسکن با موفقیت انجام شد";
 "onfido_nfc_sheet_success_instruction_passport" = "گذرنامه شما را با موفقیت اسکن کردیم";
 "onfido_outro_body" = "این تمام آن چیزی است که برای شروع فرآیند تأیید هویت شما نیاز داریم";
-"onfido_permission_recovery_title_cam" = "دسترسی به دوربین رد شد";
-"onfido_permission_recovery_list_item_how_to_cam" = "از بخش تنظیمات مرورگر خود، مجوز دسترسی به دوربین و میکروفون را بدهید";
-"onfido_permission_recovery_list_item_action_cam" = "به بخش تنظیمات برنامه بروید و دسترسی به دوربین را برای این برنامه فعال کنید";
-"onfido_permission_recovery_title_mic" = "دسترسی به میکروفون رد شد";
-"onfido_permission_recovery_list_item_how_to_mic" = "می‌توانید از طریق تنظیمات دستگاه خود دسترسی به میکروفون را مجدداً فعال کنید";
-"onfido_permission_recovery_list_item_action_mic" = "به بخش تنظیمات برنامه بروید و دسترسی به میکروفون را برای این برنامه فعال کنید";
-"onfido_permission_recovery_title_both" = "دسترسی به دوربین و میکروفون رد شد";
-"onfido_permission_recovery_list_item_how_to_both" = "می‌توانید از طریق تنظیمات دستگاه خود دسترسی به دوربین و میکروفون را مجدداً فعال کنید";
-"onfido_permission_recovery_list_item_action_both" = "به بخش تنظیمات برنامه بروید و دسترسی به دوربین و میکروفون را برای این برنامه فعال کنید";
-"onfido_permission_recovery_button_primary" = "فعالسازی در بخش تنظیمات";
 "onfido_generic_error_network_title" = "ارتباط قطع شد";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "مشاهده از دوربین. صفحه عکس‌دار مدرک خود را در کادر قرار دهید. هنگامی که تصویر گرفته می‌شود دستگاه شما خواهد لرزید";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "مشاهده از دوربین. روی مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "تاریخ انقضا در صورت وجود";
 
 "onfido_welcome_start_workflow_button_trial" = "شروع فرآیند تأیید (آزمایشی)";
-"onfido_enter_can_title" = "CAN را وارد کنید";
-"onfido_enter_can_subtitle" = "لطفاً مطمئن شوید که شماره ارائه شده با شماره مندرج در مدرک مطابقت دارد.";
+"onfido_enter_can_title" = "شماره CAN را وارد کنید";
+"onfido_enter_can_subtitle" = "شماره %d-رقمی در جلوی سند شما قرار دارد";
 "onfido_enter_can_disclaimer" = "می‌توانید این شماره را بر روی مدرک خود پیدا کنید. این شماره، %d رقمی است و اندازه آن کمی بزرگتر است.";
 "onfido_enter_can_button_primary" = "ادامه";
 "onfido_nfc_scan_error_title" = "نتوانستیم مدرک شما را اسکن کنیم";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "فرصت";
 "onfido_nfc_scan_error_button_secondary" = "بدون NFC تأیید شوید";
 "onfido_intro_scan_animation_ios" = "سند خود را در بالای دستگاه خود قرار دهید. پس از شروع اسکن، آنها را ثابت نگه دارید.";
-"onfido_nfc_scan_sheet_success" = "اسکن با موفقیت انجام شد";
+"onfido_nfc_scan_sheet_success" = "";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "در طی این فرآیند چهره، پس زمینه و صدای شما ضبط می شود";
 "onfido_welcome_list_header_doc_video" = "از دستگاه خود برای ضبط ویدئو استفاده کنید:";
 "onfido_welcome_list_item_doc_video_flash" = "در حین ضبط ویدیو، فلاش دستگاه شما را روشن می‌کنیم";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "برنامه دیگری در حال پخش صدا است";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "لطفاً در هنگام ضبط از پخش فایل صوتی در دستگاه خودداری کنید";
 
-"onfido_nfc_scan_welcome_card_title" = "تسریع فرآیند با استفاده از NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "ما تراشه NFC سند شما را اسکن می کنیم";
-"onfido_nfc_scan_welcome_card_list_item" = "سند خود را در پشت دستگاه خود قرار دهید";
-"onfido_nfc_scan_welcome_card_list_item_2" = "به آرامی دستگاه خود را به سمت بالا و پایین بلغزانید";
-"onfido_nfc_scan_welcome_card_list_item_3" = "پس از شروع اسکن، آن را ثابت نگه دارید";
+"onfido_nfc_scan_welcome_card_title" = "سند خود را بررسی کنید";
+"onfido_nfc_scan_welcome_card_subtitle" = "از تلفن خود برای اسکن کردن تراشه موجود در سند خود استفاده کنید";
+"onfido_nfc_scan_welcome_card_list_item" = "سند خود را به گونه ای در پشت دستگاه خود بگذارید که با هم تماس داشته باشند";
+"onfido_nfc_scan_welcome_card_list_item_2" = "سند خود را به آرامی روی دستگاه بالا و پایین حرکت دهید تا فرآیند اسکن آغاز شود";
+"onfido_nfc_scan_welcome_card_list_item_3" = "وقتی اسکن کردن شروع می شود، باید ثابت بمانید تا اسکن کاملاً انجام شود";
 "onfido_nfc_scan_welcome_card_button_primary" = "شروع اسکن";
 "onfido_nfc_scan_welcome_card_secondary_button" = "بدون NFC تأیید شوید";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "بدون NFC تأیید شوید";
 
 "onfido_nfc_scan_welcome_passport_title" = "تسریع فرآیند با استفاده از NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "ما تراشه NFC سند شما را اسکن می کنیم";
+"onfido_nfc_scan_welcome_passport_subtitle" = "از تلفن خود برای اسکن کردن تراشه موجود در سند خود استفاده کنید";
 "onfido_nfc_scan_welcome_passport_list_item" = "سند خود را روی یک سطح صاف قرار دهید";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "سند خود را در صفحه پشتی داخلی باز کنید";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "سند خود را در پشت دستگاه خود قرار دهید";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "سند خود را به گونه ای در پشت دستگاه خود بگذارید که با هم تماس داشته باشند";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "به آرامی دستگاه خود را به سمت بالا و پایین بلغزانید";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "پس از شروع اسکن، آن را ثابت نگه دارید";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "وقتی اسکن کردن شروع می شود، باید ثابت بمانید تا اسکن کاملاً انجام شود";
 "onfido_nfc_scan_welcome_passport_button_primary" = "شروع اسکن";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "بدون NFC تأیید شوید";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "ما در حال پردازش اطلاعات شما هستیم، لطفا صبر کنید.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "در حال پردازش...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "لطفاً کمی بیشتر برای اتمام این فرآیند صبر کنید، صبر شما قدردانی می شود.";
+"onfido_interactive_task_waiting_subtitle_2" = "کار هنوز در حال اجرا است، صبر شما قدردانی می شود.";
+"onfido_nfc_fail_passport_title" = "";
+"onfido_nfc_fail_passport_list_item_1" = "";
+"onfido_nfc_fail_passport_list_item_2" = "";
+"onfido_nfc_fail_passport_list_item_3" = "";
+"onfido_nfc_fail_passport_list_item_4" = "";
+"onfido_nfc_fail_passport_button_primary" = "";
+"onfido_nfc_scan_error_final_possible_passport_title" = "";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "";
+"onfido_nfc_scan_error_final_required_passport_title" = "";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "";
+"onfido_nfc_scan_error_document_title" = "";
+"onfido_nfc_scan_error_document_subtitle" = "";
+"onfido_nfc_scan_error_document_primary_button" = "";
+"onfido_nfc_scan_error_document_secondary_button" = "";
+"onfido_nfc_scan_error_device_title" = "";
+"onfido_nfc_scan_error_device_subtitle" = "";
+"onfido_nfc_scan_error_device_primary_button" = "";
+"onfido_nfc_scan_sheet_passport_ready" = "";
+"onfido_nfc_scan_sheet_ready_scanning" = "";
+"onfido_nfc_scan_sheet_error_1" = "";
+"onfido_nfc_scan_sheet_error_2" = "";
+"onfido_nfc_scan_sheet_button" = "";
+"onfido_nfc_scan_doc_selection_disclaimer" = "";
+"onfido_nfc_fail_card_title" = "";
+"onfido_nfc_fail_card_list_item_1" = "";
+"onfido_nfc_fail_card_list_item_2" = "";
+"onfido_nfc_fail_card_list_item_3" = "";
+"onfido_nfc_fail_card_list_item_4" = "";
+"onfido_nfc_fail_card_button_primary" = "";
+"onfido_nfc_scan_error_final_possible_card_title" = "";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "";
+"onfido_nfc_scan_error_final_required_card_title" = "";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "";
+"onfido_nfc_scan_sheet_card_ready" = "";
+"onfido_nfc_scan_sheet_card_button" = "";
+"onfido_nfc_scan_sheet_card_error_can" = "";
+"onfido_nfc_scan_welcome_card_disclaimer" = "";
+"onfido_enter_can_secondary_button" = "";
+"onfido_enter_can_warning" = "";
+
+"onfido_otp_send_code_input_label" = "شماره تلفن";
+"onfido_otp_send_code_error_invalid_phone_number" = "لطفا شماره تلفن معتبری ارائه دهید.";
+"onfido_otp_error_title" = "چیزی اشتباه شد";
+"onfido_otp_error_subtitle" = "لطفا چند ثانیه صبر کنید و دوباره تلاش کنید";
+"onfido_otp_error_cta" = "برگرد";
+"onfido_nfc_scan_error_can_title" = "به حداکثر تلاش رسیده است";
+"onfido_nfc_scan_error_can_subtitle" = "شما به حداکثر تلاش ها برای وارد کردن شماره CAN خود رسیده اید";
+"onfido_nfc_scan_error_can_primary_button" = "تأیید خروج";

@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.6.0] - 2023-11-14
+
+### Added
+
+- UI customisation is now applied to Motion
+- Improved document capture image validation logic
+- Added support for the integration of Qualified Electronic Signature (QES) and One-Time Password (OTP) capture steps via Studio
+
+### Changed
+
+- NFC enforcement (through Studio) and UI/UX improvements added
+- Due to a change introduced by Apple in March 2023 with iOS v16.0, PACE-only documents can no longer be read by iOS devices installed with iOS 16 (or newer). To minimise integration complexity and instability with future releases of iOS, Onfido is removing support for NFC-PACE.
+
+### Fixed
+
+- Fixed issue where enterprise features were ignored for studio flows
+- Fixed Selfie confirmation screen text not being visible in Dark Mode and not using the custom font set
+- Fixed rare race condition that could cause Motion to crash
+- Fixed camera permissions checks to handle camera being restricted through "Content & Privacy restrictions"
+- Fixed showing a loading placeholder when configuring face step without intro video
+
 ## [29.5.2] - 2023-10-19
 
 ### Fixed
@@ -441,7 +462,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Removed mobile token support
 - Dropped iOS 10 support. Now supporting iOS 11 or newer.
-- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaputreSuccessColors), and made properties public.
+- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaptureSuccessColors), and made properties public.
 - Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
 - Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
 
@@ -500,7 +521,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed missing throwed error when the user didn't give camera permission
+- Fixed missing thrown error when the user didn't give camera permission
 
 ## [22.2.0] - 2021-08-09
 
@@ -684,7 +705,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Improved US DL autocapture experience
 - Updated readme to mention `NFCReaderUsageDescription` key in app permission section
 - UI: Updated video capture confirmation
-- Now sharing .strings files for all suported languages
+- Now sharing .strings files for all supported languages
 
 ### Fixed
 
@@ -706,13 +727,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Added Onfido logo to the document type selection screen
 - Removed unused strings from localisation
 - Renamed some generic keys
-- UI: Changed bubble view position and apperance for document capture flow
+- UI: Changed bubble view position and appearance for document capture flow
 - Now disabling passport autocapture on simulators
 
 ### Fixed
 
 - UI: Now showing wrong side head turn warning again
-- UI: Fixed the incorrect captured document positon on confirmation screen for multi format document types
+- UI: Fixed the incorrect captured document position on confirmation screen for multi format document types
 
 ## [18.8.1] - 2020-10-22
 
@@ -806,7 +827,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Removed unnnecessary `advertisingIdentifier` usage
+- Removed unnecessary `advertisingIdentifier` usage
 
 ### Fixed
 
@@ -1376,7 +1397,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - UI: The document frame aspect ratio, in both capture and confirmation screen,
-on iPhone X is now consistent with ther other models.
+on iPhone X is now consistent with their other models.
 
 ## [5.0.2] - 2017-11-15
 
@@ -1404,7 +1425,7 @@ on iPhone X is now consistent with ther other models.
 
 ### Changed
 
-- Internal: Cropping of document picture is now less agressive and done with higher precision.
+- Internal: Cropping of document picture is now less aggressive and done with higher precision.
 
 ## [4.0.0] - 2017-10-09
 

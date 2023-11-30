@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "NFC'li kimlik kullan";
 "onfido_nfc_select_button_secondary_card" = "Bu kimlikte NFC yok";
 
-"onfido_nfc_intro_title_passport" = "e-Passport'unuzu tarayın";
-"onfido_nfc_intro_subtitle_passport" = "Aşağıdaki yönergeleri izleyin";
+"onfido_nfc_intro_title_passport" = "Pasaportunuzu tarayın";
+"onfido_nfc_intro_subtitle_passport" = "Telefonunuzu pasaportunuzdaki çipi tarayarak kullanın";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Pasaportunuzu düz bir yüzeye koyun";
-"onfido_nfc_intro_passport_scan_guide_2" = "Telefonunuzu pasaportunuzun üzerine yerleştirin";
-"onfido_nfc_intro_passport_scan_guide_3" = "Telefonunuzu yavaşça aşağı ve yukarı kaydırın";
-"onfido_nfc_intro_passport_scan_guide_4" = "Tarama başladıktan sonra telefonunuzu sabit tutun";
+"onfido_nfc_intro_passport_scan_guide_1" = "Kimliğinizi düz bir yüzeye açık bir şekilde koyun";
+"onfido_nfc_intro_passport_scan_guide_2" = "Telefonunuzu pasaportunuzun tam üstüne, ona dokunacak şekilde yerleştirin";
+"onfido_nfc_intro_passport_scan_guide_3" = "Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar";
+"onfido_nfc_intro_passport_scan_guide_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
 
 "onfido_nfc_intro_button_primary_passport" = "Taramaya başla";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Kameradan görüntü. Belgenizin fotoğraf sayfasını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Kameradan görüntü. Belgenizin kapak sayfasını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
 "onfido_welcome_list_item_face_generic" = "Yüzünüzü tarayın";
-"onfido_permission_recovery_subtitle_cam" = "Kamera erişimi olmadan sizi doğrulayamayız";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Tarama başarılı";
 "onfido_nfc_sheet_success_instruction_passport" = "Pasaportunuzu başarıyla taradık";
 "onfido_outro_body" = "Kimliğinizi doğrulamaya başlamak için ihtiyacımız olan tek şey bu";
-"onfido_permission_recovery_title_cam" = "Kamera erişimi reddedildi";
-"onfido_permission_recovery_list_item_how_to_cam" = "Cihaz ayarlarınızdan kamera erişimini kurtarabilirsiniz";
-"onfido_permission_recovery_list_item_action_cam" = "Uygulama ayarlarına gidin ve bu uygulama için kamera erişimini etkinleştirin";
-"onfido_permission_recovery_title_mic" = "Mikrofon erişimi reddedildi";
-"onfido_permission_recovery_list_item_how_to_mic" = "Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz";
-"onfido_permission_recovery_list_item_action_mic" = "Uygulama ayarlarına gidin ve bu uygulama için mikrofon erişimini etkinleştirin";
-"onfido_permission_recovery_title_both" = "Kamera ve mikrofon erişimi reddedildi";
-"onfido_permission_recovery_list_item_how_to_both" = "Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz";
-"onfido_permission_recovery_list_item_action_both" = "Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin";
-"onfido_permission_recovery_button_primary" = "Ayarlarda etkinleştir";
 "onfido_generic_error_network_title" = "Bağlantı kesildi";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Kameradan görüntü. Belgenizin fotoğraf sayfasını çerçeveye yerleştirin. Görüntü yakalandığında cihazınız titreyecektir";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Son kullanma tarihi (varsa)";
 
 "onfido_welcome_start_workflow_button_trial" = "Doğrulamayı başlat (TEST)";
-"onfido_enter_can_title" = "CAN'ı girin";
-"onfido_enter_can_subtitle" = "Lütfen verilen numaranın belgedeki numarayla eşleştiğinden emin olun.";
+"onfido_enter_can_title" = "CAN numarasını girin";
+"onfido_enter_can_subtitle" = "%d-haneli numara belgenizin ön tarafında bulunmaktadır";
 "onfido_enter_can_disclaimer" = "Belgenizin ön yüzünde bulabilirsiniz. %d hanelidir ve biraz daha büyük boyuttadır.";
 "onfido_enter_can_button_primary" = "Devam et";
 "onfido_nfc_scan_error_title" = "Belgenizi tarayamadık";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Ses başka bir uygulama tarafından oynatılıyor";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın";
 
-"onfido_nfc_scan_welcome_card_title" = "NFC ile süreci hızlandırın";
-"onfido_nfc_scan_welcome_card_subtitle" = "Belgenizin NFC çipini tarayacağız";
-"onfido_nfc_scan_welcome_card_list_item" = "Belgenizi cihazınızın arkasına yerleştirin";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Cihazınızı yavaşça yukarı ve aşağı kaydırın";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Tarama başladığında, sabit tutun";
+"onfido_nfc_scan_welcome_card_title" = "Belgenizi tarayın";
+"onfido_nfc_scan_welcome_card_subtitle" = "Telefonunuzu kullanarak belgenizdeki çipi tarayın";
+"onfido_nfc_scan_welcome_card_list_item" = "Cihazınızın arkasına belgenizi yerleştirin, böylece birbirine değsinler";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Belgenizi cihaza karşı yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
 "onfido_nfc_scan_welcome_card_button_primary" = "Taramaya başla";
 "onfido_nfc_scan_welcome_card_secondary_button" = "NFC olmadan doğrulanın";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "NFC olmadan doğrulanın";
 
 "onfido_nfc_scan_welcome_passport_title" = "NFC ile süreci hızlandırın";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Belgenizin NFC çipini tarayacağız";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Telefonunuzu kullanarak belgenizdeki çipi tarayın";
 "onfido_nfc_scan_welcome_passport_list_item" = "Belgenizi düz bir yüzeye yerleştirin";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Belgenizi iç arka sayfada açın";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Belgenizi cihazınızın arkasına yerleştirin";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Cihazınızın arkasına belgenizi yerleştirin, böylece birbirine değsinler";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Cihazınızı yavaşça yukarı ve aşağı kaydırın";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Tarama başladığında, sabit tutun";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Taramaya başla";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "NFC olmadan doğrulanın";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Bilgilerinizi işliyoruz, lütfen bekleyin.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "İşlem devam ediyor...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.";
+"onfido_interactive_task_waiting_subtitle_2" = "Görev hala devam ediyor, sabrınız takdir edilmektedir.";
+"onfido_nfc_fail_passport_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_fail_passport_list_item_1" = "Belgenizden ve cihazınızdan herhangi bir kapağı çıkarın";
+"onfido_nfc_fail_passport_list_item_2" = "";
+"onfido_nfc_fail_passport_list_item_3" = "Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar";
+"onfido_nfc_fail_passport_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_fail_passport_button_primary" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Belgenizden ve cihazınızdan herhangi bir kapağı çıkarın";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Taramadan doğrula";
+"onfido_nfc_scan_error_final_required_passport_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Belgenizden ve cihazınızdan herhangi bir kapağı çıkarın";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Çıkış doğrulaması";
+"onfido_nfc_scan_error_document_title" = "Belge desteklenmiyor";
+"onfido_nfc_scan_error_document_subtitle" = "Lütfen başka bir belge ile deneyin";
+"onfido_nfc_scan_error_document_primary_button" = "Başka bir belge seçin";
+"onfido_nfc_scan_error_document_secondary_button" = "Çıkış doğrulaması";
+"onfido_nfc_scan_error_device_title" = "Desteklenmeyen cihaz";
+"onfido_nfc_scan_error_device_subtitle" = "Herhangi bir rahatsızlık için özür dileriz. Lütfen kimliğinizi doğrulamak için farklı bir cihaz kullanın";
+"onfido_nfc_scan_error_device_primary_button" = "Çıkış doğrulaması";
+"onfido_nfc_scan_sheet_passport_ready" = "Cihazınızı yavaşça her iki sayfa üzerinde kaydırın";
+"onfido_nfc_scan_sheet_ready_scanning" = "Cihazınızı ve belgenizi sabit tutun";
+"onfido_nfc_scan_sheet_error_1" = "Bağlantı kesildi.";
+"onfido_nfc_scan_sheet_error_2" = "Belgenizi tarayamadık";
+"onfido_nfc_scan_sheet_button" = "İptal";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Yalnızca çip içeren belgeleri kabul ediyoruz. Belgenizde bu simgeyi arayın";
+"onfido_nfc_fail_card_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_fail_card_list_item_1" = "Cihazınızdaki tüm kapakları çıkarın";
+"onfido_nfc_fail_card_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
+"onfido_nfc_fail_card_list_item_3" = "Belgenizi cihaza karşı yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar";
+"onfido_nfc_fail_card_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_fail_card_button_primary" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_possible_card_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Cihazınızdaki tüm kapakları çıkarın";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Cihaza karşı belgenizi yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Taramadan doğrula";
+"onfido_nfc_scan_error_final_required_card_title" = "Bu belgeyi tarayamadık";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Cihazınızdaki tüm kapakları çıkarın";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Cihaza karşı belgenizi yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Taramayı yeniden deneyin";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Çıkış doğrulaması";
+"onfido_nfc_scan_sheet_card_ready" = "Belgenizi yavaşça yukarı ve aşağı kaydırın";
+"onfido_nfc_scan_sheet_card_button" = "İptal";
+"onfido_nfc_scan_sheet_card_error_can" = "Yanlış CAN numarası";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Devam etmek için taramaya CAN girmeniz istenebilir";
+"onfido_enter_can_secondary_button" = "Bir CAN'ım yok";
+"onfido_enter_can_warning" = "%d %@ kaldı";
+
+"onfido_otp_send_code_input_label" = "Telefon numarası";
+"onfido_otp_send_code_error_invalid_phone_number" = "Lütfen geçerli bir telefon numarası girin.";
+"onfido_otp_error_title" = "Bir şeyler yanlış gitti";
+"onfido_otp_error_subtitle" = "Lütfen birkaç saniye bekleyin ve tekrar deneyin";
+"onfido_otp_error_cta" = "Geri dön";
+"onfido_nfc_scan_error_can_title" = "Maksimum deneme sayısına ulaşıldı";
+"onfido_nfc_scan_error_can_subtitle" = "CAN numaranızı girmek için maksimum deneme sayısına ulaştınız";
+"onfido_nfc_scan_error_can_primary_button" = "Çıkış doğrulaması";

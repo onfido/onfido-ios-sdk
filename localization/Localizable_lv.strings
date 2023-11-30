@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Izmantot NFC karti";
 "onfido_nfc_select_button_secondary_card" = "Tā nav NFC karte";
 
-"onfido_nfc_intro_title_passport" = "Noskenējiet savu e-pasi";
-"onfido_nfc_intro_subtitle_passport" = "Izpildiet šīs instrukcijas";
+"onfido_nfc_intro_title_passport" = "Skenējiet savu pasi";
+"onfido_nfc_intro_subtitle_passport" = "Izmantojiet savu telefonu, lai noskanētu čipu savā pasē";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Novietojiet pasi uz līdzenas virsmas";
-"onfido_nfc_intro_passport_scan_guide_2" = "Novietojiet tālruni virs pases augšpuses";
-"onfido_nfc_intro_passport_scan_guide_3" = "Lēnām virziet tālruni lejup un augšup";
-"onfido_nfc_intro_passport_scan_guide_4" = "Kad skenēšana ir sākta, turiet tālruni nekustīgi";
+"onfido_nfc_intro_passport_scan_guide_1" = "Ielieciet savu pasi atvērtu uz plakana virsmas";
+"onfido_nfc_intro_passport_scan_guide_2" = "Novietojiet savu tālruni tieši uz pases virsmas tā, lai tie saskartos";
+"onfido_nfc_intro_passport_scan_guide_3" = "Pakāpeniski pārvietojiet savu tālruni pāri abām lapām, līdz sākas skenēšana";
+"onfido_nfc_intro_passport_scan_guide_4" = "Tiklīdz skenēšana sākas, nepārvietojieties, lai skenēšana varētu pabeigt";
 
 "onfido_nfc_intro_button_primary_passport" = "Sākt skenēšanu";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Skats no kameras. Ievietojiet dokumenta fotoattēla lapu kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Skats no kameras. Ievietojiet dokumenta vāku kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_welcome_list_item_face_generic" = "Noskenētu savu seju.";
-"onfido_permission_recovery_subtitle_cam" = "Mēs nevaram veikt pārbaudi bez kameras";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Skats no kameras. Ievietojiet dokumenta aizmuguri kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Skenēšana izdevās";
 "onfido_nfc_sheet_success_instruction_passport" = "Esam veiksmīgi noskenējuši jūsu pasi";
 "onfido_outro_body" = "Tas ir viss, kas mums nepieciešams, lai sāktu jūsu identitātes pārbaudi";
-"onfido_permission_recovery_title_cam" = "Piekļuve kamerai ir liegta";
-"onfido_permission_recovery_list_item_how_to_cam" = "Jūs varat atjaunot piekļuvi kamerai ierīces iestatījumos";
-"onfido_permission_recovery_list_item_action_cam" = "Dodieties uz lietotnes iestatījumiem un iespējojiet kameras piekļuvi šai lietotnei";
-"onfido_permission_recovery_title_mic" = "Mikrofonam ir liegta piekļuve";
-"onfido_permission_recovery_list_item_how_to_mic" = "Jūs varat atjaunot piekļuvi mikrofonam ierīces iestatījumos";
-"onfido_permission_recovery_list_item_action_mic" = "Dodieties uz lietotnes iestatījumiem un iespējojiet mikrofona piekļuvi šai lietotnei";
-"onfido_permission_recovery_title_both" = "Kamerai un mikrofonam ir liegta piekļuve";
-"onfido_permission_recovery_list_item_how_to_both" = "Jūs varat atjaunot piekļuvi kamerai un mikrofonam ierīces iestatījumos";
-"onfido_permission_recovery_list_item_action_both" = "Dodieties uz lietotnes iestatījumiem un iespējojiet gan kameras, gan mikrofona piekļuvi šai lietotnei";
-"onfido_permission_recovery_button_primary" = "Atsvaidzināt";
 "onfido_generic_error_network_title" = "Savienojums pārtrūcis";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Skats no kameras. Ievietojiet dokumenta fotoattēla lapu kadrā. Kad attēls būs uzņemts, ierīce sāks vibrēt";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Derīguma termiņš (ja attiecināms)";
 
 "onfido_welcome_start_workflow_button_trial" = "Sākt pārbaudi (TEST)";
-"onfido_enter_can_title" = "Ievadiet CAN";
-"onfido_enter_can_subtitle" = "Pārliecinieties, vai norādītais numurs atbilst dokumentā redzamajam numuram.";
+"onfido_enter_can_title" = "Ievadiet CAN numuru";
+"onfido_enter_can_subtitle" = "%d-cifru numurs atrodas jūsu dokumenta priekšpusē";
 "onfido_enter_can_disclaimer" = "Tas ir dokumenta priekšpusē. Tajā ir šāds ciparu skaits: %d, un tas ir nedaudz lielāks.";
 "onfido_enter_can_button_primary" = "Turpināt";
 "onfido_nfc_scan_error_title" = "Mēs nevarējām noskenēt jūsu dokumentu";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "mēģinājumu";
 "onfido_nfc_scan_error_button_secondary" = "Iegūt verifikāciju bez NFC";
 "onfido_intro_scan_animation_ios" = "Novietojiet dokumentu ierīces aizmugurējās daļas augšpusē. Kad skenēšana ir sākta, turiet tos nekustīgi.";
-"onfido_nfc_scan_sheet_success" = "Veiksmīga skenēšana";
+"onfido_nfc_scan_sheet_success" = "Skenēšana veiksmīga";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Šī procesa laikā tiks ierakstīta jūsu seja, fons un skaņa";
 "onfido_welcome_list_header_doc_video" = "Izmantojiet ierīci, lai ierakstītu:";
 "onfido_welcome_list_item_doc_video_flash" = "Videoklipa ierakstīšanas laikā tiks ieslēgta ierīces zibspuldze";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio ierakstu atskaņo cita lietotne";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus";
 
-"onfido_nfc_scan_welcome_card_title" = "Paātriniet procesu, izmantojot NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Mēs skenēsim jūsu dokumenta NFC mikroshēmu";
-"onfido_nfc_scan_welcome_card_list_item" = "Novietojiet dokumentu ierīces aizmugurē";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Lēnām bīdiet ierīci uz augšu un uz leju";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Kad skenēšana sākas, turiet to nekustīgi";
+"onfido_nfc_scan_welcome_card_title" = "Skenējiet savu dokumentu";
+"onfido_nfc_scan_welcome_card_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
+"onfido_nfc_scan_welcome_card_list_item" = "Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pret ierīci, līdz sākas skenēšana";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
 "onfido_nfc_scan_welcome_card_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Iegūt verifikāciju bez NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Iegūt verifikāciju bez NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Paātriniet procesu, izmantojot NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Mēs skenēsim jūsu dokumenta NFC mikroshēmu";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
 "onfido_nfc_scan_welcome_passport_list_item" = "Novietojiet dokumentu uz līdzenas virsmas";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Atveriet dokumentu iekšējā aizmugurējā lapā";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Novietojiet dokumentu ierīces aizmugurē";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Lēnām bīdiet ierīci uz augšu un uz leju";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Kad skenēšana sākas, turiet to nekustīgi";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Iegūt verifikāciju bez NFC";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Mēs apstrādājam jūsu informāciju, lūdzu, uzgaidiet.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Apstrāde notiek...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Lūdzu, vēl nedaudz pagaidiet, kamēr šis process tiek pabeigts, mēs novērtējam jūsu pacietību.";
+"onfido_interactive_task_waiting_subtitle_2" = "Uzdevums joprojām tiek izpildīts, mēs novērtējam jūsu pacietību.";
+"onfido_nfc_fail_passport_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_fail_passport_list_item_1" = "Noņemiet visus pārvalkus no sava dokumenta un ierīces";
+"onfido_nfc_fail_passport_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_fail_passport_list_item_3" = "Pakāpeniski pārvietojiet savu tālruni pāri abām lapām, līdz sākas skenēšana";
+"onfido_nfc_fail_passport_list_item_4" = "Tiklīdz skenēšana sākas, nepārvietojieties, lai skenēšana varētu pabeigt";
+"onfido_nfc_fail_passport_button_primary" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Noņemiet visus pārsegu no jūsu dokumenta un ierīces";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Pakāpeniski pārvietojiet savu tālruni pāri abām lapām, līdz sākas skenēšana";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Pārbaudīt bez skenēšanas";
+"onfido_nfc_scan_error_final_required_passport_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Noņemiet visus pārvalkus no sava dokumenta un ierīces";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Pakāpeniski pārvietojiet savu tālruni pāri abām lapām, līdz sākas skenēšana";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Izejas pārbaude";
+"onfido_nfc_scan_error_document_title" = "Dokuments netiek atbalstīts";
+"onfido_nfc_scan_error_document_subtitle" = "Lūdzu, mēģiniet ar citu dokumentu";
+"onfido_nfc_scan_error_document_primary_button" = "Izvēlieties citu dokumentu";
+"onfido_nfc_scan_error_document_secondary_button" = "Izejas pārbaude";
+"onfido_nfc_scan_error_device_title" = "Neatbalstīta ierīce";
+"onfido_nfc_scan_error_device_subtitle" = "Atvainojiet par sagādātajām neērtībām. Lūdzu, izmantojiet citu ierīci, lai pārbaudītu savu identitāti";
+"onfido_nfc_scan_error_device_primary_button" = "Izejas pārbaude";
+"onfido_nfc_scan_sheet_passport_ready" = "Lēnām pārvietojiet savu ierīci pāri abām lapām";
+"onfido_nfc_scan_sheet_ready_scanning" = "Turiet savu ierīci un dokumentu mierā";
+"onfido_nfc_scan_sheet_error_1" = "Zaudēts savienojums.";
+"onfido_nfc_scan_sheet_error_2" = "Mēs nevarējām noskenēt jūsu dokumentu";
+"onfido_nfc_scan_sheet_button" = "Atcelt";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Mēs pieņemam tikai dokumentus ar čipu. Meklējiet šo ikonu savā dokumentā";
+"onfido_nfc_fail_card_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_fail_card_list_item_1" = "Noņemiet visus pārvalkus no sava ierīces";
+"onfido_nfc_fail_card_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_fail_card_list_item_3" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pa ierīci, līdz sākas skenēšana";
+"onfido_nfc_fail_card_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_fail_card_button_primary" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_possible_card_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Noņemiet visus pārvalkus no sava ierīces";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pa ierīci, līdz sākas skenēšana";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Apliecināt bez skenēšanas";
+"onfido_nfc_scan_error_final_required_card_title" = "Mēs nevarējām noskenēt šo dokumentu";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Noņemiet visus pārvalkus no sava ierīces";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pa ierīci, līdz sākas skenēšana";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Tiklīdz skenēšana sākas, nepārvietojieties, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Atkārtoti veikt skenēšanu";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Izejas pārbaude";
+"onfido_nfc_scan_sheet_card_ready" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju";
+"onfido_nfc_scan_sheet_card_button" = "Atcelt";
+"onfido_nfc_scan_sheet_card_error_can" = "Nepareizs CAN numurs";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Jums var lūgt ievadīt CAN, pirms turpināt skenēšanu";
+"onfido_enter_can_secondary_button" = "Man nav CAN";
+"onfido_enter_can_warning" = "Jums ir atlicis %d %@";
+
+"onfido_otp_send_code_input_label" = "Tālruņa numurs";
+"onfido_otp_send_code_error_invalid_phone_number" = "Lūdzu, ievadiet derīgu tālruņa numuru.";
+"onfido_otp_error_title" = "Kaut kas nogāja greizi";
+"onfido_otp_error_subtitle" = "Lūdzu, uzgaidiet dažas sekundes un mēģiniet vēlreiz";
+"onfido_otp_error_cta" = "Atpakaļ";
+"onfido_nfc_scan_error_can_title" = "Maksimālais mēģinājumu skaits sasniegts";
+"onfido_nfc_scan_error_can_subtitle" = "Jūs esat sasniedzis maksimālo mēģinājumu skaitu, ievadot savu CAN numuru";
+"onfido_nfc_scan_error_can_primary_button" = "Izejas pārbaude";
