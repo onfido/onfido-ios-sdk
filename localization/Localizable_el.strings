@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Χρήση δελτίου με NFC";
 "onfido_nfc_select_button_secondary_card" = "Δεν είναι δελτίο με NFC";
 
-"onfido_nfc_intro_title_passport" = "Σαρώστε το ηλεκτρονικό σας διαβατήριο";
-"onfido_nfc_intro_subtitle_passport" = "Ακολουθήστε τις παρακάτω οδηγίες";
+"onfido_nfc_intro_title_passport" = "Σαρώστε το διαβατήριό σας";
+"onfido_nfc_intro_subtitle_passport" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το chip στο διαβατήριό σας";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Τοποθετήστε το διαβατήριό σας σε μια επίπεδη επιφάνεια";
-"onfido_nfc_intro_passport_scan_guide_2" = "Τοποθετήστε το τηλέφωνό σας στο επάνω μέρος του διαβατηρίου σας";
-"onfido_nfc_intro_passport_scan_guide_3" = "Σύρετε αργά το τηλέφωνό σας προς τα κάτω και προς τα επάνω";
-"onfido_nfc_intro_passport_scan_guide_4" = "Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνό σας ακίνητο";
+"onfido_nfc_intro_passport_scan_guide_1" = "Ανοίξτε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια";
+"onfido_nfc_intro_passport_scan_guide_2" = "Βάλτε το τηλέφωνό σας ακριβώς πάνω στο διαβατήριό σας ώστε να έρχονται σε επαφή";
+"onfido_nfc_intro_passport_scan_guide_3" = "Μετακινήστε αργά το τηλέφωνό σας πάνω στις δύο σελίδες μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_intro_passport_scan_guide_4" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να ολοκληρωθεί η διαδικασία";
 
 "onfido_nfc_intro_button_primary_passport" = "Έναρξη σάρωσης";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Προβολή από κάμερα. Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Προβολή από κάμερα. Τοποθετήστε το εξώφυλλο του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
 "onfido_welcome_list_item_face_generic" = "Σαρώσετε το πρόσωπό σας";
-"onfido_permission_recovery_subtitle_cam" = "Δεν μπορούμε να σας επαληθεύσουμε χωρίς την κάμερά σας";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Προβολή από κάμερα. Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Επιτυχής σάρωση";
 "onfido_nfc_sheet_success_instruction_passport" = "Σαρώσαμε με επιτυχία το διαβατήριό σας";
 "onfido_outro_body" = "Δεν χρειαζόμαστε κάτι άλλο για να αρχίσουμε να επαληθεύουμε την ταυτότητά σας";
-"onfido_permission_recovery_title_cam" = "Δεν επιτρέπεται η πρόσβαση στην κάμερα";
-"onfido_permission_recovery_list_item_how_to_cam" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα μέσω των ρυθμίσεων της συσκευής σας";
-"onfido_permission_recovery_list_item_action_cam" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα για αυτήν την εφαρμογή";
-"onfido_permission_recovery_title_mic" = "Δεν επιτρέπεται η πρόσβαση στο μικρόφωνο";
-"onfido_permission_recovery_list_item_how_to_mic" = "Μπορείτε να ανακτήσετε την πρόσβαση στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
-"onfido_permission_recovery_list_item_action_mic" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στο μικρόφωνο για αυτήν την εφαρμογή";
-"onfido_permission_recovery_title_both" = "Απαγορεύεται η πρόσβαση στην κάμερα και στο μικρόφωνο";
-"onfido_permission_recovery_list_item_how_to_both" = "Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα και στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας";
-"onfido_permission_recovery_list_item_action_both" = "Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα και στο μικρόφωνο για αυτήν την εφαρμογή";
-"onfido_permission_recovery_button_primary" = "Ενεργοποίηση στις ρυθμίσεις";
 "onfido_generic_error_network_title" = "Η σύνδεση χάθηκε";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Προβολή από κάμερα. Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο. Η συσκευή σας θα δονείται ενώ η εικόνα καταγράφεται";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Προβολή από κάμερα. Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Ημερομηνία λήξης, κατά περίπτωση";
 
 "onfido_welcome_start_workflow_button_trial" = "Έναρξη επαλήθευσης (ΔΟΚΙΜΗ)";
-"onfido_enter_can_title" = "Εισάγετε το CAN";
-"onfido_enter_can_subtitle" = "Βεβαιωθείτε ότι ο αριθμός που παρείχατε αντιστοιχεί στον αριθμό που αναγράφεται στο έγγραφο.";
+"onfido_enter_can_title" = "Πληκτρολογήστε τον αριθμό CAN";
+"onfido_enter_can_subtitle" = "Ο %d-ψήφιος αριθμός βρίσκεται στο μπροστινό μέρος του εγγράφου σας";
 "onfido_enter_can_disclaimer" = "Μπορείτε να τον βρείτε στην μπροστινή όψη του εγγράφου σας. Είναι %dψήφιος και ελαφρώς μεγαλύτερος σε μέγεθος.";
 "onfido_enter_can_button_primary" = "Συνέχεια";
 "onfido_nfc_scan_error_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Γίνεται αναπαραγωγή ήχου από άλλη εφαρμογή";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής";
 
-"onfido_nfc_scan_welcome_card_title" = "Επιτάχυνση της διαδικασίας με NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Θα σαρώσουμε το τσιπ NFC του εγγράφου σας";
+"onfido_nfc_scan_welcome_card_title" = "Σαρώστε το έγγραφό σας";
+"onfido_nfc_scan_welcome_card_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
 "onfido_nfc_scan_welcome_card_list_item" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Σύρετε αργά τη συσκευή σας πάνω και κάτω";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Κινήστε αργά το έγγραφό σας προς τα πάνω και τα κάτω κοντά στη συσκευή μέχρι να αρχίσει η σάρωση";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
 "onfido_nfc_scan_welcome_card_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Επαληθεύστε χωρίς NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Επαληθεύστε χωρίς NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Επιτάχυνση της διαδικασίας με NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Θα σαρώσουμε το τσιπ NFC του εγγράφου σας";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
 "onfido_nfc_scan_welcome_passport_list_item" = "Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Ανοίξτε το έγγραφό σας στην εσωτερική πίσω σελίδα";
 "onfido_nfc_scan_welcome_passport_list_item_3" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Σύρετε αργά τη συσκευή σας πάνω και κάτω";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Επεξεργασία σε εξέλιξη...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.";
+"onfido_interactive_task_waiting_subtitle_2" = "Η εργασία εξακολουθεί να εκτελείται, η υπομονή σας εκτιμάται.";
+"onfido_nfc_fail_passport_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_fail_passport_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από το έγγραφό σας και τη συσκευή σας";
+"onfido_nfc_fail_passport_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής";
+"onfido_nfc_fail_passport_list_item_3" = "Μετακινήστε αργά το τηλέφωνό σας πάνω από τις δύο σελίδες μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_fail_passport_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_fail_passport_button_primary" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από το έγγραφό σας και τη συσκευή σας";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι να ολοκληρωθεί με επιτυχία η σάρωση";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Μετακινήστε αργά το τηλέφωνό σας πάνω σε κάθε σελίδα μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Επαληθεύστε χωρίς σάρωση";
+"onfido_nfc_scan_error_final_required_passport_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από το έγγραφό σας και τη συσκευή σας";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Μετακινήστε αργά το τηλέφωνό σας πάνω από τις δύο σελίδες μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Έξοδος επαλήθευσης";
+"onfido_nfc_scan_error_document_title" = "Το έγγραφο δεν υποστηρίζεται";
+"onfido_nfc_scan_error_document_subtitle" = "Παρακαλώ δοκιμάστε με ένα άλλο έγγραφο";
+"onfido_nfc_scan_error_document_primary_button" = "Επιλέξτε ένα άλλο έγγραφο";
+"onfido_nfc_scan_error_document_secondary_button" = "Έξοδος επαλήθευσης";
+"onfido_nfc_scan_error_device_title" = "Μη υποστηριζόμενη συσκευή";
+"onfido_nfc_scan_error_device_subtitle" = "Λυπούμαστε για τυχόν ταλαιπωρία. Παρακαλούμε χρησιμοποιήστε ένα διαφορετικό συσκευή για να επαληθεύσετε την ταυτότητά σας";
+"onfido_nfc_scan_error_device_primary_button" = "Έξοδος επαλήθευσης";
+"onfido_nfc_scan_sheet_passport_ready" = "Μετακινήστε αργά τη συσκευή σας σε και από τις δύο σελίδες";
+"onfido_nfc_scan_sheet_ready_scanning" = "Κρατήστε σταθερή τη συσκευή σας και το έγγραφο";
+"onfido_nfc_scan_sheet_error_1" = "Χάθηκε η σύνδεση.";
+"onfido_nfc_scan_sheet_error_2" = "Δεν μπορέσαμε να σαρώσουμε το έγγραφό σας";
+"onfido_nfc_scan_sheet_button" = "Ακύρωση";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Αποδεχόμαστε μόνο έγγραφα με τσιπ. Αναζητήστε αυτό το εικονίδιο στο έγγραφό σας";
+"onfido_nfc_fail_card_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_fail_card_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από τη συσκευή σας";
+"onfido_nfc_fail_card_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής";
+"onfido_nfc_fail_card_list_item_3" = "Σύρετε αργά το έγγραφό σας πάνω και κάτω στη συσκευή μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_fail_card_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_fail_card_button_primary" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_possible_card_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από τη συσκευή σας";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Σύρετε αργά το έγγραφό σας πάνω και κάτω στη συσκευή μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Επαληθεύστε χωρίς σάρωση";
+"onfido_nfc_scan_error_final_required_card_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από τη συσκευή σας";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι να ολοκληρωθεί με επιτυχία η σάρωση";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Σύρετε αργά το έγγραφό σας πάνω και κάτω στη συσκευή μέχρι να ξεκινήσει η σάρωση";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Επαναλάβετε τη σάρωση";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Έξοδος επαλήθευσης";
+"onfido_nfc_scan_sheet_card_ready" = "Μετακινήστε αργά το έγγραφό σας πάνω και κάτω";
+"onfido_nfc_scan_sheet_card_button" = "Ακύρωση";
+"onfido_nfc_scan_sheet_card_error_can" = "Λάθος αριθμός CAN";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Ίσως σας ζητηθεί να εισάγετε το CAN πριν συνεχίσετε στη σάρωση";
+"onfido_enter_can_secondary_button" = "Δεν έχω ένα CAN";
+"onfido_enter_can_warning" = "Έχετε απομείνει %d %@";
+
+"onfido_otp_send_code_input_label" = "Αριθμός τηλεφώνου";
+"onfido_otp_send_code_error_invalid_phone_number" = "Παρακαλώ παράσχετε έναν έγκυρο αριθμό τηλεφώνου.";
+"onfido_otp_error_title" = "Κάτι πήγε στραβά";
+"onfido_otp_error_subtitle" = "Παρακαλώ περιμένετε λίγα δευτερόλεπτα και δοκιμάστε ξανά";
+"onfido_otp_error_cta" = "Πήγαινε πίσω";
+"onfido_nfc_scan_error_can_title" = "Επιτεύχθηκαν οι μέγιστες προσπάθειες";
+"onfido_nfc_scan_error_can_subtitle" = "Έχετε φτάσει στον μέγιστο αριθμό προσπαθειών για την εισαγωγή του αριθμού CAN σας";
+"onfido_nfc_scan_error_can_primary_button" = "Έξοδος επαλήθευσης";

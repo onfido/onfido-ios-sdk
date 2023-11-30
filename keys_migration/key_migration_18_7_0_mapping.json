@@ -166,7 +166,7 @@
     "onfido_nfc_option_epassport_symbol": ["onfido_nfc_select_body"],
     "onfido_nfc_option_button_primary": ["onfido_nfc_select_button_primary"],
     "onfido_nfc_option_button_secondary": ["onfido_nfc_select_button_secondary"],
-    "onfido_nfc_sheet_ready_intruction": ["onfido_nfc_intro_sheet_header_ready"],
+    "onfido_nfc_sheet_ready_instruction": ["onfido_nfc_intro_sheet_header_ready"],
     "onfido_nfc_sheet_scanning_subtitle": ["onfido_nfc_intro_sheet_header_scanning"],
     "onfido_nfc_failed_title": ["onfido_nfc_fail_title"],
     "onfido_nfc_failed_list_item_remove_covers": ["onfido_nfc_fail_list_item_remove_covers"],

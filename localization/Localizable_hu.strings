@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Használjon NFC-kártyát";
 "onfido_nfc_select_button_secondary_card" = "Ez nem egy NFC-kártya";
 
-"onfido_nfc_intro_title_passport" = "Olvassa be az e-útlevelét";
-"onfido_nfc_intro_subtitle_passport" = "Kövesse az alábbi utasításokat";
+"onfido_nfc_intro_title_passport" = "Scannelje be az útlevelét";
+"onfido_nfc_intro_subtitle_passport" = "Használja a telefonját az útlevelében található chip beolvasásához";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Fektesse az útlevelét egy sima felületre";
-"onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját az útlevelére";
-"onfido_nfc_intro_passport_scan_guide_3" = "Lassan csúsztassa a telefont le és fel";
-"onfido_nfc_intro_passport_scan_guide_4" = "A szkennelés megkezdése után tartsa mozdulatlanul a telefont";
+"onfido_nfc_intro_passport_scan_guide_1" = "Helyezze le nyitott útlevelét egy sík felületre";
+"onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját közvetlenül az útlevelére, úgy hogy érintkezzenek";
+"onfido_nfc_intro_passport_scan_guide_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
+"onfido_nfc_intro_passport_scan_guide_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 
 "onfido_nfc_intro_button_primary_passport" = "Szkennelés indítása";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
 "onfido_welcome_list_item_face_generic" = "Szkennelje az arcát";
-"onfido_permission_recovery_subtitle_cam" = "A kamera nélkül nem tudjuk igazolni a személyazonosságát";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Kamera képe. Helyezze a dokumentum hátoldalát a keretbe, majd koppintson az exponáló gombra";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Sikeres beolvasás";
 "onfido_nfc_sheet_success_instruction_passport" = "Sikeresen beolvastuk az útlevelét";
 "onfido_outro_body" = "Ez minden, amire szükségünk van személyazonossága ellenőrzésének megkezdéséhez";
-"onfido_permission_recovery_title_cam" = "Kamerához való hozzáférés elutasítva";
-"onfido_permission_recovery_list_item_how_to_cam" = "Az eszköz beállításaiban visszaállíthatja a kamerához való hozzáférést";
-"onfido_permission_recovery_list_item_action_cam" = "A beállításokban engedélyezze a kamerához való hozzáférést az alkalmazás számára";
-"onfido_permission_recovery_title_mic" = "Mikrofon-hozzáférés megtagadva";
-"onfido_permission_recovery_list_item_how_to_mic" = "Az eszköz beállításaiban visszaállíthatja a mikrofonhoz való hozzáférést";
-"onfido_permission_recovery_list_item_action_mic" = "A beállításokban engedélyezze a mikrofonhoz való hozzáférést az alkalmazás számára";
-"onfido_permission_recovery_title_both" = "Kamera- és mikrofon-hozzáférés megtagadva";
-"onfido_permission_recovery_list_item_how_to_both" = "Az eszköz beállításaiban visszaállíthatja a kamerához és a mikrofonhoz való hozzáférést";
-"onfido_permission_recovery_list_item_action_both" = "A beállításokban engedélyezze mind a kamerához, mind a mikrofonhoz való hozzáférést az alkalmazás számára";
-"onfido_permission_recovery_button_primary" = "Engedélyezés a beállításokban";
 "onfido_generic_error_network_title" = "A kapcsolat megszakadt";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Kamera képe. A dokumentum fényképes oldalát illessze a keretbe. Az eszköz rezegni fog a kép rögzítésekor";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Kamera képe. Helyezze a dokumentum előlapját a keretbe, majd koppintson az exponáló gombra";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Lejárat időpontja, ha van";
 
 "onfido_welcome_start_workflow_button_trial" = "Ellenőrzés megkezdése (TEST)";
-"onfido_enter_can_title" = "Adja meg a CAN-t";
-"onfido_enter_can_subtitle" = "Ellenőrizze, hogy a megadott szám egyezik-e a dokumentumon szereplő számmal.";
+"onfido_enter_can_title" = "Adja meg a CAN számot";
+"onfido_enter_can_subtitle" = "A %d-számjegyű szám a dokumentumod előlapján található";
 "onfido_enter_can_disclaimer" = "A dokumentum előlapján található. %d számjegy hosszú és valamivel nagyobb méretű.";
 "onfido_enter_can_button_primary" = "Tovább";
 "onfido_nfc_scan_error_title" = "Nem tudtuk beolvasni a dokumentumát";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "próbálkozások";
 "onfido_nfc_scan_error_button_secondary" = "Ellenőrzés NFC nélkül";
 "onfido_intro_scan_animation_ios" = "Helyezze a dokumentumot az eszköz hátoldalára. Amint a szkennelés elkezdődik, tartsa őket mozdulatlanul.";
-"onfido_nfc_scan_sheet_success" = "A szkennelés sikeres";
+"onfido_nfc_scan_sheet_success" = "Sikeres szkennelés";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Az Ön arcát, hátterét és hangját rögzítjük a folyamat során";
 "onfido_welcome_list_header_doc_video" = "Használja eszközét a felvételhez:";
 "onfido_welcome_list_item_doc_video_flash" = "A videófelvétel közben bekapcsoljuk az eszköz vakuját";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "A hangot egy másik alkalmazás játsza le";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Kérjük, felvétel közben ne játsszon le semmilyen hangot a készülékén";
 
-"onfido_nfc_scan_welcome_card_title" = "Gyorsítsa fel a folyamatot NFC-vel";
-"onfido_nfc_scan_welcome_card_subtitle" = "Leolvassuk a dokumentumán lévő NFC-chipet";
-"onfido_nfc_scan_welcome_card_list_item" = "Illessze eszközét a dokumentuma tetejéhez";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Lassan csúsztassa eszközet fel és le";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul";
+"onfido_nfc_scan_welcome_card_title" = "Scannelje be a dokumentumát";
+"onfido_nfc_scan_welcome_card_subtitle" = "Használja a telefonját a dokumentumában lévő chip beolvasásához";
+"onfido_nfc_scan_welcome_card_list_item" = "Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 "onfido_nfc_scan_welcome_card_button_primary" = "Szkennelés indítása";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Ellenőrzés NFC nélkül";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Ellenőrzés NFC nélkül";
 
 "onfido_nfc_scan_welcome_passport_title" = "Gyorsítsa fel a folyamatot NFC-vel";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Leolvassuk a dokumentumán lévő NFC-chipet";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Használja a telefonját a dokumentumában lévő chip beolvasásához";
 "onfido_nfc_scan_welcome_passport_list_item" = "Tegye a dokumentumat egy sík feluletre";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Nyissa ki a dokumentumát a hátsó lapnál";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Illessze eszközét a dokumentuma tetejéhez";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Lassan csúsztassa eszközet fel és le";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Szkennelés indítása";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Ellenőrzés NFC nélkül";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Adatainak feldolgozása folyamatban van, kérjük várjon.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Feldolgozás folyamatban...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Kérjük, várjon még egy kicsit, amíg a folyamat befejeződik, értékeljük a türelmét.";
+"onfido_interactive_task_waiting_subtitle_2" = "A feladat még mindig fut, türelmét köszönjük.";
+"onfido_nfc_fail_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_fail_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
+"onfido_nfc_fail_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_fail_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
+"onfido_nfc_fail_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_fail_passport_button_primary" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Ellenőrizze beolvasás nélkül";
+"onfido_nfc_scan_error_final_required_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlan, hogy a szkennelés befejeződhessen";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_document_title" = "Dokumentum nem támogatott";
+"onfido_nfc_scan_error_document_subtitle" = "Kérjük, próbálkozzon egy másik dokumentummal";
+"onfido_nfc_scan_error_document_primary_button" = "Válasszon egy másik dokumentumot";
+"onfido_nfc_scan_error_document_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_device_title" = "Nem támogatott eszköz";
+"onfido_nfc_scan_error_device_subtitle" = "Elnézést a kellemetlenségért. Kérjük, használjon egy másik eszközt azonosításának megerősítéséhez";
+"onfido_nfc_scan_error_device_primary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_sheet_passport_ready" = "Lassan húzza végig az eszközét mindkét oldalon";
+"onfido_nfc_scan_sheet_ready_scanning" = "Tartsa nyugodtan az eszközét és a dokumentumot";
+"onfido_nfc_scan_sheet_error_1" = "Elveszett a kapcsolat.";
+"onfido_nfc_scan_sheet_error_2" = "Nem tudtuk beolvasni a dokumentumát";
+"onfido_nfc_scan_sheet_button" = "Mégse";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Csak chippel rendelkező dokumentumokat fogadunk el. Keressen erre az ikonra a dokumentumán";
+"onfido_nfc_fail_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_fail_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
+"onfido_nfc_fail_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_fail_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
+"onfido_nfc_fail_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_fail_card_button_primary" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_possible_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a szkennelés el nem kezdődik";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Ellenőrizze beolvasás nélkül";
+"onfido_nfc_scan_error_final_required_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Próbálja újra a beolvasást";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_sheet_card_ready" = "Lassan csúsztassa fel és le a dokumentumot";
+"onfido_nfc_scan_sheet_card_button" = "Mégse";
+"onfido_nfc_scan_sheet_card_error_can" = "Helytelen CAN szám";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Előfordulhat, hogy a folytatás előtt be kell írnia a CAN-t a szkenneléshez";
+"onfido_enter_can_secondary_button" = "Nincs CAN-em";
+"onfido_enter_can_warning" = "%d %@ maradt";
+
+"onfido_otp_send_code_input_label" = "Telefonszám";
+"onfido_otp_send_code_error_invalid_phone_number" = "Kérjük, adjon meg egy érvényes telefonszámot.";
+"onfido_otp_error_title" = "Valami hiba történt";
+"onfido_otp_error_subtitle" = "Kérjük, várjon néhány másodpercet, és próbálja újra";
+"onfido_otp_error_cta" = "Térjen vissza";
+"onfido_nfc_scan_error_can_title" = "Elérte a maximális próbálkozások számát";
+"onfido_nfc_scan_error_can_subtitle" = "Elérte a CAN szám megadásának maximális próbálkozásait";
+"onfido_nfc_scan_error_can_primary_button" = "Kilépés ellenőrzésből";

@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "NFC-Karte verwenden";
 "onfido_nfc_select_button_secondary_card" = "Ohne NFC-Karte fortfahren";
 
-"onfido_nfc_intro_title_passport" = "Scannen Sie Ihren ePass";
-"onfido_nfc_intro_subtitle_passport" = "Befolgen Sie diese Anweisungen";
+"onfido_nfc_intro_title_passport" = "Scannen Sie Ihren Pass";
+"onfido_nfc_intro_subtitle_passport" = "Verwenden Sie Ihr Telefon, um den Chip in Ihrem Reisepass zu scannen";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Legen Sie Ihren Reisepass auf eine ebene Fläche";
-"onfido_nfc_intro_passport_scan_guide_2" = "Legen Sie Ihr Handy auf Ihren Reisepass";
-"onfido_nfc_intro_passport_scan_guide_3" = "Schieben Sie Ihr Handy langsam nach unten und oben";
-"onfido_nfc_intro_passport_scan_guide_4" = "Sobald der Scanvorgang beginnt, halten Sie Ihr Telefon still.";
+"onfido_nfc_intro_passport_scan_guide_1" = "Legen Sie Ihren geöffneten Pass auf eine flache Oberfläche";
+"onfido_nfc_intro_passport_scan_guide_2" = "Legen Sie Ihr Telefon direkt auf Ihren Pass, sodass sie sich berühren";
+"onfido_nfc_intro_passport_scan_guide_3" = "Ziehen Sie Ihr Telefon langsam über beide Seiten, bis der Scan beginnt";
+"onfido_nfc_intro_passport_scan_guide_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
 
 "onfido_nfc_intro_button_primary_passport" = "Scannen starten";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Ansicht der Kamera. Positionieren Sie die Fotoseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Ansicht der Kamera. Positionieren Sie das Deckblatt Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
 "onfido_welcome_list_item_face_generic" = "Scannen Sie Ihr Gesicht";
-"onfido_permission_recovery_subtitle_cam" = "Wir können Sie nicht verifizieren, ohne Ihre Kamera zu benutzen";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Ansicht der Kamera. Positionieren Sie die Rückseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Scan erfolgreich";
 "onfido_nfc_sheet_success_instruction_passport" = "Wir haben Ihren Reisepass erfolgreich gescannt";
 "onfido_outro_body" = "Das ist alles, was wir benötigen, um mit Ihrer Identitätsprüfung zu beginnen";
-"onfido_permission_recovery_title_cam" = "Kamerazugriff verweigert";
-"onfido_permission_recovery_list_item_how_to_cam" = "Sie können den Kamerazugriff über Ihre Geräteeinstellungen wiederherstellen";
-"onfido_permission_recovery_list_item_action_cam" = "Gehen Sie zu App-Einstellungen und aktivieren Sie den Kamerazugriff für diese App";
-"onfido_permission_recovery_title_mic" = "Mikrofonzugriff verweigert";
-"onfido_permission_recovery_list_item_how_to_mic" = "Sie können den Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen";
-"onfido_permission_recovery_list_item_action_mic" = "Gehen Sie zu App-Einstellungen und aktivieren Sie den Mikrofonzugriff für diese App";
-"onfido_permission_recovery_title_both" = "Kamera- und Mikrofonzugriff verweigert";
-"onfido_permission_recovery_list_item_how_to_both" = "Sie können Kamera- und Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen";
-"onfido_permission_recovery_list_item_action_both" = "Gehen Sie zu App-Einstellungen und aktivieren Sie Kamera- und Mikrofonzugriff für diese App";
-"onfido_permission_recovery_button_primary" = "In den Einstellungen aktivieren";
 "onfido_generic_error_network_title" = "Verbindung unterbrochen";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Ansicht der Kamera. Positionieren Sie die Fotoseite Ihres Dokuments innerhalb des Rahmens. Ihr Gerät vibriert, wenn das Bild aufgenommen wird.";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Ansicht der Kamera. Positionieren Sie die Vorderseite Ihres Dokuments im Rahmen und tippen Sie dann auf den Auslöser";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Verfallsdatum, falls zutreffend";
 
 "onfido_welcome_start_workflow_button_trial" = "Verifizierung beginnen (TEST)";
-"onfido_enter_can_title" = "Geben Sie den CAN";
-"onfido_enter_can_subtitle" = "Bitte vergewissern Sie sich, dass die angegebene Nummer mit der Nummer auf dem Dokument übereinstimmt.";
+"onfido_enter_can_title" = "Geben Sie die CAN-Nummer ein";
+"onfido_enter_can_subtitle" = "Die %d-stellige Nummer befindet sich auf der Vorderseite Ihres Dokuments";
 "onfido_enter_can_disclaimer" = "Die %d-stellige Nummer befindet sich auf der Vorderseite Ihres Dokuments.";
 "onfido_enter_can_button_primary" = "Fortfahren";
 "onfido_nfc_scan_error_title" = "Wir konnten Ihr Dokument nicht scannen";
@@ -549,7 +538,7 @@
 "onfido_welcome_nfc_subtitle" = "";
 "onfido_welcome_nfc_list_header_nfc" = "";
 "onfido_welcome_nfc_list_item" = "";
-"onfido_welcome_nfc_list_item_2" = "";
+"onfido_welcome_nfc_list_item_2" = "Scannen Sie Ihr Dokument";
 "onfido_welcome_nfc_button_primary" = "Machen Sie ein Foto von Ihrem Dokument";
 "onfido_intro_scan_title" = "Scannen Sie Ihr Dokument";
 "onfido_intro_scan_subtitle" = "Befolgen Sie die nachstehenden Anweisungen";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "Versuche";
 "onfido_nfc_scan_error_button_secondary" = "Lassen Sie sich ohne NFC verifizieren";
 "onfido_intro_scan_animation_ios" = "Legen Sie Ihr Dokument oben auf der Rückseite Ihres Geräts ab. Halten Sie sie nach dem Start des Scans still.";
-"onfido_nfc_scan_sheet_success" = "Scannen erfolgreich";
+"onfido_nfc_scan_sheet_success" = "Erfolgreicher Scan";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Ihr Gesicht, Ihr Hintergrund und Ihr Ton werden während dieses Vorgangs aufgezeichnet.";
 "onfido_welcome_list_header_doc_video" = "Nutzen Sie Ihr Gerät um Folgendes aufzunehmen:";
 "onfido_welcome_list_item_doc_video_flash" = "Während der Videoaufnahme schalten wird den Blitz Ihres Geräts ein";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio wird von einer anderen App abgespielt";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Bitte spielen Sie während der Aufnahme kein Audio auf Ihrem Gerät";
 
-"onfido_nfc_scan_welcome_card_title" = "Beschleunigen Sie den Prozess mit NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Wir scannen den NFC-Chip Ihres Dokuments";
-"onfido_nfc_scan_welcome_card_list_item" = "Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Schieben Sie Ihr Gerät langsam auf und ab";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Sobald der Scan beginnt, halten Sie ihn ruhig";
+"onfido_nfc_scan_welcome_card_title" = "Scannen Sie Ihr Dokument";
+"onfido_nfc_scan_welcome_card_subtitle" = "Verwenden Sie Ihr Telefon, um den Chip in Ihrem Dokument zu scannen";
+"onfido_nfc_scan_welcome_card_list_item" = "Legen Sie Ihr Dokument gegen die Rückseite Ihres Geräts, sodass sie sich berühren";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
 "onfido_nfc_scan_welcome_card_button_primary" = "Scannen starten";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
 
 "onfido_nfc_scan_welcome_passport_title" = "Beschleunigen Sie den Prozess mit NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Wir scannen den NFC-Chip Ihres Dokuments";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Verwenden Sie Ihr Telefon, um den Chip in Ihrem Dokument zu scannen";
 "onfido_nfc_scan_welcome_passport_list_item" = "Legen Sie Ihr Dokument auf eine ebene Fläche";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Öffnen Sie Ihr Dokument auf der inneren Rückseite";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Legen Sie Ihr Dokument gegen die Rückseite Ihres Geräts, sodass sie sich berühren";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Schieben Sie Ihr Gerät langsam auf und ab";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Sobald der Scan beginnt, halten Sie ihn ruhig";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Scannen starten";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Lassen Sie sich ohne NFC verifizieren";
 
@@ -672,3 +661,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Wir verarbeiten Ihre Informationen, bitte warten Sie.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Verarbeitung läuft...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Bitte warten Sie noch ein wenig länger, bis dieser Prozess abgeschlossen ist, Ihre Geduld wird geschätzt.";
+"onfido_interactive_task_waiting_subtitle_2" = "Die Aufgabe läuft noch, Ihre Geduld wird geschätzt.";
+"onfido_nfc_fail_passport_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_fail_passport_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Dokument und Gerät";
+"onfido_nfc_fail_passport_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_fail_passport_list_item_3" = "Streichen Sie langsam mit Ihrem Handy über beide Seiten, bis der Scan beginnt";
+"onfido_nfc_fail_passport_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_fail_passport_button_primary" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Dokument und Gerät";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Schieben Sie Ihr Telefon langsam über beide Seiten, bis der Scan beginnt";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Überprüfen ohne zu scannen";
+"onfido_nfc_scan_error_final_required_passport_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Dokument und Gerät";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Schieben Sie Ihr Telefon langsam über beide Seiten, bis der Scan beginnt";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Verifizierung beenden";
+"onfido_nfc_scan_error_document_title" = "Dokument nicht unterstützt";
+"onfido_nfc_scan_error_document_subtitle" = "Bitte versuchen Sie es mit einem anderen Dokument";
+"onfido_nfc_scan_error_document_primary_button" = "Wählen Sie ein anderes Dokument";
+"onfido_nfc_scan_error_document_secondary_button" = "Verifizierung beenden";
+"onfido_nfc_scan_error_device_title" = "Nicht unterstütztes Gerät";
+"onfido_nfc_scan_error_device_subtitle" = "Entschuldigung für die Unannehmlichkeiten. Bitte verwenden Sie ein anderes Gerät, um Ihre Identität zu überprüfen";
+"onfido_nfc_scan_error_device_primary_button" = "Verifizierung beenden";
+"onfido_nfc_scan_sheet_passport_ready" = "Slide Sie Ihr Gerät langsam über beide Seiten";
+"onfido_nfc_scan_sheet_ready_scanning" = "Halten Sie Ihr Gerät und Dokument still";
+"onfido_nfc_scan_sheet_error_1" = "Verbindung verloren.";
+"onfido_nfc_scan_sheet_error_2" = "Wir konnten Ihr Dokument nicht scannen";
+"onfido_nfc_scan_sheet_button" = "Abbrechen";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Wir akzeptieren nur Dokumente mit einem Chip. Suchen Sie nach diesem Symbol auf Ihrem Dokument";
+"onfido_nfc_fail_card_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_fail_card_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Gerät";
+"onfido_nfc_fail_card_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_fail_card_list_item_3" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
+"onfido_nfc_fail_card_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_fail_card_button_primary" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_possible_card_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Gerät";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Überprüfen ohne zu scannen";
+"onfido_nfc_scan_error_final_required_card_title" = "Wir konnten dieses Dokument nicht scannen";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Entfernen Sie alle Abdeckungen von Ihrem Gerät";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Halten Sie Ihr Gerät und Dokument in Kontakt, bis das Scannen erfolgreich ist";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Scannen erneut versuchen";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "";
+"onfido_nfc_scan_sheet_card_ready" = "Schieben Sie Ihr Dokument langsam auf und ab";
+"onfido_nfc_scan_sheet_card_button" = "Abbrechen";
+"onfido_nfc_scan_sheet_card_error_can" = "Falsche CAN-Nummer";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Sie werden möglicherweise aufgefordert, die CAN einzugeben, bevor Sie mit dem Scan fortfahren";
+"onfido_enter_can_secondary_button" = "Ich habe kein CAN";
+"onfido_enter_can_warning" = "Sie haben %d %@ übrig";
+
+"onfido_otp_send_code_input_label" = "Telefonnummer";
+"onfido_otp_send_code_error_invalid_phone_number" = "Bitte geben Sie eine gültige Telefonnummer an.";
+"onfido_otp_error_title" = "Etwas ist schief gelaufen";
+"onfido_otp_error_subtitle" = "Bitte warten Sie ein paar Sekunden und versuchen Sie es erneut";
+"onfido_otp_error_cta" = "Geh zurück";
+"onfido_nfc_scan_error_can_title" = "Maximale Versuche erreicht";
+"onfido_nfc_scan_error_can_subtitle" = "Sie haben die maximale Anzahl an Versuchen erreicht, um Ihre CAN-Nummer einzugeben";
+"onfido_nfc_scan_error_can_primary_button" = "Ausgangsüberprüfung";

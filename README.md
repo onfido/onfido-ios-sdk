@@ -338,7 +338,7 @@ let responseHandler: (OnfidoResponse) -> Void = { response in
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `.success([OnfidoResult])` | User completed the flow. You can now [create a check](#creating-checks) on your backend server.                                                                                                               |
 | `.error(Error)`            | Some error happened.                                                                                                                                                                                          |
-| `.cancel`                  | Flow was cancelled by the user. The reason can be `.userExit` (when the user taps back button on the first screen) or `.deniedConsent` (when the user denies consent on [the consent screen](#consent-step)). |
+| `.cancel`                  | Flow was cancelled by the user. The reason can be `.userExit` (when the user taps back button on the first screen) or `.deniedConsent` (when the user denies consent on [the consent screen](#consent-step)) or `.requiredNFCFlowNotCompleted` (when the NFC step is required and the user did not complete it) |
 
 #### Objective-C
 

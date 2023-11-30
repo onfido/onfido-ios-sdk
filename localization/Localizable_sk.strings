@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Použiť preukaz s NFC";
 "onfido_nfc_select_button_secondary_card" = "Nie je to preukaz s NFC";
 
-"onfido_nfc_intro_title_passport" = "Naskenujte svoj elektronický pas";
-"onfido_nfc_intro_subtitle_passport" = "Postupujte podľa týchto pokynov";
+"onfido_nfc_intro_title_passport" = "Naskenujte svoj pas";
+"onfido_nfc_intro_subtitle_passport" = "Použite svoj telefón na skenovanie čipu vo vašom cestovnom pase";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Umiestnite pas na rovný povrch";
-"onfido_nfc_intro_passport_scan_guide_2" = "Umiestnite telefón na hornú časť pasu";
-"onfido_nfc_intro_passport_scan_guide_3" = "Pomaly posúvajte telefón nadol a nahor";
-"onfido_nfc_intro_passport_scan_guide_4" = "Po spustení skenovania držte telefón bez pohybu";
+"onfido_nfc_intro_passport_scan_guide_1" = "Položte svoj pas otvorený na rovný povrch";
+"onfido_nfc_intro_passport_scan_guide_2" = "Umiestnite svoj telefón priamo na vrch vášho pasu, aby sa dotýkali";
+"onfido_nfc_intro_passport_scan_guide_3" = "Pomaly prejdite telefónom cez obe strany, kým sa nespustí skenovanie";
+"onfido_nfc_intro_passport_scan_guide_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
 
 "onfido_nfc_intro_button_primary_passport" = "Spustiť skenovanie";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Pohľad z fotoaparátu. Umiestnite stránku dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Pohľad z fotoaparátu. Umiestnite obal dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_welcome_list_item_face_generic" = "Naskenujte svoju tvár";
-"onfido_permission_recovery_subtitle_cam" = "Nemôžeme vás overiť bez fotoaparátu";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Pohľad z fotoaparátu. Umiestnite zadnú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Skenovanie bolo úspešné";
 "onfido_nfc_sheet_success_instruction_passport" = "Váš pas sme úspešne naskenovali";
 "onfido_outro_body" = "To je všetko, čo potrebujeme na začatie overovania vašej totožnosti";
-"onfido_permission_recovery_title_cam" = "Prístup k fotoaparátu bol zamietnutý";
-"onfido_permission_recovery_list_item_how_to_cam" = "Prístup k fotoaparátu môžete obnoviť prostredníctvom nastavení zariadenia";
-"onfido_permission_recovery_list_item_action_cam" = "Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k fotoaparátu";
-"onfido_permission_recovery_title_mic" = "Prístup k mikrofónu bol zamietnutý";
-"onfido_permission_recovery_list_item_how_to_mic" = "Prístup k mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia";
-"onfido_permission_recovery_list_item_action_mic" = "Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k mikrofónu";
-"onfido_permission_recovery_title_both" = "Prístup k fotoaparátu a mikrofónu bol zamietnutý";
-"onfido_permission_recovery_list_item_how_to_both" = "Prístup k fotoaparátu a mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia";
-"onfido_permission_recovery_list_item_action_both" = "Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k fotoaparátu a mikrofónu";
-"onfido_permission_recovery_button_primary" = "Povoliť v nastaveniach";
 "onfido_generic_error_network_title" = "Spojenie bolo prerušené";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Pohľad z fotoaparátu. Umiestnite stránku dokladu s fotkou do rámu. Keď sa snímka nasníma, zariadenie zavibruje";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Dátum vypršania platnosti (ak sa uplatňuje)";
 
 "onfido_welcome_start_workflow_button_trial" = "Spustite overenie (TEST)";
-"onfido_enter_can_title" = "Zadajte CAN";
-"onfido_enter_can_subtitle" = "Uistite sa, že zadané číslo sa zhoduje s číslom uvedeným v doklade.";
+"onfido_enter_can_title" = "Zadajte číslo CAN";
+"onfido_enter_can_subtitle" = "%d-ciferné číslo sa nachádza na prednej strane vášho dokumentu";
 "onfido_enter_can_disclaimer" = "Nájdete ho na prednej strane dokladu. Počet číslic je %d a je o niečo väčšie.";
 "onfido_enter_can_button_primary" = "Pokračovať";
 "onfido_nfc_scan_error_title" = "Nepodarilo sa naskenovať váš doklad";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "pokusov";
 "onfido_nfc_scan_error_button_secondary" = "Overenie bez NFC";
 "onfido_intro_scan_animation_ios" = "Dokument umiestnite na hornú časť zadnej časti zariadenia. Akonáhle začne skenovanie, držte ich pevne.";
-"onfido_nfc_scan_sheet_success" = "Úspešné skenovanie";
+"onfido_nfc_scan_sheet_success" = "Skenovanie úspešné";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Počas tohto procesu bude zaznamenaná vaša tvár, pozadie a zvuk";
 "onfido_welcome_list_header_doc_video" = "Pomocou zariadenia zaznamenajte:";
 "onfido_welcome_list_item_doc_video_flash" = "Počas zaznamenávania videa zapneme blesk vášho zariadenia";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Zvuk prehráva iná aplikácia";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Počas zaznamenávania neprehrávajte v zariadení žiadne zvuky";
 
-"onfido_nfc_scan_welcome_card_title" = "Urýchlite proces pomocou NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Naskenujeme NFC čip vášho dokumentu";
-"onfido_nfc_scan_welcome_card_list_item" = "Umiestnite dokument na zadnú stranu zariadenia";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Pomaly posúvajte zariadenie nahor a nadol";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Po spustení skenovania ho držte";
+"onfido_nfc_scan_welcome_card_title" = "Naskenujte váš dokument";
+"onfido_nfc_scan_welcome_card_subtitle" = "Použite svoj telefón na skenovanie čipu vo vašom dokumente";
+"onfido_nfc_scan_welcome_card_list_item" = "Umiestnite svoj dokument na zadnú stranu vášho zariadenia tak, aby sa dotýkali";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť";
 "onfido_nfc_scan_welcome_card_button_primary" = "Spustiť skenovanie";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Overenie bez NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Overenie bez NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Urýchlite proces pomocou NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Naskenujeme NFC čip vášho dokumentu";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Použite svoj telefón na skenovanie čipu vo vašom dokumente";
 "onfido_nfc_scan_welcome_passport_list_item" = "Položte dokument na rovný povrch";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Otvorte dokument na vnútornej zadnej strane";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Umiestnite dokument na zadnú stranu zariadenia";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Umiestnite svoj dokument na zadnú stranu vášho zariadenia tak, aby sa dotýkali";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Pomaly posúvajte zariadenie nahor a nadol";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Po spustení skenovania ho držte";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Spustiť skenovanie";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Overenie bez NFC";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Spracovávame vaše informácie, prosím počkajte.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Spracovávanie prebieha...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prosím, počkajte ešte chvíľu, kým sa tento proces dokončí, vaša trpezlivosť je ocenená.";
+"onfido_interactive_task_waiting_subtitle_2" = "Úloha stále prebieha, vaša trpezlivosť je ocenená.";
+"onfido_nfc_fail_passport_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_fail_passport_list_item_1" = "Odstráňte akékoľvek obaly z vášho dokumentu a zariadenia";
+"onfido_nfc_fail_passport_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_fail_passport_list_item_3" = "Pomaly prejdite telefónom cez obe strany, kým sa nespustí skenovanie";
+"onfido_nfc_fail_passport_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_fail_passport_button_primary" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Odstráňte akékoľvek obaly z vášho dokumentu a zariadenia";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Pomaly posúvajte svoj telefón cez obe strany, kým sa nespustí skenovanie";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Overiť bez skenovania";
+"onfido_nfc_scan_error_final_required_passport_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Odstráňte akékoľvek obaly z vášho dokumentu a zariadenia";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Pomaly posúvajte svoj telefón cez obe strany, kým sa nespustí skenovanie";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Overenie výstupu";
+"onfido_nfc_scan_error_document_title" = "Dokument nie je podporovaný";
+"onfido_nfc_scan_error_document_subtitle" = "Skúste to s iným dokumentom";
+"onfido_nfc_scan_error_document_primary_button" = "Vyberte iný dokument";
+"onfido_nfc_scan_error_document_secondary_button" = "Overenie výstupu";
+"onfido_nfc_scan_error_device_title" = "Nepodporované zariadenie";
+"onfido_nfc_scan_error_device_subtitle" = "Ospravedlňujeme sa za akékoľvek nepríjemnosti. Prosím, použite iné zariadenie na overenie svojej identity.";
+"onfido_nfc_scan_error_device_primary_button" = "Overenie výstupu";
+"onfido_nfc_scan_sheet_passport_ready" = "Pomaly posúvajte svoje zariadenie cez obe strany";
+"onfido_nfc_scan_sheet_ready_scanning" = "Udržujte svoje zariadenie a dokument v pokoji";
+"onfido_nfc_scan_sheet_error_1" = "Stratilo sa pripojenie.";
+"onfido_nfc_scan_sheet_error_2" = "Nepodarilo sa nám skenovať váš dokument";
+"onfido_nfc_scan_sheet_button" = "Zrušiť";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Prijímame iba dokumenty s čipom. Hľadajte túto ikonu na vašom dokumente";
+"onfido_nfc_fail_card_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_fail_card_list_item_1" = "Odstráňte všetky kryty z vášho zariadenia";
+"onfido_nfc_fail_card_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_fail_card_list_item_3" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
+"onfido_nfc_fail_card_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_fail_card_button_primary" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_possible_card_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Odstráňte všetky kryty z vášho zariadenia";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Overiť bez skenovania";
+"onfido_nfc_scan_error_final_required_card_title" = "Nepodarilo sa nám skenovať tento dokument";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Odstráňte akékoľvek kryty z vášho zariadenia";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Skúste znova skenovať";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Overenie výstupu";
+"onfido_nfc_scan_sheet_card_ready" = "Pomaly posúvajte svoj dokument hore a dole";
+"onfido_nfc_scan_sheet_card_button" = "Zrušiť";
+"onfido_nfc_scan_sheet_card_error_can" = "Nesprávne číslo CAN";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Môže sa vás požiadať, aby ste zadali CAN predtým, ako budete pokračovať v skenovaní";
+"onfido_enter_can_secondary_button" = "Nemám CAN";
+"onfido_enter_can_warning" = "Máte %d %@ zostávajúce";
+
+"onfido_otp_send_code_input_label" = "Telefónne číslo";
+"onfido_otp_send_code_error_invalid_phone_number" = "Prosím, zadajte platné telefónne číslo.";
+"onfido_otp_error_title" = "Niečo sa pokazilo";
+"onfido_otp_error_subtitle" = "Prosím počkajte niekoľko sekúnd a skúste to znova";
+"onfido_otp_error_cta" = "Vráť sa späť";
+"onfido_nfc_scan_error_can_title" = "Maximálny počet pokusov dosiahnutý";
+"onfido_nfc_scan_error_can_subtitle" = "Dosiahli ste maximálny počet pokusov o zadanie vášho čísla CAN";
+"onfido_nfc_scan_error_can_primary_button" = "Overenie výstupu";

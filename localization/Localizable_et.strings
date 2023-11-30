@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Kasutage NFC-kiibiga kaarti";
 "onfido_nfc_select_button_secondary_card" = "See pole NFC-kiibiga kaart";
 
-"onfido_nfc_intro_title_passport" = "Skanni oma ePassport";
-"onfido_nfc_intro_subtitle_passport" = "Järgige neid juhiseid";
+"onfido_nfc_intro_title_passport" = "Skaneeri oma pass";
+"onfido_nfc_intro_subtitle_passport" = "Kasutage oma telefoni, et skaneerida kiip oma passis";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Asetage pass tasasele pinnale";
-"onfido_nfc_intro_passport_scan_guide_2" = "Asetage telefon passi peale";
-"onfido_nfc_intro_passport_scan_guide_3" = "Libistage telefoni aeglaselt alla ja üles";
-"onfido_nfc_intro_passport_scan_guide_4" = "Kui skannimine algab, hoidke telefoni paigal";
+"onfido_nfc_intro_passport_scan_guide_1" = "Asetage oma pass lahtiselt tasasele pinnale";
+"onfido_nfc_intro_passport_scan_guide_2" = "Asetage oma telefon otse passi peale nii, et need puutuvad kokku";
+"onfido_nfc_intro_passport_scan_guide_3" = "Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skannimine algab";
+"onfido_nfc_intro_passport_scan_guide_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
 
 "onfido_nfc_intro_button_primary_passport" = "Alustage skannimist";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Vaade kaamerast. Asetage oma dokumendi fotoleht kaadrisse ja seejärel puudutage pildistamisnuppu";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vaade kaamerast. Asetage oma dokumendi kaas kaadrisse ja seejärel puudutage pildistamisnuppu";
 "onfido_welcome_list_item_face_generic" = "Näo skannimine";
-"onfido_permission_recovery_subtitle_cam" = "Isiku kinnitamine ilma kaamerata ei ole võimalik";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vaade kaamerast. Asetage dokumendi esikülg kaadrisse ja seejärel puudutage pildistamisnuppu";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vaade kaamerast. Asetage oma dokumendi tagakülg kaadrisse ja seejärel puudutage pildistamisnuppu";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vaade kaamerast. Asetage dokumendi esikülg kaadrisse ja seejärel puudutage pildistamisnuppu";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Skannimine õnnestus";
 "onfido_nfc_sheet_success_instruction_passport" = "Teie passi skannimine õnnestus";
 "onfido_outro_body" = "Sellest piisab teie isiku tuvastamise alustamiseks";
-"onfido_permission_recovery_title_cam" = "Juurdepääs kaamerale on keelatud";
-"onfido_permission_recovery_list_item_how_to_cam" = "Juurdepääsu kaamerale saate taastada seadme sätete kaudu";
-"onfido_permission_recovery_list_item_action_cam" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale";
-"onfido_permission_recovery_title_mic" = "Mikrofoni juurdepääs keelatud";
-"onfido_permission_recovery_list_item_how_to_mic" = "Juurdepääsu mikrofonile saate taastada seadme sätete kaudu";
-"onfido_permission_recovery_list_item_action_mic" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs mikrofonile";
-"onfido_permission_recovery_title_both" = "Juurdepääs kaamerale ja mikrofonile on keelatud";
-"onfido_permission_recovery_list_item_how_to_both" = "Juurdepääsu kaamerale ja mikrofonile saate taastada seadme sätete kaudu";
-"onfido_permission_recovery_list_item_action_both" = "Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale ning mikrofonile";
-"onfido_permission_recovery_button_primary" = "Lubage sätetes";
 "onfido_generic_error_network_title" = "Ühendus kadunud";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Vaade kaamerast. Asetage oma dokumendi fotoleht kaadrisse. Teie seade vibreerib, kui pilt on jäädvustatud";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vaade kaamerast. Asetage dokumendi esikülg kaadrisse ja seejärel puudutage pildistamisnuppu";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Kehtivusaeg (vajaduse korral)";
 
 "onfido_welcome_start_workflow_button_trial" = "Alustage tuvastamist (TEST)";
-"onfido_enter_can_title" = "Sisestage CAN";
-"onfido_enter_can_subtitle" = "Veenduge, et esitatud number vastab dokumendil olevale numbrile.";
+"onfido_enter_can_title" = "Sisestage CAN number";
+"onfido_enter_can_subtitle" = "%d-kohaline number asub teie dokumendi esiküljel";
 "onfido_enter_can_disclaimer" = "Leiate selle oma dokumendi esiküljelt. See on %d-kohaline number, mis on esitatud veidi suuremas kirjas.";
 "onfido_enter_can_button_primary" = "Jätkake";
 "onfido_nfc_scan_error_title" = "Teie dokumendi skannimine ei õnnestunud";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "katset";
 "onfido_nfc_scan_error_button_secondary" = "Kinnitamine ilma NFC-ta";
 "onfido_intro_scan_animation_ios" = "Asetage dokument seadme ülaossa. Kui skannimine algab, hoidke neid paigal.";
-"onfido_nfc_scan_sheet_success" = "Skaneerimine edukas";
+"onfido_nfc_scan_sheet_success" = "Skaneerimine õnnestus";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Selle protsessi käigus salvestatakse teie nägu, taust ja heli";
 "onfido_welcome_list_header_doc_video" = "Kasutage oma seadet, et salvestada järgmist.";
 "onfido_welcome_list_item_doc_video_flash" = "Lülitame video salvestamise ajal seadme välgu sisse";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Heli mängitakse teisest rakendusest";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Palun ärge mängige salvestamise ajal oma seadmes mingit heli";
 
-"onfido_nfc_scan_welcome_card_title" = "Protsessi kiirendamine NFC abil";
-"onfido_nfc_scan_welcome_card_subtitle" = "Skaneerime teie dokumendi NFC-kiibi";
-"onfido_nfc_scan_welcome_card_list_item" = "Asetage dokument seadme taha";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Libistage seadet aeglaselt üles ja alla";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Kui skannimine algab, hoidke seda paigal";
+"onfido_nfc_scan_welcome_card_title" = "Skaneeri oma dokument";
+"onfido_nfc_scan_welcome_card_subtitle" = "Kasuta oma telefoni, et skaneerida kiip oma dokumendis";
+"onfido_nfc_scan_welcome_card_list_item" = "Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Liigutage aeglaselt oma dokumenti seadme vastu üles ja alla, kuni skaneerimine algab";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
 "onfido_nfc_scan_welcome_card_button_primary" = "Alustage skannimist";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Kinnitamine ilma NFC-ta";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Kinnitamine ilma NFC-ta";
 
 "onfido_nfc_scan_welcome_passport_title" = "Protsessi kiirendamine NFC abil";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Skaneerime teie dokumendi NFC-kiibi";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Kasuta oma telefoni, et skaneerida kiip oma dokumendis";
 "onfido_nfc_scan_welcome_passport_list_item" = "Asetage dokument tasasele pinnale";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Avage oma dokument tagalehe sisemiselt";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Asetage dokument seadme taha";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Libistage seadet aeglaselt üles ja alla";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Kui skannimine algab, hoidke seda paigal";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Alustage skannimist";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Kinnitamine ilma NFC-ta";
 
@@ -672,3 +661,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Me töötleme teie andmeid, palun oodake.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Töötlemine käib...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.";
+"onfido_interactive_task_waiting_subtitle_2" = "Ülesanne on endiselt käimas, teie kannatlikkust hinnatakse.";
+"onfido_nfc_fail_passport_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_fail_passport_list_item_1" = "Eemaldage kõik katted oma dokumendilt ja seadmelt";
+"onfido_nfc_fail_passport_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_fail_passport_list_item_3" = "Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skannimine algab";
+"onfido_nfc_fail_passport_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_fail_passport_button_primary" = "Proovi skannimist uuesti";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Eemaldage kõik katted oma dokumendilt ja seadmelt";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skaneerimine algab";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Korda skannimist";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Kinnita ilma skannimata";
+"onfido_nfc_scan_error_final_required_passport_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Eemaldage kõik katted oma dokumendilt ja seadmelt";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skannimine algab";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Proovi skannimist uuesti";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Väljumise kontroll";
+"onfido_nfc_scan_error_document_title" = "Dokumenti ei toetata";
+"onfido_nfc_scan_error_document_subtitle" = "Palun proovige mõne teise dokumendiga";
+"onfido_nfc_scan_error_document_primary_button" = "Vali teine dokument";
+"onfido_nfc_scan_error_document_secondary_button" = "Väljumise kontroll";
+"onfido_nfc_scan_error_device_title" = "Toetatud seade";
+"onfido_nfc_scan_error_device_subtitle" = "Vabandame ebamugavuste pärast. Palun kasutage oma identiteedi kinnitamiseks mõnda teist seadet";
+"onfido_nfc_scan_error_device_primary_button" = "Väljumise kontroll";
+"onfido_nfc_scan_sheet_passport_ready" = "Liigutage aeglaselt oma seadet mõlema lehekülje üle";
+"onfido_nfc_scan_sheet_ready_scanning" = "Hoidke oma seadet ja dokumenti paigal";
+"onfido_nfc_scan_sheet_error_1" = "Kaotatud ühendus.";
+"onfido_nfc_scan_sheet_error_2" = "Me ei saanud teie dokumenti skaneerida";
+"onfido_nfc_scan_sheet_button" = "Tühista";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Me aktsepteerime ainult kiibiga dokumente. Otsige seda ikooni oma dokumendilt";
+"onfido_nfc_fail_card_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_fail_card_list_item_1" = "Eemaldage kõik katted oma seadmelt";
+"onfido_nfc_fail_card_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_fail_card_list_item_3" = "Liigutage aeglaselt oma dokumenti üles ja alla seadme vastu, kuni skaneerimine algab";
+"onfido_nfc_fail_card_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_fail_card_button_primary" = "Proovi skannimist uuesti";
+"onfido_nfc_scan_error_final_possible_card_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Eemaldage kõik katted oma seadmelt";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Liigutage aeglaselt oma dokumenti üles ja alla seadme vastu, kuni skaneerimine algab";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Proovi skannimist uuesti";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Kinnita ilma skannimata";
+"onfido_nfc_scan_error_final_required_card_title" = "Me ei saanud seda dokumenti skaneerida";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Eemaldage kõik katted oma seadmelt";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Liigutage aeglaselt oma dokumenti üles ja alla seadme vastu, kuni skaneerimine algab";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Proovi skannimist uuesti";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Väljumise kontroll";
+"onfido_nfc_scan_sheet_card_ready" = "Liigutage aeglaselt oma dokumenti üles ja alla";
+"onfido_nfc_scan_sheet_card_button" = "Tühista";
+"onfido_nfc_scan_sheet_card_error_can" = "Vale CAN number";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Enne skaneerimise jätkamist võidakse teil paluda sisestada CAN";
+"onfido_enter_can_secondary_button" = "Mul pole CAN-i";
+"onfido_enter_can_warning" = "Sul on jäänud %d %@";
+
+"onfido_otp_send_code_input_label" = "Telefoninumber";
+"onfido_otp_send_code_error_invalid_phone_number" = "Palun esitage kehtiv telefoninumber.";
+"onfido_otp_error_title" = "Midagi läks valesti";
+"onfido_otp_error_subtitle" = "Palun oodake mõni sekund ja proovige uuesti";
+"onfido_otp_error_cta" = "Tagasi";
+"onfido_nfc_scan_error_can_title" = "Maksimaalne katsete arv on saavutatud";
+"onfido_nfc_scan_error_can_subtitle" = "Olete jõudnud oma CAN-numbri sisestamise maksimaalse katsete arvuni";
+"onfido_nfc_scan_error_can_primary_button" = "Väljumise kontroll";

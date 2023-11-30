@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "استخدام بطاقة NFC";
 "onfido_nfc_select_button_secondary_card" = "هذه ليست بطاقة NFC";
 
-"onfido_nfc_intro_title_passport" = "امسح جواز سفرك الإلكتروني ضوئيًا";
-"onfido_nfc_intro_subtitle_passport" = "اتبع هذه التعليمات";
+"onfido_nfc_intro_title_passport" = "قم بمسح جواز سفرك";
+"onfido_nfc_intro_subtitle_passport" = "استخدم هاتفك لمسح الرقاقة في جواز سفرك";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "ضع جواز سفرك على سطح مستو";
-"onfido_nfc_intro_passport_scan_guide_2" = "ضع هاتفك على الجزء العلوي من جواز سفرك";
-"onfido_nfc_intro_passport_scan_guide_3" = "حرك هاتفك ببطء للأسفل وللأعلى";
-"onfido_nfc_intro_passport_scan_guide_4" = "بمجرد بدء المسح الضوئي، امسك هاتفك";
+"onfido_nfc_intro_passport_scan_guide_1" = "ضع جواز سفرك مفتوحًا على سطح مستوي";
+"onfido_nfc_intro_passport_scan_guide_2" = "ضع هاتفك مباشرة فوق جواز سفرك حتى يكونا على اتصال مباشر";
+"onfido_nfc_intro_passport_scan_guide_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
+"onfido_nfc_intro_passport_scan_guide_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
 
 "onfido_nfc_intro_button_primary_passport" = "بدء المسح الضوئي";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "عرض من الكاميرا. ضع صفحة الصورة للمستند ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "عرض من الكاميرا. ضع غلاف مستندك ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_welcome_list_item_face_generic" = "قم بمسح ضوئي لوجهك";
-"onfido_permission_recovery_subtitle_cam" = "لا يمكننا التحقق منك بدون الكاميرا";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "عرض من الكاميرا. ضع الجزء الأمامي من المستند ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "عرض من الكاميرا. ضع الجزء الخلفي من المستند ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "عرض من الكاميرا. ضع الجزء الأمامي من المستند ضمن الإطار، ثم اضغط على زر الغالق";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "تم المسح الضوئي بنجاح";
 "onfido_nfc_sheet_success_instruction_passport" = "لقد قمنا بمسح جواز سفرك بنجاح";
 "onfido_outro_body" = "هذا كل ما نحتاجه للبدء في التحقق من هويتك";
-"onfido_permission_recovery_title_cam" = "تم رفض استخدام إلى الكاميرا";
-"onfido_permission_recovery_list_item_how_to_cam" = "يمكنك استرداد الوصول إلى الكاميرا من خلال إعدادات جهازك";
-"onfido_permission_recovery_list_item_action_cam" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الكاميرا لهذا التطبيق";
-"onfido_permission_recovery_title_mic" = "تم رفض الوصول إلى الميكروفون";
-"onfido_permission_recovery_list_item_how_to_mic" = "يمكنك استعادة الوصول إلى الميكروفون من خلال إعدادات جهازك";
-"onfido_permission_recovery_list_item_action_mic" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الميكروفون لهذا التطبيق";
-"onfido_permission_recovery_title_both" = "تم رفض الوصول إلى الكاميرا والميكروفون";
-"onfido_permission_recovery_list_item_how_to_both" = "يمكنك استرداد الوصول إلى الكاميرا والميكروفون من خلال إعدادات جهازك";
-"onfido_permission_recovery_list_item_action_both" = "انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى كل من الكاميرا والميكروفون لهذا التطبيق";
-"onfido_permission_recovery_button_primary" = "تمكين في الإعدادات";
 "onfido_generic_error_network_title" = "انقطع الاتصال";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "عرض من الكاميرا. ضع صفحة الصورة في مستندك ضمن الإطار. سيهتز جهازك عند التقاط الصورة";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "عرض من الكاميرا. ضع الجزء الأمامي من المستند ضمن الإطار، ثم اضغط على زر الغالق";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "تاريخ انتهاء الصلاحية إن وجد";
 
 "onfido_welcome_start_workflow_button_trial" = "ابدأ التحقق (TEST)";
-"onfido_enter_can_title" = "أدخل CAN";
-"onfido_enter_can_subtitle" = "يرجى التأكد من أن الرقم المقدم يطابق الرقم الموجود في المستند.";
+"onfido_enter_can_title" = "أدخل رقم الCAN";
+"onfido_enter_can_subtitle" = "الرقم المكون من %d رقمًا موجود على الجهة الأمامية من المستند الخاص بك";
 "onfido_enter_can_disclaimer" = "يمكنك العثور عليه في الجزء الأمامي من مستندك. إنه بطول %d من الأرقام وحجمه أكبر قليلاً.";
 "onfido_enter_can_button_primary" = "متابعة";
 "onfido_nfc_scan_error_title" = "لم نتمكن من مسح المستند ضوئيًا";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "محاولات";
 "onfido_nfc_scan_error_button_secondary" = "الحصول على التحقق دون NFC";
 "onfido_intro_scan_animation_ios" = "ضع المستند في الجزء الخلفي العلوي من جهازك. بمجرد بدء المسح الضوئي ، امسكهم بثبات.";
-"onfido_nfc_scan_sheet_success" = "المسح ناجح";
+"onfido_nfc_scan_sheet_success" = "تم الفحص بنجاح";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "سيتم تسجيل وجهك وخلفيتك وصوتك أثناء هذه العملية";
 "onfido_welcome_list_header_doc_video" = "استخدم جهازك للتسجيل:";
 "onfido_welcome_list_item_doc_video_flash" = "سنشغّل فلاش جهازك أثناء تسجيل الفيديو";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "جارٍ تشغيل المقطع الصوتي بواسطة تطبيق آخر";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "يرجى عدم تشغيل أي مقاطع صوتية على جهازك أثناء التسجيل";
 
-"onfido_nfc_scan_welcome_card_title" = "تسريع العملية مع NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا";
-"onfido_nfc_scan_welcome_card_list_item" = "ضع المستند في الجزء الخلفي من جهازك";
-"onfido_nfc_scan_welcome_card_list_item_2" = "حرك جهازك ببطء لأعلى ولأسفل";
-"onfido_nfc_scan_welcome_card_list_item_3" = "بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا";
+"onfido_nfc_scan_welcome_card_title" = "افحص الوثيقة الخاصة بك";
+"onfido_nfc_scan_welcome_card_subtitle" = "استخدم هاتفك لمسح الرقاقة في وثيقتك";
+"onfido_nfc_scan_welcome_card_list_item" = "ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال";
+"onfido_nfc_scan_welcome_card_list_item_2" = "قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص";
+"onfido_nfc_scan_welcome_card_list_item_3" = "بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص";
 "onfido_nfc_scan_welcome_card_button_primary" = "بدء المسح الضوئي";
 "onfido_nfc_scan_welcome_card_secondary_button" = "الحصول على التحقق دون NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "الحصول على التحقق دون NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "تسريع العملية مع NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا";
+"onfido_nfc_scan_welcome_passport_subtitle" = "استخدم هاتفك لمسح الرقاقة في وثيقتك";
 "onfido_nfc_scan_welcome_passport_list_item" = "ضع المستند على سطح مستو";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "افتح الصفحة الخلفية الداخلية للمستند";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "ضع المستند في الجزء الخلفي من جهازك";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "حرك جهازك ببطء لأعلى ولأسفل";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص";
 "onfido_nfc_scan_welcome_passport_button_primary" = "بدء المسح الضوئي";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "الحصول على التحقق دون NFC";
 
@@ -673,3 +662,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "نحن نقوم بمعالجة معلوماتك، يرجى الانتظار.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "المعالجة جارية...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "يرجى الانتظار قليلاً أطول حتى ينتهي هذا العمل، نقدر صبرك.";
+"onfido_interactive_task_waiting_subtitle_2" = "المهمة لا تزال قيد التشغيل، نقدر صبرك.";
+"onfido_nfc_fail_passport_title" = "لم نتمكن من مسح هذا المستند";
+"onfido_nfc_fail_passport_list_item_1" = "قم بإزالة أي أغطية من وثيقتك وجهازك";
+"onfido_nfc_fail_passport_list_item_2" = "حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا";
+"onfido_nfc_fail_passport_list_item_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
+"onfido_nfc_fail_passport_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_fail_passport_button_primary" = "أعد المحاولة للمسح";
+"onfido_nfc_scan_error_final_possible_passport_title" = "لم نتمكن من مسح هذا الوثيقة";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "قم بإزالة أي أغطية من وثيقتك وجهازك";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "أعد المحاولة للمسح";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "التحقق بدون المسح";
+"onfido_nfc_scan_error_final_required_passport_title" = "لم نتمكن من مسح هذا المستند";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "قم بإزالة أي أغطية من وثيقتك وجهازك";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "أعد محاولة المسح";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_error_document_title" = "الوثيقة غير مدعومة";
+"onfido_nfc_scan_error_document_subtitle" = "يرجى المحاولة مع وثيقة أخرى";
+"onfido_nfc_scan_error_document_primary_button" = "اختر وثيقة أخرى";
+"onfido_nfc_scan_error_document_secondary_button" = "الخروج من التحقق";
+"onfido_nfc_scan_error_device_title" = "جهاز غير مدعوم";
+"onfido_nfc_scan_error_device_subtitle" = "عذرًا على أي إزعاج. يرجى استخدام جهاز مختلف للتحقق من هويتك";
+"onfido_nfc_scan_error_device_primary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_sheet_passport_ready" = "قم بإنزلاق جهازك ببطء عبر الصفحتين";
+"onfido_nfc_scan_sheet_ready_scanning" = "حافظ على ثبات جهازك والمستند";
+"onfido_nfc_scan_sheet_error_1" = "فقد الاتصال.";
+"onfido_nfc_scan_sheet_error_2" = "لم نتمكن من مسح وثيقتك";
+"onfido_nfc_scan_sheet_button" = "إلغاء";
+"onfido_nfc_scan_doc_selection_disclaimer" = "نحن نقبل فقط الوثائق التي تحتوي على رقاقة. ابحث عن هذا الرمز على وثيقتك";
+"onfido_nfc_fail_card_title" = "لم نتمكن من مسح هذا الوثيقة";
+"onfido_nfc_fail_card_list_item_1" = "قم بإزالة أي غطاء من جهازك";
+"onfido_nfc_fail_card_list_item_2" = "حافظ على اتصال جهازك والمستند حتى يكتمل الفحص بنجاح";
+"onfido_nfc_fail_card_list_item_3" = "قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص";
+"onfido_nfc_fail_card_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_fail_card_button_primary" = "أعد المحاولة للمسح";
+"onfido_nfc_scan_error_final_possible_card_title" = "لم نتمكن من مسح هذا الوثيقة";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "قم بإزالة أي غطاء من جهازك";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "أعد المحاولة للمسح";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "تحقق بدون مسح";
+"onfido_nfc_scan_error_final_required_card_title" = "لم نتمكن من فحص هذا المستند";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "قم بإزالة أي غطاء من جهازك";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "أعد المحاولة للمسح";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_sheet_card_ready" = "قم بتحريك وثيقتك ببطء لأعلى ولأسفل";
+"onfido_nfc_scan_sheet_card_button" = "إلغاء";
+"onfido_nfc_scan_sheet_card_error_can" = "رقم CAN غير صحيح";
+"onfido_nfc_scan_welcome_card_disclaimer" = "قد يتم مطالبتك بإدخال الCAN قبل الاستمرار في الفحص";
+"onfido_enter_can_secondary_button" = "ليس لدي CAN";
+"onfido_enter_can_warning" = "لديك %d %@ متبقي";
+
+"onfido_otp_send_code_input_label" = "رقم الهاتف";
+"onfido_otp_send_code_error_invalid_phone_number" = "يرجى تقديم رقم هاتف صالح.";
+"onfido_otp_error_title" = "حدث خطأ ما";
+"onfido_otp_error_subtitle" = "يرجى الانتظار بضع زوايا وحاول مرة أخرى";
+"onfido_otp_error_cta" = "عُد للخلف";
+"onfido_nfc_scan_error_can_title" = "تم الوصول إلى الحد الأقصى للمحاولات";
+"onfido_nfc_scan_error_can_subtitle" = "لقد وصلت إلى الحد الأقصى لمحاولات إدخال رقم CAN الخاص بك";
+"onfido_nfc_scan_error_can_primary_button" = "التحقق من الخروج";

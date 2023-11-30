@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Gebruik NFC-kaart";
 "onfido_nfc_select_button_secondary_card" = "Dit is geen NFC-kaart";
 
-"onfido_nfc_intro_title_passport" = "Scan uw ePassport";
-"onfido_nfc_intro_subtitle_passport" = "Volg deze instructies";
+"onfido_nfc_intro_title_passport" = "Scan uw paspoort";
+"onfido_nfc_intro_subtitle_passport" = "Gebruik uw telefoon om de chip in uw paspoort te scannen";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Leg uw paspoort op een plat oppervlak";
-"onfido_nfc_intro_passport_scan_guide_2" = "Leg uw telefoon bovenop uw paspoort";
-"onfido_nfc_intro_passport_scan_guide_3" = "Schuif je telefoon langzaam omlaag en omhoog";
-"onfido_nfc_intro_passport_scan_guide_4" = "Zodra de scan begint, houdt u uw telefoon stil";
+"onfido_nfc_intro_passport_scan_guide_1" = "Leg uw paspoort open op een vlakke ondergrond";
+"onfido_nfc_intro_passport_scan_guide_2" = "Plaats uw telefoon direct bovenop uw paspoort zodat ze elkaar raken";
+"onfido_nfc_intro_passport_scan_guide_3" = "Veeg langzaam met uw telefoon over beide pagina's totdat de scan begint";
+"onfido_nfc_intro_passport_scan_guide_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
 
 "onfido_nfc_intro_button_primary_passport" = "Start met scannen";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Weergeven vanaf camera. Plaats de fotopagina van uw document in het kader en tik vervolgens op de sluiterknop";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Weergeven vanaf camera. Plaats de kaft van uw document in het kader en tik vervolgens op de sluiter";
 "onfido_welcome_list_item_face_generic" = "Scan uw gezicht";
-"onfido_permission_recovery_subtitle_cam" = "We kunnen u niet verifiëren zonder camera";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Weergeven vanaf camera. Plaats de voorkant van uw document in het kader en tik vervolgens op de sluiterknop";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Weergeven vanaf camera. Plaats de achterkant van uw document in het kader en tik vervolgens op de sluiterknop";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Weergeven vanaf camera. Plaats de voorkant van uw document in het kader en tik vervolgens op de sluiterknop";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Scannen gelukt";
 "onfido_nfc_sheet_success_instruction_passport" = "We hebben uw paspoort gescand";
 "onfido_outro_body" = "Dit is alles wat we nodig hebben om uw identiteit te verifiëren";
-"onfido_permission_recovery_title_cam" = "Toegang tot camera geweigerd";
-"onfido_permission_recovery_list_item_how_to_cam" = "U kunt toegang tot de camera herstellen via de instellingen van uw apparaat";
-"onfido_permission_recovery_list_item_action_cam" = "Ga naar de instellingen van de app en schakel toegang tot de camera in voor deze app";
-"onfido_permission_recovery_title_mic" = "Toegang tot microfoon geweigerd";
-"onfido_permission_recovery_list_item_how_to_mic" = "U kunt toegang tot de microfoon herstellen via de instellingen van uw apparaat";
-"onfido_permission_recovery_list_item_action_mic" = "Ga naar de instellingen van de app en schakel toegang tot de microfoon in voor deze app";
-"onfido_permission_recovery_title_both" = "Toegang tot camera en microfoon geweigerd";
-"onfido_permission_recovery_list_item_how_to_both" = "U kunt toegang tot de camera en de microfoon herstellen via de instellingen van uw apparaat";
-"onfido_permission_recovery_list_item_action_both" = "Ga naar de instellingen van de app en schakel toegang tot zowel de camera als de microfoon in voor deze app";
-"onfido_permission_recovery_button_primary" = "Inschakelen in instellingen";
 "onfido_generic_error_network_title" = "Verbinding verbroken";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Weergeven vanaf camera. Plaats de fotopagina van uw document in het kader. Uw apparaat zal trillen als de afbeelding is geregistreerd";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Weergeven vanaf camera. Plaats de voorkant van uw document in het kader en tik vervolgens op de sluiterknop";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Vervaldatum indien van toepassing";
 
 "onfido_welcome_start_workflow_button_trial" = "Start verificatie (TEST)";
-"onfido_enter_can_title" = "Voer de CAN in";
-"onfido_enter_can_subtitle" = "Zorg ervoor dat het opgegeven nummer overeenkomt met het nummer op het document.";
+"onfido_enter_can_title" = "Voer het CAN-nummer in";
+"onfido_enter_can_subtitle" = " Het %d-cijferig nummer bevindt zich aan de voorkant van uw document ";
 "onfido_enter_can_disclaimer" = "Het %d-cijfer staat voorin uw document.";
 "onfido_enter_can_button_primary" = "Doorgaan";
 "onfido_nfc_scan_error_title" = "We konden uw document niet scannen";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "pogingen";
 "onfido_nfc_scan_error_button_secondary" = "Word geverifieerd zonder NFC";
 "onfido_intro_scan_animation_ios" = "Plaats uw document bovenaan op de achterkant van uw apparaat. Zodra de scan begint, houdt u beide stil.";
-"onfido_nfc_scan_sheet_success" = "Scan succesvol gemaakt";
+"onfido_nfc_scan_sheet_success" = "Scan succesvol";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Uw gezicht, achtergrond en geluid worden tijdens dit proces opgenomen";
 "onfido_welcome_list_header_doc_video" = "Gebruik uw apparaat om op te nemen:";
 "onfido_welcome_list_item_doc_video_flash" = "We zetten de flits van uw apparaat aan tijdens het opnemen van een filmpje";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio wordt door een andere app afgespeeld";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Speel tijdens de opname geen audio af op uw apparaat.";
 
-"onfido_nfc_scan_welcome_card_title" = "Versnel het proces met NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "We scannen de NFC-chip van uw document";
-"onfido_nfc_scan_welcome_card_list_item" = "Plaats uw document aan de achterkant van uw toestel";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Schuif uw apparaat langzaam op en neer";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Zodra de scan begint, houdt u hem stil";
+"onfido_nfc_scan_welcome_card_title" = "Scan uw document";
+"onfido_nfc_scan_welcome_card_subtitle" = "Gebruik uw telefoon om de chip in uw document te scannen";
+"onfido_nfc_scan_welcome_card_list_item" = "Plaats uw document tegen de achterkant van uw apparaat zodat ze elkaar raken";
+"onfido_nfc_scan_welcome_card_list_item_2" = " Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
 "onfido_nfc_scan_welcome_card_button_primary" = "Start met scannen";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Word geverifieerd zonder NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Word geverifieerd zonder NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Versnel het proces met NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "We scannen de NFC-chip van uw document";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Gebruik uw telefoon om de chip in uw document te scannen";
 "onfido_nfc_scan_welcome_passport_list_item" = "Leg uw document op een vlakke ondergrond";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Open uw document op de binnenste achterpagina";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Plaats uw document aan de achterkant van uw toestel";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Plaats uw document tegen de achterkant van uw apparaat zodat ze elkaar raken";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Schuif uw apparaat langzaam op en neer";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Zodra de scan begint, houdt u hem stil";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Start met scannen";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Word geverifieerd zonder NFC";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "We verwerken uw informatie, even geduld aub.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Verwerking bezig...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Wacht alstublieft nog even tot dit proces is voltooid, uw geduld wordt op prijs gesteld.";
+"onfido_interactive_task_waiting_subtitle_2" = "De taak is nog steeds bezig, uw geduld wordt op prijs gesteld.";
+"onfido_nfc_fail_passport_title" = "We konden dit document niet scannen";
+"onfido_nfc_fail_passport_list_item_1" = "Verwijder alle hoezen van uw document en apparaat";
+"onfido_nfc_fail_passport_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_fail_passport_list_item_3" = "Veeg langzaam met uw telefoon over beide pagina's totdat de scan begint";
+"onfido_nfc_fail_passport_list_item_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
+"onfido_nfc_fail_passport_button_primary" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_possible_passport_title" = "We konden dit document niet scannen";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Verwijder alle hoezen van uw document en apparaat";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Veeg langzaam met uw telefoon over beide pagina's totdat de scan begint";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Verifiëren zonder te scannen";
+"onfido_nfc_scan_error_final_required_passport_title" = "We konden dit document niet scannen";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Verwijder alle hoezen van uw document en apparaat";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Veeg langzaam met uw telefoon over beide pagina's totdat de scan begint";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Uitgangsverificatie";
+"onfido_nfc_scan_error_document_title" = "Document niet ondersteund";
+"onfido_nfc_scan_error_document_subtitle" = "Probeer het met een ander document";
+"onfido_nfc_scan_error_document_primary_button" = "Kies een ander document";
+"onfido_nfc_scan_error_document_secondary_button" = "Uitgangsverificatie";
+"onfido_nfc_scan_error_device_title" = "Niet-ondersteund apparaat";
+"onfido_nfc_scan_error_device_subtitle" = "Onze excuses voor het ongemak. Gebruik alstublieft een ander apparaat om uw identiteit te verifiëren";
+"onfido_nfc_scan_error_device_primary_button" = "Uitgangsverificatie";
+"onfido_nfc_scan_sheet_passport_ready" = "Veeg langzaam uw apparaat over beide pagina's";
+"onfido_nfc_scan_sheet_ready_scanning" = "Houd uw apparaat en document stil";
+"onfido_nfc_scan_sheet_error_1" = "Verbinding verloren.";
+"onfido_nfc_scan_sheet_error_2" = "We konden uw document niet scannen";
+"onfido_nfc_scan_sheet_button" = "Annuleren";
+"onfido_nfc_scan_doc_selection_disclaimer" = "We accepteren alleen documenten met een chip. Zoek naar dit pictogram op uw document";
+"onfido_nfc_fail_card_title" = "We konden dit document niet scannen";
+"onfido_nfc_fail_card_list_item_1" = "Verwijder alle hoesjes van uw apparaat";
+"onfido_nfc_fail_card_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_fail_card_list_item_3" = " Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint";
+"onfido_nfc_fail_card_list_item_4" = "Zodra de scan begint, blijf stil zodden zodat de scan kan voltooien";
+"onfido_nfc_fail_card_button_primary" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_possible_card_title" = "We konden dit document niet scannen";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Verwijder alle hoesjes van uw apparaat";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = " Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Verifiëren zonder te scannen";
+"onfido_nfc_scan_error_final_required_card_title" = "We konden dit document niet scannen";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Verwijder alle hoesjes van uw apparaat";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen succesvol is";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = " Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Probeer opnieuw te scannen";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Uitgangsverificatie";
+"onfido_nfc_scan_sheet_card_ready" = "Verplaats uw document langzaam op en neer";
+"onfido_nfc_scan_sheet_card_button" = "Annuleren";
+"onfido_nfc_scan_sheet_card_error_can" = "Onjuist CAN-nummer";
+"onfido_nfc_scan_welcome_card_disclaimer" = "U wordt mogelijk gevraagd om de CAN in te voeren voordat u doorgaat met de scan";
+"onfido_enter_can_secondary_button" = "Ik heb geen CAN";
+"onfido_enter_can_warning" = "U heeft %d %@ over";
+
+"onfido_otp_send_code_input_label" = "Telefoonnummer";
+"onfido_otp_send_code_error_invalid_phone_number" = "Geef een geldig telefoonnummer op.";
+"onfido_otp_error_title" = "Iets ging verkeerd";
+"onfido_otp_error_subtitle" = "Wacht alstublieft een paar seconden en probeer het opnieuw";
+"onfido_otp_error_cta" = "Ga terug";
+"onfido_nfc_scan_error_can_title" = "Maximaal aantal pogingen bereikt";
+"onfido_nfc_scan_error_can_subtitle" = "U heeft het maximale aantal pogingen bereikt om uw CAN-nummer in te voeren";
+"onfido_nfc_scan_error_can_primary_button" = "Uitgangsverificatie";

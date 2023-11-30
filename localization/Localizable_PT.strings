@@ -207,13 +207,13 @@
 "onfido_nfc_select_button_primary_card" = "Use um cartão NFC";
 "onfido_nfc_select_button_secondary_card" = "Não é um cartão NFC";
 
-"onfido_nfc_intro_title_passport" = "Digitalizar o seu ePassaporte";
-"onfido_nfc_intro_subtitle_passport" = "Siga estas instruções";
+"onfido_nfc_intro_title_passport" = "Escaneie o seu passaporte";
+"onfido_nfc_intro_subtitle_passport" = "Use o seu telefone para escanear o chip no seu passaporte";
 
-"onfido_nfc_intro_passport_scan_guide_1" = "Coloque o seu passaporte sobre uma superfície plana";
-"onfido_nfc_intro_passport_scan_guide_2" = "Coloque o seu telefone em cima do seu passaporte";
-"onfido_nfc_intro_passport_scan_guide_3" = "Deslize lentamente o seu telefone para baixo e para cima";
-"onfido_nfc_intro_passport_scan_guide_4" = "Uma vez iniciado o scan, mantenha o seu telefone imóvel";
+"onfido_nfc_intro_passport_scan_guide_1" = "Coloque seu passaporte aberto em uma superfície plana";
+"onfido_nfc_intro_passport_scan_guide_2" = "Coloque o seu telefone diretamente em cima do seu passaporte para que eles estejam tocando";
+"onfido_nfc_intro_passport_scan_guide_3" = "Deslize lentamente o seu telefone por ambas as páginas até que a digitalização comece";
+"onfido_nfc_intro_passport_scan_guide_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
 
 "onfido_nfc_intro_button_primary_passport" = "Começar a digitalizar";
 
@@ -423,7 +423,6 @@
 "onfido_doc_capture_frame_accessibility_pp_manual" = "Vista da câmara. Posicione a página de fotografia do seu documento na moldura, depois toque no botão do obturador";
 "onfido_doc_capture_frame_accessibility_pp_cover_manual" = "Vista da câmara. Posicione a capa do seu documento na moldura, depois toque no botão do obturador";
 "onfido_welcome_list_item_face_generic" = "Digitalizar a sua cara";
-"onfido_permission_recovery_subtitle_cam" = "Não o podemos verificar sem a sua câmara";
 "onfido_doc_capture_frame_accessibility_ic_front_manual" = "Vista da câmara. Posicione a frente do seu documento na moldura, depois toque no botão do obturador";
 "onfido_doc_capture_frame_accessibility_ic_back_manual" = "Vista da câmara. Posicione a parte de trás do seu documento na moldura, depois toque no botão do obturador";
 "onfido_doc_capture_frame_accessibility_rp_front_manual" = "Vista da câmara. Posicione a frente do seu documento na moldura, depois toque no botão do obturador";
@@ -468,16 +467,6 @@
 "onfido_nfc_sheet_success_subtitle" = "Digitalização bem sucedida";
 "onfido_nfc_sheet_success_instruction_passport" = "Digitalizámos com sucesso o seu passaporte";
 "onfido_outro_body" = "É tudo o que precisamos para começar a verificar a sua identidade";
-"onfido_permission_recovery_title_cam" = "O acesso à câmara é negado";
-"onfido_permission_recovery_list_item_how_to_cam" = "Pode recuperar o acesso à câmara através das definições do seu dispositivo";
-"onfido_permission_recovery_list_item_action_cam" = "Ir para definições da aplicação e permitir o acesso da câmara para esta aplicação";
-"onfido_permission_recovery_title_mic" = "Acesso a microfones negado";
-"onfido_permission_recovery_list_item_how_to_mic" = "Pode recuperar o acesso ao microfone através das definições do seu dispositivo";
-"onfido_permission_recovery_list_item_action_mic" = "Ir para definições da aplicação e permitir o acesso ao microfone para esta aplicação";
-"onfido_permission_recovery_title_both" = "Acesso à câmara e ao microfone negado";
-"onfido_permission_recovery_list_item_how_to_both" = "Pode recuperar o acesso à câmara e ao microfone através das definições do seu dispositivo";
-"onfido_permission_recovery_list_item_action_both" = "Ir para definições da aplicação e permitir o acesso tanto à câmara como ao microfone para esta aplicação";
-"onfido_permission_recovery_button_primary" = "Ativar em definições";
 "onfido_generic_error_network_title" = "Ligação perdida";
 "onfido_doc_capture_frame_accessibility_pp_auto" = "Vista da câmara. Posicione a página de fotografia do seu documento na moldura. O seu dispositivo vibrará quando a imagem for capturada";
 "onfido_doc_capture_frame_accessibility_dl_front_manual" = "Vista da câmara. Posicione a frente do seu documento na moldura, depois toque no botão do obturador";
@@ -537,8 +526,8 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Data de expiração se aplicável";
 
 "onfido_welcome_start_workflow_button_trial" = "Iniciar a verificação (TEST)";
-"onfido_enter_can_title" = "Entrar na CAN";
-"onfido_enter_can_subtitle" = "Por favor, certifique-se de que o número fornecido corresponde ao número do documento.";
+"onfido_enter_can_title" = "Insira o número CAN";
+"onfido_enter_can_subtitle" = "O número de %d dígitos está localizado na frente do seu documento";
 "onfido_enter_can_disclaimer" = "O número de %d-dígito está localizado na frente do seu documento.";
 "onfido_enter_can_button_primary" = "Continuar";
 "onfido_nfc_scan_error_title" = "Não podíamos digitalizar o seu documento";
@@ -549,7 +538,7 @@
 "onfido_welcome_nfc_subtitle" = "";
 "onfido_welcome_nfc_list_header_nfc" = "";
 "onfido_welcome_nfc_list_item" = "";
-"onfido_welcome_nfc_list_item_2" = "";
+"onfido_welcome_nfc_list_item_2" = "Escaneie o seu documento";
 "onfido_welcome_nfc_button_primary" = "Tirar uma foto do seu documento";
 "onfido_intro_scan_title" = "Digitalize o seu documento";
 "onfido_intro_scan_subtitle" = "Siga as instruções abaixo";
@@ -567,7 +556,7 @@
 "onfido_enter_can_substring_attempt_plural" = "tentativas";
 "onfido_nfc_scan_error_button_secondary" = "Seja verificado sem NFC";
 "onfido_intro_scan_animation_ios" = "Coloque o documento na parte superior traseira do dispositivo. Assim que o scanner começar, mantenha-os parados.";
-"onfido_nfc_scan_sheet_success" = "Digitalização bem sucedida";
+"onfido_nfc_scan_sheet_success" = "Varredura bem-sucedida";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "O seu rosto, fundo, e áudio serão gravados durante este processo";
 "onfido_welcome_list_header_doc_video" = "Utilize o seu dispositivo para gravar:";
 "onfido_welcome_list_item_doc_video_flash" = "Vamos ligar o flash do seu dispositivo durante a gravação do vídeo";
@@ -605,11 +594,11 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "O áudio está a ser reproduzido por outra aplicação";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Não reproduza nenhum áudio no seu dispositivo durante a gravação";
 
-"onfido_nfc_scan_welcome_card_title" = "Acelere o processo com NFC";
-"onfido_nfc_scan_welcome_card_subtitle" = "Vamos ler o chip NFC do seu documento";
-"onfido_nfc_scan_welcome_card_list_item" = "Coloque o seu documento na parte de trás do seu dispositivo";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Deslize lentamente o dispositivo para cima e para baixo";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Assim que a verificação começar, mantenha o dispositivo imóvel";
+"onfido_nfc_scan_welcome_card_title" = "Escaneie o seu documento";
+"onfido_nfc_scan_welcome_card_subtitle" = "Use o seu telefone para escanear o chip no seu documento";
+"onfido_nfc_scan_welcome_card_list_item" = "Coloque o seu documento contra a parte de trás do seu dispositivo para que eles estejam tocando";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Uma vez que a digitalização comece, fique imóvel para que a digitalização possa ser concluída";
 "onfido_nfc_scan_welcome_card_button_primary" = "Começar a digitalizar";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Seja verificado sem NFC";
 
@@ -626,12 +615,12 @@
 "onfido_nfc_scan_error_final_secondary_button" = "Seja verificado sem NFC";
 
 "onfido_nfc_scan_welcome_passport_title" = "Acelere o processo com NFC";
-"onfido_nfc_scan_welcome_passport_subtitle" = "Vamos ler o chip NFC do seu documento";
+"onfido_nfc_scan_welcome_passport_subtitle" = "Use o seu telefone para escanear o chip no seu documento";
 "onfido_nfc_scan_welcome_passport_list_item" = "Coloque o seu documento numa superfície plana";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Abra o seu documento na última página interior";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Coloque o seu documento na parte de trás do seu dispositivo";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Coloque o seu documento contra a parte de trás do seu dispositivo para que eles estejam tocando";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Deslize lentamente o dispositivo para cima e para baixo";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Assim que a verificação começar, mantenha o dispositivo imóvel";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Uma vez que a digitalização comece, fique imóvel para que a digitalização possa ser concluída";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Começar a digitalizar";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Seja verificado sem NFC";
 
@@ -674,3 +663,72 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_4" = "Estamos processando suas informações, por favor aguarde.";
 "onfido_studio_between_interactive_tasks_waiting_title_4" = "Processamento em andamento...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Por favor, aguarde um pouco mais para que este processo termine, a sua paciência é apreciada.";
+"onfido_interactive_task_waiting_subtitle_2" = "A tarefa ainda está em execução, a sua paciência é apreciada.";
+"onfido_nfc_fail_passport_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_fail_passport_list_item_1" = "Remova quaisquer capas do seu documento e dispositivo";
+"onfido_nfc_fail_passport_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_fail_passport_list_item_3" = "Deslize lentamente o seu telefone por ambas as páginas até que a digitalização comece";
+"onfido_nfc_fail_passport_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
+"onfido_nfc_fail_passport_button_primary" = "Tente escanear novamente";
+"onfido_nfc_scan_error_final_possible_passport_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Remova quaisquer capas do seu documento e dispositivo";
+"onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Deslize lentamente o seu telefone por ambas as páginas até que a digitalização comece";
+"onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Uma vez que a digitalização comece, fique imóvel para que a digitalização possa ser concluída";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Tente escanear novamente";
+"onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Verifique sem escanear";
+"onfido_nfc_scan_error_final_required_passport_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Remova quaisquer capas do seu documento e dispositivo";
+"onfido_nfc_scan_error_final_required_passport_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_scan_error_final_required_passport_list_item_3" = "Deslize lentamente o seu telefone por ambas as páginas até que a digitalização comece";
+"onfido_nfc_scan_error_final_required_passport_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Tente escanear novamente";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Verificação de saída";
+"onfido_nfc_scan_error_document_title" = "Documento não suportado";
+"onfido_nfc_scan_error_document_subtitle" = "Por favor, tente com outro documento";
+"onfido_nfc_scan_error_document_primary_button" = "Escolha outro documento";
+"onfido_nfc_scan_error_document_secondary_button" = "Verificação de saída";
+"onfido_nfc_scan_error_device_title" = "Dispositivo não suportado";
+"onfido_nfc_scan_error_device_subtitle" = "Desculpe por qualquer inconveniente. Por favor, use um dispositivo diferente para verificar sua identidade";
+"onfido_nfc_scan_error_device_primary_button" = "Verificação de saída";
+"onfido_nfc_scan_sheet_passport_ready" = "Deslize lentamente o seu dispositivo por ambas as páginas";
+"onfido_nfc_scan_sheet_ready_scanning" = "Mantenha seu dispositivo e documento imóveis";
+"onfido_nfc_scan_sheet_error_1" = "Conexão perdida.";
+"onfido_nfc_scan_sheet_error_2" = "Não conseguimos digitalizar o seu documento";
+"onfido_nfc_scan_sheet_button" = "Cancelar";
+"onfido_nfc_scan_doc_selection_disclaimer" = "Aceitamos apenas documentos com um chip. Procure por este ícone no seu documento";
+"onfido_nfc_fail_card_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_fail_card_list_item_1" = "Remova todas as capas do seu dispositivo";
+"onfido_nfc_fail_card_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_fail_card_list_item_3" = "Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece";
+"onfido_nfc_fail_card_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
+"onfido_nfc_fail_card_button_primary" = "Tente escanear novamente";
+"onfido_nfc_scan_error_final_possible_card_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_scan_error_final_possible_card_list_item_1" = "Remova quaisquer capas do seu dispositivo";
+"onfido_nfc_scan_error_final_possible_card_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_scan_error_final_possible_card_list_item_3" = "Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a varredura possa ser concluída";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Tente digitalizar novamente";
+"onfido_nfc_scan_error_final_possible_card_secondary_button" = "Verifique sem digitalizar";
+"onfido_nfc_scan_error_final_required_card_title" = "Não conseguimos digitalizar este documento";
+"onfido_nfc_scan_error_final_required_card_list_item_1" = "Remova quaisquer capas do seu dispositivo";
+"onfido_nfc_scan_error_final_required_card_list_item_2" = "Mantenha seu dispositivo e documento em contato até que a digitalização seja bem-sucedida";
+"onfido_nfc_scan_error_final_required_card_list_item_3" = "Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece";
+"onfido_nfc_scan_error_final_required_card_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Tente escanear novamente";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Verificação de saída";
+"onfido_nfc_scan_sheet_card_ready" = "Deslize lentamente o seu documento para cima e para baixo";
+"onfido_nfc_scan_sheet_card_button" = "Cancelar";
+"onfido_nfc_scan_sheet_card_error_can" = "Número CAN incorreto";
+"onfido_nfc_scan_welcome_card_disclaimer" = "Você pode ser solicitado a inserir o CAN antes de continuar para a digitalização";
+"onfido_enter_can_secondary_button" = "Eu não tenho uma CAN";
+"onfido_enter_can_warning" = "Você tem %d %@ restantes";
+
+"onfido_otp_send_code_input_label" = "Número de telefone";
+"onfido_otp_send_code_error_invalid_phone_number" = "Por favor, forneça um número de telefone válido.";
+"onfido_otp_error_title" = "Algo deu errado";
+"onfido_otp_error_subtitle" = "Por favor, aguarde alguns segundos e tente novamente";
+"onfido_otp_error_cta" = "Voltar";
+"onfido_nfc_scan_error_can_title" = "Máximo de tentativas atingido";
+"onfido_nfc_scan_error_can_subtitle" = "Você atingiu o número máximo de tentativas para inserir o seu número CAN";
+"onfido_nfc_scan_error_can_primary_button" = "Verificação de saída";
