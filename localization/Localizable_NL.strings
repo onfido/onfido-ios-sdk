@@ -499,10 +499,10 @@
 "onfido_workflow_complete_reject_description" = "We hebben uw identiteit niet kunnen verifiëren...";
 "onfido_workflow_complete_reject_title" = "Afgewezen";
 "onfido_workflow_complete_pass_description" = "We hebben uw identiteit geverifieerd";
-"onfido_workflow_erros_task_not_supported" = "De taak wordt momenteel niet ondersteund";
-"onfido_workflow_erros_task_not_completed" = "Kon de workflow taak niet voltooien.";
-"onfido_workflow_erros_task_not_retrieved" = "Kon geen workflow taak ophalen.";
-"onfido_workflow_erros_no_workflow_run_id" = "Workflow run ID is niet ingesteld.";
+"onfido_workflow_erros_task_not_supported" = "Op dit moment wordt de taak niet ondersteund";
+"onfido_workflow_erros_task_not_completed" = "Het was niet mogelijk om de workflow taak te voltooien.";
+"onfido_workflow_erros_task_not_retrieved" = "Het was niet mogelijk om de workflow taak op te halen.";
+"onfido_workflow_erros_no_workflow_run_id" = "De ID van de workflow-run is niet ingesteld.";
 "onfido_workflow_erros_generic_title" = "Er was een server fout!";
 "onfido_workflow_erros_reload_app" = "Probeer de app opnieuw te laden en probeer het opnieuw.";
 "onfido_welcome_start_workflow_button" = "Start verificatie";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Afbeelding uploaden...";
 "onfido_interactive_task_waiting_title_3" = "Video uploaden...";
 "onfido_interactive_task_waiting_title_4" = "Controleren van datakwaliteit...";
-"onfido_interactive_task_waiting_subtitle_1" = "De verbinding is onstabiel. Wacht alstublieft iets langer tot de taak is voltooid.";
+"onfido_interactive_task_waiting_subtitle_1" = "Wacht alstublieft nog even, de taak is bijna voltooid.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Gegevens aan het compileren...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "We zijn de verzamelde gegevens aan het compileren, even geduld aub.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Gegevens beveiligen...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximaal aantal pogingen bereikt";
 "onfido_nfc_scan_error_can_subtitle" = "U heeft het maximale aantal pogingen bereikt om uw CAN-nummer in te voeren";
 "onfido_nfc_scan_error_can_primary_button" = "Uitgangsverificatie";
+"onfido_interactive_task_waiting_title_5" = "Media uploaden...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Opnieuw proberen";

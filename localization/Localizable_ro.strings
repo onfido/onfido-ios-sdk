@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "Țară sugerată";
 /* General */
 "onfido_video_intro_error_network" = "Imposibil de încărcat din cauza rețelei instabile";
-"onfido_country_select_bottom_sheet_details" = "Se pare că țara documentului pe care l-ați selectat nu este acceptată. Vă rugăm să selectați o altă țară.";
+"onfido_country_select_bottom_sheet_details" = "Se pare că țara asociată cu documentul pe care l-ați ales nu este suportată. Vă rugăm să alegeți o altă țară.";
 "onfido_country_select_bottom_sheet_title" = "Nu vă găsiți țara?";
 "onfido_doc_confirmation_button_primary" = "Trimiteți poză";
 /* Face capture */
@@ -207,7 +207,7 @@
 "onfido_nfc_select_button_primary_card" = "Utilizați cardul NFC";
 "onfido_nfc_select_button_secondary_card" = "Nu este un card NFC";
 
-"onfido_nfc_intro_title_passport" = "Scanează-ți pașaportul";
+"onfido_nfc_intro_title_passport" = "Scanați pașaportul";
 "onfido_nfc_intro_subtitle_passport" = "Folosiți telefonul pentru a scana cipul din pașaportul dumneavoastră";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Puneți pașaportul deschis pe o suprafață plană";
@@ -538,7 +538,7 @@
 "onfido_welcome_nfc_subtitle" = "";
 "onfido_welcome_nfc_list_header_nfc" = "";
 "onfido_welcome_nfc_list_item" = "";
-"onfido_welcome_nfc_list_item_2" = "Scanează-ți documentul";
+"onfido_welcome_nfc_list_item_2" = "Scanați documentul";
 "onfido_welcome_nfc_button_primary" = "Faceți o fotografie a documentului dvs.";
 "onfido_intro_scan_title" = "Scanați documentul dvs.";
 "onfido_intro_scan_subtitle" = "Urmați instrucțiunile de mai jos";
@@ -594,9 +594,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Semnalul audio este redat de altă aplicație";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Vă rugăm să nu redați semnal audio pe dispozitivul dvs. pe parcursul înregistrării video";
 
-"onfido_nfc_scan_welcome_card_title" = "Scanează-ți documentul";
+"onfido_nfc_scan_welcome_card_title" = "Scanați documentul";
 "onfido_nfc_scan_welcome_card_subtitle" = "Folosește-ți telefonul pentru a scana cipul din documentul tău";
-"onfido_nfc_scan_welcome_card_list_item" = "Puneți documentul dvs. împotriva partii din spate a dispozitivului dvs. astfel încât să se atingă";
+"onfido_nfc_scan_welcome_card_list_item" = "Puneți documentul dvs. împotriva părții din spate a dispozitivului dvs. astfel încât să se atingă";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Glisați încet documentul în sus și în jos pe dispozitiv până când începe scanarea";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza";
 "onfido_nfc_scan_welcome_card_button_primary" = "Începeți scanarea";
@@ -618,7 +618,7 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Folosește-ți telefonul pentru a scana cipul din documentul tău";
 "onfido_nfc_scan_welcome_passport_list_item" = "Așezați documentul pe o suprafață plană";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Deschideți documentul pe pagina interioară din spate";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Puneți documentul dvs. împotriva partii din spate a dispozitivului dvs. astfel încât să se atingă";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Puneți documentul dvs. împotriva părții din spate a dispozitivului dvs. astfel încât să se atingă";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Glisați încet dispozitivul în sus și în jos";
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Începeți scanarea";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Încărcare imagine...";
 "onfido_interactive_task_waiting_title_3" = "Încărcare video...";
 "onfido_interactive_task_waiting_title_4" = "Verificarea calității datelor...";
-"onfido_interactive_task_waiting_subtitle_1" = "Conexiunea este instabilă. Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.";
+"onfido_interactive_task_waiting_subtitle_1" = "Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilare date...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Compilăm datele colectate, vă rugăm să așteptați.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Securizarea datelor...";
@@ -685,8 +685,8 @@
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Verificare la ieșire";
 "onfido_nfc_scan_error_document_title" = "Documentul nu este suportat";
 "onfido_nfc_scan_error_document_subtitle" = "Vă rugăm să încercați cu un alt document";
-"onfido_nfc_scan_error_document_primary_button" = "Alegeți un alt document";
-"onfido_nfc_scan_error_document_secondary_button" = "Verificare la ieșire";
+"onfido_nfc_scan_error_document_primary_button" = "Ieșire din verificare";
+"onfido_nfc_scan_error_document_secondary_button" = "Ieșire din verificare";
 "onfido_nfc_scan_error_device_title" = "Dispozitiv nesuportat";
 "onfido_nfc_scan_error_device_subtitle" = "Ne pare rău pentru orice neplăcere. Vă rugăm să utilizați un alt dispozitiv pentru a vă verifica identitatea";
 "onfido_nfc_scan_error_device_primary_button" = "Verificare la ieșire";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Numărul maxim de încercări a fost atins";
 "onfido_nfc_scan_error_can_subtitle" = "Ați atins numărul maxim de încercări pentru introducerea numărului CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Verificare la ieșire";
+"onfido_interactive_task_waiting_title_5" = "Încărcare media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Încercați din nou";

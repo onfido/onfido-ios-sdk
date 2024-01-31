@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "กำลังอัปโหลดรูปภาพ...";
 "onfido_interactive_task_waiting_title_3" = "กำลังอัปโหลดวิดีโอ...";
 "onfido_interactive_task_waiting_title_4" = "กำลังตรวจสอบคุณภาพข้อมูล...";
-"onfido_interactive_task_waiting_subtitle_1" = "การเชื่อมต่อไม่เสถียร โปรดรอสักครู่ให้งานเสร็จสิ้น";
+"onfido_interactive_task_waiting_subtitle_1" = "โปรดรออีกสักครู่เพื่อให้งานเสร็จสมบูรณ์";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "กำลังรวบรวมข้อมูล...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "เรากำลังรวบรวมข้อมูลที่ได้รับ โปรดรอสักครู่";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "กำลังรักษาความปลอดภัยของข้อมูล...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "ถึงความพยายามสูงสุดแล้ว";
 "onfido_nfc_scan_error_can_subtitle" = "คุณได้พยายามใส่หมายเลข CAN ของคุณเกินจำนวนสูงสุดแล้ว";
 "onfido_nfc_scan_error_can_primary_button" = "การตรวจสอบการออก";
+"onfido_interactive_task_waiting_title_5" = "กำลังอัปโหลดสื่อ...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "ลองอีกครั้ง";

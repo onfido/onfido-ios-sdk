@@ -352,9 +352,9 @@
 "onfido_poa_guidance_instructions_issue_date" = "תאריך הנפקה או תקופת סיכום";
 "onfido_doc_select_subtitle_poa" = "אלה המסמכים שהכי סביר שיציגו את כתובת המגורים הנוכחית שלך";
 "onfido_doc_select_button_bill" = "חשבון חשמל";
-"onfido_doc_select_extra_estatements_ok" = "דוחות אלקטרוניים שהתקבלו";
+"onfido_doc_select_extra_estatements_ok" = "דוחות אלקטרוניים שייתקבלו";
 "onfido_doc_select_button_bill_detail" = "גז, חשמל, מים, טלפון קווי או פס רחב";
-"onfido_doc_select_extra_no_mobile" = "מצטערים, אין חשבונות טלפון נייד";
+"onfido_doc_select_extra_no_mobile" = "מצטערים, ללא חשבונות טלפון נייד";
 "onfido_poa_guidance_subtitle_bill" = "תאריך ההנפקה חייב להיות ב-3 החודשים האחרונים";
 "onfido_doc_select_button_bank_statement" = "הצהרת בנק או חברת בנייה";
 "onfido_poa_guidance_subtitle_bank_statement" = "תאריך ההנפקה חייב להיות ב-3 החודשים האחרונים";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "מעלה תמונה...";
 "onfido_interactive_task_waiting_title_3" = "מעלה סרטון...";
 "onfido_interactive_task_waiting_title_4" = "בודק את איכות הנתונים...";
-"onfido_interactive_task_waiting_subtitle_1" = "החיבור אינו יציב. אנא המתן קצת יותר עד שהמשימה תסתיים.";
+"onfido_interactive_task_waiting_subtitle_1" = "אנא המתן עוד קצת זמן עד שהמשימה תהיה מוכנה.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "מהדר נתונים...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "אנו מקבצים את הנתונים שנאספו, אנא המתן.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "מאבטח נתונים...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "הושג מספר הנסיונות המרבי";
 "onfido_nfc_scan_error_can_subtitle" = "הגעת למספר הניסיונות המרבי להזין את מספר ה-CAN שלך";
 "onfido_nfc_scan_error_can_primary_button" = "אימות יציאה";
+"onfido_interactive_task_waiting_title_5" = "מעלה מדיה...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "נסה שוב";

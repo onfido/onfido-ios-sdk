@@ -91,7 +91,7 @@
 "onfido_video_capture_header_challenge_turn_left" = "Gira la testa a sinistra";
 "onfido_video_capture_header_challenge_turn_right" = "Gira la testa a destra";
 "onfido_video_capture_prompt_button_primary_network_timeout" = "Ricarica le istruzioni";
-"onfido_video_capture_prompt_network_timeout_detail" = "Verifica che la connessione sia stabile e riprova";
+"onfido_video_capture_prompt_network_timeout_detail" = "Assicurati che la connessione sia stabile e prova di nuovo";
 "onfido_video_capture_prompt_network_timeout_title" = "Timeout di connessione";
 "onfido_video_intro_loader" = "Caricamento esempio";
 "onfido_video_intro_list_item_time_limit" = "Hai %d secondi per terminare";
@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "Paese suggerito";
 /* General */
 "onfido_video_intro_error_network" = "Caricamento non riuscito per instabilità di rete";
-"onfido_country_select_bottom_sheet_details" = "Sembra che il paese del documento che hai selezionato non sia supportato. Seleziona un paese diverso.";
+"onfido_country_select_bottom_sheet_details" = "Sembra che il paese del documento che hai scelto non sia supportato. Per favore, scegli un altro paese.";
 "onfido_country_select_bottom_sheet_title" = "Non trovi il tuo paese?";
 "onfido_doc_confirmation_button_primary" = "Invia foto";
 /* Face capture */
@@ -278,7 +278,7 @@
 "onfido_doc_upload_progress_label" = "Controllo qualità dell’immagine";
 "onfido_doc_capture_frame_success_accessibility" = "Immagine catturata";
 "onfido_generic_error_timeout_title" = "Timeout di connessione";
-"onfido_generic_error_timeout_detail" = "Verifica che la connessione sia stabile e riprova";
+"onfido_generic_error_timeout_detail" = "Assicurati che la connessione sia stabile e prova di nuovo";
 "onfido_generic_error_timeout_button_primary" = "Riprova";
 "onfido_generic_processing" = "Elaborazione";
 "onfido_video_capture_turn_success_accessibility" = "Rilevata svolta della testa";
@@ -500,9 +500,9 @@
 "onfido_workflow_complete_reject_title" = "Rifiutato";
 "onfido_workflow_complete_pass_description" = "Abbiamo verificato la vostra identità";
 "onfido_workflow_erros_task_not_supported" = "L'attività non è attualmente supportata";
-"onfido_workflow_erros_task_not_completed" = "Impossibile completare l'attività del flusso di lavoro.";
-"onfido_workflow_erros_task_not_retrieved" = "Impossibile recuperare l'attività del flusso di lavoro.";
-"onfido_workflow_erros_no_workflow_run_id" = "L'ID della corsa del flusso di lavoro non è impostato.";
+"onfido_workflow_erros_task_not_completed" = "Non è stato possibile completare l'attività del flusso di lavoro.";
+"onfido_workflow_erros_task_not_retrieved" = "Non è stato possibile recuperare l'attività del flusso di lavoro.";
+"onfido_workflow_erros_no_workflow_run_id" = "Non è stato impostato l'ID dell'esecuzione del flusso di lavoro.";
 "onfido_workflow_erros_generic_title" = "C'è stato un errore del server!";
 "onfido_workflow_erros_reload_app" = "Provare a ricaricare l'applicazione e riprovare.";
 "onfido_welcome_start_workflow_button" = "Inizia verifica";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Caricamento immagine...";
 "onfido_interactive_task_waiting_title_3" = "Caricamento video...";
 "onfido_interactive_task_waiting_title_4" = "Verifica della qualità dei dati...";
-"onfido_interactive_task_waiting_subtitle_1" = "La connessione è instabile. Si prega di attendere un po' più a lungo per il completamento del compito.";
+"onfido_interactive_task_waiting_subtitle_1" = "Si prega di attendere un po' di più per il completamento del compito.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilazione dei dati...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Stiamo compilando i dati raccolti, attendere prego.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Protezione dei dati in corso...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Numero massimo di tentativi raggiunto";
 "onfido_nfc_scan_error_can_subtitle" = "Hai raggiunto il numero massimo di tentativi per inserire il tuo numero CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Verifica dell'uscita";
+"onfido_interactive_task_waiting_title_5" = "Caricamento dei media in corso...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Riprova";

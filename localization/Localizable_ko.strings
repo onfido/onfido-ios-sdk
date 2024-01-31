@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "이미지 업로드 중...";
 "onfido_interactive_task_waiting_title_3" = "비디오 업로드 중...";
 "onfido_interactive_task_waiting_title_4" = "데이터 품질 확인 중...";
-"onfido_interactive_task_waiting_subtitle_1" = "연결이 불안정합니다. 작업이 완료되기까지 잠시만 기다려 주세요.";
+"onfido_interactive_task_waiting_subtitle_1" = "작업이 완료될 때까지 잠시만 더 기다려 주세요.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "데이터를 컴파일 중...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "우리는 수집된 데이터를 컴파일하고 있습니다, 기다려 주세요.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "데이터를 보호하는 중...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "최대 시도 횟수에 도달했습니다";
 "onfido_nfc_scan_error_can_subtitle" = "당신은 CAN 번호를 입력하는 최대 시도 횟수에 도달했습니다";
 "onfido_nfc_scan_error_can_primary_button" = "출구 검증";
+"onfido_interactive_task_waiting_title_5" = "미디어 업로드 중...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "재시도";

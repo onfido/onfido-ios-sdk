@@ -10,7 +10,7 @@
 "onfido_video_intro_video_accessibility" = "Beispielvideo von jemandem, der ein Selfie-Video aufnimmt. Um ein Selfie-Video aufzunehmen, richten Sie Ihr Gesicht zur Vorderkamera und halten Sie Ihr Smartphone etwas vom Gesicht entfernt. Anschließend müssen Sie einige Zahlen aufsagen und Ihren Kopf entsprechend den Anweisungen auf dem Bildschirm drehen.";
 "onfido_video_intro_button_pause_accessibility" = "Video anhalten";
 "onfido_video_intro_button_play_accessibility" = "Video abspielen";
-"onfido_country_select_list_header_all" = "Alle Länder";
+"onfido_country_select_list_header_all" = "Jedes Land";
 "onfido_doc_capture_alert_manual_capture_detail" = "Dokument ausrichten, dann Knopf drücken";
 /* Document autocapture */
 "onfido_doc_capture_alert_manual_capture_title" = "Versuchen Sie, das Foto manuell zu machen";
@@ -82,7 +82,7 @@
 /* Folded paper document capture */
 "onfido_app_title_doc_capture_id_it" = "Italienischer Personalausweis";
 "onfido_app_title_doc_capture_id_za" = "Südafrikanischer Personalausweis";
-"onfido_doc_select_button_generic" = "Dokument";
+"onfido_doc_select_button_generic" = "Unterlage";
 /* Document Types */
 "onfido_doc_select_button_visa" = "Visum";
 "onfido_doc_select_button_permit_work" = "Arbeitserlaubnis";
@@ -169,11 +169,11 @@
 "onfido_video_capture_button_primary_start" = "Aufnahme starten";
 "onfido_video_confirmation_button_primary" = "Video senden";
 /* Country selection */
-"onfido_country_select_list_header_suggested" = "Vorgeschlagenes Land";
+"onfido_country_select_list_header_suggested" = "Empfohlenes Land";
 /* General */
 "onfido_video_intro_error_network" = "Laden aufgrund eines instabilen Netzwerks nicht möglich";
 "onfido_country_select_bottom_sheet_details" = "Anscheinend wird das Land des ausgewählten Dokuments nicht unterstützt. Bitte wählen Sie ein anderes Land aus.";
-"onfido_country_select_bottom_sheet_title" = "Ihr Land ist nicht aufgeführt?";
+"onfido_country_select_bottom_sheet_title" = "Können Sie Ihr Land nicht finden?";
 "onfido_doc_confirmation_button_primary" = "Foto einreichen";
 /* Face capture */
 "onfido_welcome_subtitle" = "Es dauert nur wenige Minuten";
@@ -186,7 +186,7 @@
 "onfido_app_title_nfc_fail" = "Identität überprüfen";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Identität überprüfen";
-"onfido_app_title_country_select" = "Ausstellungsland auswählen";
+"onfido_app_title_country_select" = "Wählen Sie das Ausstellungsland";
 "onfido_app_title_selfie_intro" = "Identität überprüfen";
 "onfido_app_title_video_intro" = "Identität überprüfen";
 "onfido_app_title_permission" = "Identität überprüfen";
@@ -500,9 +500,9 @@
 "onfido_workflow_complete_reject_title" = "Abgelehnt";
 "onfido_workflow_complete_pass_description" = "Wir haben Ihre Identität überprüft";
 "onfido_workflow_erros_task_not_supported" = "Aufgabe wird derzeit nicht unterstützt";
-"onfido_workflow_erros_task_not_completed" = "Die Workflow-Aufgabe konnte nicht abgeschlossen werden.";
-"onfido_workflow_erros_task_not_retrieved" = "Workflow-Aufgabe konnte nicht abgerufen werden.";
-"onfido_workflow_erros_no_workflow_run_id" = "Die Workflow-Lauf-ID ist nicht gesetzt.";
+"onfido_workflow_erros_task_not_completed" = "Es war nicht möglich, die Workflow-Aufgabe abzuschließen.";
+"onfido_workflow_erros_task_not_retrieved" = "Es war nicht möglich, die Workflow-Aufgabe abzurufen.";
+"onfido_workflow_erros_no_workflow_run_id" = "Die ID des Workflow-Laufs ist nicht festgelegt.";
 "onfido_workflow_erros_generic_title" = "Es gab einen Serverfehler!";
 "onfido_workflow_erros_reload_app" = "Versuchen Sie bitte, die App neu zu laden, und versuchen Sie es erneut.";
 "onfido_welcome_start_workflow_button" = "Verifizierung beginnen";
@@ -651,7 +651,7 @@
 "onfido_interactive_task_waiting_title_2" = "Bild wird hochgeladen...";
 "onfido_interactive_task_waiting_title_3" = "Video wird hochgeladen...";
 "onfido_interactive_task_waiting_title_4" = "Überprüfung der Datenqualität...";
-"onfido_interactive_task_waiting_subtitle_1" = "Die Verbindung ist instabil. Bitte warten Sie noch ein wenig, bis die Aufgabe abgeschlossen ist.";
+"onfido_interactive_task_waiting_subtitle_1" = "Bitte haben Sie noch etwas Geduld, bis die Aufgabe abgeschlossen ist.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Daten werden zusammengestellt...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Wir kompilieren die gesammelten Daten, bitte warten Sie.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Daten sichern...";
@@ -714,7 +714,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Scannen erneut versuchen";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Ausgangsüberprüfung";
 "onfido_nfc_scan_sheet_card_ready" = "Schieben Sie Ihr Dokument langsam auf und ab";
 "onfido_nfc_scan_sheet_card_button" = "Abbrechen";
 "onfido_nfc_scan_sheet_card_error_can" = "Falsche CAN-Nummer";
@@ -730,3 +730,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximale Versuche erreicht";
 "onfido_nfc_scan_error_can_subtitle" = "Sie haben die maximale Anzahl an Versuchen erreicht, um Ihre CAN-Nummer einzugeben";
 "onfido_nfc_scan_error_can_primary_button" = "Ausgangsüberprüfung";
+"onfido_interactive_task_waiting_title_5" = "Medien hochladen...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Erneut versuchen";

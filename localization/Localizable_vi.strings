@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Đang tải lên hình ảnh...";
 "onfido_interactive_task_waiting_title_3" = "Đang tải video lên...";
 "onfido_interactive_task_waiting_title_4" = "Đang kiểm tra chất lượng dữ liệu...";
-"onfido_interactive_task_waiting_subtitle_1" = "Kết nối không ổn định. Vui lòng đợi thêm một chút để công việc hoàn thành.";
+"onfido_interactive_task_waiting_subtitle_1" = "Vui lòng đợi thêm một chút để công việc hoàn thành.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Đang biên dịch dữ liệu...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Chúng tôi đang tổng hợp dữ liệu đã thu thập, vui lòng đợi.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Đang bảo mật dữ liệu...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Đã đạt tới số lần thử tối đa";
 "onfido_nfc_scan_error_can_subtitle" = "Bạn đã đạt đến số lần thử nhập số CAN tối đa";
 "onfido_nfc_scan_error_can_primary_button" = "Xác minh thoát";
+"onfido_interactive_task_waiting_title_5" = "Đang tải lên phương tiện...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Thử lại";

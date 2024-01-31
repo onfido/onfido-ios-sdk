@@ -39,7 +39,7 @@
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Aktivér begge dele";
 "onfido_permission_button_primary_cam" = "Aktivér kamera";
-"onfido_permission_button_primary_mic" = "Aktivér mikrofon";
+"onfido_permission_button_primary_mic" = "Aktiver mikrofon";
 "onfido_permission_body_both" = "Vi kan ikke verificere dig uden at bruge både dit kamera og din mikrofon";
 "onfido_permission_body_cam" = "Vi kan ikke verificere dig uden dit kamera";
 "onfido_permission_body_mic" = "Vi kan ikke verificere dig uden at bruge din mikrofon";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Uploader billede...";
 "onfido_interactive_task_waiting_title_3" = "Uploader video...";
 "onfido_interactive_task_waiting_title_4" = "Kontrollerer datakvalitet...";
-"onfido_interactive_task_waiting_subtitle_1" = "Forbindelsen er ustabil. Vent venligst lidt længere for at opgaven kan blive færdig.";
+"onfido_interactive_task_waiting_subtitle_1" = "Vent venligst lidt længere, indtil opgaven er færdig.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi samler de indsamlede data, vent venligst.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Sikrer data...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimalt antal forsøg nået";
 "onfido_nfc_scan_error_can_subtitle" = "Du har nået det maksimale antal forsøg på at indtaste dit CAN-nummer";
 "onfido_nfc_scan_error_can_primary_button" = "Afslut verifikation";
+"onfido_interactive_task_waiting_title_5" = "Uploader medier...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Prøv igen";

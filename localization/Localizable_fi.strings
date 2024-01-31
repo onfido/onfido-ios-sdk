@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Kuvan lataaminen...";
 "onfido_interactive_task_waiting_title_3" = "Ladataan videota...";
 "onfido_interactive_task_waiting_title_4" = "Tarkistetaan tietojen laatua...";
-"onfido_interactive_task_waiting_subtitle_1" = "Yhteys on epävakaa. Odota hieman kauemmin, että tehtävä saadaan päätökseen.";
+"onfido_interactive_task_waiting_subtitle_1" = "Ole hyvä ja odota hieman pidempään, jotta tehtävä saadaan valmiiksi.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kokoaa tietoja...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kokoamme kerättyjä tietoja, odota hetki.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Turvataan tietoja...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimiyritysmäärä saavutettu";
 "onfido_nfc_scan_error_can_subtitle" = "Olet yrittänyt syöttää CAN-numeroasi maksimimäärän kertoja";
 "onfido_nfc_scan_error_can_primary_button" = "Poistumisvahvistus";
+"onfido_interactive_task_waiting_title_5" = "Ladataan mediaa...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Yritä uudelleen";

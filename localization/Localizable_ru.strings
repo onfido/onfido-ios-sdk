@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Загрузка изображения...";
 "onfido_interactive_task_waiting_title_3" = "Загрузка видео...";
 "onfido_interactive_task_waiting_title_4" = "Проверка качества данных...";
-"onfido_interactive_task_waiting_subtitle_1" = "Соединение нестабильно. Пожалуйста, подождите немного дольше, чтобы задача завершилась.";
+"onfido_interactive_task_waiting_subtitle_1" = "Пожалуйста, подождите немного дольше, чтобы задача завершилась.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компиляция данных...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Мы компилируем собранные данные, пожалуйста, подождите.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Защита данных...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Достигнуто максимальное количество попыток";
 "onfido_nfc_scan_error_can_subtitle" = "Вы достигли максимального числа попыток ввода вашего номера CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Выходная проверка";
+"onfido_interactive_task_waiting_title_5" = "Загрузка медиа...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Повторить";

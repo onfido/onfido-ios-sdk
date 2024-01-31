@@ -88,8 +88,8 @@
 "onfido_doc_select_button_permit_work" = "Աշխատանքի թույլտվություն";
 "onfido_video_capture_header_challenge_digit_instructions" = "Բարձրաձայն արտաբերեք յուրաքանչյուր թիվը";
 "onfido_video_capture_header_challenge_turn_forward" = "ապա դեմքով շրջվեք դեպի տեսախցիկը";
-"onfido_video_capture_header_challenge_turn_left" = "Գլուխը պտտեք դեպի ձախ ";
-"onfido_video_capture_header_challenge_turn_right" = "Գլուխը պտտեք դեպի աջ ";
+"onfido_video_capture_header_challenge_turn_left" = "Գլուխը պտտեք դեպի ձախ";
+"onfido_video_capture_header_challenge_turn_right" = "Գլուխը պտտեք դեպի աջ";
 "onfido_video_capture_prompt_button_primary_network_timeout" = "Վերբեռնման հրահանգներ";
 "onfido_video_capture_prompt_network_timeout_detail" = "Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք";
 "onfido_video_capture_prompt_network_timeout_title" = "Կապի սպասման ժամանակը";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Նկարը բեռնվում է...";
 "onfido_interactive_task_waiting_title_3" = "Վիդեոն բեռնվում է․․․";
 "onfido_interactive_task_waiting_title_4" = "Ստուգում ենք տվյալների որակը․․․";
-"onfido_interactive_task_waiting_subtitle_1" = "Կապը անվտանգ չէ։ Խնդրում ենք մի փոքր սպասել, որպեսզի առաջադրանքը ավարտվի։";
+"onfido_interactive_task_waiting_subtitle_1" = "Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Տվյալների կոմպիլյացիա...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Տվյալների ապահովում...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Մաքսիմալ փորձերը հասել են";
 "onfido_nfc_scan_error_can_subtitle" = "Դուք հասել եք ձեր CAN համարը մուտքագրելու առավելագույն փորձերին";
 "onfido_nfc_scan_error_can_primary_button" = "Ելքի հաստատում";
+"onfido_interactive_task_waiting_title_5" = "Մեդիայի բեռնում...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Կրկին փորձել";

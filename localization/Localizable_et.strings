@@ -651,7 +651,7 @@
 "onfido_interactive_task_waiting_title_2" = "Pildi üleslaadimine...";
 "onfido_interactive_task_waiting_title_3" = "Video üleslaadimine...";
 "onfido_interactive_task_waiting_title_4" = "Kontrollin andmete kvaliteeti...";
-"onfido_interactive_task_waiting_subtitle_1" = "Ühendus on ebastabiilne. Palun oodake natuke kauem, kuni ülesanne on lõpetatud.";
+"onfido_interactive_task_waiting_subtitle_1" = "Palun oodake veidi kauem, kuni ülesanne on lõpule viidud.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Andmete koostamine...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Me koondame kogutud andmeid, palun oodake.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Andmete turvamine...";
@@ -730,3 +730,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimaalne katsete arv on saavutatud";
 "onfido_nfc_scan_error_can_subtitle" = "Olete jõudnud oma CAN-numbri sisestamise maksimaalse katsete arvuni";
 "onfido_nfc_scan_error_can_primary_button" = "Väljumise kontroll";
+"onfido_interactive_task_waiting_title_5" = "Meedia üleslaadimine...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Proovige uuesti";

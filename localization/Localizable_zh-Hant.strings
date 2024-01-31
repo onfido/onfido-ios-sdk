@@ -144,7 +144,7 @@
 
 "onfido_generic_uploading" = "上傳中";
 "onfido_doc_confirmation_alert_no_doc_detail" = "請確保所有文件都在相片中";
-"onfido_selfie_confirmation_alert_no_face_detail" = "請確保您的臉部清晰可見";
+"onfido_selfie_confirmation_alert_no_face_detail" = "請確保您的臉不清晰可見";
 "onfido_selfie_confirmation_alert_multiple_faces_detail" = "只有您的臉部可以顯示在自拍照中";
 "onfido_doc_capture_alert_no_mrz_detail" = "請確保顯示出完整文件";
 /* Document Error */
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "正在上峰圖片...";
 "onfido_interactive_task_waiting_title_3" = "正在上傳影片...";
 "onfido_interactive_task_waiting_title_4" = "正在檢查數據質量...";
-"onfido_interactive_task_waiting_subtitle_1" = "連線不穩定。請稍等一會，讓任務完成。";
+"onfido_interactive_task_waiting_subtitle_1" = "請稍微等待一下，讓任務完成。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "正在編譯數據...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "我們正在彙總收集的數據，請稍候。";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "正在保護數據...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "已達到最大嘗試次數";
 "onfido_nfc_scan_error_can_subtitle" = "您已達到輸入CAN號碼的最大嘗試次數";
 "onfido_nfc_scan_error_can_primary_button" = "退出驗證";
+"onfido_interactive_task_waiting_title_5" = "正在上峰媒體...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "重試";

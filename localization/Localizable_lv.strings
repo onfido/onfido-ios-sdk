@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Augšupielādē attēlu...";
 "onfido_interactive_task_waiting_title_3" = "Augšupielādē video...";
 "onfido_interactive_task_waiting_title_4" = "Pārbauda datu kvalitāti...";
-"onfido_interactive_task_waiting_subtitle_1" = "Savienojums ir nestabils. Lūdzu, nedaudz ilgāk pagaidiet, līdz uzdevums tiks pabeigts.";
+"onfido_interactive_task_waiting_subtitle_1" = "Lūdzu, vēl nedaudz pagaidiet, kamēr uzdevums tiek pabeigts.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilē datus...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Mēs apkopojam savāktos datus, lūdzu, uzgaidiet.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Datu nodrošināšana...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimālais mēģinājumu skaits sasniegts";
 "onfido_nfc_scan_error_can_subtitle" = "Jūs esat sasniedzis maksimālo mēģinājumu skaitu, ievadot savu CAN numuru";
 "onfido_nfc_scan_error_can_primary_button" = "Izejas pārbaude";
+"onfido_interactive_task_waiting_title_5" = "Augšupielādē multividi...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Mēģināt vēlreiz";

@@ -207,12 +207,12 @@
 "onfido_nfc_select_button_primary_card" = "استخدام بطاقة NFC";
 "onfido_nfc_select_button_secondary_card" = "هذه ليست بطاقة NFC";
 
-"onfido_nfc_intro_title_passport" = "قم بمسح جواز سفرك";
+"onfido_nfc_intro_title_passport" = "قم بمسح ضوئي لجواز سفرك";
 "onfido_nfc_intro_subtitle_passport" = "استخدم هاتفك لمسح الرقاقة في جواز سفرك";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "ضع جواز سفرك مفتوحًا على سطح مستوي";
 "onfido_nfc_intro_passport_scan_guide_2" = "ضع هاتفك مباشرة فوق جواز سفرك حتى يكونا على اتصال مباشر";
-"onfido_nfc_intro_passport_scan_guide_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
+"onfido_nfc_intro_passport_scan_guide_3" = "قم بتحريك هاتفك ببطء على كلا الصفحتين حتى يبدأ عملية الفحص";
 "onfido_nfc_intro_passport_scan_guide_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
 
 "onfido_nfc_intro_button_primary_passport" = "بدء المسح الضوئي";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "جاري تحميل الصورة...";
 "onfido_interactive_task_waiting_title_3" = "جاري تحميل الفيديو...";
 "onfido_interactive_task_waiting_title_4" = "جارٍ التحقق من جودة البيانات...";
-"onfido_interactive_task_waiting_subtitle_1" = "الاتصال غير مستقر. يرجى الانتظار قليلاً حتى ينتهي العمل.";
+"onfido_interactive_task_waiting_subtitle_1" = "يرجى الانتظار لفترة أطول قليلاً حتى يتم الانتهاء من المهمة.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "جاري تجميع البيانات...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "تأمين البيانات...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "تم الوصول إلى الحد الأقصى للمحاولات";
 "onfido_nfc_scan_error_can_subtitle" = "لقد وصلت إلى الحد الأقصى لمحاولات إدخال رقم CAN الخاص بك";
 "onfido_nfc_scan_error_can_primary_button" = "التحقق من الخروج";
+"onfido_interactive_task_waiting_title_5" = "جاري تحميل الوسائط...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "إعادة المحاولة";
