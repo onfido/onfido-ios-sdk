@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Laster opp bilde...";
 "onfido_interactive_task_waiting_title_3" = "Laster opp video...";
 "onfido_interactive_task_waiting_title_4" = "Sjekker datakvalitet...";
-"onfido_interactive_task_waiting_subtitle_1" = "Tilkoblingen er ustabil. Vennligst vent litt lenger for at oppgaven skal bli ferdig.";
+"onfido_interactive_task_waiting_subtitle_1" = "Vennligst vent litt lenger for at oppgaven skal fullføres.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi samler inn dataene som er samlet inn, vennligst vent.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Sikrer data...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimal antall forsøk nådd";
 "onfido_nfc_scan_error_can_subtitle" = "Du har nådd maksimalt antall forsøk på å taste inn CAN-nummeret ditt";
 "onfido_nfc_scan_error_can_primary_button" = "Avslutt verifisering";
+"onfido_interactive_task_waiting_title_5" = "Laster opp media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Prøv igjen";

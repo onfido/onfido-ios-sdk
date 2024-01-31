@@ -10,7 +10,7 @@
 "onfido_video_intro_video_accessibility" = "Exemple de vidéo d’une personne enregistrant un selfie. Pour enregistrer une vidéo de votre visage, regardez la caméra frontale de votre mobile en le maintenant légèrement éloigné de votre visage. Vous allez ensuite devoir réciter une suite de chiffres et bouger la tête en fonction des instructions qui apparaîtront à l’écran.";
 "onfido_video_intro_button_pause_accessibility" = "Mettre la vidéo sur pause";
 "onfido_video_intro_button_play_accessibility" = "Lire la vidéo";
-"onfido_country_select_list_header_all" = "Tous les pays";
+"onfido_country_select_list_header_all" = "Toutes les nations";
 "onfido_doc_capture_alert_manual_capture_detail" = "Alignez le document, puis appuyez sur le bouton";
 /* Document autocapture */
 "onfido_doc_capture_alert_manual_capture_title" = "Essayez de prendre la photo manuellement";
@@ -82,10 +82,10 @@
 /* Folded paper document capture */
 "onfido_app_title_doc_capture_id_it" = "Carte d’identité italienne";
 "onfido_app_title_doc_capture_id_za" = "Carte d’identité sud-africaine";
-"onfido_doc_select_button_generic" = "Document";
+"onfido_doc_select_button_generic" = "Document d'identité";
 /* Document Types */
 "onfido_doc_select_button_visa" = "Visa";
-"onfido_doc_select_button_permit_work" = "Permis de travail";
+"onfido_doc_select_button_permit_work" = "Autorisation de travail";
 "onfido_video_capture_header_challenge_digit_instructions" = "Prononcez chaque chiffre à voix haute";
 "onfido_video_capture_header_challenge_turn_forward" = "puis regardez l’écran à nouveau";
 "onfido_video_capture_header_challenge_turn_left" = "Tournez votre visage vers la gauche";
@@ -169,11 +169,11 @@
 "onfido_video_capture_button_primary_start" = "Démarrer l’enregistrement";
 "onfido_video_confirmation_button_primary" = "Envoyer la vidéo";
 /* Country selection */
-"onfido_country_select_list_header_suggested" = "Pays suggéré";
+"onfido_country_select_list_header_suggested" = "Pays recommandé";
 /* General */
 "onfido_video_intro_error_network" = "Erreur de chargement car la connection est instable";
 "onfido_country_select_bottom_sheet_details" = "Il semble que le pays du document que vous avez sélectionné n'est pas pris en charge. Veuillez sélectionner un autre pays.";
-"onfido_country_select_bottom_sheet_title" = "Vous ne trouvez pas votre pays ?";
+"onfido_country_select_bottom_sheet_title" = "Votre pays est introuvable ?";
 "onfido_doc_confirmation_button_primary" = "Envoyer la photo";
 /* Face capture */
 "onfido_welcome_subtitle" = "Cela ne prendra que quelques minutes";
@@ -186,7 +186,7 @@
 "onfido_app_title_nfc_fail" = "Vérification d’identité";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Vérification d’identité";
-"onfido_app_title_country_select" = "Sélectionnez votre pays";
+"onfido_app_title_country_select" = "Choisissez le pays d'émission";
 "onfido_app_title_selfie_intro" = "Vérification d’identité";
 "onfido_app_title_video_intro" = "Vérification d’identité";
 "onfido_app_title_permission" = "Vérification d’identité";
@@ -409,7 +409,7 @@
 "onfido_doc_select_subtitle_country" = "Sélectionnez le pays émetteur pour voir quels documents nous acceptons";
 "onfido_doc_select_section_header_country" = "Pays émetteur";
 "onfido_doc_select_section_header_doc_type" = "Documents acceptés";
-"onfido_doc_select_section_input_placeholder_country" = "Sélectionnez votre pays";
+"onfido_doc_select_section_input_placeholder_country" = "Choisissez le pays d'émission";
 "onfido_doc_select_subtitle_entire_page" = "Page entière";
 "onfido_doc_select_subtitle_photo_page" = "Page de photos";
 "onfido_doc_select_subtitle_front_back" = "Avant et arrière";
@@ -500,9 +500,9 @@
 "onfido_workflow_complete_reject_title" = "Rejeté";
 "onfido_workflow_complete_pass_description" = "Nous avons vérifié votre identité";
 "onfido_workflow_erros_task_not_supported" = "La tâche n'est actuellement pas prise en charge";
-"onfido_workflow_erros_task_not_completed" = "Impossible d'achever la tâche du flux de travail.";
-"onfido_workflow_erros_task_not_retrieved" = "Impossible de récupérer la tâche du flux de travail.";
-"onfido_workflow_erros_no_workflow_run_id" = "L'ID d'exécution du flux de travail n'est pas défini.";
+"onfido_workflow_erros_task_not_completed" = "La tâche du flux de travail n'a pas pu être complétée.";
+"onfido_workflow_erros_task_not_retrieved" = "La tâche du flux de travail n'a pas pu être récupérée.";
+"onfido_workflow_erros_no_workflow_run_id" = "L'identifiant de l'exécution du flux de travail n'est pas défini.";
 "onfido_workflow_erros_generic_title" = "Il y a eu une erreur de serveur !";
 "onfido_workflow_erros_reload_app" = "Veuillez essayer de recharger l'application, et réessayer.";
 "onfido_welcome_start_workflow_button" = "Commencer la vérification";
@@ -643,7 +643,7 @@
 
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Capture d'écran détectée";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Essayez d'enregistrer la vidéo manuellement";
-"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Photo de l'écran détectée";
+"onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Photo d'écran detectée";
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Photocopie détectée";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scan détecté";
 "onfido_doc_confirmation_alert_odp_detail" = "Veuillez utiliser votre document original. Les photos d'écran ou les photocopies ne sont pas acceptées";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Téléchargement de l'image...";
 "onfido_interactive_task_waiting_title_3" = "Téléchargement de la vidéo...";
 "onfido_interactive_task_waiting_title_4" = "Vérification de la qualité des données...";
-"onfido_interactive_task_waiting_subtitle_1" = "La connexion est instable. Veuillez attendre un peu plus longtemps pour que la tâche se termine.";
+"onfido_interactive_task_waiting_subtitle_1" = "Veuillez patienter un peu plus longtemps pour que la tâche soit terminée.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilation des données...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Nous compilons les données collectées, veuillez patienter.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Sécurisation des données...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Nombre maximum de tentatives atteint";
 "onfido_nfc_scan_error_can_subtitle" = "Vous avez atteint le nombre maximum de tentatives pour entrer votre numéro CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Sortie de vérification";
+"onfido_interactive_task_waiting_title_5" = "Téléchargement de médias...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Réessayer";

@@ -2,7 +2,7 @@
 "onfido_selfie_capture_button_accessibility" = "Кнопка зйомки";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "Увімкніть камеру";
-"onfido_selfie_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді натисніть кнопку зйомки";
+"onfido_selfie_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді натисніть кнопку знімання";
 "onfido_video_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді розпочніть зйомку.";
 "onfido_selfie_confirmation_image_accessibility" = "Фотографія вашого обличчя";
 "onfido_video_capture_frame_success_accessibility" = "Обличчя виявлено. Запис розпочався.";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Завантаження зображення...";
 "onfido_interactive_task_waiting_title_3" = "Завантаження відео...";
 "onfido_interactive_task_waiting_title_4" = "Перевірка якості даних...";
-"onfido_interactive_task_waiting_subtitle_1" = "З'єднання нестабільне. Будь ласка, зачекайте трохи довше, щоб завдання завершилося.";
+"onfido_interactive_task_waiting_subtitle_1" = "Будь ласка, зачекайте трохи довше, щоб завдання завершилося.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компіляція даних...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Ми обробляємо зібрані дані, будь ласка, зачекайте.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Забезпечення даних...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Максимальна кількість спроб досягнута";
 "onfido_nfc_scan_error_can_subtitle" = "Ви досягли максимальної кількості спроб ввести свій номер CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Вихідна верифікація";
+"onfido_interactive_task_waiting_title_5" = "Завантаження медіа...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Повторити";

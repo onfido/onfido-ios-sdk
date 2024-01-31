@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "País sugerido";
 /* General */
 "onfido_video_intro_error_network" = "Incapaz de carregar devido à rede instável";
-"onfido_country_select_bottom_sheet_details" = "Parece que o país do documento que você selecionou não é compatível. Selecione um país diferente.";
+"onfido_country_select_bottom_sheet_details" = "Parece que o país do documento que escolheu não é suportado. Por favor, escolha um país diferente.";
 "onfido_country_select_bottom_sheet_title" = "Não consegue encontrar o seu país?";
 "onfido_doc_confirmation_button_primary" = "Enviar fotografia";
 /* Face capture */
@@ -500,9 +500,9 @@
 "onfido_workflow_complete_reject_title" = "Rejeitado";
 "onfido_workflow_complete_pass_description" = "Verificámos a sua identidade";
 "onfido_workflow_erros_task_not_supported" = "A tarefa não é actualmente suportada";
-"onfido_workflow_erros_task_not_completed" = "Não foi possível completar a tarefa de fluxo de trabalho.";
-"onfido_workflow_erros_task_not_retrieved" = "Não foi possível recuperar a tarefa de fluxo de trabalho.";
-"onfido_workflow_erros_no_workflow_run_id" = "O ID de execução do fluxo de trabalho não está definido.";
+"onfido_workflow_erros_task_not_completed" = "Não foi possível finalizar a tarefa do fluxo de trabalho.";
+"onfido_workflow_erros_task_not_retrieved" = "Não foi possível obter a tarefa do fluxo de trabalho.";
+"onfido_workflow_erros_no_workflow_run_id" = "O ID da execução do fluxo de trabalho não foi definido.";
 "onfido_workflow_erros_generic_title" = "Houve um erro no servidor!";
 "onfido_workflow_erros_reload_app" = "Por favor, tente recarregar a aplicação, e tente novamente.";
 "onfido_welcome_start_workflow_button" = "Iniciar a verificação";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Carregando imagem...";
 "onfido_interactive_task_waiting_title_3" = "Fazendo upload do vídeo...";
 "onfido_interactive_task_waiting_title_4" = "Verificando a qualidade dos dados...";
-"onfido_interactive_task_waiting_subtitle_1" = "A conexão está instável. Por favor, aguarde um pouco mais para a tarefa terminar.";
+"onfido_interactive_task_waiting_subtitle_1" = "Por favor, aguarde um pouco mais para que a tarefa seja concluída.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilando dados...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Estamos compilando os dados coletados, por favor aguarde.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Protegendo os dados...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Máximo de tentativas atingido";
 "onfido_nfc_scan_error_can_subtitle" = "Você atingiu o número máximo de tentativas para inserir o seu número CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Verificação de saída";
+"onfido_interactive_task_waiting_title_5" = "Carregando mídia...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Tentar novamente";

@@ -90,7 +90,7 @@
 "onfido_video_capture_header_challenge_turn_forward" = "και, στη συνέχεια, κοιτάξτε προς τα εμπρός";
 "onfido_video_capture_header_challenge_turn_left" = "Γυρίστε το κεφάλι σας προς τα αριστερά";
 "onfido_video_capture_header_challenge_turn_right" = "Γυρίστε το κεφάλι σας προς τα δεξιά";
-"onfido_video_capture_prompt_button_primary_network_timeout" = "Επαναφόρτωση οδηγιών";
+"onfido_video_capture_prompt_button_primary_network_timeout" = "Επαναφορτίσω οδηγιών";
 "onfido_video_capture_prompt_network_timeout_detail" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
 "onfido_video_capture_prompt_network_timeout_title" = "Λήξη χρονικού ορίου σύνδεσης";
 "onfido_video_intro_loader" = "Παράδειγμα φόρτωσης";
@@ -153,7 +153,7 @@
 "onfido_selfie_confirmation_alert_multiple_faces_title" = "Βρέθηκαν πολλά πρόσωπα";
 "onfido_doc_capture_prompt_title_id" = "Τι είδους δελτίο ταυτότητας έχετε;";
 "onfido_video_capture_button_primary_fallback" = "Επόμενο βήμα";
-"onfido_doc_confirmation_alert_no_doc_title" = "Δεν βρέθηκε έγγραφο";
+"onfido_doc_confirmation_alert_no_doc_title" = "Δε βρέθηκε έγγραφο";
 /* Face error */
 "onfido_selfie_confirmation_alert_no_face_title" = "Δεν ανιχνεύτηκε πρόσωπο";
 "onfido_generic_alert_network_error_button_primary" = "OK";
@@ -161,7 +161,7 @@
 "onfido_info_tablet_orientation_title" = "Περιστρέψτε το iPad σας";
 "onfido_info_tablet_orientation_body" = "Το κουμπί θα πρέπει να βρίσκεται στο κάτω μέρος της οθόνης";
 "onfido_doc_capture_prompt_button_card" = "Πλαστικό δελτίο";
-"onfido_video_intro_prompt_button_primary_reload_player" = "Επαναφόρτωση";
+"onfido_video_intro_prompt_button_primary_reload_player" = "Επαναφορτίσω";
 "onfido_video_confirmation_button_secondary" = "Επανάληψη λήψης βίντεο";
 "onfido_video_capture_prompt_button_timeout" = "Προσπαθήστε ξανά";
 "onfido_country_select_bottom_sheet_link_doc_select" = "Επιλέξτε άλλο έγγραφο";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Μεταφόρτωση εικόνας...";
 "onfido_interactive_task_waiting_title_3" = "Μεταφόρτωση βίντεο...";
 "onfido_interactive_task_waiting_title_4" = "Έλεγχος ποιότητας δεδομένων...";
-"onfido_interactive_task_waiting_subtitle_1" = "Η σύνδεση είναι ασταθής. Παρακαλώ περιμένετε λίγο περισσότερο για να ολοκληρωθεί η εργασία.";
+"onfido_interactive_task_waiting_subtitle_1" = "Παρακαλώ περιμένετε λίγο περισσότερο για την ολοκλήρωση της εργασίας.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Συγκεντρώνοντας δεδομένα...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Ασφάλιση δεδομένων...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Επιτεύχθηκαν οι μέγιστες προσπάθειες";
 "onfido_nfc_scan_error_can_subtitle" = "Έχετε φτάσει στον μέγιστο αριθμό προσπαθειών για την εισαγωγή του αριθμού CAN σας";
 "onfido_nfc_scan_error_can_primary_button" = "Έξοδος επαλήθευσης";
+"onfido_interactive_task_waiting_title_5" = "Μεταφόρτωση πολυμέσων...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Προσπαθήστε ξανά";

@@ -211,7 +211,7 @@
 "onfido_nfc_intro_subtitle_passport" = "Use your phone to scan the chip in your passport";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Lay your passport opened on a flat surface";
-"onfido_nfc_intro_passport_scan_guide_2" = "Place your phone directly on top of your passport so they’re touching";
+"onfido_nfc_intro_passport_scan_guide_2" = "Place your phone directly on top of your passport, so they’re touching";
 "onfido_nfc_intro_passport_scan_guide_3" = "Slowly slide your phone across both pages until the scan starts";
 "onfido_nfc_intro_passport_scan_guide_4" = "Once the scan starts, hold still so the scanning can complete";
 
@@ -362,7 +362,7 @@
 "onfido_doc_select_button_tax_letter" = "Council Tax Letter";
 "onfido_poa_guidance_subtitle_tax_letter" = "Must have been issued in the last 12 months";
 "onfido_doc_select_button_benefits_letter" = "Benefits Letter";
-"onfido_doc_select_button_benefits_letter_detail" = "Government authorised household benefits eg. Jobseeker allowance, Housing benefit, Tax credits";
+"onfido_doc_select_button_benefits_letter_detail" = "Government authorized household benefits e.g. Job seeker allowance, Housing benefit, Tax credits";
 "onfido_poa_guidance_subtitle_benefits_letter" = "Must have been issued in the last 12 months";
 "onfido_poa_guidance_button_primary" = "Continue";
 "onfido_livenessV2_intro_subtitle" = "This is to verify that you’re a real person";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Uploading image...";
 "onfido_interactive_task_waiting_title_3" = "Uploading video...";
 "onfido_interactive_task_waiting_title_4" = "Checking data quality...";
-"onfido_interactive_task_waiting_subtitle_1" = "The connection is unstable. Please wait a little longer for the task to finish.";
+"onfido_interactive_task_waiting_subtitle_1" = "Please wait a little longer for the task to finish.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compiling data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "We are compiling the data collected, please wait.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Securing data...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximum attempts reached";
 "onfido_nfc_scan_error_can_subtitle" = "You’ve reached the maximum attempts to enter your CAN number";
 "onfido_nfc_scan_error_can_primary_button" = "Exit verification";
+"onfido_interactive_task_waiting_title_5" = "Uploading media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Retry";

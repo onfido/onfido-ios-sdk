@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "正在上传图片...";
 "onfido_interactive_task_waiting_title_3" = "正在上传视频...";
 "onfido_interactive_task_waiting_title_4" = "正在检查数据质量...";
-"onfido_interactive_task_waiting_subtitle_1" = "连接不稳定。请稍等一会，等待任务完成。";
+"onfido_interactive_task_waiting_subtitle_1" = "请稍微等待一下，让任务完成。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "正在编译数据...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "我们正在整理收集的数据，请等待。";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "正在保护数据...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "已达到最大尝试次数";
 "onfido_nfc_scan_error_can_subtitle" = "您已达到输入CAN号码的最大尝试次数";
 "onfido_nfc_scan_error_can_primary_button" = "退出验证";
+"onfido_interactive_task_waiting_title_5" = "正在上传媒体...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "重试";

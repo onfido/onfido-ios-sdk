@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.7.0] - 2024-01-18
+
+### Changed
+
+- Improved image icon color in dark mode on Motion's no face detected screen
+
+### Fixed
+
+- Fixed rare crash when opening document capture
+- Fixed infinite loading when the back button of the camera permission screen is pressed
+- Fixed Motion crash that can occasionally occur when user fails to complete head turn within the required timeframe, usually after multiple attempts
+
 ## [29.6.0] - 2023-11-14
 
 ### Added

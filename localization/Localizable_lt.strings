@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "Siūloma šalis";
 /* General */
 "onfido_video_intro_error_network" = "Nepavyksta įkelti dėl nestabilaus tinklo";
-"onfido_country_select_bottom_sheet_details" = "Atrodo, kad jūsų pasirinkta dokumento šalis nepalaikoma. Pasirinkite kitą šalį.";
+"onfido_country_select_bottom_sheet_details" = "Panašu, kad ieškoma šalis nepalaikoma. Pasirinkite kitą šalį.";
 "onfido_country_select_bottom_sheet_title" = "Nerandate savo šalies?";
 "onfido_doc_confirmation_button_primary" = "Pateikti nuotrauką";
 /* Face capture */
@@ -286,7 +286,7 @@
 "onfido_welcome_list_item_doc_photo" = "Nufotografuosite savo asmens tapatybės dokumentą";
 "onfido_welcome_list_item_doc_generic" = "Įrašykite vaizdo įrašą su savo asmens tapatybės dokumentu";
 "onfido_welcome_list_item_face_photo" = "Nufotografuosite savo veidą";
-"onfido_welcome_list_item_face_video" = "Padarysite savo veido vaizdo įrašą";
+"onfido_welcome_list_item_face_video" = "Padaryti savo veido vaizdo įrašą";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Laikykite telefoną virš dokumento";
 "onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "Nerastas joks dokumentas. Laikykite telefoną virš dokumento.";
 "onfido_doc_capture_header_live_guidance_distance_close" = "Dokumentas per arti";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento nuotraukos pusė būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vaizdas iš kameros. Pasirūpinkite, kad dokumento išoriniai puslapiai būtų rėmelyje, tada bakstelėkite užrakto mygtuką";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Laikykite telefoną netoli paso vidurio";
-"onfido_avc_intro_title_accessibility" = "Padarysite savo veido vaizdo įrašą";
+"onfido_avc_intro_title_accessibility" = "Padaryti savo veido vaizdo įrašą";
 "onfido_avc_intro_video_accessibility" = "Vaizdo įrašo, kaip žmogus sukinėja galvą į abi puses iki pabaigos, pavyzdys";
 "onfido_avc_face_capture_frame_accessibility" = "Vaizdas iš asmenukių kameros";
 "onfido_avc_face_capture_title_accessibility" = "Lėtai pasukite galvą į abi puses. Kai pusė bus baigta, išgirsite patvirtinimą ir pajusite vibraciją";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Įkeliamas vaizdas...";
 "onfido_interactive_task_waiting_title_3" = "Įkeliamas vaizdo įrašas...";
 "onfido_interactive_task_waiting_title_4" = "Tikrinama duomenų kokybė...";
-"onfido_interactive_task_waiting_subtitle_1" = "Ryšys yra nestabilus. Prašome palaukti šiek tiek ilgiau, kol užduotis bus baigta.";
+"onfido_interactive_task_waiting_subtitle_1" = "Prašome dar šiek tiek palaukti, kol užduotis bus atlikta.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompiliuojami duomenys...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Mes surinkome surinktus duomenis, prašome palaukti.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Apsaugojama informacija...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimalus bandymų skaičius pasiektas";
 "onfido_nfc_scan_error_can_subtitle" = "Jūs pasiekėte maksimalų bandymų įvesti savo CAN numerį";
 "onfido_nfc_scan_error_can_primary_button" = "Išėjimo patikrinimas";
+"onfido_interactive_task_waiting_title_5" = "Įkeliamas turinys...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Bandyti dar kartą";

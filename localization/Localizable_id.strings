@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Mengunggah gambar...";
 "onfido_interactive_task_waiting_title_3" = "Mengunggah video...";
 "onfido_interactive_task_waiting_title_4" = "Memeriksa kualitas data...";
-"onfido_interactive_task_waiting_subtitle_1" = "Koneksi tidak stabil. Harap tunggu sedikit lebih lama untuk menyelesaikan tugas.";
+"onfido_interactive_task_waiting_subtitle_1" = "Harap bersabar sebentar lagi sampai tugas selesai.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Mengkompilasi data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kami sedang mengkompilasi data yang dikumpulkan, harap tunggu.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Mengamankan data...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maksimal upaya telah dicapai";
 "onfido_nfc_scan_error_can_subtitle" = "Anda telah mencapai batas maksimum percobaan untuk memasukkan nomor CAN Anda";
 "onfido_nfc_scan_error_can_primary_button" = "Verifikasi keluar";
+"onfido_interactive_task_waiting_title_5" = "Mengunggah media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Coba lagi";

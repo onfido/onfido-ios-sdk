@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Качване на изображение...";
 "onfido_interactive_task_waiting_title_3" = "Качване на видео...";
 "onfido_interactive_task_waiting_title_4" = "Проверка на качеството на данните...";
-"onfido_interactive_task_waiting_subtitle_1" = "Връзката е нестабилна. Моля, изчакайте малко повече време за завършване на задачата.";
+"onfido_interactive_task_waiting_subtitle_1" = "Моля, имайте още малко търпение, докато задачата приключи.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компилиране на данни...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Компилираме събраните данни, моля изчакайте.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Сигурност на данните...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Достигнати са максимални опити";
 "onfido_nfc_scan_error_can_subtitle" = "Достигнахте максималния брой опити за въвеждане на вашия CAN номер";
 "onfido_nfc_scan_error_can_primary_button" = "Изходна верификация";
+"onfido_interactive_task_waiting_title_5" = "Качване на медия...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Повторен опит";

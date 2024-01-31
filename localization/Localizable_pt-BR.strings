@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Carregando imagem...";
 "onfido_interactive_task_waiting_title_3" = "Fazendo upload do vídeo...";
 "onfido_interactive_task_waiting_title_4" = "Verificando a qualidade dos dados...";
-"onfido_interactive_task_waiting_subtitle_1" = "A conexão está instável. Por favor, aguarde um pouco mais para a tarefa terminar.";
+"onfido_interactive_task_waiting_subtitle_1" = "Por favor, aguarde um pouco mais para que a tarefa seja concluída.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilando dados...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Estamos compilando os dados coletados, por favor aguarde.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Protegendo os dados...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Máximo de tentativas atingido";
 "onfido_nfc_scan_error_can_subtitle" = "Você atingiu o número máximo de tentativas para inserir seu número CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Verificação de saída";
+"onfido_interactive_task_waiting_title_5" = "Fazendo upload de mídia...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Tentar novamente";

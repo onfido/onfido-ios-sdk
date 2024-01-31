@@ -285,7 +285,7 @@
 "onfido_welcome_list_header" = "Usa tu dispositivo para:";
 "onfido_welcome_list_item_doc_photo" = "Tomar una foto de tu documento de identidad";
 "onfido_welcome_list_item_doc_generic" = "Graba un video de tu documento de identidad";
-"onfido_welcome_list_item_face_photo" = "Tomar una foto de tu rostro";
+"onfido_welcome_list_item_face_photo" = "Tome una foto de su cara";
 "onfido_welcome_list_item_face_video" = "Grabar un video de tu rostro";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Sostén tu teléfono sobre el documento";
 "onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "No se encontró ningún documento. Sostén tu teléfono sobre el documento.";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Subiendo imagen...";
 "onfido_interactive_task_waiting_title_3" = "Subiendo video...";
 "onfido_interactive_task_waiting_title_4" = "Verificando la calidad de los datos...";
-"onfido_interactive_task_waiting_subtitle_1" = "La conexión es inestable. Por favor, espere un poco más para que la tarea termine.";
+"onfido_interactive_task_waiting_subtitle_1" = "Por favor, espere un poco más para que la tarea termine.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilando datos...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Estamos compilando los datos recopilados, por favor espera.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Asegurando los datos...";
@@ -715,7 +715,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Deslice lentamente su documento hacia arriba y hacia abajo contra el dispositivo hasta que comience el escaneo";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Volver a intentar el escaneo";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Verificación de salida";
 "onfido_nfc_scan_sheet_card_ready" = "Deslice lentamente su documento hacia arriba y hacia abajo";
 "onfido_nfc_scan_sheet_card_button" = "Cancelar";
 "onfido_nfc_scan_sheet_card_error_can" = "Número de CAN incorrecto";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Se alcanzó el máximo de intentos";
 "onfido_nfc_scan_error_can_subtitle" = "Has alcanzado el máximo de intentos para ingresar tu número CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Verificación de salida";
+"onfido_interactive_task_waiting_title_5" = "Subiendo medios...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Volver a intentar";

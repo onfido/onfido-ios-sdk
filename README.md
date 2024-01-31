@@ -20,7 +20,7 @@
     * [Flow customization](#flow-customization)
     * [UI customization](#ui-customization)
     * [Language customization](#language-customization)
-* [Creating checks](#creating-checks)
+* [Generating verification reports](#generating-verification-reports)
 * [User Analytics](#user-analytics)
 * [Going live](#going-live)
 * [Migrating](#migrating)
@@ -28,6 +28,7 @@
 * [Accessibility](#accessibility)
 * [Licensing](#licensing)
 * [More information](#more-information)
+* [Raise support issue](#support)
 
 ## Overview
 
@@ -42,8 +43,7 @@ It offers a number of benefits to help you create the best identity verification
   Onfido identity verification process, guaranteeing the best success rate
 - Direct image upload to the Onfido service, to simplify integration
 
-⚠️ Note: The SDK is only responsible for capturing and uploading photos and videos. You still need to access
-the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
+⚠️ Note: The SDK is only responsible for capturing and uploading document photos, live selfies, live videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) to build verification workflows.
 
 ![Capture Document and face](assets/Overview.png)
 
@@ -1476,24 +1476,18 @@ responsible for testing your translated layout.
 
 If you want a language translated you can get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com)
 
-## Creating checks
+## Generating verification reports
 
-The SDK is responsible for the capture of identity documents and selfie photos and videos. It doesn't perform any checks
-against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage
-applicants and perform checks.
+While the SDK is responsible for capturing and uploading document photos, live selfies, live videos and motion captures, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product). 
 
-For a walkthrough of how to create a check with a Document and Facial Similarity report using the iOS SDK read
-our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
+For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://developers.onfido.com/guide/quick-start-guide).
 
-Read our API documentation for further details on how
-to [create a check](https://documentation.onfido.com/#create-check) with the Onfido API.
+Alternatively, you can [create checks](https://documentation.onfido.com/#create-check) and [retrieve report results](https://documentation.onfido.com/#retrieve-report) manually using the Onfido API. You can also configure [webhooks](https://documentation.onfido.com/#webhooks) to be notified asynchronously of report results.
 
-**Note**: If you're testing with a sandbox token, please be aware that the results are pre-determined. You can learn
-more about [sandbox responses](https://documentation.onfido.com/#pre-determined-responses).
+**Note**: If you're using API v2 for API calls, please refer to the [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) for more information.
 
-**Note**: If you're using API v2, please refer to
-the [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) for
-more information.
+**Note**: If you're testing with a sandbox token, please be aware that report results are pre-determined. You can learn
+more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
 
 ### Setting up webhooks
 
@@ -1700,7 +1694,7 @@ print(mitLicenseFileContents)
 We have included sample apps to show how to integrate with the Onfido iOS SDK using both Swift and Objective-C. See
 the `SampleApp` and `SampleAppObjC` directories for more information.
 
-### Support
+## Support
 
 Should you encounter any technical issues during integration, please contact Onfido’s Customer Support team
 via [email](mailto:support@onfido.com), including the word ISSUE: at the start of the subject line.

@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "छवि अपलोड कर रहे हैं...";
 "onfido_interactive_task_waiting_title_3" = "वीडियो अपलोड कर रहा है...";
 "onfido_interactive_task_waiting_title_4" = "डेटा की गुणवत्ता जांच रहे हैं...";
-"onfido_interactive_task_waiting_subtitle_1" = "कनेक्शन अस्थिर है। कृपया कार्य समाप्त होने के लिए थोड़ा और इंतजार करें।";
+"onfido_interactive_task_waiting_subtitle_1" = "कार्य समाप्त होने के लिए कृपया थोड़ा और धैर्य रखें।";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "डेटा संकलित कर रहा है...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "हम संग्रहित डेटा को संकलित कर रहे हैं, कृपया प्रतीक्षा करें।";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "डेटा सुरक्षित कर रहा है...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "अधिकतम प्रयास पूरे हो गए";
 "onfido_nfc_scan_error_can_subtitle" = "आपने अपना CAN नंबर दर्ज करने की अधिकतम कोशिशें पूरी कर दी हैं";
 "onfido_nfc_scan_error_can_primary_button" = "बाहर निकलने की सत्यापन";
+"onfido_interactive_task_waiting_title_5" = "मीडिया अपलोड कर रहा है...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "फिर से कोशिश करें";

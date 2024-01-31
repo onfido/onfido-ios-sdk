@@ -91,7 +91,7 @@
 "onfido_video_capture_header_challenge_turn_left" = "Obróć głowę w lewo";
 "onfido_video_capture_header_challenge_turn_right" = "Obróć głowę w prawo";
 "onfido_video_capture_prompt_button_primary_network_timeout" = "Uruchom ponownie instrukcję";
-"onfido_video_capture_prompt_network_timeout_detail" = "Sprawdź, czy Twoje połączenie z internetem jest stabilne, a następnie spróbuj ponownie";
+"onfido_video_capture_prompt_network_timeout_detail" = "Upewnij się, że Twoje połączenie z internetem jest stabilne, a następnie spróbuj ponownie";
 "onfido_video_capture_prompt_network_timeout_title" = "Limit czasu połączenia";
 "onfido_video_intro_loader" = "Ładowanie przykładu";
 "onfido_video_intro_list_item_time_limit" = "Masz %d s na zakończenie działania";
@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "Sugerowany kraj";
 /* General */
 "onfido_video_intro_error_network" = "Nie można załadować z powodu niestabilnego połączenia";
-"onfido_country_select_bottom_sheet_details" = "Wygląda na to, że kraj wybranego dokumentu nie jest obsługiwany. Wybierz inny kraj.";
+"onfido_country_select_bottom_sheet_details" = "Zdaje się, że kraj wybranego dokumentu nie jest wspierany. Proszę wybrać inny kraj.";
 "onfido_country_select_bottom_sheet_title" = "Nie możesz znaleźć swojego kraju?";
 "onfido_doc_confirmation_button_primary" = "Prześlij zdjęcie";
 /* Face capture */
@@ -278,7 +278,7 @@
 "onfido_doc_upload_progress_label" = "Sprawdzanie jakości obrazu";
 "onfido_doc_capture_frame_success_accessibility" = "Zdjęcie zostało zrobione";
 "onfido_generic_error_timeout_title" = "Limit czasu połączenia";
-"onfido_generic_error_timeout_detail" = "Sprawdź, czy Twoje połączenie z internetem jest stabilne, a następnie spróbuj ponownie";
+"onfido_generic_error_timeout_detail" = "Upewnij się, że Twoje połączenie z internetem jest stabilne, a następnie spróbuj ponownie";
 "onfido_generic_error_timeout_button_primary" = "Spróbuj ponownie";
 "onfido_generic_processing" = "Przetwarzanie";
 "onfido_video_capture_turn_success_accessibility" = "Wykryto obrót głowy";
@@ -619,7 +619,7 @@
 "onfido_nfc_scan_welcome_passport_list_item" = "Połóż dokument na płaskiej powierzchni";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Otwórz dokument na wewnętrznej tylnej stronie";
 "onfido_nfc_scan_welcome_passport_list_item_3" = "Umieść swój dokument na tyle swojego urządzenia, tak aby się dotykały";
-"onfido_nfc_scan_welcome_passport_list_item_4" = "Powoli przesuwaj urządzenie w górę iw dół";
+"onfido_nfc_scan_welcome_passport_list_item_4" = "Powoli przesuwaj urządzenie w górę i w dół";
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Gdy rozpocznie się skanowanie, zachowaj nieruchomość, aby skanowanie mogło się zakończyć";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Rozpocznij skanowanie";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Uzyskaj weryfikację bez NFC";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Przesyłanie obrazu...";
 "onfido_interactive_task_waiting_title_3" = "Przesyłanie filmu...";
 "onfido_interactive_task_waiting_title_4" = "Sprawdzanie jakości danych...";
-"onfido_interactive_task_waiting_subtitle_1" = "Połączenie jest niestabilne. Proszę poczekać trochę dłużej, aż zadanie zostanie zakończone.";
+"onfido_interactive_task_waiting_subtitle_1" = "Proszę o chwilę cierpliwości, zadanie jest jeszcze w trakcie realizacji.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilowanie danych...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kompilujemy zebrane dane, proszę czekać.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Zabezpieczanie danych...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Osiągnięto maksymalną liczbę prób";
 "onfido_nfc_scan_error_can_subtitle" = "Osiągnąłeś maksymalną liczbę prób wprowadzenia swojego numeru CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Weryfikacja wyjścia";
+"onfido_interactive_task_waiting_title_5" = "Przesyłanie multimediów...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Spróbuj ponownie";

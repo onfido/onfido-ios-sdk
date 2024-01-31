@@ -91,7 +91,7 @@
 "onfido_video_capture_header_challenge_turn_left" = "Otočte hlavu doleva";
 "onfido_video_capture_header_challenge_turn_right" = "Otočte hlavu doprava";
 "onfido_video_capture_prompt_button_primary_network_timeout" = "Pokyny pro opětovné nahrávání";
-"onfido_video_capture_prompt_network_timeout_detail" = "Zkontrolujte, zda je připojení stabilní, a opakujte akci";
+"onfido_video_capture_prompt_network_timeout_detail" = "Ujistěte se, že máte stabilní připojení a zkuste to znovu";
 "onfido_video_capture_prompt_network_timeout_title" = "Časový limit připojení";
 "onfido_video_intro_loader" = "Příklad načítání";
 "onfido_video_intro_list_item_time_limit" = "Na dokončení máte %d sekund";
@@ -172,7 +172,7 @@
 "onfido_country_select_list_header_suggested" = "Navrhovaná země";
 /* General */
 "onfido_video_intro_error_network" = "Nelze načíst z důvodu nestabilní sítě";
-"onfido_country_select_bottom_sheet_details" = "Zdá se, že země dokumentu, který jste vybrali, není podporována. Vyberte prosím jinou zemi.";
+"onfido_country_select_bottom_sheet_details" = "Vypadá to, že země vybraného dokumentu není podporována. Prosím, vyberte jinou zemi.";
 "onfido_country_select_bottom_sheet_title" = "Nemůžete najít svou zemi?";
 "onfido_doc_confirmation_button_primary" = "Odeslat fotografii";
 /* Face capture */
@@ -278,7 +278,7 @@
 "onfido_doc_upload_progress_label" = "Kontrola kvality obrazu";
 "onfido_doc_capture_frame_success_accessibility" = "Zachycený snímek";
 "onfido_generic_error_timeout_title" = "Časový limit připojení";
-"onfido_generic_error_timeout_detail" = "Zkontrolujte, zda je připojení stabilní, a opakujte akci";
+"onfido_generic_error_timeout_detail" = "Ujistěte se, že máte stabilní připojení a zkuste to znovu";
 "onfido_generic_error_timeout_button_primary" = "Opakování";
 "onfido_generic_processing" = "Zpracování";
 "onfido_video_capture_turn_success_accessibility" = "Detekce otočení hlavy";
@@ -652,7 +652,7 @@
 "onfido_interactive_task_waiting_title_2" = "Nahrávání obrázku...";
 "onfido_interactive_task_waiting_title_3" = "Nahrávání videa...";
 "onfido_interactive_task_waiting_title_4" = "Kontrola kvality dat...";
-"onfido_interactive_task_waiting_subtitle_1" = "Připojení je nestabilní. Počkejte prosím o něco déle, než se úloha dokončí.";
+"onfido_interactive_task_waiting_subtitle_1" = "Prosíme o trochu více trpělivosti, úloha ještě není dokončena.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilace dat...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Sestavujeme shromážděná data, prosím počkejte.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Zabezpečování dat...";
@@ -731,3 +731,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximální počet pokusů dosažen";
 "onfido_nfc_scan_error_can_subtitle" = "Dosáhli jste maximálního počtu pokusů o zadání vašeho čísla CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Ukončení ověření";
+"onfido_interactive_task_waiting_title_5" = "Nahrávání médií...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Opakování";

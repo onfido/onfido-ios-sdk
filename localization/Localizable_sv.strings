@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Laddar upp bild...";
 "onfido_interactive_task_waiting_title_3" = "Laddar upp video...";
 "onfido_interactive_task_waiting_title_4" = "Kontrollerar datakvalitet...";
-"onfido_interactive_task_waiting_subtitle_1" = "Anslutningen är instabil. Vänligen vänta lite längre för att uppgiften ska bli klar.";
+"onfido_interactive_task_waiting_subtitle_1" = "Vänligen vänta lite längre för att uppgiften ska bli klar.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilerar data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi sammanställer de insamlade uppgifterna, var god vänta.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Säkrar data...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximalt antal försök nådda";
 "onfido_nfc_scan_error_can_subtitle" = "Du har nått maximalt antal försök att ange ditt CAN-nummer";
 "onfido_nfc_scan_error_can_primary_button" = "Utcheckningsverifiering";
+"onfido_interactive_task_waiting_title_5" = "Laddar upp media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Försök igen";

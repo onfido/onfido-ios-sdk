@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Memuat naik imej...";
 "onfido_interactive_task_waiting_title_3" = "Memuat naik video...";
 "onfido_interactive_task_waiting_title_4" = "Memeriksa kualiti data...";
-"onfido_interactive_task_waiting_subtitle_1" = "Sambungan tidak stabil. Sila tunggu sebentar lagi untuk tugas selesai.";
+"onfido_interactive_task_waiting_subtitle_1" = "Sila bersabar sebentar lagi untuk tugas ini selesai.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Memproses data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kami sedang mengumpulkan data yang dikumpulkan, sila tunggu.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Mengamankan data...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Percubaan maksimum dicapai";
 "onfido_nfc_scan_error_can_subtitle" = "Anda telah mencapai percubaan maksimum untuk memasukkan nombor CAN anda";
 "onfido_nfc_scan_error_can_primary_button" = "Pengesahan keluar";
+"onfido_interactive_task_waiting_title_5" = "Memuat naik media...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Cuba Semula";

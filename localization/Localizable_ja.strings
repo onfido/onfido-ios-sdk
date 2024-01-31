@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "画像をアップロード中...";
 "onfido_interactive_task_waiting_title_3" = "ビデオをアップロード中...";
 "onfido_interactive_task_waiting_title_4" = "データ品質を確認中...";
-"onfido_interactive_task_waiting_subtitle_1" = "接続が不安定です。タスクが終了するまで少し長くお待ちください。";
+"onfido_interactive_task_waiting_subtitle_1" = "タスクが完了するまで、もう少しお待ちいただきますようお願い申し上げます。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "データをコンパイル中...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "収集したデータをコンパイルしています、お待ちください。";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "データを保護中...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "最大試行回数に達しました";
 "onfido_nfc_scan_error_can_subtitle" = "あなたはCAN番号を入力する最大試行回数に達しました";
 "onfido_nfc_scan_error_can_primary_button" = "終了の確認";
+"onfido_interactive_task_waiting_title_5" = "メディアをアップロード中...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "再試行";

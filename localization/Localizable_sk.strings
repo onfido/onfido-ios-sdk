@@ -2,7 +2,7 @@
 "onfido_selfie_capture_button_accessibility" = "Uzávierka";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "Pohľad z fotoaparátu";
-"onfido_selfie_capture_frame_accessibility" = "Pohľad zo selfie fotoaparátu. Udržujte tvár v ovále a potom ťuknite na tlačidlo uzávierky";
+"onfido_selfie_capture_frame_accessibility" = "Pohľad zo šelfe fotoaparátu. Udržujte tvár v ovále a potom ťuknite na tlačidlo uzávierky";
 "onfido_video_capture_frame_accessibility" = "Pohľad zo selfie fotoaparátu. Ak chcete začať so zaznamenávaním, udržujte tvár v ovále.";
 "onfido_selfie_confirmation_image_accessibility" = "Fotka vašej tváre";
 "onfido_video_capture_frame_success_accessibility" = "Bola zistená tvár. Zaznamenávanie sa začalo.";
@@ -501,8 +501,8 @@
 "onfido_workflow_complete_pass_description" = "Overili sme vašu totožnosť";
 "onfido_workflow_erros_task_not_supported" = "Úloha momentálne nie je podporovaná";
 "onfido_workflow_erros_task_not_completed" = "Nepodarilo sa dokončiť úlohu pracovného postupu.";
-"onfido_workflow_erros_task_not_retrieved" = "Nepodarilo sa načítať úlohu pracovného postupu.";
-"onfido_workflow_erros_no_workflow_run_id" = "Identifikátor spustenia pracovného postupu nie je nastavený.";
+"onfido_workflow_erros_task_not_retrieved" = "Nepodarilo sa načítať úlohu pracovnému (postupu).";
+"onfido_workflow_erros_no_workflow_run_id" = "Identifikátor spustenia pracovnému (postupu) nie je nastavený.";
 "onfido_workflow_erros_generic_title" = "Vyskytla sa chyba servera!";
 "onfido_workflow_erros_reload_app" = "Načítajte aplikáciu znova a skúste to ešte raz.";
 "onfido_welcome_start_workflow_button" = "Spustite overenie";
@@ -653,7 +653,7 @@
 "onfido_interactive_task_waiting_title_2" = "Nahrávanie obrázka...";
 "onfido_interactive_task_waiting_title_3" = "Nahrávanie videa...";
 "onfido_interactive_task_waiting_title_4" = "Kontrola kvality dát...";
-"onfido_interactive_task_waiting_subtitle_1" = "Spojenie je nestabilné. Prosím, počkajte ešte chvíľu, kým sa úloha dokončí.";
+"onfido_interactive_task_waiting_subtitle_1" = "Prosím, počkajte ešte chvíľu, kým sa úloha dokončí.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilácia dát...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kompilujeme zhromaždené údaje, prosím počkajte.";
 "onfido_studio_between_interactive_tasks_waiting_title_2" = "Zabezpečovanie dát...";
@@ -732,3 +732,5 @@
 "onfido_nfc_scan_error_can_title" = "Maximálny počet pokusov dosiahnutý";
 "onfido_nfc_scan_error_can_subtitle" = "Dosiahli ste maximálny počet pokusov o zadanie vášho čísla CAN";
 "onfido_nfc_scan_error_can_primary_button" = "Overenie výstupu";
+"onfido_interactive_task_waiting_title_5" = "Nahrávanie médií...";
+"onfido_nfc_scan_error_document_alt_primary_button" = "Skúsiť znova";
