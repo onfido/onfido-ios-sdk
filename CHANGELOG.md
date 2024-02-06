@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.7.1] - 2024-02-05
+
+### Fixed
+
+- Fixed SDK packaging that could lead to problems with SDK upgrade
+
 ## [29.7.0] - 2024-01-18
 
 ### Changed
