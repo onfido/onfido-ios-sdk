@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Skal være udstedt inden for de seneste tre måneder";
 "onfido_doc_select_button_bank_statement" = "Erklæring fra din bank eller kreditforening";
 "onfido_poa_guidance_subtitle_bank_statement" = "Skal være udstedt inden for de seneste tre måneder";
-"onfido_doc_select_button_tax_letter" = "Brev om kommuneskat";
+"onfido_doc_select_button_tax_letter" = "Lokal skattebrev fra regeringen";
 "onfido_poa_guidance_subtitle_tax_letter" = "Skal være udstedt inden for de seneste 12 måneder";
 "onfido_doc_select_button_benefits_letter" = "Brev om sociale ydelser";
 "onfido_doc_select_button_benefits_letter_detail" = "Myndighedsgodkendte boligydelser, f.eks. Arbejdsløshedsunderstøttelse, boligstøtte, skattefradrag";
@@ -527,7 +527,7 @@
 
 "onfido_welcome_start_workflow_button_trial" = "Start verificering (TEST)";
 "onfido_enter_can_title" = "Indtast CAN-nummeret";
-"onfido_enter_can_subtitle" = "Det %d-cifrede nummer er placeret på forsiden af dit dokument";
+"onfido_enter_can_subtitle" = "Det %d-cifrene nummer er placeret på forsiden af dit dokument";
 "onfido_enter_can_disclaimer" = "Du kan finde det på dit dokuments forside. Nummeret er på %d cifre og lidt større i størrelse.";
 "onfido_enter_can_button_primary" = "Fortsæt";
 "onfido_nfc_scan_error_title" = "Vi kan ikke scanne dit dokument";

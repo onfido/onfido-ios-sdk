@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Muss in den letzten 3 Monaten ausgestellt worden sein";
 "onfido_doc_select_button_bank_statement" = "Bankauszug";
 "onfido_poa_guidance_subtitle_bank_statement" = "Muss in den letzten 3 Monaten ausgestellt worden sein";
-"onfido_doc_select_button_tax_letter" = "Gemeindesteuerschreiben";
+"onfido_doc_select_button_tax_letter" = "Schreiben zur Kommunalsteuer";
 "onfido_poa_guidance_subtitle_tax_letter" = "Muss in den letzten 12 Monaten ausgestellt worden sein";
 "onfido_doc_select_button_benefits_letter" = "Sozialleistungsschreiben";
 "onfido_doc_select_button_benefits_letter_detail" = "Von der Regierung autorisierte Sozialleistungen, wie z. B. Arbeitslosenhilfe, Wohngeld, Steuerermäßigung";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_error_list_item_2" = "Sobald der Scan beginnt, halten Sie still";
 "onfido_nfc_scan_error_button_primary" = "Scannen wiederholen";
 "onfido_welcome_nfc_title" = "Identität überprüfen";
-"onfido_welcome_nfc_subtitle" = "";
-"onfido_welcome_nfc_list_header_nfc" = "";
-"onfido_welcome_nfc_list_item" = "";
+"onfido_welcome_nfc_subtitle" = "Es dauert nur wenige Minuten";
+"onfido_welcome_nfc_list_header_nfc" = "Benutzen Sie Ihr Gerät:";
+"onfido_welcome_nfc_list_item" = "Machen Sie ein Foto von Ihrem Ausweisdokument";
 "onfido_welcome_nfc_list_item_2" = "Scannen Sie Ihr Dokument";
 "onfido_welcome_nfc_button_primary" = "Machen Sie ein Foto von Ihrem Dokument";
 "onfido_intro_scan_title" = "Scannen Sie Ihr Dokument";
@@ -714,7 +714,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Schieben Sie Ihr Dokument langsam auf und ab gegen das Gerät, bis der Scan beginnt";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Scannen erneut versuchen";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Ausgangsüberprüfung";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Verifizierung beenden";
 "onfido_nfc_scan_sheet_card_ready" = "Schieben Sie Ihr Dokument langsam auf und ab";
 "onfido_nfc_scan_sheet_card_button" = "Abbrechen";
 "onfido_nfc_scan_sheet_card_error_can" = "Falsche CAN-Nummer";
@@ -729,6 +729,6 @@
 "onfido_otp_error_cta" = "Geh zurück";
 "onfido_nfc_scan_error_can_title" = "Maximale Versuche erreicht";
 "onfido_nfc_scan_error_can_subtitle" = "Sie haben die maximale Anzahl an Versuchen erreicht, um Ihre CAN-Nummer einzugeben";
-"onfido_nfc_scan_error_can_primary_button" = "Ausgangsüberprüfung";
+"onfido_nfc_scan_error_can_primary_button" = "Verifizierung beenden";
 "onfido_interactive_task_waiting_title_5" = "Medien hochladen...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Erneut versuchen";

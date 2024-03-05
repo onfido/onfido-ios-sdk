@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Son 3 ay içinde düzenlenmiş olmalıdır";
 "onfido_doc_select_button_bank_statement" = "Banka veya kooperatif beyanı";
 "onfido_poa_guidance_subtitle_bank_statement" = "Son 3 ay içinde düzenlenmiş olmalıdır";
-"onfido_doc_select_button_tax_letter" = "Belediye Meclisi Vergi Mektubu";
+"onfido_doc_select_button_tax_letter" = "Yerel Yönetim Vergi Mektubu";
 "onfido_poa_guidance_subtitle_tax_letter" = "Son 12 ay içinde düzenlenmiş olmalıdır";
 "onfido_doc_select_button_benefits_letter" = "Sosyal Yardım Mektubu";
 "onfido_doc_select_button_benefits_letter_detail" = "Devlet tarafından yetkilendirilmiş hane halkı yardımları, ör. İş arayan ödeneği, Konut yardımı, Vergi kredileri";
@@ -666,7 +666,7 @@
 "onfido_interactive_task_waiting_subtitle_2" = "Görev hala devam ediyor, sabrınız takdir edilmektedir.";
 "onfido_nfc_fail_passport_title" = "Bu belgeyi tarayamadık";
 "onfido_nfc_fail_passport_list_item_1" = "Belgenizden ve cihazınızdan herhangi bir kapağı çıkarın";
-"onfido_nfc_fail_passport_list_item_2" = "";
+"onfido_nfc_fail_passport_list_item_2" = "Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun";
 "onfido_nfc_fail_passport_list_item_3" = "Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar";
 "onfido_nfc_fail_passport_list_item_4" = "Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun";
 "onfido_nfc_fail_passport_button_primary" = "Taramayı yeniden deneyin";

@@ -208,7 +208,7 @@
 "onfido_nfc_select_button_secondary_card" = "Det är inte ett NFC-kort";
 
 "onfido_nfc_intro_title_passport" = "Skanna ditt pass";
-"onfido_nfc_intro_subtitle_passport" = "Använd din telefon för att skanna chipet i ditt pass";
+"onfido_nfc_intro_subtitle_passport" = "Använd din telefon för att skanna chippet i ditt pass";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Lägg ditt pass öppnat på en platt yta";
 "onfido_nfc_intro_passport_scan_guide_2" = "Placera din telefon direkt ovanpå ditt pass så att de rör vid varandra";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Måste ha utfärdats under de senaste 3 månaderna";
 "onfido_doc_select_button_bank_statement" = "Kontoutdrag från bank eller hypoteksinstitut";
 "onfido_poa_guidance_subtitle_bank_statement" = "Måste ha utfärdats under de senaste 3 månaderna";
-"onfido_doc_select_button_tax_letter" = "Brev från skattemyndighet";
+"onfido_doc_select_button_tax_letter" = "Kommunal skattebrev";
 "onfido_poa_guidance_subtitle_tax_letter" = "Måste ha utfärdats under de senaste 12 månaderna";
 "onfido_doc_select_button_benefits_letter" = "Brev gällande bidrag";
 "onfido_doc_select_button_benefits_letter_detail" = "Statligt godkända förmåner som t.ex. Bidrag till arbetssökande, bostadsbidrag, skatteavdrag";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Glid långsamt din telefon över båda sidorna tills skanningen startar";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Försök skanna igen";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Utcheckningsverifiering";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_error_document_title" = "Dokument stöds inte";
 "onfido_nfc_scan_error_document_subtitle" = "Vänligen försök med ett annat dokument";
 "onfido_nfc_scan_error_document_primary_button" = "Välj ett annat dokument";
-"onfido_nfc_scan_error_document_secondary_button" = "Utcheckningsverifiering";
+"onfido_nfc_scan_error_document_secondary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_error_device_title" = "Enhet som inte stöds";
 "onfido_nfc_scan_error_device_subtitle" = "Ledsen för eventuella besvär. Använd en annan enhet för att verifiera din identitet";
-"onfido_nfc_scan_error_device_primary_button" = "Utcheckningsverifiering";
+"onfido_nfc_scan_error_device_primary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_sheet_passport_ready" = "Glid långsamt din enhet över båda sidorna";
 "onfido_nfc_scan_sheet_ready_scanning" = "Håll din enhet och dokument stilla";
 "onfido_nfc_scan_sheet_error_1" = "Förlorad anslutning.";
@@ -707,7 +707,7 @@
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Ta bort alla skydd från din enhet";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Glid långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
-"onfido_nfc_scan_error_final_possible_card_list_item_4" = "";
+"onfido_nfc_scan_error_final_possible_card_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
 "onfido_nfc_scan_error_final_possible_card_primary_button" = "Försök skanna igen";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Verifiera utan att skanna";
 "onfido_nfc_scan_error_final_required_card_title" = "Vi kunde inte skanna detta dokument";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Glid långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Försök skanna igen";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Utcheckningsverifiering";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_sheet_card_ready" = "Förflytta långsamt ditt dokument upp och ner";
 "onfido_nfc_scan_sheet_card_button" = "Avbryt";
 "onfido_nfc_scan_sheet_card_error_can" = "Felaktigt CAN-nummer";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Gå tillbaka";
 "onfido_nfc_scan_error_can_title" = "Maximalt antal försök nådda";
 "onfido_nfc_scan_error_can_subtitle" = "Du har nått maximalt antal försök att ange ditt CAN-nummer";
-"onfido_nfc_scan_error_can_primary_button" = "Utcheckningsverifiering";
+"onfido_nfc_scan_error_can_primary_button" = "Avsluta verifiering";
 "onfido_interactive_task_waiting_title_5" = "Laddar upp media...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Försök igen";

@@ -320,7 +320,7 @@
 /* Proof of Address */
 "onfido_poa_intro_button_primary" = "Aloita vahvistus";
 "onfido_poa_intro_list_shows_address" = "näyttää nykyisen osoitteesi";
-"onfido_poa_intro_list_matches_signup" = "vastaa rekisteröitymisessä käyttämääsi osoitetta";
+"onfido_poa_intro_list_matches_signup" = "Vastaa rekisteröitymisessä käyttämääsi osoitetta";
 "onfido_poa_intro_list_most_recent" = "on uusin asiakirjasi";
 "onfido_poa_intro_subtitle" = "Tarvitset asiakirjan, joka:";
 "onfido_poa_intro_title" = "Vahvistetaan osoitteesi";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "On oltava tehty viimeisten 3 kuukauden aikana";
 "onfido_doc_select_button_bank_statement" = "Pankin tai asuntolainarahaston tiliote";
 "onfido_poa_guidance_subtitle_bank_statement" = "On oltava tehty viimeisten 3 kuukauden aikana";
-"onfido_doc_select_button_tax_letter" = "Kiinteistöverokirje";
+"onfido_doc_select_button_tax_letter" = "Paikallishallinnon verokirje";
 "onfido_poa_guidance_subtitle_tax_letter" = "On oltava tehty viimeisten 12 kuukauden aikana";
 "onfido_doc_select_button_benefits_letter" = "Etuuskirje";
 "onfido_doc_select_button_benefits_letter_detail" = "Valtion myöntämät kotitalousetuudet, esim. työttömyyspäiväraha, asumistuki, verohyvitykset";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Aseta puhelimesi passisi keskiosan lähelle";
-"onfido_avc_intro_title_accessibility" = "Tallenna video kasvoistasi";
+"onfido_avc_intro_title_accessibility" = "tallentaaksesi videon kasvoistasi";
 "onfido_avc_intro_video_accessibility" = "Esimerkkivideo, jossa joku kääntää päätään molemmille puolille, kunnes on valmis";
 "onfido_avc_face_capture_frame_accessibility" = "Näkymä selfiekamerasta";
 "onfido_avc_face_capture_title_accessibility" = "Käännä päätäsi hitaasti molemmille puolille. Kun kyseinen puoli on valmis, kuulet vahvistuksen ja tunnet värinän";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Liuta puhelintasi hitaasti molempien sivujen yli, kunnes skannaus alkaa";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Yritä skannausta uudelleen";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Poistumisvahvistus";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Poistumisvarmennus";
 "onfido_nfc_scan_error_document_title" = "Asiakirjaa ei tueta";
 "onfido_nfc_scan_error_document_subtitle" = "Yritä toisella asiakirjalla";
 "onfido_nfc_scan_error_document_primary_button" = "Valitse toinen asiakirja";
-"onfido_nfc_scan_error_document_secondary_button" = "Poistumisvahvistus";
+"onfido_nfc_scan_error_document_secondary_button" = "Poistumisvarmennus";
 "onfido_nfc_scan_error_device_title" = "Tuettamaton laite";
 "onfido_nfc_scan_error_device_subtitle" = "Pahoittelemme mahdollista haittaa. Käytä toista laitetta tunnistautumiseen";
-"onfido_nfc_scan_error_device_primary_button" = "Poistumisvahvistus";
+"onfido_nfc_scan_error_device_primary_button" = "Poistumisvarmennus";
 "onfido_nfc_scan_sheet_passport_ready" = "Liuta laitettasi hitaasti molempien sivujen yli";
 "onfido_nfc_scan_sheet_ready_scanning" = "Pidä laitteesi ja asiakirjasi paikoillaan";
 "onfido_nfc_scan_sheet_error_1" = "Yhteys katkesi.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Liuta dokumenttiasi hitaasti ylös ja alas laitetta vasten, kunnes skannaus alkaa";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Yritä skannausta uudelleen";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Poistumisvahvistus";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Poistumisvarmennus";
 "onfido_nfc_scan_sheet_card_ready" = "Liuta dokumenttiasi hitaasti ylös ja alas";
 "onfido_nfc_scan_sheet_card_button" = "Peruuta";
 "onfido_nfc_scan_sheet_card_error_can" = "Väärä CAN-numero";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Palaa takaisin";
 "onfido_nfc_scan_error_can_title" = "Maksimiyritysmäärä saavutettu";
 "onfido_nfc_scan_error_can_subtitle" = "Olet yrittänyt syöttää CAN-numeroasi maksimimäärän kertoja";
-"onfido_nfc_scan_error_can_primary_button" = "Poistumisvahvistus";
+"onfido_nfc_scan_error_can_primary_button" = "Poistumisvarmennus";
 "onfido_interactive_task_waiting_title_5" = "Ladataan mediaa...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Yritä uudelleen";

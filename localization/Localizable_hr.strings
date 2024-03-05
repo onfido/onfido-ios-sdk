@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Ne smije biti stariji od 3 mjeseci";
 "onfido_doc_select_button_bank_statement" = "Izjava banke ili izjava o stambenoj štednji";
 "onfido_poa_guidance_subtitle_bank_statement" = "Ne smije biti stariji od 3 mjeseci";
-"onfido_doc_select_button_tax_letter" = "Potvrda o općinskom porezu";
+"onfido_doc_select_button_tax_letter" = "Pismo lokalne porezne uprave";
 "onfido_poa_guidance_subtitle_tax_letter" = "Ne smije biti stariji od 12 mjeseci";
 "onfido_doc_select_button_benefits_letter" = "Potvrda o primanju naknada";
 "onfido_doc_select_button_benefits_letter_detail" = "Vladine odobrene pogodnosti za kućanstva npr. Naknada za nezaposlene, naknada za stanovanje, porezne olakšice";
@@ -527,7 +527,7 @@
 
 "onfido_welcome_start_workflow_button_trial" = "Pokrenite postupak provjere (TEST)";
 "onfido_enter_can_title" = "Unesite CAN";
-"onfido_enter_can_subtitle" = "Provjeri podudara li se navedeni broj s brojem iz dokumenta.";
+"onfido_enter_can_subtitle" = "%d-znamenkasti broj nalazi se na prednjoj strani vašeg dokumenta";
 "onfido_enter_can_disclaimer" = "Možete ga pronaći na prednjoj strani dokumenta. Sadrži više znamenki (%d) i malo je većih dimenzija.";
 "onfido_enter_can_button_primary" = "Nastavak";
 "onfido_nfc_scan_error_title" = "Nismo uspjeli skenirati vaš dokument";

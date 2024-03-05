@@ -211,7 +211,7 @@
 "onfido_nfc_intro_subtitle_passport" = "Use your mobile to scan the chip in your passport";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Lay your passport opened on a flat surface";
-"onfido_nfc_intro_passport_scan_guide_2" = "Place your phone directly on top of your passport so they're touching";
+"onfido_nfc_intro_passport_scan_guide_2" = "Place your phone directly on top of your passport, so they're touching";
 "onfido_nfc_intro_passport_scan_guide_3" = "Slowly slide your mobile across both pages until the scan starts";
 "onfido_nfc_intro_passport_scan_guide_4" = "Once the scan starts, hold still so the scanning can complete";
 
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Must have been issued in the last 3 months";
 "onfido_doc_select_button_bank_statement" = "Bank or building society statement";
 "onfido_poa_guidance_subtitle_bank_statement" = "Must have been issued in the last 3 months";
-"onfido_doc_select_button_tax_letter" = "Council Tax Letter";
+"onfido_doc_select_button_tax_letter" = "Local Government Tax Letter";
 "onfido_poa_guidance_subtitle_tax_letter" = "Must have been issued in the last 12 months";
 "onfido_doc_select_button_benefits_letter" = "Benefits Letter";
 "onfido_doc_select_button_benefits_letter_detail" = "Government authorised household benefits e.g. Jobseeker allowance, Housing benefit, Tax credits";
