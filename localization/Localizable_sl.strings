@@ -207,8 +207,8 @@
 "onfido_nfc_select_button_primary_card" = "Uporabi kartico NFC";
 "onfido_nfc_select_button_secondary_card" = "To ni kartica NFC";
 
-"onfido_nfc_intro_title_passport" = "Skenirajte svoj potni list";
-"onfido_nfc_intro_subtitle_passport" = "Uporabite svoj telefon za skeniranje čipa v vašem potnem listu";
+"onfido_nfc_intro_title_passport" = "Sanirajte svoj potni list";
+"onfido_nfc_intro_subtitle_passport" = "Uporabite svoj telefon za saniranje čipa v vašem potnem listu";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Odprite svoj potni list in ga položite na ravno površino";
 "onfido_nfc_intro_passport_scan_guide_2" = "Telefon postavite neposredno na potni list, tako da se dotikata.";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Izdano mora biti v zadnjih 3 mesecih";
 "onfido_doc_select_button_bank_statement" = "Izpisek banke ali hranilnice";
 "onfido_poa_guidance_subtitle_bank_statement" = "Izdano mora biti v zadnjih 3 mesecih";
-"onfido_doc_select_button_tax_letter" = "Obvestilo o lokalnem davku";
+"onfido_doc_select_button_tax_letter" = "Pismo lokalne občinske davčne uprave";
 "onfido_poa_guidance_subtitle_tax_letter" = "Izdano mora biti v zadnjih 12 mesecih";
 "onfido_doc_select_button_benefits_letter" = "Pismo o prejemkih";
 "onfido_doc_select_button_benefits_letter_detail" = "Vladno odobreni gospodinjski prejemki npr. Dodatek za iskalca zaposlitve, stanovanjska dajatev, davčne olajšave";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Počasi premaknite telefon čez obe strani, dokler se skeniranje ne začne";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Ko se skeniranje začne, ostanite mirni, da se skeniranje lahko zaključi";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Ponovno skeniraj";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Izhodna preverba";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Preverjanje izhoda";
 "onfido_nfc_scan_error_document_title" = "Dokument ni podprt";
 "onfido_nfc_scan_error_document_subtitle" = "Prosimo, poskusite z drugim dokumentom";
 "onfido_nfc_scan_error_document_primary_button" = "Izberite drug dokument";
-"onfido_nfc_scan_error_document_secondary_button" = "Izhodna preverba";
+"onfido_nfc_scan_error_document_secondary_button" = "Preverjanje izhoda";
 "onfido_nfc_scan_error_device_title" = "Nepodprta naprava";
 "onfido_nfc_scan_error_device_subtitle" = "Oprostite za morebitne nevšečnosti. Prosimo, uporabite drugo napravo za preverjanje vaše identitete.";
-"onfido_nfc_scan_error_device_primary_button" = "Izhodna preverba";
+"onfido_nfc_scan_error_device_primary_button" = "Preverjanje izhoda";
 "onfido_nfc_scan_sheet_passport_ready" = "Počasi premaknite svojo napravo čez obe strani";
 "onfido_nfc_scan_sheet_ready_scanning" = "Držite svojo napravo in dokument mirno";
 "onfido_nfc_scan_sheet_error_1" = "Izgubljena povezava.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Počasi drsite svoj dokument gor in dol ob napravi, dokler se skeniranje ne začne";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Ko se skeniranje začne, ostanite mirni, da se skeniranje lahko zaključi";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Ponovno skeniraj";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Izhodna preverba";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Preverjanje izhoda";
 "onfido_nfc_scan_sheet_card_ready" = "Počasi premikajte svoj dokument gor in dol";
 "onfido_nfc_scan_sheet_card_button" = "Prekliči";
 "onfido_nfc_scan_sheet_card_error_can" = "Napačna številka CAN";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Pojdi nazaj";
 "onfido_nfc_scan_error_can_title" = "Doseženo največje število poskusov";
 "onfido_nfc_scan_error_can_subtitle" = "Dosegli ste največje število poskusov vnosa vaše številke CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Izhodna preverba";
+"onfido_nfc_scan_error_can_primary_button" = "Preverjanje izhoda";
 "onfido_interactive_task_waiting_title_5" = "Nalaganje medijev...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Poskusite znova";

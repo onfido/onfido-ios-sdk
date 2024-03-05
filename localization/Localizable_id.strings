@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Harus diterbitkan dalam 3 bulan terakhir";
 "onfido_doc_select_button_bank_statement" = "Rekening koran atau laporan building society";
 "onfido_poa_guidance_subtitle_bank_statement" = "Harus diterbitkan dalam 3 bulan terakhir";
-"onfido_doc_select_button_tax_letter" = "Surat Ketetapan Pajak Dewan";
+"onfido_doc_select_button_tax_letter" = "Surat Pajak Pemerintah Daerah";
 "onfido_poa_guidance_subtitle_tax_letter" = "Harus diterbitkan dalam 12 bulan terakhir";
 "onfido_doc_select_button_benefits_letter" = "Surat Tunjangan";
 "onfido_doc_select_button_benefits_letter_detail" = "Tunjangan rumah tangga resmi dari pemerintah misalnya: Tunjangan pencari kerja, Tunjangan perumahan, Kredit pajak";

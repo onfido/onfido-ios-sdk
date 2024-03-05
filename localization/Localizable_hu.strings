@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Kizárólag az elmúlt 3 hónapban kibocsájtott";
 "onfido_doc_select_button_bank_statement" = "Banki vagy lakás-takarékpénztári számlakivonat";
 "onfido_poa_guidance_subtitle_bank_statement" = "Kizárólag az elmúlt 3 hónapban kibocsájtott";
-"onfido_doc_select_button_tax_letter" = "Önkormányzati adóigazolás";
+"onfido_doc_select_button_tax_letter" = "Helyi Önkormányzati Adólevél";
 "onfido_poa_guidance_subtitle_tax_letter" = "Kizárólag az elmúlt 12 hónapban kibocsájtott";
 "onfido_doc_select_button_benefits_letter" = "Társadalombiztosítási igazolás";
 "onfido_doc_select_button_benefits_letter_detail" = "A kormány által engedélyezett háztartási juttatások, pl. álláskeresési támogatás, lakhatási támogatás, adójóváírás";
@@ -682,14 +682,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlan, hogy a szkennelés befejeződhessen";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Próbálja újra a beolvasást";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_error_document_title" = "Dokumentum nem támogatott";
 "onfido_nfc_scan_error_document_subtitle" = "Kérjük, próbálkozzon egy másik dokumentummal";
 "onfido_nfc_scan_error_document_primary_button" = "Válasszon egy másik dokumentumot";
-"onfido_nfc_scan_error_document_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_document_secondary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_error_device_title" = "Nem támogatott eszköz";
 "onfido_nfc_scan_error_device_subtitle" = "Elnézést a kellemetlenségért. Kérjük, használjon egy másik eszközt azonosításának megerősítéséhez";
-"onfido_nfc_scan_error_device_primary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_device_primary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_sheet_passport_ready" = "Lassan húzza végig az eszközét mindkét oldalon";
 "onfido_nfc_scan_sheet_ready_scanning" = "Tartsa nyugodtan az eszközét és a dokumentumot";
 "onfido_nfc_scan_sheet_error_1" = "Megszakadt a kapcsolat.";
@@ -715,7 +715,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Próbálja újra a beolvasást";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Kilépés ellenőrzése";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_sheet_card_ready" = "Lassan csúsztassa fel és le a dokumentumot";
 "onfido_nfc_scan_sheet_card_button" = "Mégse";
 "onfido_nfc_scan_sheet_card_error_can" = "Helytelen CAN szám";
@@ -730,6 +730,6 @@
 "onfido_otp_error_cta" = "Térjen vissza";
 "onfido_nfc_scan_error_can_title" = "Elérte a maximális próbálkozások számát";
 "onfido_nfc_scan_error_can_subtitle" = "Elérte a CAN szám megadásának maximális próbálkozásait";
-"onfido_nfc_scan_error_can_primary_button" = "Kilépés ellenőrzésből";
+"onfido_nfc_scan_error_can_primary_button" = "Azonosítás megszakítása";
 "onfido_interactive_task_waiting_title_5" = "Média feltöltése...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Próbálja újra";

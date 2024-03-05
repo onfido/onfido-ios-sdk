@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
 "onfido_doc_select_button_bank_statement" = "Konta izraksts vai būvsabiedrības izziņa";
 "onfido_poa_guidance_subtitle_bank_statement" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
-"onfido_doc_select_button_tax_letter" = "Vēstule par pašvaldības nodokli";
+"onfido_doc_select_button_tax_letter" = "Pašvaldības nodokļu vēstule";
 "onfido_poa_guidance_subtitle_tax_letter" = "Tai jābūt izdotai pēdējo 12 mēnešu laikā";
 "onfido_doc_select_button_benefits_letter" = "Vēstule par pabalstiem";
 "onfido_doc_select_button_benefits_letter_detail" = "Valdības apstiprināti mājsaimniecības pabalsti, piem., bezdarbnieka pabalsts, mājokļa pabalsts, nodokļu atlaides";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Skats no kameras. Ievietojiet dokumenta fotoattēla pusi kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Skats no kameras. Ievietojiet dokumenta ārējās lapas kadrā un pēc tam pieskarieties slēdža pogai";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Novietojiet tālruni tuvu pases vidusdaļai";
-"onfido_avc_intro_title_accessibility" = "Ierakstīt savas sejas videoklipu";
+"onfido_avc_intro_title_accessibility" = "Ierakstītu savas sejas videoklipu.";
 "onfido_avc_intro_video_accessibility" = "Videoklipa piemērs, kurā cilvēks pagriež galvu uz abām pusēm līdz apstiprinājumam";
 "onfido_avc_face_capture_frame_accessibility" = "Skats no selfiju kameras";
 "onfido_avc_face_capture_title_accessibility" = "Lēnām pagrieziet galvu uz abām pusēm. Kad puse būs pabeigta, jūs dzirdēsiet apstiprinājumu un sajutīsiet vibrāciju";
@@ -671,7 +671,7 @@
 "onfido_nfc_fail_passport_list_item_4" = "Tiklīdz skenēšana sākas, nepārvietojieties, lai skenēšana varētu pabeigt";
 "onfido_nfc_fail_passport_button_primary" = "Atkārtoti veikt skenēšanu";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Mēs nevarējām noskenēt šo dokumentu";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Noņemiet visus pārsegu no jūsu dokumenta un ierīces";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Noņemiet visus pārvalkus no sava dokumenta un ierīces";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Saglabājiet savu ierīci un dokumentu kontaktā, līdz skenēšana ir veiksmīga";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Pakāpeniski pārvietojiet savu tālruni pāri abām lapām, līdz sākas skenēšana";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";

@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Phải được cấp trong 3 tháng gần nhất";
 "onfido_doc_select_button_bank_statement" = "Bảng sao kê của ngân hàng hoặc hiệp hội xây dựng";
 "onfido_poa_guidance_subtitle_bank_statement" = "Phải được cấp trong 3 tháng gần nhất";
-"onfido_doc_select_button_tax_letter" = "Công văn thuế của hội đồng";
+"onfido_doc_select_button_tax_letter" = "Thư Thuế Chính Quyền Địa Phương";
 "onfido_poa_guidance_subtitle_tax_letter" = "Phải được cấp trong 12 tháng gần nhất";
 "onfido_doc_select_button_benefits_letter" = "Công văn phúc lợi";
 "onfido_doc_select_button_benefits_letter_detail" = "Trợ cấp cho hộ gia đình do chính phủ cấp, ví dụ: Trợ cấp cho người tìm việc, Trợ cấp nhà ở, Tín dụng thuế";

@@ -246,7 +246,7 @@
 "onfido_nfc_fail_button_secondary_card" = "الحصول على التحقق دون مسح ضوئي";
 
 "onfido_doc_confirmation_zoom_button" = "تكبير الصورة";
-"onfido_doc_confirmation_image_accessibility" = "صورة مستندك. اضغط مرتين للتكبير. ";
+"onfido_doc_confirmation_image_accessibility" = "صورة مستندك. اضغط مرتين للتكبير.";
 "onfido_doc_zoom_body" = "تحرك باستخدام إصبع واحد";
 "onfido_doc_zoom_button_close" = "إغلاق";
 
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "يجب أن يكون قد صدر في آخر 3 أشهر";
 "onfido_doc_select_button_bank_statement" = "بيان البنك أو مؤسسة تمويل عقاري";
 "onfido_poa_guidance_subtitle_bank_statement" = "يجب أن يكون قد صدر في آخر 3 أشهر";
-"onfido_doc_select_button_tax_letter" = "خطاب ضريبة المجلس";
+"onfido_doc_select_button_tax_letter" = "رسالة ضريبة الحكومة المحلية";
 "onfido_poa_guidance_subtitle_tax_letter" = "يجب أن يكون قد صدر في آخر 12 شهرًا";
 "onfido_doc_select_button_benefits_letter" = "خطاب المنافع";
 "onfido_doc_select_button_benefits_letter_detail" = "مزايا الأسرة المصرح بها من الحكومة على سبيل المثال. بدل الباحث عن عمل، إعانة السكن، الإعفاءات الضريبية";
@@ -682,14 +682,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "أعد محاولة المسح";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "التحقق عند الخروج";
 "onfido_nfc_scan_error_document_title" = "الوثيقة غير مدعومة";
 "onfido_nfc_scan_error_document_subtitle" = "يرجى المحاولة مع وثيقة أخرى";
 "onfido_nfc_scan_error_document_primary_button" = "اختر وثيقة أخرى";
-"onfido_nfc_scan_error_document_secondary_button" = "الخروج من التحقق";
+"onfido_nfc_scan_error_document_secondary_button" = "التحقق عند الخروج";
 "onfido_nfc_scan_error_device_title" = "جهاز غير مدعوم";
 "onfido_nfc_scan_error_device_subtitle" = "عذرًا على أي إزعاج. يرجى استخدام جهاز مختلف للتحقق من هويتك";
-"onfido_nfc_scan_error_device_primary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_error_device_primary_button" = "التحقق عند الخروج";
 "onfido_nfc_scan_sheet_passport_ready" = "قم بإنزلاق جهازك ببطء عبر الصفحتين";
 "onfido_nfc_scan_sheet_ready_scanning" = "حافظ على ثبات جهازك والمستند";
 "onfido_nfc_scan_sheet_error_1" = "فقد الاتصال.";
@@ -715,7 +715,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "أعد المحاولة للمسح";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "التحقق عند الخروج";
 "onfido_nfc_scan_sheet_card_ready" = "قم بتحريك وثيقتك ببطء لأعلى ولأسفل";
 "onfido_nfc_scan_sheet_card_button" = "إلغاء";
 "onfido_nfc_scan_sheet_card_error_can" = "رقم CAN غير صحيح";
@@ -730,6 +730,6 @@
 "onfido_otp_error_cta" = "عُد للخلف";
 "onfido_nfc_scan_error_can_title" = "تم الوصول إلى الحد الأقصى للمحاولات";
 "onfido_nfc_scan_error_can_subtitle" = "لقد وصلت إلى الحد الأقصى لمحاولات إدخال رقم CAN الخاص بك";
-"onfido_nfc_scan_error_can_primary_button" = "التحقق من الخروج";
+"onfido_nfc_scan_error_can_primary_button" = "التحقق عند الخروج";
 "onfido_interactive_task_waiting_title_5" = "جاري تحميل الوسائط...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "إعادة المحاولة";

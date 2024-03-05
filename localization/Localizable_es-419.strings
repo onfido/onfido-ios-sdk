@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Debió emitirse en los últimos 3 meses";
 "onfido_doc_select_button_bank_statement" = "Estado de cuenta del banco o sociedad de crédito hipotecario";
 "onfido_poa_guidance_subtitle_bank_statement" = "Debió emitirse en los últimos 3 meses";
-"onfido_doc_select_button_tax_letter" = "Carta fiscal del consejo";
+"onfido_doc_select_button_tax_letter" = "Carta de Impuesto del Gobierno Local";
 "onfido_poa_guidance_subtitle_tax_letter" = "Debió emitirse en los últimos 12 meses";
 "onfido_doc_select_button_benefits_letter" = "Carta de beneficios";
 "onfido_doc_select_button_benefits_letter_detail" = "Beneficios domésticos autorizados por el Gobierno, por ejemplo Subsidio por desempleo, beneficio de vivienda, créditos fiscales";
@@ -670,7 +670,7 @@
 "onfido_nfc_fail_passport_list_item_4" = "Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse";
 "onfido_nfc_fail_passport_button_primary" = "Volver a intentar el escaneo";
 "onfido_nfc_scan_error_final_possible_passport_title" = "No pudimos escanear este documento";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Retire cualquier cubierta de su documento y dispositivo";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Mantén tu dispositivo y documento en contacto hasta que el escaneo sea exitoso";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Deslice lentamente su teléfono a través de ambas páginas hasta que comience el escaneo";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse";

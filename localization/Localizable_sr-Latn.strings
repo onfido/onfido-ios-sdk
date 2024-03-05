@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Mora biti izdato u poslednjih 3 meseci";
 "onfido_doc_select_button_bank_statement" = "Izvod iz banke ili stambene štedne zadruge";
 "onfido_poa_guidance_subtitle_bank_statement" = "Mora biti izdato u poslednjih 3 meseci";
-"onfido_doc_select_button_tax_letter" = "Potvrda o gradskom porezu";
+"onfido_doc_select_button_tax_letter" = "Pismo lokalne poreske uprave";
 "onfido_poa_guidance_subtitle_tax_letter" = "Mora biti izdato u poslednjih 12 meseci";
 "onfido_doc_select_button_benefits_letter" = "Potvrda o naknadama";
 "onfido_doc_select_button_benefits_letter_detail" = "Vladine odobrene naknade za domaćinstva, npr. naknada za nezaposlene, naknada za stanovanje, poreski krediti";
@@ -537,7 +537,7 @@
 "onfido_welcome_nfc_title" = "Obavite proveru identiteta";
 "onfido_welcome_nfc_subtitle" = "Trebalo bi da traje nekoliko minuta";
 "onfido_welcome_nfc_list_header_nfc" = "Upotrebite uređaj da:";
-"onfido_welcome_nfc_list_item" = "snimite fotografiju identifikacionog dokumenta";
+"onfido_welcome_nfc_list_item" = "Snimite fotografiju identifikacionog dokumenta";
 "onfido_welcome_nfc_list_item_2" = "skenirate dokument";
 "onfido_welcome_nfc_button_primary" = "Snimite fotografiju dokumenta";
 "onfido_intro_scan_title" = "Skenirajte dokument";

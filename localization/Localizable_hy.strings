@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
 "onfido_doc_select_button_bank_statement" = "Բանկից կամ համատիրությունից ստացված քաղվածք";
 "onfido_poa_guidance_subtitle_bank_statement" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
-"onfido_doc_select_button_tax_letter" = "Համայնքային հարկ";
+"onfido_doc_select_button_tax_letter" = "Լոկալ կառավարության հարկային նամակ";
 "onfido_poa_guidance_subtitle_tax_letter" = "Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում";
 "onfido_doc_select_button_benefits_letter" = "Նպաստներ";
 "onfido_doc_select_button_benefits_letter_detail" = "Կառավարության կողմից հաստատված նպաստներ՝ տնային տնտեսությունների համար (օրինակ՝ Աշխատանք փնտրողի նպաստ, բնակարանային նպաստ, հարկային արտոնություններ";
@@ -671,14 +671,14 @@
 "onfido_nfc_fail_passport_list_item_4" = "Սկանավո";
 "onfido_nfc_fail_passport_button_primary" = "Վերսկանալ";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպությունները";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպողները";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Աստիճանաբար սարքեք ձեր հեռախոսը երկու էջերի վրա, մինչև սկանավորումը չսկսվի";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել";
 "onfido_nfc_scan_error_final_possible_passport_primary_button" = "Վերսկանալ";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Ստուգել սկանավորման առանց";
 "onfido_nfc_scan_error_final_required_passport_title" = "Մենք չկարողացանք սկանավորել այս փաստաթուղթը";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպությունները";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպողները";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Ավազական ձեր հեռախոսը երկու էջերի վրա, մինչդեռ սկանավորումը չսկսվի";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել";
@@ -690,7 +690,7 @@
 "onfido_nfc_scan_error_document_secondary_button" = "Ելքի ստուգում";
 "onfido_nfc_scan_error_device_title" = "Չաջակցվող սարք";
 "onfido_nfc_scan_error_device_subtitle" = "Ներողություն ամենայն անհարմարության համար։ Խնդրում ենք օգտագործել այլ սարքը ձեր իսկությունը հաստատելու համար";
-"onfido_nfc_scan_error_device_primary_button" = "Ելքի հաստատում";
+"onfido_nfc_scan_error_device_primary_button" = "Ելքի ստուգում";
 "onfido_nfc_scan_sheet_passport_ready" = "Աստիճան սահմանեք ձեր սարքը երկու էջերի վրա";
 "onfido_nfc_scan_sheet_ready_scanning" = "Պահեք ձեր սարքը և փաստաթուղթը անշարժ";
 "onfido_nfc_scan_sheet_error_1" = "Կապը կորավ.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Դանդաղ սարքեք ձեր փաստաթուղթը վերև և ներքև սարքի դեմ, մինչեւ սկանավորումը չսկսվի:";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Սկանավորման մեկնարկից հետո մի շարժվեք";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Վերսկանալ";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Ելքի հաստատում";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Ելքի ստուգում";
 "onfido_nfc_scan_sheet_card_ready" = "Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք";
 "onfido_nfc_scan_sheet_card_button" = "Չեղարկել";
 "onfido_nfc_scan_sheet_card_error_can" = "Սխալ CAN համար";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Վերադառնալ";
 "onfido_nfc_scan_error_can_title" = "Մաքսիմալ փորձերը հասել են";
 "onfido_nfc_scan_error_can_subtitle" = "Դուք հասել եք ձեր CAN համարը մուտքագրելու առավելագույն փորձերին";
-"onfido_nfc_scan_error_can_primary_button" = "Ելքի հաստատում";
+"onfido_nfc_scan_error_can_primary_button" = "Ելքի ստուգում";
 "onfido_interactive_task_waiting_title_5" = "Մեդիայի բեռնում...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Կրկին փորձել";

@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.8.0] - 2024-02-08
+
+### Added
+
+- Dropped iOS 11 support. Now supporting iOS 12 or newer.
+- Introduced privacy manifest
+- Added digital signature for the XCFramework
+
+### Changed
+
+- Improved the oval size for aligning the user's face in Motion on older iPhones with smaller screens
+- Add token expiration handler for Workflow (Studio) configuration
+
+### Fixed
+
+- Fixed bug presenting the Document and Country selection screen in Studio with one document selected
+- Fixed a regression introduced with version 29.6.0, where NFC could be enabled despite being disabled in a Studio configuration
+
 ## [29.7.1] - 2024-02-05
 
 ### Fixed

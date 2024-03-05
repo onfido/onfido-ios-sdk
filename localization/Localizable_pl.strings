@@ -268,7 +268,7 @@
 
 "onfido_app_title_user_consent_load_fail" = "Zweryfikuj swoją tożsamość";
 "onfido_user_consent_load_fail_title" = "Content failed to load";
-"onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
+"onfido_user_consent_load_fail_detail" = "Sprawdź, czy twoje połączenie jest stabilne, a następnie spróbuj ponownie";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
 "onfido_country_select_search_results_none_accessibility" = "Brak pasujących wyników";
 "onfido_country_select_search_results_one_accessibility" = "Znaleziono jeden wynik";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Data wydania musi mieścić się w okresie ostatnich 3 miesięcy";
 "onfido_doc_select_button_bank_statement" = "Wyciąg z banku lub spółdzielni budowlanej";
 "onfido_poa_guidance_subtitle_bank_statement" = "Data wydania musi mieścić się w okresie ostatnich 3 miesięcy";
-"onfido_doc_select_button_tax_letter" = "List dotyczący podatku lokalnego";
+"onfido_doc_select_button_tax_letter" = "List w sprawie podatku od samorządu lokalnego";
 "onfido_poa_guidance_subtitle_tax_letter" = "Data wydania musi mieścić się w okresie ostatnich 12 miesięcy";
 "onfido_doc_select_button_benefits_letter" = "List dotyczący korzyści";
 "onfido_doc_select_button_benefits_letter_detail" = "Zasiłki dla gospodarstw domowych zatwierdzone przez rząd, np. zasiłek dla poszukujących pracy, zasiłek mieszkaniowy, ulgi podatkowe";

@@ -320,7 +320,7 @@
 /* Proof of Address */
 "onfido_poa_intro_button_primary" = "Commencer la vérification";
 "onfido_poa_intro_list_shows_address" = "Indique que votre adresse actuelle";
-"onfido_poa_intro_list_matches_signup" = "correspond à l'adresse que vous avez utilisée lors de l'inscription";
+"onfido_poa_intro_list_matches_signup" = "Correspond à l'adresse que vous avez utilisée lors de l'inscription";
 "onfido_poa_intro_list_most_recent" = "est votre document le plus récent";
 "onfido_poa_intro_subtitle" = "Vous aurez besoin d'un document qui :";
 "onfido_poa_intro_title" = "Vérifions votre adresse";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Doit avoir été émis au cours des trois derniers mois";
 "onfido_doc_select_button_bank_statement" = "Relevé bancaire ou de société de crédit immobilier";
 "onfido_poa_guidance_subtitle_bank_statement" = "Doit avoir été émis au cours des trois derniers mois";
-"onfido_doc_select_button_tax_letter" = "Avis de taxe municipale";
+"onfido_doc_select_button_tax_letter" = "Lettre d'impôt du gouvernement local";
 "onfido_poa_guidance_subtitle_tax_letter" = "Doit avoir été émis au cours des 12 derniers mois";
 "onfido_doc_select_button_benefits_letter" = "Lettre concernant des prestations";
 "onfido_doc_select_button_benefits_letter_detail" = "Prestations familiales autorisées par le gouvernement, par exemple Allocation d'assurance emploi, Allocation de logement, Crédits d'impôt";
@@ -677,7 +677,7 @@
 "onfido_nfc_scan_error_final_possible_passport_primary_button" = "Réessayez la numérisation";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Vérifier sans numériser";
 "onfido_nfc_scan_error_final_required_passport_title" = "Nous n'avons pas pu numériser ce document";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Retirez tous les couvercles de votre document et de votre appareil";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Retirez tous les couvercles de votre document et appareil";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Gardez votre appareil et votre document en contact jusqu'à ce que la numérisation soit réussie";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Faites glisser lentement votre téléphone sur les deux pages jusqu'à ce que le scan commence";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer";

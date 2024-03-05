@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา";
 "onfido_doc_select_button_bank_statement" = "รายการเดินบัญชีของธนาคารหรือสหกรณ์ออมทรัพย์เพื่อการเคหะ";
 "onfido_poa_guidance_subtitle_bank_statement" = "ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา";
-"onfido_doc_select_button_tax_letter" = "หนังสือภาษีที่อยู่อาศัย";
+"onfido_doc_select_button_tax_letter" = "จดหมายภาษีรัฐบาลท้องถิ่น";
 "onfido_poa_guidance_subtitle_tax_letter" = "ต้องออกเอกสารภายใน 12 เดือนที่ผ่านมา";
 "onfido_doc_select_button_benefits_letter" = "หนังสือยืนยันการรับสวัสดิการ";
 "onfido_doc_select_button_benefits_letter_detail" = "สวัสดิการเพื่อการอยู่อาศัยที่ได้รับจากรัฐบาล เช่น เงินทดแทนระหว่างการว่างงาน สวัสดิการค่าที่อยู่อาศัย เครดิตภาษี";

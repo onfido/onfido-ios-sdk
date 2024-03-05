@@ -272,7 +272,7 @@
 "onfido_user_consent_load_fail_button_primary" = "Перезагрузить экран";
 "onfido_country_select_search_results_none_accessibility" = "Совпадения результатов не найдено";
 "onfido_country_select_search_results_one_accessibility" = "Найден один результат";
-"onfido_country_select_search_results_multiple_accessibility" = "найдено результатов: %d";
+"onfido_country_select_search_results_multiple_accessibility" = "Найдено результатов: %d";
 "onfido_doc_confirmation_alert_crop_detail" = "Убедитесь, что виден весь документ";
 "onfido_doc_confirmation_alert_crop_title" = "Изображение обрезано";
 "onfido_doc_upload_progress_label" = "Проверка качества изображения";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Дата выдачи должна быть в течение последних 3 месяцев";
 "onfido_doc_select_button_bank_statement" = "Выписка из банка или строительного общества";
 "onfido_poa_guidance_subtitle_bank_statement" = "Дата выдачи должна быть в течение последних 3 месяцев";
-"onfido_doc_select_button_tax_letter" = "Письмо о местном налоге";
+"onfido_doc_select_button_tax_letter" = "Письмо о местном налоге от органов местного самоуправления";
 "onfido_poa_guidance_subtitle_tax_letter" = "Дата выдачи должна быть в течение последних 12 месяцев";
 "onfido_doc_select_button_benefits_letter" = "Письмо о предоставлении льгот";
 "onfido_doc_select_button_benefits_letter_detail" = "Разрешенные правительством пособия домашним хозяйствам, например: пособие по безработице, жилищные субсидии, налоговые льготы";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Медленно проведите телефоном по обеим страницам, пока не начнется сканирование";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Повторить сканирование";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Выходная проверка";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Выход из проверки";
 "onfido_nfc_scan_error_document_title" = "Документ не поддерживается";
 "onfido_nfc_scan_error_document_subtitle" = "Пожалуйста, попробуйте с другим документом";
 "onfido_nfc_scan_error_document_primary_button" = "Выберите другой документ";
-"onfido_nfc_scan_error_document_secondary_button" = "Выходная проверка";
+"onfido_nfc_scan_error_document_secondary_button" = "Выход из проверки";
 "onfido_nfc_scan_error_device_title" = "Неподдерживаемое устройство";
 "onfido_nfc_scan_error_device_subtitle" = "Извините за любые неудобства. Пожалуйста, используйте другое устройство для подтверждения вашей личности";
-"onfido_nfc_scan_error_device_primary_button" = "Выходная проверка";
+"onfido_nfc_scan_error_device_primary_button" = "Выход из проверки";
 "onfido_nfc_scan_sheet_passport_ready" = "Медленно проведите вашим устройством по обеим страницам";
 "onfido_nfc_scan_sheet_ready_scanning" = "Держите ваше устройство и документ неподвижно";
 "onfido_nfc_scan_sheet_error_1" = "Потеря соединения.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Медленно перемещайте ваш документ вверх и вниз по устройству, пока сканирование не начнется";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Повторить сканирование";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Выходная проверка";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Выход из проверки";
 "onfido_nfc_scan_sheet_card_ready" = "Медленно двигайте ваш документ вверх и вниз";
 "onfido_nfc_scan_sheet_card_button" = "Отмена";
 "onfido_nfc_scan_sheet_card_error_can" = "Неверный номер CAN";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Вернуться назад";
 "onfido_nfc_scan_error_can_title" = "Достигнуто максимальное количество попыток";
 "onfido_nfc_scan_error_can_subtitle" = "Вы достигли максимального числа попыток ввода вашего номера CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Выходная проверка";
+"onfido_nfc_scan_error_can_primary_button" = "Выход из проверки";
 "onfido_interactive_task_waiting_title_5" = "Загрузка медиа...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Повторить";
