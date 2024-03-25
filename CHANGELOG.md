@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.8.1] - 2024-03-21
+
+### Fixed
+
+- Fixed regression from 29.7.1 where in cases that Video capture should be restarted the same capture was instead continued, leading to videos that were too long and with the audio out of sync
+
 ## [29.8.0] - 2024-02-08
 
 ### Added
