@@ -2,7 +2,7 @@
 "onfido_selfie_capture_button_accessibility" = "快門";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "從相機查看";
-"onfido_selfie_capture_frame_accessibility" = "從自拍相機檢視。保持臉不在橢圓形框內，然後點擊快門按鈕";
+"onfido_selfie_capture_frame_accessibility" = "從自拍相機檢視。保持臉部在橢圓形框內，然後點擊快門按鈕";
 "onfido_video_capture_frame_accessibility" = "從自拍相機檢視。請保持臉部在橢圓形框內，以開始錄製。";
 "onfido_selfie_confirmation_image_accessibility" = "您的臉部相片";
 "onfido_video_capture_frame_success_accessibility" = "偵測到臉部。已開始錄製。";
@@ -272,7 +272,7 @@
 "onfido_user_consent_load_fail_button_primary" = "重新載入畫面";
 "onfido_country_select_search_results_none_accessibility" = "未有相符的結果";
 "onfido_country_select_search_results_one_accessibility" = "找到一個結果";
-"onfido_country_select_search_results_multiple_accessibility" = "找到 %d 個結果";
+"onfido_country_select_search_results_multiple_accessibility" = " 找到 %d 個結果";
 "onfido_doc_confirmation_alert_crop_detail" = "請確保完整文件清晰可見";
 "onfido_doc_confirmation_alert_crop_title" = "偵測到部完整照片";
 "onfido_doc_upload_progress_label" = "檢查影像品質";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "必須在 最近 3 個月 內核發";
 "onfido_doc_select_button_bank_statement" = "銀行或房屋建築協會報表";
 "onfido_poa_guidance_subtitle_bank_statement" = "必須在 最近 3 個月 內核發";
-"onfido_doc_select_button_tax_letter" = "地方政府稅務信函";
+"onfido_doc_select_button_tax_letter" = "市政稅務信件";
 "onfido_poa_guidance_subtitle_tax_letter" = "必須在 最近 12 個月 內核發";
 "onfido_doc_select_button_benefits_letter" = "福利證明函";
 "onfido_doc_select_button_benefits_letter_detail" = "政府批准的家庭福利，例如：求職者津貼、住房福利、稅收抵免";

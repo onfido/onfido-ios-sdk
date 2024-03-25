@@ -3,7 +3,7 @@
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "צפה מהמצלמה";
 "onfido_selfie_capture_frame_accessibility" = "זווית ממצלמת סלפי.שמור את הפנים בתוך האליפסה ולאחר מכן לחץ על כפתור הצילום ";
-"onfido_video_capture_frame_accessibility" = "זווית ממצלמת סלפי.השאר את הפנים בתוך האליפסה כדי להתחיל להקליט.";
+"onfido_video_capture_frame_accessibility" = "זווית ממצלמת סלפי.השאר את הפנים בתוך האליפסה כדי להתחיל להקליט. ";
 "onfido_selfie_confirmation_image_accessibility" = "תמונה של הפנים שלך";
 "onfido_video_capture_frame_success_accessibility" = "הפנים זוהו. הצילום החל.";
 /* Accessibility strings for screen readers */
@@ -246,7 +246,7 @@
 "onfido_nfc_fail_button_secondary_card" = "אימות ללא סריקה";
 
 "onfido_doc_confirmation_zoom_button" = "הגדל תמונה";
-"onfido_doc_confirmation_image_accessibility" = "תמונה של המסמך שלך.הקש פעמיים כדי להגדיל.";
+"onfido_doc_confirmation_image_accessibility" = "תמונה של המסמך שלך.הקש פעמיים כדי להגדיל. ";
 "onfido_doc_zoom_body" = "הזז את האצבע על המסך";
 "onfido_doc_zoom_button_close" = "סגור";
 
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "תאריך ההנפקה חייב להיות ב-3 החודשים האחרונים";
 "onfido_doc_select_button_bank_statement" = "הצהרת בנק או חברת בנייה";
 "onfido_poa_guidance_subtitle_bank_statement" = "תאריך ההנפקה חייב להיות ב-3 החודשים האחרונים";
-"onfido_doc_select_button_tax_letter" = "מכתב מס ממשלה מקומית";
+"onfido_doc_select_button_tax_letter" = "אישור ארנונה";
 "onfido_poa_guidance_subtitle_tax_letter" = "תאריך ההנפקה חייב להיות ב-12 החודשים האחרונים";
 "onfido_doc_select_button_benefits_letter" = "אישור קבלת קצבאות";
 "onfido_doc_select_button_benefits_letter_detail" = "למשל, הטבות ממשלתיות מורשות למשק בית. קצבה למחפשי עבודה, הטבת דיור, נקודות זיכוי במס";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "צפה מהמצלמה. מקם את עמוד תמונת המסמך במסגרת ולחץ על כפתור הצילום";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "צפה מהמצלמה. מקם את העמודים החיצוניים של המסמך במסגרת ולחץ על כפתור הצילום";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון ליד החלק האמצעי של הדרכון";
-"onfido_avc_intro_title_accessibility" = "לצלם סרטון של הפנים שלך";
+"onfido_avc_intro_title_accessibility" = "צלם סרטון של הפנים שלך";
 "onfido_avc_intro_video_accessibility" = "סרטון לדוגמה שבו מישהו מסובב את הראש לשני הצדדים עד לסיום";
 "onfido_avc_face_capture_frame_accessibility" = "זווית ממצלמת סלפי";
 "onfido_avc_face_capture_title_accessibility" = "לאחר מכן, סובב את ראשך לאט לשני הצדדים כשצד אחד יושלם, תשמע צליל אישור ותרגיש רטט.";

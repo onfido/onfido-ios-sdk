@@ -41,7 +41,7 @@
 "onfido_permission_button_primary_cam" = "Įjungti kamerą";
 "onfido_permission_button_primary_mic" = "Įjungti mikrofoną";
 "onfido_permission_body_both" = "Negalime jūsų patvirtinti, jei kamera ir mikrofonas nenaudojami kartu";
-"onfido_permission_body_cam" = "Negalime Jūsų patvirtinti be prieigos prie kameros";
+"onfido_permission_body_cam" = "Negalime patvirtinti Jūsų be prieigos prie kameros";
 "onfido_permission_body_mic" = "Negalime jūsų patvirtinti nenaudojant mikrofono";
 "onfido_permission_subtitle_both" = "Kai būsite paprašyti, turėsite suteikti prieigą prie kameros ir mikrofono, kad galėtumėte tęsti";
 "onfido_permission_subtitle_cam" = "Kai būsite paraginti, turite įjungti prieigą prie kameros, kad galėtumėte tęsti";
@@ -124,13 +124,13 @@
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Įsitikinkite, kad matomas visas jūsų veidas";
 /* Document capture */
-"onfido_doc_capture_header_passport" = "Pasirūpinkite, kad dokumento puslapis būtų rėmelyje";
+"onfido_doc_capture_header_passport" = "Pasirūpinkite, kad dokumento nuotraukos puslapis būtų rėmelyje";
 "onfido_doc_capture_header_visa" = "Pasirūpinkite, kad dokumento vizos puslapis būtų rėmelyje";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Įkeliama";
 
 
-"onfido_doc_capture_header_passport_auto" = "Pasirūpinkite, kad dokumento puslapis būtų rėmelyje";
+"onfido_doc_capture_header_passport_auto" = "Pasirūpinkite, kad dokumento nuotraukos puslapis būtų rėmelyje";
 "onfido_doc_capture_header_license_back" = "Pasirūpinkite, kad dokumento galinė pusė būtų rėmelyje";
 "onfido_doc_capture_header_license_back_auto" = "Pasirūpinkite, kad dokumento galinė pusė būtų rėmelyje";
 "onfido_doc_capture_header_generic_back" = "Pasirūpinkite, kad dokumento galinė pusė būtų rėmelyje";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Turi būti išduota per pastaruosius 3 mėnesius";
 "onfido_doc_select_button_bank_statement" = "Banko arba būstų savininkų bendrijos išrašas";
 "onfido_poa_guidance_subtitle_bank_statement" = "Turi būti išduotas per pastaruosius 3 mėnesius";
-"onfido_doc_select_button_tax_letter" = "Vietos valdžios mokesčių laiškas";
+"onfido_doc_select_button_tax_letter" = "Tarybos mokestinis raštas";
 "onfido_poa_guidance_subtitle_tax_letter" = "Turi būti išduotas per pastaruosius 12 mėnesių";
 "onfido_doc_select_button_benefits_letter" = "Pažyma apie išmokas";
 "onfido_doc_select_button_benefits_letter_detail" = "Vyriausybės patvirtintos išmokos namų ūkiui, pvz.: pašalpa darbo ieškančiajam, būsto pašalpa, mokesčių kreditai";
@@ -406,7 +406,7 @@
 "onfido_avc_connection_error_button_primary_retry_upload" = "Bandyti įkelti dar kartą";
 "onfido_avc_connection_error_button_secondary_restart_recording" = "Iš naujo pradėti įrašymą";
 "onfido_generic_errors_geoblocked_error_message" = "Paslauga nepasiekiama";
-"onfido_doc_select_subtitle_country" = "Pasirinkite dokumentą išdavusią šalį, kad pamatytumėte, kuriuos dokumentus priimame";
+"onfido_doc_select_subtitle_country" = "Pasirinkite dokumento išdavimo šalį, kad pamatytumėte dokumentus, kuriuos priimame";
 "onfido_doc_select_section_header_country" = "Dokumentą išdavusi šalis";
 "onfido_doc_select_section_header_doc_type" = "Priimami dokumentai";
 "onfido_doc_select_section_input_placeholder_country" = "Pasirinkite išdavusią šalį";
@@ -682,14 +682,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Pakartokite nuskaitymą";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Išeiti iš patvirtinimo";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Išėjimo patikrinimas";
 "onfido_nfc_scan_error_document_title" = "Dokumentas nepalaikomas";
 "onfido_nfc_scan_error_document_subtitle" = "Prašome bandyti su kitu dokumentu";
 "onfido_nfc_scan_error_document_primary_button" = "Pasirinkite kitą dokumentą";
-"onfido_nfc_scan_error_document_secondary_button" = "Išeiti iš patvirtinimo";
+"onfido_nfc_scan_error_document_secondary_button" = "Išėjimo patikrinimas";
 "onfido_nfc_scan_error_device_title" = "Nepalaikomas įrenginys";
 "onfido_nfc_scan_error_device_subtitle" = "Atsiprašome už bet kokius nepatogumus. Prašome naudoti kitą įrenginį, kad patvirtintumėte savo tapatybę";
-"onfido_nfc_scan_error_device_primary_button" = "Išeiti iš patvirtinimo";
+"onfido_nfc_scan_error_device_primary_button" = "Išėjimo patikrinimas";
 "onfido_nfc_scan_sheet_passport_ready" = "Lėtai perstumkite savo įrenginį per abu puslapius";
 "onfido_nfc_scan_sheet_ready_scanning" = "Laikykite savo įrenginį ir dokumentą nejudant";
 "onfido_nfc_scan_sheet_error_1" = "Prarasta ryšio.";
@@ -715,7 +715,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Pakartokite nuskaitymą";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Išeiti iš patvirtinimo";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Išėjimo patikrinimas";
 "onfido_nfc_scan_sheet_card_ready" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn";
 "onfido_nfc_scan_sheet_card_button" = "Atšaukti";
 "onfido_nfc_scan_sheet_card_error_can" = "Neteisingas CAN numeris";
@@ -730,6 +730,6 @@
 "onfido_otp_error_cta" = "Grįžti atgal";
 "onfido_nfc_scan_error_can_title" = "Maksimalus bandymų skaičius pasiektas";
 "onfido_nfc_scan_error_can_subtitle" = "Jūs pasiekėte maksimalų bandymų įvesti savo CAN numerį";
-"onfido_nfc_scan_error_can_primary_button" = "Išeiti iš patvirtinimo";
+"onfido_nfc_scan_error_can_primary_button" = "Išėjimo patikrinimas";
 "onfido_interactive_task_waiting_title_5" = "Įkeliamas turinys...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Bandyti dar kartą";

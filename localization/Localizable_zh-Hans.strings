@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "必须是在过去3个月内签发";
 "onfido_doc_select_button_bank_statement" = "银行或房屋互助协会对账单";
 "onfido_poa_guidance_subtitle_bank_statement" = "必须是在过去3个月内签发";
-"onfido_doc_select_button_tax_letter" = "地方政府税务信函";
+"onfido_doc_select_button_tax_letter" = "市政税务函";
 "onfido_poa_guidance_subtitle_tax_letter" = "必须是在过去12个月内签发";
 "onfido_doc_select_button_benefits_letter" = "福利函";
 "onfido_doc_select_button_benefits_letter_detail" = "政府批准的家庭福利，例如求职者津贴、住房福利、税收抵免";
@@ -670,7 +670,7 @@
 "onfido_nfc_fail_passport_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";
 "onfido_nfc_fail_passport_button_primary" = "重试扫描";
 "onfido_nfc_scan_error_final_possible_passport_title" = "我们无法扫描此文档";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "从您的文档和设备上移除所有的覆盖物";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "从您的文档和设备中移除任何封面";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "将您的设备和文件保持接触，直到扫描成功";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "慢慢滑动您的手机跨越两页，直到扫描开始";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "一旦扫描开始，保持不动以便扫描能够完成";

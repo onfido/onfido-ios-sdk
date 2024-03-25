@@ -359,7 +359,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Must have been issued in the last 3 months";
 "onfido_doc_select_button_bank_statement" = "Bank or building society statement";
 "onfido_poa_guidance_subtitle_bank_statement" = "Must have been issued in the last 3 months";
-"onfido_doc_select_button_tax_letter" = "Local Government Tax Letter";
+"onfido_doc_select_button_tax_letter" = "Council Tax Letter";
 "onfido_poa_guidance_subtitle_tax_letter" = "Must have been issued in the last 12 months";
 "onfido_doc_select_button_benefits_letter" = "Benefits Letter";
 "onfido_doc_select_button_benefits_letter_detail" = "Government authorized household benefits e.g. Job seeker allowance, Housing benefit, Tax credits";
@@ -597,7 +597,7 @@
 
 "onfido_nfc_scan_welcome_card_title" = "Scan your document";
 "onfido_nfc_scan_welcome_card_subtitle" = "Use your phone to scan the chip in your document";
-"onfido_nfc_scan_welcome_card_list_item" = "Place your document against the back of your device, so they’re touching";
+"onfido_nfc_scan_welcome_card_list_item" = "Place your document against the back of your device so they’re touching";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Slowly slide your document up and down against the device until the scan starts";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Once the scan starts, hold still so the scanning can complete";
 "onfido_nfc_scan_welcome_card_button_primary"="Start scanning";
@@ -619,7 +619,7 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Use your phone to scan the chip in your document";
 "onfido_nfc_scan_welcome_passport_list_item"="Lay your document on a flat surface";
 "onfido_nfc_scan_welcome_passport_list_item_2"="Open your document at the inner back page";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Place your document against the back of your device, so they’re touching";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Place your document against the back of your device so they’re touching";
 "onfido_nfc_scan_welcome_passport_list_item_4"="Slowly slide your device up and down";
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Once the scan starts, hold still so the scanning can complete";
 "onfido_nfc_scan_welcome_passport_button_primary"="Start scanning";

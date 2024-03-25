@@ -272,7 +272,7 @@
 "onfido_user_consent_load_fail_button_primary" = "Презареждане на екрана";
 "onfido_country_select_search_results_none_accessibility" = "Няма съответстващи резултати";
 "onfido_country_select_search_results_one_accessibility" = "Намерен е един резултат";
-"onfido_country_select_search_results_multiple_accessibility" = "%d намерени резултата";
+"onfido_country_select_search_results_multiple_accessibility" = "%d намерени резултата";
 "onfido_doc_confirmation_alert_crop_detail" = "Уверете се, че се вижда целият документ";
 "onfido_doc_confirmation_alert_crop_title" = "Открихме отрязано изображение";
 "onfido_doc_upload_progress_label" = "Проверка на качеството на изображението";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Трябва да е издаден през последните 3°месеца";
 "onfido_doc_select_button_bank_statement" = "Банково извлечение или документ от асоциацията на собствениците";
 "onfido_poa_guidance_subtitle_bank_statement" = "Трябва да е издаден през последните 3°месеца";
-"onfido_doc_select_button_tax_letter" = "Писмо за данък от местното правителство";
+"onfido_doc_select_button_tax_letter" = "Данъчен документ";
 "onfido_poa_guidance_subtitle_tax_letter" = "Трябва да е издаден през последните 12°месеца";
 "onfido_doc_select_button_benefits_letter" = "Служебна бележка за получени помощи";
 "onfido_doc_select_button_benefits_letter_detail" = "Официални удостоверения за получаване на помощи за домакинства, като напр. Финансова помощ при безработица, жилищна помощ, данъчни кредити";
@@ -730,6 +730,6 @@
 "onfido_otp_error_cta" = "Върни се назад";
 "onfido_nfc_scan_error_can_title" = "Достигнати са максимални опити";
 "onfido_nfc_scan_error_can_subtitle" = "Достигнахте максималния брой опити за въвеждане на вашия CAN номер";
-"onfido_nfc_scan_error_can_primary_button" = "Изход от верификация";
+"onfido_nfc_scan_error_can_primary_button" = "Изходна верификация";
 "onfido_interactive_task_waiting_title_5" = "Качване на медия...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Повторен опит";

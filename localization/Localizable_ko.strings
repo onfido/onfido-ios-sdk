@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "최근 3개월 이내 발급된 서류여야 합니다";
 "onfido_doc_select_button_bank_statement" = "통장 입출금 내역서 또는 건설공제조합명세서(building society statement)";
 "onfido_poa_guidance_subtitle_bank_statement" = "최근 3개월 이내 발급된 서류여야 합니다";
-"onfido_doc_select_button_tax_letter" = "지방 정부 세금 통지서";
+"onfido_doc_select_button_tax_letter" = "주민세 통지서(Council Tax Letter)";
 "onfido_poa_guidance_subtitle_tax_letter" = "최근 12개월 이내 발급된 서류여야 합니다";
 "onfido_doc_select_button_benefits_letter" = "복지 급여 서신";
 "onfido_doc_select_button_benefits_letter_detail" = "정부 지원 복지 혜택(예: 구직자 수당, 주거 급여, 세액 공제)";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "스캔이 시작될 때까지 전화를 두 페이지 모두에 천천히 움직이세요";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "스캔이 시작되면 스캔이 완료될 수 있도록 가만히 있으십시오";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "다시 스캔하기";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "출구 확인";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "출구 검증";
 "onfido_nfc_scan_error_document_title" = "지원되지 않는 문서";
 "onfido_nfc_scan_error_document_subtitle" = "다른 문서로 시도해 주세요";
 "onfido_nfc_scan_error_document_primary_button" = "다른 문서를 선택하십시오";
-"onfido_nfc_scan_error_document_secondary_button" = "출구 확인";
+"onfido_nfc_scan_error_document_secondary_button" = "출구 검증";
 "onfido_nfc_scan_error_device_title" = "지원되지 않는 장치";
 "onfido_nfc_scan_error_device_subtitle" = "불편을 드려 죄송합니다. 다른 장치를 사용하여 본인 확인을 해주십시오";
-"onfido_nfc_scan_error_device_primary_button" = "출구 확인";
+"onfido_nfc_scan_error_device_primary_button" = "출구 검증";
 "onfido_nfc_scan_sheet_passport_ready" = "천천히 장치를 두 페이지 모두에 걸쳐 슬라이드하세요";
 "onfido_nfc_scan_sheet_ready_scanning" = "장치와 문서를 가만히 두세요";
 "onfido_nfc_scan_sheet_error_1" = "연결이 끊어졌습니다.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "문서를 장치에 대해 천천히 위아래로 움직이세요. 그러면 스캔이 시작됩니다";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "스캔이 시작되면 스캔이 완료될 수 있도록 가만히 있으십시오";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "다시 스캔하기";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "출구 확인";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "종료 검증";
 "onfido_nfc_scan_sheet_card_ready" = "서서히 문서를 위아래로 움직이세요";
 "onfido_nfc_scan_sheet_card_button" = "취소";
 "onfido_nfc_scan_sheet_card_error_can" = "잘못된 CAN 번호";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "돌아가기";
 "onfido_nfc_scan_error_can_title" = "최대 시도 횟수에 도달했습니다";
 "onfido_nfc_scan_error_can_subtitle" = "당신은 CAN 번호를 입력하는 최대 시도 횟수에 도달했습니다";
-"onfido_nfc_scan_error_can_primary_button" = "출구 확인";
+"onfido_nfc_scan_error_can_primary_button" = "출구 검증";
 "onfido_interactive_task_waiting_title_5" = "미디어 업로드 중...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "재시도";

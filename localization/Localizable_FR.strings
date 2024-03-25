@@ -44,7 +44,7 @@
 "onfido_permission_body_cam" = "Nous ne pouvons pas vous vérifier sans utiliser votre appareil photo";
 "onfido_permission_body_mic" = "Nous ne pouvons pas commencer la vérification sans utiliser votre micro";
 "onfido_permission_subtitle_both" = "Autorisez l’accès aux deux pour continuer";
-"onfido_permission_subtitle_cam" = "Lorsque vous y serez invité, vous devrez autoriser l’accès à l’appareil photo pour continuer";
+"onfido_permission_subtitle_cam" = "Lorsque vous y serez invité, vous devez autoriser l’accès à l’appareil photo pour continuer";
 "onfido_permission_subtitle_mic" = "Autorisez l’accès au micro pour continuer";
 /* Device permission */
 "onfido_permission_title_both" = "Autoriser l’accès à l’appareil photo et au micro";
@@ -109,17 +109,17 @@
 
 
 /* Capture Document/Face */
-"onfido_selfie_capture_body" = "Gardez votre visage dans le cercle";
+"onfido_selfie_capture_body" = "Gardez le visage dans le cercle";
 "onfido_video_capture_body" = "Gardez votre visage dans l’ovale pour commencer à enregistrer";
-"onfido_doc_confirmation_body_license" = "Assurez-vous que votre document soit lisible et net";
-"onfido_doc_confirmation_body_generic" = "Assurez-vous que votre document soit lisible et net";
-"onfido_doc_confirmation_body_id" = "Assurez-vous que votre document soit lisible et net";
+"onfido_doc_confirmation_body_license" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
+"onfido_doc_confirmation_body_generic" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
+"onfido_doc_confirmation_body_id" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
 
 /* Document capture confirmation */
 
-"onfido_doc_confirmation_body_passport" = "Assurez-vous que votre document soit lisible et net";
-"onfido_doc_confirmation_body_permit" = "Assurez-vous que votre document soit lisible et net";
-"onfido_doc_confirmation_body_visa" = "Assurez-vous que votre document soit lisible et net";
+"onfido_doc_confirmation_body_passport" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
+"onfido_doc_confirmation_body_permit" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
+"onfido_doc_confirmation_body_visa" = "Assurez-vous que vos coordonnées sont lisibles et nettes";
 
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Assurez-vous que votre selfie montre clairement votre visage";
@@ -164,7 +164,7 @@
 "onfido_video_intro_prompt_button_primary_reload_player" = "Recharger";
 "onfido_video_confirmation_button_secondary" = "Reprendre une vidéo";
 "onfido_video_capture_prompt_button_timeout" = "Réessayer";
-"onfido_country_select_bottom_sheet_link_doc_select" = "Choisir un autre document";
+"onfido_country_select_bottom_sheet_link_doc_select" = "Choisissez un autre document";
 "onfido_welcome_button_primary" = "Démarrer";
 "onfido_video_capture_button_primary_start" = "Démarrer l’enregistrement";
 "onfido_video_confirmation_button_primary" = "Envoyer la vidéo";
@@ -284,7 +284,7 @@
 "onfido_video_capture_turn_success_accessibility" = "Tour de tête détecté";
 "onfido_welcome_list_header" = "Utilisez votre appareil pour:";
 "onfido_welcome_list_item_doc_photo" = "Prendre une photo de votre pièce d’identité";
-"onfido_welcome_list_item_doc_generic" = "Enregistrer une vidéo de votre document d'identité";
+"onfido_welcome_list_item_doc_generic" = "Enregistrez une vidéo de votre document d'identité";
 "onfido_welcome_list_item_face_photo" = "Prendre une photo de votre document";
 "onfido_welcome_list_item_face_video" = "Enregistrer une vidéo de votre visage";
 "onfido_doc_capture_header_live_guidance_no_doc" = "Tenez votre téléphone au-dessus du document";
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Doit avoir été émis au cours des 3 derniers mois";
 "onfido_doc_select_button_bank_statement" = "Relevé bancaire ou d'un organisme d'épargne";
 "onfido_poa_guidance_subtitle_bank_statement" = "Doit avoir été émis au cours des 3 derniers mois";
-"onfido_doc_select_button_tax_letter" = "Lettre d'Impôt du Gouvernement Local";
+"onfido_doc_select_button_tax_letter" = "Lettre des impôts locaux";
 "onfido_poa_guidance_subtitle_tax_letter" = "Doit avoir été émis au cours des 12 derniers mois";
 "onfido_doc_select_button_benefits_letter" = "Lettre des allocations";
 "onfido_doc_select_button_benefits_letter_detail" = "Allocations autorisées par le gouvernement, par ex. allocation chômage, allocation logement, crédit d'impôt";
@@ -398,7 +398,7 @@
 "onfido_avc_no_face_detected_button_primary_restart" = "Redémarrer l’enregistrement";
 "onfido_avc_confirmation_title" = "Enregistrement terminé";
 "onfido_avc_confirmation_subtitle" = "Une vidéo de votre visage a bien été enregistrée";
-"onfido_avc_confirmation_button_primary_upload" = "Envoyer l'enregistrement";
+"onfido_avc_confirmation_button_primary_upload" = "Téléverser l’enregistrement";
 "onfido_avc_connection_error_title" = "Erreur de connexion";
 "onfido_avc_connection_error_subtitle" = "Vérifiez que votre connexion est stable, puis réessayez";
 "onfido_avc_connection_error_button_primary_reload" = "Recharger les instructions";
@@ -411,7 +411,7 @@
 "onfido_doc_select_section_header_doc_type" = "Documents acceptés";
 "onfido_doc_select_section_input_placeholder_country" = "Choisissez le pays d'émission";
 "onfido_doc_select_subtitle_entire_page" = "Page entière";
-"onfido_doc_select_subtitle_photo_page" = "Page avec photo";
+"onfido_doc_select_subtitle_photo_page" = "Page de photos";
 "onfido_doc_select_subtitle_front_back" = "Avant et arrière";
 "onfido_doc_select_section_input_country_not_found" = "Aucun résultat";
 "onfido_generic_errors_geoblocked_error_instruction" = "Nous sommes désolés, il semble que nous ne puissions pas poursuivre car votre emplacement actuel n'est pas pris en charge";
@@ -435,7 +435,7 @@
 "onfido_avc_intro_title_accessibility" = "Enregistrer une vidéo de votre visage";
 "onfido_avc_intro_video_accessibility" = "Exemple de vidéo d'une personne tournant la tête des deux côtés jusqu'à la fin";
 "onfido_avc_face_capture_frame_accessibility" = "Vue depuis la caméra à selfie";
-"onfido_avc_face_capture_title_accessibility" = "Tournez lentement la têtede chaque côté. Vous entendrez une confirmation et sentirez une vibration lorsqu'un côté sera terminé";
+"onfido_avc_face_capture_title_accessibility" = "Tournez lentement la tête des deux côtés. Vous entendrez une confirmation et sentirez une vibration lorsqu'un côté sera terminé";
 "onfido_avc_face_capture_recording_started_accessibility" = "L’enregistrement a commencé";
 "onfido_avc_face_capture_keep_turning_accessibility" = "Continuez à tourner la tête";
 "onfido_avc_face_capture_confirmation_left_side_complete_accessibility" = "Côté gauche terminé";
@@ -480,7 +480,7 @@
 "onfido_nfc_sheet_success_instruction_card" = "Nous avons scanné votre carte avec succès";
 "onfido_nfc_intro_sheet_fail_instructions_card" = "Gardez votre téléphone immobile";
 "onfido_nfc_intro_sheet_fail_subtitle_card" = "Contact perdu avec la carte";
-"onfido_doc_capture_header_scanning" = "Scan du document en cours…";
+"onfido_doc_capture_header_scanning" = "Scan en cours du document…";
 "onfido_doc_capture_frame_accessibility_dl_de_front_manual" = "Vue depuis la caméra. Placez la photo de votre document dans le cadre, puis appuyez sur le déclencheur";
 "onfido_doc_capture_frame_accessibility_dl_de_back_manual" = "Vue depuis la caméra. Placez les pages extérieures de votre document dans le cadre, puis appuyez sur le déclencheur";
 "onfido_nfc_intro_sheet_fail_subtitle_passport" = "Contact avec le passeport perdu";
@@ -510,7 +510,7 @@
 "onfido_avc_intro_list_item_two_accessibility" = "Ensuite, vous devrez tourner lentement la tête des deux côtés";
 "onfido_avc_face_alignment_feedback_face_misaligned_accessibility" = "Visage mal aligné";
 "onfido_avc_no_face_detected_list_item_face_accessiblity" = "Assurez-vous de ne montrer que votre visage, nous n'avons pas besoin de voir votre pièce d'identité";
-"onfido_selfie_intro_list_item_no_face_cover" = "Ôtez tout élément couvrant votre visage. Lunettes de vue acceptées";
+"onfido_selfie_intro_list_item_no_face_cover" = "Ôtez tout élément couvrant votre visage. Les lunettes sont acceptées";
 "onfido_selfie_intro_banner_nudity_message" = "Au cours de ce processus, votre visage et votre arrière-plan seront capturés";
 "onfido_video_capture_prompt_header_microphone" = "Votre microphone est actuellement utilisé par une autre application";
 "onfido_video_capture_prompt_detail_microphone" = "Le microphone est requis afin de vérifier votre identité. Veillez à mettre fin à tout appel en cours.";
@@ -538,9 +538,9 @@
 "onfido_welcome_nfc_subtitle" = "Cela ne prendra que quelques minutes";
 "onfido_welcome_nfc_list_header_nfc" = "Utilisez votre appareil pour:";
 "onfido_welcome_nfc_list_item" = "Prendre une photo de votre pièce d’identité";
-"onfido_welcome_nfc_list_item_2" = "Scannez votre document";
+"onfido_welcome_nfc_list_item_2" = "Numérisez votre document";
 "onfido_welcome_nfc_button_primary" = "Prenez une photo de votre document";
-"onfido_intro_scan_title" = "Scannez votre document";
+"onfido_intro_scan_title" = "Numérisez votre document";
 "onfido_intro_scan_subtitle" = "Suivez les instructions ci-dessous";
 "onfido_intro_scan_list_item" = "Placez votre carte à l'arrière de votre appareil";
 "onfido_intro_scan_list_item_3" = "Une fois que le scan commence, restez immobile";
@@ -585,7 +585,7 @@
 "onfido_doc_video_capture_button_primary_start" = "Démarrer l’enregistrement";
 "onfido_doc_video_confirmation_button_secondary_retake" = "Reprendre une vidéo";
 "onfido_doc_video_capture_header_folded_doc_front" = "Côté contenant votre photo";
-"onfido_welcome_list_item_doc_video" = "Enregistrer une vidéo de votre pièce d’identité";
+"onfido_welcome_list_item_doc_video" = "Enregistrez une vidéo de votre pièce d’identité";
 "onfido_welcome_info_original_document" = "Prenez une photographie de votre document original. Les scans, les photos d'écran ou les photocopies ne sont pas autorisés.";
 "onfido_avc_face_capture_alert_mic_conflict_title" = "Votre microphone est actuellement utilisé par une autre application";
 "onfido_avc_face_capture_alert_mic_conflict_body" = "Veuillez mettre fin à tous les appels ou activités en cours qui utilisent votre microphone pendant l'enregistrement";
@@ -594,7 +594,7 @@
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Du contenu audio est lu par une autre application";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Veuillez ne pas lire de contenu audio sur votre appareil pendant l'enregistrement";
 
-"onfido_nfc_scan_welcome_card_title" = "Scannez votre document";
+"onfido_nfc_scan_welcome_card_title" = "Numérisez votre document";
 "onfido_nfc_scan_welcome_card_subtitle" = "Utilisez votre téléphone pour scanner la puce dans votre document";
 "onfido_nfc_scan_welcome_card_list_item" = "Placez votre document contre l'arrière de votre appareil afin qu'ils se touchent";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Faites lentement glisser votre document de haut en bas contre l'appareil jusqu'à ce que le scan commence";
@@ -664,32 +664,32 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Veuillez attendre un peu plus longtemps pour que ce processus se termine, votre patience est appréciée.";
 "onfido_interactive_task_waiting_subtitle_2" = "La tâche est toujours en cours, votre patience est appréciée.";
 "onfido_nfc_fail_passport_title" = "Nous n'avons pas pu scanner ce document";
-"onfido_nfc_fail_passport_list_item_1" = "Retirez toutes les housses et coques de votre document et appareil";
+"onfido_nfc_fail_passport_list_item_1" = "Retirez tous les couvertures de votre document et appareil";
 "onfido_nfc_fail_passport_list_item_2" = "Gardez votre appareil et votre document en contact jusqu'à ce que le scan soit réussi";
 "onfido_nfc_fail_passport_list_item_3" = "Faites glisser lentement votre téléphone sur les deux pages jusqu'à ce que le scan commence";
 "onfido_nfc_fail_passport_list_item_4" = "Une fois le scan commencé, restez immobile pour que le scan puisse se terminer";
 "onfido_nfc_fail_passport_button_primary" = "Réessayez de scanner";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Nous n'avons pas pu scanner ce document";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Retirez toutes les housses et coques de votre document et appareil";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Retirez tous les couvertures de votre document et appareil";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Gardez votre appareil et votre document en contact jusqu'à ce que la numérisation soit réussie";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Faites glisser lentement votre téléphone sur les deux pages jusqu'à ce que le scan commence";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Une fois le scan commencé, restez immobile pour que le scan puisse se terminer";
 "onfido_nfc_scan_error_final_possible_passport_primary_button" = "Réessayez de scanner";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Vérifier sans scanner";
 "onfido_nfc_scan_error_final_required_passport_title" = "Nous n'avons pas pu scanner ce document";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Retirez toutes les housses et coques de votre document et appareil";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Retirez tous les couvertures de votre document et appareil";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Gardez votre appareil et votre document en contact jusqu'à ce que le scan soit réussi";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Faites glisser lentement votre téléphone sur les deux pages jusqu'à ce que le scan commence";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Une fois le scan commencé, restez immobile pour que le scan puisse se terminer";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Réessayez de scanner";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Quitter la vérification";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Sortie de vérification";
 "onfido_nfc_scan_error_document_title" = "Document non pris en charge";
 "onfido_nfc_scan_error_document_subtitle" = "Veuillez essayer avec un autre document";
 "onfido_nfc_scan_error_document_primary_button" = "Choisissez un autre document";
-"onfido_nfc_scan_error_document_secondary_button" = "Quitter la vérification";
+"onfido_nfc_scan_error_document_secondary_button" = "Sortie de vérification";
 "onfido_nfc_scan_error_device_title" = "Appareil non pris en charge";
 "onfido_nfc_scan_error_device_subtitle" = "Désolé pour tout désagrément. Veuillez utiliser un autre appareil pour vérifier votre identité";
-"onfido_nfc_scan_error_device_primary_button" = "Quitter la vérification";
+"onfido_nfc_scan_error_device_primary_button" = "Sortie de vérification";
 "onfido_nfc_scan_sheet_passport_ready" = "Faites glisser lentement votre appareil sur les deux pages";
 "onfido_nfc_scan_sheet_ready_scanning" = "Gardez votre appareil et votre document immobiles";
 "onfido_nfc_scan_sheet_error_1" = "Connexion perdue.";
@@ -715,7 +715,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Faites lentement glisser votre document de haut en bas contre l'appareil jusqu'à ce que le scan commence";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Une fois le scan commencé, restez immobile pour que le scan puisse se terminer";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Réessayez de scanner";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Quitter la vérification";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Sortie de vérification";
 "onfido_nfc_scan_sheet_card_ready" = "Faites glisser lentement votre document de haut en bas";
 "onfido_nfc_scan_sheet_card_button" = "Annuler";
 "onfido_nfc_scan_sheet_card_error_can" = "Numéro CAN incorrect";
@@ -730,6 +730,6 @@
 "onfido_otp_error_cta" = "Retourner";
 "onfido_nfc_scan_error_can_title" = "Nombre maximum de tentatives atteint";
 "onfido_nfc_scan_error_can_subtitle" = "Vous avez atteint le nombre maximum de tentatives pour entrer votre numéro CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Quitter la vérification";
+"onfido_nfc_scan_error_can_primary_button" = "Sortie de vérification";
 "onfido_interactive_task_waiting_title_5" = "Téléchargement de médias...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Réessayer";

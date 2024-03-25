@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Deverá ter sido emitido nos últimos 3 meses";
 "onfido_doc_select_button_bank_statement" = "Extrato bancário ou de uma sociedade de crédito imobiliário";
 "onfido_poa_guidance_subtitle_bank_statement" = "Deverá ter sido emitido nos últimos 3 meses";
-"onfido_doc_select_button_tax_letter" = "Carta de Imposto do Governo Local";
+"onfido_doc_select_button_tax_letter" = "Carta sobre Impostos Municipais";
 "onfido_poa_guidance_subtitle_tax_letter" = "Deverá ter sido emitido nos últimos 12 meses";
 "onfido_doc_select_button_benefits_letter" = "Declaração de Benefícios";
 "onfido_doc_select_button_benefits_letter_detail" = "Benefícios autorizados pelo governo, p.e. subsídio de desemprego, subsídio de habitação, créditos fiscais";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vista da câmara. Posicione o lado da fotografia do seu documento na moldura, depois toque no botão do obturador";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vista da câmara. Posicione as páginas exteriores do seu documento no enquadramento, depois toque no botão do obturado";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Coloque o seu telefone perto do meio do seu passaporte";
-"onfido_avc_intro_title_accessibility" = "Grave um vídeo da sua cara";
+"onfido_avc_intro_title_accessibility" = "Grave um vídeo do seu rosto";
 "onfido_avc_intro_video_accessibility" = "Vídeo de exemplo de alguém a virar a cabeça para ambos os lados até à conclusão";
 "onfido_avc_face_capture_frame_accessibility" = "Vista da câmara selfie";
 "onfido_avc_face_capture_title_accessibility" = "Vire a cabeça lentamente para ambos os lados. Quando um lado estiver completo, ouvirá uma confirmação e sentirá uma vibração.";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_error_list_item_2" = "Assim que a digitalização começar, não se mova";
 "onfido_nfc_scan_error_button_primary" = "Repetir digitalização";
 "onfido_welcome_nfc_title" = "Verifique a sua identidade";
-"onfido_welcome_nfc_subtitle" = "Pode demorar alguns minutos";
-"onfido_welcome_nfc_list_header_nfc" = "Utilize o seu dispositivo para:";
-"onfido_welcome_nfc_list_item" = "Tire uma fotografia de um documento de identidade";
+"onfido_welcome_nfc_subtitle" = "";
+"onfido_welcome_nfc_list_header_nfc" = "";
+"onfido_welcome_nfc_list_item" = "";
 "onfido_welcome_nfc_list_item_2" = "Escaneie o seu documento";
 "onfido_welcome_nfc_button_primary" = "Tirar uma foto do seu documento";
 "onfido_intro_scan_title" = "Digitalize o seu documento";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Deslize lentamente o seu telefone por ambas as páginas até que a digitalização comece";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Tente escanear novamente";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Saída da verificação";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Verificação de saída";
 "onfido_nfc_scan_error_document_title" = "Documento não suportado";
 "onfido_nfc_scan_error_document_subtitle" = "Por favor, tente com outro documento";
 "onfido_nfc_scan_error_document_primary_button" = "Escolha outro documento";
-"onfido_nfc_scan_error_document_secondary_button" = "Saída da verificação";
+"onfido_nfc_scan_error_document_secondary_button" = "Verificação de saída";
 "onfido_nfc_scan_error_device_title" = "Dispositivo não suportado";
 "onfido_nfc_scan_error_device_subtitle" = "Desculpe por qualquer inconveniente. Por favor, use um dispositivo diferente para verificar sua identidade";
-"onfido_nfc_scan_error_device_primary_button" = "Saída da verificação";
+"onfido_nfc_scan_error_device_primary_button" = "Verificação de saída";
 "onfido_nfc_scan_sheet_passport_ready" = "Deslize lentamente o seu dispositivo por ambas as páginas";
 "onfido_nfc_scan_sheet_ready_scanning" = "Mantenha seu dispositivo e documento imóveis";
 "onfido_nfc_scan_sheet_error_1" = "Conexão perdida.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Uma vez que a varredura comece, fique imóvel para que a digitalização possa ser concluída";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Tente escanear novamente";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Saída da verificação";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Verificação de saída";
 "onfido_nfc_scan_sheet_card_ready" = "Deslize lentamente o seu documento para cima e para baixo";
 "onfido_nfc_scan_sheet_card_button" = "Cancelar";
 "onfido_nfc_scan_sheet_card_error_can" = "Número CAN incorreto";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Voltar";
 "onfido_nfc_scan_error_can_title" = "Máximo de tentativas atingido";
 "onfido_nfc_scan_error_can_subtitle" = "Você atingiu o número máximo de tentativas para inserir o seu número CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Saída da verificação";
+"onfido_nfc_scan_error_can_primary_button" = "Verificação de saída";
 "onfido_interactive_task_waiting_title_5" = "Carregando mídia...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Tentar novamente";

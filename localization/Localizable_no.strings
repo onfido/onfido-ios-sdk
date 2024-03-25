@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Må være utstedt i løpet av de siste tre månedene";
 "onfido_doc_select_button_bank_statement" = "Bekreftelse fra bank eller hypotekforening";
 "onfido_poa_guidance_subtitle_bank_statement" = "Må være utstedt i løpet av de siste tre månedene";
-"onfido_doc_select_button_tax_letter" = "Brev om lokal skatt";
+"onfido_doc_select_button_tax_letter" = "Selvangivelse";
 "onfido_poa_guidance_subtitle_tax_letter" = "Må være utstedt i løpet av de siste 12 månedene";
 "onfido_doc_select_button_benefits_letter" = "Sosialstøttebekfreftelse";
 "onfido_doc_select_button_benefits_letter_detail" = "Statlig godkjent sosialstøtte, f.eks. Arbeidsledifhetstrygd, husleiestøtte, skattefradrag";

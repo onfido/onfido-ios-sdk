@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
 "onfido_doc_select_button_bank_statement" = "Τράπεζα ή στεγαστικό ταμιευτήριο";
 "onfido_poa_guidance_subtitle_bank_statement" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
-"onfido_doc_select_button_tax_letter" = "Επιστολή Φορολογίας Τοπικής Αυτοδιοίκησης";
+"onfido_doc_select_button_tax_letter" = "Επιστολή Δημοτικού φόρου";
 "onfido_poa_guidance_subtitle_tax_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
 "onfido_doc_select_button_benefits_letter" = "Επιστολή επιδομάτων";
 "onfido_doc_select_button_benefits_letter_detail" = "Επιδόματα νοικοκυριών που έχουν εγκριθεί από το κράτος, π.χ. Επίδομα αναζήτησης εργασίας, Στεγαστικό επίδομα, Εκπτώσεις φόρου";

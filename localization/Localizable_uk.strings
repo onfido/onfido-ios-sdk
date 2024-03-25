@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Має бути виданий протягом останніх 3°місяців";
 "onfido_doc_select_button_bank_statement" = "Виписка з банку або іпотечної спілки";
 "onfido_poa_guidance_subtitle_bank_statement" = "Має бути виданий протягом останніх 3°місяців";
-"onfido_doc_select_button_tax_letter" = "Лист про податки місцевого самоврядування";
+"onfido_doc_select_button_tax_letter" = "Лист від податкової служби";
 "onfido_poa_guidance_subtitle_tax_letter" = "Має бути виданий протягом останніх 12 місяців";
 "onfido_doc_select_button_benefits_letter" = "Лист про пільги";
 "onfido_doc_select_button_benefits_letter_detail" = "Комунальні послуги та послуги зв’язку, наприклад: виплати по безробіттю, житлові субсидії, податкові знижки";
@@ -432,7 +432,7 @@
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Увімкніть камеру. Наведіть рамку на бік із фотографією, а тоді натисніть кнопку зйомки";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Увімкніть камеру. Наведіть рамку на зовнішній розворот документа, а тоді натисніть кнопку зйомки";
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Покладіть телефон посередині паспорта";
-"onfido_avc_intro_title_accessibility" = "зняти відео свого обличчя;";
+"onfido_avc_intro_title_accessibility" = "Зніміть відео свого обличчя";
 "onfido_avc_intro_video_accessibility" = "Приклад відео, на якому особа повертає голову в обидва боки до завершення перевірки";
 "onfido_avc_face_capture_frame_accessibility" = "Увімкніть селфі-камеру.";
 "onfido_avc_face_capture_title_accessibility" = "Повільно поверніть голову в обидва боки. Якщо поворот головою буде виконано вдало, ви почуєте підтвердження і відчуєте вібрацію";
@@ -537,7 +537,7 @@
 "onfido_welcome_nfc_title" = "Підтвердити особу";
 "onfido_welcome_nfc_subtitle" = "Це займе кілька хвилин";
 "onfido_welcome_nfc_list_header_nfc" = "Використовуйте свій пристрій, щоб:";
-"onfido_welcome_nfc_list_item" = "Сфотографувати документ, що посвідчує особу;";
+"onfido_welcome_nfc_list_item" = "сфотографувати документ, що посвідчує особу;";
 "onfido_welcome_nfc_list_item_2" = "відсканувати документ.";
 "onfido_welcome_nfc_button_primary" = "Сфотографувати документ";
 "onfido_intro_scan_title" = "Відсканувати документ";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Повільно проведіть телефоном по обох сторінках, поки не почнеться сканування";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Одразу після початку сканування, залишайтеся нерухомим, щоб сканування могло завершитися";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Повторіть сканування";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Верифікація при виході";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Вихідна верифікація";
 "onfido_nfc_scan_error_document_title" = "Документ не підтримується";
 "onfido_nfc_scan_error_document_subtitle" = "Будь ласка, спробуйте з іншим документом";
 "onfido_nfc_scan_error_document_primary_button" = "Виберіть інший документ";
-"onfido_nfc_scan_error_document_secondary_button" = "Верифікація при виході";
+"onfido_nfc_scan_error_document_secondary_button" = "Верифікація виходу";
 "onfido_nfc_scan_error_device_title" = "Непідтримуваний пристрій";
 "onfido_nfc_scan_error_device_subtitle" = "Вибачте за будь-які незручності. Будь ласка, використовуйте інший пристрій, щоб підтвердити свою особистість";
-"onfido_nfc_scan_error_device_primary_button" = "Верифікація при виході";
+"onfido_nfc_scan_error_device_primary_button" = "Вихід з перевірки";
 "onfido_nfc_scan_sheet_passport_ready" = "Повільно проведіть своїм пристроєм по обох сторінках";
 "onfido_nfc_scan_sheet_ready_scanning" = "Тримайте свій пристрій та документ нерухомими";
 "onfido_nfc_scan_sheet_error_1" = "З'єднання втрачено.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Повільно піднімайте та опускайте ваш документ вздовж пристрою, поки не почнеться сканування";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Як тільки сканування почнеться, залишайтеся нерухомим, щоб сканування могло завершитися";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Повторіть сканування";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Верифікація при виході";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Вихідна верифікація";
 "onfido_nfc_scan_sheet_card_ready" = "Повільно пересувайте ваш документ вгору та вниз";
 "onfido_nfc_scan_sheet_card_button" = "Скасувати";
 "onfido_nfc_scan_sheet_card_error_can" = "Неправильний номер CAN";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Повернутися назад";
 "onfido_nfc_scan_error_can_title" = "Максимальна кількість спроб досягнута";
 "onfido_nfc_scan_error_can_subtitle" = "Ви досягли максимальної кількості спроб ввести свій номер CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Верифікація при виході";
+"onfido_nfc_scan_error_can_primary_button" = "Вихідна верифікація";
 "onfido_interactive_task_waiting_title_5" = "Завантаження медіа...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Повторити";

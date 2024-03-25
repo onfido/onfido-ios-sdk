@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Peab olema väljastatud viimase 3 kuu jooksul";
 "onfido_doc_select_button_bank_statement" = "Panga või korteriühistu väljavõte";
 "onfido_poa_guidance_subtitle_bank_statement" = "Peab olema väljastatud viimase 3 kuu jooksul";
-"onfido_doc_select_button_tax_letter" = "Kohaliku omavalitsuse maksukiri";
+"onfido_doc_select_button_tax_letter" = "Kohaliku maksu teavitus";
 "onfido_poa_guidance_subtitle_tax_letter" = "Peab olema väljastatud viimase 12 kuu jooksul";
 "onfido_doc_select_button_benefits_letter" = "Sotsiaalhüvede teavitus";
 "onfido_doc_select_button_benefits_letter_detail" = "Valitsuse heakskiidetud toetused, nt töötu abiraha, eluasemetoetus, maksukrediit";

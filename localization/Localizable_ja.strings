@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "過去3ヶ月以内に発行されている必要があります";
 "onfido_doc_select_button_bank_statement" = "銀行または住宅金融組合の明細書";
 "onfido_poa_guidance_subtitle_bank_statement" = "過去3ヶ月以内に発行されている必要があります";
-"onfido_doc_select_button_tax_letter" = "地方自治体税の書状";
+"onfido_doc_select_button_tax_letter" = "地方税書類";
 "onfido_poa_guidance_subtitle_tax_letter" = "過去12ヶ月以内に発行されている必要があります";
 "onfido_doc_select_button_benefits_letter" = "特典レター";
 "onfido_doc_select_button_benefits_letter_detail" = "政府が認可した家計給付など求職者手当、住宅給付、税額控除";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "スキャンを再試行";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "退出確認";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "終了の確認";
 "onfido_nfc_scan_error_document_title" = "サポートされていないドキュメント";
 "onfido_nfc_scan_error_document_subtitle" = "別のドキュメントで試してください";
 "onfido_nfc_scan_error_document_primary_button" = "別のドキュメントを選択してください";
-"onfido_nfc_scan_error_document_secondary_button" = "退出確認";
+"onfido_nfc_scan_error_document_secondary_button" = "終了の確認";
 "onfido_nfc_scan_error_device_title" = "サポートされていないデバイス";
 "onfido_nfc_scan_error_device_subtitle" = "ご不便をおかけして申し訳ありません。別のデバイスを使用して、あなたの身元を確認してください";
-"onfido_nfc_scan_error_device_primary_button" = "退出確認";
+"onfido_nfc_scan_error_device_primary_button" = "終了の確認";
 "onfido_nfc_scan_sheet_passport_ready" = "デバイスをゆっくりと両ページにスライドさせてください";
 "onfido_nfc_scan_sheet_ready_scanning" = "あなたのデバイスとドキュメントを静止させてください";
 "onfido_nfc_scan_sheet_error_1" = "接続が切れました。";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "スキャンが開始されたら、スキャンが完了するまで静止してください";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "スキャンを再試行";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "退出確認";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "終了の確認";
 "onfido_nfc_scan_sheet_card_ready" = "ゆっくりとあなたのドキュメントを上下にスライドさせてください";
 "onfido_nfc_scan_sheet_card_button" = "キャンセル";
 "onfido_nfc_scan_sheet_card_error_can" = "不正なCAN番号";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "戻る";
 "onfido_nfc_scan_error_can_title" = "最大試行回数に達しました";
 "onfido_nfc_scan_error_can_subtitle" = "あなたはCAN番号を入力する最大試行回数に達しました";
-"onfido_nfc_scan_error_can_primary_button" = "退出確認";
+"onfido_nfc_scan_error_can_primary_button" = "終了の確認";
 "onfido_interactive_task_waiting_title_5" = "メディアをアップロード中...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "再試行";

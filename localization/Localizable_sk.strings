@@ -213,7 +213,7 @@
 "onfido_nfc_intro_passport_scan_guide_1" = "Položte svoj pas otvorený na rovný povrch";
 "onfido_nfc_intro_passport_scan_guide_2" = "Umiestnite svoj telefón priamo na vrch vášho pasu, aby sa dotýkali";
 "onfido_nfc_intro_passport_scan_guide_3" = "Pomaly prejdite telefónom cez obe strany, kým sa nespustí skenovanie";
-"onfido_nfc_intro_passport_scan_guide_4" = "Akonáhle sa začne skenovanie, nehýbte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_intro_passport_scan_guide_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
 
 "onfido_nfc_intro_button_primary_passport" = "Spustiť skenovanie";
 
@@ -358,7 +358,7 @@
 "onfido_poa_guidance_subtitle_bill" = "Musí byť vydaný v priebehu posledných 3 mesiacov";
 "onfido_doc_select_button_bank_statement" = "Výpis z banky alebo stavebnej sporiteľne";
 "onfido_poa_guidance_subtitle_bank_statement" = "Musí byť vydaný v priebehu posledných 3 mesiacov";
-"onfido_doc_select_button_tax_letter" = "List miestnej samosprávy o daniach";
+"onfido_doc_select_button_tax_letter" = "Potvrdenie o zaplatení miestnej dane";
 "onfido_poa_guidance_subtitle_tax_letter" = "Musí byť vydaný v priebehu posledných 12 mesiacov";
 "onfido_doc_select_button_benefits_letter" = "Potvrdenie o sociálnych dávkach";
 "onfido_doc_select_button_benefits_letter_detail" = "Dávky pre domácnosť schválené verejnou správou, napr. príspevok pre uchádzača o zamestnanie, dávka na bývanie, daňové úľavy";
@@ -683,14 +683,14 @@
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Pomaly posúvajte svoj telefón cez obe strany, kým sa nespustí skenovanie";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
 "onfido_nfc_scan_error_final_required_passport_primary_button" = "Skúste znova skenovať";
-"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Overenie pri odchode";
+"onfido_nfc_scan_error_final_required_passport_secondary_button" = "Overenie výstupu";
 "onfido_nfc_scan_error_document_title" = "Dokument nie je podporovaný";
 "onfido_nfc_scan_error_document_subtitle" = "Skúste to s iným dokumentom";
 "onfido_nfc_scan_error_document_primary_button" = "Vyberte iný dokument";
-"onfido_nfc_scan_error_document_secondary_button" = "Overenie pri odchode";
+"onfido_nfc_scan_error_document_secondary_button" = "Overenie výstupu";
 "onfido_nfc_scan_error_device_title" = "Nepodporované zariadenie";
 "onfido_nfc_scan_error_device_subtitle" = "Ospravedlňujeme sa za akékoľvek nepríjemnosti. Prosím, použite iné zariadenie na overenie svojej identity.";
-"onfido_nfc_scan_error_device_primary_button" = "Overenie pri odchode";
+"onfido_nfc_scan_error_device_primary_button" = "Overenie výstupu";
 "onfido_nfc_scan_sheet_passport_ready" = "Pomaly posúvajte svoje zariadenie cez obe strany";
 "onfido_nfc_scan_sheet_ready_scanning" = "Udržujte svoje zariadenie a dokument v pokoji";
 "onfido_nfc_scan_sheet_error_1" = "Stratilo sa pripojenie.";
@@ -716,7 +716,7 @@
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
 "onfido_nfc_scan_error_final_required_card_primary_button" = "Skúste znova skenovať";
-"onfido_nfc_scan_error_final_required_card_secondary_button" = "Overenie pri odchode";
+"onfido_nfc_scan_error_final_required_card_secondary_button" = "Overenie výstupu";
 "onfido_nfc_scan_sheet_card_ready" = "Pomaly posúvajte svoj dokument hore a dole";
 "onfido_nfc_scan_sheet_card_button" = "Zrušiť";
 "onfido_nfc_scan_sheet_card_error_can" = "Nesprávne číslo CAN";
@@ -731,6 +731,6 @@
 "onfido_otp_error_cta" = "Vráť sa späť";
 "onfido_nfc_scan_error_can_title" = "Maximálny počet pokusov dosiahnutý";
 "onfido_nfc_scan_error_can_subtitle" = "Dosiahli ste maximálny počet pokusov o zadanie vášho čísla CAN";
-"onfido_nfc_scan_error_can_primary_button" = "Overenie pri odchode";
+"onfido_nfc_scan_error_can_primary_button" = "Overenie výstupu";
 "onfido_interactive_task_waiting_title_5" = "Nahrávanie médií...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Skúsiť znova";
