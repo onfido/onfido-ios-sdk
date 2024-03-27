@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Obturare";
 "onfido_selfie_capture_button_accessibility" = "Obturare";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Vizualizați din camera video";
+"onfido_doc_capture_frame_accessibility" = "Capturați-vă documentul";
 "onfido_selfie_capture_frame_accessibility" = "Vizualizați din camera video selfie. Mențineți fața în oval, apoi atingeți butonul obturare.";
 "onfido_video_capture_frame_accessibility" = "Vizualizați din camera video selfie. Mențineți fața în oval pentru a începe înregistrarea.";
 "onfido_selfie_confirmation_image_accessibility" = "Poza feței dvs.";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Ieşire din verificare";
 "onfido_interactive_task_waiting_title_5" = "Încărcare media...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Încercați din nou";
+"onfido_doc_capture_alert_mrz_title" = "Ultimile %d linii (MRZ) sunt neclare";
+"onfido_doc_capture_alert_mrz_detail" = "Fă ca partea de jos a documentului tău să fie vizibilă";
+"onfido_generic_close_sdk_title" = "Ești sigur că vrei să ieși?";
+"onfido_generic_close_sdk_subtitle" = "S-ar putea să fie nevoie să reporniți procesul de verificare dacă vă întoarceți.";
+"onfido_generic_close_sdk_exit" = "Ieșire";
+"onfido_generic_close_sdk_cancel" = "Anulați";
+"onfido_nfc_scan_doc_realign_title" = "Scanare întreruptă";
+"onfido_nfc_scan_doc_realign_body" = "Repoziționează-ți documentul în fața dispozitivului tău";

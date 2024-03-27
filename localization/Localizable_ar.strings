@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "ضع وجهك في الإطار البيضاوي، ثم اضغط على زر المصراع";
 "onfido_selfie_capture_button_accessibility" = "مصراع";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "عرض من الكاميرا";
+"onfido_doc_capture_frame_accessibility" = "التقط وثيقتك";
 "onfido_selfie_capture_frame_accessibility" = "عرض من كاميرا سيلفي. ضع وجهك في الإطار البيضاوي، ثم اضغط على زر المصراع";
 "onfido_video_capture_frame_accessibility" = "عرض من كاميرا سيلفي.أبقِ وجهك داخل الإطار البيضاوي لبدء التسجيل.";
 "onfido_selfie_confirmation_image_accessibility" = "صورة لوجهك";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "التحقق عند الخروج";
 "onfido_interactive_task_waiting_title_5" = "جاري تحميل الوسائط...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "إعادة المحاولة";
+"onfido_doc_capture_alert_mrz_title" = "السطور السفلية %d (MRZ) غير واضحة";
+"onfido_doc_capture_alert_mrz_detail" = "اجعل الجزء السفلي من وثيقتك مرئيًا";
+"onfido_generic_close_sdk_title" = "هل أنت متأكد أنك تريد الخروج؟";
+"onfido_generic_close_sdk_subtitle" = "قد تحتاج إلى إعادة بدء عملية التحقق من الهوية إذا عدت.";
+"onfido_generic_close_sdk_exit" = "خروج";
+"onfido_generic_close_sdk_cancel" = "إلغاء";
+"onfido_nfc_scan_doc_realign_title" = "تم إيقاف الفحص";
+"onfido_nfc_scan_doc_realign_body" = "أعد توجيه وثيقتك أمام جهازك";

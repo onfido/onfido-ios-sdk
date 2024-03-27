@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "צמצם";
 "onfido_selfie_capture_button_accessibility" = "צמצם";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "צפה מהמצלמה";
+"onfido_doc_capture_frame_accessibility" = "תפוס את המסמך שלך";
 "onfido_selfie_capture_frame_accessibility" = "זווית ממצלמת סלפי.שמור את הפנים בתוך האליפסה ולאחר מכן לחץ על כפתור הצילום ";
 "onfido_video_capture_frame_accessibility" = "זווית ממצלמת סלפי.השאר את הפנים בתוך האליפסה כדי להתחיל להקליט.";
 "onfido_selfie_confirmation_image_accessibility" = "תמונה של הפנים שלך";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "אימות יציאה";
 "onfido_interactive_task_waiting_title_5" = "מעלה מדיה...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "נסה שוב";
+"onfido_doc_capture_alert_mrz_title" = "השורות התחתונות %d (MRZ) לא ברורות";
+"onfido_doc_capture_alert_mrz_detail" = "הפוך את החלק התחתון של המסמך שלך לגלוי";
+"onfido_generic_close_sdk_title" = "האם אתה בטוח שאתה רוצה לצאת?";
+"onfido_generic_close_sdk_subtitle" = "ייתכן שתצטרך להתחיל מחדש את תהליך האימות אם תחזור.";
+"onfido_generic_close_sdk_exit" = "יציאה";
+"onfido_generic_close_sdk_cancel" = "ביטול";
+"onfido_nfc_scan_doc_realign_title" = "סריקה הופסקה";
+"onfido_nfc_scan_doc_realign_body" = "ממקם מחדש את המסמך שלך לעומת המכשיר שלך";

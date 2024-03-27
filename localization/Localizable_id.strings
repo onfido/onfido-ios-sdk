@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Shutter";
 "onfido_selfie_capture_button_accessibility" = "Shutter";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Lihat dari kamera";
+"onfido_doc_capture_frame_accessibility" = "Tangkap dokumen Anda";
 "onfido_selfie_capture_frame_accessibility" = "Lihat dari kamera swafoto. Posisikan wajah Anda di dalam bentuk oval, lalu ketuk tombol shutter";
 "onfido_video_capture_frame_accessibility" = "Lihat dari kamera swafoto. Posisikan wajah Anda di dalam bentuk oval untuk mulai merekam.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto wajah Anda";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Verifikasi keluar";
 "onfido_interactive_task_waiting_title_5" = "Mengunggah media...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Coba lagi";
+"onfido_doc_capture_alert_mrz_title" = "Baris bawah %d (MRZ) tidak jelas";
+"onfido_doc_capture_alert_mrz_detail" = "Buat bagian bawah dokumen Anda terlihat";
+"onfido_generic_close_sdk_title" = "Apakah Anda yakin ingin keluar?";
+"onfido_generic_close_sdk_subtitle" = "Anda mungkin perlu memulai ulang proses verifikasi jika Anda kembali.";
+"onfido_generic_close_sdk_exit" = "Keluar";
+"onfido_generic_close_sdk_cancel" = "Batalkan";
+"onfido_nfc_scan_doc_realign_title" = "Pemindaian terganggu";
+"onfido_nfc_scan_doc_realign_body" = "Posisikan ulang dokumen Anda terhadap perangkat Anda";

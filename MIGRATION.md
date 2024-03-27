@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 29.9.0 Migration Guide](#onfido-ios-sdk-2990-migration-guide)
 * [Onfido iOS SDK 29.6.0 Migration Guide](#onfido-ios-sdk-2960-migration-guide)
 * [Onfido iOS SDK 29.5.0 Migration Guide](#onfido-ios-sdk-2950-migration-guide)
 * [Onfido iOS SDK 29.3.0 Migration Guide](#onfido-ios-sdk-2930-migration-guide)
@@ -64,6 +65,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 29.9.0 Migration Guide
+
+### Deprecated API Changes
+
+- If you currently set `recordAudio`, use `MotionStepConfiguration(recordAudio:)` instead. If not, use `nil` instead of `MotionStepConfiguration(captureFallback:)`.
 
 ## Onfido iOS SDK 29.6.0 Migration Guide
 

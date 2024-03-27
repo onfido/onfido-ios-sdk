@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Laukaisin";
 "onfido_selfie_capture_button_accessibility" = "Laukaisin";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Näkymä kamerasta";
+"onfido_doc_capture_frame_accessibility" = "Ota dokumentistasi kuva";
 "onfido_selfie_capture_frame_accessibility" = "Näkymä selfiekamerasta. Pidä kasvosi soikion sisällä ja napauta sitten laukaisinta";
 "onfido_video_capture_frame_accessibility" = "Näkymä selfiekamerasta. Pidä kasvosi soikion sisällä aloittaaksesi tallennuksen.";
 "onfido_selfie_confirmation_image_accessibility" = "Valokuva kasvoistasi";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Poistumisvarmennus";
 "onfido_interactive_task_waiting_title_5" = "Ladataan mediaa...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Yritä uudelleen";
+"onfido_doc_capture_alert_mrz_title" = "Alimmaiset %d riviä (MRZ) epäselviä";
+"onfido_doc_capture_alert_mrz_detail" = "Tee asiakirjasi alaosa näkyväksi";
+"onfido_generic_close_sdk_title" = "Oletko varma, että haluat poistua?";
+"onfido_generic_close_sdk_subtitle" = "Saatat joutua aloittamaan tunnistautumisprosessin alusta, jos palaat takaisin.";
+"onfido_generic_close_sdk_exit" = "Poistu";
+"onfido_generic_close_sdk_cancel" = "Peruuta";
+"onfido_nfc_scan_doc_realign_title" = "Skannaus keskeytettiin";
+"onfido_nfc_scan_doc_realign_body" = "Aseta dokumenttisi uudelleen laitettasi vasten";

@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Katik";
 "onfido_selfie_capture_button_accessibility" = "Katik";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Vaade kaamerast";
+"onfido_doc_capture_frame_accessibility" = "Pildista oma dokumenti";
 "onfido_selfie_capture_frame_accessibility" = "Vaade selfikaamerast. Paigutage oma nägu ovaali sisse ning puudutage pildistamise nuppu";
 "onfido_video_capture_frame_accessibility" = "Vaade selfikaamerast. Salvestamise alustamiseks hoidke oma nägu ovaali sees.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto teie näost";
@@ -732,3 +732,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Väljumise kontroll";
 "onfido_interactive_task_waiting_title_5" = "Meedia üleslaadimine...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Proovige uuesti";
+"onfido_doc_capture_alert_mrz_title" = "Alumised %d read (MRZ) on ebaselged";
+"onfido_doc_capture_alert_mrz_detail" = "Teie dokumendi alaosa peaks olema nähtav";
+"onfido_generic_close_sdk_title" = "Kas olete kindel, et soovite väljuda?";
+"onfido_generic_close_sdk_subtitle" = "Võite peate identiteedi kinnitamise protsessi taaskäivitama, kui naasete.";
+"onfido_generic_close_sdk_exit" = "Välju";
+"onfido_generic_close_sdk_cancel" = "Tühistage";
+"onfido_nfc_scan_doc_realign_title" = "Skaneerimine katkestati";
+"onfido_nfc_scan_doc_realign_body" = "Paigutage oma dokument oma seadme vastu uuesti";

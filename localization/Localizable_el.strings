@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Κλείστρο";
 "onfido_selfie_capture_button_accessibility" = "Κλείστρο";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Προβολή από κάμερα";
+"onfido_doc_capture_frame_accessibility" = "Καταγράψτε το έγγραφό σας";
 "onfido_selfie_capture_frame_accessibility" = "Προβολή από κάμερα λήψης selfie. Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ και, στη συνέχεια, πατήστε το κουμπί κλείστρου";
 "onfido_video_capture_frame_accessibility" = "Προβολή από κάμερα λήψης selfie. Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ για να ξεκινήσετε την εγγραφή.";
 "onfido_selfie_confirmation_image_accessibility" = "Φωτογραφία του προσώπου σας";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Έξοδος επαλήθευσης";
 "onfido_interactive_task_waiting_title_5" = "Μεταφόρτωση πολυμέσων...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Προσπαθήστε ξανά";
+"onfido_doc_capture_alert_mrz_title" = "Οι τελευταίες %d γραμμές (MRZ) είναι ασαφείς";
+"onfido_doc_capture_alert_mrz_detail" = "Κάντε ορατό το κάτω μέρος του εγγράφου σας";
+"onfido_generic_close_sdk_title" = "Είστε σίγουροι ότι θέλετε να εξέλθετε;";
+"onfido_generic_close_sdk_subtitle" = "Ίσως χρειαστεί να επανεκκινήσετε τη διαδικασία επαλήθευσης εάν επιστρέψετε.";
+"onfido_generic_close_sdk_exit" = "Έξοδος";
+"onfido_generic_close_sdk_cancel" = "Ακύρωση";
+"onfido_nfc_scan_doc_realign_title" = "Η σάρωση διακόπηκε";
+"onfido_nfc_scan_doc_realign_body" = "Τοποθετήστε ξανά το έγγραφό σας στη συσκευή σας";

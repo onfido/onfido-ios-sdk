@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Кнопка зйомки";
 "onfido_selfie_capture_button_accessibility" = "Кнопка зйомки";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Увімкніть камеру";
+"onfido_doc_capture_frame_accessibility" = "Зробіть знімок вашого документа";
 "onfido_selfie_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді натисніть кнопку знімання";
 "onfido_video_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді розпочніть зйомку.";
 "onfido_selfie_confirmation_image_accessibility" = "Фотографія вашого обличчя";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Верифікація при виході";
 "onfido_interactive_task_waiting_title_5" = "Завантаження медіа...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Повторити";
+"onfido_doc_capture_alert_mrz_title" = "Нижні %d лінії (MRZ) незрозумілі";
+"onfido_doc_capture_alert_mrz_detail" = "Зробіть нижню частину вашого документа видимою";
+"onfido_generic_close_sdk_title" = "Ви впевнені, що хочете вийти?";
+"onfido_generic_close_sdk_subtitle" = "Можливо, вам доведеться перезапустити процес верифікації, якщо ви повернетесь.";
+"onfido_generic_close_sdk_exit" = "Вихід";
+"onfido_generic_close_sdk_cancel" = "Скасувати";
+"onfido_nfc_scan_doc_realign_title" = "Сканування перервано";
+"onfido_nfc_scan_doc_realign_body" = "Переставте ваш документ відносно вашого пристрою";

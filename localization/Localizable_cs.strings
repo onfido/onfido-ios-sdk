@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Závěrka";
 "onfido_selfie_capture_button_accessibility" = "Závěrka";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Pohled z kamery";
+"onfido_doc_capture_frame_accessibility" = "Zachyťte svůj dokument";
 "onfido_selfie_capture_frame_accessibility" = "Pohled ze selfie kamery. Udržujte obličej v oválu a klepněte na tlačítko spouště";
 "onfido_video_capture_frame_accessibility" = "Pohled ze selfie kamery. Chcete-li spustit nahrávání, držte obličej v oválu.";
 "onfido_selfie_confirmation_image_accessibility" = "Fotografie Vašeho obličeje";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Ověření při odchodu";
 "onfido_interactive_task_waiting_title_5" = "Nahrávání médií...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Opakování";
+"onfido_doc_capture_alert_mrz_title" = "Spodní %d řádky (MRZ) nejsou jasné";
+"onfido_doc_capture_alert_mrz_detail" = "Udělejte spodní část svého dokumentu viditelnou";
+"onfido_generic_close_sdk_title" = "Jste si jisti, že chcete ukončit?";
+"onfido_generic_close_sdk_subtitle" = "Možná budete muset restartovat proces ověření, pokud se vrátíte.";
+"onfido_generic_close_sdk_exit" = "Ukončit";
+"onfido_generic_close_sdk_cancel" = "Zrušit";
+"onfido_nfc_scan_doc_realign_title" = "Skenování přerušeno";
+"onfido_nfc_scan_doc_realign_body" = "Přemístěte svůj dokument vůči svému zařízení";

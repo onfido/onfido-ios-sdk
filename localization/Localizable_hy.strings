@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Կոճակ";
 "onfido_selfie_capture_button_accessibility" = "Կոճակ";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Տեսարան տեսախցիկից";
+"onfido_doc_capture_frame_accessibility" = "Ձեր փաստաթուղթը կատարեք";
 "onfido_selfie_capture_frame_accessibility" = "Սելֆիի տեսախցիկից երևացող պատկեր։ Պահեք ձեր դեմքը շրջանակի ներսում, ապա հպեք նկարելու կոճակին";
 "onfido_video_capture_frame_accessibility" = "Սելֆիի տեսախցիկից երևացող պատկեր։ Տեսագրումը սկսելու համար ձեր դեմքը պահեք շրջանակի ներսում։";
 "onfido_selfie_confirmation_image_accessibility" = "Ձեր դեմքի լուսանկարը";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Ելքի ստուգում";
 "onfido_interactive_task_waiting_title_5" = "Մեդիայի բեռնում...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Կրկին փորձել";
+"onfido_doc_capture_alert_mrz_title" = "Ներքևի %d տողերը (MRZ) անհասկանալի են";
+"onfido_doc_capture_alert_mrz_detail" = "Պատճենի ձեր փայտի վերջը";
+"onfido_generic_close_sdk_title" = "Վստահ եք, որ ուզում եք դուրս գալ՞";
+"onfido_generic_close_sdk_subtitle" = "Դուք կարող եք պահանջվել վերսկսել հաստատման գործընթացը, եթե վերադառնաք։";
+"onfido_generic_close_sdk_exit" = "Ելք";
+"onfido_generic_close_sdk_cancel" = "Չեղարկել";
+"onfido_nfc_scan_doc_realign_title" = "Սկանավո";
+"onfido_nfc_scan_doc_realign_body" = "Տեղադրեք ձեր փաստաթուղթը ձեր սարքի դեմ";

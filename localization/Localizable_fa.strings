@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "شاتر";
 "onfido_selfie_capture_button_accessibility" = "شاتر";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "مشاهده از دوربین";
+"onfido_doc_capture_frame_accessibility" = "اسناد خود را ضبط کنید";
 "onfido_selfie_capture_frame_accessibility" = "مشاهده از دوربین سلفی. صورت خود را درون بیضی قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_video_capture_frame_accessibility" = "مشاهده از دوربین سلفبرای شروع ضبط، صورت خود را داخل بیضی نگه دارید.ی. برای شروع ضبط، صورت خود را داخل بیضی نگه دارید.";
 "onfido_selfie_confirmation_image_accessibility" = "عکس صورت شما";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "تأیید خروج";
 "onfido_interactive_task_waiting_title_5" = "بارگذاری رسانه...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "سعی مجدد‌";
+"onfido_doc_capture_alert_mrz_title" = "خطوط پایین %d (MRZ) غیرقابل تشخیص هستند";
+"onfido_doc_capture_alert_mrz_detail" = "پایین سند خود را قابل مشاهده کنید";
+"onfido_generic_close_sdk_title" = "آیا مطمئن هستید که می خواهید خارج شوید؟";
+"onfido_generic_close_sdk_subtitle" = "شما ممکن است نیاز به شروع مجدد فرآیند تأیید هویت داشته باشید اگر بازگردید.";
+"onfido_generic_close_sdk_exit" = "خروج";
+"onfido_generic_close_sdk_cancel" = "لغو";
+"onfido_nfc_scan_doc_realign_title" = "اسکن متوقف شد";
+"onfido_nfc_scan_doc_realign_body" = "اسناد خود را در برابر دستگاه خود مجدداً قرار دهید";

@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Okidač";
 "onfido_selfie_capture_button_accessibility" = "Okidač";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Prikaz sa kamere";
+"onfido_doc_capture_frame_accessibility" = "Uslikajte svoj dokument";
 "onfido_selfie_capture_frame_accessibility" = "Pogledajte na kameri za selfi. Uklopite lice u ovalni okvir, a zatim dodirnite okidač kamere";
 "onfido_video_capture_frame_accessibility" = "Pogledajte na kameri za selfi. Uklopite lice u ovalni okvir da biste započeli snimanje.";
 "onfido_selfie_confirmation_image_accessibility" = "Fotografija lica";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Izlazna verifikacija";
 "onfido_interactive_task_waiting_title_5" = "Otpremanje medija...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Probajte ponovo";
+"onfido_doc_capture_alert_mrz_title" = "Donje %d linije (MRZ) su nejasne";
+"onfido_doc_capture_alert_mrz_detail" = "Učinite dno vašeg dokumenta vidljivim";
+"onfido_generic_close_sdk_title" = "Да ли сте сигурни да желите да изађете?";
+"onfido_generic_close_sdk_subtitle" = "Možda ćete morati ponovo da pokrenete proces verifikacije ako se vratite.";
+"onfido_generic_close_sdk_exit" = "Izlaz";
+"onfido_generic_close_sdk_cancel" = "Otkaži";
+"onfido_nfc_scan_doc_realign_title" = "Prekinuto skeniranje";
+"onfido_nfc_scan_doc_realign_body" = "Ponovo pozicionirajte svoj dokument u odnosu na vaš uređaj";

@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Užraktas";
 "onfido_selfie_capture_button_accessibility" = "Užraktas";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Vaizdas iš kameros";
+"onfido_doc_capture_frame_accessibility" = "Nufotografuokite savo dokumentą";
 "onfido_selfie_capture_frame_accessibility" = "Vaizdas iš asmenukių kameros. Laikykite veidą ovale, tada bakstelėkite užrakto mygtuką";
 "onfido_video_capture_frame_accessibility" = "Vaizdas iš asmenukių kameros. Norėdami pradėti įrašymą, veidą laikykite ovale.";
 "onfido_selfie_confirmation_image_accessibility" = "Jūsų veido nuotrauka";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Išeiti iš patvirtinimo";
 "onfido_interactive_task_waiting_title_5" = "Įkeliamas turinys...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Bandyti dar kartą";
+"onfido_doc_capture_alert_mrz_title" = "Apačios %d eilutės (MRZ) neaiškios";
+"onfido_doc_capture_alert_mrz_detail" = "Padarykite savo dokumento apačią matomą";
+"onfido_generic_close_sdk_title" = "Ar tikrai norite išeiti?";
+"onfido_generic_close_sdk_subtitle" = "Jums gali tekti iš naujo pradėti tapatybės patvirtinimo procesą, jei grįšite.";
+"onfido_generic_close_sdk_exit" = "Išeiti";
+"onfido_generic_close_sdk_cancel" = "Atšaukti";
+"onfido_nfc_scan_doc_realign_title" = "Nuskaitymas nutrauktas";
+"onfido_nfc_scan_doc_realign_body" = "Perkelti savo dokumentą prieš savo įrenginį";

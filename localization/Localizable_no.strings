@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Lukker";
 "onfido_selfie_capture_button_accessibility" = "Lukker";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Sett fra kamera";
+"onfido_doc_capture_frame_accessibility" = "Ta bilde av dokumentet ditt";
 "onfido_selfie_capture_frame_accessibility" = "Sett fra selfie-kamera. Hold ansiktet innenfor det ovale feltet, og trykk deretter på lukkerknappen";
 "onfido_video_capture_frame_accessibility" = "Sett fra selfie-kamera. Hold ansiktet innenfor det ovale feltet for å starte innspillingen.";
 "onfido_selfie_confirmation_image_accessibility" = "Bilde av ansiktet ditt";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Avslutt verifisering";
 "onfido_interactive_task_waiting_title_5" = "Laster opp media...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Prøv igjen";
+"onfido_doc_capture_alert_mrz_title" = "Bunn %d linjer (MRZ) uklare";
+"onfido_doc_capture_alert_mrz_detail" = "Gjør bunnen av dokumentet ditt synlig";
+"onfido_generic_close_sdk_title" = "Er du sikker på at du vil avslutte?";
+"onfido_generic_close_sdk_subtitle" = "Du må kanskje starte verifiseringsprosessen på nytt hvis du kommer tilbake.";
+"onfido_generic_close_sdk_exit" = "Avslutt";
+"onfido_generic_close_sdk_cancel" = "Avbryt";
+"onfido_nfc_scan_doc_realign_title" = "Skanning avbrutt";
+"onfido_nfc_scan_doc_realign_body" = "Posisjoner dokumentet ditt mot enheten din";

@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Chụp";
 "onfido_selfie_capture_button_accessibility" = "Chụp";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Hình ảnh từ camera";
+"onfido_doc_capture_frame_accessibility" = "Chụp lại tài liệu của bạn";
 "onfido_selfie_capture_frame_accessibility" = "Xem từ máy ảnh selfie. Giữ khuôn mặt của bạn bên trong hình bầu dục, sau đó chạm vào nút chụp";
 "onfido_video_capture_frame_accessibility" = "Xem từ máy ảnh. Giữ khuôn mặt của bạn trong hình bầu dục để bắt đầu ghi hình.";
 "onfido_selfie_confirmation_image_accessibility" = "Ảnh khuôn mặt của bạn";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Xác minh thoát";
 "onfido_interactive_task_waiting_title_5" = "Đang tải lên phương tiện...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Thử lại";
+"onfido_doc_capture_alert_mrz_title" = "Dòng dưới cùng %d (MRZ) không rõ ràng";
+"onfido_doc_capture_alert_mrz_detail" = "Làm cho phần dưới của tài liệu của bạn trở nên hữu ích";
+"onfido_generic_close_sdk_title" = "Bạn có chắc chắn muốn thoát không?";
+"onfido_generic_close_sdk_subtitle" = "Bạn có thể cần khởi động lại quá trình xác minh nếu bạn quay trở lại.";
+"onfido_generic_close_sdk_exit" = "Thoát";
+"onfido_generic_close_sdk_cancel" = "Hủy";
+"onfido_nfc_scan_doc_realign_title" = "Quét bị gián đoạn";
+"onfido_nfc_scan_doc_realign_body" = "Đặt lại tài liệu của bạn so với thiết bị của bạn";

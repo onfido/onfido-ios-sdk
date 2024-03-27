@@ -1,26 +1,26 @@
 {
     "dependencies": [
          {
-             "name": "Swinject",
-             "project_url": "https://github.com/Swinject/Swinject",
+             "name": "Factory",
+             "project_url": "https://github.com/hmlongco/Factory",
              "license_name": "MIT",
-             "copyright_notice": "Copyright (c) 2015 Swinject Contributors",
-             "changed_source_code": false,
-             "source_code_changes": null
-         },
-         {
-             "name": "analytics-ios",
-             "project_url": "https://github.com/segmentio/analytics-ios",
-             "license_name": "MIT",
-             "copyright_notice": "Copyright (c) 2016 Segment.io, Inc.",
-             "changed_source_code": false,
+             "copyright_notice": "Copyright (c) 2022 Michael Long",
+             "changed_source_code": true,
              "source_code_changes": null
          },
          {
             "name": "Open CV",
-            "project_url": "https://sourceforge.net/projects/opencvlibrary/files/3.4.5/opencv-3.4.5-ios-framework.zip/download",
-            "license_name": "3-clause BSD License",
-            "copyright_notice": "Copyright (C) 2015-2016, OpenCV Foundation",
+            "project_url": "https://opencv.org",
+            "license_name": "Apache 2 License",
+            "copyright_notice": "Copyright (C) 2015-2023, OpenCV Foundation",
+            "changed_source_code": false,
+            "source_code_changes": null
+         },
+         {
+            "name": "Open SSL",
+            "project_url": "https://www.openssl.org",
+            "license_name": "Apache License v2",
+            "copyright_notice": "Copyright (c) 1998-2023 The OpenSSL Project Authors",
             "changed_source_code": false,
             "source_code_changes": null
          },

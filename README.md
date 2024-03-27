@@ -482,8 +482,6 @@ switch response {
       case OnfidoFlowError.versionInsufficient:
         // This happens when you are using an older version of the iOS SDK and trying
         // to access a new functionality from workflow. You can fix this by updating the SDK
-      case OnfidoFlowError.motionUnsupported:
-        // This happens when the device does not support the Motion product and no fallback capture method has been configured
       
       default: // necessary because of Swift
     }
@@ -659,7 +657,7 @@ The possible steps include:
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `withWelcomeStep`  | Welcome screen shown to the user with preliminary instructions. [Customization](#welcome-step) options include modification to the text elements and instructions shown to the user.                                                    |
 | `withDocumentStep` | Set of screens that control the capture via photo or upload of the user's document. Numerous [customization](#document-step) options are available to define the document list presented to the user and the overall capture experience. |
-| `withFaceStep`     | Set of screens that control the capture of a selfie, video or motion capture of the user. The [customization](#face-step) options allow the selection of the capture variant as well as fallback options.                                        |
+| `withFaceStep`     | Set of screens that control the capture of a selfie, video or motion capture of the user. The [customization](#face-step) options allow the selection of the capture variant.                                        |
 | `withProofOfAddressStep` | Screen where the user selects the issuing country and type of document to [verify their address](#proof-of-address-step).                                                                                   |
 
 #### Welcome step
@@ -955,44 +953,6 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 
 To configure for **Motion**:
 
-The Motion variant may not be supported on certain devices based on minimum device and OS requirements. For example, Motion
-is currently not supported on devices older than iPhone 7 and/or on iOS older than 12, as well as on iPads.
-
-If the Motion variant is not supported on the user's device, you can configure the SDK to allow the user to capture a
-photo or a video instead by using the `MotionStepCaptureFallback` class.
-
-The following examples show how to configure the Motion variant with a photo capture fallback and a video capture
-fallback.
-
-Please note that if no fallback is configured and Motion is not supported on the user's device, an `ONFlowError` of
-case `motionUnsupported` will be returned through the response handler.
-
-To configure for **Motion with fallback** to capturing a live photo:
-
-```
-NSError * error;
-Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withMotionWithConfig:
-    [[MotionStepConfiguration alloc] initWithCaptureFallback:
-        [[MotionStepCaptureFallback alloc] initWithPhotoFallbackWithConfiguration:
-            [[PhotoStepConfiguration alloc] initWithShowSelfieIntroScreen: YES]]]];
-[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
-```
-
-To configure for **Motion with fallback** to capturing a live video:
-
-```
-NSError * error;
-Builder * variantBuilder = [ONFaceStepVariantConfig builder];
-[variantBuilder withMotionWithConfig:
-    [[MotionStepConfiguration alloc] initWithCaptureFallback:
-        [[MotionStepCaptureFallback alloc] initWithVideoFallbackWithConfiguration:
-            [[VideoStepConfiguration alloc] initWithShowIntroVideo: YES manualLivenessCapture: NO]]]];
-[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
-```
-
-To configure for **Motion with no fallback**:
-
 ```
 NSError * error;
 Builder * variantBuilder = [ONFaceStepVariantConfig builder];
@@ -1039,35 +999,7 @@ let config = try OnfidoConfig.builder()
     .build()
 ```
 
-To configure for **Motion with fallback** to capturing a live photo:
-
-```swift
-let config = try OnfidoConfig.builder()
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
-    .withWelcomeStep()
-    .withDocumentStep()
-    .withFaceStep(ofVariant: .motion(withConfiguration:
-        MotionStepConfiguration(captureFallback:
-            MotionStepCaptureFallback(photoFallbackWithConfiguration:
-                PhotoStepConfiguration(showSelfieIntroScreen: true)))))
-    .build()
-```
-
-To configure for **Motion with fallback** to capturing a live video:
-
-```swift
-let config = try OnfidoConfig.builder()
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
-    .withWelcomeStep()
-    .withDocumentStep()
-    .withFaceStep(ofVariant: .motion(withConfiguration:
-        MotionStepConfiguration(captureFallback:
-            MotionStepCaptureFallback(videoFallbackWithConfiguration:
-                VideoStepConfiguration(showIntroVideo: true, manualLivenessCapture: false)))))
-    .build()
-```
-
-To configure for **Motion with no fallback**:
+To configure for **Motion**:
 
 ```swift
 let config = try OnfidoConfig.builder()
@@ -1250,8 +1182,6 @@ case let OnfidoResponse.error(error):
         // Occurs if the user denies permission to the SDK during the flow
     case OnfidoFlowError.microphonePermission:
         // Occurs when the user denies permission for microphone usage by the app during the flow
-    case OnfidoFlowError.motionUnsupported:
-        // Occurs when the device does not support the Motion product and no fallback capture method has been configured
     case OnfidoFlowError.failedToWriteToDisk:
         // Occurs when the SDK tries to save capture to disk, maybe due to a lack of space
     case OnfidoFlowError.upload(let OnfidoApiError):
@@ -1329,9 +1259,6 @@ case ONFlowErrorCameraPermission:
     break;
 case ONFlowErrorMicrophonePermission:
     // Occurs when the user denies permission for microphone usage by the app during the flow
-    break;
-case ONFlowErrorMotionUnsupported:
-    // Occurs when the device does not support the Motion product and no fallback capture method has been configured
     break;
 case ONFlowErrorFailedToWriteToDisk:
     // Occurs when the SDK tries to save capture to disk, maybe due to a lack of space
@@ -1703,8 +1630,8 @@ via [email](mailto:support@onfido.com), including the word ISSUE: at the start o
 Alternatively, you can search the support documentation available via the customer experience
 portal, [public.support.onfido.com](http://public.support.onfido.com).
 
-Previous versions of the SDK will be supported for a month after a new major version release. Note that when the support
-period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further
-notice). More details can be found in our [SDK version releases guide](https://developers.onfido.com/guide/sdk-version-releases).
+We recommend you update your SDK to the latest version release as frequently as possible. Customers on newer versions of the Onfido SDK consistently see better performance across user onboarding and fraud mitigation, so we strongly advise keeping your SDK integration up-to-date.
+
+You can review our full SDK versioning policy [here](https://developers.onfido.com/guide/sdk-version-releases).
 
 Copyright 2024 Onfido, Ltd. All rights reserved.

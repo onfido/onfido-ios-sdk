@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Deklanşör";
 "onfido_selfie_capture_button_accessibility" = "Deklanşör";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Kameradan görüntü";
+"onfido_doc_capture_frame_accessibility" = "Belgenizi yakalayın";
 "onfido_selfie_capture_frame_accessibility" = "Selfie kamerasından görüntü. Yüzünüzü ovalin içinde tutun, ardından deklanşör düğmesine dokunun";
 "onfido_video_capture_frame_accessibility" = "Kameradan görüntü. Kayda başlamak için yüzünüzü oval içinde tutun.";
 "onfido_selfie_confirmation_image_accessibility" = "Yüzünüzün fotoğrafı";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Çıkış doğrulaması";
 "onfido_interactive_task_waiting_title_5" = "Medya yükleniyor...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Yeniden dene";
+"onfido_doc_capture_alert_mrz_title" = "Alt %d satır (MRZ) belirsiz";
+"onfido_doc_capture_alert_mrz_detail" = "Belgenizin alt kısmını görünür yapın";
+"onfido_generic_close_sdk_title" = "Çıkmak istediğinizden emin misiniz?";
+"onfido_generic_close_sdk_subtitle" = "Geri dönerseniz doğrulama sürecini yeniden başlatmanız gerekebilir.";
+"onfido_generic_close_sdk_exit" = "Çıkış";
+"onfido_generic_close_sdk_cancel" = "İptal";
+"onfido_nfc_scan_doc_realign_title" = "Tarama kesildi";
+"onfido_nfc_scan_doc_realign_body" = "Belgenizi cihazınıza karşı yeniden konumlandırın";
