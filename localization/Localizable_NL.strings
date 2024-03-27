@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Sluiterknop";
 "onfido_selfie_capture_button_accessibility" = "Sluiterknop";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Waargave vanaf camera";
+"onfido_doc_capture_frame_accessibility" = "Leg uw document vast";
 "onfido_selfie_capture_frame_accessibility" = "Weergeven vanaf selfiecamera. Houd uw gezicht binnen de ovaal en tik vervolgens op de sluiterknop";
 "onfido_video_capture_frame_accessibility" = "Weergeven vanaf selfiecamera. Houd uw gezicht binnen het ovale kader om te beginnen met opnemen.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto van uw gezicht";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Verificatie afsluiten";
 "onfido_interactive_task_waiting_title_5" = "Media uploaden...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Opnieuw proberen";
+"onfido_doc_capture_alert_mrz_title" = "Onderste %d regels (MRZ) onduidelijk";
+"onfido_doc_capture_alert_mrz_detail" = "Maak de onderkant van uw document zichtbaar";
+"onfido_generic_close_sdk_title" = "Weet je zeker dat je wilt afsluiten?";
+"onfido_generic_close_sdk_subtitle" = "U moet mogelijk het verificatieproces opnieuw starten als u terugkeert.";
+"onfido_generic_close_sdk_exit" = "Afsluiten";
+"onfido_generic_close_sdk_cancel" = "Annuleren";
+"onfido_nfc_scan_doc_realign_title" = "Scan onderbroken";
+"onfido_nfc_scan_doc_realign_body" = "Plaats uw document opnieuw tegen uw apparaat";

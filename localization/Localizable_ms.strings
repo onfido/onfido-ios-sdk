@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Pengatup";
 "onfido_selfie_capture_button_accessibility" = "Pengatup";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Pandangan dari kamera";
+"onfido_doc_capture_frame_accessibility" = "Rakamkan dokumen anda";
 "onfido_selfie_capture_frame_accessibility" = "Pandangan dari kamera swafoto. Pastikan muka anda dalam bingkai bujur tersebut, kemudian ketik butang pengatup";
 "onfido_video_capture_frame_accessibility" = "Pandangan dari kamera swafoto. Pastikan wajah anda berada dalam bingkai berbentuk bujur untuk memulakan rakaman.";
 "onfido_selfie_confirmation_image_accessibility" = "Gambar wajah anda";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Pengesahan keluar";
 "onfido_interactive_task_waiting_title_5" = "Memuat naik media...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Cuba Semula";
+"onfido_doc_capture_alert_mrz_title" = "Baris bawah %d (MRZ) tidak jelas";
+"onfido_doc_capture_alert_mrz_detail" = "Buat bahagian bawah dokumen anda kelihatan";
+"onfido_generic_close_sdk_title" = "Adakah anda pasti ingin keluar?";
+"onfido_generic_close_sdk_subtitle" = "Anda mungkin perlu memulakan semula proses pengesahan identiti jika anda kembali.";
+"onfido_generic_close_sdk_exit" = "Keluar";
+"onfido_generic_close_sdk_cancel" = "Batalkan";
+"onfido_nfc_scan_doc_realign_title" = "Imbasan terganggu";
+"onfido_nfc_scan_doc_realign_body" = "Letak semula dokumen anda bersebelahan dengan peranti anda";

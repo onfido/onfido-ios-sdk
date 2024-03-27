@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "快門";
 "onfido_selfie_capture_button_accessibility" = "快門";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "從相機查看";
+"onfido_doc_capture_frame_accessibility" = "捕捉您的文件";
 "onfido_selfie_capture_frame_accessibility" = "從自拍相機檢視。保持臉不在橢圓形框內，然後點擊快門按鈕";
 "onfido_video_capture_frame_accessibility" = "從自拍相機檢視。請保持臉部在橢圓形框內，以開始錄製。";
 "onfido_selfie_confirmation_image_accessibility" = "您的臉部相片";
@@ -733,3 +733,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "退出驗證";
 "onfido_interactive_task_waiting_title_5" = "正在上峰媒體...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "重試";
+"onfido_doc_capture_alert_mrz_title" = "底部 %d 行（MRZ）不清楚";
+"onfido_doc_capture_alert_mrz_detail" = "使您的文件底部可見";
+"onfido_generic_close_sdk_title" = "您確定要退出嗎？";
+"onfido_generic_close_sdk_subtitle" = "如果您返回，可能需要重新開始驗證過程。";
+"onfido_generic_close_sdk_exit" = "退出";
+"onfido_generic_close_sdk_cancel" = "取消";
+"onfido_nfc_scan_doc_realign_title" = "掃描中斷";
+"onfido_nfc_scan_doc_realign_body" = "將您的文件重新放置在您的裝置上";

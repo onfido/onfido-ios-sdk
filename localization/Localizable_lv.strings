@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Slēdzis";
 "onfido_selfie_capture_button_accessibility" = "Slēdzis";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Skats no kameras";
+"onfido_doc_capture_frame_accessibility" = "Iegūstiet savu dokumentu";
 "onfido_selfie_capture_frame_accessibility" = "Skats no selfiju kameras. Pozicionējiet seju ovālajā rāmī un pēc tam pieskarieties slēdža pogai";
 "onfido_video_capture_frame_accessibility" = "Skats no selfiju kameras. Lai sāktu ierakstu, pozicionējiet seju ovālajā rāmī.";
 "onfido_selfie_confirmation_image_accessibility" = "Jūsu sejas fotoattēls";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Izejas pārbaude";
 "onfido_interactive_task_waiting_title_5" = "Augšupielādē multividi...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Mēģināt vēlreiz";
+"onfido_doc_capture_alert_mrz_title" = "Apakšējās %d rindas (MRZ) nav skaidras";
+"onfido_doc_capture_alert_mrz_detail" = "Padariet savu dokumenta apakšdaļu redzamu";
+"onfido_generic_close_sdk_title" = "Vai tiešām vēlaties iziet?";
+"onfido_generic_close_sdk_subtitle" = "Jums var nākties atkārtoti sākt verifikācijas procesu, ja jūs atgriezīsities.";
+"onfido_generic_close_sdk_exit" = "Iziet";
+"onfido_generic_close_sdk_cancel" = "Atcelt";
+"onfido_nfc_scan_doc_realign_title" = "Skenēšana pārtraukta";
+"onfido_nfc_scan_doc_realign_body" = "Pārvietojiet savu dokumentu pret savu ierīci";

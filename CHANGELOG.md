@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.9.0] - 2024-03-21
+
+### Added
+
+- Added UIAccessibilityTraitButton for 'CAN'T FIND YOUR COUNTRY' button in the Country Selection Screen
+- Added Motion support for all devices: Older iPhones and all iPads now also supported. Motion capture fallback configuration has therefore been deprecated.
+    - If you currently set `recordAudio`, use `MotionStepConfiguration(recordAudio:)` instead. If not, use `nil` instead of `MotionStepConfiguration(captureFallback:)`.
+
+### Changed
+
+- Improved the accessibility announcements on the NFC dialog while users scan their passport chip
+- Improved readability for accessibility by showing the complete text when font settings are set to 200%.
+
+### Fixed
+
+- Fixed regression from 29.7.1 where in cases that Video capture should be restarted the same capture was instead continued, leading to videos that were too long and with the audio out of sync
+
 ## [29.8.0] - 2024-02-08
 
 ### Added

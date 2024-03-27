@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Auslöser";
 "onfido_selfie_capture_button_accessibility" = "Auslöser";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Ansicht von der Kamera";
+"onfido_doc_capture_frame_accessibility" = "Erfassen Sie Ihr Dokument";
 "onfido_selfie_capture_frame_accessibility" = "Ansicht von der Selfie-Kamera. Positionieren Sie Ihr Gesicht innerhalb des Oval und tippen Sie dann auf den Auslöser";
 "onfido_video_capture_frame_accessibility" = "Ansicht von der Selfie-Kamera. Positionieren Sie Ihr Gesicht innerhalb des Oval, um mit der Aufnahme zu beginnen.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto von Ihrem Gesicht";
@@ -732,3 +732,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Verifizierung beenden";
 "onfido_interactive_task_waiting_title_5" = "Medien hochladen...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Erneut versuchen";
+"onfido_doc_capture_alert_mrz_title" = "Untere %d Zeilen (MRZ) unklar";
+"onfido_doc_capture_alert_mrz_detail" = "Machen Sie den unteren Teil Ihres Dokuments sichtbar";
+"onfido_generic_close_sdk_title" = "Sind Sie sicher, dass Sie beenden möchten?";
+"onfido_generic_close_sdk_subtitle" = "Sie müssen den Verifizierungsprozess möglicherweise neu starten, wenn Sie zurückkehren.";
+"onfido_generic_close_sdk_exit" = "Beenden";
+"onfido_generic_close_sdk_cancel" = "Abbrechen";
+"onfido_nfc_scan_doc_realign_title" = "Scan unterbrochen";
+"onfido_nfc_scan_doc_realign_body" = "Positionieren Sie Ihr Dokument erneut gegen Ihr Gerät";

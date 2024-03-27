@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "ชัตเตอร์";
 "onfido_selfie_capture_button_accessibility" = "ชัตเตอร์";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "ดูจากกล้อง";
+"onfido_doc_capture_frame_accessibility" = "ถ่ายภาพเอกสารของคุณ";
 "onfido_selfie_capture_frame_accessibility" = "ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่ จากนั้นแตะปุ่มชัตเตอร์";
 "onfido_video_capture_frame_accessibility" = "ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่เพื่อเริ่มบันทึก";
 "onfido_selfie_confirmation_image_accessibility" = "รูปถ่ายใบหน้าของคุณ";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "การตรวจสอบการออก";
 "onfido_interactive_task_waiting_title_5" = "กำลังอัปโหลดสื่อ...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "ลองอีกครั้ง";
+"onfido_doc_capture_alert_mrz_title" = "บรรทัดล่าง %d บรรทัด (MRZ) ไม่ชัดเจน";
+"onfido_doc_capture_alert_mrz_detail" = "ทำให้ด้านล่างของเอกสารของคุณสามารถมองเห็นได้";
+"onfido_generic_close_sdk_title" = "คุณแน่ใจหรือว่าต้องการออก?";
+"onfido_generic_close_sdk_subtitle" = "คุณอาจจำเป็นต้องเริ่มกระบวนการตรวจสอบตัวตนใหม่หากคุณกลับมา";
+"onfido_generic_close_sdk_exit" = "ออก";
+"onfido_generic_close_sdk_cancel" = "ยกเลิก";
+"onfido_nfc_scan_doc_realign_title" = "การสแกนถูกขัดจังหวะ";
+"onfido_nfc_scan_doc_realign_body" = "จัดตำแหน่งเอกสารของคุณใหม่ตามอุปกรณ์ของคุณ";

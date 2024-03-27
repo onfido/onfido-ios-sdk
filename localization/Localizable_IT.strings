@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "Pulsante di scatto";
 "onfido_selfie_capture_button_accessibility" = "Pulsante di scatto";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "Vista dalla fotocamera";
+"onfido_doc_capture_frame_accessibility" = "Cattura il tuo documento";
 "onfido_selfie_capture_frame_accessibility" = "Vista dalla fotocamera frontale. Tieni il viso nell’ovale e premi il pulsante di scatto";
 "onfido_video_capture_frame_accessibility" = "Vista dalla fotocamera frontale. Tieni il viso nell’ovale per iniziare a registrare.";
 "onfido_selfie_confirmation_image_accessibility" = "Foto del tuo viso";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "Uscita dalla verifica";
 "onfido_interactive_task_waiting_title_5" = "Caricamento dei media in corso...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "Riprova";
+"onfido_doc_capture_alert_mrz_title" = "Ultime %d linee (MRZ) non chiare";
+"onfido_doc_capture_alert_mrz_detail" = "Rendi visibile il fondo del tuo documento";
+"onfido_generic_close_sdk_title" = "Sei sicuro di voler uscire?";
+"onfido_generic_close_sdk_subtitle" = "Potrebbe essere necessario riavviare il processo di verifica se ritorni.";
+"onfido_generic_close_sdk_exit" = "Uscita";
+"onfido_generic_close_sdk_cancel" = "Annulla";
+"onfido_nfc_scan_doc_realign_title" = "Scansione interrotta";
+"onfido_nfc_scan_doc_realign_body" = "Riposiziona il tuo documento sul tuo dispositivo";

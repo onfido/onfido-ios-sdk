@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "셔터";
 "onfido_selfie_capture_button_accessibility" = "셔터";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "카메라에서 보기";
+"onfido_doc_capture_frame_accessibility" = "문서를 캡처하십시오";
 "onfido_selfie_capture_frame_accessibility" = "셀카 카메라에서 본 이미지. 타원형 안쪽으로 얼굴이 들어가도록 하여 셔터 버튼을 누르세요";
 "onfido_video_capture_frame_accessibility" = "셀카 카메라에서 본 이미지. 녹화를 시작하려면, 타원형 안에 얼굴이 들어가도록 하세요.";
 "onfido_selfie_confirmation_image_accessibility" = "얼굴 사진";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "출구 확인";
 "onfido_interactive_task_waiting_title_5" = "미디어 업로드 중...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "재시도";
+"onfido_doc_capture_alert_mrz_title" = "하단 %d 줄 (MRZ)이 불분명합니다";
+"onfido_doc_capture_alert_mrz_detail" = "문서의 하단을 보이게 하십시오";
+"onfido_generic_close_sdk_title" = "정말로 종료하시겠습니까?";
+"onfido_generic_close_sdk_subtitle" = "돌아오시면 인증 과정을 다시 시작해야 할 수도 있습니다.";
+"onfido_generic_close_sdk_exit" = "나가기";
+"onfido_generic_close_sdk_cancel" = "취소";
+"onfido_nfc_scan_doc_realign_title" = "스캔 중단됨";
+"onfido_nfc_scan_doc_realign_body" = "문서를 기기에 맞게 재배치하십시오";

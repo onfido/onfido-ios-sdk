@@ -1,7 +1,7 @@
 "onfido_doc_capture_button_accessibility" = "シャッター";
 "onfido_selfie_capture_button_accessibility" = "シャッター";
 /* Accessibility */
-"onfido_doc_capture_frame_accessibility" = "カメラから見た様子";
+"onfido_doc_capture_frame_accessibility" = "あなたの書類をキャプチャしてください";
 "onfido_selfie_capture_frame_accessibility" = "自撮りカメラから見る。顔を楕円の中に保ち、シャッターボタンをタップします";
 "onfido_video_capture_frame_accessibility" = "自撮りカメラから見る。顔を楕円の中に保った状態で、録画を開始してください。";
 "onfido_selfie_confirmation_image_accessibility" = "顔写真";
@@ -734,3 +734,11 @@
 "onfido_nfc_scan_error_can_primary_button" = "退出確認";
 "onfido_interactive_task_waiting_title_5" = "メディアをアップロード中...";
 "onfido_nfc_scan_error_document_alt_primary_button" = "再試行";
+"onfido_doc_capture_alert_mrz_title" = "下部の%d行（MRZ）が不明確です";
+"onfido_doc_capture_alert_mrz_detail" = "あなたの書類の下部を見えるようにしてください";
+"onfido_generic_close_sdk_title" = "本当に終了しますか？";
+"onfido_generic_close_sdk_subtitle" = "戻る場合、確認プロセスを再開する必要があるかもしれません。";
+"onfido_generic_close_sdk_exit" = "終了";
+"onfido_generic_close_sdk_cancel" = "キャンセル";
+"onfido_nfc_scan_doc_realign_title" = "スキャンが中断されました";
+"onfido_nfc_scan_doc_realign_body" = "あなたの書類をあなたのデバイスに対して再配置してください";
