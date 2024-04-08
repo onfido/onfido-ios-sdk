@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [29.9.1] - 2024-04-05
+
+### Fixed
+
+- Fixed an issue where document video capture would not be uploaded with photo
+
 ## [29.9.0] - 2024-03-21
 
 ### Added
