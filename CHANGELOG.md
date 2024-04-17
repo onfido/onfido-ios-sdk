@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [30.0.0] - 2024-04-12
+
+### Added
+
+- Motion capture fallback configuration has been removed: Motion is supported on all devices as of 29.9.0
+- Dropped iOS 12 support. Now supporting iOS 13 or newer
+
+### Changed
+
+- Added ON prefix for all Objective-C types
+- Removed deprecated APIs
+
+### Fixed
+
+- Fixed an issue where document video capture would not be uploaded with photo
+
 ## [29.9.1] - 2024-04-05
 
 ### Fixed
