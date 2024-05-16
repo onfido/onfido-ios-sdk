@@ -57,9 +57,8 @@ Check that you have entered correct billing details inside your [Onfido Dashboar
 
 The iOS SDK supports:
 
-* iOS 12+
-* Xcode 15+\*
-* Full bitcode support
+* iOS 13+
+* Xcode 15+ _(because of Swift minimum version)_
 * The SDK supports the following presentation styles:
     - Only full screen style for iPhones
     - Full screen and form sheet styles for iPads
