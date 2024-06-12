@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [30.2.0] - 2024-05-23
+
+### Added
+
+- Added withNFC(off, optional, required) to configure NFC
+- Deprecated disableNFC() use withNFC(.off) instead
+
+### Fixed
+
+- Fixed very rare crash that could occur when starting a recording on Video
+- Fixed error while passing multiple public keys to the certificate pinning API
+- Fixed crash while using Objective-C API
+
 ## [30.1.0] - 2024-05-16
 
 ### Added
@@ -698,7 +711,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - UI: Now primary button is retake and secondary is confirm on capture confirmation screen when warning present
-- Made some improvements around video recording logic to prevent several crash issues which have been reported on github. [Issue 1](https://github.com/onfido/onfido-ios-sdk/issues/220), [Issue 2](https://github.com/onfido/onfido-ios-sdk/issues/222). Those issues are: https://github.com/onfido/onfido-ios-sdk/issues/227
+- Made some improvements around video recording logic to prevent several crash issues which have been reported on github. 
 
 ### Fixed
 
@@ -892,7 +905,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed bundle localisation issue. [Related Github issue](https://github.com/onfido/onfido-ios-sdk/issues/162)
+- Fixed bundle localisation issue.
 
 ## [18.3.2] - 2020-08-06
 
@@ -902,18 +915,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- UI: Fix the problem about having buttons in different height. [Github Issue](https://github.com/onfido/onfido-ios-sdk/issues/169)
+- UI: Fix the problem about having buttons in different height.
 - Fixed localisation language selection when app and device preferred language is not supported by Bundle
 
 ## [18.3.1] - 2020-07-27
 
 ### Fixed
 
-- Fix for sending duplicate VIDEO_FACIAL_CAPTURE_CONFIRMATION analytic event.[Related github issue](https://github.com/onfido/onfido-ios-sdk/issues/167)
+- Fix for sending duplicate VIDEO_FACIAL_CAPTURE_CONFIRMATION analytic event.
 - Improved memory usage
 - UI: Fixed the camera load problem in some specific cases
 - UI: Fixed incorrect VoiceOver focus on video capture intro video
-- UI: Fixed error problem user taps shutter button right after presenting SDK.[Related github issue](https://github.com/onfido/onfido-ios-sdk/issues/168)
+- UI: Fixed error problem user taps shutter button right after presenting SDK.
 
 ## [18.3.0] - 2020-07-03
 
@@ -981,7 +994,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - Added German as supported language
-- Added document format option for document capture step. Also changed the way to configure document capture step. Please check [README]('https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration') for the details
+- Added document format option for document capture step. Also changed the way to configure document capture step. Please check [README](https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration) for the details
 - Added integrator defined event hook to allow integrators to collect user analytics
 - UI: Added icon to differentiate document back capture from front capture
 
@@ -992,7 +1005,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed the Localizable.strings not updated problem.[See]('https://github.com/onfido/onfido-ios-sdk/issues/144')
+- Fixed the Localizable.strings not updated problem.
 - UI: Fixed missing right margin issue on selfie intro screen
 - UI: Fixed alert text cut off in some scenarios
 - UI: Fixed the text cut-off issue on liveness capture screen
@@ -1006,7 +1019,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - UI: Now using grey Onfido logo with higher contrast for accessibility
-- Now using [API v3](https://documentation.onfido.com/v3/) for communication with the backend.
+- Now using [API v3](https://documentation.onfido.com/api/3.0.0/) for communication with the backend.
 - UI: Now only detecting glare on rectangles of ID1 size on US DL autocapture
 - UI: Now auto capturing non-blurry US DL only
 - Updated bubble view design and updated barcode not readable copy
@@ -1027,7 +1040,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed folded paper document on back capture loading lag issue
 - UI: Fixed selfie capture text truncated when large text size used
 - UI: Fixed Arabic country name endonyms
-- Fixed warning about missing umbrella header (https://github.com/onfido/onfido-ios-sdk/issues/131)
+- Fixed warning about missing umbrella header
 
 ## [16.2.0] - 2020-02-24
 

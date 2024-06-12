@@ -1,5 +1,5 @@
 ## Overview
-[Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) is a drag and drop interface enabling you to build an optimised route to verify each end user, by defining and configuring different paths, as well as incorporating a combination of signals, in a single identity verification flow.
+[Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) is a drag and drop interface enabling you to build an optimised route to verify each end user, by defining and configuring different paths, as well as incorporating a combination of signals, in a single identity verification flow.
 
 ## Integrating with iOS SDK 
 The Onfido iOS SDK provides a drop-in set of screens and tools for iOS applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
@@ -9,7 +9,7 @@ The SDK communicates directly and dynamically with active workflows to show the 
 > ℹ️ 
 > 
 > The following guide will help you to integrate with Onfido Studio.
-> If you are looking for the standard integration using Onfido checks, please head to our [README](https://github.com/onfido/onfido-ios-sdk).
+> If you are looking for the standard integration using Onfido checks, please head to our [iOS reference](https://documentation.onfido.com/sdk/ios).
 
 ## Getting started 
 
@@ -45,7 +45,7 @@ Run `pod install` to install the SDK.
 
 ### 2. Build a configuration object
 
-To initiaise the SDK, you must provide a `workflowRunId`, obtained by [creating a workflow run](https://documentation.onfido.com/#create-workflow-run), and an `sdkToken`, obtained by [generating an SDK token](https://documentation.onfido.com/#generate-sdk-token).
+To initiaise the SDK, you must provide a `workflowRunId`, obtained by [creating a workflow run](https://documentation.onfido.com/api/latest#create-workflow-run), and an `sdkToken`, obtained by [generating an SDK token](https://documentation.onfido.com/api/latest#generate-sdk-token).
 
 #### Swift
 
@@ -112,7 +112,7 @@ onfidoRun.with(responseHandler: { (response: OnfidoResponse) in
 
 | ATTRIBUTE        | NOTES           |
 | ------------- |-------------|
-| .success    | The end user completed all interactive tasks in the workflow. If you have configured [webhooks](https://documentation.onfido.com/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the Workflow.  |
+| .success    | The end user completed all interactive tasks in the workflow. If you have configured [webhooks](https://documentation.onfido.com/api/latest#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the Workflow.  |
 | .error(Error)      | An unexpected error occurred.      |
 | .cancel| The flow was exited prematurely by the user. The reason can be `.userExit` or `.consentDenied`    |
 
@@ -131,9 +131,9 @@ switch response {
       case OnfidoFlowError.microphonePermission:
         // This happens when the user denies permission for microphone usage by the app during the flow
       case OnfidoFlowError.upload(let OnfidoApiError):
-        // This happens when the SDK receives an error from an API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
+        // This happens when the SDK receives an error from an API call see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
-        // This happens when an unexpected error occurs. Please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+        // This happens when an unexpected error occurs. Please contact [Customer Support](mailto:support@onfido.com) when this happens
       case OnfidoFlowError.versionInsufficient:
         // This happens when you are using an older version of the iOS SDK and trying to access a new functionality from workflow. You can fix this by updating the SDK
 
@@ -144,7 +144,7 @@ switch response {
 
 ## UI Customization
 
-The iOS SDK supports the customization of colors, fonts and strings used in the SDK flow. For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#ios).
+The iOS SDK supports the customization of colors, fonts and strings used in the SDK flow. For visualizations of the available options please see our [SDK customization guide](https://documentation.onfido.com/sdk/sdk-customization#ios).
 
 ```Swift
 let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId", sdkToken: "sdkToken")
@@ -153,7 +153,7 @@ let appearance = Appearance()
 workflowConfiguration.withAppearance(appearance)
 ```
 
-You can find more information on how to create an appearance object [here](https://github.com/onfido/onfido-ios-sdk#ui-customization).
+You can find more information on how to create an appearance object [here](https://documentation.onfido.com/sdk/ios/#ui-customization).
 
 ## Language Customization
 
@@ -206,7 +206,7 @@ The SDK supports and maintains the following 44 languages:
 
 The strings used within the SDK can be customized by having a `Localizable.strings` in your app for the desired language and by configuring the flow using `withCustomLocalization` method on the `WorkflowConfiguration` object.
 
-You can find the keys for the localizable strings under the [`localization`](localization) directory which contains strings files for supported languages.
+You can find the keys for the localizable strings under the [`localization`](./localization) directory which contains strings files for supported languages.
 
 #### Swift
 
@@ -215,4 +215,4 @@ let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId"
 workflowConfiguration.withCustomLocalization(withTableName: "Localizable.strings", in: Bundle.main)
 ```
 
-You can find more information on how to use a custom language [here](https://github.com/onfido/onfido-ios-sdk#custom-languages).
+You can find more information on how to use a custom language [here](https://documentation.onfido.com/sdk/ios/#custom-languages).

@@ -34,7 +34,7 @@ The Onfido Smart Capture SDKs provide a set of screens and functionalities that 
 - Direct image upload to the Onfido service, to simplify integration
 - A suite of advanced fraud detection signals to protect against malicious users
 
-All Onfido Smart Capture SDKs are orchestrated using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) workflows, with only minor customization differences between the available platforms.
+All Onfido Smart Capture SDKs are orchestrated using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) workflows, with only minor customization differences between the available platforms.
 
 ![Capture Document and face](assets/Overview.png)
 
@@ -63,11 +63,11 @@ The iOS SDK supports:
     - Only full screen style for iPhones
     - Full screen and form sheet styles for iPads
 
-**Note**: The latest SDK version to support Xcode 11.5-12 is iOS SDK version 22, Xcode 14+ is iOS SDK version 29. There is a workaround for older versions of Xcode if required. Please contact [support](mailto:client-support@onfido.com) for more information.
+**Note**: The latest SDK version to support Xcode 11.5-12 is iOS SDK version 22, Xcode 14+ is iOS SDK version 29. There is a workaround for older versions of Xcode if required. Please contact Onfido's [Customer Support team](mailto:support@onfido.com) for more information.
 
 **Note**: The iOS SDK requires CoreNFC to run (regardless of whether you use NFC or not). Since Xcode 12, there is a bug where `libnfshared.dylib` is missing from simulators. Refer to [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) for a solution to this problem.
 
-**Note**: In the event that you disable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC-related code is part of the SDK binary, regardless of runtime configuration. While we're working on a permanent solution for this problem, you can contact Onfido's [Customer Support team](mailto:support@onfido.com) in the meantime to obtain a video.
+**Note**: In the event that you disable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC-related code is part of the SDK binary, regardless of runtime configuration. While we're working on a permanent solution for this problem, you can contact Onfido's [Customer Support](mailto:support@onfido.com) in the meantime to obtain a video.
 
 ### App permissions
 
@@ -167,11 +167,11 @@ The iOS SDK has multiple initialization and customization options that provide f
 
 ### Defining a workflow
 
-Onfido Studio is the platform used to create highly reusable identity verification workflows for use with the Onfido SDKs. For an introduction to working with workflows, please refer to our [Getting Started guide](https://developers.onfido.com/guide/general-introduction), or the Onfido Studio [product guide](https://developers.onfido.com/guide/onfido-studio-product).
+Onfido Studio is the platform used to create highly reusable identity verification workflows for use with the Onfido SDKs. For an introduction to working with workflows, please refer to our [Getting Started guide](https://documentation.onfido.com/getting-started/general-introduction), or the Onfido Studio [product guide](https://documentation.onfido.com/getting-started/onfido-studio-product).
 
 SDK sessions are orchestrated by a session-specific `workflow_run_id`, itself derived from a `workflow_id`, the unique identifier of a given workflow.
 
-For details on how to generate a `workflow_run_id`, please refer to the `POST /workflow_runs/` endpoint definition in the Onfido [API reference](https://documentation.onfido.com/#workflow-runs).
+For details on how to generate a `workflow_run_id`, please refer to the `POST /workflow_runs/` endpoint definition in the Onfido [API reference](https://documentation.onfido.com/api/latest#workflow-runs).
 
 <Callout type="warning">
 
@@ -192,7 +192,7 @@ The SDK is authenticated using SDK tokens. As each SDK token must be specific to
 | `applicant_id`   | **required** <br /> Specifies the applicant for the SDK instance.                                                                                                                                                                                       |
 | `application_id` | **required** <br /> The application ID (for iOS "application bundle ID") that was set up during development. For iOS, this is usually in the form `com.your-company.app-name`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
 
-For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
+For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/api/latest#generate-sdk-token).
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
 
@@ -248,14 +248,13 @@ customerViewController.present(try onfidoRun.run(), animated: true, completion: 
 // listen for the result
 ```
 
-### NFC capture using Onfido Studio
+### NFC capture
 
 Recent passports, national identity cards and residence permits contain a chip that can be accessed using Near Field Communication (NFC). The Onfido SDKs provide a set of screens and functionalities to extract this information, verify its authenticity and provide the resulting verification as part of a Document report.
 
 From version [29.1.0](https://github.com/onfido/onfido-ios-sdk/blob/master/MIGRATION.md#onfido-ios-sdk-2910-migration-guide) onwards of the Onfido iOS SDK, NFC is enabled by default and offered to end users when both the document and the device support NFC.
 
-For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
-
+For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://documentation.onfido.com/guide/document-report-nfc) guide.
 
 #### Pre-requisites
 
@@ -285,9 +284,17 @@ For more information on how to configure NFC and the list of supported documents
 </array>
 ```
 
-#### Disabling NFC
+#### Configuring NFC
 
-NFC is enabled by default. To disable NFC, call the `disableNFC()` function while configuring `OnfidoConfig` (see the [Advanced flow customization](#advanced-flow-customization) section below).
+To configure NFC using Onfido Studio, you can use one of the following options in the workflow builder:  
+* Off: NFC reading will not be asked to the end-users
+* If Possible (`optional`): NFC reading will be attempted, if possible
+* Required: NFC reading will be enforced, not allowing end-users to finish the flow without a successful reading
+
+To configure NFC in code, call the `withNFC()` function while configuring `OnfidoConfig` (see the [Advanced flow customization](#advanced-flow-customization) section below) using the above options.
+> ⚠️ When NFC is configured as `required` with code, unlike with Studio, SDK will not filter out document types that are
+> not NFC capable, for end-user best experience, expose only document types that are NFC capable as listed
+> [here](https://documentation.onfido.com/guide/supported-documents-nfc), or prefer using Studio
 
 ### Styling customization
 
@@ -328,7 +335,7 @@ public func withAppearance(_ appearance: Appearance) -> WorkflowConfiguration {
 }
 ```
 
-Please refer to the [SDK customization documentation](https://developers.onfido.com/guide/sdk-customization#ui-customization) for details of the supported UI options that can be set in this property.
+Please refer to the [SDK customization documentation](https://documentation.onfido.com/sdk/sdk-customization#ui-customization) for details of the supported UI options that can be set in this property.
 
 #### Dark theme
 
@@ -389,7 +396,7 @@ public func withCustomLocalization() {
 }
 ```
 
-For the list of languages supported by Onfido, please refer to our [SDK customization documentation](https://developers.onfido.com/guide/sdk-customization#language-customization).
+For the list of languages supported by Onfido, please refer to our [SDK customization documentation](https://documentation.onfido.com/sdk/sdk-customization#language-customization).
 
 **Note**: If no language is selected, the SDK will detect and use the end user's device language setting. If the device's language is not supported, the SDK will default to English (`en_US`).
 
@@ -416,7 +423,7 @@ Additionally you can specify the bundle from which to read the strings file:
 * Any string translation change will result in a MINOR version release. Any custom translations you have should not be impacted by this if they have been implemented according to the guidance above
 * You are responsible for ensuring the correct layout of any custom translations
 
-To request a new language translation, or offer feedback or suggestions on the translations provided, you can get in touch with us at [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com)
+To request a new language translation, or offer feedback or suggestions on the translations provided, you can get in touch with Onfido's [Customer Support](mailto:support@onfido.com)
 
 ## Completing a session
 
@@ -454,7 +461,7 @@ onfidoRun.with(responseHandler: { (response: OnfidoResponse) in
 
 | ATTRIBUTE        | NOTES           |
 | ------------- |-------------|
-| .success | Callback that fires when all interactive tasks in the workflow have been completed. On success, if you have configured [webhooks](https://documentation.onfido.com/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow      |
+| .success | Callback that fires when all interactive tasks in the workflow have been completed. On success, if you have configured [webhooks](https://documentation.onfido.com/api/latest#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow      |
 | .error(Error)    | Callback that fires when an error occurs      |
 | .cancel     | Callback that fires when the workflow was exited prematurely by the user. The reason can be  `.userExit` or `.consentDenied`      | <br>
 
@@ -474,10 +481,10 @@ switch response {
         // This happens when the user denies permission for microphone usage by the app during the flow
       case OnfidoFlowError.upload(let OnfidoApiError):
         // This happens when the SDK receives an error from an API call.
-        // See https://documentation.onfido.com/#errors for more information
+        // See https://documentation.onfido.com/api/latest#errors for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
         // This happens when an unexpected error occurs.
-        // Please email ios-sdk@onfido.com when this happens
+        // Please email [Customer support](mailto:supportonfido.com) when this happens
       case OnfidoFlowError.versionInsufficient:
         // This happens when you are using an older version of the iOS SDK and trying
         // to access a new functionality from workflow. You can fix this by updating the SDK
@@ -489,12 +496,12 @@ switch response {
 
 ### Generating verification reports
 
-While the SDK is responsible for capturing and uploading the user's media and data, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product).
+While the SDK is responsible for capturing and uploading the user's media and data, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product).
 
-For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://developers.onfido.com/guide/quick-start-guide).
+For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://documentation.onfido.com/getting-started/quick-start-guide).
 
-If your application initializes the Onfido iOS SDK using the options defined in the [Advanced customization](#advanced-flow-customization) section of this document, you may [create checks](https://documentation.onfido.com/#create-check) and [retrieve report results](https://documentation.onfido.com/#retrieve-report) manually using the Onfido API.
-You may also configure [webhooks](https://documentation.onfido.com/#webhooks) to be notified asynchronously when the report results have been generated.
+If your application initializes the Onfido iOS SDK using the options defined in the [Advanced customization](#advanced-flow-customization) section of this document, you may [create checks](https://documentation.onfido.com/api/latest#create-check) and [retrieve report results](https://documentation.onfido.com/api/latest#retrieve-report) manually using the Onfido API.
+You may also configure [webhooks](https://documentation.onfido.com/api/latest#webhooks) to be notified asynchronously when the report results have been generated.
 
 ## Advanced flow customization
 
@@ -644,7 +651,7 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
 ```
 
-Please refer to the [SDK customization documentation](https://developers.onfido.com/guide/sdk-customization#ui-customization) for details of the supported UI options that can be set in this property.
+Please refer to the [SDK customization documentation](https://documentation.onfido.com/sdk/sdk-customization#ui-customization) for details of the supported UI options that can be set in this property.
 
 ### Flow customization
 
@@ -697,19 +704,19 @@ if (configError) {
 
 #### Consent step
 
-This step contains the consent language required when you offer your service to US users, as well as links to Onfido's policies and terms of use. For applicants created with a [`location`](https://documentation.onfido.com/#location-create-applicant) parameter value of the United States, consent collection is **mandatory**.
+This step contains the consent language required when you offer your service to US users, as well as links to Onfido's policies and terms of use. For applicants created with a [`location`](https://documentation.onfido.com/api/latest#location-create-applicant) parameter value of the United States, consent collection is **mandatory**.
 
 The user must click "Accept" to move past this step and continue with the flow. The content is available in English
 only, and is not translatable.
 
 **Note**: This step does not automatically inform Onfido that the user has given their consent:
-- When creating checks using API v3.3 or lower, you need to set the value of the API parameter `privacy_notices_read_consent_given` (now deprecated) at the end of the SDK flow when [creating a check](https://documentation.onfido.com/v3.3/#create-check)
-- From API v3.4 onwards, user consent is confirmed when [creating](https://documentation.onfido.com/#create-applicant) or [updating](https://documentation.onfido.com/#update-applicant) an applicant using the [consents](https://documentation.onfido.com/#consents) parameter
+- When creating checks using API v3.3 or lower, you need to set the value of the API parameter `privacy_notices_read_consent_given` (now deprecated) at the end of the SDK flow when [creating a check](https://documentation.onfido.com/api/3.3.0/#create-check)
+- From API v3.4 onwards, user consent is confirmed when [creating](https://documentation.onfido.com/api/latest#create-applicant) or [updating](https://documentation.onfido.com/api/latest#update-applicant) an applicant using the [consents](https://documentation.onfido.com/api/latest#consents) parameter
 
 If you choose to disable Onfido’s SDK Consent step, you **must** still incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your users start interacting with the Onfido SDK.
 
 For more information about this step, and how to collect user consent, please
-visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
+visit [Onfido Privacy Notices and Consent](https://documentation.onfido.com/guide/onfido-privacy-notices-and-consent).
 
 #### Document step
 
@@ -730,7 +737,7 @@ another country from the list where allowed. The selection will default to empty
 
 You can specify allowed issuing countries and document types for the document capture step in one of three ways:
 
-- Onfido Studio: If you are using Onfido Studio, this is configured within the Document Capture task, as documented in the [Studio Product Guide](https://developers.onfido.com/guide/onfido-studio-product#document-capture-task)
+- Onfido Studio: If you are using Onfido Studio, this is configured within the Document Capture task, as documented in the [Studio Product Guide](https://documentation.onfido.com/getting-started/onfido-studio-product#document-capture-task)
 - Otherwise, the recommended approach is to apply this configuration globally in the [Dashboard](https://dashboard.onfido.com/) under Accounts \ Supported Documents. This option also ensures that the list is enforced as part of the Document Report validation. Any document that has been uploaded by an end user against your guidance will result in a Document Report sub-result of "rejected" and be flagged as `Image Integrity > Supported Document`.
 
 ##### Country and document type selection by Dashboard
@@ -796,6 +803,10 @@ The following document types are supported:
 | residencePermit      | ResidencePermitConfiguration  | - country                      |
 | visa                 | VisaConfiguration             | - country                      |
 | workPermit           | WorkPermitConfiguration       | - country                      |
+| generic              | GenericDocumentConfiguration  | - title<br> - subtitle<br> - country<br> - pages |
+
+**Note**: `Generic` document type doesn't offer an optimized capture experience for a desired document type.
+
 
 **Note:** If only one document type is specified, users will not see the selection screen and will be taken directly to
 the capture screen.
@@ -864,6 +875,7 @@ The following document formats are supported for each document type:
 | residencePermit                | NOT CONFIGURABLE |
 | visa                           | NOT CONFIGURABLE |
 | workPermit                     | NOT CONFIGURABLE |
+| generic                        | NOT CONFIGURABLE |
 
 **Note:** If you configure the SDK with an unsupported document format, the SDK will throw
 an `OnfidoConfigError.invalidDocumentFormatAndCountryCombination` (`ONFlowConfigErrorInvalidDocumentFormatAndCountryCombination`
@@ -922,6 +934,138 @@ let config = try OnfidoConfig.builder()
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withDocumentStepWithSelectableDocumentTypes: @[@(SelectableDocumentTypePassport), @(SelectableDocumentTypeDrivingLicence)]];
 ```
+
+- **Adding custom documents by SDK integration code**
+You can also capture custom documents that Onfido does not fully support in the SDK by using the Generic document type.
+
+This can be useful for running the Document Report on documents that are supported in the Onfido platform, but are not yet present in the SDK, or for changing the default name of the document type presented to the user or the default number of sides/pages the user will be asked to capture.
+
+The Generic document type supports limited on-device image quality checks. Use the standard document types where available for an improved capture experience.
+
+A custom document consists of the following information:
+
+- Title (required): Displayed in the document selection screen
+- Subtitle (optional): Displayed in the document selection screen below the title
+- Country (required): To support multiple countries, create a custom document for each country
+- Pages (required): Tells the SDK The number of document pages to be captured. Currently supporting one or two sides/pages
+
+It is recommended to provide pre-translated title and subtitle strings when you initialize the SDK, as these custom strings are not translated internally.
+
+![The Selection Screen with Generic Documents](assets/generic_docs.png)
+
+Here are several options when adding custom documents: 
+
+- Adding the custom documents per country on top of the documents we support. You can add more than one custom document. If you require documents for multiple countries, you will have to add each document for each country.
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withGenericDocuments(additionalTypes: [
+        .generic(config: GenericDocumentConfiguration(title: "Tax ID", country: "PHL", pages: .frontAndBack))
+        .generic(config: GenericDocumentConfiguration(title: "Voter's ID", subtitle: "your voting ID", country: "PHL", pages: .single))
+    ])
+    .build()
+```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+
+NSError *documentConfigError = NULL;
+DocumentConfigBuilder * documentConfigBuilder = [ONDocumentTypeConfig builder];
+[documentConfigBuilder withGenericWithConfig:[[GenericDocumentConfiguration alloc] initWithTitle: @"Tax ID" subtitle: nil country: @"PHL" pages: ONDocumentPagesFrontAndBack]];
+[documentConfigBuilder withGenericWithConfig:[[GenericDocumentConfiguration alloc] initWithTitle: @"Voter's ID" subtitle: @"your voting ID" country: @"PHL" pages: ONDocumentPagesSingle]];
+ONDocumentTypeConfig *documentTypeConfig = [documentConfigBuilder buildAndReturnError: documentConfigError];
+
+if (documentConfigError) {
+  // Handle variant config error
+} else {
+  NSError *configError = NULL;
+  [configBuilder withGenericDocumentsWithAdditionalTypes:documentTypeConfig];
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+```
+
+- Preselect documents to show in the document selection screen and include custom documents for a specific country (custom documents will only be shown if the country configured is the same as the country selected).
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withDocumentStep(ofSelectableTypes: [.passport, .drivingLicence])
+    .withGenericDocuments(additionalTypes: [
+        .generic(config: GenericDocumentConfiguration(title: "Tax ID", country: "PHL", pages: .frontAndBack))
+        .generic(config: GenericDocumentConfiguration(title: "Voter's ID", subtitle: "your voting ID", country: "PHL", pages: .single))
+    ])
+    .build()
+```
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+
+NSError *documentConfigError = NULL;
+DocumentConfigBuilder *documentConfigBuilder = [ONDocumentTypeConfig builder];
+[documentConfigBuilder withDocumentStepWithSelectableDocumentTypes: @[@(SelectableDocumentTypePassport), @(SelectableDocumentTypeDrivingLicence)]];
+[documentConfigBuilder withGenericWithConfig:[[GenericDocumentConfiguration alloc] initWithTitle: @"Tax ID" subtitle: nil country: @"PHL" pages: ONDocumentPagesFrontAndBack]];
+[documentConfigBuilder withGenericWithConfig:[[GenericDocumentConfiguration alloc] initWithTitle: @"Voter's ID" subtitle: @"your voting ID" country: @"PHL" pages: ONDocumentPagesSingle]];
+ONDocumentTypeConfig *documentTypeConfig = [documentConfigBuilder buildAndReturnError: documentConfigError];
+
+if (documentConfigError) {
+  // Handle variant config error
+} else {
+  NSError *configError = NULL;
+  [configBuilder withGenericDocumentsWithAdditionalTypes:documentTypeConfig];
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+```
+
+- Add a custom document and skip the document/country selection screen. This can only be done when adding only 1 document.
+
+#### Swift
+
+```swift
+let config = try! OnfidoConfig.builder()
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withDocumentStep(ofType:.generic(config: 
+        GenericDocumentConfiguration(title: "Voter's ID", subtitle: "your voting ID", country: "PHL", pages: .single))
+    )
+    .build()
+```
+
+#### Objective-C
+
+```Objective-C
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
+
+NSError *documentConfigError = NULL;
+DocumentConfigBuilder *documentConfigBuilder = [ONDocumentTypeConfig builder];
+[documentConfigBuilder withGenericWithConfig:[[GenericDocumentConfiguration alloc] initWithTitle: @"Tax ID" subtitle: nil country: @"PHL" pages: ONDocumentPagesSingle]];
+ONDocumentTypeConfig *documentTypeConfig = [documentConfigBuilder buildAndReturnError: documentConfigError];
+
+if (documentConfigError) {
+  // Handle variant config error
+} else {
+  NSError *configError = NULL;
+  [configBuilder withDocumentStepOfType:documentTypeConfig];
+  ONFlowConfig *config = [configBuilder buildAndReturnError:&configError];
+}
+```
+
+Note:
+
+- Adding an empty title will throw an error `OnfidoConfigError.invalidDocumentTitle`
+- Adding duplicate documents (same title and country) will also throw an error `OnfidoConfigError.duplicateGenericDocument`
+- Custom Documents are not currently compatible with the Dashboard-based configuration method or with Studio
+- When using a Custom Document to force the single-sided capture of a document that Onfido would usually capture two sides for, the Document Report may return a Caution for [Image Integrity > Conclusive Document Quality > missing_back](https://documentation.onfido.com/api/latest#conclusive-document-quality-reasons)) as the back of certain documents contain expected data points or fraud features. You may wish to customize your result processing logic to accommodate this
+
 
 #### Face step
 
@@ -1184,9 +1328,9 @@ case let OnfidoResponse.error(error):
     case OnfidoFlowError.failedToWriteToDisk:
         // Occurs when the SDK tries to save capture to disk, maybe due to a lack of space
     case OnfidoFlowError.upload(let OnfidoApiError):
-        // Occurs when the SDK receives an error from an API call, see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
+        // Occurs when the SDK receives an error from an API call, see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
     case OnfidoFlowError.exception(withError: let error, withMessage: let message):
-        // Returned when an unexpected error occurs, please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+        // Returned when an unexpected error occurs, please contact [Customer support](mailto:supportonfido.com) when this happens
     case OnfidoFlowError.invalidImageData:
         // Occurs when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
     case OnfidoFlowError.versionInsufficient:
@@ -1263,11 +1407,11 @@ case ONFlowErrorFailedToWriteToDisk:
     // Occurs when the SDK tries to save capture to disk, maybe due to a lack of space
     break;
 case ONFlowErrorUpload:
-    // Occurs when the SDK receives an error from an API call, see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
+    // Occurs when the SDK receives an error from an API call, see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
     // you can find out more by printing or logging userInfo from error
     break;
 case ONFlowErrorException:
-    // Returned when an unexpected error occurs, please contact [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+    // Returned when an unexpected error occurs, please contact Onfido's [Customer Support](mailto:support@onfido.com) when this happens
     break;
 case ONFlowErrorInvalidImageData:
     // Occurs when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
@@ -1451,7 +1595,7 @@ OnfidoFlow(withConfiguration: config)
 ```
 
 The code inside of the defined method will now be called when a particular event is triggered, usually when the user
-reaches a new screen. For a full list of events see, [tracked events](https://github.com/onfido/onfido-ios-sdk#tracked-events).
+reaches a new screen. For a full list of events see, [tracked events](#tracked-events).
 
 The parameter being passed in is an `OnfidoFlow.Event` struct which contains the following:
 
@@ -1514,7 +1658,7 @@ You can pin any communications between our SDK and server through the `.withCert
 our `OnfidoConfig.Builder` configuration builder. This method accepts `CertificatePinningConfiguration` as a parameter,
 with sha-256 hashes of the certificate's public keys.
 
-For more information about the hashes, please email [ios-sdk@onfido.com](mailto:ios-sdk@onfido.com).
+For more information about the hashes, please email Onfido's [Customer Support](mailto:support@onfido.com).
 
 ##### Swift
 
@@ -1579,7 +1723,7 @@ The Onfido SDKs are [WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/) com
 - Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
 - Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
 
-Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-accessibility-statement) for more
+Refer to our [accessibility statement](https://documentation.onfido.com/sdk/sdk-accessibility-statement) for more
 details.
 
 ## Licensing
@@ -1631,6 +1775,6 @@ portal, [public.support.onfido.com](http://public.support.onfido.com).
 
 We recommend you update your SDK to the latest version release as frequently as possible. Customers on newer versions of the Onfido SDK consistently see better performance across user onboarding and fraud mitigation, so we strongly advise keeping your SDK integration up-to-date.
 
-You can review our full SDK versioning policy [here](https://developers.onfido.com/guide/sdk-version-releases).
+You can review our full SDK versioning policy [here](https://documentation.onfido.com/sdk/sdk-version-releases).
 
 Copyright 2024 Onfido, Ltd. All rights reserved.
