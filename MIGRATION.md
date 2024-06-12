@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 30.2.0 Migration Guide](#onfido-ios-sdk-3020-migration-guide)
 * [Onfido iOS SDK 30.0.0 Migration Guide](#onfido-ios-sdk-3000-migration-guide)
 * [Onfido iOS SDK 29.9.0 Migration Guide](#onfido-ios-sdk-2990-migration-guide)
 * [Onfido iOS SDK 29.6.0 Migration Guide](#onfido-ios-sdk-2960-migration-guide)
@@ -67,6 +68,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 30.2.0 Migration Guide
+
+### Deprecated API Changes
+
+- Deprecated `disableNFC()` use `withNFC(.off)` instead
+
 ## Onfido iOS SDK 30.0.0 Migration Guide
 
 ### Breaking API Changes
@@ -95,7 +102,7 @@ Due to a change introduced by Apple in March 2023 with iOS v16.0, PACE-only docu
 PACE is an optional authentication protocol used by some identity documents during NFC processing. All passports support BAC which is still supported by both iOS and the Onfido iOS SDK.
 
 Impact:
-- None: all currently [supported NFC documents](https://developers.onfido.com/guide/supported-documents-nfc#pacific) can still be read by the Onfido iOS SDK, including the documents that support both BAC and PACE as authentication methods (e.g. French passport, Dutch national ID card, Polish ID card).
+- None: all currently [supported NFC documents](https://documentation.onfido.com/guide/supported-documents-nfc) can still be read by the Onfido iOS SDK, including the documents that support both BAC and PACE as authentication methods (e.g. French passport, Dutch national ID card, Polish ID card).
 - CAN-entry: As CAN (Card Authentication Number) is only required for PACE Authentication, for documents require the user to enter the CAN, those screens will no longer be shown but the NFC read will proceed with BAC (which is based on the extracted MRZ).
 
 
@@ -481,7 +488,7 @@ The following string keys have been **removed**:
 
 ### Breaking API changes
 
-- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README]('https://github.com/onfido/onfido-ios-sdk/blob/28.0.0/README.md#document-step') page.
+- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README](https://documentation.onfido.com/sdk/ios/28.0.0/#document-step) page.
 
 ## Onfido iOS SDK 27.2.0 Migration Guide
 
@@ -1216,7 +1223,7 @@ The following string keys have been **changed**:
 
 ### Breaking API Changes
 
-- Now SDK sends selected document country information to the backend. If an incorrect country value has been set when configuring the Document step [see documentation]('https://github.com/onfido/onfido-ios-sdk/#configuring-country'), SDK will throw an error during document upload
+- Now SDK sends selected document country information to the backend. If an incorrect country value has been set when configuring the Document step [see documentation](https://github.com/onfido/onfido-ios-sdk/#configuring-country), SDK will throw an error during document upload
 
 ## Onfido iOS SDK 18.10.0 Migration Guide
 
@@ -1483,7 +1490,7 @@ The following string keys have been **removed**:
 
 ### Breaking API Changes
 
-- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README]('https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration') page.
+- The way to configure SDK for document capture step has changed. To see instructions and usage examples please check out [README](https://github.com/onfido/onfido-ios-sdk/blob/18.0.0/README.md#document-type-configuration) page.
 
 ## Onfido iOS SDK 17.0.0 Migration Guide
 
