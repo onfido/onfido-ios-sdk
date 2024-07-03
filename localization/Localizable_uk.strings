@@ -1,5 +1,5 @@
-"onfido_doc_capture_button_accessibility" = "Кнопка зйомки";
-"onfido_selfie_capture_button_accessibility" = "Кнопка зйомки";
+"onfido_doc_capture_button_accessibility" = "Кнопка знімання";
+"onfido_selfie_capture_button_accessibility" = "Кнопка знімання";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "Зробіть знімок вашого документа";
 "onfido_selfie_capture_frame_accessibility" = "Увімкніть селфі-камеру. Наведіть овал на обличчя, а тоді натисніть кнопку знімання";
@@ -354,7 +354,7 @@
 "onfido_doc_select_button_bill" = "Рахунок за комунальні послуги";
 "onfido_doc_select_extra_estatements_ok" = "електронні виписки прийнято";
 "onfido_doc_select_button_bill_detail" = "Газ, електроенергія, вода, стаціонарний телефон або широкосмуговий інтернет-зв’язок";
-"onfido_doc_select_extra_no_mobile" = "На жаль, ми не приймаємо рахунки за мобільний зв’язок";
+"onfido_doc_select_extra_no_mobile" = "Вибачте, рахунків за мобільний телефон немає";
 "onfido_poa_guidance_subtitle_bill" = "Має бути виданий протягом останніх 3°місяців";
 "onfido_doc_select_button_bank_statement" = "Виписка з банку або іпотечної спілки";
 "onfido_poa_guidance_subtitle_bank_statement" = "Має бути виданий протягом останніх 3°місяців";
@@ -763,3 +763,39 @@
 "onfido_nfc_capture_scan_error_final_required_passport_list_item_4" = "Можливо, вам доведеться повільно проводити телефоном вгору та вниз по паспорту, поки ви не знайдете чіп.";
 "onfido_nfc_capture_scan_error_final_required_passport_list_item_5" = "Як тільки ваш телефон виявить чіп у вашому паспорті, сканування почнеться автоматично. Тримайте ваш телефон та паспорт нерухомо, щоб сканування могло завершитися.";
 "onfido_nfc_capture_scan_video_description" = "Приклад відео з телефоном, який сканує чіп у паспорті.";
+"onfido_sid_welcome_title" = "Підтвердити особу";
+"onfido_sid_welcome_subtitle" = "З міркувань безпеки та для захисту від шахрайства нам потрібно перевірити вашу особистість.";
+"onfido_sid_welcome_idv_button" = "Розпочніть верифікацію ідентичності";
+"onfido_sid_welcome_idv_subtitle" = "Ми попросимо вас надати деякі документи та особисту інформацію, яка допоможе нам переконатися, що ви є тим, за кого себе видаєте.";
+"onfido_sid_welcome_separator" = "АБО";
+"onfido_sid_welcome_previous_verification_button" = "Використовуйте попередню верифікацію";
+"onfido_sid_welcome_previous_verification_subtitle" = "Ви можете повторно використовувати тільки ту верифікацію, яка була успішно завершена та збережена заздалегідь.";
+"onfido_sid_loading_title" = "Пошук попередніх верифікацій";
+"onfido_sid_register_title" = "Перевірте один раз. Використовуйте знову";
+"onfido_sid_register_fast_title" = "Ніколи не витрачайте час на повторення перевірки, яка вже існує";
+"onfido_sid_register_fast_subtitle" = "Інформація, яка вже була зібрана, буде збережена, тому ви можете використовувати її знову, замість того, щоб проходити процес верифікації знову.";
+"onfido_sid_register_passkey_title" = "Ви будете тримати ключ для пропуску потоку";
+"onfido_sid_register_passkey_subtitle" = "Як пароль, збережений на вашому пристрої, ви створите унікальний ідентифікатор (ключ доступу), який ви можете видалити в будь-який момент.";
+"onfido_sid_register_consent_title" = "Тільки ви можете дати згоду на повторне використання верифікацій";
+"onfido_sid_register_consent_subtitle" = "Ваші дані будуть використані знову, тільки якщо ви натиснете кнопку 'Використати попередню верифікацію' в наступний раз.";
+"onfido_sid_register_save" = "Збережіть вашу верифікацію";
+"onfido_sid_register_skip" = "Пропустити";
+"onfido_sid_saved_title" = "Верифікацію збережено";
+"onfido_sid_saved_subtitle" = "Як тільки буде відомий результат цієї верифікації, ви зможете використовувати його знову, коли вам знадобиться довести свою особистість.";
+"onfido_sid_saved_button" = "Продовжити";
+"onfido_sid_not_found_title" = "Не знайдено ключа доступу";
+"onfido_sid_not_found_subtitle" = "У вас немає розпізнаваного пароля на вашому пристрої. Будь ласка, продовжуйте до завершення процесу.";
+"onfido_sid_not_found_button" = "Продовжити";
+"onfido_sid_register_error_title" = "Ключ доступу не створено";
+"onfido_sid_register_error_subtitle" = "Схоже, вам не вдалося створити ключ доступу. Поверніться, щоб спробувати знову, або продовжуйте до завершення процесу.";
+"onfido_sid_register_error_button" = "Повернутися назад";
+
+"onfido_doc_submit_title_accommodation_tenancy_certificate" = "Надіслати сертифікат про житло або оренду";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Переконайтеся, що ви завантажили всю сторінку документа, і деталі чітко видно, без розмиття або блиску";
+"onfido_photo_upload_body_accommodation_tenancy_certificate" = "Надайте всю сторінку документа для найкращих результатів";
+"onfido_doc_select_button_accommodation_tenancy_certificate" = "Свідоцтво про проживання або оренду";
+"onfido_doc_select_accommodation_tenancy_certificate_detail" = "Видано державним органом або корпоративним орендодавцем як підтвердження оренди.";
+"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Угоди про піднайм не приймаються";
+"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Угоди про суборенду не приймаються";
+"onfido_generic_alert_parsing_error_label" = "Помилка розбору";
+"onfido_generic_error_parsing_detail" = "Сталася помилка обробки. Будь ласка, спробуйте ще раз.";

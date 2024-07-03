@@ -1,4 +1,4 @@
-"onfido_doc_capture_button_accessibility" = "ضع وجهك في الإطار البيضاوي، ثم اضغط على زر المصراع";
+"onfido_doc_capture_button_accessibility" = "مصراع";
 "onfido_selfie_capture_button_accessibility" = "مصراع";
 /* Accessibility */
 "onfido_doc_capture_frame_accessibility" = "التقط وثيقتك";
@@ -762,3 +762,39 @@
 "onfido_nfc_capture_scan_error_final_required_passport_list_item_4" = "قد تحتاج إلى تحريك هاتفك ببطء لأعلى ولأسفل ضد جواز سفرك حتى تحدد موقع الشريحة.";
 "onfido_nfc_capture_scan_error_final_required_passport_list_item_5" = "بمجرد أن يكتشف هاتفك الرقاقة في جواز سفرك، ستبدأ الفحص تلقائيًا. احتفظ بثبات هاتفك وجواز سفرك حتى يتم الفحص.";
 "onfido_nfc_capture_scan_video_description" = "مثال فيديو لهاتف يقوم بمسح الرقاقة في جواز السفر.";
+"onfido_sid_welcome_title" = "التحقق من هويتك";
+"onfido_sid_welcome_subtitle" = "لأسباب أمنية ولحمايتك من الاحتيال، نحتاج إلى التحقق من هويتك.";
+"onfido_sid_welcome_idv_button" = "ابدأ التحقق من الهوية";
+"onfido_sid_welcome_idv_subtitle" = "سنطلب بعض الوثائق والمعلومات الشخصية منك، التي يمكن أن تساعدنا في معرفة من تقول أنك أنت.";
+"onfido_sid_welcome_separator" = "أو";
+"onfido_sid_welcome_previous_verification_button" = "استخدم التحقق السابق";
+"onfido_sid_welcome_previous_verification_subtitle" = "يمكنك فقط إعادة استخدام عملية التحقق التي تم إكمالها وحفظها مسبقًا بنجاح.";
+"onfido_sid_loading_title" = "البحث عن عمليات التحقق السابقة";
+"onfido_sid_register_title" = "تحقق مرة واحدة. استخدم مرة أخرى";
+"onfido_sid_register_fast_title" = "لا تضيع الوقت أبدًا في تكرار عملية التحقق من الهوية التي توجد بالفعل";
+"onfido_sid_register_fast_subtitle" = "سيتم حفظ المعلومات التي تم جمعها بالفعل، بحيث يمكنك إعادة استخدامها بدلاً من المرور عبر عملية التحقق من الهوية مرة أخرى.";
+"onfido_sid_register_passkey_title" = "سوف تمتلك المفتاح لتخطي التدفق";
+"onfido_sid_register_passkey_subtitle" = "مثل كلمة المرور المخزنة على جهازك، ستقوم بإنشاء معرف فريد (مفتاح الدخول) يمكنك حذفه في أي لحظة.";
+"onfido_sid_register_consent_title" = "أنت فقط يمكنك الموافقة على أي عمليات التحقق يتم إعادة استخدامها";
+"onfido_sid_register_consent_subtitle" = "فقط عند النقر على زر 'استخدم التحقق السابق' في المرة القادمة، سيتم إعادة استخدام بياناتك.";
+"onfido_sid_register_save" = "احفظ التحقق الخاص بك";
+"onfido_sid_register_skip" = "تخطى";
+"onfido_sid_saved_title" = "تم حفظ التحقق";
+"onfido_sid_saved_subtitle" = "بمجرد معرفة نتيجة هذا التحقق، ستتمكن من إعادة استخدامها في المرة القادمة التي تحتاج فيها إلى إثبات هويتك.";
+"onfido_sid_saved_button" = "متابعة";
+"onfido_sid_not_found_title" = "لم يتم العثور على مفتاح الدخول";
+"onfido_sid_not_found_subtitle" = "ليس لديك مفتاح مرور قابل للتعرف على جهازك. يرجى المتابعة إلى العملية الكاملة.";
+"onfido_sid_not_found_button" = "متابعة";
+"onfido_sid_register_error_title" = "لم يتم إنشاء المفتاح السري";
+"onfido_sid_register_error_subtitle" = "يبدو أنك لم تتمكن من إنشاء مفتاح الدخول. عُد لإعادة المحاولة أو استمر لإكمال العملية.";
+"onfido_sid_register_error_button" = "عُد";
+
+"onfido_doc_submit_title_accommodation_tenancy_certificate" = "قدم شهادة الإقامة أو الإيجار";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "تأكد من أنك قمت بتحميل صفحة الوثيقة بأكملها، وأن التفاصيل واضحة للقراءة بدون ضبابية أو وهج";
+"onfido_photo_upload_body_accommodation_tenancy_certificate" = "قدم صفحة الوثيقة كاملة للحصول على أفضل النتائج";
+"onfido_doc_select_button_accommodation_tenancy_certificate" = "شهادة الإقامة أو السكن";
+"onfido_doc_select_accommodation_tenancy_certificate_detail" = "صادر عن السلطة الحكومية أو المالك الشركات كتأكيد للإيجار.";
+"onfido_doc_select_accommodation_tenancy_certificate_warning" = "لا يتم قبول اتفاقيات التأجير الفرعي";
+"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "لا يتم قبول اتفاقيات التأجير الفرعي";
+"onfido_generic_alert_parsing_error_label" = "خطأ في التحليل";
+"onfido_generic_error_parsing_detail" = "حدث خطأ في التحليل. يرجى المحاولة مرة أخرى.";

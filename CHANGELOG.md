@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [30.3.0] - 2024-06-28
+
+### Added
+
+- Reintroduced ability to read documents via NFC when 'PACE' authentication is required: ⚠️ Please read the new App entitlement pre-requisites in the [NFC Capture](https://documentation.onfido.com/sdk/ios/#nfc-capture) documentation
+
+### Changed
+
+- Reduced framework size by removing embedded OpenCV library
+- Document Capture: Improved capture screen appearance
+
+### Fixed
+
+- Removed the border of web modules
+
 ## [30.2.0] - 2024-05-23
 
 ### Added
@@ -18,6 +33,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed very rare crash that could occur when starting a recording on Video
 - Fixed error while passing multiple public keys to the certificate pinning API
 - Fixed crash while using Objective-C API
+- Fixed an issue with Studio tokenExpirationHandler not triggering correctly
 
 ## [30.1.0] - 2024-05-16
 
