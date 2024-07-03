@@ -260,6 +260,17 @@ For more information on how to configure NFC and the list of supported documents
 
 - This feature requires `Near Field Communication Tag Reading` capability in your app target. If you haven't added it
   before, please follow the steps in [Apple's documentation](https://help.apple.com/xcode/mac/current/#/dev88ff319e7).
+- To support NFC PACE documents, you need to edit app entitlements:
+  - Add a new entry nested under the `Near Field Communication Tag Reader Session Formats` key
+  - Select `Password Authenticated Connection Establishment (PACE)` from the dropdown list
+  - Alternatively you can also edit your entitlements, with the following entries:
+    ```xml
+    <key>com.apple.developer.nfc.readersession.formats</key>
+    <array>
+        <string>PACE</string>
+        <string>TAG</string>
+    </array>
+    ```
 
 - You're required to have the following key in your application's `Info.plist` file:
 
