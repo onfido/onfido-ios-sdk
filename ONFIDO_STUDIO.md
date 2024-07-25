@@ -1,23 +1,24 @@
 ## Overview
 [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) is a drag and drop interface enabling you to build an optimised route to verify each end user, by defining and configuring different paths, as well as incorporating a combination of signals, in a single identity verification flow.
 
-## Integrating with iOS SDK 
-The Onfido iOS SDK provides a drop-in set of screens and tools for iOS applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
+## Integrating with iOS SDK
+
+The Onfido iOS SDK provides a drop-in set of screens and tools for iOS applications to capture identity documents and selfie photos and videos for the purpose of identity verification.
 
 The SDK communicates directly and dynamically with active workflows to show the relevant screens to ensure the correct capture and upload of user information. As a result, the SDK flow will vary depending on the workflow configuration. You won't need to specify any steps directly in the SDK integration as these will be overridden when the workflow run ID is passed into the SDK initialisation.
 
-> ℹ️ 
-> 
+> ℹ️
+>
 > The following guide will help you to integrate with Onfido Studio.
 > If you are looking for the standard integration using Onfido checks, please head to our [iOS reference](https://documentation.onfido.com/sdk/ios).
 
-## Getting started 
+## Getting started
 
 The SDK supports:
 
-* iOS 11+
-* SDK supports Xcode 14+\*
-* SDK supports following presentation styles:
+- iOS 13+
+- SDK supports Xcode 15+\*
+- SDK supports following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
 
@@ -29,7 +30,7 @@ The SDK is available with Swift Package Manager and you can include it in your p
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/onfido/onfido-ios-sdk.git", .branch("master")) 
+    .package(url: "https://github.com/onfido/onfido-ios-sdk.git", .branch("master"))
 ]
 ```
 
@@ -51,7 +52,7 @@ To initiaise the SDK, you must provide a `workflowRunId`, obtained by [creating 
 
 ```swift
 let workflowConfiguration = WorkflowConfiguration(workflowRunId: "workflowRunId", sdkToken: "sdkToken")
-```    
+```
 
 #### Objective-C
 
@@ -68,7 +69,7 @@ let onfidoRun = OnfidoFlow(workflowConfiguration: orchestrationConfig)
 let flowViewController = try onfidoRun.run()
 yourViewController.present(flowViewController, animated: true, completion: nil)
 // listen for the result
-```    
+```
 
 #### Objective-C
 
@@ -84,11 +85,11 @@ if (!flowRunError) {
                                    completion:nil];
 }
 // listen for the result
-```    
+```
 
 ## Handling callbacks
 
-To receive the result from a completed workflow, you should pass a callback to the instance of `OnfidoFlow`. The following code is provided as an example: 
+To receive the result from a completed workflow, you should pass a callback to the instance of `OnfidoFlow`. The following code is provided as an example:
 
 ```swift
 onfidoRun.with(responseHandler: { (response: OnfidoResponse) in
@@ -105,7 +106,7 @@ onfidoRun.with(responseHandler: { (response: OnfidoResponse) in
                     print(error)
 
                     }
-                }, dismissFlowOnCompletion: true) 
+                }, dismissFlowOnCompletion: true)
 // Dismiss the whole flow when the user completes it, and return back to the integrator view.
 ```
 

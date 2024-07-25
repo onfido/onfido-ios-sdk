@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "از کارت NFC استفاده کنید";
 "onfido_nfc_select_button_secondary_card" = "این کارت از نوع NFC نیست";
 
-"onfido_nfc_intro_title_passport" = "گذرنامه خود را اسکن کنید";
+"onfido_nfc_intro_title_passport" = "تراشه گذرنامه شما را اسکن کنید";
 "onfido_nfc_intro_subtitle_passport" = "از تلفن خود برای اسکن چیپ در گذرنامه خود استفاده کنید";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "گذرنامه خود را روی یک سطح صاف باز کنید";
-"onfido_nfc_intro_passport_scan_guide_2" = "گوشی خود را مستقیماً روی گذرنامه خود بگذارید تا با هم تماس داشته باشند";
-"onfido_nfc_intro_passport_scan_guide_3" = "گوشی خود را به آرامی روی هر دو صفحه بکشید تا عملیات اسکن آغاز شود";
+"onfido_nfc_intro_passport_scan_guide_2" = "گوشی خود را به گذرنامه خود بچسبانید. برای پیدا کردن چیپ، ممکن است نیاز باشد گوشی خود را بر روی گذرنامه خود بالا و پایین بکشید.";
+"onfido_nfc_intro_passport_scan_guide_3" = "پس از شناسایی چیپ، تلفن و گذرنامه خود را ثابت نگه دارید.";
 "onfido_nfc_intro_passport_scan_guide_4" = "هنگامی که اسکن شروع می شود، برای اتمام اسکن باید ثابت بمانید";
 
 "onfido_nfc_intro_button_primary_passport" = "شروع اسکن";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "گوشی خود را نزدیک وسط گذرنامه خود قرار دهید";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "گوشی خود را به گذرنامه خود بچسبانید. شاید نیاز باشد که به آرامی گوشی خود را روی گذرنامه خود بکشید.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "در حال اسکن ...";
 
 "onfido_nfc_intro_title_card" = "کارت NFC خود را اسکن کنید";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "پوشش گذرنامه و قاب گوشی خود را بردارید";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "تا زمان انجام موفقیت‌آمیز اسکن، گوشی و گذرنامه خود را در تماس با هم نگه دارید";
-"onfido_nfc_fail_button_primary_passport" = "اسکن مجدد";
+"onfido_nfc_fail_button_primary_passport" = "شروع اسکن";
 "onfido_nfc_fail_button_secondary_passport" = "تأیید هویت بدون اسکن";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "قاب گوشی خود را بردارید";
 "onfido_nfc_fail_list_item_keep_contact_card" = "تا زمان انجام موفقیت‌آمیز اسکن، گوشی و کارت خود را در تماس با هم نگه دارید";
-"onfido_nfc_fail_button_primary_card" = "اسکن مجدد";
+"onfido_nfc_fail_button_primary_card" = "شروع اسکن";
 "onfido_nfc_fail_button_secondary_card" = "تأیید هویت بدون اسکن";
 
 "onfido_doc_confirmation_zoom_button" = "بزرگنمایی عکس";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "ویدئوی خود را بررسی کنید";
 "onfido_generic_back" = "بازگشت";
 "onfido_nfc_sheet_ready_subtitle" = "آماده اسکن";
-"onfido_nfc_sheet_scanning_instruction" = "گوشی خود را ثابت نگه دارید";
+"onfido_nfc_sheet_scanning_instruction" = "گوشی و پاسپورت خود را ثابت نگه دارید";
 "onfido_nfc_sheet_success_subtitle" = "اسکن با موفقیت انجام شد";
 "onfido_nfc_sheet_success_instruction_passport" = "گذرنامه شما را با موفقیت اسکن کردیم";
 "onfido_outro_body" = "این تمام آن چیزی است که برای شروع فرآیند تأیید هویت شما نیاز داریم";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "نتوانستیم مدرک شما را اسکن کنیم";
 "onfido_nfc_scan_error_list_item" = "قاب گوشی خود را بردارید";
 "onfido_nfc_scan_error_list_item_2" = "هنگامی که اسکن شروع شد ثابت نگه دارید";
-"onfido_nfc_scan_error_button_primary" = "اسکن مجدد";
+"onfido_nfc_scan_error_button_primary" = "شروع اسکن";
 "onfido_welcome_nfc_title" = "هویت خود را تأیید کنید";
 "onfido_welcome_nfc_subtitle" = "این کار چند دقیقه طول می‌کشد";
 "onfido_welcome_nfc_list_header_nfc" = "از دستگاه خود برای موارد زیر استفاده کنید:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "سند خود را بررسی کنید";
 "onfido_nfc_scan_welcome_card_subtitle" = "از تلفن خود برای اسکن کردن تراشه موجود در سند خود استفاده کنید";
 "onfido_nfc_scan_welcome_card_list_item" = "سند خود را به گونه ای در پشت دستگاه خود بگذارید که با هم تماس داشته باشند";
-"onfido_nfc_scan_welcome_card_list_item_2" = "سند خود را به آرامی روی دستگاه بالا و پایین حرکت دهید تا فرآیند اسکن آغاز شود";
+"onfido_nfc_scan_welcome_card_list_item_2" = "به آرامی سند خود را بر روی تلفن خود بالا و پایین بکشید تا چیپ را پیدا کنید.";
 "onfido_nfc_scan_welcome_card_list_item_3" = "وقتی اسکن کردن شروع می شود، باید ثابت بمانید تا اسکن کاملاً انجام شود";
 "onfido_nfc_scan_welcome_card_button_primary" = "شروع اسکن";
 "onfido_nfc_scan_welcome_card_secondary_button" = "بدون NFC تأیید شوید";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "نتوانستیم مدرک شما را اسکن کنیم";
 "onfido_nfc_scan_error_inter_list_item" = "قاب گوشی خود را بردارید";
 "onfido_nfc_scan_error_inter_list_item_2" = "دستگاه و سند خود را تا زمان موفقیت آمیز بودن اسکن در تماس نگه دارید";
-"onfido_nfc_scan_error_inter_primary_button" = "اسکن مجدد";
+"onfido_nfc_scan_error_inter_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_inter_secondary_button" = "بدون NFC تأیید شوید";
 
 "onfido_nfc_scan_error_final_title" = "ما نتوانستیم این سند را تأیید کنیم";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "نتوانستیم مدرک شما را اسکن کنیم";
 "onfido_nfc_scan_error_inter_passport_list_item" = "پوشش گذرنامه و قاب گوشی خود را بردارید";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "دستگاه و سند خود را تا زمان موفقیت آمیز بودن اسکن در تماس نگه دارید";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "اسکن مجدد";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "بدون NFC تأیید شوید";
 
 "onfido_doc_capture_alert_too_close_title" = "عقب بروید";
@@ -664,24 +664,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "لطفاً کمی بیشتر برای اتمام این فرآیند صبر کنید، صبر شما قدردانی می شود.";
 "onfido_interactive_task_waiting_subtitle_2" = "کار هنوز در حال اجرا است، صبر شما قدردانی می شود.";
 "onfido_nfc_fail_passport_title" = "ما نتوانستیم این سند را اسکن کنیم";
-"onfido_nfc_fail_passport_list_item_1" = "هر گونه پوشش را از سند و دستگاه خود بردارید";
-"onfido_nfc_fail_passport_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
-"onfido_nfc_fail_passport_list_item_3" = "به آرامی تلفن خود را روی هر دو صفحه بکشید تا اسکن شروع شود";
-"onfido_nfc_fail_passport_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_fail_passport_button_primary" = "دوباره اسکن کنید";
+"onfido_nfc_fail_passport_list_item_1" = "سعی کنید کاور گذرنامه خود را بردارید یا قاب تلفن خود را بردارید. این برای جلوگیری از تداخل با چیپ است.";
+"onfido_nfc_fail_passport_list_item_2" = "گذرنامه خود را ببندید و آن را روی یک سطح صاف با رویه جلو به بالا قرار دهید.";
+"onfido_nfc_fail_passport_list_item_3" = "گوشی خود را به گذرنامه خود بچسبانید تا با هم تماس داشته باشند.";
+"onfido_nfc_fail_passport_list_item_4" = "ممکن است نیاز باشد که به آرامی گوشی خود را به پایین و بالا روی پاسپورت خود حرکت دهید تا چیپ را پیدا کنید.";
+"onfido_nfc_fail_passport_button_primary" = "شروع اسکن";
 "onfido_nfc_scan_error_final_possible_passport_title" = "ما نتوانستیم این سند را اسکن کنیم";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "هر گونه پوشش را از سند و دستگاه خود بردارید";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "سعی کنید کاور گذرنامه خود را بردارید یا قاب تلفن خود را بردارید. این برای جلوگیری از تداخل با چیپ است.";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "به آرامی تلفن خود را روی هر دو صفحه بکشید تا اسکن شروع شود";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "دوباره اسکن کنید";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "بدون اسکن کردن تأیید کنید";
 "onfido_nfc_scan_error_final_required_passport_title" = "ما نتوانستیم این سند را اسکن کنیم";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "هر گونه پوشش را از سند و دستگاه خود بردارید";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "سعی کنید کاور گذرنامه خود را بردارید یا قاب تلفن خود را بردارید. این برای جلوگیری از تداخل با چیپ است.";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "به آرامی تلفن خود را روی هر دو صفحه بکشید تا اسکن شروع شود";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "دوباره اسکن کنید";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "تأیید خروج";
 "onfido_nfc_scan_error_document_title" = "سند پشتیبانی نمی شود";
 "onfido_nfc_scan_error_document_subtitle" = "لطفا با یک سند دیگر امتحان کنید";
@@ -696,25 +696,25 @@
 "onfido_nfc_scan_sheet_error_2" = "ما نتوانستیم سند شما را اسکن کنیم";
 "onfido_nfc_scan_sheet_button" = "لغو";
 "onfido_nfc_scan_doc_selection_disclaimer" = "ما فقط اسنادی را که چیپ دارند، پذیرفته می کنیم. به دنبال این آیکون در سند خود بگردید";
-"onfido_nfc_fail_card_title" = "ما نتوانستیم این سند را اسکن کنیم";
-"onfido_nfc_fail_card_list_item_1" = "هر گونه پوشش را از دستگاه خود بردارید";
-"onfido_nfc_fail_card_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
+"onfido_nfc_fail_card_title" = "قادر به اسکن کردن چیپ نیستید. نیاز به کمک دارید؟";
+"onfido_nfc_fail_card_list_item_1" = "سعی کنید قاب تلفن خود را بردارید. این برای جلوگیری از تداخل با چیپ است.";
+"onfido_nfc_fail_card_list_item_2" = "سند خود را به گونه ای در پشت تلفن خود بگذارید که با هم تماس داشته باشند.";
 "onfido_nfc_fail_card_list_item_3" = "به آرامی سند خود را بر روی دستگاه بالا و پایین بکشید تا اسکن شروع شود";
 "onfido_nfc_fail_card_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_fail_card_button_primary" = "دوباره اسکن کنید";
+"onfido_nfc_fail_card_button_primary" = "شروع اسکن";
 "onfido_nfc_scan_error_final_possible_card_title" = "ما نتوانستیم این سند را اسکن کنیم";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "هر گونه پوشش را از دستگاه خود بردارید";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "به آرامی سند خود را بر روی دستگاه بالا و پایین بکشید تا اسکن شروع شود";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "دوباره اسکن کنید";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "بدون اسکن کردن تأیید کنید";
 "onfido_nfc_scan_error_final_required_card_title" = "ما نتوانستیم این سند را اسکن کنیم";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "هر گونه پوشش را از دستگاه خود بردارید";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "دستگاه و سند خود را تا زمانی که اسکن با موفقیت انجام شود، در تماس نگه دارید";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "به آرامی سند خود را بر روی دستگاه بالا و پایین بکشید تا اسکن شروع شود";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "هنگامی که اسکن شروع می شود، ساکت بمانید تا اسکن کامل شود";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "دوباره اسکن کنید";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "تأیید خروج";
 "onfido_nfc_scan_sheet_card_ready" = "به آرامی سند خود را بالا و پایین بکشید";
 "onfido_nfc_scan_sheet_card_button" = "لغو";
@@ -741,14 +741,14 @@
 "onfido_generic_close_sdk_cancel" = "لغو";
 "onfido_nfc_scan_doc_realign_title" = "اسکن متوقف شد";
 "onfido_nfc_scan_doc_realign_body" = "اسناد خود را در برابر دستگاه خود مجدداً قرار دهید";
-"onfido_nfc_capture_scan_intro_title_passport_new" = "چیپ موجود در گذرنامه خود را اسکن کنید";
+"onfido_nfc_capture_scan_intro_title_passport_new" = "تراشه گذرنامه شما را اسکن کنید";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "گذرنامه خود را ببندید و آن را روی سطح صافی با روی جلد به بالا قرار دهید.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "نیمه بالای گوشی خود را با نیمه پایینی گذرنامه خود تماس دهید تا چیپ را اسکن کنید.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "هنگامی که اسکن شروع می شود، تلفن و گذرنامه خود را ساکت نگه دارید.";
 "onfido_nfc_capture_scan_sheet" = "نیمه بالای گوشی خود را با نیمه پایینی گذرنامه خود در تماس قرار دهید.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "در حال اسکن ...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "گوشی و پاسپورت خود را ساکت نگه دارید.";
-"onfido_nfc_capture_scan_doc_realign_body" = "بالای تلفن خود را در تماس با پایین گذرنامه خود قرار دهید.";
+"onfido_nfc_capture_scan_doc_realign_body" = "تلفن خود را روی گذرنامه خود قرار دهید تا چیپ را پیدا کنید.";
 "onfido_nfc_capture_scan_fail_title_passport" = "قادر به اسکن کردن چیپ نیست.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "کمک می‌خواهید؟";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "هرگونه پوشش از گذرنامه خود یا قاب از تلفن همراه خود را بردارید. این برای جلوگیری از دخالت با چیپ است.";

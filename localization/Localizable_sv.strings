@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "Använd NFC-kort";
 "onfido_nfc_select_button_secondary_card" = "Det är inte ett NFC-kort";
 
-"onfido_nfc_intro_title_passport" = "Skanna ditt pass";
+"onfido_nfc_intro_title_passport" = "Skanna ditt pass NFC-chip";
 "onfido_nfc_intro_subtitle_passport" = "Använd din telefon för att skanna chippet i ditt pass";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Lägg ditt pass öppnat på en platt yta";
-"onfido_nfc_intro_passport_scan_guide_2" = "Placera din telefon direkt ovanpå ditt pass så att de rör vid varandra";
-"onfido_nfc_intro_passport_scan_guide_3" = "Glid långsamt din telefon över båda sidorna tills skanningen startar";
+"onfido_nfc_intro_passport_scan_guide_2" = "Placera din telefon mot ditt pass. För att hitta chippet kan du behöva glida din telefon upp och ner mot ditt pass.";
+"onfido_nfc_intro_passport_scan_guide_3" = "När chippet upptäcks, håll din telefon och pass stilla.";
 "onfido_nfc_intro_passport_scan_guide_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
 
 "onfido_nfc_intro_button_primary_passport" = "Starta skanning";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placera telefonen nära mitten av ditt pass";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placera telefonen mot ditt pass. Du kanske behöver långsamt dra din telefon mot ditt pass.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Skannar...";
 
 "onfido_nfc_intro_title_card" = "Skanna ditt NFC-kort";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Ta bort ditt pass och telefonskal";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Håll din telefon och ditt pass så att de vidrör varandra tills skanningen lyckas";
-"onfido_nfc_fail_button_primary_passport" = "Försök igen med skanning";
+"onfido_nfc_fail_button_primary_passport" = "Starta skanning";
 "onfido_nfc_fail_button_secondary_passport" = "Bli verifierad utan skanning";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "Ta bort telefonskalet";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Håll din telefon och ditt kort så att de vidrör varandra tills skanningen lyckas";
-"onfido_nfc_fail_button_primary_card" = "Försök igen med skanning";
+"onfido_nfc_fail_button_primary_card" = "Starta skanning";
 "onfido_nfc_fail_button_secondary_card" = "Bli verifierad utan skanning";
 
 "onfido_doc_confirmation_zoom_button" = "Förstora bild";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "Kontrollera din video";
 "onfido_generic_back" = "tillbaka";
 "onfido_nfc_sheet_ready_subtitle" = "Redo att skanna";
-"onfido_nfc_sheet_scanning_instruction" = "Håll telefonen stilla";
+"onfido_nfc_sheet_scanning_instruction" = "Håll din telefon och pass stilla";
 "onfido_nfc_sheet_success_subtitle" = "Skanningen lyckades";
 "onfido_nfc_sheet_success_instruction_passport" = "Vi har skannat ditt pass";
 "onfido_outro_body" = "Det är allt vi behöver för att börja verifiera din identitet";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "Vi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_error_list_item" = "Ta bort telefonskalet";
 "onfido_nfc_scan_error_list_item_2" = "När skanningen börjar ska du hålla stilla";
-"onfido_nfc_scan_error_button_primary" = "Försök igen med skanning";
+"onfido_nfc_scan_error_button_primary" = "Starta skanning";
 "onfido_welcome_nfc_title" = "Verifiera din identitet";
 "onfido_welcome_nfc_subtitle" = "Detta kan ta några minuter";
 "onfido_welcome_nfc_list_header_nfc" = "Använd din enhet för att:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "Skanna ditt dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Använd din telefon för att skanna chipet i ditt dokument";
 "onfido_nfc_scan_welcome_card_list_item" = "Placera ditt dokument mot baksidan av din enhet så att de rör vid varandra";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Förflytta långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Skjut långsamt ditt dokument nedåt och uppåt mot din telefon för att hitta chipet.";
 "onfido_nfc_scan_welcome_card_list_item_3" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
 "onfido_nfc_scan_welcome_card_button_primary" = "Starta skanning";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Bli verifierad utan NFC";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "Vi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_error_inter_list_item" = "Ta bort telefonskalet";
 "onfido_nfc_scan_error_inter_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
-"onfido_nfc_scan_error_inter_primary_button" = "Försök igen med skanning";
+"onfido_nfc_scan_error_inter_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_inter_secondary_button" = "Bli verifierad utan NFC";
 
 "onfido_nfc_scan_error_final_title" = "Vi kunde inte verifiera det här dokumentet";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "Vi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Ta bort ditt pass och telefonskal";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "Försök igen med skanning";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Bli verifierad utan NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "Flytta bakåt";
@@ -665,24 +665,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vänligen vänta lite längre på att denna process ska slutföras, din tålamod uppskattas.";
 "onfido_interactive_task_waiting_subtitle_2" = "Uppgiften körs fortfarande, din tålamod uppskattas.";
 "onfido_nfc_fail_passport_title" = "Vi kunde inte skanna detta dokument";
-"onfido_nfc_fail_passport_list_item_1" = "Ta bort alla skydd från ditt dokument och enhet";
-"onfido_nfc_fail_passport_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
-"onfido_nfc_fail_passport_list_item_3" = "Glid långsamt din telefon över båda sidorna tills skanningen startar";
-"onfido_nfc_fail_passport_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_fail_passport_button_primary" = "Försök skanna igen";
+"onfido_nfc_fail_passport_list_item_1" = "Försök att ta bort skyddet från ditt pass eller fodralet från din telefon. Detta är för att undvika störningar med chippet.";
+"onfido_nfc_fail_passport_list_item_2" = "Stäng ditt pass och lägg det på en plan yta med framsidan upp.";
+"onfido_nfc_fail_passport_list_item_3" = "Placera telefonen mot ditt pass, så att de rör vid varandra.";
+"onfido_nfc_fail_passport_list_item_4" = "Du kan behöva skjuta långsamt telefonen nedåt och uppåt mot ditt pass tills du hittar chipet.";
+"onfido_nfc_fail_passport_button_primary" = "Starta skanning";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Vi kunde inte skanna detta dokument";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Ta bort alla skydd från ditt dokument och enhet";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Försök att ta bort skyddet från ditt pass eller fodralet från din telefon. Detta är för att undvika störningar med chippet.";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Glid långsamt din telefon över båda sidorna tills skanningen startar";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Försök skanna igen";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Verifiera utan att skanna";
 "onfido_nfc_scan_error_final_required_passport_title" = "Vi kunde inte skanna detta dokument";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Ta bort alla skydd från ditt dokument och enhet";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Försök att ta bort skyddet från ditt pass eller fodralet från din telefon. Detta är för att undvika störningar med chippet.";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Glid långsamt din telefon över båda sidorna tills skanningen startar";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "Försök skanna igen";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_error_document_title" = "Dokument stöds inte";
 "onfido_nfc_scan_error_document_subtitle" = "Vänligen försök med ett annat dokument";
@@ -697,25 +697,25 @@
 "onfido_nfc_scan_sheet_error_2" = "Vi kunde inte skanna ditt dokument";
 "onfido_nfc_scan_sheet_button" = "Avbryt";
 "onfido_nfc_scan_doc_selection_disclaimer" = "Vi accepterar endast dokument med en chip. Letar efter denna ikon på ditt dokument";
-"onfido_nfc_fail_card_title" = "Vi kunde inte skanna detta dokument";
-"onfido_nfc_fail_card_list_item_1" = "Ta bort alla skydd från din enhet";
-"onfido_nfc_fail_card_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
+"onfido_nfc_fail_card_title" = "Kan inte skanna chippet. Behöver du hjälp?";
+"onfido_nfc_fail_card_list_item_1" = "Försök att ta bort skalet från din telefon. Detta är för att undvika störningar med chippet.";
+"onfido_nfc_fail_card_list_item_2" = "Placera ditt dokument mot baksidan av din telefon, så att de rör vid varandra.";
 "onfido_nfc_fail_card_list_item_3" = "Glid långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
 "onfido_nfc_fail_card_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_fail_card_button_primary" = "Försök skanna igen";
+"onfido_nfc_fail_card_button_primary" = "Starta skanning";
 "onfido_nfc_scan_error_final_possible_card_title" = "Vi kunde inte skanna detta dokument";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Ta bort alla skydd från din enhet";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Glid långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "Försök skanna igen";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Verifiera utan att skanna";
 "onfido_nfc_scan_error_final_required_card_title" = "Vi kunde inte skanna detta dokument";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "Ta bort alla skydd från din enhet";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Glid långsamt ditt dokument upp och ner mot enheten tills skanningen startar";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "Försök skanna igen";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "Avsluta verifiering";
 "onfido_nfc_scan_sheet_card_ready" = "Förflytta långsamt ditt dokument upp och ner";
 "onfido_nfc_scan_sheet_card_button" = "Avbryt";
@@ -742,14 +742,14 @@
 "onfido_generic_close_sdk_cancel" = "Avbryt";
 "onfido_nfc_scan_doc_realign_title" = "Skanning avbruten";
 "onfido_nfc_scan_doc_realign_body" = "Placera om ditt dokument mot din enhet";
-"onfido_nfc_capture_scan_intro_title_passport_new" = "Skanna chipet i ditt pass";
+"onfido_nfc_capture_scan_intro_title_passport_new" = "Skanna ditt pass NFC-chip";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Stäng ditt pass och placera det på en plan yta med framsidan uppåt.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Placera den övre halvan av din telefon i kontakt med den nedre halvan av ditt pass för att skanna chipet.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "När skanningen startar, håll din telefon och pass stilla.";
 "onfido_nfc_capture_scan_sheet" = "Placera den övre halvan av din telefon i kontakt med den nedre halvan av ditt pass.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Skannar...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Håll din telefon och pass stilla.";
-"onfido_nfc_capture_scan_doc_realign_body" = "Placera om toppen av din telefon i kontakt med botten på ditt pass.";
+"onfido_nfc_capture_scan_doc_realign_body" = "Placera om din telefon mot ditt pass för att hitta chippet.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Det går inte att skanna chipet.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "Behöver du hjälp?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "Ta bort eventuella skydd från ditt pass eller fodral från din telefon. Detta är för att undvika störningar med chipet.";
