@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "Sử dụng thẻ NFC";
 "onfido_nfc_select_button_secondary_card" = "Đó không phải là thẻ NFC";
 
-"onfido_nfc_intro_title_passport" = "Quét hộ chiếu của bạn";
+"onfido_nfc_intro_title_passport" = "Quét chip trong hộ chiếu của bạn";
 "onfido_nfc_intro_subtitle_passport" = "Sử dụng điện thoại của bạn để quét chip trong hộ chiếu của bạn";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Đặt hộ chiếu của bạn đã mở ra trên một bề mặt phẳng";
-"onfido_nfc_intro_passport_scan_guide_2" = "Đặt điện thoại của bạn trực tiếp lên hộ chiếu sao cho chúng tiếp xúc với nhau";
-"onfido_nfc_intro_passport_scan_guide_3" = "Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu";
+"onfido_nfc_intro_passport_scan_guide_2" = "Đặt điện thoại lên hộ chiếu của bạn. Để tìm chip, bạn có thể cần di chuyển điện thoại lên và xuống trên hộ chiếu của bạn.";
+"onfido_nfc_intro_passport_scan_guide_3" = "Một khi chip được phát hiện, hãy giữ điện thoại và hộ chiếu của bạn không động.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
 
 "onfido_nfc_intro_button_primary_passport" = "Bắt đầu quét";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Đặt điện thoại gần giữa hộ chiếu của bạn";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Đặt điện thoại lên hộ chiếu của bạn. Bạn có thể cần phải từ từ trượt điện thoại lên hộ chiếu của bạn.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Đang quét...";
 
 "onfido_nfc_intro_title_card" = "Quét thẻ NFC của bạn";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Tháo bìa hộ chiếu và ốp điện thoại của bạn";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Giữ điện thoại sát với hộ chiếu của bạn cho đến khi quá trình quét thành công";
-"onfido_nfc_fail_button_primary_passport" = "Thử quét lại";
+"onfido_nfc_fail_button_primary_passport" = "Bắt đầu quét";
 "onfido_nfc_fail_button_secondary_passport" = "Xác minh không cần quét";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "Tháo ốp điện thoại của bạn";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Giữ điện thoại sát với thẻ của bạn cho đến khi quá trình quét thành công";
-"onfido_nfc_fail_button_primary_card" = "Thử quét lại";
+"onfido_nfc_fail_button_primary_card" = "Bắt đầu quét";
 "onfido_nfc_fail_button_secondary_card" = "Xác minh không cần quét";
 
 "onfido_doc_confirmation_zoom_button" = "Phóng to hình ảnh";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "Kiểm tra video của bạn";
 "onfido_generic_back" = "quay lại";
 "onfido_nfc_sheet_ready_subtitle" = "Sẵn sàng quét";
-"onfido_nfc_sheet_scanning_instruction" = "Giữ yên điện thoại của bạn";
+"onfido_nfc_sheet_scanning_instruction" = "Giữ yên điện thoại và hộ chiếu của bạn";
 "onfido_nfc_sheet_success_subtitle" = "Quét thành công";
 "onfido_nfc_sheet_success_instruction_passport" = "Chúng tôi đã quét thành công hộ chiếu của bạn";
 "onfido_outro_body" = "Chúng tôi đã có đầy đủ thông tin cần thiết để bắt đầu xác minh danh tính của bạn";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "Chúng tôi không thể quét giấy tờ của bạn";
 "onfido_nfc_scan_error_list_item" = "Tháo ốp điện thoại của bạn";
 "onfido_nfc_scan_error_list_item_2" = "Khi quá trình quét bắt đầu, hãy giữ yên điện thoại của bạn";
-"onfido_nfc_scan_error_button_primary" = "Thử quét lại";
+"onfido_nfc_scan_error_button_primary" = "Bắt đầu quét";
 "onfido_welcome_nfc_title" = "Xác minh danh tính của bạn";
 "onfido_welcome_nfc_subtitle" = "Quá trình này có thể mất vài phút";
 "onfido_welcome_nfc_list_header_nfc" = "Sử dụng thiết bị của bạn để:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "Quét tài liệu của bạn";
 "onfido_nfc_scan_welcome_card_subtitle" = "Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn";
 "onfido_nfc_scan_welcome_card_list_item" = "Đặt tài liệu của bạn vào phía sau của thiết bị để chúng tiếp xúc với nhau";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Từ từ trượt tài liệu của bạn lên xuống trên điện thoại để tìm chip.";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
 "onfido_nfc_scan_welcome_card_button_primary" = "Bắt đầu quét";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Được xác minh mà không cần NFC";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "Chúng tôi không thể quét giấy tờ của bạn";
 "onfido_nfc_scan_error_inter_list_item" = "Tháo ốp điện thoại của bạn";
 "onfido_nfc_scan_error_inter_list_item_2" = "Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công";
-"onfido_nfc_scan_error_inter_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_inter_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_inter_secondary_button" = "Được xác minh mà không cần NFC";
 
 "onfido_nfc_scan_error_final_title" = "Chúng tôi không thể xác minh tài liệu này";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "Chúng tôi không thể quét giấy tờ của bạn";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Tháo bìa hộ chiếu và ốp điện thoại của bạn";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Được xác minh mà không cần NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "Lùi lại";
@@ -665,24 +665,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Vui lòng chờ thêm một chút để quá trình này hoàn tất, sự kiên nhẫn của bạn rất được trân trọng.";
 "onfido_interactive_task_waiting_subtitle_2" = "Công việc vẫn đang được thực hiện, xin cảm ơn sự kiên nhẫn của bạn.";
 "onfido_nfc_fail_passport_title" = "Chúng tôi không thể quét tài liệu này";
-"onfido_nfc_fail_passport_list_item_1" = "Gỡ bỏ bất kỳ vỏ bọc nào từ tài liệu và thiết bị của bạn";
-"onfido_nfc_fail_passport_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
-"onfido_nfc_fail_passport_list_item_3" = "Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu";
-"onfido_nfc_fail_passport_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_fail_passport_button_primary" = "Thử quét lại";
+"onfido_nfc_fail_passport_list_item_1" = "Hãy thử gỡ bìa hộ chiếu hoặc ốp lưng điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.";
+"onfido_nfc_fail_passport_list_item_2" = "Đóng hộ chiếu và đặt nó trên một mặt phẳng với mặt trước hướng lên.";
+"onfido_nfc_fail_passport_list_item_3" = "Đặt điện thoại của bạn lên hộ chiếu, sao cho chúng đang chạm vào nhau.";
+"onfido_nfc_fail_passport_list_item_4" = "Bạn có thể cần từ từ trượt điện thoại của bạn lên xuống trên hộ chiếu cho đến khi bạn tìm thấy chip.";
+"onfido_nfc_fail_passport_button_primary" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Chúng tôi không thể quét tài liệu này";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Gỡ bỏ bất kỳ vỏ bọc nào từ tài liệu và thiết bị của bạn";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Hãy thử gỡ bìa hộ chiếu hoặc ốp lưng điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Xác minh mà không cần quét";
 "onfido_nfc_scan_error_final_required_passport_title" = "Chúng tôi không thể quét tài liệu này";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Gỡ bỏ bất kỳ vỏ bọc nào từ tài liệu và thiết bị của bạn";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Hãy thử gỡ bìa hộ chiếu hoặc ốp lưng điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Xác minh thoát";
 "onfido_nfc_scan_error_document_title" = "Tài liệu không được hỗ trợ";
 "onfido_nfc_scan_error_document_subtitle" = "Vui lòng thử với một tài liệu khác";
@@ -697,25 +697,25 @@
 "onfido_nfc_scan_sheet_error_2" = "Chúng tôi không thể quét tài liệu của bạn";
 "onfido_nfc_scan_sheet_button" = "Hủy";
 "onfido_nfc_scan_doc_selection_disclaimer" = "Chúng tôi chỉ chấp nhận các tài liệu có chip. Hãy tìm biểu tượng này trên tài liệu của bạn";
-"onfido_nfc_fail_card_title" = "Chúng tôi không thể quét tài liệu này";
-"onfido_nfc_fail_card_list_item_1" = "Gỡ bỏ bất kỳ vỏ bảo vệ nào khỏi thiết bị của bạn";
-"onfido_nfc_fail_card_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
+"onfido_nfc_fail_card_title" = "Không thể quét chip. Cần trợ giúp?";
+"onfido_nfc_fail_card_list_item_1" = "Thử gỡ bỏ ốp lưng khỏi điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.";
+"onfido_nfc_fail_card_list_item_2" = "Đặt tài liệu của bạn vào phía sau điện thoại, sao cho chúng tiếp xúc với nhau.";
 "onfido_nfc_fail_card_list_item_3" = "Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu";
 "onfido_nfc_fail_card_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_fail_card_button_primary" = "Thử quét lại";
+"onfido_nfc_fail_card_button_primary" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_possible_card_title" = "Chúng tôi không thể quét tài liệu này";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Gỡ bỏ bất kỳ vỏ bảo vệ nào khỏi thiết bị của bạn";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Xác minh mà không cần quét";
 "onfido_nfc_scan_error_final_required_card_title" = "Chúng tôi không thể quét tài liệu này";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "Gỡ bỏ bất kỳ vỏ bảo vệ nào khỏi thiết bị của bạn";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "Thử quét lại";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "Xác minh thoát";
 "onfido_nfc_scan_sheet_card_ready" = "Chậm rãi kéo tài liệu của bạn lên và xuống";
 "onfido_nfc_scan_sheet_card_button" = "Hủy";
@@ -749,7 +749,7 @@
 "onfido_nfc_capture_scan_sheet" = "Đặt nửa phần trên của điện thoại của bạn tiếp xúc với nửa phần dưới của hộ chiếu của bạn.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Đang quét...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Giữ điện thoại và hộ chiếu của bạn không động.";
-"onfido_nfc_capture_scan_doc_realign_body" = "Đặt phần trên của điện thoại của bạn tiếp xúc với phần dưới của hộ chiếu của bạn.";
+"onfido_nfc_capture_scan_doc_realign_body" = "Đặt lại điện thoại của bạn lên hộ chiếu để tìm chip.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Không thể quét chip.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "Cần giúp đỡ?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "Gỡ bỏ bất kỳ vỏ bảo vệ nào khỏi hộ chiếu hoặc ốp lưng khỏi điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.";

@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "Naudoti NFC kortelę";
 "onfido_nfc_select_button_secondary_card" = "Tai ne NFC kortelė";
 
-"onfido_nfc_intro_title_passport" = "Nuskanuokite savo pasą";
+"onfido_nfc_intro_title_passport" = "Nuskaitykite savo paso lustą";
 "onfido_nfc_intro_subtitle_passport" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo pase";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Padėkite savo pasą atvertą ant plokščios paviršiaus";
-"onfido_nfc_intro_passport_scan_guide_2" = "Padėkite savo telefoną tiesiai ant savo paso, kad jie liestųsi";
-"onfido_nfc_intro_passport_scan_guide_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
+"onfido_nfc_intro_passport_scan_guide_2" = "Prispauskite telefoną prie savo paso. Norėdami rasti lustą, gali tekti slinkti telefonu aukštyn ir žemyn prie savo paso.";
+"onfido_nfc_intro_passport_scan_guide_3" = "Kai lustas aptinkamas, laikykite telefoną ir pasą nejudant.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 
 "onfido_nfc_intro_button_primary_passport" = "Pradėti nuskaitymą";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Laikykite telefoną netoli paso vidurio";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Pastatykite telefoną prie savo paso. Gali tekti lėtai slinkti telefonu per savo pasą.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Nuskaitoma...";
 
 "onfido_nfc_intro_title_card" = "Nuskaitykite NFC kortelę";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Nuimkite pasą ir telefono dangtelius";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Laikykite telefoną virš paso, kol bus sėkmingai nuskaityta";
-"onfido_nfc_fail_button_primary_passport" = "Bandyti nuskaityti dar kartą";
+"onfido_nfc_fail_button_primary_passport" = "Pradėti nuskaitymą";
 "onfido_nfc_fail_button_secondary_passport" = "Jūsų patvirtinimas be nuskaitymo";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "Nuimkite telefono dangtelį";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Laikykite telefoną virš kortelės, kol bus sėkmingai nuskaityta";
-"onfido_nfc_fail_button_primary_card" = "Bandyti nuskaityti dar kartą";
+"onfido_nfc_fail_button_primary_card" = "Pradėti nuskaitymą";
 "onfido_nfc_fail_button_secondary_card" = "Jūsų patvirtinimas be nuskaitymo";
 
 "onfido_doc_confirmation_zoom_button" = "Padidinti vaizdą";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "Peržiūrėkite vaizdo įrašą";
 "onfido_generic_back" = "atgal";
 "onfido_nfc_sheet_ready_subtitle" = "Parengta nuskaityti";
-"onfido_nfc_sheet_scanning_instruction" = "Laikykite telefoną nejudindami";
+"onfido_nfc_sheet_scanning_instruction" = "Laikykite telefoną ir pasą nejudindami";
 "onfido_nfc_sheet_success_subtitle" = "Nuskaitymas sėkmingas";
 "onfido_nfc_sheet_success_instruction_passport" = "Sėkmingai nuskaitėme jūsų pasą";
 "onfido_outro_body" = "Tai viskas, ko mums reikia, kad galėtume pradėti tikrinti jūsų tapatybę";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "Nepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_error_list_item" = "Nuimkite telefono dangtelį";
 "onfido_nfc_scan_error_list_item_2" = "Nuskaitymo metu laikykite nejudindami";
-"onfido_nfc_scan_error_button_primary" = "Bandyti nuskaityti dar kartą";
+"onfido_nfc_scan_error_button_primary" = "Pradėti nuskaitymą";
 "onfido_welcome_nfc_title" = "Patvirtinkite savo tapatybę";
 "onfido_welcome_nfc_subtitle" = "Tai turėtų užtrukti kelias minutes";
 "onfido_welcome_nfc_list_header_nfc" = "Naudodami savo įrenginį:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "Nuskanuokite savo dokumentą";
 "onfido_nfc_scan_welcome_card_subtitle" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente";
 "onfido_nfc_scan_welcome_card_list_item" = "Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Lėtai stumkite savo dokumentą žemyn ir aukštyn prieš savo telefoną, kad rastumėte lustą.";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 "onfido_nfc_scan_welcome_card_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Gauti patvirtinimą be NFC";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "Nepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_error_inter_list_item" = "Nuimkite telefono dangtelį";
 "onfido_nfc_scan_error_inter_list_item_2" = "Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas";
-"onfido_nfc_scan_error_inter_primary_button" = "Bandyti nuskaityti dar kartą";
+"onfido_nfc_scan_error_inter_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_inter_secondary_button" = "Gauti patvirtinimą be NFC";
 
 "onfido_nfc_scan_error_final_title" = "Nepavyko patikrinti šio dokumento";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "Nepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Nuimkite pasą ir telefono dangtelius";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "Bandyti nuskaityti dar kartą";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Gauti patvirtinimą be NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "Toliau";
@@ -664,24 +664,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.";
 "onfido_interactive_task_waiting_subtitle_2" = "Užduotis vis dar vykdoma, dėkojame už kantrybę.";
 "onfido_nfc_fail_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
-"onfido_nfc_fail_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
-"onfido_nfc_fail_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
-"onfido_nfc_fail_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
-"onfido_nfc_fail_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_fail_passport_button_primary" = "Pakartokite nuskaitymą";
+"onfido_nfc_fail_passport_list_item_1" = "Pabandykite nuimti dangtelį nuo savo paso arba dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.";
+"onfido_nfc_fail_passport_list_item_2" = "Uždarykite pasą ir padėkite jį ant lygaus paviršiaus priekinė puse į viršų.";
+"onfido_nfc_fail_passport_list_item_3" = "Pakelkite telefoną prie savo paso, kad jie liestųsi.";
+"onfido_nfc_fail_passport_list_item_4" = "Jums gali tekti lėtai stumkite telefoną žemyn ir aukštyn prie savo paso, kol surasite lustą.";
+"onfido_nfc_fail_passport_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Pabandykite nuimti dangtelį nuo savo paso arba dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės skenavimas";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Patvirtinkite be skenavimo";
 "onfido_nfc_scan_error_final_required_passport_title" = "Mes negalėjome nuskaityti šio dokumento";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Pašalinkite visas dangtis nuo savo dokumento ir įrenginio";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Pabandykite nuimti dangtelį nuo savo paso arba dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Išeiti iš patvirtinimo";
 "onfido_nfc_scan_error_document_title" = "Dokumentas nepalaikomas";
 "onfido_nfc_scan_error_document_subtitle" = "Prašome bandyti su kitu dokumentu";
@@ -696,25 +696,25 @@
 "onfido_nfc_scan_sheet_error_2" = "Mes negalėjome nuskaityti jūsų dokumento";
 "onfido_nfc_scan_sheet_button" = "Atšaukti";
 "onfido_nfc_scan_doc_selection_disclaimer" = "Mes priimame tik dokumentus su lustu. Ieškokite šios piktogramos savo dokumente";
-"onfido_nfc_fail_card_title" = "Mes negalėjome nuskaityti šio dokumento";
-"onfido_nfc_fail_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
-"onfido_nfc_fail_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
+"onfido_nfc_fail_card_title" = "Nepavyko nuskaityti lusto. Reikia pagalbos?";
+"onfido_nfc_fail_card_list_item_1" = "Pabandykite nuimti dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.";
+"onfido_nfc_fail_card_list_item_2" = "Padėkite savo dokumentą prie telefono galo, kad jie liestųsi.";
 "onfido_nfc_fail_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
 "onfido_nfc_fail_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_fail_card_button_primary" = "Pakartokite nuskaitymą";
+"onfido_nfc_fail_card_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_possible_card_title" = "Mes negalėjome nuskaityti šio dokumento";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Patikrinti be skenavimo";
 "onfido_nfc_scan_error_final_required_card_title" = "Mes negalėjome nuskaityti šio dokumento";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "Nuimkite visas dengtis nuo savo įrenginio";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "Pakartokite nuskaitymą";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "Išeiti iš patvirtinimo";
 "onfido_nfc_scan_sheet_card_ready" = "Lėtai slenkite savo dokumentą aukštyn ir žemyn";
 "onfido_nfc_scan_sheet_card_button" = "Atšaukti";
@@ -748,7 +748,7 @@
 "onfido_nfc_capture_scan_sheet" = "Padėkite telefono viršutinę pusę ant savo paso apatinės pusės.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Nuskaitoma...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Laikykite savo telefoną ir pasą nejudinant.";
-"onfido_nfc_capture_scan_doc_realign_body" = "Perkelti telefono viršų taip, kad jis liestų jūsų paso apačią.";
+"onfido_nfc_capture_scan_doc_realign_body" = "Pakoreguokite savo telefoną prie savo paso, kad rastumėte lustą.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Nepavyko nuskaityti lusto.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "Reikia pagalbos?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "Nuimkite visas dengtis nuo savo paso arba dėklus nuo savo telefono. Tai padeda išvengti trikdžių su lustu.";

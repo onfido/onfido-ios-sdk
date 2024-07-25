@@ -13,7 +13,7 @@
 
 - (IBAction)verifyUser:(id)sender {
     
-    // TODO Call your backend to get `sdkToken` https://github.com/onfido/onfido-ios-sdk#31-sdk-tokens
+    // TODO Call your backend to get `sdkToken` https://documentation.onfido.com/sdk/ios/#sdk-authentication
     NSString * sdkToken = @"SDK_TOKEN";
     
     ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
@@ -79,7 +79,7 @@
             [self presentViewController:alert animated:YES completion:nil];
         } else if (response.results.count > 0) {
             // SDK flow has been completed successfully. You may want to create a check in your backend at this point.
-            // Follow https://github.com/onfido/onfido-ios-sdk#2-creating-a-check to understand how to create a check
+            // Follow https://documentation.onfido.com/api/latest/#create-check to understand how to create a check
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Success" message:@"SDK flow has been completed successfully" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
             [alert addAction:action];
