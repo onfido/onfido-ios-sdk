@@ -186,9 +186,48 @@ When defining workflows and creating identity verifications, we highly recommend
 
 ### SDK authentication
 
-The SDK is authenticated using SDK tokens. Onfido Studio generates and exposes SDK tokens in the workflow run payload returned by the API when a workflow run is [created](https://documentation.onfido.com/#create-workflow-run).
+The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido iOS SDK.
+
+| Parameter        | Notes                                                                                                                                                                                                                                                   |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `applicant_id`   | **required** <br /> Specifies the applicant for the SDK instance.                                                                                                                                                                                       |
+| `application_id` | **required** <br /> The application ID (for iOS "application bundle ID") that was set up during development. For iOS, this is usually in the form `com.your-company.app-name`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
+
+For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/api/latest#generate-sdk-token).
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
+
+#### `withTokenExpirationHandler`
+
+It's important to note that SDK tokens expire after **90 minutes**.
+
+With this in mind, we recommend you use the optional `withTokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired.
+
+##### Swift
+
+```swift
+func getSDKToken(_ completion: @escaping (String) -> Void) {
+    // Your network request logic to retrieve SDK token goes here
+    completion(myNewSDKtoken)
+}
+
+let workflowConfiguration = WorkflowConfiguration(workflowRunId: "<WORKFLOW_RUN_ID>", sdkToken: "<YOUR_SDK_TOKEN>")
+workflowConfiguration.withTokenExpirationHandler(handler: getSDKToken)
+```
+
+##### Objective-C
+
+```objc
+-(void) getSDKTokenWithCompletion: (void(^)(NSString *))handler {
+   // <Your network request logic to retrieve SDK token goes here>
+   handler(sdkToken);
+}
+
+ONWorkflowConfiguration *workflowConfiguration = [[ONWorkflowConfiguration  alloc] initWithWorkflowRunId: @"<WORKFLOW_RUN_ID>"  sdkToken: @"<YOUR_SDK_TOKEN>"];
+[workflowConfiguration withTokenExpirationHandler: ^(void (^handler)(NSString *)) {
+    [self getSDKTokenWithCompletion:handler];
+}];
+```
 
 ### Build a configuration object
 
@@ -486,22 +525,9 @@ These flow step parameters are mutually exclusive with `workflowRunId`, requirin
 
 **Note** that this initialization process is **not recommended** as the majority of new features are exclusively released for Studio workflows.
 
-### Manual SDK authentication
-
-The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido iOS SDK.
-
-| Parameter        | Notes                                                                                                                                                                                                                                                   |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `applicant_id`   | **required** <br /> Specifies the applicant for the SDK instance.                                                                                                                                                                                       |
-| `application_id` | **required** <br /> The application ID (for iOS "application bundle ID") that was set up during development. For iOS, this is usually in the form `com.your-company.app-name`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
-
-For details on how to manually generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
-
-**Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
-
 ### Managing SDK Token Expiry with `expireHandler`
 
-When [manually generating SDK tokens](#sdk-authentication), it's important to note that they expire after 90 minutes.
+When [generating SDK tokens](#sdk-authentication), it's important to note that they expire after 90 minutes.
 
 With this in mind, we recommend you use the optional `expireHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired.
 

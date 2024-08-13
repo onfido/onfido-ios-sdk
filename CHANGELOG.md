@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [30.4.1] - 2024-08-12
+
+### Fixed
+
+- Fixed regression introduced in 30.3.0 where Motion would always request microphone permission even if not configured to record audio
+
 ## [30.4.0] - 2024-07-18
 
 ### Added
