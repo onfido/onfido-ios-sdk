@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "שימוש בכרטיס NFC";
 "onfido_nfc_select_button_secondary_card" = "זה לא כרטיס NFC";
 
-"onfido_nfc_intro_title_passport" = "סרוק את שבב הדרכון שלך";
+"onfido_nfc_intro_title_passport" = "סרוק את הדרכון שלך";
 "onfido_nfc_intro_subtitle_passport" = "השתמש בטלפון שלך כדי לסרוק את השבב בדרכון שלך";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "הניחו את הדרכון שלכם פתוח על משטח שטוח";
-"onfido_nfc_intro_passport_scan_guide_2" = "מקם את הטלפון שלך על הדרכון שלך. כדי לאתר את השבב, ייתכן שתצטרך להחליק את הטלפון שלך למעלה ולמטה על הדרכון שלך.";
-"onfido_nfc_intro_passport_scan_guide_3" = "לאחר שהשבב מזוהה, ודא שהטלפון והדרכון נשארים במקום.";
+"onfido_nfc_intro_passport_scan_guide_2" = "הניחו את הטלפון שלכם ישירות על הדרכון שלכם כך שהם מגעים";
+"onfido_nfc_intro_passport_scan_guide_3" = "החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה";
 "onfido_nfc_intro_passport_scan_guide_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
 
 "onfido_nfc_intro_button_primary_passport" = "התחל בסריקה";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון שלך נגד הדרכון שלך. ייתכן שתצטרך להחליק את הטלפון שלך לאט נגד הדרכון שלך.";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון ליד החלק האמצעי של הדרכון";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "מתבצעת סריקה...";
 
 "onfido_nfc_intro_title_card" = "סריקת כרטיס NFC";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "הסר את הכיסויים מהדרכון ומהטלפון";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "ודא שהטלפון והדרכון נשארים מחוברים עד שהסריקה תושלם בהצלחה";
-"onfido_nfc_fail_button_primary_passport" = "התחל סריקה";
+"onfido_nfc_fail_button_primary_passport" = "נסה לבצע סריקה חוזרת";
 "onfido_nfc_fail_button_secondary_passport" = "אימות ללא סריקה";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "הסר את כיסוי הטלפון";
 "onfido_nfc_fail_list_item_keep_contact_card" = "ודא שהטלפון והכרטיס נשארים מחוברים עד שהסריקה תסתיים";
-"onfido_nfc_fail_button_primary_card" = "התחל סריקה";
+"onfido_nfc_fail_button_primary_card" = "נסה לבצע סריקה חוזרת";
 "onfido_nfc_fail_button_secondary_card" = "אימות ללא סריקה";
 
 "onfido_doc_confirmation_zoom_button" = "הגדל תמונה";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "בדוק את הסרטון שלך";
 "onfido_generic_back" = "חזור";
 "onfido_nfc_sheet_ready_subtitle" = "מוכן לסרוק";
-"onfido_nfc_sheet_scanning_instruction" = "אל תזיז את הטלפון והדרכון שלך";
+"onfido_nfc_sheet_scanning_instruction" = "אל תזיז את הטלפון שלך";
 "onfido_nfc_sheet_success_subtitle" = "הסריקה הסתיימה בהצלחה";
 "onfido_nfc_sheet_success_instruction_passport" = "סרקנו בהצלחה את הדרכון שלך";
 "onfido_outro_body" = "זה כל מה שאנחנו צריכים כדי להתחיל לאמת את זהותך";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "לא הצלחנו לסרוק את המסמך";
 "onfido_nfc_scan_error_list_item" = "הסר את כיסוי הטלפון";
 "onfido_nfc_scan_error_list_item_2" = "ברגע שהסריקה מתחילה, אל תזוז";
-"onfido_nfc_scan_error_button_primary" = "התחל סריקה";
+"onfido_nfc_scan_error_button_primary" = "נסה לבצע סריקה חוזרת";
 "onfido_welcome_nfc_title" = "אמת את זהותך";
 "onfido_welcome_nfc_subtitle" = "תהליך זה אמור לקחת כמה דקות";
 "onfido_welcome_nfc_list_header_nfc" = "השתמש במכשיר שלך כדי:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "סרוק את המסמך שלך";
 "onfido_nfc_scan_welcome_card_subtitle" = "השתמש בטלפון שלך כדי לסרוק את השבב במסמך שלך";
 "onfido_nfc_scan_welcome_card_list_item" = "הניחו את המסמך שלכם על גב המכשיר שלכם כך שהם מגעים";
-"onfido_nfc_scan_welcome_card_list_item_2" = "החלק את המסמך שלך למטה ולמעלה מול הטלפון שלך באופן איטי כדי לאתר את השבב.";
+"onfido_nfc_scan_welcome_card_list_item_2" = "הזז לאט את המסמך שלך למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה";
 "onfido_nfc_scan_welcome_card_list_item_3" = "לאחר שהסריקה מתחילה, המשך להחזיק במקום כדי שהסריקה תוכל להסתיים";
 "onfido_nfc_scan_welcome_card_button_primary" = "התחל בסריקה";
 "onfido_nfc_scan_welcome_card_secondary_button" = "אימות ללא NFC";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "לא הצלחנו לסרוק את המסמך";
 "onfido_nfc_scan_error_inter_list_item" = "הסר את כיסוי הטלפון";
 "onfido_nfc_scan_error_inter_list_item_2" = "שמור את המכשיר והמסמך שלך בקשר עד שהסריקה תצליח";
-"onfido_nfc_scan_error_inter_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_inter_primary_button" = "נסה לבצע סריקה חוזרת";
 "onfido_nfc_scan_error_inter_secondary_button" = "אימות ללא NFC";
 
 "onfido_nfc_scan_error_final_title" = "לא הצלחנו לאמת את המסמך הזה";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "לא הצלחנו לסרוק את המסמך";
 "onfido_nfc_scan_error_inter_passport_list_item" = "הסר את הכיסויים מהדרכון ומהטלפון";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "שמור את המכשיר והמסמך שלך בקשר עד שהסריקה תצליח";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "נסה לבצע סריקה חוזרת";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "אימות ללא NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "זוז אחורה";
@@ -665,24 +665,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "אנא המתן עוד מעט עד שהתהליך יסתיים, אנו מעריכים את סבלנותך.";
 "onfido_interactive_task_waiting_subtitle_2" = "המשימה עדיין בתהליך, אנו מעריכים את סבלנותך.";
 "onfido_nfc_fail_passport_title" = "לא הצלחנו לסרוק את המסמך הזה";
-"onfido_nfc_fail_passport_list_item_1" = "נסה להסיר את הכיסוי מהדרכון שלך או את המקרה מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.";
-"onfido_nfc_fail_passport_list_item_2" = "סגור את הדרכון שלך והנח אותו על משטח שטוח עם הצד הקדמי למעלה.";
-"onfido_nfc_fail_passport_list_item_3" = "מקם את הטלפון שלך נגד הדרכון שלך, כך שהם מגעים.";
-"onfido_nfc_fail_passport_list_item_4" = "ייתכן שתצטרך להחליק את הטלפון שלך למטה ולמעלה באופן איטי על הדרכון שלך עד שתמצא את השבב.";
-"onfido_nfc_fail_passport_button_primary" = "התחל סריקה";
+"onfido_nfc_fail_passport_list_item_1" = "הסר כל כיסוי מהמסמך והמכשיר שלך";
+"onfido_nfc_fail_passport_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
+"onfido_nfc_fail_passport_list_item_3" = "החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה";
+"onfido_nfc_fail_passport_list_item_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
+"onfido_nfc_fail_passport_button_primary" = "נסה שוב לסרוק";
 "onfido_nfc_scan_error_final_possible_passport_title" = "לא הצלחנו לסרוק את המסמך הזה";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "נסה להסיר את הכיסוי מהדרכון שלך או את המקרה מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "הסר כל כיסוי מהמסמך והמכשיר שלך";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "נסה שוב לסרוק";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "אמת ללא סריקה";
 "onfido_nfc_scan_error_final_required_passport_title" = "לא הצלחנו לסרוק את המסמך הזה";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "נסה להסיר את הכיסוי מהדרכון שלך או את המקרה מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "הסר כל כיסוי מהמסמך והמכשיר שלך";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "נסה לסרוק שוב";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "אימות יציאה";
 "onfido_nfc_scan_error_document_title" = "מסמך לא נתמך";
 "onfido_nfc_scan_error_document_subtitle" = "נסה בבקשה עם מסמך אחר";
@@ -697,25 +697,25 @@
 "onfido_nfc_scan_sheet_error_2" = "לא הצלחנו לסרוק את המסמך שלך";
 "onfido_nfc_scan_sheet_button" = "ביטול";
 "onfido_nfc_scan_doc_selection_disclaimer" = "אנו מקבלים רק מסמכים עם שבב. חפש את הסמל הזה על המסמך שלך";
-"onfido_nfc_fail_card_title" = "לא ניתן לסרוק את השבב. צריך עזרה?";
-"onfido_nfc_fail_card_list_item_1" = "נסה להסיר את המסגרת מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.";
-"onfido_nfc_fail_card_list_item_2" = "הנח את המסמך שלך על גב הטלפון שלך, כך שהם מגעים.";
+"onfido_nfc_fail_card_title" = "לא הצלחנו לסרוק את המסמך הזה";
+"onfido_nfc_fail_card_list_item_1" = "הסר כל כיסוי מהמכשיר שלך";
+"onfido_nfc_fail_card_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
 "onfido_nfc_fail_card_list_item_3" = "הזז לאט את המסמך שלך למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה";
 "onfido_nfc_fail_card_list_item_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-"onfido_nfc_fail_card_button_primary" = "התחל סריקה";
+"onfido_nfc_fail_card_button_primary" = "נסה לסרוק שוב";
 "onfido_nfc_scan_error_final_possible_card_title" = "לא הצלחנו לסרוק את המסמך הזה";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "הסר כל כיסוי מהמכשיר שלך";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "החליקו לאט את המסמך שלכם למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "נסה שוב לסרוק";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "אמת ללא סריקה";
 "onfido_nfc_scan_error_final_required_card_title" = "לא הצלחנו לסרוק את המסמך הזה";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "הסר כל כיסוי מהמכשיר שלך";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "הזז לאט את המסמך שלך למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "לאחר שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "התחל סריקה";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "נסה לסרוק שוב";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "אימות יציאה";
 "onfido_nfc_scan_sheet_card_ready" = "החליקו לאט את המסמך שלכם למעלה ולמטה";
 "onfido_nfc_scan_sheet_card_button" = "ביטול";
@@ -742,14 +742,14 @@
 "onfido_generic_close_sdk_cancel" = "ביטול";
 "onfido_nfc_scan_doc_realign_title" = "סריקה הופסקה";
 "onfido_nfc_scan_doc_realign_body" = "ממקם מחדש את המסמך שלך לעומת המכשיר שלך";
-"onfido_nfc_capture_scan_intro_title_passport_new" = "סרוק את שבב הדרכון שלך";
+"onfido_nfc_capture_scan_intro_title_passport_new" = "סרוק את השבב בדרכון שלך";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "סגור את הדרכון שלך והניח אותו על משטח שטוח עם הצד הקדמי למעלה.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "הניחו את חצי העליון של הטלפון שלכם במגע עם חצי התחתון של הדרכון שלכם כדי לסרוק את השבב.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "לאחר שהסריקה מתחילה, השאר את הטלפון והדרכון שלך במקום.";
 "onfido_nfc_capture_scan_sheet" = "הניחו את החצי העליון של הטלפון שלכם במגע עם החצי התחתון של הדרכון שלכם.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "מתבצעת סריקה...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "השאירו את הטלפון והדרכון שלכם במקום.";
-"onfido_nfc_capture_scan_doc_realign_body" = "מקמו מחדש את הטלפון שלכם על הדרכון שלכם כדי לאתר את השבב.";
+"onfido_nfc_capture_scan_doc_realign_body" = "הסיבו את חלקו העליון של הטלפון שלכם כך שיהיה במגע עם החלק התחתון של הדרכון שלכם.";
 "onfido_nfc_capture_scan_fail_title_passport" = "לא מצליח לסרוק את השבב.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "צריך עזרה?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "הסירו כל מסגרות מהדרכון שלכם או מספריות מהטלפון שלכם. זה כדי למנוע התנגשויות עם השבב.";

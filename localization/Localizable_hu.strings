@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "Használjon NFC-kártyát";
 "onfido_nfc_select_button_secondary_card" = "Ez nem egy NFC-kártya";
 
-"onfido_nfc_intro_title_passport" = "Olvassa le az útlevelének chipjét";
+"onfido_nfc_intro_title_passport" = "Szkennelje be az útlevelét";
 "onfido_nfc_intro_subtitle_passport" = "Használja a telefonját az útlevelében található chip beolvasásához";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Helyezze le nyitott útlevelét egy sík felületre";
-"onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját az útlevelére. A chip megtalálásához lehet, hogy fel-le kell csúsztatnia a telefonját az útlevelén.";
-"onfido_nfc_intro_passport_scan_guide_3" = "Amint a chipet felismeri, tartsa mozdulatlanul a telefonját és az útlevelét.";
+"onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját közvetlenül az útlevelére, úgy hogy érintkezzenek";
+"onfido_nfc_intro_passport_scan_guide_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
 "onfido_nfc_intro_passport_scan_guide_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 
 "onfido_nfc_intro_button_primary_passport" = "Szkennelés indítása";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Helyezze a telefonját az útleveléhez. Lehet, hogy lassan kell végighúznia a telefonját az útlevelén.";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Helyezze a telefonját útlevele középső része közelébe";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Beolvasás…";
 
 "onfido_nfc_intro_title_card" = "NFC-kártya beolvasása";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Távolítsa el az útlevél- és telefonborítót";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "A beolvasás végéig tartsa a telefont az útlevél felett";
-"onfido_nfc_fail_button_primary_passport" = "Beolvasás indítása";
+"onfido_nfc_fail_button_primary_passport" = "A beolvasás megismétlése";
 "onfido_nfc_fail_button_secondary_passport" = "Igazolja személyazonosságát beolvasás nélkül";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "Távolítsa el a telefon tokját";
 "onfido_nfc_fail_list_item_keep_contact_card" = "A beolvasás végéig tartsa egymáson a telefont és a kártyát";
-"onfido_nfc_fail_button_primary_card" = "Beolvasás indítása";
+"onfido_nfc_fail_button_primary_card" = "A beolvasás megismétlése";
 "onfido_nfc_fail_button_secondary_card" = "Igazolja személyazonosságát beolvasás nélkül";
 
 "onfido_doc_confirmation_zoom_button" = "Kép nagyítása";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "Ellenőrizze a videóját";
 "onfido_generic_back" = "vissza";
 "onfido_nfc_sheet_ready_subtitle" = "Szkennelésre kész";
-"onfido_nfc_sheet_scanning_instruction" = "Tartsa a telefonját és útlevelét egy helyben";
+"onfido_nfc_sheet_scanning_instruction" = "Tartsa a telefonját egy helyben";
 "onfido_nfc_sheet_success_subtitle" = "Sikeres beolvasás";
 "onfido_nfc_sheet_success_instruction_passport" = "Sikeresen beolvastuk az útlevelét";
 "onfido_outro_body" = "Ez minden, amire szükségünk van személyazonossága ellenőrzésének megkezdéséhez";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "Nem tudtuk beolvasni a dokumentumát";
 "onfido_nfc_scan_error_list_item" = "Távolítsa el a telefon tokját";
 "onfido_nfc_scan_error_list_item_2" = "Miután a szkennelés elkezdődött, tartsa mozdulatlanul";
-"onfido_nfc_scan_error_button_primary" = "Beolvasás indítása";
+"onfido_nfc_scan_error_button_primary" = "A beolvasás megismétlése";
 "onfido_welcome_nfc_title" = "Igazolja személyazonosságát";
 "onfido_welcome_nfc_subtitle" = "Pár percet vesz igénybe";
 "onfido_welcome_nfc_list_header_nfc" = "Használja eszközét a következőkhöz:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "Scannelje be a dokumentumát";
 "onfido_nfc_scan_welcome_card_subtitle" = "Használja a telefonját a dokumentumában lévő chip beolvasásához";
 "onfido_nfc_scan_welcome_card_list_item" = "Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Lassan csúsztassa az okmányát le és fel a telefonja előtt, hogy megtalálja a chipet.";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
 "onfido_nfc_scan_welcome_card_button_primary" = "Szkennelés indítása";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Ellenőrzés NFC nélkül";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "Nem tudtuk beolvasni a dokumentumát";
 "onfido_nfc_scan_error_inter_list_item" = "Távolítsa el a telefon tokját";
 "onfido_nfc_scan_error_inter_list_item_2" = "A beolvasás végéig tartsa egymáson a telefont és a dokumentumot";
-"onfido_nfc_scan_error_inter_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_inter_primary_button" = "A beolvasás megismétlése";
 "onfido_nfc_scan_error_inter_secondary_button" = "Ellenőrzés NFC nélkül";
 
 "onfido_nfc_scan_error_final_title" = "Nem tudtuk ellenőrizni dokumentumát";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "Nem tudtuk beolvasni a dokumentumát";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Távolítsa el az útlevél- és telefonborítót";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "A beolvasás végéig tartsa egymáson a telefont és a dokumentumot";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "A beolvasás megismétlése";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Ellenőrzés NFC nélkül";
 
 "onfido_doc_capture_alert_too_close_title" = "Távolodjon";
@@ -664,24 +664,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Kérjük, várjon még egy kicsit, amíg a folyamat befejeződik, értékeljük a türelmét.";
 "onfido_interactive_task_waiting_subtitle_2" = "A feladat még mindig fut, türelmét köszönjük.";
 "onfido_nfc_fail_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
-"onfido_nfc_fail_passport_list_item_1" = "Próbálja meg eltávolítani az útlevelének a borítóját vagy a telefonjának a tokját. Ez azért szükséges, hogy elkerülje a chip zavarását.";
-"onfido_nfc_fail_passport_list_item_2" = "Csukja be az útlevelét és helyezze azt egy sima felületre az előlapjával felfelé.";
-"onfido_nfc_fail_passport_list_item_3" = "Helyezze a telefonját az útlevelére, úgy hogy érintkezzenek.";
-"onfido_nfc_fail_passport_list_item_4" = "Lehet, hogy lassan csúsztatnia kell a telefont le és fel az útlevélén, amíg megtalálja a chipet.";
-"onfido_nfc_fail_passport_button_primary" = "Beolvasás indítása";
+"onfido_nfc_fail_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
+"onfido_nfc_fail_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
+"onfido_nfc_fail_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
+"onfido_nfc_fail_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
+"onfido_nfc_fail_passport_button_primary" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Próbálja meg eltávolítani az útlevelének a borítóját vagy a telefonjának a tokját. Ez azért szükséges, hogy elkerülje a chip zavarását.";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Ellenőrizze beolvasás nélkül";
 "onfido_nfc_scan_error_final_required_passport_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Próbálja meg eltávolítani az útlevelének a borítóját vagy a telefonjának a tokját. Ez azért szükséges, hogy elkerülje a chip zavarását.";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Távolítsa el minden borítót a dokumentumáról és az eszközéről";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Lassan húzza át a telefonját mindkét oldalon, amíg el nem indul a szkennelés";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlan, hogy a szkennelés befejeződhessen";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_error_document_title" = "Dokumentum nem támogatott";
 "onfido_nfc_scan_error_document_subtitle" = "Kérjük, próbálkozzon egy másik dokumentummal";
@@ -696,25 +696,25 @@
 "onfido_nfc_scan_sheet_error_2" = "Nem tudtuk beolvasni a dokumentumát";
 "onfido_nfc_scan_sheet_button" = "Mégse";
 "onfido_nfc_scan_doc_selection_disclaimer" = "Csak chippel rendelkező dokumentumokat fogadunk el. Keressen erre az ikonra a dokumentumán";
-"onfido_nfc_fail_card_title" = "Nem sikerült a chip beolvasása. Segítségre van szüksége?";
-"onfido_nfc_fail_card_list_item_1" = "Próbálja meg eltávolítani a tokot a telefonjáról. Ez azért szükséges, hogy elkerülje a chip zavarását.";
-"onfido_nfc_fail_card_list_item_2" = "Illessze a dokumentumát a telefonja hátuljához, úgy, hogy érintkezzenek.";
+"onfido_nfc_fail_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
+"onfido_nfc_fail_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
+"onfido_nfc_fail_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
 "onfido_nfc_fail_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
 "onfido_nfc_fail_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
-"onfido_nfc_fail_card_button_primary" = "Beolvasás indítása";
+"onfido_nfc_fail_card_button_primary" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_possible_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a szkennelés el nem kezdődik";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Ellenőrizze beolvasás nélkül";
 "onfido_nfc_scan_error_final_required_card_title" = "Nem tudtuk beolvasni ezt a dokumentumot";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "Távolítsa el minden borítást az eszközéről";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "Tartsa az eszközt és a dokumentumot érintkezésben, amíg a beolvasás sikeres nem lesz";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "Beolvasás indítása";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Próbálja újra a beolvasást";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "Azonosítás megszakítása";
 "onfido_nfc_scan_sheet_card_ready" = "Lassan csúsztassa fel és le a dokumentumot";
 "onfido_nfc_scan_sheet_card_button" = "Mégse";
@@ -741,14 +741,14 @@
 "onfido_generic_close_sdk_cancel" = "Mégse";
 "onfido_nfc_scan_doc_realign_title" = "Szkennelés megszakítva";
 "onfido_nfc_scan_doc_realign_body" = "Helyezze újra az okmányát az eszközéhez képest";
-"onfido_nfc_capture_scan_intro_title_passport_new" = "Olvasd le az útleveled chipjét";
+"onfido_nfc_capture_scan_intro_title_passport_new" = "Olvasd be az útleveledben lévő chipet";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Csukja be az útlevelét és helyezze azt egy sík felületre az előlap felfelé.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Helyezze a telefonja felső felét a útlevelének alsó feléhez, hogy beolvassa a chipet.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Amint a szkennelés elindul, tartsa nyugodtan a telefonját és útlevelét.";
 "onfido_nfc_capture_scan_sheet" = "Helyezze a telefonja felső felét a útlevelének alsó feléhez.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Beolvasás…";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Tartsa nyugton a telefonját és az útlevelét.";
-"onfido_nfc_capture_scan_doc_realign_body" = "Helyezze újra a telefonját az útleveléhez, hogy megtalálja a chipet.";
+"onfido_nfc_capture_scan_doc_realign_body" = "Helyezze újra a telefonja tetejét úgy, hogy az érintkezzen az útlevél aljával.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Nem sikerült beolvasni a chipet.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "Szüksége van segítségre?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "Távolítsa el a borítókat az útleveléről vagy a tokokat a telefonjáról. Ez azért szükséges, hogy elkerüljük a chip zavarását.";

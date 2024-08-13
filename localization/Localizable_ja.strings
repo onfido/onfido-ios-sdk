@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "NFCカードを使う";
 "onfido_nfc_select_button_secondary_card" = "NFCカードではありません";
 
-"onfido_nfc_intro_title_passport" = "パスポートのチップをスキャンします";
+"onfido_nfc_intro_title_passport" = "パスポートをスキャンしてください";
 "onfido_nfc_intro_subtitle_passport" = "パスポート内のチップをスキャンするために電話を使用してください";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "パスポートを開いて平らな面に置いてください";
-"onfido_nfc_intro_passport_scan_guide_2" = "パスポートにスマートフォンを当ててください。チップを見つけるためには、パスポートに対してスマートフォンを上下にスライドさせる必要があるかもしれません。";
-"onfido_nfc_intro_passport_scan_guide_3" = "チップが検出されたら、スマートフォンとパスポートを静止させてください。";
+"onfido_nfc_intro_passport_scan_guide_2" = "パスポートの上に直接電話を置いて、触れるようにしてください";
+"onfido_nfc_intro_passport_scan_guide_3" = "スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください";
 "onfido_nfc_intro_passport_scan_guide_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
 
 "onfido_nfc_intro_button_primary_passport" = "スキャンを開始する";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "パスポートに対してスマートフォンを置いてください。パスポートに対してスマートフォンをゆっくりとスライドさせる必要があるかもしれません。";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "パスポートの中心付近にスマートフォンを置いてください";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "スキャンしています...";
 
 "onfido_nfc_intro_title_card" = "NFCカードをスキャンしてください";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "パスポートとスマートフォンのカバーを取り外す";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "スキャンが成功するまで、スマートフォンとパスポートの接触を維持してください";
-"onfido_nfc_fail_button_primary_passport" = "スキャンを開始";
+"onfido_nfc_fail_button_primary_passport" = "スキャンを再試行する";
 "onfido_nfc_fail_button_secondary_passport" = "スキャンなしで認証を受ける";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "スマートフォンのカバーを取り外してください";
 "onfido_nfc_fail_list_item_keep_contact_card" = "スキャンが成功するまで、スマートフォンとカードの接触を維持してください";
-"onfido_nfc_fail_button_primary_card" = "スキャンを開始";
+"onfido_nfc_fail_button_primary_card" = "スキャンを再試行する";
 "onfido_nfc_fail_button_secondary_card" = "スキャンなしで認証を受ける";
 
 "onfido_doc_confirmation_zoom_button" = "画像を拡大";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "動画を確認する";
 "onfido_generic_back" = "戻る";
 "onfido_nfc_sheet_ready_subtitle" = "スキャンの準備ができました";
-"onfido_nfc_sheet_scanning_instruction" = "スマートフォンとパスポートを動かさないでください";
+"onfido_nfc_sheet_scanning_instruction" = "スマートフォンを動かさないでください";
 "onfido_nfc_sheet_success_subtitle" = "スキャンに成功しました";
 "onfido_nfc_sheet_success_instruction_passport" = "パスポートのスキャンに成功しました";
 "onfido_outro_body" = "本人確認を開始するために必要なお手続きは以上です";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "ドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_error_list_item" = "スマートフォンのカバーを取り外してください";
 "onfido_nfc_scan_error_list_item_2" = "スキャンが開始されたら、動かさないでください";
-"onfido_nfc_scan_error_button_primary" = "スキャンを開始";
+"onfido_nfc_scan_error_button_primary" = "スキャンを再試行する";
 "onfido_welcome_nfc_title" = "本人確認を行う";
 "onfido_welcome_nfc_subtitle" = "数分かかります";
 "onfido_welcome_nfc_list_header_nfc" = "デバイスを使用して次のことを行います。";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "あなたのドキュメントをスキャンする";
 "onfido_nfc_scan_welcome_card_subtitle" = "あなたの電話を使って、ドキュメント内のチップをスキャンしてください";
 "onfido_nfc_scan_welcome_card_list_item" = "あなたのドキュメントをあなたのデバイスの背面に置いて、それらが触れるようにしてください";
-"onfido_nfc_scan_welcome_card_list_item_2" = "チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。";
+"onfido_nfc_scan_welcome_card_list_item_2" = "スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください";
 "onfido_nfc_scan_welcome_card_list_item_3" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
 "onfido_nfc_scan_welcome_card_button_primary" = "スキャンを開始する";
 "onfido_nfc_scan_welcome_card_secondary_button" = "NFCなしで認証を受ける";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "ドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_error_inter_list_item" = "スマートフォンのカバーを取り外してください";
 "onfido_nfc_scan_error_inter_list_item_2" = "スキャンが成功するまで、デバイスとドキュメントを接触させたままにしてください";
-"onfido_nfc_scan_error_inter_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_inter_primary_button" = "スキャンを再試行する";
 "onfido_nfc_scan_error_inter_secondary_button" = "NFCなしで認証を受ける";
 
 "onfido_nfc_scan_error_final_title" = "この文書を確認できませんでした";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "ドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_error_inter_passport_list_item" = "パスポートとスマートフォンのカバーを取り外す";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "スキャンが成功するまで、デバイスとドキュメントを接触させたままにしてください";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "スキャンを再試行する";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "NFCなしで認証を受ける";
 
 "onfido_doc_capture_alert_too_close_title" = "後ろへ下がってください";
@@ -665,24 +665,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。";
 "onfido_interactive_task_waiting_subtitle_2" = "タスクはまだ実行中です、お待ちいただきありがとうございます。";
 "onfido_nfc_fail_passport_title" = "このドキュメントをスキャンできませんでした";
-"onfido_nfc_fail_passport_list_item_1" = "パスポートのカバーや携帯電話のケースを取り外してみてください。これはチップの干渉を避けるためです。";
-"onfido_nfc_fail_passport_list_item_2" = "パスポートを閉じて、表面が上になるように平らな面に置いてください。";
-"onfido_nfc_fail_passport_list_item_3" = "スマートフォンをパスポートに対して置き、触れるようにしてください。";
-"onfido_nfc_fail_passport_list_item_4" = "パスポートに対してチップを見つけるまで、スマートフォンをゆっくりと上下にスライドさせる必要があるかもしれません。";
-"onfido_nfc_fail_passport_button_primary" = "スキャンを開始";
+"onfido_nfc_fail_passport_list_item_1" = "あなたのドキュメントとデバイスからすべてのカバーを取り除いてください";
+"onfido_nfc_fail_passport_list_item_2" = "スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください";
+"onfido_nfc_fail_passport_list_item_3" = "スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください";
+"onfido_nfc_fail_passport_list_item_4" = "スキャンが開始されたら、スキャンが完了するまで静止してください";
+"onfido_nfc_fail_passport_button_primary" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_possible_passport_title" = "このドキュメントをスキャンできませんでした";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "パスポートのカバーや携帯電話のケースを取り外してみてください。これはチップの干渉を避けるためです。";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "あなたのドキュメントとデバイスからすべてのカバーを取り除いてください";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "スキャンせずに確認する";
 "onfido_nfc_scan_error_final_required_passport_title" = "このドキュメントをスキャンできませんでした";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "パスポートのカバーや携帯電話のケースを取り外してみてください。これはチップの干渉を避けるためです。";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "あなたのドキュメントとデバイスからすべてのカバーを取り除いてください";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "退出確認";
 "onfido_nfc_scan_error_document_title" = "サポートされていないドキュメント";
 "onfido_nfc_scan_error_document_subtitle" = "別のドキュメントで試してください";
@@ -697,25 +697,25 @@
 "onfido_nfc_scan_sheet_error_2" = "あなたのドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_sheet_button" = "キャンセル";
 "onfido_nfc_scan_doc_selection_disclaimer" = "私たちはチップ付きの文書のみを受け付けます。あなたの文書にこのアイコンを探してください";
-"onfido_nfc_fail_card_title" = "チップをスキャンできません。ヘルプが必要ですか？";
-"onfido_nfc_fail_card_list_item_1" = "スマートフォンのケースを取り外してみてください。これはチップの干渉を避けるためです。";
-"onfido_nfc_fail_card_list_item_2" = "ドキュメントを電話の背面に押し当てて、触れるように置きます。";
+"onfido_nfc_fail_card_title" = "このドキュメントをスキャンできませんでした";
+"onfido_nfc_fail_card_list_item_1" = "デバイスからすべてのカバーを取り外します";
+"onfido_nfc_fail_card_list_item_2" = "スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください";
 "onfido_nfc_fail_card_list_item_3" = "スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください";
 "onfido_nfc_fail_card_list_item_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
-"onfido_nfc_fail_card_button_primary" = "スキャンを開始";
+"onfido_nfc_fail_card_button_primary" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_possible_card_title" = "このドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "デバイスからすべてのカバーを取り外します";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "スキャンせずに確認する";
 "onfido_nfc_scan_error_final_required_card_title" = "このドキュメントをスキャンできませんでした";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "デバイスからすべてのカバーを取り外します";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "スキャンが成功するまで、デバイスとドキュメントを接触させておいてください";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "スキャンが開始されたら、スキャンが完了するまで静止してください";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "スキャンを開始";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "スキャンを再試行";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "退出確認";
 "onfido_nfc_scan_sheet_card_ready" = "ゆっくりとあなたのドキュメントを上下にスライドさせてください";
 "onfido_nfc_scan_sheet_card_button" = "キャンセル";
@@ -742,14 +742,14 @@
 "onfido_generic_close_sdk_cancel" = "キャンセル";
 "onfido_nfc_scan_doc_realign_title" = "スキャンが中断されました";
 "onfido_nfc_scan_doc_realign_body" = "あなたの書類をあなたのデバイスに対して再配置してください";
-"onfido_nfc_capture_scan_intro_title_passport_new" = "パスポートのチップをスキャンします";
+"onfido_nfc_capture_scan_intro_title_passport_new" = "パスポート内のチップをスキャンしてください";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "パスポートを閉じて、表面が上になるように平らな面に置いてください。";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "電話の上半分をパスポートの下半分に接触させて、チップをスキャンします。";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "スキャンが開始されたら、携帯電話とパスポートを静止させてください。";
 "onfido_nfc_capture_scan_sheet" = "携帯電話の上半分をパスポートの下半分に接触させてください。";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "スキャンしています...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "あなたの携帯電話とパスポートを静かに保管してください。";
-"onfido_nfc_capture_scan_doc_realign_body" = "チップを見つけるために、パスポートに対して電話を再配置してください。";
+"onfido_nfc_capture_scan_doc_realign_body" = "電話の上部をパスポートの下部に接触させて位置を調整してください。";
 "onfido_nfc_capture_scan_fail_title_passport" = "チップをスキャンできません。";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "ヘルプが必要ですか？";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "パスポートのカバーや携帯電話のケースを取り外してください。これは、チップの干渉を避けるためです。";

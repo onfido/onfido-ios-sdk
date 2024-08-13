@@ -207,17 +207,17 @@
 "onfido_nfc_select_button_primary_card" = "Gunakan kartu NFC";
 "onfido_nfc_select_button_secondary_card" = "Ini bukan kartu NFC";
 
-"onfido_nfc_intro_title_passport" = "Pindai chip paspor Anda";
+"onfido_nfc_intro_title_passport" = "Pindai paspor Anda";
 "onfido_nfc_intro_subtitle_passport" = "Gunakan ponsel Anda untuk memindai chip di paspor Anda";
 
 "onfido_nfc_intro_passport_scan_guide_1" = "Letakkan paspor Anda dalam keadaan terbuka di atas permukaan yang datar";
-"onfido_nfc_intro_passport_scan_guide_2" = "Tempatkan ponsel Anda di atas paspor Anda. Untuk menemukan chip, Anda mungkin perlu menggeser ponsel Anda ke atas dan ke bawah di atas paspor Anda.";
-"onfido_nfc_intro_passport_scan_guide_3" = "Setelah chip terdeteksi, jaga agar ponsel dan paspor Anda tetap diam.";
+"onfido_nfc_intro_passport_scan_guide_2" = "Letakkan ponsel Anda langsung di atas paspor Anda sehingga mereka saling menyentuh";
+"onfido_nfc_intro_passport_scan_guide_3" = "Secara perlahan geser ponsel Anda melintasi kedua halaman sampai pemindaian dimulai";
 "onfido_nfc_intro_passport_scan_guide_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
 
 "onfido_nfc_intro_button_primary_passport" = "Mulai memindai";
 
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Tempatkan ponsel Anda di bagian atas paspor Anda. Anda mungkin perlu menggeser ponsel Anda perlahan-lahan di bagian atas paspor Anda.";
+"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Tempatkan ponsel Anda di dekat bagian tengah paspor Anda";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Memindai...";
 
 "onfido_nfc_intro_title_card" = "Pindai kartu NFC Anda";
@@ -237,12 +237,12 @@
 
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Lepaskan sampul paspor dan pelindung ponsel Anda";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Jaga agar ponsel dan paspor Anda tetap dalam kontak hingga pemindaian berhasil";
-"onfido_nfc_fail_button_primary_passport" = "Mulai pemindaian";
+"onfido_nfc_fail_button_primary_passport" = "Coba memindai lagi";
 "onfido_nfc_fail_button_secondary_passport" = "Dapatkan verifikasi tanpa pemindaian";
 
 "onfido_nfc_fail_list_item_remove_cover_card" = "Lepaskan pelindung ponsel Anda";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Jaga agar ponsel dan kartu tetap dalam kontak hingga pemindaian berhasil";
-"onfido_nfc_fail_button_primary_card" = "Mulai pemindaian";
+"onfido_nfc_fail_button_primary_card" = "Coba memindai lagi";
 "onfido_nfc_fail_button_secondary_card" = "Dapatkan verifikasi tanpa pemindaian";
 
 "onfido_doc_confirmation_zoom_button" = "Perbesar gambar";
@@ -463,7 +463,7 @@
 "onfido_video_confirmation_title" = "Periksa video Anda";
 "onfido_generic_back" = "kembali";
 "onfido_nfc_sheet_ready_subtitle" = "Siap memindai";
-"onfido_nfc_sheet_scanning_instruction" = "Jaga ponsel dan paspor Anda agar tidak goyang";
+"onfido_nfc_sheet_scanning_instruction" = "Jaga ponsel Anda agar tidak goyang";
 "onfido_nfc_sheet_success_subtitle" = "Pemindaian berhasil";
 "onfido_nfc_sheet_success_instruction_passport" = "Kami berhasil memindai paspor Anda";
 "onfido_outro_body" = "Hanya itu yang kami butuhkan untuk mulai memverifikasi identitas Anda";
@@ -533,7 +533,7 @@
 "onfido_nfc_scan_error_title" = "Kami tidak dapat memindai dokumen Anda";
 "onfido_nfc_scan_error_list_item" = "Lepaskan pelindung ponsel Anda";
 "onfido_nfc_scan_error_list_item_2" = "Begitu pemindaian dimulai, tahan";
-"onfido_nfc_scan_error_button_primary" = "Mulai pemindaian";
+"onfido_nfc_scan_error_button_primary" = "Coba memindai lagi";
 "onfido_welcome_nfc_title" = "Verifikasi identitas Anda";
 "onfido_welcome_nfc_subtitle" = "Ini akan memakan waktu beberapa menit";
 "onfido_welcome_nfc_list_header_nfc" = "Gunakan perangkat Anda untuk:";
@@ -597,7 +597,7 @@
 "onfido_nfc_scan_welcome_card_title" = "Pindai dokumen Anda";
 "onfido_nfc_scan_welcome_card_subtitle" = "Gunakan telepon Anda untuk memindai chip di dokumen Anda";
 "onfido_nfc_scan_welcome_card_list_item" = "Letakkan dokumen Anda di belakang perangkat Anda sehingga mereka saling menyentuh";
-"onfido_nfc_scan_welcome_card_list_item_2" = "Geser perlahan dokumen Anda ke bawah dan ke atas di ponsel Anda untuk menemukan chip.";
+"onfido_nfc_scan_welcome_card_list_item_2" = "Pelankan geser dokumen Anda naik dan turun melawan perangkat sampai pemindaian dimulai";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
 "onfido_nfc_scan_welcome_card_button_primary" = "Mulai memindai";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Dapatkan verifikasi tanpa NFC";
@@ -605,7 +605,7 @@
 "onfido_nfc_scan_error_inter_title" = "Kami tidak dapat memindai dokumen Anda";
 "onfido_nfc_scan_error_inter_list_item" = "Lepaskan pelindung ponsel Anda";
 "onfido_nfc_scan_error_inter_list_item_2" = "Jaga agar perangkat dan dokumen Anda tetap terhubung hingga pemindaian berhasil";
-"onfido_nfc_scan_error_inter_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_inter_primary_button" = "Coba memindai lagi";
 "onfido_nfc_scan_error_inter_secondary_button" = "Dapatkan verifikasi tanpa NFC";
 
 "onfido_nfc_scan_error_final_title" = "Kami tidak dapat memverifikasi dokumen ini";
@@ -627,7 +627,7 @@
 "onfido_nfc_scan_error_inter_passport_title" = "Kami tidak dapat memindai dokumen Anda";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Lepaskan sampul paspor dan pelindung ponsel Anda";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Jaga agar perangkat dan dokumen Anda tetap terhubung hingga pemindaian berhasil";
-"onfido_nfc_scan_error_inter_passport_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_inter_passport_primary_button" = "Coba memindai lagi";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Dapatkan verifikasi tanpa NFC";
 
 "onfido_doc_capture_alert_too_close_title" = "Mundur";
@@ -665,24 +665,24 @@
 "onfido_studio_between_interactive_tasks_waiting_subtitle_5" = "Silakan tunggu sedikit lebih lama untuk proses ini selesai, kesabaran Anda sangat dihargai.";
 "onfido_interactive_task_waiting_subtitle_2" = "Tugas masih berjalan, kesabaran Anda dihargai.";
 "onfido_nfc_fail_passport_title" = "Kami tidak bisa memindai dokumen ini";
-"onfido_nfc_fail_passport_list_item_1" = "Coba lepaskan penutup dari paspor Anda atau sarung dari telepon Anda. Ini untuk menghindari gangguan dengan chip.";
-"onfido_nfc_fail_passport_list_item_2" = "Tutup paspor Anda dan letakkan pada permukaan datar dengan sisi depan menghadap ke atas.";
-"onfido_nfc_fail_passport_list_item_3" = "Tempatkan ponsel Anda di bagian atas paspor Anda, sehingga mereka saling menyentuh.";
-"onfido_nfc_fail_passport_list_item_4" = "Anda mungkin perlu menggeser perlahan ponsel Anda ke bawah dan ke atas di atas paspor Anda sampai Anda menemukan chipnya.";
-"onfido_nfc_fail_passport_button_primary" = "Mulai pemindaian";
+"onfido_nfc_fail_passport_list_item_1" = "Lepaskan semua penutup dari dokumen dan perangkat Anda";
+"onfido_nfc_fail_passport_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
+"onfido_nfc_fail_passport_list_item_3" = "Pelankan geser ponsel Anda melintasi kedua halaman sampai pemindaian dimulai";
+"onfido_nfc_fail_passport_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
+"onfido_nfc_fail_passport_button_primary" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_possible_passport_title" = "Kami tidak bisa memindai dokumen ini";
-"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Coba lepaskan penutup dari paspor Anda atau sarung dari telepon Anda. Ini untuk menghindari gangguan dengan chip.";
+"onfido_nfc_scan_error_final_possible_passport_list_item_1" = "Lepaskan semua penutup dari dokumen dan perangkat Anda";
 "onfido_nfc_scan_error_final_possible_passport_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
 "onfido_nfc_scan_error_final_possible_passport_list_item_3" = "Geser perlahan telepon Anda melintasi kedua halaman sampai pemindaian dimulai";
 "onfido_nfc_scan_error_final_possible_passport_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
-"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_final_possible_passport_primary_button" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_possible_passport_secondary_button" = "Verifikasi tanpa pemindaian";
 "onfido_nfc_scan_error_final_required_passport_title" = "Kami tidak bisa memindai dokumen ini";
-"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Coba lepaskan penutup dari paspor Anda atau sarung dari telepon Anda. Ini untuk menghindari gangguan dengan chip.";
+"onfido_nfc_scan_error_final_required_passport_list_item_1" = "Lepaskan semua penutup dari dokumen dan perangkat Anda";
 "onfido_nfc_scan_error_final_required_passport_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
 "onfido_nfc_scan_error_final_required_passport_list_item_3" = "Geser perlahan telepon Anda melintasi kedua halaman sampai pemindaian dimulai";
 "onfido_nfc_scan_error_final_required_passport_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
-"onfido_nfc_scan_error_final_required_passport_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_final_required_passport_primary_button" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_required_passport_secondary_button" = "Verifikasi keluar";
 "onfido_nfc_scan_error_document_title" = "Dokumen tidak didukung";
 "onfido_nfc_scan_error_document_subtitle" = "Silakan coba dengan dokumen lain";
@@ -697,25 +697,25 @@
 "onfido_nfc_scan_sheet_error_2" = "Kami tidak bisa memindai dokumen Anda";
 "onfido_nfc_scan_sheet_button" = "Batalkan";
 "onfido_nfc_scan_doc_selection_disclaimer" = "Kami hanya menerima dokumen dengan chip. Cari ikon ini pada dokumen Anda";
-"onfido_nfc_fail_card_title" = "Tidak dapat memindai chip. Butuh bantuan?";
-"onfido_nfc_fail_card_list_item_1" = "Coba lepaskan casing dari ponsel Anda. Ini untuk menghindari gangguan dengan chip.";
-"onfido_nfc_fail_card_list_item_2" = "Tempatkan dokumen Anda di bagian belakang telepon Anda, sehingga mereka saling menyentuh.";
+"onfido_nfc_fail_card_title" = "Kami tidak bisa memindai dokumen ini";
+"onfido_nfc_fail_card_list_item_1" = "Lepaskan semua penutup dari perangkat Anda";
+"onfido_nfc_fail_card_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
 "onfido_nfc_fail_card_list_item_3" = "Pelankan geser dokumen Anda naik dan turun melawan perangkat sampai pemindaian dimulai";
 "onfido_nfc_fail_card_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
-"onfido_nfc_fail_card_button_primary" = "Mulai pemindaian";
+"onfido_nfc_fail_card_button_primary" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_possible_card_title" = "Kami tidak bisa memindai dokumen ini";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Lepaskan semua penutup dari perangkat Anda";
 "onfido_nfc_scan_error_final_possible_card_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
 "onfido_nfc_scan_error_final_possible_card_list_item_3" = "Pelankan geser dokumen Anda naik dan turun melawan perangkat sampai pemindaian dimulai";
 "onfido_nfc_scan_error_final_possible_card_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
-"onfido_nfc_scan_error_final_possible_card_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_final_possible_card_primary_button" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_possible_card_secondary_button" = "Verifikasi tanpa pemindaian";
 "onfido_nfc_scan_error_final_required_card_title" = "Kami tidak bisa memindai dokumen ini";
 "onfido_nfc_scan_error_final_required_card_list_item_1" = "Lepaskan semua penutup dari perangkat Anda";
 "onfido_nfc_scan_error_final_required_card_list_item_2" = "Jaga perangkat dan dokumen Anda tetap berkontak sampai pemindaian berhasil";
 "onfido_nfc_scan_error_final_required_card_list_item_3" = "Pelankan geser dokumen Anda naik dan turun melawan perangkat sampai pemindaian dimulai";
 "onfido_nfc_scan_error_final_required_card_list_item_4" = "Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai";
-"onfido_nfc_scan_error_final_required_card_primary_button" = "Mulai pemindaian";
+"onfido_nfc_scan_error_final_required_card_primary_button" = "Coba scan ulang";
 "onfido_nfc_scan_error_final_required_card_secondary_button" = "Verifikasi keluar";
 "onfido_nfc_scan_sheet_card_ready" = "Pelankan geser dokumen Anda naik dan turun";
 "onfido_nfc_scan_sheet_card_button" = "Batalkan";
@@ -749,7 +749,7 @@
 "onfido_nfc_capture_scan_sheet" = "Letakkan setengah bagian atas ponsel Anda bersentuhan dengan setengah bagian bawah paspor Anda.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Memindai...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Jaga telepon dan paspor Anda tetap diam.";
-"onfido_nfc_capture_scan_doc_realign_body" = "Posisikan kembali ponsel Anda ke paspor Anda untuk menemukan chip tersebut.";
+"onfido_nfc_capture_scan_doc_realign_body" = "Posisikan bagian atas ponsel Anda bersentuhan dengan bagian bawah paspor Anda.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Tidak dapat memindai chip.";
 "onfido_nfc_capture_scan_fail_subtitle_passport" = "Butuh bantuan?";
 "onfido_nfc_capture_scan_error_final_possible_passport_list_item_1" = "Lepaskan semua penutup dari paspor Anda atau casing dari telepon Anda. Ini untuk menghindari gangguan pada chip.";
