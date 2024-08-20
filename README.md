@@ -116,29 +116,15 @@ The SDK is available in the [GitHub Releases tab](https://github.com/onfido/onfi
 download the compressed framework. You can find the latest
 release [here](https://github.com/onfido/onfido-ios-sdk/releases/latest).
 
-1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed debug zip file containing
-   the `Onfido.framework`
-2. Uncompress the zip file and then move the `Onfido.framework` artefact into your project
-3. Add `Onfido.framework` located within your project to the `Embedded binaries` section in the `General` tab of your
+1. [Download](https://github.com/onfido/onfido-ios-sdk/releases/latest) the compressed zip file containing
+   the `Onfido.xcframework`
+2. Uncompress the zip file and then move the `Onfido.xcframework` artefact into your project folder
+3. Open your app's project file in Xcode. Then select your app's target under target list
+4. Add `Onfido.xcframework` located within your project to the `Embedded binaries` section in the `General` tab of your
    iOS app target
-4. Open your app's project file in Xcode. Then select your app's target under target list
-5. Next select the `Build Phases` tab and under the `Embed Frameworks` step add a new `Run Script Phase`. Name
-   it `Onfido Framework Archive`
-6. In the text area, add the following code:
 
-```bash
-if [[ "$ACTION" != "install" ]]; then
-    exit 0;
-fi
-
-FRAMEWORK_DIR="${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
-ONFIDO_FRAMEWORK="${FRAMEWORK_DIR}/Onfido.framework"
-
-cd "${ONFIDO_FRAMEWORK}"
-
-lipo -remove i386 Onfido -o Onfido
-lipo -remove x86_64 Onfido -o Onfido
-```
+⚠️ Do not add the xcframework as _resources_ to your app target, as only few files are required that xcode will 
+automatically take during build.
 
 #### Non-Swift apps
 
@@ -164,6 +150,9 @@ force Xcode to package Swift runtime libraries required for the Onfido iOS SDK t
 
 ## Initializing the SDK
 
+> ⚠️ The following SDK initialization documentation applies to identity verification workflows orchestrated using Onfido Studio.
+> For integrations where the verification steps are manually defined and configured, please refer to the [Advanced flow customization](#advanced-flow-customization) section below.
+
 The iOS SDK has multiple initialization and customization options that provide flexibility to your integration, while remaining easy to integrate.
 
 ### Defining a workflow
@@ -187,6 +176,8 @@ When defining workflows and creating identity verifications, we highly recommend
 ### SDK authentication
 
 The SDK is authenticated using SDK tokens. Onfido Studio generates and exposes SDK tokens in the workflow run payload returned by the API when a workflow run is [created](https://documentation.onfido.com/#create-workflow-run).
+
+SDK tokens for Studio can only be used together with the specific workflow run they are generated for, and remain valid for a period of five weeks.
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
 
@@ -297,19 +288,6 @@ appearance.primaryColor = <DESIRED_UI_COLOR_HERE>;
 appearance.primaryTitleColor = <DESIRED_UI_COLOR_HERE>;
 ```
 
-To apply the appearance, you can use the method below:
-
-##### Objective-C
-
-```Objective-C
-@objc
-@discardableResult
-public func withAppearance(_ appearance: Appearance) -> WorkflowConfiguration {
-    self.appearance = appearance
-    return self
-}
-```
-
 Please refer to the [SDK customization documentation](https://documentation.onfido.com/sdk/sdk-customization#ui-customization) for details of the supported UI options that can be set in this property.
 
 #### Dark theme
@@ -332,7 +310,7 @@ appearance.setUserInterfaceStyle(.dark)
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONAppearance *appearance = [ONAppearance new];
 [appearance setUserInterfaceStyle:UIUserInterfaceStyleDark];
 ```
@@ -350,9 +328,89 @@ configBuilder.withAppearance(appearance)
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
+```
+
+### Co-branding
+
+The Onfido SDK allows for two co-branding options that affect the display of the Onfido logo at the bottom of the Onfido screens.
+
+#### Text co-branding
+
+- **`cobrand {Object}` - optional**
+
+  The most effective way to add your brand to the footer watermark is by use of the `cobrand` property under `enterpriseFeatures`. This property takes a `text` parameter.
+
+  ![Example of text cobranding](assets/text_co_brand.png)
+
+##### Swift
+
+```swift
+let companyName = "MyCompany"
+let enterpriseFeatures = EnterpriseFeatures.builder()
+    .withCobrandingText(companyName)
+    .build()
+```
+
+##### Objective-C
+
+```objc
+NSString *companyName = @"MyCompany";
+ONEnterpriseFeaturesBuilder *enterpriseFeatures = [ONEnterpriseFeatures builder];
+[enterpriseFeatures withCobrandingText: companyName];
+[enterpriseFeatures build];
+```
+
+**Please note**: Text co-branding must be enabled by Onfido. Please [contact](mailto:client-support@onfido.com) your Solutions Engineer or Customer Success Manager to activate the feature.
+
+#### Logo co-branding
+
+- **`logoCobrand {Object}` - optional**
+
+  As an alternative to `cobrand`, you may specify a set of images to be defined in the `logoCobrand` property under `enterpriseFeatures`. You must provide the path to an image for use in 'dark' mode and a separate image for 'light' mode. Both images must have a resolution of 144x32.
+
+##### Swift
+
+```swift
+let onfidoEnterpriseFeatures = EnterpriseFeatures.builder()
+    .withCobrandingLogo(
+        UIImage(named: "imageName_for_lightmode")!,
+        cobrandingLogoDarkMode: UIImage(named: "imageName_for_darkmode")!
+     )
+    .build()
+```
+
+##### Objective-C
+
+```objc
+ONEnterpriseFeaturesBuilder *enterpriseFeatures = [ONEnterpriseFeatures builder];
+[enterpriseFeatures withCobrandingLogo:
+  [UIImage imageNamed:@"onfido-logo-white"] cobrandingLogoDarkMode:[UIImage imageNamed:@"onfido-logo-grey"]
+];
+[enterpriseFeatures build];
+```
+
+**Please note**: Logo co-branding must be enabled by Onfido. Please [contact](mailto:client-support@onfido.com) your Solutions Engineer or Customer Success Manager to activate the feature.
+
+
+#### Add co-branding to OnfidoConfig
+
+To apply co-branding, add the enterprise features object to `OnfidoConfig`:
+
+##### Swift
+
+```swift
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withEnterpriseFeatures(enterpriseFeatures)
+```
+
+##### Objective-C
+
+```objc
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+[configBuilder withEnterpriseFeatures: enterpriseFeatures];
 ```
 
 ### Language localization
@@ -362,12 +420,11 @@ The Onfido SDK supports and maintains translations for over 40 languages.
 The strings used within the SDK can be customized by having a `Localizable.strings` in your app for the desired language
 and by configuring the flow using the `withCustomLocalization()` method on the configuration builder.
 
-##### Objective-C
+##### Swift
 
-```Objective-C
-@objc
-public func withCustomLocalization() {
-    configBuilder.withCustomLocalization() // will look for localizable strings in your Localizable.strings file
+```swift
+- (void)withCustomLocalization {
+    [self.configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file
 }
 ```
 
@@ -521,7 +578,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 -(void) getSDKToken: (void(^)(NSString *)) handler {
    // <Your network request logic to retrieve SDK token goes here>
    handler(sdkToken);
@@ -556,7 +613,7 @@ let onfidoFlow = OnfidoFlow(withConfiguration: config)
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN"];
@@ -592,7 +649,7 @@ try onfidoRun.run(from: yourViewController, animated: true)
 
 ##### Objective-C
 
-```Objective-C
+```objc
 NSError *runError = NULL;
 [onFlow runFrom:yourViewController animated:YES error:&runError completion:nil];
 
@@ -634,7 +691,7 @@ configBuilder.withAppearance(appearance)
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withAppearance:appearance];
 ```
@@ -674,7 +731,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 ...
@@ -824,7 +881,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 
@@ -881,7 +938,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 
@@ -917,7 +974,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withDocumentStepWithSelectableDocumentTypes: @[@(SelectableDocumentTypePassport), @(SelectableDocumentTypeDrivingLicence)]];
 ```
@@ -958,7 +1015,7 @@ let config = try! OnfidoConfig.builder()
 
 #### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 
@@ -994,7 +1051,7 @@ let config = try! OnfidoConfig.builder()
 
 #### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 
@@ -1029,7 +1086,7 @@ let config = try! OnfidoConfig.builder()
 
 #### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 
@@ -1167,7 +1224,7 @@ let config = try OnfidoConfig.builder()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 [configBuilder withSdkToken:@"YOUR_SDK_TOKEN_HERE"];
 [configBuilder withProofOfAddressStep];
@@ -1214,7 +1271,7 @@ To receive the result from the flow, you should pass a callback to the instance 
 
 An instance of `ONFlowResponse` is passed back to the callback with 3 properties:
 
-```Objective-C
+```objc
 (^responseHandlerBlock)(ONFlowResponse *response) {
     if (response.userCanceled) {
     } else if (response.results) {
@@ -1277,7 +1334,7 @@ you want to see further information, you can access the result object.
 
 Example for a document capture:
 
-```Objective-C
+```objc
 NSPredicate *documentResultPredicate = [NSPredicate predicateWithBlock:^BOOL(id flowResult, NSDictionary *bindings) {
     if (((ONFlowResult *)flowResult).type == ONFlowResultTypeDocument) {
         return YES;
@@ -1382,7 +1439,7 @@ instance.
 
 The `NSError` contained within the `ONFlowResponse`'s `error` property can be handled as follows:
 
-```Objective-C
+```objc
 switch (error.code) {
 case ONFlowErrorCameraPermission:
     // Occurs if the user denies permission to the SDK during the flow
@@ -1417,7 +1474,7 @@ exception.
 
 You can handle run exceptions as shown below:
 
-```Objective-C
+```objc
 NSError *runError = NULL;
 [onFlow runFrom:yourViewController animated:YES error:&runError completion:nil]; //`yourViewController` should be your view controller
 
@@ -1663,7 +1720,7 @@ configBuilder.build()
 
 ##### Objective-C
 
-```Objective-C
+```objc
 ONFlowConfigBuilder * builder =[ONFlowConfig builder];
 ...
 NSError * error = NULL;

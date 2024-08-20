@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Đã định vị được khuôn mặt. Đang bắt đầu ghi hình.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Video mẫu về cách quay video selfie. Để quay video selfie, hãy hướng mặt vào camera trước và giữ điện thoại cách mặt bạn một chút. Sau đó, bạn cần đọc một vài chữ số và xoay đầu theo hướng dẫn trên màn hình.";
-"onfido_video_intro_button_pause_accessibility" = "Tạm dừng video";
-"onfido_video_intro_button_play_accessibility" = "Phát video";
+"onfido_video_intro_button_pause_accessibility" = "Tạm dừng hoạt hình minh họa quy trình quét";
+"onfido_video_intro_button_play_accessibility" = "Phát hoạt hình minh họa về quy trình quét";
 "onfido_country_select_list_header_all" = "Tất cả quốc gia";
 "onfido_doc_capture_alert_manual_capture_detail" = "Căn chỉnh tài liệu, sau đó nhấn nút";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Quá trình này có thể mất vài phút";
 /* Welcome */
 "onfido_welcome_title" = "Xác minh danh tính của bạn";
-"onfido_app_title_doc_confirmation" = "Xác minh danh tính của bạn";
-"onfido_app_title_selfie_confirmation" = "Xác minh danh tính của bạn";
 "onfido_app_title_nfc_select" = "Xác minh danh tính của bạn";
 "onfido_app_title_nfc_intro" = "Xác minh danh tính của bạn";
 "onfido_app_title_nfc_fail" = "Xác minh danh tính của bạn";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Xác minh danh tính của bạn";
 "onfido_app_title_country_select" = "Chọn quốc gia cấp giấy tờ";
-"onfido_app_title_selfie_intro" = "Xác minh danh tính của bạn";
-"onfido_app_title_video_intro" = "Xác minh danh tính của bạn";
-"onfido_app_title_permission" = "Xác minh danh tính của bạn";
-"onfido_app_title_video_confirmation" = "Xác minh danh tính của bạn";
 "onfido_video_capture_alert_wrong_side" = "Sai bên";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Quét chip trong hộ chiếu của bạn";
 "onfido_nfc_intro_subtitle_passport" = "Sử dụng điện thoại của bạn để quét chip trong hộ chiếu của bạn";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Đặt hộ chiếu của bạn đã mở ra trên một bề mặt phẳng";
 "onfido_nfc_intro_passport_scan_guide_2" = "Đặt điện thoại lên hộ chiếu của bạn. Để tìm chip, bạn có thể cần di chuyển điện thoại lên và xuống trên hộ chiếu của bạn.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Một khi chip được phát hiện, hãy giữ điện thoại và hộ chiếu của bạn không động.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành";
-
 "onfido_nfc_intro_button_primary_passport" = "Bắt đầu quét";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Đặt điện thoại lên hộ chiếu của bạn. Bạn có thể cần phải từ từ trượt điện thoại lên hộ chiếu của bạn.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Đang quét...";
-
-"onfido_nfc_intro_title_card" = "Quét thẻ NFC của bạn";
+"onfido_nfc_intro_title_card" = "Quét chip trên giấy tờ tùy thân của bạn";
 "onfido_nfc_intro_subtitle_card" = "Đặt điện thoại của bạn trên thẻ và giữ nó gần với đầu điện thoại";
 "onfido_nfc_intro_button_primary_card" = "Bắt đầu quét";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Đặt điện thoại của bạn trên thẻ";
-
-"onfido_nfc_fail_title_passport" = "Chúng tôi không thể quét hộ chiếu của bạn";
-"onfido_nfc_fail_title_card" = "Chúng tôi không thể quét thẻ NFC của bạn";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Xóa ảnh bìa hộ chiếu của bạn";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Đặt hộ chiếu của bạn trên một mặt phẳng";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Đặt điện thoại gần giữa hộ chiếu của bạn";
 "onfido_nfc_intro_carousel_body_last_page" = "Bạn cũng có thể thử bên trong trang sau";
 "onfido_nfc_intro_carousel_body_dont_move" = "Không di chuyển điện thoại hoặc hộ chiếu của bạn trong khi quét";
 
+"onfido_nfc_fail_title_passport" = "Chúng tôi không thể quét hộ chiếu của bạn";
+"onfido_nfc_fail_title_card" = "Chúng tôi không thể quét thẻ NFC của bạn";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Tháo bìa hộ chiếu và ốp điện thoại của bạn";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Giữ điện thoại sát với hộ chiếu của bạn cho đến khi quá trình quét thành công";
 "onfido_nfc_fail_button_primary_passport" = "Bắt đầu quét";
 "onfido_nfc_fail_button_secondary_passport" = "Xác minh không cần quét";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Tháo ốp điện thoại của bạn";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Giữ điện thoại sát với thẻ của bạn cho đến khi quá trình quét thành công";
 "onfido_nfc_fail_button_primary_card" = "Bắt đầu quét";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Xác minh danh tính của bạn";
 "onfido_user_consent_prompt_no_consent_title" = "Bạn có chắc chắn không?";
 "onfido_user_consent_prompt_no_consent_detail" = "Nếu bạn không chấp nhận tuyên bố về quyền riêng tư và điều khoản dịch vụ của Onfido, chúng tôi sẽ không thể xác minh danh tính của bạn và bạn sẽ thoát khỏi bước này.";
 "onfido_user_consent_prompt_button_secondary" = "Xem lại";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Xác minh danh tính của bạn";
 "onfido_user_consent_load_fail_title" = "Không thể tải nội dung";
 "onfido_user_consent_load_fail_detail" = "Kiểm tra xem kết nối của bạn và thử lại";
 "onfido_user_consent_load_fail_button_primary" = "Tải lại màn hình";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Xem từ máy ảnh. Đặt các trang bên ngoài của giấy tờ trong khung hình, sau đó chạm vào nút chụp";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Xem từ máy ảnh. Đặt bên có ảnh trong giấy tờ của bạn trong khung hình, sau đó chạm vào nút chụp";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Xem từ máy ảnh. Đặt các trang bên ngoài của giấy tờ trong khung hình, sau đó chạm vào nút chụp";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Đặt điện thoại gần giữa hộ chiếu của bạn";
 "onfido_avc_intro_title_accessibility" = "Quay video khuôn mặt của bạn";
 "onfido_avc_intro_video_accessibility" = "Video mẫu về một người xoay đầu sang cả hai bên cho đến khi hoàn thành";
 "onfido_avc_face_capture_frame_accessibility" = "Xem từ máy ảnh selfie";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Bắt đầu quét";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Được xác minh mà không cần NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Lùi lại";
 "onfido_doc_capture_alert_rotated_title" = "Xoay tài liệu của bạn";
 "onfido_doc_capture_alert_too_far_title" = "Di chuyển gần hơn nữa";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Giữ tài liệu thẳng";
 "onfido_doc_capture_header_recording_video" = "Ghi video";
 "onfido_doc_capture_header_recording_complete" = "Ghi hình đã hoàn tất";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Đã phát hiện ảnh chụp màn hình";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Thử quay video theo cách thủ công";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Đã phát hiện ảnh của màn hình";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Vui lòng sử dụng tài liệu gốc của bạn. Ảnh chụp màn hình hoặc bản sao không được chấp nhận";
 
 "onfido_interactive_task_waiting_title_1" = "Đang kiểm tra chất lượng hình ảnh...";
-"onfido_interactive_task_waiting_title_2" = "Đang tải lên hình ảnh...";
-"onfido_interactive_task_waiting_title_3" = "Đang tải video lên...";
-"onfido_interactive_task_waiting_title_4" = "Đang kiểm tra chất lượng dữ liệu...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vui lòng đợi thêm một chút để công việc hoàn thành.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Đang biên dịch dữ liệu...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Chúng tôi đang tổng hợp dữ liệu đã thu thập, vui lòng đợi.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Dường như bạn không thể tạo một mật khẩu. Quay lại để thử lại hoặc tiếp tục để hoàn thành quá trình.";
 "onfido_sid_register_error_button" = "Quay lại";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Nộp Chứng nhận Nơi ở hoặc Hợp đồng Thuê nhà";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Hãy đảm bảo bạn đã tải lên toàn bộ trang tài liệu, và chi tiết rõ ràng để đọc mà không có độ mờ hoặc chói lóa";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Cung cấp toàn bộ trang tài liệu để có kết quả tốt nhất";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Giấy chứng nhận Nơi ở hoặc Hợp đồng thuê nhà";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Được cấp bởi cơ quan chính phủ hoặc chủ nhà thuê thương mại như xác nhận cho thuê.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Không chấp nhận hợp đồng cho thuê lại";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Không chấp nhận hợp đồng cho thuê lại";
 "onfido_generic_alert_parsing_error_label" = "Lỗi phân tích";
 "onfido_generic_error_parsing_detail" = "Đã xảy ra lỗi phân tích. Vui lòng thử lại.";

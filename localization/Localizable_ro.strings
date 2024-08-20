@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Față detectată. Înregistrarea a început.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Clip video dat ca exemplu al unei persoane care înregistrează un clip video selfie. Pentru a înregistra un clip video selfie, uitați-vă la camera video din față și țineți telefonul dvs. puțin la distanță de fața dvs. Apoi trebuie să spuneți niște numere și să întoarceți capul în conformitate cu instrucțiunile de pe ecran.";
-"onfido_video_intro_button_pause_accessibility" = "Puneți pe pauză clipul video";
-"onfido_video_intro_button_play_accessibility" = "Redați clip video";
+"onfido_video_intro_button_pause_accessibility" = "Pauză animație ilustrativă a procedurii de scanare";
+"onfido_video_intro_button_play_accessibility" = "Redă animația ilustrativă a procedurii de scanare";
 "onfido_country_select_list_header_all" = "Toate țările";
 "onfido_doc_capture_alert_manual_capture_detail" = "Aliniați documentul și apoi apăsați butonul";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Ar trebui să dureze câteva minute";
 /* Welcome */
 "onfido_welcome_title" = "Verificați identitatea dvs.";
-"onfido_app_title_doc_confirmation" = "Verificați identitatea dvs.";
-"onfido_app_title_selfie_confirmation" = "Verificați identitatea dvs.";
 "onfido_app_title_nfc_select" = "Verificați identitatea dvs.";
 "onfido_app_title_nfc_intro" = "Verificați identitatea dvs.";
 "onfido_app_title_nfc_fail" = "Verificați identitatea dvs.";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Verificați identitatea dvs.";
 "onfido_app_title_country_select" = "Selectați țara emitentă";
-"onfido_app_title_selfie_intro" = "Verificați identitatea dvs.";
-"onfido_app_title_video_intro" = "Verificați identitatea dvs.";
-"onfido_app_title_permission" = "Verificați identitatea dvs.";
-"onfido_app_title_video_confirmation" = "Verificați identitatea dvs.";
 "onfido_video_capture_alert_wrong_side" = "Partea greșită";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Scanați cipul din pașaportul dvs.";
 "onfido_nfc_intro_subtitle_passport" = "Folosiți telefonul pentru a scana cipul din pașaportul dumneavoastră";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Puneți pașaportul deschis pe o suprafață plană";
 "onfido_nfc_intro_passport_scan_guide_2" = "Plasați telefonul dvs. împotriva pașaportului dvs. Pentru a localiza cipul, este posibil să fie nevoie să alunecați telefonul dvs. în sus și în jos pe pașaportul dvs.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Odată ce cipul este detectat, mențineți telefonul și pașaportul dvs. nemișcate.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza";
-
 "onfido_nfc_intro_button_primary_passport" = "Începeți scanarea";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Așezați telefonul împotriva pașaportului dvs. Este posibil să fie nevoie să alunecați încet telefonul pe pașaportul dvs.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Scanare în curs...";
-
-"onfido_nfc_intro_title_card" = "Scanați cardul dvs. NFC";
+"onfido_nfc_intro_title_card" = "Scanați cipul documentului dvs.";
 "onfido_nfc_intro_subtitle_card" = "Plasați telefonul dvs. deasupra cardului și mențineți-l aproape de partea superioară a telefonului dvs.";
 "onfido_nfc_intro_button_primary_card" = "Începeți scanarea";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Plasați telefonul dvs. deasupra cardului";
-
-"onfido_nfc_fail_title_passport" = "Nu am reușit să vă scanăm pașaportul";
-"onfido_nfc_fail_title_card" = "Nu am reușit să vă scanăm cardul NFC";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Îndepărtează coperta pașaportului";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Așezați pașaportul pe o suprafață plană";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Plasați telefonul dvs. aproape de partea de mijloc a pașaportului dvs.";
 "onfido_nfc_intro_carousel_body_last_page" = "De asemenea, puteți încerca în interiorul paginii verso";
 "onfido_nfc_intro_carousel_body_dont_move" = "Nu mutați telefonul sau pașaportul dvs. când se realizează scanarea";
 
+"onfido_nfc_fail_title_passport" = "Nu am reușit să vă scanăm pașaportul";
+"onfido_nfc_fail_title_card" = "Nu am reușit să vă scanăm cardul NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Îndepărtați husa pașaportului dvs. și a telefonului dvs.";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Mențineți telefonul și pașaportul dvs. în contact până când scanarea este realizată cu succes";
 "onfido_nfc_fail_button_primary_passport" = "Începeți scanarea";
 "onfido_nfc_fail_button_secondary_passport" = "Fiți verificat fără scanare";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Îndepărtați husa telefonului dvs.";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Mențineți telefonul și cardul dvs. în contact până când scanarea este realizată cu succes";
 "onfido_nfc_fail_button_primary_card" = "Începeți scanarea";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verify your identity";
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
 "onfido_user_consent_prompt_button_secondary" = "Review again";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verify your identity";
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Vizualizați din camera video. Poziționați paginile externe ale documentului dvs. în cadru, apoi atingeți butonul de obturare";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vizualizați din camera video. Poziționați partea cu poză a documentului dvs. în cadru, apoi atingeți butonul de obturare";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vizualizați din camera video. Poziționați paginile externe ale documentului dvs. în cadru, apoi atingeți butonul de obturare";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Plasați telefonul dvs. aproape de partea de mijloc a pașaportului dvs.";
 "onfido_avc_intro_title_accessibility" = "A înregistra un clip video cu fața dvs.";
 "onfido_avc_intro_video_accessibility" = "Clip video exemplificativ cu o persoană care își întoarce capul în ambele sensuri până la finalizare";
 "onfido_avc_face_capture_frame_accessibility" = "Vizualizare din camera de selfie";
@@ -640,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Ține documentul drept";
 "onfido_doc_capture_header_recording_video" = "Înregistrare video";
 "onfido_doc_capture_header_recording_complete" = "Înregistrare finalizată";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Captură de ecran detectată";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Încearcă să înregistrezi video manual";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Fotografie a ecranului detectată";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Vă rugăm să utilizați documentul dvs. original. Fotografiile de pe ecran sau fotocopiile nu sunt acceptate";
 
 "onfido_interactive_task_waiting_title_1" = "Verificarea calității imaginii...";
-"onfido_interactive_task_waiting_title_2" = "Încărcare imagine...";
-"onfido_interactive_task_waiting_title_3" = "Încărcare video...";
-"onfido_interactive_task_waiting_title_4" = "Verificarea calității datelor...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilare date...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Compilăm datele colectate, vă rugăm să așteptați.";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Se pare că nu ați putut crea o parolă. Întoarceți-vă pentru a încerca din nou sau continuați pentru a finaliza procesul.";
 "onfido_sid_register_error_button" = "Înapoi";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Trimite Certificatul de Cazare sau de Locație";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Asigurați-vă că ați încărcat întreaga pagină a documentului și detaliile sunt clare pentru a fi citite, fǎrǎ zone neclare sau lucioase";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Oferiți întreaga pagină a documentului pentru cele mai bune rezultate";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Certificat de cazare sau de închiriere";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Emis de autoritatea guvernamentală sau de proprietarul corporativ ca confirmare a închirierii.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Acordurile de subînchiriere nu sunt acceptate";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Acordurile de subînchiriere nu sunt acceptate";
 "onfido_generic_alert_parsing_error_label" = "Eroare de analiză";
 "onfido_generic_error_parsing_detail" = "A apărut o eroare de analiză. Vă rugăm să încercați din nou.";

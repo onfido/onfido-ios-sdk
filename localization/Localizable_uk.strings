@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Обличчя виявлено. Запис розпочався.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Приклад запису селфі-відео. Щоб записати селфі-відео, дивіться в об’єктив фронтальної камери, тримаючи телефон на певній відстані від обличчя. Потім вам потрібно буде озвучити цифри та повернути голову відповідно до вказівок на екрані.";
-"onfido_video_intro_button_pause_accessibility" = "Призупинити відео";
-"onfido_video_intro_button_play_accessibility" = "Відтворити відео";
+"onfido_video_intro_button_pause_accessibility" = "Призупинити ілюстративну анімацію процедури сканування";
+"onfido_video_intro_button_play_accessibility" = "Відтворити ілюстративну анімацію процедури сканування";
 "onfido_country_select_list_header_all" = "Усі країни";
 "onfido_doc_capture_alert_manual_capture_detail" = "Розмістіть документ правильно, а тоді натисніть кнопку";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Це займе кілька хвилин";
 /* Welcome */
 "onfido_welcome_title" = "Підтвердити особу";
-"onfido_app_title_doc_confirmation" = "Підтвердити особу";
-"onfido_app_title_selfie_confirmation" = "Підтвердити особу";
 "onfido_app_title_nfc_select" = "Підтвердити особу";
 "onfido_app_title_nfc_intro" = "Підтвердити особу";
 "onfido_app_title_nfc_fail" = "Підтвердити особу";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Підтвердити особу";
 "onfido_app_title_country_select" = "Виберіть країну видачі";
-"onfido_app_title_selfie_intro" = "Підтвердити особу";
-"onfido_app_title_video_intro" = "Підтвердити особу";
-"onfido_app_title_permission" = "Підтвердити особу";
-"onfido_app_title_video_confirmation" = "Підтвердити особу";
 "onfido_video_capture_alert_wrong_side" = "Невідповідний бік";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Відскануйте чіп вашого паспорта";
 "onfido_nfc_intro_subtitle_passport" = "Використовуйте свій телефон для сканування чіпа у вашому паспорті";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Покладіть свій паспорт відкритим на рівній поверхні";
 "onfido_nfc_intro_passport_scan_guide_2" = "Прикладіть телефон до паспорта. Щоб знайти чіп, вам може знадобитися переміщати телефон вгору та вниз по паспорту.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Як тільки чіп буде виявлено, не забирайте телефон від паспорта.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Одразу після початку сканування, залишайтеся нерухомим, щоб сканування могло завершитися";
-
 "onfido_nfc_intro_button_primary_passport" = "Почати сканування";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Прикладіть телефон до паспорта. Можливо, вам потрібно буде повільно провести телефоном по паспорту.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Сканування...";
-
-"onfido_nfc_intro_title_card" = "Відскануйте посвідчення з NFC";
+"onfido_nfc_intro_title_card" = "Скануйте чіп вашого документа";
 "onfido_nfc_intro_subtitle_card" = "Покладіть телефон на посвідчення так, щоб воно розташовувалося навпроти верхньої частини телефона";
 "onfido_nfc_intro_button_primary_card" = "Почати сканування";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Покладіть телефон на посвідчення";
-
-"onfido_nfc_fail_title_passport" = "Не вдалося відсканувати паспорт";
-"onfido_nfc_fail_title_card" = "Не вдалося відсканувати ваше посвідчення з NFC";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Зніміть кришку паспорта";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Покладіть паспорт на рівну поверхню";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Покладіть телефон посередині паспорта";
 "onfido_nfc_intro_carousel_body_last_page" = "Ви також можете спробувати сфотографувати внутрішній бік звороту обкладинки";
 "onfido_nfc_intro_carousel_body_dont_move" = "Не переміщуйте телефон або паспорт під час сканування";
 
+"onfido_nfc_fail_title_passport" = "Не вдалося відсканувати паспорт";
+"onfido_nfc_fail_title_card" = "Не вдалося відсканувати ваше посвідчення з NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Зніміть чохол із телефона й обкладинку з паспорта";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Не забирайте телефон від паспорта, доки сканування не завершиться";
 "onfido_nfc_fail_button_primary_passport" = "Почати сканування";
 "onfido_nfc_fail_button_secondary_passport" = "Пройти верифікацію без сканування";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Зніміть чохол із телефона";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Не забирайте телефон від посвідчення, доки сканування не завершиться";
 "onfido_nfc_fail_button_primary_card" = "Почати сканування";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Підтвердити особу";
 "onfido_user_consent_prompt_no_consent_title" = "Ви впевнені?";
 "onfido_user_consent_prompt_no_consent_detail" = "Якщо ви не приймете заяву про конфіденційність та умови обслуговування Onfido, ми не зможемо підтвердити вашу особу й на цьому кроці процедура завершиться.";
 "onfido_user_consent_prompt_button_secondary" = "Переглянути ще раз";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Підтвердити особу";
 "onfido_user_consent_load_fail_title" = "Не вдалося завантажити вміст";
 "onfido_user_consent_load_fail_detail" = "Перевірте, чи з’єднання стабільне, а потім спробуйте ще раз";
 "onfido_user_consent_load_fail_button_primary" = "Перезавантажити екран";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Увімкніть камеру. Наведіть рамку на зовнішній розворот документа, а тоді натисніть кнопку зйомки";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Увімкніть камеру. Наведіть рамку на бік із фотографією, а тоді натисніть кнопку зйомки";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Увімкніть камеру. Наведіть рамку на зовнішній розворот документа, а тоді натисніть кнопку зйомки";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Покладіть телефон посередині паспорта";
 "onfido_avc_intro_title_accessibility" = "зняти відео свого обличчя;";
 "onfido_avc_intro_video_accessibility" = "Приклад відео, на якому особа повертає голову в обидва боки до завершення перевірки";
 "onfido_avc_face_capture_frame_accessibility" = "Увімкніть селфі-камеру.";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Тримайте пристрій і документ на зв’язку, доки сканування не завершиться";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Почати сканування";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Отримати підтвердження без NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Відійдіть назад";
 "onfido_doc_capture_alert_rotated_title" = "Поверніть документ";
 "onfido_doc_capture_alert_too_far_title" = "Підійдіть ближче";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Тримайте документ прямо";
 "onfido_doc_capture_header_recording_video" = "Запис відео";
 "onfido_doc_capture_header_recording_complete" = "Запис завершено";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Зроблено знімок екрана";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Спробуйте записати відео вручну";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Фото екрану виявлено";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Будь ласка, використовуйте ваш оригінальний документ. Фотографії екрану або ксерокопії не приймаються";
 
 "onfido_interactive_task_waiting_title_1" = "Перевірка якості зображення...";
-"onfido_interactive_task_waiting_title_2" = "Завантаження зображення...";
-"onfido_interactive_task_waiting_title_3" = "Завантаження відео...";
-"onfido_interactive_task_waiting_title_4" = "Перевірка якості даних...";
 "onfido_interactive_task_waiting_subtitle_1" = "Будь ласка, зачекайте трохи довше, щоб завдання завершилося.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компіляція даних...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Ми обробляємо зібрані дані, будь ласка, зачекайте.";
@@ -789,13 +767,8 @@
 "onfido_sid_register_error_title" = "Ключ доступу не створено";
 "onfido_sid_register_error_subtitle" = "Схоже, вам не вдалося створити ключ доступу. Поверніться, щоб спробувати знову, або продовжуйте до завершення процесу.";
 "onfido_sid_register_error_button" = "Повернутися назад";
-
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Надіслати сертифікат про житло або оренду";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Переконайтеся, що ви завантажили всю сторінку документа, і деталі чітко видно, без розмиття або блиску";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Надайте всю сторінку документа для найкращих результатів";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Свідоцтво про проживання або оренду";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Видано державним органом або корпоративним орендодавцем як підтвердження оренди.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Угоди про піднайм не приймаються";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Угоди про суборенду не приймаються";
 "onfido_generic_alert_parsing_error_label" = "Помилка розбору";
 "onfido_generic_error_parsing_detail" = "Сталася помилка обробки. Будь ласка, спробуйте ще раз.";

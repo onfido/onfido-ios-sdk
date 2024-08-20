@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Лицо обнаружено. Запись началась.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Пример видео, на котором человек записывает селфи-видео. Чтобы записать селфи-видео, смотрите в переднюю камеру и держите телефон на небольшом расстоянии от лица. Затем Вам нужно будет назвать несколько чисел и повернуть голову в соответствии с инструкциями на экране.";
-"onfido_video_intro_button_pause_accessibility" = "Приостановить видео";
-"onfido_video_intro_button_play_accessibility" = "Воспроизвести видео";
+"onfido_video_intro_button_pause_accessibility" = "Приостановить иллюстративную анимацию процедуры сканирования";
+"onfido_video_intro_button_play_accessibility" = "Воспроизвести иллюстративную анимацию процедуры сканирования";
 "onfido_country_select_list_header_all" = "Все страны";
 "onfido_doc_capture_alert_manual_capture_detail" = "Выровняйте документ, затем нажмите кнопку";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Это займет несколько минут";
 /* Welcome */
 "onfido_welcome_title" = "Подтвердите свою личность";
-"onfido_app_title_doc_confirmation" = "Подтвердите свою личность";
-"onfido_app_title_selfie_confirmation" = "Подтвердите свою личность";
 "onfido_app_title_nfc_select" = "Подтвердите свою личность";
 "onfido_app_title_nfc_intro" = "Подтвердите свою личность";
 "onfido_app_title_nfc_fail" = "Подтвердите свою личность";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Подтвердите свою личность";
 "onfido_app_title_country_select" = "Выберите страну выдачи";
-"onfido_app_title_selfie_intro" = "Подтвердите свою личность";
-"onfido_app_title_video_intro" = "Подтвердите свою личность";
-"onfido_app_title_permission" = "Подтвердите свою личность";
-"onfido_app_title_video_confirmation" = "Подтвердите свою личность";
 "onfido_video_capture_alert_wrong_side" = "Не та сторона";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Отсканируйте чип вашего паспорта";
 "onfido_nfc_intro_subtitle_passport" = "Используйте свой телефон для сканирования чипа в вашем паспорте";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Разложите ваш паспорт на плоской поверхности";
 "onfido_nfc_intro_passport_scan_guide_2" = "Приложите телефон к паспорту. Чтобы найти чип, вам может потребоваться перемещать телефон вверх и вниз по паспорту.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Как только чип обнаружен, держите телефон и паспорт неподвижно.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
-
 "onfido_nfc_intro_button_primary_passport" = "Начать сканирование";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Приложите телефон к паспорту. Возможно, вам придется медленно двигать телефон по паспорту.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Сканирование...";
-
-"onfido_nfc_intro_title_card" = "Отсканируйте карточку NFC";
+"onfido_nfc_intro_title_card" = "Сканирование чипа вашего документа";
 "onfido_nfc_intro_subtitle_card" = "Поместите телефон на карту и держите ее рядом с верхней частью телефона";
 "onfido_nfc_intro_button_primary_card" = "Начать сканирование";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Поместите телефон на карточку";
-
-"onfido_nfc_fail_title_passport" = "Мы не смогли отсканировать ваш паспорт";
-"onfido_nfc_fail_title_card" = "Не удалось отсканировать Вашу карточку NFC";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Снимите обложку паспорта";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Положите паспорт на ровную поверхность";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Разместите телефон посередине паспорта";
 "onfido_nfc_intro_carousel_body_last_page" = "Вы также можете сделать это с внутренней частью оборотной страницы";
 "onfido_nfc_intro_carousel_body_dont_move" = "Не перемещайте телефон или паспорт во время сканирования";
 
+"onfido_nfc_fail_title_passport" = "Мы не смогли отсканировать ваш паспорт";
+"onfido_nfc_fail_title_card" = "Не удалось отсканировать Вашу карточку NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Снимите обложку с паспорта и чехол с телефона";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Держите телефон и паспорт рядом, пока сканирование не будет завершено успешно";
 "onfido_nfc_fail_button_primary_passport" = "Начать сканирование";
 "onfido_nfc_fail_button_secondary_passport" = "Пройти проверку без сканирования";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Снимите чехол с телефона";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Держите телефон и карточку рядом, пока сканирование не будет завершено успешно";
 "onfido_nfc_fail_button_primary_card" = "Начать сканирование";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Подтвердите свою личность";
 "onfido_user_consent_prompt_no_consent_title" = "Вы уверены?";
 "onfido_user_consent_prompt_no_consent_detail" = "Если Вы не примете заявления о конфиденциальности и условия предоставления услуг Onfido, мы не сможем подтвердить Вашу личность и Вы выйдете на этом этапе.";
 "onfido_user_consent_prompt_button_secondary" = "Посмотреть еще раз";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Подтвердите свою личность";
 "onfido_user_consent_load_fail_title" = "Не удалось загрузить содержимое";
 "onfido_user_consent_load_fail_detail" = "Убедитесь, что соединение стабильно, затем повторите попытку";
 "onfido_user_consent_load_fail_button_primary" = "Перезагрузить экран";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Вид с камеры. Поместите часть с фото в Вашем документе в рамку, а затем нажмите кнопку затвора";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Разместите телефон посередине паспорта";
 "onfido_avc_intro_title_accessibility" = "Записать видео лица";
 "onfido_avc_intro_video_accessibility" = "Пример видео, на котором человек поворачивает голову в обе стороны до завершения процесса";
 "onfido_avc_face_capture_frame_accessibility" = "Вид с селфи-камеры";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Держите устройство и документ на связи до тех пор, пока сканирование не завершится";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Начать сканирование";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Получить верификацию без NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Отодвиньтесь";
 "onfido_doc_capture_alert_rotated_title" = "Поверните документ";
 "onfido_doc_capture_alert_too_far_title" = "Подвиньтесь ближе";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Держите документ прямо";
 "onfido_doc_capture_header_recording_video" = "Запись видео";
 "onfido_doc_capture_header_recording_complete" = "Запись завершена";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Обнаружен скриншот";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Попробуйте записать видео вручную";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Обнаружено фото экрана";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Пожалуйста, используйте ваш оригинальный документ. Фотографии экрана или фотокопии не принимаются";
 
 "onfido_interactive_task_waiting_title_1" = "Проверка качества изображения...";
-"onfido_interactive_task_waiting_title_2" = "Загрузка изображения...";
-"onfido_interactive_task_waiting_title_3" = "Загрузка видео...";
-"onfido_interactive_task_waiting_title_4" = "Проверка качества данных...";
 "onfido_interactive_task_waiting_subtitle_1" = "Пожалуйста, подождите немного дольше, чтобы задача завершилась.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компиляция данных...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Мы компилируем собранные данные, пожалуйста, подождите.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Похоже, у вас не получилось создать пароль. Вернитесь, чтобы попробовать еще раз, или продолжите для завершения процесса.";
 "onfido_sid_register_error_button" = "Вернуться назад";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Предоставьте сертификат о жилье или аренде";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Убедитесь, что вы загрузили всю страницу документа, и детали четко видны, без размытия или блика";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Предоставьте всю страницу документа для наилучших результатов";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Сертификат о проживании или аренде";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Выдано государственным органом или корпоративным арендодателем в качестве подтверждения аренды.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Субаренда не принимается";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Субаренда не принимается";
 "onfido_generic_alert_parsing_error_label" = "Ошибка разбора";
 "onfido_generic_error_parsing_detail" = "Произошла ошибка разбора. Пожалуйста, попробуйте еще раз.";

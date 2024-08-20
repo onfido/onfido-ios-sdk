@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Դեմքը գտնվել է։ Տեսագրումը սկսված է։";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Սելֆի տեսագրության օրինակ: Սելֆի տեսանյութ անելու համար դեմքով շրջվեք դեպի առջևի տեսախցիկը և հեռախոսը մի փոքր հեռու պահեք ձեր դեմքից։ Այնուհետև արտաբերեք մի քանի թիվ և պտտեք գլուխը՝ էկրանի վրայի հրահանգների համաձայն։";
-"onfido_video_intro_button_pause_accessibility" = "Դադարեցնել տեսանյութը";
-"onfido_video_intro_button_play_accessibility" = "Դիտել տեսանյութը";
+"onfido_video_intro_button_pause_accessibility" = "Դադարեցրեք սկանավորման ընթացքի պատկերավորման անիմացիան";
+"onfido_video_intro_button_play_accessibility" = "Նվագարկեք սկանավորման ընթացակարգի պարզապես անիմացիան";
 "onfido_country_select_list_header_all" = "Բոլոր երկրները";
 "onfido_doc_capture_alert_manual_capture_detail" = "Հավասարեցրեք փաստաթուղթը, ապա սեղմեք կոճակը";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Դա կարող է տևել մի քանի րոպե";
 /* Welcome */
 "onfido_welcome_title" = "Հաստատեք ձեր ինքնությունը";
-"onfido_app_title_doc_confirmation" = "Հաստատեք ձեր ինքնությունը";
-"onfido_app_title_selfie_confirmation" = "Հաստատեք ձեր ինքնությունը";
 "onfido_app_title_nfc_select" = "Հաստատեք ձեր ինքնությունը";
 "onfido_app_title_nfc_intro" = "Հաստատեք ձեր ինքնությունը";
 "onfido_app_title_nfc_fail" = "Հաստատեք ձեր ինքնությունը";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Հաստատեք ձեր ինքնությունը";
 "onfido_app_title_country_select" = "Ընտրեք թողարկող երկիրը";
-"onfido_app_title_selfie_intro" = "Հաստատեք ձեր ինքնությունը";
-"onfido_app_title_video_intro" = "Հաստատեք ձեր ինքնությունը";
-"onfido_app_title_permission" = "Հաստատեք ձեր ինքնությունը";
-"onfido_app_title_video_confirmation" = "Հաստատեք ձեր ինքնությունը";
 "onfido_video_capture_alert_wrong_side" = "Սխալ կողմ";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Սկանավորեք ձեր անձնագրի չիպը";
 "onfido_nfc_intro_subtitle_passport" = "Օգտագործեք ձեր հեռախոսը ձեր անձնագրի չիպը սկանավորելու համար";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Հարթ մակերեսի վրա դնեք ձեր բացված անձնագիրը";
 "onfido_nfc_intro_passport_scan_guide_2" = "Տեղադրեք ձեր հեռախոսը ձեր անձնագրի վրա։ Չիպը գտնելու համար ձեզ կարող է պետք լինել ձեր հեռախոսը ձեր անձնագրի վրա վերև-ներև սահմանել։";
 "onfido_nfc_intro_passport_scan_guide_3" = "Երբ չիպը հայտնաբերվում է, պահեք ձեր հեռախոսը և անձնագիրը անշարժ։";
 "onfido_nfc_intro_passport_scan_guide_4" = "Սկանավորումը սկսվելուն պես՝ պահեք ձեր մարմինը անշարժ";
-
 "onfido_nfc_intro_button_primary_passport" = "Սկսել սկանավորումը";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Հեռախոսը դրեք ձեր անձնագրի դեմ։ Ձեզ կարող է պետք լինել ձեր հեռախոսը դանդաղ սահմանել ձեր անձնագրի դեմ։";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Սկանավորվում է․․․";
-
-"onfido_nfc_intro_title_card" = "Սկանավորեք ձեր NFC քարտը";
+"onfido_nfc_intro_title_card" = "Սկանավորեք ձեր փաստաթղթի չիպը";
 "onfido_nfc_intro_subtitle_card" = "Հեռախոսը դրեք քարտի վրա և պահեք այն հեռախոսի վերևի մասին մոտ";
 "onfido_nfc_intro_button_primary_card" = "Սկսել սկանավորումը";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Հեռախոսը դրեք քարտի վրա";
-
-"onfido_nfc_fail_title_passport" = "Մեզ չհաջողվեց սկանավորել ձեր անձնագիրը";
-"onfido_nfc_fail_title_card" = "Չհաջողվեց սկանավորել ձեր NFC քարտը";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Հեռացրեք ձեր անձնագրի շապիկը";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Դրեք ձեր անձնագիրը հարթ մակերեսի վրա";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Հեռախոսը դրեք ձեր անձնագրի մեջտեղի մասին մոտ";
 "onfido_nfc_intro_carousel_body_last_page" = "Կարող եք փորձել նաև հետևի էջի ներսի կողմը";
 "onfido_nfc_intro_carousel_body_dont_move" = "Սկանավորման ընթացքում մի շարժեք ձեր հեռախոսը կամ անձնագիրը";
 
+"onfido_nfc_fail_title_passport" = "Մեզ չհաջողվեց սկանավորել ձեր անձնագիրը";
+"onfido_nfc_fail_title_card" = "Չհաջողվեց սկանավորել ձեր NFC քարտը";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Հանեք անձնագրի և հեռախոսի կազմերը";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Ձեր հեռախոսն ու անձնագիրը պահեք կոնտակտի մեջ, մինչև սկանավորումը հաջողությամբ ավարտվի";
 "onfido_nfc_fail_button_primary_passport" = "Սկսել սկանավորումը";
 "onfido_nfc_fail_button_secondary_passport" = "Անցեք նույնականացում առանց սկանավորման";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Հանեք ձեր հեռախոսի պատյանը";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Ձեր հեռախոսն ու քարտը իրար մոտիկ պահեք, մինչև սկանավորումը հաջողությամբ ավարտվի";
 "onfido_nfc_fail_button_primary_card" = "Սկսել սկանավորումը";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Հաստատեք ձեր ինքնությունը";
 "onfido_user_consent_prompt_no_consent_title" = "Վստա՞հ եք։";
 "onfido_user_consent_prompt_no_consent_detail" = "Եթե դուք չեք ընդունում Onfido-ի գաղտնիության հայտարարությունները և ծառայությունների մատուցման պայմանները, մենք չենք կարող հաստատել ձեր ինքնությունը, և դուք այս քայլից դուրս կգաք։";
 "onfido_user_consent_prompt_button_secondary" = "Կրկին ստուգել";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Հաստատեք ձեր ինքնությունը";
 "onfido_user_consent_load_fail_title" = "Չհաջողվեց բեռնել պարունակությունը";
 "onfido_user_consent_load_fail_detail" = "Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք";
 "onfido_user_consent_load_fail_button_primary" = "Կրկին բեռնել էկրանը";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Հեռախոսը դրեք ձեր անձնագրի մեջտեղի մասին մոտ";
 "onfido_avc_intro_title_accessibility" = "Տեսագրեք ձեր դեմքը";
 "onfido_avc_intro_video_accessibility" = "Տեսանյութի օրինակ, որտեղ ինչ-որ մեկը գլուխը շրջում է երկու կողմ մինչ ավարտը";
 "onfido_avc_face_capture_frame_accessibility" = "Սելֆիի խցիկից երևացող պատկեր։";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
-
 "onfido_doc_capture_alert_too_close_title" = "Հեռացեք";
 "onfido_doc_capture_alert_rotated_title" = "Պտտեցնել ձեր փաստաթուղթը";
 "onfido_doc_capture_alert_too_far_title" = "Մոտեցեք";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Պահեք փաստաթուղթը ուղիղ";
 "onfido_doc_capture_header_recording_video" = "Տեսանյութի գրանցում";
 "onfido_doc_capture_header_recording_complete" = "Տեսագրումն ավարտված է";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Պատկերանման հայտնաբերում";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Փորձեք ձեռքով վիդեո գրանցել";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "էկրանի լուսանկարը հայտնաբերվել է";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Օգտագործեք ձեր սկզբնական փաստաթուղթը։ Էկրանի լուսանկարները կամ ֆոտոկոպիաները չեն ընդունվում:";
 
 "onfido_interactive_task_waiting_title_1" = "Ստուգում ենք պատկերի որակը․․․";
-"onfido_interactive_task_waiting_title_2" = "Նկարը բեռնվում է...";
-"onfido_interactive_task_waiting_title_3" = "Վիդեոն բեռնվում է․․․";
-"onfido_interactive_task_waiting_title_4" = "Ստուգում ենք տվյալների որակը․․․";
 "onfido_interactive_task_waiting_subtitle_1" = "Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Տվյալների կոմպիլյացիա...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Կարծես, դուք չկարողացաք ստեղծել անցաբառ։ Վերադառնաք վերսկսելու կամ շարունակեք ամբողջ գործընթացը։";
 "onfido_sid_register_error_button" = "Վերադառնալ";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Ներկայացրեք համացանցման կամ վարձակալության վկայական";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Համոզվեք, որ դուք վերբեռնել եք ամբողջ փաստաթուղթի էջը, եւ մանրամասները հասկանալի են առանց մոխրամասների կամ պայծառության";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Նախընտրած արդյունքների համար տրամադրեք ամբողջ փաստաթուղթի էջը";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Տնային կամ վարձակալության վկայական";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Տեղակայված է պետական իշխանության կամ կորպորատիվ տնակալի կողմից որպես վարձակալության հաստատում:";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Ենթավարձման պայմանագրերը չեն ընդունվում";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Ենթավարձման պայմանագրերը չեն ընդունվում";
 "onfido_generic_alert_parsing_error_label" = "Վերլուծման սխալ";
 "onfido_generic_error_parsing_detail" = "Պարսինգի սխալ է տեղի ունեցել։ Խնդրում ենք կրկին փորձել։";

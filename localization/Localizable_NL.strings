@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Gezicht gedetecteerd. Opname is begonnen.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Voorbeeldvideo van iemand die een selfiefilmpje maakt. Om een selfiefilmpje op te nemen, kijkt u naar de camera en houdt u uw telefoon een stukje van uw gezicht vandaan. U moet vervolgens een aantal getallen opnoemen en uw hoofd draaien volgens de instructies op het scherm.";
-"onfido_video_intro_button_pause_accessibility" = "Filmpje pauzeren";
-"onfido_video_intro_button_play_accessibility" = "Filmpje afspelen";
+"onfido_video_intro_button_pause_accessibility" = "Pauzeer illustratieve animatie van scanprocedure";
+"onfido_video_intro_button_play_accessibility" = "Speel illustratieve animatie van scanprocedure af";
 "onfido_country_select_list_header_all" = "Alle landen";
 "onfido_doc_capture_alert_manual_capture_detail" = "Lijn het document uit en druk op de knop";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Dat duurt maar een paar minuten";
 /* Welcome */
 "onfido_welcome_title" = "Verifieer uw identiteit";
-"onfido_app_title_doc_confirmation" = "Verifieer uw identiteit";
-"onfido_app_title_selfie_confirmation" = "Verifieer uw identiteit";
 "onfido_app_title_nfc_select" = "Verifieer uw identiteit";
 "onfido_app_title_nfc_intro" = "Verifieer uw identiteit";
 "onfido_app_title_nfc_fail" = "Verifieer uw identiteit";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Verifieer uw identiteit";
 "onfido_app_title_country_select" = "Selecteer land van uitgifte";
-"onfido_app_title_selfie_intro" = "Verifieer uw identiteit";
-"onfido_app_title_video_intro" = "Verifieer uw identiteit";
-"onfido_app_title_permission" = "Verifieer uw identiteit";
-"onfido_app_title_video_confirmation" = "Verifieer uw identiteit";
 "onfido_video_capture_alert_wrong_side" = "Verkeerde kant";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Scan de chip van uw paspoort";
 "onfido_nfc_intro_subtitle_passport" = "Gebruik uw telefoon om de chip in uw paspoort te scannen";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Leg uw paspoort open op een vlakke ondergrond";
 "onfido_nfc_intro_passport_scan_guide_2" = "Leg uw telefoon tegen uw paspoort. Om de chip te vinden, moet u mogelijk uw telefoon op en neer schuiven tegen uw paspoort.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Zodra de chip is gedetecteerd, houd uw telefoon en paspoort stil.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Zodra de scan begint, blijf stil zodat de scan kan voltooien";
-
 "onfido_nfc_intro_button_primary_passport" = "Start met scannen";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Leg uw telefoon tegen uw paspoort. U moet mogelijk uw telefoon langzaam over uw paspoort schuiven.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Bezig met scannen...";
-
-"onfido_nfc_intro_title_card" = "Scan uw NFC-kaart";
+"onfido_nfc_intro_title_card" = "Scan de chip van uw document";
 "onfido_nfc_intro_subtitle_card" = "Plaats uw telefoon op de kaart en houd deze bij de bovenkant van uw telefoon";
 "onfido_nfc_intro_button_primary_card" = "Start met scannen";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Plaats uw telefoon op de kaart";
-
-"onfido_nfc_fail_title_passport" = "We konden uw paspoort niet scannen";
-"onfido_nfc_fail_title_card" = "We konden uw NFC-kaart niet scannen";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Verwijder uw paspoorthoes";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Leg uw paspoort op een plat oppervlak";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Leg uw telefoon ter hoogte van het midden van uw paspoort";
 "onfido_nfc_intro_carousel_body_last_page" = "U kunt ook de binnenkant van de achterpagina proberen";
 "onfido_nfc_intro_carousel_body_dont_move" = "Beweeg uw telefoon of paspoort tijdens het scannen niet";
 
+"onfido_nfc_fail_title_passport" = "We konden uw paspoort niet scannen";
+"onfido_nfc_fail_title_card" = "We konden uw NFC-kaart niet scannen";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Verwijder de hoesjes van uw telefoon en paspoort";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Houd uw telefoon en paspoort bij elkaar tot het scannen is voltooid";
 "onfido_nfc_fail_button_primary_passport" = "Start scan";
 "onfido_nfc_fail_button_secondary_passport" = "Verifiëren zonder scan";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Verwijder uw telefoonhoesje";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Houd uw telefoon en kaart bij elkaar tot het scannen is voltooid";
 "onfido_nfc_fail_button_primary_card" = "Start scan";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verifieer uw identiteit";
 "onfido_user_consent_prompt_no_consent_title" = "Weet u het zeker?";
 "onfido_user_consent_prompt_no_consent_detail" = "Als u de privacyverklaringen en de servicevoorwaarden van Onfido niet accepteert, kunnen we uw identiteit niet verifiëren en zult u deze stap verlaten.";
 "onfido_user_consent_prompt_button_secondary" = "Controleer opniew";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verifieer uw identiteit";
 "onfido_user_consent_load_fail_title" = "Inhoud laden mislukt";
 "onfido_user_consent_load_fail_detail" = "Controleer of u een stabiele verbinding heeft en probeer het daarna opnieuw";
 "onfido_user_consent_load_fail_button_primary" = "Scherm opnieuw laden";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Weergeven vanaf camera. Plaats de buitenste pagina's van uw document in het kader en tik vervolgens op de sluiter";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Weergeven vanaf camera. Plaats de fotozijde van uw document in het kader en tik vervolgens op de sluiter";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Weergeven vanaf camera. Plaats de buitenste pagina's van uw document in het kader en tik vervolgens op de sluiter";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Leg uw telefoon ter hoogte van het midden van uw paspoort";
 "onfido_avc_intro_title_accessibility" = "Maak een fimpje van uw gezicht";
 "onfido_avc_intro_video_accessibility" = "Voorbeeldfilmpje van iemand die zijn/haar hoofd naar beide kanten draait totdat hij/zij klaar is";
 "onfido_avc_face_capture_frame_accessibility" = "Weergave vanaf selfiecamera";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Houd uw apparaat en document in contact totdat het scannen is gelukt";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Start scan";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Word geverifieerd zonder NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Ga naar achteren";
 "onfido_doc_capture_alert_rotated_title" = "Draai uw document";
 "onfido_doc_capture_alert_too_far_title" = "Kom dichterbij";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Houd het document recht";
 "onfido_doc_capture_header_recording_video" = "Video opnemen";
 "onfido_doc_capture_header_recording_complete" = "Opname voltooid";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Schermafbeelding gedetecteerd";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Probeer handmatig video op te nemen";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto van scherm gedetecteerd";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Gebruik alstublieft uw originele document. Foto's van schermen of fotokopieën worden niet geaccepteerd";
 
 "onfido_interactive_task_waiting_title_1" = "Beeldkwaliteit controleren...";
-"onfido_interactive_task_waiting_title_2" = "Afbeelding uploaden...";
-"onfido_interactive_task_waiting_title_3" = "Video uploaden...";
-"onfido_interactive_task_waiting_title_4" = "Controleren van datakwaliteit...";
 "onfido_interactive_task_waiting_subtitle_1" = "Wacht alstublieft nog even, de taak is bijna voltooid.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Gegevens aan het compileren...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "We zijn de verzamelde gegevens aan het compileren, even geduld aub.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Het lijkt erop dat u geen toegangscode kon aanmaken. Ga terug om het opnieuw te proberen of ga verder met het voltooien van het proces.";
 "onfido_sid_register_error_button" = "Ga terug";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Indienen Accommodatie of Huurcertificaat";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Zorg ervoor dat u de volledige documentpagina heeft geüpload, en dat de details duidelijk leesbaar zijn zonder wazigheid of schittering";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Geef de hele documentpagina voor de beste resultaten";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Bewijs van Accommodatie of Huurovereenkomst";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Uitgegeven door overheidsinstantie of zakelijke verhuurder als bevestiging van de huur.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Onderverhuurovereenkomsten worden niet geaccepteerd";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Onderhuurovereenkomsten worden niet geaccepteerd";
 "onfido_generic_alert_parsing_error_label" = "Fout bij het parsen";
 "onfido_generic_error_parsing_detail" = "Er was een parseerfout. Probeer het opnieuw.";

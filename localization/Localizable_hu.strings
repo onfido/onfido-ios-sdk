@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Arc érzékelve. A felvétel elindult.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Példavideó szelfivideó készítéséről. Szelfi-videófelvétel készítéséhez nézzen az elülső kamerába, és tartsa kissé távol a telefont az arcától. Ezután ki kell mondania néhány számot, majd elfordítania a fejét a képernyőn megjelenő utasításoknak megfelelően.";
-"onfido_video_intro_button_pause_accessibility" = "Videó szüneteltetése";
-"onfido_video_intro_button_play_accessibility" = "Videó lejátszása";
+"onfido_video_intro_button_pause_accessibility" = "A beolvasási eljárás illusztratív animációjának szüneteltetése";
+"onfido_video_intro_button_play_accessibility" = "A beolvasási eljárás szemléltető animációjának lejátszása";
 "onfido_country_select_list_header_all" = "Összes ország";
 "onfido_doc_capture_alert_manual_capture_detail" = "Igazítsa el a dokumentumot, majd nyomja meg a gombot";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Pár percet vesz igénybe";
 /* Welcome */
 "onfido_welcome_title" = "Igazolja személyazonosságát";
-"onfido_app_title_doc_confirmation" = "Igazolja személyazonosságát";
-"onfido_app_title_selfie_confirmation" = "Igazolja személyazonosságát";
 "onfido_app_title_nfc_select" = "Igazolja személyazonosságát";
 "onfido_app_title_nfc_intro" = "Igazolja személyazonosságát";
 "onfido_app_title_nfc_fail" = "Igazolja személyazonosságát";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Igazolja személyazonosságát";
 "onfido_app_title_country_select" = "Kibocsátó ország kiválasztása";
-"onfido_app_title_selfie_intro" = "Igazolja személyazonosságát";
-"onfido_app_title_video_intro" = "Igazolja személyazonosságát";
-"onfido_app_title_permission" = "Igazolja személyazonosságát";
-"onfido_app_title_video_confirmation" = "Igazolja személyazonosságát";
 "onfido_video_capture_alert_wrong_side" = "Rossz oldal";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Olvassa le az útlevelének chipjét";
 "onfido_nfc_intro_subtitle_passport" = "Használja a telefonját az útlevelében található chip beolvasásához";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Helyezze le nyitott útlevelét egy sík felületre";
 "onfido_nfc_intro_passport_scan_guide_2" = "Helyezze a telefonját az útlevelére. A chip megtalálásához lehet, hogy fel-le kell csúsztatnia a telefonját az útlevelén.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Amint a chipet felismeri, tartsa mozdulatlanul a telefonját és az útlevelét.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen";
-
 "onfido_nfc_intro_button_primary_passport" = "Szkennelés indítása";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Helyezze a telefonját az útleveléhez. Lehet, hogy lassan kell végighúznia a telefonját az útlevelén.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Beolvasás…";
-
-"onfido_nfc_intro_title_card" = "NFC-kártya beolvasása";
+"onfido_nfc_intro_title_card" = "Olvasd be a dokumentumod chipjét";
 "onfido_nfc_intro_subtitle_card" = "Helyezze a telefont a kártyára, és tartsa a telefon tetejének közelében";
 "onfido_nfc_intro_button_primary_card" = "Szkennelés indítása";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Helyezze a telefont a kártyára";
-
-"onfido_nfc_fail_title_passport" = "Nem tudtuk beolvasni az útlevelét";
-"onfido_nfc_fail_title_card" = "Nem sikerült beolvasni az NFC-kártyát";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Távolítsd el az útleveled borítóját";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Fektesse az útlevelét egy sima felületre";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Helyezze a telefonját útlevele középső része közelébe";
 "onfido_nfc_intro_carousel_body_last_page" = "A hátlap belső oldalával is próbálkozhat";
 "onfido_nfc_intro_carousel_body_dont_move" = "Szkennelés közben ne mozgassa a telefont és az útlevelet";
 
+"onfido_nfc_fail_title_passport" = "Nem tudtuk beolvasni az útlevelét";
+"onfido_nfc_fail_title_card" = "Nem sikerült beolvasni az NFC-kártyát";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Távolítsa el az útlevél- és telefonborítót";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "A beolvasás végéig tartsa a telefont az útlevél felett";
 "onfido_nfc_fail_button_primary_passport" = "Beolvasás indítása";
 "onfido_nfc_fail_button_secondary_passport" = "Igazolja személyazonosságát beolvasás nélkül";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Távolítsa el a telefon tokját";
 "onfido_nfc_fail_list_item_keep_contact_card" = "A beolvasás végéig tartsa egymáson a telefont és a kártyát";
 "onfido_nfc_fail_button_primary_card" = "Beolvasás indítása";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Igazolja személyazonosságát";
 "onfido_user_consent_prompt_no_consent_title" = "Biztos benne?";
 "onfido_user_consent_prompt_no_consent_detail" = "Ha nem fogadja el az Onfido adatvédelmi nyilatkozatát és szolgáltatási feltételeit, nem tudjuk ellenőrizni személyazonosságát, és kilép ebből a lépésből.";
 "onfido_user_consent_prompt_button_secondary" = "Ismételt ellenőrzés";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Igazolja személyazonosságát";
 "onfido_user_consent_load_fail_title" = "A tartalmat nem sikerült betölteni";
 "onfido_user_consent_load_fail_detail" = "Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra";
 "onfido_user_consent_load_fail_button_primary" = "Képernyő újratöltése";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Kamera képe. Helyezze a dokumentum fényképes oldalát a keretbe, majd koppintson az exponáló gombra";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Kamera képe. Helyezze a dokumentum borítólapjait a keretbe, majd koppintson az exponáló gombra";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Helyezze a telefonját útlevele középső része közelébe";
 "onfido_avc_intro_title_accessibility" = "Készítsen videófelvételt az arcáról";
 "onfido_avc_intro_video_accessibility" = "Példavideó, amelyen valaki mindkét oldalra elfordítja a fejét a befejezésig";
 "onfido_avc_face_capture_frame_accessibility" = "Szelfikamera képe";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "A beolvasás végéig tartsa egymáson a telefont és a dokumentumot";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Beolvasás indítása";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Ellenőrzés NFC nélkül";
-
 "onfido_doc_capture_alert_too_close_title" = "Távolodjon";
 "onfido_doc_capture_alert_rotated_title" = "Forgassa el a dokumentumot";
 "onfido_doc_capture_alert_too_far_title" = "Közelítsen";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Kérjük, az eredeti dokumentumot használja. A képernyőfotók vagy fénymásolatok nem megfelelőek.";
 
 "onfido_interactive_task_waiting_title_1" = "Képminőség ellenőrzése...";
-"onfido_interactive_task_waiting_title_2" = "Kép feltöltése...";
-"onfido_interactive_task_waiting_title_3" = "Videó feltöltése...";
-"onfido_interactive_task_waiting_title_4" = "Az adatminőség ellenőrzése...";
 "onfido_interactive_task_waiting_subtitle_1" = "Kérjük, várjon egy kicsit tovább, hogy a folyamat befejeződjön.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Adatok összegyűjtése...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Összeállítjuk a gyűjtött adatokat, kérjük várjon.";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Úgy látszik, nem sikerült jelszót létrehoznia. Térjen vissza az újrapróbálkozáshoz, vagy folytassa a folyamat befejezéséig.";
 "onfido_sid_register_error_button" = "Vissza";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Szállás vagy Bérleti Szerződés Beküldése";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Ellenőrizze, hogy a teljes dokumentum oldalt feltöltötte-e, és az információk világosan olvashatóak-e, nincs-e elmosódás vagy fényvisszaverődés";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "A legjobb eredmények érdekében adja meg a teljes dokumentum oldalt";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Szállás vagy Bérleti Igazolás";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Kiadva kormányzati hatóság vagy vállalati bérbeadó által, mint bérleti megerősítés.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Albérleti szerződések nem elfogadottak";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Albérleti szerződések nem elfogadottak";
 "onfido_generic_alert_parsing_error_label" = "Értelmezési hiba";
 "onfido_generic_error_parsing_detail" = "Értelmezési hiba történt. Kérjük, próbálja újra.";
