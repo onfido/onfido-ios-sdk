@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Ansigtet er detekteret. Optagelsen er startet.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Videoeksempel på en person, der optager en selfie-video. Du skal vende ansigtet mod frontkameraet og holde telefonen lidt væk fra dit ansigt for at optage en selfie-video. Derefter skal du sige nogle tal højt og dreje hovedet i henhold til anvisningerne på skærmen.";
-"onfido_video_intro_button_pause_accessibility" = "Sæt videoen på pause";
-"onfido_video_intro_button_play_accessibility" = "Afspil video";
+"onfido_video_intro_button_pause_accessibility" = "Pause illustrativ animation af scanning procedure";
+"onfido_video_intro_button_play_accessibility" = "Afspil illustrativ animation af scanning procedure";
 "onfido_country_select_list_header_all" = "Alle lande";
 "onfido_doc_capture_alert_manual_capture_detail" = "Juster dokumentet, og tryk derefter på knappen";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Det tager nok et par minutter";
 /* Welcome */
 "onfido_welcome_title" = "Verificer din identitet";
-"onfido_app_title_doc_confirmation" = "Verificer din identitet";
-"onfido_app_title_selfie_confirmation" = "Verificer din identitet";
 "onfido_app_title_nfc_select" = "Verificer din identitet";
 "onfido_app_title_nfc_intro" = "Verificer din identitet";
 "onfido_app_title_nfc_fail" = "Verificer din identitet";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Verificer din identitet";
 "onfido_app_title_country_select" = "Vælg udstedende land";
-"onfido_app_title_selfie_intro" = "Verificer din identitet";
-"onfido_app_title_video_intro" = "Verificer din identitet";
-"onfido_app_title_permission" = "Verificer din identitet";
-"onfido_app_title_video_confirmation" = "Verificer din identitet";
 "onfido_video_capture_alert_wrong_side" = "Forkert side";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Scan chippen i dit pas";
 "onfido_nfc_intro_subtitle_passport" = "Brug din telefon til at scanne chippen i dit pas";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Læg dit pas åbent på en flad overflade";
 "onfido_nfc_intro_passport_scan_guide_2" = "Placer din telefon mod dit pas. For at finde chippen, skal du muligvis glide din telefon op og ned mod dit pas.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Når chippen er registreret, skal du holde din telefon og dit pas stille.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
-
 "onfido_nfc_intro_button_primary_passport" = "Start scanning";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placer din telefon mod dit pas. Du skal muligvis langsomt glide din telefon mod dit pas.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Scanner...";
-
-"onfido_nfc_intro_title_card" = "Scan dit NFC-kort";
+"onfido_nfc_intro_title_card" = "Scan chippen på dit dokument";
 "onfido_nfc_intro_subtitle_card" = "Placer din telefon på kortet, og hold den tæt på den øverste del af din telefon";
 "onfido_nfc_intro_button_primary_card" = "Start scanning";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Placer din telefon på kortet";
-
-"onfido_nfc_fail_title_passport" = "Vi kan ikke scanne dit pas";
-"onfido_nfc_fail_title_card" = "Vi kunne ikke scanne dit NFC-kort";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Fjern din pasdækning";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Læg dit pas på en plan overflade";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Placer din telefon i nærheden af midten af passet";
 "onfido_nfc_intro_carousel_body_last_page" = "Du kan også prøve indersiden af bagsiden";
 "onfido_nfc_intro_carousel_body_dont_move" = "Du må ikke flytte din telefon eller dit pas, mens du scanner";
 
+"onfido_nfc_fail_title_passport" = "Vi kan ikke scanne dit pas";
+"onfido_nfc_fail_title_card" = "Vi kunne ikke scanne dit NFC-kort";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Fjern dit pas og dine telefonetuier";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Sørg for, at din telefon og dit pas er i berøring, indtil scanningen er gennemført";
 "onfido_nfc_fail_button_primary_passport" = "Start scanning";
 "onfido_nfc_fail_button_secondary_passport" = "Bliv verificeret uden scanning";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Fjern dit telefonetui";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Sørg for, at din telefon og dit kort er i berøring, indtil scanningen er gennemført";
 "onfido_nfc_fail_button_primary_card" = "Start scanning";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verificer din identitet";
 "onfido_user_consent_prompt_no_consent_title" = "Er du sikker?";
 "onfido_user_consent_prompt_no_consent_detail" = "Hvis du ikke accepterer Onfidos fortrolighedserklæringer og servicevilkår, kan vi ikke verificere din identitet, og du forlader derefter dette trin.";
 "onfido_user_consent_prompt_button_secondary" = "Gennemgå igen";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verificer din identitet";
 "onfido_user_consent_load_fail_title" = "Indholdet kan ikke indlæses";
 "onfido_user_consent_load_fail_detail" = "Tjek, at din forbindelse er stabil, og prøv igen";
 "onfido_user_consent_load_fail_button_primary" = "Genindlæs siden";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Visning fra kameraet. Placer dit dokuments ydersider inden for rammen, og tryk derefter på udløserknappen";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Visning fra kameraet. Placer dit dokuments side med billedet inden for rammen, og tryk derefter på udløserknappen";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Visning fra kameraet. Placer dit dokuments ydersider inden for rammen, og tryk derefter på udløserknappen";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placer din telefon i nærheden af midten af passet";
 "onfido_avc_intro_title_accessibility" = "Optag en video af dit ansigt";
 "onfido_avc_intro_video_accessibility" = "Videoeksempel på en person, der drejer hovedet til begge sider indtil handlingen er fuldført";
 "onfido_avc_face_capture_frame_accessibility" = "Visning fra selfie-kameraet";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Hold din enhed og dokument i kontakt, indtil scanningen er vellykket";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Start scanning";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Bliv bekræftet uden NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Flyt tilbage";
 "onfido_doc_capture_alert_rotated_title" = "Roter dit dokument";
 "onfido_doc_capture_alert_too_far_title" = "Flyt tættere på";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Brug venligst dit originale dokument. Fotos af skærm eller fotokopier accepteres ikke";
 
 "onfido_interactive_task_waiting_title_1" = "Kontrollerer billedkvalitet...";
-"onfido_interactive_task_waiting_title_2" = "Uploader billede...";
-"onfido_interactive_task_waiting_title_3" = "Uploader video...";
-"onfido_interactive_task_waiting_title_4" = "Kontrollerer datakvalitet...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vent venligst lidt længere, indtil opgaven er færdig.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi samler de indsamlede data, vent venligst.";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Det ser ud til, at du ikke kunne oprette en adgangskode. Gå tilbage for at prøve igen eller fortsæt til den fulde proces.";
 "onfido_sid_register_error_button" = "Gå tilbage";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Indsend beboelses- eller lejekontrakt";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Sørg for, at du har uploadet hele dokumentets side, og detaljerne er klare til at læse uden sløring eller blænding";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Lever hele dokumentets side for de bedste resultater";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Bolig- eller lejekontrakt";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Udstedt af offentlig myndighed eller virksomhedsejer som lejebekræftelse.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Underlejeaftaler accepteres ikke";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Underlejeaftaler accepteres ikke";
 "onfido_generic_alert_parsing_error_label" = "Fortolkningsfejl";
 "onfido_generic_error_parsing_detail" = "Der opstod en fortolkningsfejl. Prøv igen.";

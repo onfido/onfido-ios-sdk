@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Bola zistená tvár. Zaznamenávanie sa začalo.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Príklad videa niekoho, kto zaznamenáva selfie video. Ak chcete zaznamenať selfie video, otočte sa tvárou k prednému fotoaparátu a držte telefón mierne vzdialený od tváre. Potom budete musieť vysloviť určité čísla a otočiť hlavu podľa pokynov na obrazovke.";
-"onfido_video_intro_button_pause_accessibility" = "Pozastaviť video";
-"onfido_video_intro_button_play_accessibility" = "Prehrať video";
+"onfido_video_intro_button_pause_accessibility" = "Pozastaviť ilustračnú animáciu skenovacieho postupu";
+"onfido_video_intro_button_play_accessibility" = "Spustiť ilustračnú animáciu skenovacieho postupu";
 "onfido_country_select_list_header_all" = "Všetky krajiny";
 "onfido_doc_capture_alert_manual_capture_detail" = "Zarovnajte doklad a potom stlačte tlačidlo";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Malo by to trvať niekoľko minút";
 /* Welcome */
 "onfido_welcome_title" = "Overte svoju totožnosť";
-"onfido_app_title_doc_confirmation" = "Overte svoju totožnosť";
-"onfido_app_title_selfie_confirmation" = "Overte svoju totožnosť";
 "onfido_app_title_nfc_select" = "Overte svoju totožnosť";
 "onfido_app_title_nfc_intro" = "Overte svoju totožnosť";
 "onfido_app_title_nfc_fail" = "Overte svoju totožnosť";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Overte svoju totožnosť";
 "onfido_app_title_country_select" = "Vyberte vydávajúcu krajinu";
-"onfido_app_title_selfie_intro" = "Overte svoju totožnosť";
-"onfido_app_title_video_intro" = "Overte svoju totožnosť";
-"onfido_app_title_permission" = "Overte svoju totožnosť";
-"onfido_app_title_video_confirmation" = "Overte svoju totožnosť";
 "onfido_video_capture_alert_wrong_side" = "Nesprávna strana";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Naskenujte čip vo vašom pase";
 "onfido_nfc_intro_subtitle_passport" = "Použite svoj telefón na skenovanie čipu vo vašom cestovnom pase";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Položte svoj pas otvorený na rovný povrch";
 "onfido_nfc_intro_passport_scan_guide_2" = "Priložte telefón k pasu. Na lokalizáciu čipu môžete potrebovať posúvať telefón hore a dole po pase.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Ak sa čip detekuje, udržiavajte telefón a pas stále v kontakte.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Akonáhle sa začne skenovanie, nehýbte sa, aby mohlo byť skenovanie dokončené";
-
 "onfido_nfc_intro_button_primary_passport" = "Spustiť skenovanie";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Priložte telefón k pasu. Možno budete musieť pomaly posúvať telefón po pase.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Skenuje sa…";
-
-"onfido_nfc_intro_title_card" = "Naskenujte preukaz s NFC";
+"onfido_nfc_intro_title_card" = "Naskenujte čip na vašom doklade";
 "onfido_nfc_intro_subtitle_card" = "Umiestnite telefón na preukaz a ten držte blízko hornej časti telefónu";
 "onfido_nfc_intro_button_primary_card" = "Spustiť skenovanie";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Umiestnite telefón na preukaz";
-
-"onfido_nfc_fail_title_passport" = "Nepodarilo sa naskenovať váš pas";
-"onfido_nfc_fail_title_card" = "Nepodarilo sa naskenovať váš preukaz s NFC";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Odstráňte kryt pasu";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Umiestnite pas na rovný povrch";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Umiestnite telefón do blízkosti strednej časti pasu";
 "onfido_nfc_intro_carousel_body_last_page" = "Môžete vyskúšať aj vnútornú stranu zadnej stránky";
 "onfido_nfc_intro_carousel_body_dont_move" = "Počas skenovania nehýbte telefónom ani pasom";
 
+"onfido_nfc_fail_title_passport" = "Nepodarilo sa naskenovať váš pas";
+"onfido_nfc_fail_title_card" = "Nepodarilo sa naskenovať váš preukaz s NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Odstráňte obal pasu a kryt telefónu";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Udržiavajte telefón v kontakte s pasom, kým sa skenovanie úspešne neskončí";
 "onfido_nfc_fail_button_primary_passport" = "Spustiť skenovanie";
 "onfido_nfc_fail_button_secondary_passport" = "Vykonajte overenie bez skenovania";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Odstráňte kryt telefónu";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Udržiavajte telefón v kontakte s preukazom, kým sa skenovanie úspešne neskončí";
 "onfido_nfc_fail_button_primary_card" = "Spustiť skenovanie";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Overte svoju totožnosť";
 "onfido_user_consent_prompt_no_consent_title" = "Naozaj?";
 "onfido_user_consent_prompt_no_consent_detail" = "Ak nesúhlasíte s vyhláseniami o ochrane osobných údajov a zmluvnými podmienkami spoločnosti Onfido, nebudeme môcť overiť vašu totožnosť a tento krok sa ukončí.";
 "onfido_user_consent_prompt_button_secondary" = "Skontrolovať znova";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Overte svoju totožnosť";
 "onfido_user_consent_load_fail_title" = "Obsah sa nepodarilo načítať";
 "onfido_user_consent_load_fail_detail" = "Skontrolujte, či je vaše pripojenie stabilné, a potom to skúste znova";
 "onfido_user_consent_load_fail_button_primary" = "Znova načítať obrazovku";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Pohľad z fotoaparátu. Umiestnite stranu dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Umiestnite telefón do blízkosti strednej časti pasu";
 "onfido_avc_intro_title_accessibility" = "Zaznamenajte video svojej tváre";
 "onfido_avc_intro_video_accessibility" = "Príklad videa, na ktorom niekto otáča hlavu na obe strany až do dokončenia";
 "onfido_avc_face_capture_frame_accessibility" = "Pohľad zo selfie fotoaparátu";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Udržujte svoje zariadenie a dokument v kontakte, kým skenovanie nebude úspešné";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Spustiť skenovanie";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Overenie bez NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Posuňte sa ďalej";
 "onfido_doc_capture_alert_rotated_title" = "Otočte dokument";
 "onfido_doc_capture_alert_too_far_title" = "Posuňte sa bližšie";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Držte dokument rovno";
 "onfido_doc_capture_header_recording_video" = "Nahrávanie videa";
 "onfido_doc_capture_header_recording_complete" = "Zaznamenávanie je ukončené";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Detekovaná snímka obrazovky";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Skúste nahrávať video manuálne";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Fotografia obrazovky zaznamenaná";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Prosím, použite svoj pôvodný dokument. Fotografie obrazovky alebo fotokópie nie sú akceptované.";
 
 "onfido_interactive_task_waiting_title_1" = "Kontrola kvality obrázka...";
-"onfido_interactive_task_waiting_title_2" = "Nahrávanie obrázka...";
-"onfido_interactive_task_waiting_title_3" = "Nahrávanie videa...";
-"onfido_interactive_task_waiting_title_4" = "Kontrola kvality dát...";
 "onfido_interactive_task_waiting_subtitle_1" = "Prosím, počkajte ešte chvíľu, kým sa úloha dokončí.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilácia dát...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kompilujeme zhromaždené údaje, prosím počkajte.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Zdá sa, že sa vám nepodarilo vytvoriť heslo. Vráťte sa späť a skúste to znova alebo pokračujte v celom procese.";
 "onfido_sid_register_error_button" = "Vráťte sa späť";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Podajte Potvrdenie o ubytovaní alebo nájme";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Uistite sa, že ste nahrali celú stránku dokumentu a detaily sú jasne čitateľné bez rozmazania alebo odlesku";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Pre najlepšie výsledky poskytnite celú stránku dokumentu";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Potvrdenie o ubytovaní alebo nájme";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Vydané vládnym orgánom alebo korporátnym prenajímateľom ako potvrdenie prenájmu.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Podnájomné zmluvy nie sú akceptované";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Podnájomné zmluvy nie sú akceptované";
 "onfido_generic_alert_parsing_error_label" = "Chyba pri spracovaní";
 "onfido_generic_error_parsing_detail" = "Vyskytla sa chyba pri spracovaní. Skúste to prosím znova.";

@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "检测到面部。录制已开始。";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "某人录制自拍视频的示例视频。要录制自拍视频，请面向前置相机，将手机稍微远离面部。然后，您需要朗读一些数字，并根据屏幕上的说明转动头部。";
-"onfido_video_intro_button_pause_accessibility" = "暂停视频";
-"onfido_video_intro_button_play_accessibility" = "播放视频";
+"onfido_video_intro_button_pause_accessibility" = "暂停扫描程序的示意动画";
+"onfido_video_intro_button_play_accessibility" = "播放扫描程序的说明性动画";
 "onfido_country_select_list_header_all" = "全部国家/地区";
 "onfido_doc_capture_alert_manual_capture_detail" = "对齐证明文件，然后按下按钮";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "这应该会需要几分钟时间";
 /* Welcome */
 "onfido_welcome_title" = "验证您的身份";
-"onfido_app_title_doc_confirmation" = "验证您的身份";
-"onfido_app_title_selfie_confirmation" = "验证您的身份";
 "onfido_app_title_nfc_select" = "验证您的身份";
 "onfido_app_title_nfc_intro" = "验证您的身份";
 "onfido_app_title_nfc_fail" = "验证您的身份";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "验证您的身份";
 "onfido_app_title_country_select" = "选择签发国家/地区";
-"onfido_app_title_selfie_intro" = "验证您的身份";
-"onfido_app_title_video_intro" = "验证您的身份";
-"onfido_app_title_permission" = "验证您的身份";
-"onfido_app_title_video_confirmation" = "验证您的身份";
 "onfido_video_capture_alert_wrong_side" = "错误的一面";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "扫描您护照的芯片";
 "onfido_nfc_intro_subtitle_passport" = "使用您的手机扫描护照中的芯片";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "将您的护照打开放在平面上";
 "onfido_nfc_intro_passport_scan_guide_2" = "将手机放在护照上。要找到芯片，您可能需要在护照上上下滑动手机。";
 "onfido_nfc_intro_passport_scan_guide_3" = "一旦检测到芯片，保持手机和护照静止不动。";
 "onfido_nfc_intro_passport_scan_guide_4" = "一旦扫描开始，保持不动以便扫描能够完成";
-
 "onfido_nfc_intro_button_primary_passport" = "开始扫描";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "将手机放在护照上。您可能需要慢慢地滑动手机在护照上。";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "正在扫描......";
-
-"onfido_nfc_intro_title_card" = "扫描您的NFC身份证";
+"onfido_nfc_intro_title_card" = "扫描您的证件芯片";
 "onfido_nfc_intro_subtitle_card" = "将手机放在身份证上，并放在手机顶部附近";
 "onfido_nfc_intro_button_primary_card" = "开始扫描";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "将手机放在身份证上";
-
-"onfido_nfc_fail_title_passport" = "我们无法扫描您的护照";
-"onfido_nfc_fail_title_card" = "我们无法扫描您的NFC卡";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "取下护照保护套";
 "onfido_nfc_intro_carousel_body_lay_flat" = "将护照放在平坦的表面上";
 "onfido_nfc_intro_carousel_body_phone_middle" = "将手机放在护照中间附近";
 "onfido_nfc_intro_carousel_body_last_page" = "您也可以尝试背面的内侧";
 "onfido_nfc_intro_carousel_body_dont_move" = "扫描时请勿移动手机或护照";
 
+"onfido_nfc_fail_title_passport" = "我们无法扫描您的护照";
+"onfido_nfc_fail_title_card" = "我们无法扫描您的NFC卡";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "取下护照和手机保护套";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "保持手机和护照接触，直到扫描成功";
 "onfido_nfc_fail_button_primary_passport" = "开始扫描";
 "onfido_nfc_fail_button_secondary_passport" = "不用扫描获得验证";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "取下手机保护套";
 "onfido_nfc_fail_list_item_keep_contact_card" = "保持手机和身份证接触，直到扫描成功";
 "onfido_nfc_fail_button_primary_card" = "开始扫描";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "验证您的身份";
 "onfido_user_consent_prompt_no_consent_title" = "是否确定？";
 "onfido_user_consent_prompt_no_consent_detail" = "如果您不接受Onfido的隐私声明和服务条款，我们将无法验证您的身份，您将退出此步骤。";
 "onfido_user_consent_prompt_button_secondary" = "再次审核";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "验证您的身份";
 "onfido_user_consent_load_fail_title" = "内容加载失败";
 "onfido_user_consent_load_fail_detail" = "请检查连接是否稳定，然后重试";
 "onfido_user_consent_load_fail_button_primary" = "重新加载屏幕";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "在相机上查看。将证明文件的外页放在框中，然后轻触快门按钮";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "在相机上查看。将证明文件的照片一面放在框中，然后轻触快门按钮";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "在相机上查看。将证明文件的外页放在框中，然后轻触快门按钮";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "将手机放在护照中间附近";
 "onfido_avc_intro_title_accessibility" = "录制一段您面部的视频";
 "onfido_avc_intro_video_accessibility" = "将头转向两侧直到完成的视频示例";
 "onfido_avc_face_capture_frame_accessibility" = "在自拍相机上查看";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "保持您的设备和文档接触，直到扫描成功";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "开始扫描";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "不用NFC获得验证";
-
 "onfido_doc_capture_alert_too_close_title" = "退后";
 "onfido_doc_capture_alert_rotated_title" = "旋转文档";
 "onfido_doc_capture_alert_too_far_title" = "靠近";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "请使用您的原始文件。屏幕照片或复印件将不被接受";
 
 "onfido_interactive_task_waiting_title_1" = "正在检查图像质量...";
-"onfido_interactive_task_waiting_title_2" = "正在上传图片...";
-"onfido_interactive_task_waiting_title_3" = "正在上传视频...";
-"onfido_interactive_task_waiting_title_4" = "正在检查数据质量...";
 "onfido_interactive_task_waiting_subtitle_1" = "请稍微等待一下，让任务完成。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "正在编译数据...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "我们正在整理收集的数据，请等待。";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "看来您无法创建密码。返回重试或继续完成整个过程。";
 "onfido_sid_register_error_button" = "返回";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "提交住宿或租赁证明";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "确保您已上传整个文档页面，并且细节清晰可读，没有模糊或眩光";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "为了获得最佳结果，请提供整个文档页面";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "住宿或租赁证明";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "由政府机构或公司房东出具作为租赁确认。";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "不接受转租协议";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "不接受转租协议";
 "onfido_generic_alert_parsing_error_label" = "解析错误";
 "onfido_generic_error_parsing_detail" = "出现了解析错误。请再试一次。";

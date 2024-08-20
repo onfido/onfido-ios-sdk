@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Visage détecté. L'enregistrement a commencé.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Exemple de vidéo d'une personne enregistrant une vidéo selfie. Pour enregistrer une vidéo selfie, faites face à la caméra frontale et tenez votre téléphone légèrement éloigné de votre visage. Vous devrez ensuite réciter quelques chiffres et tourner la tête en suivant les instructions à l'écran.";
-"onfido_video_intro_button_pause_accessibility" = "Mettre la vidéo en pause";
-"onfido_video_intro_button_play_accessibility" = "Lire la vidéo";
+"onfido_video_intro_button_pause_accessibility" = "Pause de l'animation illustrative de la procédure de numérisation";
+"onfido_video_intro_button_play_accessibility" = "Jouer une animation illustrative de la procédure de numérisation";
 "onfido_country_select_list_header_all" = "Tous les pays";
 "onfido_doc_capture_alert_manual_capture_detail" = "Alignez le document, puis appuyer sur le bouton";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Cela devrait prendre quelques minutes";
 /* Welcome */
 "onfido_welcome_title" = "Vérifier votre identité";
-"onfido_app_title_doc_confirmation" = "Vérifier votre identité";
-"onfido_app_title_selfie_confirmation" = "Vérifier votre identité";
 "onfido_app_title_nfc_select" = "Vérifier votre identité";
 "onfido_app_title_nfc_intro" = "Vérifier votre identité";
 "onfido_app_title_nfc_fail" = "Vérifier votre identité";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Vérifier votre identité";
 "onfido_app_title_country_select" = "Sélectionner le pays d'émission";
-"onfido_app_title_selfie_intro" = "Vérifier votre identité";
-"onfido_app_title_video_intro" = "Vérifier votre identité";
-"onfido_app_title_permission" = "Vérifier votre identité";
-"onfido_app_title_video_confirmation" = "Vérifier votre identité";
 "onfido_video_capture_alert_wrong_side" = "Mauvais côté";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Numérisez la puce de votre passeport";
 "onfido_nfc_intro_subtitle_passport" = "Utilisez votre téléphone pour scanner la puce dans votre passeport";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Déposez votre passeport ouvert sur une surface plate";
 "onfido_nfc_intro_passport_scan_guide_2" = "Positionnez votre téléphone contre votre passeport. Pour localiser la puce, vous devrez peut-être faire glisser votre téléphone de haut en bas contre votre passeport.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Une fois la puce détectée, gardez votre téléphone et votre passeport immobiles.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer";
-
 "onfido_nfc_intro_button_primary_passport" = "Démarrer la numérisation";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placez votre téléphone contre votre passeport. Vous devrez peut-être faire glisser lentement votre téléphone contre votre passeport.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Numérisation en cours…";
-
-"onfido_nfc_intro_title_card" = "Numérisez votre carte NFC";
+"onfido_nfc_intro_title_card" = "Numérisez la puce de votre document";
 "onfido_nfc_intro_subtitle_card" = "Placez votre téléphone sur la carte et gardez-la près du haut de votre téléphone";
 "onfido_nfc_intro_button_primary_card" = "Démarrer la numérisation";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Placez votre téléphone sur la carte";
-
-"onfido_nfc_fail_title_passport" = "Impossible de numériser votre passeport";
-"onfido_nfc_fail_title_card" = "Impossible de balayer votre carte NFC";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Retirez votre cache-passeport";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Posez votre passeport sur une surface plane";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Positionnez votre téléphone près du milieu de votre passeport";
 "onfido_nfc_intro_carousel_body_last_page" = "Vous pouvez également essayer l'intérieur de la page arrière";
 "onfido_nfc_intro_carousel_body_dont_move" = "Ne déplacez pas votre téléphone ou votre passeport pendant la numérisation";
 
+"onfido_nfc_fail_title_passport" = "Impossible de numériser votre passeport";
+"onfido_nfc_fail_title_card" = "Impossible de balayer votre carte NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Retirez votre passeport et votre téléphone de leurs étuis";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Gardez votre téléphone et votre passeport en contact jusqu'à ce que la numérisation soit réussie";
 "onfido_nfc_fail_button_primary_passport" = "Démarrer la numérisation";
 "onfido_nfc_fail_button_secondary_passport" = "Se faire vérifier sans numérisation";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Retirez votre étui de téléphone";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Gardez votre téléphone et votre passeport en contact jusqu'à ce que la numérisation soit réussie";
 "onfido_nfc_fail_button_primary_card" = "Démarrer la numérisation";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Vérifier votre identité";
 "onfido_user_consent_prompt_no_consent_title" = "Êtes-vous certain?";
 "onfido_user_consent_prompt_no_consent_detail" = "Si vous n'acceptez pas les déclarations de confidentialité et les conditions d'utilisation de Onfido, nous ne serons pas en mesure de vérifier votre identité et vous quitterez cette étape.";
 "onfido_user_consent_prompt_button_secondary" = "Réexaminer";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Vérifier votre identité";
 "onfido_user_consent_load_fail_title" = "Ce contenu n'a pas pu être chargé";
 "onfido_user_consent_load_fail_detail" = "Vérifiez que votre connexion est stable, puis réessayez";
 "onfido_user_consent_load_fail_button_primary" = "Recharger l'écran";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Vue depuis la caméra. Positionnez les pages extérieures de votre document dans le cadre, puis appuyez sur le bouton déclencheur";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vue depuis la caméra. Positionnez la page photo de votre document dans le cadre, puis appuyez sur le bouton déclencheur";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vue depuis la caméra. Positionnez les pages extérieures de votre document dans le cadre, puis appuyez sur le bouton déclencheur";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Positionnez votre téléphone près du milieu de votre passeport";
 "onfido_avc_intro_title_accessibility" = "Enregistrer une vidéo de votre visage";
 "onfido_avc_intro_video_accessibility" = "Exemple de vidéo d'une personne qui tourne la tête des deux côtés jusqu'à la fin";
 "onfido_avc_face_capture_frame_accessibility" = "Vue de la caméra selfie";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Gardez votre appareil et votre document en contact jusqu'à ce que la numérisation soit réussie";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Démarrer la numérisation";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Vérifier sans NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Reculez";
 "onfido_doc_capture_alert_rotated_title" = "Faites pivoter votre document";
 "onfido_doc_capture_alert_too_far_title" = "Approchez-vous";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Veuillez utiliser votre document original. Les photos d'écran ou les photocopies ne sont pas acceptées";
 
 "onfido_interactive_task_waiting_title_1" = "Vérification de la qualité de l'image...";
-"onfido_interactive_task_waiting_title_2" = "Téléchargement de l'image...";
-"onfido_interactive_task_waiting_title_3" = "Téléchargement de la vidéo...";
-"onfido_interactive_task_waiting_title_4" = "Vérification de la qualité des données...";
 "onfido_interactive_task_waiting_subtitle_1" = "Veuillez patienter un peu plus longtemps pour que la tâche soit terminée.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilation des données...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Nous compilons les données collectées, veuillez attendre.";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Il semble que vous n'ayez pas pu créer une clé de passe. Retournez pour réessayer ou continuez pour terminer le processus.";
 "onfido_sid_register_error_button" = "Retourner";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Soumettre le Certificat d'Hébergement ou de Location";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Assurez-vous d'avoir téléchargé la totalité de la page du document, et que les détails sont clairs à lire sans flou ou éblouissement";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Fournissez toute la page du document pour de meilleurs résultats";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Certificat d'hébergement ou de location";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Délivré par l'autorité gouvernementale ou le propriétaire d'entreprise comme confirmation de location.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Les sous-locations ne sont pas acceptées";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Les accords de sous-location ne sont pas acceptés";
 "onfido_generic_alert_parsing_error_label" = "Erreur d'analyse";
 "onfido_generic_error_parsing_detail" = "Il y a eu une erreur d'analyse. Veuillez réessayer.";

@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "顔が検出されました。録画が開始されました。";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "自撮り動画の録画例。自撮り動画を録画するには、フロントカメラに顔を向け、スマートフォンを顔から少し離してください。次に、いくつかの数字を発言し、画面の指示に従って頭を動かしてください。";
-"onfido_video_intro_button_pause_accessibility" = "動画を一時停止";
-"onfido_video_intro_button_play_accessibility" = "動画を再生";
+"onfido_video_intro_button_pause_accessibility" = "スキャン手順の説明アニメーションを一時停止";
+"onfido_video_intro_button_play_accessibility" = "スキャン手順の説明アニメーションを再生";
 "onfido_country_select_list_header_all" = "全ての国々";
 "onfido_doc_capture_alert_manual_capture_detail" = "ドキュメントを揃えて、ボタンを押します";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "数分かかります";
 /* Welcome */
 "onfido_welcome_title" = "本人確認を行う";
-"onfido_app_title_doc_confirmation" = "本人確認を行う";
-"onfido_app_title_selfie_confirmation" = "本人確認を行う";
 "onfido_app_title_nfc_select" = "本人確認を行う";
 "onfido_app_title_nfc_intro" = "本人確認を行う";
 "onfido_app_title_nfc_fail" = "本人確認を行う";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "本人確認を行う";
 "onfido_app_title_country_select" = "発行国を選択";
-"onfido_app_title_selfie_intro" = "本人確認を行う";
-"onfido_app_title_video_intro" = "本人確認を行う";
-"onfido_app_title_permission" = "本人確認を行う";
-"onfido_app_title_video_confirmation" = "本人確認を行う";
 "onfido_video_capture_alert_wrong_side" = "反対側です";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "パスポートのチップをスキャンします";
 "onfido_nfc_intro_subtitle_passport" = "パスポート内のチップをスキャンするために電話を使用してください";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "パスポートを開いて平らな面に置いてください";
 "onfido_nfc_intro_passport_scan_guide_2" = "パスポートにスマートフォンを当ててください。チップを見つけるためには、パスポートに対してスマートフォンを上下にスライドさせる必要があるかもしれません。";
 "onfido_nfc_intro_passport_scan_guide_3" = "チップが検出されたら、スマートフォンとパスポートを静止させてください。";
 "onfido_nfc_intro_passport_scan_guide_4" = "スキャンが開始されたら、スキャンが完了するまでじっとしてください";
-
 "onfido_nfc_intro_button_primary_passport" = "スキャンを開始する";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "パスポートに対してスマートフォンを置いてください。パスポートに対してスマートフォンをゆっくりとスライドさせる必要があるかもしれません。";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "スキャンしています...";
-
-"onfido_nfc_intro_title_card" = "NFCカードをスキャンしてください";
+"onfido_nfc_intro_title_card" = "あなたの書類のチップをスキャンしてください";
 "onfido_nfc_intro_subtitle_card" = "スマートフォンをカードの上に置き、カードはスマートフォンの上部近くで固定してください";
 "onfido_nfc_intro_button_primary_card" = "スキャンを開始する";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "スマートフォンをカードにのせる";
-
-"onfido_nfc_fail_title_passport" = "パスポートをスキャンできませんでした";
-"onfido_nfc_fail_title_card" = "NFCカードをスキャンできませんでした";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "パスポートカバーを外す";
 "onfido_nfc_intro_carousel_body_lay_flat" = "パスポートを平らな面に置いてください";
 "onfido_nfc_intro_carousel_body_phone_middle" = "パスポートの中心付近にスマートフォンを置いてください";
 "onfido_nfc_intro_carousel_body_last_page" = "裏ページの内側を試すこともできます";
 "onfido_nfc_intro_carousel_body_dont_move" = "スキャン中はスマートフォンやパスポートを動かさないでください";
 
+"onfido_nfc_fail_title_passport" = "パスポートをスキャンできませんでした";
+"onfido_nfc_fail_title_card" = "NFCカードをスキャンできませんでした";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "パスポートとスマートフォンのカバーを取り外す";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "スキャンが成功するまで、スマートフォンとパスポートの接触を維持してください";
 "onfido_nfc_fail_button_primary_passport" = "スキャンを開始";
 "onfido_nfc_fail_button_secondary_passport" = "スキャンなしで認証を受ける";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "スマートフォンのカバーを取り外してください";
 "onfido_nfc_fail_list_item_keep_contact_card" = "スキャンが成功するまで、スマートフォンとカードの接触を維持してください";
 "onfido_nfc_fail_button_primary_card" = "スキャンを開始";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "本人確認を行う";
 "onfido_user_consent_prompt_no_consent_title" = "本当によろしいですか？";
 "onfido_user_consent_prompt_no_consent_detail" = "Onfidoのプライバシーステートメントと利用規約に同意されない場合、当社はお客様の本人確認を行うことができません。そのため、このステップを終了することとなります。";
 "onfido_user_consent_prompt_button_secondary" = "もう一度確認する";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "本人確認を行う";
 "onfido_user_consent_load_fail_title" = "コンテンツの読み込みに失敗しました";
 "onfido_user_consent_load_fail_detail" = "接続が安定していることを確認してから、もう一度お試しください";
 "onfido_user_consent_load_fail_button_primary" = "画面を再読み込み";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "カメラから見た様子。ドキュメントの外側のページをフレームに配置し、シャッターボタンをタップします";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "カメラから見た様子。ドキュメントの写真側のページをフレームに配置し、シャッターボタンをタップします";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "カメラから見た様子。ドキュメントの外側のページをフレームに配置し、シャッターボタンをタップします";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "パスポートの中心付近にスマートフォンを置いてください";
 "onfido_avc_intro_title_accessibility" = "顔の動画を録画する";
 "onfido_avc_intro_video_accessibility" = "完了まで首を左右に回している動画例";
 "onfido_avc_face_capture_frame_accessibility" = "自撮りカメラから見る";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "スキャンが成功するまで、デバイスとドキュメントを接触させたままにしてください";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "スキャンを開始";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "NFCなしで認証を受ける";
-
 "onfido_doc_capture_alert_too_close_title" = "後ろへ下がってください";
 "onfido_doc_capture_alert_rotated_title" = "文書を回転する";
 "onfido_doc_capture_alert_too_far_title" = "もっと近づいてください";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "書類をまっすぐに保持してください";
 "onfido_doc_capture_header_recording_video" = "ビデオを録画する";
 "onfido_doc_capture_header_recording_complete" = "記録が完了しました";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "スクリーンショットが検出されました";
 "onfido_doc_capture_alert_manual_capture_video_title" = "手動でビデオを録画してみてください";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "画面の写真が検出されました";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "元のドキュメントを使用してください。スクリーンの写真やコピーは受け付けていません";
 
 "onfido_interactive_task_waiting_title_1" = "画像の品質を確認しています...";
-"onfido_interactive_task_waiting_title_2" = "画像をアップロード中...";
-"onfido_interactive_task_waiting_title_3" = "ビデオをアップロード中...";
-"onfido_interactive_task_waiting_title_4" = "データ品質を確認中...";
 "onfido_interactive_task_waiting_subtitle_1" = "タスクが完了するまで、もう少しお待ちいただきますようお願い申し上げます。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "データをコンパイル中...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "収集したデータをコンパイルしています、お待ちください。";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "パスキーを作成できなかったようです。再試行するために戻るか、プロセスを完了するために進んでください。";
 "onfido_sid_register_error_button" = "戻る";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "宿泊施設または賃貸証明書を提出する";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "全体のドキュメントページがアップロードされていること、そして詳細がぼやけたり、眩しさがないように読みやすいことを確認してください";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "最良の結果を得るために、ドキュメントの全ページを提供してください";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "宿泊または賃貸証明書";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "政府機関または法人賃貸人によって発行された賃貸確認書。";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "サブリース契約は受け付けていません";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "サブリース契約は受け付けていません";
 "onfido_generic_alert_parsing_error_label" = "パースエラー";
 "onfido_generic_error_parsing_detail" = "パースエラーが発生しました。もう一度お試しください。";

@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "הפנים זוהו. הצילום החל.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "סרטון לדוגמה של מישהו שמצלם סרטון סלפי. כדי לצלם סרטון סלפי, עליך להפנות את הפנים למצלמה הקדמית ולהרחיק אותה מעט מהפנים שלך. לאחר מכן תצטרך לדקלם כמה מספרים ולסובב את הראש בהתאם להוראות שעל המסך.";
-"onfido_video_intro_button_pause_accessibility" = "השהה סרטון";
-"onfido_video_intro_button_play_accessibility" = "נגן סרטון";
+"onfido_video_intro_button_pause_accessibility" = "השהייה של האנימציה הממחישה את תהליך הסריקה";
+"onfido_video_intro_button_play_accessibility" = "הפעל אנימציה ממחישה של תהליך הסריקה";
 "onfido_country_select_list_header_all" = "כל הארצות";
 "onfido_doc_capture_alert_manual_capture_detail" = "יישר מסמך ולאחר מכן לחץ על הכפתור";
 /* Document autocapture */
@@ -55,7 +55,7 @@
 "onfido_doc_select_subtitle" = "התמונה צריכה להופיע בתוך מסמך רשמי";
 /* Document type selection */
 "onfido_doc_select_title" = "בחר את המסמך שלך";
-"onfido_doc_capture_prompt_title_license" = "איזה סוג הרישיון יש לך?";
+"onfido_doc_capture_prompt_title_license" = "איזה סוג רישיון יש לך?";
 "onfido_doc_select_button_passport" = "דרכון";
 "onfido_doc_select_button_license" = "רישיון נהיגה";
 "onfido_doc_select_button_id" = "תעודת זהות";
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "תהליך זה אמור לקחת כמה דקות";
 /* Welcome */
 "onfido_welcome_title" = "אמת את זהותך";
-"onfido_app_title_doc_confirmation" = "אמת את זהותך";
-"onfido_app_title_selfie_confirmation" = "אמת את זהותך";
 "onfido_app_title_nfc_select" = "אמת את זהותך";
 "onfido_app_title_nfc_intro" = "אמת את זהותך";
 "onfido_app_title_nfc_fail" = "אמת את זהותך";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "אמת את זהותך";
 "onfido_app_title_country_select" = "בחר את ארץ ההנפקה";
-"onfido_app_title_selfie_intro" = "אמת את זהותך";
-"onfido_app_title_video_intro" = "אמת את זהותך";
-"onfido_app_title_permission" = "אמת את זהותך";
-"onfido_app_title_video_confirmation" = "אמת את זהותך";
 "onfido_video_capture_alert_wrong_side" = "צד לא נכון";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "סרוק את שבב הדרכון שלך";
 "onfido_nfc_intro_subtitle_passport" = "השתמש בטלפון שלך כדי לסרוק את השבב בדרכון שלך";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "הניחו את הדרכון שלכם פתוח על משטח שטוח";
 "onfido_nfc_intro_passport_scan_guide_2" = "מקם את הטלפון שלך על הדרכון שלך. כדי לאתר את השבב, ייתכן שתצטרך להחליק את הטלפון שלך למעלה ולמטה על הדרכון שלך.";
 "onfido_nfc_intro_passport_scan_guide_3" = "לאחר שהשבב מזוהה, ודא שהטלפון והדרכון נשארים במקום.";
 "onfido_nfc_intro_passport_scan_guide_4" = "ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים";
-
 "onfido_nfc_intro_button_primary_passport" = "התחל בסריקה";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון שלך נגד הדרכון שלך. ייתכן שתצטרך להחליק את הטלפון שלך לאט נגד הדרכון שלך.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "מתבצעת סריקה...";
-
-"onfido_nfc_intro_title_card" = "סריקת כרטיס NFC";
+"onfido_nfc_intro_title_card" = "סרוק את השבב של המסמך שלך";
 "onfido_nfc_intro_subtitle_card" = "מקם את הכרטיס על הטלפון והשאר אותו צמוד לחלקו העליון";
 "onfido_nfc_intro_button_primary_card" = "התחל בסריקה";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "מקם את הכרטיס על הטלפון";
-
-"onfido_nfc_fail_title_passport" = "לא הצלחנו לסרוק את הדרכון שלך";
-"onfido_nfc_fail_title_card" = "לא הצלחנו לסרוק את כרטיס ה-NFC שלך";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "הסרת כיסוי הדרכון";
 "onfido_nfc_intro_carousel_body_lay_flat" = "הנח את הדרכון על משטח שטוח";
 "onfido_nfc_intro_carousel_body_phone_middle" = "מקם את הטלפון ליד החלק האמצעי של הדרכון";
 "onfido_nfc_intro_carousel_body_last_page" = "נסה לצלם את החלק הפנימי של העמוד האחורי";
 "onfido_nfc_intro_carousel_body_dont_move" = "אל תזיז את הטלפון או את הדרכון בזמן הסריקה";
 
+"onfido_nfc_fail_title_passport" = "לא הצלחנו לסרוק את הדרכון שלך";
+"onfido_nfc_fail_title_card" = "לא הצלחנו לסרוק את כרטיס ה-NFC שלך";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "הסר את הכיסויים מהדרכון ומהטלפון";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "ודא שהטלפון והדרכון נשארים מחוברים עד שהסריקה תושלם בהצלחה";
 "onfido_nfc_fail_button_primary_passport" = "התחל סריקה";
 "onfido_nfc_fail_button_secondary_passport" = "אימות ללא סריקה";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "הסר את כיסוי הטלפון";
 "onfido_nfc_fail_list_item_keep_contact_card" = "ודא שהטלפון והכרטיס נשארים מחוברים עד שהסריקה תסתיים";
 "onfido_nfc_fail_button_primary_card" = "התחל סריקה";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "אמת את זהותך";
 "onfido_user_consent_prompt_no_consent_title" = "אתה בטוח?";
 "onfido_user_consent_prompt_no_consent_detail" = "אם לא תאשר את הצהרות הפרטיות ותנאי השירות של Onfido, לא נוכל לאמת את זהותך ותצא משלב זה.";
 "onfido_user_consent_prompt_button_secondary" = "סקירה חוזרת";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "אמת את זהותך";
 "onfido_user_consent_load_fail_title" = "טעינת התוכן נכשלה";
 "onfido_user_consent_load_fail_detail" = "ודא שהחיבור שלך יציב ונסה שוב";
 "onfido_user_consent_load_fail_button_primary" = "טען מחדש את המסך";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "צפה מהמצלמה. מקם את העמודים החיצוניים של המסמך במסגרת ולחץ על כפתור הצילום";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "צפה מהמצלמה. מקם את עמוד תמונת המסמך במסגרת ולחץ על כפתור הצילום";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "צפה מהמצלמה. מקם את העמודים החיצוניים של המסמך במסגרת ולחץ על כפתור הצילום";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "מקם את הטלפון ליד החלק האמצעי של הדרכון";
 "onfido_avc_intro_title_accessibility" = "לצלם סרטון של הפנים שלך";
 "onfido_avc_intro_video_accessibility" = "סרטון לדוגמה שבו מישהו מסובב את הראש לשני הצדדים עד לסיום";
 "onfido_avc_face_capture_frame_accessibility" = "זווית ממצלמת סלפי";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "שמור את המכשיר והמסמך שלך בקשר עד שהסריקה תצליח";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "התחל סריקה";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "אימות ללא NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "זוז אחורה";
 "onfido_doc_capture_alert_rotated_title" = "סובב את המסמך שלך";
 "onfido_doc_capture_alert_too_far_title" = "התקרב";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "החזק את המסמך באופן ישר";
 "onfido_doc_capture_header_recording_video" = "מקליט וידאו";
 "onfido_doc_capture_header_recording_complete" = "הצילום הושלם";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "צילום מסך זוהה";
 "onfido_doc_capture_alert_manual_capture_video_title" = "נסה להקליט וידאו באופן ידני";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "זוהתה תמונה של מסך";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "אנא השתמש במסמך המקורי שלך. תמונות של מסך או צילומי עותק לא מתקבלות";
 
 "onfido_interactive_task_waiting_title_1" = "בודק את איכות התמונה...";
-"onfido_interactive_task_waiting_title_2" = "מעלה תמונה...";
-"onfido_interactive_task_waiting_title_3" = "מעלה סרטון...";
-"onfido_interactive_task_waiting_title_4" = "בודק את איכות הנתונים...";
 "onfido_interactive_task_waiting_subtitle_1" = "אנא המתן עוד קצת זמן עד שהמשימה תהיה מוכנה.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "מהדר נתונים...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "אנו מקבצים את הנתונים שנאספו, אנא המתן.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "נראה שלא הצלחת ליצור קוד סיסמה. חזור אחורה כדי לנסות שוב או המשך לתהליך המלא.";
 "onfido_sid_register_error_button" = "חזור אחורה";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "שלח תעודת דיור או שכירות";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ודא שהעלית את כל עמוד המסמך, והפרטים ברורים לקריאה ללא טשטוש או בהירות יתר";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "ספק את כל דף המסמך לקבלת התוצאות הטובות ביותר";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "תעודת דיור או שכירות";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "הונפק על ידי רשות ממשלתית או בעל מקרקעי תאגידי כאישור שכירה.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "הסכמי השכרה משנית לא מתקבלים";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "הסכמי השכרה משנית לא מתקבלים";
 "onfido_generic_alert_parsing_error_label" = "שגיאת ניתוח";
 "onfido_generic_error_parsing_detail" = "אירעה שגיאת ניתוח. אנא נסה שוב.";

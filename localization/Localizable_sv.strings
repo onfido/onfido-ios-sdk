@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Ansikte upptäckt. Inspelningen har börjat.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Exempelvideo där någon spelar in en selfievideo. För att spela in en selfievideo vänder du dig mot frontkameran och håller telefonen en bit bort från ansiktet. Du måste sedan läsa upp några siffror och vrida huvudet enligt instruktionerna på skärmen.";
-"onfido_video_intro_button_pause_accessibility" = "Pausa video";
-"onfido_video_intro_button_play_accessibility" = "Spela upp video";
+"onfido_video_intro_button_pause_accessibility" = "Pausa illustrativ animation av skanningsproceduren";
+"onfido_video_intro_button_play_accessibility" = "Spela illustrativ animation av skanningsproceduren";
 "onfido_country_select_list_header_all" = "Alla länder";
 "onfido_doc_capture_alert_manual_capture_detail" = "Rikta dokumentet och tryck sedan på knappen";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Detta kan ta några minuter";
 /* Welcome */
 "onfido_welcome_title" = "Verifiera din identitet";
-"onfido_app_title_doc_confirmation" = "Verifiera din identitet";
-"onfido_app_title_selfie_confirmation" = "Verifiera din identitet";
 "onfido_app_title_nfc_select" = "Verifiera din identitet";
 "onfido_app_title_nfc_intro" = "Verifiera din identitet";
 "onfido_app_title_nfc_fail" = "Verifiera din identitet";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Verifiera din identitet";
 "onfido_app_title_country_select" = "Välj utfärdande land";
-"onfido_app_title_selfie_intro" = "Verifiera din identitet";
-"onfido_app_title_video_intro" = "Verifiera din identitet";
-"onfido_app_title_permission" = "Verifiera din identitet";
-"onfido_app_title_video_confirmation" = "Verifiera din identitet";
 "onfido_video_capture_alert_wrong_side" = "Fel sida";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Skanna ditt pass NFC-chip";
 "onfido_nfc_intro_subtitle_passport" = "Använd din telefon för att skanna chippet i ditt pass";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Lägg ditt pass öppnat på en platt yta";
 "onfido_nfc_intro_passport_scan_guide_2" = "Placera din telefon mot ditt pass. För att hitta chippet kan du behöva glida din telefon upp och ner mot ditt pass.";
 "onfido_nfc_intro_passport_scan_guide_3" = "När chippet upptäcks, håll din telefon och pass stilla.";
 "onfido_nfc_intro_passport_scan_guide_4" = "När skanningen startar, håll dig stilla så att skanningen kan slutföras";
-
 "onfido_nfc_intro_button_primary_passport" = "Starta skanning";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placera telefonen mot ditt pass. Du kanske behöver långsamt dra din telefon mot ditt pass.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Skannar...";
-
-"onfido_nfc_intro_title_card" = "Skanna ditt NFC-kort";
+"onfido_nfc_intro_title_card" = "Skanna chipet i ditt dokument";
 "onfido_nfc_intro_subtitle_card" = "Placera din telefon på kortet och håll det nära toppen av telefonen";
 "onfido_nfc_intro_button_primary_card" = "Starta skanning";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Placera din telefon på kortet";
-
-"onfido_nfc_fail_title_passport" = "Vi kunde inte skanna ditt pass";
-"onfido_nfc_fail_title_card" = "Vi kunde inte skanna ditt NFC-kort";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Ta bort ditt passomslag";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Lägg ditt pass på en plan yta";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Placera telefonen nära mitten av ditt pass";
 "onfido_nfc_intro_carousel_body_last_page" = "Du kan också prova insidan av baksidan";
 "onfido_nfc_intro_carousel_body_dont_move" = "Flytta inte din telefon eller ditt pass när du skannar";
 
+"onfido_nfc_fail_title_passport" = "Vi kunde inte skanna ditt pass";
+"onfido_nfc_fail_title_card" = "Vi kunde inte skanna ditt NFC-kort";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Ta bort ditt pass och telefonskal";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Håll din telefon och ditt pass så att de vidrör varandra tills skanningen lyckas";
 "onfido_nfc_fail_button_primary_passport" = "Starta skanning";
 "onfido_nfc_fail_button_secondary_passport" = "Bli verifierad utan skanning";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Ta bort telefonskalet";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Håll din telefon och ditt kort så att de vidrör varandra tills skanningen lyckas";
 "onfido_nfc_fail_button_primary_card" = "Starta skanning";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Verifiera din identitet";
 "onfido_user_consent_prompt_no_consent_title" = "Är du säker?";
 "onfido_user_consent_prompt_no_consent_detail" = "Om du inte accepterar Onfidos sekretesspolicy och användarvillkor kommer vi inte att kunna verifiera din identitet och du kommer att lämna detta steg.";
 "onfido_user_consent_prompt_button_secondary" = "Granska igen";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Verifiera din identitet";
 "onfido_user_consent_load_fail_title" = "Innehållet kunde inte laddas";
 "onfido_user_consent_load_fail_detail" = "Kontrollera att din anslutning är stabil och försök sedan igen";
 "onfido_user_consent_load_fail_button_primary" = "Ladda om skärmen";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Vy från kameran. Placera dokumentets fotosida i ramen och tryck sedan på slutarknappen";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Placera telefonen nära mitten av ditt pass";
 "onfido_avc_intro_title_accessibility" = "Spela in en video av ditt ansikte";
 "onfido_avc_intro_video_accessibility" = "Exempel på video där någon vrider huvudet åt båda sidorna tills det är klart";
 "onfido_avc_face_capture_frame_accessibility" = "Vy från selfiekamera";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Håll din enhet och dokument i kontakt tills skanningen är framgångsrik";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Starta skanning";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Bli verifierad utan NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "Flytta bakåt";
 "onfido_doc_capture_alert_rotated_title" = "Rotera ditt dokument";
 "onfido_doc_capture_alert_too_far_title" = "Flytta närmare";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Håll dokumentet rakt";
 "onfido_doc_capture_header_recording_video" = "Spelar in video";
 "onfido_doc_capture_header_recording_complete" = "Inspelning slutförd";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Skärmdump upptäckt";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Försök att spela in video manuellt";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Foto av skärm upptäckt";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Använd ditt ursprungliga dokument. Foton av skärm eller fotokopior accepteras inte";
 
 "onfido_interactive_task_waiting_title_1" = "Kontrollerar bildkvalitet...";
-"onfido_interactive_task_waiting_title_2" = "Laddar upp bild...";
-"onfido_interactive_task_waiting_title_3" = "Laddar upp video...";
-"onfido_interactive_task_waiting_title_4" = "Kontrollerar datakvalitet...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vänligen vänta lite längre för att uppgiften ska bli klar.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilerar data...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Vi sammanställer de insamlade uppgifterna, var god vänta.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Det verkar som att du inte kunde skapa en lösenordsnyckel. Gå tillbaka för att försöka igen eller fortsätt till den kompletta processen.";
 "onfido_sid_register_error_button" = "Gå tillbaka";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Lämna in boende- eller hyresbevis";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Se till att du har laddat upp hela dokument sidan, och detaljerna är tydliga att läsa utan suddighet eller bländning";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Tillhandahåll hela dokument sidan för bästa resultat";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Boendecertifikat eller hyrescertifikat";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Utfärdat av statlig myndighet eller företagsvärd som hyresbekräftelse.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Andrahandsuthyrningsavtal accepteras inte";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Andrahandsuthyrningsavtal accepteras inte";
 "onfido_generic_alert_parsing_error_label" = "Fel vid tolkning";
 "onfido_generic_error_parsing_detail" = "Det uppstod ett tolkningsfel. Försök igen.";

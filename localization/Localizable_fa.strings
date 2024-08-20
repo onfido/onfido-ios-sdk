@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "چهره شناسایی شد. ضبط شروع شد.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "نمونه ویدئو از شخصی که یک فیلم سلفی ضبط کرده است. برای ضبط ویدئوی سلفی، در مقابل دوربین جلوی گوشی قرار گرفته و گوشی را کمی از صورت خود دور کنید. سپس باید تعدادی عدد را بخوانید و سر خود را طبق دستورالعمل روی صفحه بچرخانید.";
-"onfido_video_intro_button_pause_accessibility" = "مکث ویدئو";
-"onfido_video_intro_button_play_accessibility" = "پخش ویدئو";
+"onfido_video_intro_button_pause_accessibility" = "توقف انیمیشن توضیحی روند اسکن";
+"onfido_video_intro_button_play_accessibility" = "انیمیشن توضیحی روند اسکن را اجرا کنید";
 "onfido_country_select_list_header_all" = "همه کشورها";
 "onfido_doc_capture_alert_manual_capture_detail" = "مدرک را با دوربین همراستا کنید، سپس دکمه را فشار دهید";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "این کار چند دقیقه طول می‌کشد";
 /* Welcome */
 "onfido_welcome_title" = "هویت خود را تأیید کنید";
-"onfido_app_title_doc_confirmation" = "هویت خود را تأیید کنید";
-"onfido_app_title_selfie_confirmation" = "هویت خود را تأیید کنید";
 "onfido_app_title_nfc_select" = "هویت خود را تأیید کنید";
 "onfido_app_title_nfc_intro" = "هویت خود را تأیید کنید";
 "onfido_app_title_nfc_fail" = "هویت خود را تأیید کنید";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "هویت خود را تأیید کنید";
 "onfido_app_title_country_select" = "کشور صادر کننده را انتخاب کنید";
-"onfido_app_title_selfie_intro" = "هویت خود را تأیید کنید";
-"onfido_app_title_video_intro" = "هویت خود را تأیید کنید";
-"onfido_app_title_permission" = "هویت خود را تأیید کنید";
-"onfido_app_title_video_confirmation" = "هویت خود را تأیید کنید";
 "onfido_video_capture_alert_wrong_side" = "این سمت اشتباه است";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "تراشه گذرنامه شما را اسکن کنید";
 "onfido_nfc_intro_subtitle_passport" = "از تلفن خود برای اسکن چیپ در گذرنامه خود استفاده کنید";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "گذرنامه خود را روی یک سطح صاف باز کنید";
 "onfido_nfc_intro_passport_scan_guide_2" = "گوشی خود را به گذرنامه خود بچسبانید. برای پیدا کردن چیپ، ممکن است نیاز باشد گوشی خود را بر روی گذرنامه خود بالا و پایین بکشید.";
 "onfido_nfc_intro_passport_scan_guide_3" = "پس از شناسایی چیپ، تلفن و گذرنامه خود را ثابت نگه دارید.";
 "onfido_nfc_intro_passport_scan_guide_4" = "هنگامی که اسکن شروع می شود، برای اتمام اسکن باید ثابت بمانید";
-
 "onfido_nfc_intro_button_primary_passport" = "شروع اسکن";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "گوشی خود را به گذرنامه خود بچسبانید. شاید نیاز باشد که به آرامی گوشی خود را روی گذرنامه خود بکشید.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "در حال اسکن ...";
-
-"onfido_nfc_intro_title_card" = "کارت NFC خود را اسکن کنید";
+"onfido_nfc_intro_title_card" = "چیپ سند هویت خود را اسکن کنید";
 "onfido_nfc_intro_subtitle_card" = "گوشی خود را روی کارت قرار دهید و آن را نزدیک بالای گوشی خود نگه دارید";
 "onfido_nfc_intro_button_primary_card" = "شروع اسکن";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "گوشی خود را روی کارت قرار دهید";
-
-"onfido_nfc_fail_title_passport" = "نتوانستیم گذرنامه شما را اسکن کنیم";
-"onfido_nfc_fail_title_card" = "نتوانستیم کارت NFC شما را اسکن کنیم";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "پوشش پاسپورت خود را بردارید";
 "onfido_nfc_intro_carousel_body_lay_flat" = "گذرنامه خود را روی یک سطح صاف قرار دهید";
 "onfido_nfc_intro_carousel_body_phone_middle" = "گوشی خود را نزدیک وسط گذرنامه خود قرار دهید";
 "onfido_nfc_intro_carousel_body_last_page" = "همچنین می‌توانید سمت داخل صفحه پشتی را امتحان کنید";
 "onfido_nfc_intro_carousel_body_dont_move" = "هنگام اسکن، گوشی یا گذرنامه خود را حرکت ندهید";
 
+"onfido_nfc_fail_title_passport" = "نتوانستیم گذرنامه شما را اسکن کنیم";
+"onfido_nfc_fail_title_card" = "نتوانستیم کارت NFC شما را اسکن کنیم";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "پوشش گذرنامه و قاب گوشی خود را بردارید";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "تا زمان انجام موفقیت‌آمیز اسکن، گوشی و گذرنامه خود را در تماس با هم نگه دارید";
 "onfido_nfc_fail_button_primary_passport" = "شروع اسکن";
 "onfido_nfc_fail_button_secondary_passport" = "تأیید هویت بدون اسکن";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "قاب گوشی خود را بردارید";
 "onfido_nfc_fail_list_item_keep_contact_card" = "تا زمان انجام موفقیت‌آمیز اسکن، گوشی و کارت خود را در تماس با هم نگه دارید";
 "onfido_nfc_fail_button_primary_card" = "شروع اسکن";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "هویت خود را تأیید کنید";
 "onfido_user_consent_prompt_no_consent_title" = "آیا مطمئن هستید؟";
 "onfido_user_consent_prompt_no_consent_detail" = "اگر اطلاعیه حریم خصوصی و شرایط خدمات Onfido را نپذیرید، نمی‌توانیم هویت شما را تأیید کنیم و از این مرحله خارج خواهید شد.";
 "onfido_user_consent_prompt_button_secondary" = "بازبینی مجدد";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "هویت خود را تأیید کنید";
 "onfido_user_consent_load_fail_title" = "بارگذاری محتوا انجام نشد";
 "onfido_user_consent_load_fail_detail" = "بررسی کنید که اتصال اینترنت برقرار است، سپس دوباره سعی کنید";
 "onfido_user_consent_load_fail_button_primary" = "بارگذاری مجدد صفحه";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "مشاهده از دوربین. صفحات بیرونی مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "مشاهده از دوربین. صفحه عکس‌دار مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "مشاهده از دوربین. صفحات بیرونی مدرک خود را درون کادر قرار دهید، سپس روی دکمه شاتر ضربه بزنید";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "گوشی خود را نزدیک وسط گذرنامه خود قرار دهید";
 "onfido_avc_intro_title_accessibility" = "از چهره خود فیلم بگیرید";
 "onfido_avc_intro_video_accessibility" = "ویدئوی نمونه از فردی که سر خود را به دو طرف می‌چرخاند تا فرآیند تکمیل شود";
 "onfido_avc_face_capture_frame_accessibility" = "مشاهده از دوربین سلفی";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "دستگاه و سند خود را تا زمان موفقیت آمیز بودن اسکن در تماس نگه دارید";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "شروع اسکن";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "بدون NFC تأیید شوید";
-
 "onfido_doc_capture_alert_too_close_title" = "عقب بروید";
 "onfido_doc_capture_alert_rotated_title" = "سند خود را بچرخانید";
 "onfido_doc_capture_alert_too_far_title" = "نزدیکتر بیایید";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "لطفا از سند اصلی خود استفاده کنید. عکس های صفحه نمایش یا فتوکپی ها پذیرفته نمی شوند";
 
 "onfido_interactive_task_waiting_title_1" = "در حال بررسی کیفیت تصویر...";
-"onfido_interactive_task_waiting_title_2" = "در حال بارگذاری تصویر...";
-"onfido_interactive_task_waiting_title_3" = "در حال بارگذاری ویدیو...";
-"onfido_interactive_task_waiting_title_4" = "در حال بررسی کیفیت داده...";
 "onfido_interactive_task_waiting_subtitle_1" = "لطفاً کمی بیشتر صبر کنید تا کار به اتمام برسد.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "در حال جمع‌آوری داده‌ها...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "ما در حال تهیه داده های جمع آوری شده هستیم، لطفا صبر کنید.";
@@ -789,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "به نظر می‌رسد که شما نتوانستید یک کلید عبور ایجاد کنید. برای تلاش مجدد به عقب بروید یا برای ادامه فرآیند کامل ادامه دهید.";
 "onfido_sid_register_error_button" = "برگرد";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "گواهی اقامت یا اجاره را ارائه دهید";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "اطمینان حاصل کنید که کل صفحه سند را بارگذاری کرده‌اید و جزئیات به صورت واضح قابل خواندن هستند بدون هیچ مواردی از تاری یا تابش";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "برای بهترین نتایج، کل صفحه سند را ارائه دهید";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "گواهی اقامت یا اجاره";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "صادر شده توسط اقتدار دولتی یا مالک اجاره‌ای به عنوان تأیید اجاره.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "توافقنامه‌های زیرمجموعه‌ای پذیرفته نمی‌شوند";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "توافقنامه‌های زیرمجموعه‌ای پذیرفته نمی‌شوند";
 "onfido_generic_alert_parsing_error_label" = "خطای تجزیه";
 "onfido_generic_error_parsing_detail" = "خطای تجزیه وجود داشت. لطفا دوباره تلاش کنید.";

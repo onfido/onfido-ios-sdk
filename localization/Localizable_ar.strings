@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "ستأخذ بعض الوقت";
 /* Welcome */
 "onfido_welcome_title" = "التحقق من هويتك";
-"onfido_app_title_doc_confirmation" = "التحقق من هويتك";
-"onfido_app_title_selfie_confirmation" = "التحقق من هويتك";
 "onfido_app_title_nfc_select" = "التحقق من هويتك";
 "onfido_app_title_nfc_intro" = "التحقق من هويتك";
 "onfido_app_title_nfc_fail" = "التحقق من هويتك";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "التحقق من هويتك";
 "onfido_app_title_country_select" = "اختر الدولة المصدِرة";
-"onfido_app_title_selfie_intro" = "التحقق من هويتك";
-"onfido_app_title_video_intro" = "التحقق من هويتك";
-"onfido_app_title_permission" = "التحقق من هويتك";
-"onfido_app_title_video_confirmation" = "التحقق من هويتك";
 "onfido_video_capture_alert_wrong_side" = "الجانب الخطأ";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "قم بمسح رقاقة جواز سفرك";
 "onfido_nfc_intro_subtitle_passport" = "استخدم هاتفك لمسح الرقاقة في جواز سفرك";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "ضع جواز سفرك مفتوحًا على سطح مستوي";
 "onfido_nfc_intro_passport_scan_guide_2" = "ضع هاتفك على جواز سفرك. للعثور على الشريحة، قد تحتاج إلى تحريك هاتفك لأعلى ولأسفل على جواز سفرك.";
 "onfido_nfc_intro_passport_scan_guide_3" = "بمجرد اكتشاف الرقاقة، ابق هاتفك وجواز سفرك ثابتين.";
 "onfido_nfc_intro_passport_scan_guide_4" = "بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص";
-
 "onfido_nfc_intro_button_primary_passport" = "بدء المسح الضوئي";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "ضع هاتفك ضد جواز سفرك. قد تحتاج إلى تحريك هاتفك ببطء ضد جواز سفرك.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "جارٍ المسح الضوئي...";
-
-"onfido_nfc_intro_title_card" = "مسح بطاقة NFC ‏ضوئيًا";
+"onfido_nfc_intro_title_card" = "قم بمسح شريحة الوثيقة الخاصة بك";
 "onfido_nfc_intro_subtitle_card" = "ضع هاتفك على البطاقة واحتفظ به بالقرب من الجزء العلوي من هاتفك";
 "onfido_nfc_intro_button_primary_card" = "بدء المسح الضوئي";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "ضع هاتفك على البطاقة";
-
-"onfido_nfc_fail_title_passport" = "لم نتمكن من مسح جواز سفرك";
-"onfido_nfc_fail_title_card" = "تعذّر علينا مسح بطاقة NFC الخاصة بك ضوئيًا";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "إزالة غطاء جواز سفرك";
 "onfido_nfc_intro_carousel_body_lay_flat" = "ضع جواز سفرك على سطح مستو";
 "onfido_nfc_intro_carousel_body_phone_middle" = "ضع هاتفك بالقرب من منتصف جواز سفرك";
 "onfido_nfc_intro_carousel_body_last_page" = "يمكنك أيضًا تجربة الجزء الداخلي من الصفحة الخلفية";
 "onfido_nfc_intro_carousel_body_dont_move" = "لا تحرك هاتفك أو جواز سفرك أثناء المسح الضوئي";
 
+"onfido_nfc_fail_title_passport" = "لم نتمكن من مسح جواز سفرك";
+"onfido_nfc_fail_title_card" = "تعذّر علينا مسح بطاقة NFC الخاصة بك ضوئيًا";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "أزل جواز السفر وأغطية الهاتف";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "ابق هاتفك وجواز سفرك على اتصال حتى ينجح المسح الضوئي";
 "onfido_nfc_fail_button_primary_passport" = "ابدأ المسح";
 "onfido_nfc_fail_button_secondary_passport" = "الحصول على التحقق دون مسح ضوئي";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "قم بإزالة غطاء هاتفك";
 "onfido_nfc_fail_list_item_keep_contact_card" = "ابقِ هاتفك وبطاقتك على اتصال حتى ينجح المسح الضوئي";
 "onfido_nfc_fail_button_primary_card" = "ابدأ المسح";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "التحقق من هويتك";
 "onfido_user_consent_prompt_no_consent_title" = "هل أنت متأكد؟";
 "onfido_user_consent_prompt_no_consent_detail" = "إذا لم تقبل بيانات الخصوصية وشروط الخدمة الخاصة بشركة Onfido، فلن نتمكن من التحقق من هويتك وستخرج من هذه الخطوة.";
 "onfido_user_consent_prompt_button_secondary" = "مراجعة مرة أخرى";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "التحقق من هويتك";
 "onfido_user_consent_load_fail_title" = "فشل تحميل المحتوى";
 "onfido_user_consent_load_fail_detail" = "تحقّق من أن اتصالك مستقر، ثم حاول مرة أخرى";
 "onfido_user_consent_load_fail_button_primary" = "إعادة تحميل الشاشة";
@@ -284,8 +268,8 @@
 "onfido_video_capture_turn_success_accessibility" = "تم اكتشاف التفات الرأس";
 "onfido_welcome_list_header" = "استخدم جهازك من أجل:";
 "onfido_welcome_list_item_doc_photo" = "التقط صورة لمستند هويتك";
-"onfido_welcome_list_item_doc_generic" = "قم بتسجيل فيديو لمستند هويتك";
-"onfido_welcome_list_item_face_photo" = "التقط صورة لوجهك";
+"onfido_welcome_list_item_doc_generic" = "تسجيل فيديو لمستند هويتك";
+"onfido_welcome_list_item_face_photo" = "التقاط صورة لوجهك";
 "onfido_welcome_list_item_face_video" = "سجِّل فيديو لوجهك";
 "onfido_doc_capture_header_live_guidance_no_doc" = "امسك هاتفك فوق المستند";
 "onfido_doc_capture_header_live_guidance_no_doc_accessibility" = "لم يتم العثور على مستند. امسك هاتفك فوق المستند.";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "عرض من الكاميرا. ضع الصفحات الخارجية للمستند ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "عرض من الكاميرا. ضع جانب الصورة للمستند ضمن الإطار، ثم اضغط على زر الغالق";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "عرض من الكاميرا. ضع الصفحات الخارجية للمستند ضمن الإطار، ثم اضغط على زر الغالق";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "ضع هاتفك بالقرب من منتصف جواز سفرك";
 "onfido_avc_intro_title_accessibility" = "سجِّل فيديو لوجهك";
 "onfido_avc_intro_video_accessibility" = "مثال فيديو لشخص يدير رأسه لكلا الجانبين حتى الانتهاء";
 "onfido_avc_face_capture_frame_accessibility" = "عرض من كاميرا سيلفي";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "ابدأ المسح";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "الحصول على التحقق دون NFC";
-
 "onfido_doc_capture_alert_too_close_title" = "تحرك للخلف";
 "onfido_doc_capture_alert_rotated_title" = "قم بتدوير المستند الخاص بك";
 "onfido_doc_capture_alert_too_far_title" = "اقترب أكثر";
@@ -649,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "يرجى استخدام المستند الأصلي الخاص بك. لا يتم قبول الصور من الشاشة أو النسخ الفوتوغرافية";
 
 "onfido_interactive_task_waiting_title_1" = "جارٍ التحقق من جودة الصورة...";
-"onfido_interactive_task_waiting_title_2" = "جاري تحميل الصورة...";
-"onfido_interactive_task_waiting_title_3" = "جاري تحميل الفيديو...";
-"onfido_interactive_task_waiting_title_4" = "جارٍ التحقق من جودة البيانات...";
 "onfido_interactive_task_waiting_subtitle_1" = "يرجى الانتظار لفترة أطول قليلاً حتى يتم الانتهاء من المهمة.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "جاري تجميع البيانات...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.";
@@ -788,13 +767,8 @@
 "onfido_sid_register_error_title" = "لم يتم إنشاء المفتاح السري";
 "onfido_sid_register_error_subtitle" = "يبدو أنك لم تتمكن من إنشاء مفتاح الدخول. عُد لإعادة المحاولة أو استمر لإكمال العملية.";
 "onfido_sid_register_error_button" = "عُد";
-
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "قدم شهادة الإقامة أو الإيجار";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "تأكد من أنك قمت بتحميل صفحة الوثيقة بأكملها، وأن التفاصيل واضحة للقراءة بدون ضبابية أو وهج";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "قدم صفحة الوثيقة كاملة للحصول على أفضل النتائج";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "شهادة الإقامة أو السكن";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "صادر عن السلطة الحكومية أو المالك الشركات كتأكيد للإيجار.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "لا يتم قبول اتفاقيات التأجير الفرعي";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "لا يتم قبول اتفاقيات التأجير الفرعي";
 "onfido_generic_alert_parsing_error_label" = "خطأ في التحليل";
 "onfido_generic_error_parsing_detail" = "حدث خطأ في التحليل. يرجى المحاولة مرة أخرى.";

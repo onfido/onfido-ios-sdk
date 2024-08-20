@@ -8,8 +8,8 @@
 "onfido_video_capture_frame_success_accessibility" = "Kasvot havaittu. Tallennus on alkanut.";
 /* Accessibility strings for screen readers */
 "onfido_video_intro_video_accessibility" = "Esimerkki videosta, jossa joku tallentaa selfievideon. Tallenna selfievideo katsomalla etukameraan ja pitämällä puhelintasi pienen matkan päässä kasvoistasi. Sitten sinun täytyy lausua joitakin numeroita ja kääntää päätäsi näytön ohjeiden mukaisesti.";
-"onfido_video_intro_button_pause_accessibility" = "Keskeytä video";
-"onfido_video_intro_button_play_accessibility" = "Toista video";
+"onfido_video_intro_button_pause_accessibility" = "Keskeytä skannausprosessin havainnollistava animaatio";
+"onfido_video_intro_button_play_accessibility" = "Toista skannausmenettelyn havainnollistava animaatio";
 "onfido_country_select_list_header_all" = "Kaikki maat";
 "onfido_doc_capture_alert_manual_capture_detail" = "Kohdista asiakirja ja paina sitten painiketta";
 /* Document autocapture */
@@ -179,18 +179,12 @@
 "onfido_welcome_subtitle" = "Siihen menee muutama minuutti";
 /* Welcome */
 "onfido_welcome_title" = "Vahvista henkilöllisyytesi";
-"onfido_app_title_doc_confirmation" = "Vahvista henkilöllisyytesi";
-"onfido_app_title_selfie_confirmation" = "Vahvista henkilöllisyytesi";
 "onfido_app_title_nfc_select" = "Vahvista henkilöllisyytesi";
 "onfido_app_title_nfc_intro" = "Vahvista henkilöllisyytesi";
 "onfido_app_title_nfc_fail" = "Vahvista henkilöllisyytesi";
 /* Liveness confirmation */
 "onfido_app_title_doc_select" = "Vahvista henkilöllisyytesi";
 "onfido_app_title_country_select" = "Valitse myöntämismaa";
-"onfido_app_title_selfie_intro" = "Vahvista henkilöllisyytesi";
-"onfido_app_title_video_intro" = "Vahvista henkilöllisyytesi";
-"onfido_app_title_permission" = "Vahvista henkilöllisyytesi";
-"onfido_app_title_video_confirmation" = "Vahvista henkilöllisyytesi";
 "onfido_video_capture_alert_wrong_side" = "Väärä puoli";
 
 /* NFC Read */
@@ -209,37 +203,29 @@
 
 "onfido_nfc_intro_title_passport" = "Skannaa passisi siru";
 "onfido_nfc_intro_subtitle_passport" = "Käytä puhelintasi skannaamaan siru passissasi";
-
 "onfido_nfc_intro_passport_scan_guide_1" = "Aseta passisi avattuna tasaiselle pinnalle";
 "onfido_nfc_intro_passport_scan_guide_2" = "Aseta puhelimesi passiasi vasten. Sirun paikantamiseksi saatat joutua liu'uttamaan puhelintasi ylös ja alas passiasi vasten.";
 "onfido_nfc_intro_passport_scan_guide_3" = "Kun siru on havaittu, pidä puhelimesi ja passisi paikallaan.";
 "onfido_nfc_intro_passport_scan_guide_4" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
-
 "onfido_nfc_intro_button_primary_passport" = "Aloita skannaus";
-
 "onfido_nfc_intro_sheet_ready_subtitle_passport" = "Aseta puhelimesi passisi vasten. Saatat joutua hitaasti liu'uttamaan puhelintasi passiasi vasten.";
 "onfido_nfc_intro_sheet_scanning_subtitle" = "Skannataan...";
-
-"onfido_nfc_intro_title_card" = "Skannaa NFC-korttisi";
+"onfido_nfc_intro_title_card" = "Skannaa asiakirjasi siru";
 "onfido_nfc_intro_subtitle_card" = "Aseta puhelimesi korttia vasten ja pidä sitä puhelimesi yläosan lähellä";
 "onfido_nfc_intro_button_primary_card" = "Aloita skannaus";
-
 "onfido_nfc_intro_sheet_ready_subtitle_card" = "Aseta puhelimesi korttia vasten";
-
-"onfido_nfc_fail_title_passport" = "Passisi skannaus epäonnistui";
-"onfido_nfc_fail_title_card" = "NFC-korttiasi ei voitu skannata";
-
 "onfido_nfc_intro_carousel_body_remove_cover" = "Poista passisi suojus";
 "onfido_nfc_intro_carousel_body_lay_flat" = "Aseta passisi tasaiselle alustalle";
 "onfido_nfc_intro_carousel_body_phone_middle" = "Aseta puhelimesi passisi keskiosan lähelle";
 "onfido_nfc_intro_carousel_body_last_page" = "Voit myös kokeilla takasivun sisäpuolta";
 "onfido_nfc_intro_carousel_body_dont_move" = "Älä liikuta puhelintasi tai passiasi skannauksen aikana";
 
+"onfido_nfc_fail_title_passport" = "Passisi skannaus epäonnistui";
+"onfido_nfc_fail_title_card" = "NFC-korttiasi ei voitu skannata";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Poista passisi ja puhelimesi suojukset";
 "onfido_nfc_fail_list_item_keep_contact_passport" = "Pidä puhelimesi ja passisi kiinni toisissaan, kunnes skannaus onnistuu";
 "onfido_nfc_fail_button_primary_passport" = "Aloita skannaus";
 "onfido_nfc_fail_button_secondary_passport" = "Vahvista ilman skannausta";
-
 "onfido_nfc_fail_list_item_remove_cover_card" = "Poista puhelimesi suojus";
 "onfido_nfc_fail_list_item_keep_contact_card" = "Pidä puhelimesi ja korttisi kiinni toisissaan, kunnes skannaus onnistuu";
 "onfido_nfc_fail_button_primary_card" = "Aloita skannaus";
@@ -256,7 +242,6 @@
 
 /* User consent */
 
-"onfido_app_title_user_consent" = "Vahvista henkilöllisyytesi";
 "onfido_user_consent_prompt_no_consent_title" = "Oletko varma?";
 "onfido_user_consent_prompt_no_consent_detail" = "Jos et hyväksy Onfidon tietosuojaselosteita ja palveluehtoja, emme voi vahvistaa henkilöllisyyttäsi ja poistut tästä vaiheesta.";
 "onfido_user_consent_prompt_button_secondary" = "Tarkista uudelleen";
@@ -266,7 +251,6 @@
 
 /* User consent load error */
 
-"onfido_app_title_user_consent_load_fail" = "Vahvista henkilöllisyytesi";
 "onfido_user_consent_load_fail_title" = "Sisällön lataus epäonnistui";
 "onfido_user_consent_load_fail_detail" = "Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen";
 "onfido_user_consent_load_fail_button_primary" = "Lataa näyttö uudell.";
@@ -431,7 +415,6 @@
 "onfido_doc_capture_frame_accessibility_dl_fr_back_manual" = "Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta";
 "onfido_doc_capture_frame_accessibility_ic_za_front_manual" = "Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta";
 "onfido_doc_capture_frame_accessibility_ic_za_back_manual" = "Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta";
-"onfido_nfc_intro_sheet_ready_subtitle_passport" = "Aseta puhelimesi passisi keskiosan lähelle";
 "onfido_avc_intro_title_accessibility" = "tallentaaksesi videon kasvoistasi";
 "onfido_avc_intro_video_accessibility" = "Esimerkkivideo, jossa joku kääntää päätään molemmille puolille, kunnes on valmis";
 "onfido_avc_face_capture_frame_accessibility" = "Näkymä selfiekamerasta";
@@ -629,7 +612,6 @@
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Pidä laite ja asiakirja kosketuksissa, kunnes skannaus onnistuu";
 "onfido_nfc_scan_error_inter_passport_primary_button" = "Aloita skannaus";
 "onfido_nfc_scan_error_inter_passport_secondary_button" = "Vahvista ilman NFC: tä";
-
 "onfido_doc_capture_alert_too_close_title" = "Siirry taaksepäin";
 "onfido_doc_capture_alert_rotated_title" = "Kierrä asiakirjaa";
 "onfido_doc_capture_alert_too_far_title" = "Siirry lähemmäs";
@@ -641,7 +623,6 @@
 "onfido_doc_capture_alert_tilted_title" = "Pidä asiakirja suorassa";
 "onfido_doc_capture_header_recording_video" = "Video tallennus";
 "onfido_doc_capture_header_recording_complete" = "Tallennus valmis";
-
 "onfido_doc_confirmation_alert_odp_screenshot_title" = "Näyttökuva havaittu";
 "onfido_doc_capture_alert_manual_capture_video_title" = "Yritä tallentaa video manuaalisesti";
 "onfido_doc_confirmation_alert_odp_photo_of_screen_title" = "Näytön kuva havaittu";
@@ -650,9 +631,6 @@
 "onfido_doc_confirmation_alert_odp_detail" = "Käytä alkuperäistä asiakirjaasi. Näytön valokuvia tai valokopioita ei hyväksytä";
 
 "onfido_interactive_task_waiting_title_1" = "Tarkistetaan kuvan laatua...";
-"onfido_interactive_task_waiting_title_2" = "Kuvan lataaminen...";
-"onfido_interactive_task_waiting_title_3" = "Ladataan videota...";
-"onfido_interactive_task_waiting_title_4" = "Tarkistetaan tietojen laatua...";
 "onfido_interactive_task_waiting_subtitle_1" = "Ole hyvä ja odota hieman pidempään, jotta tehtävä saadaan valmiiksi.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kokoaa tietoja...";
 "onfido_studio_between_interactive_tasks_waiting_subtitle_1" = "Kokoamme kerättyjä tietoja, odota hetki.";
@@ -790,11 +768,7 @@
 "onfido_sid_register_error_subtitle" = "Näyttää siltä, että et pystynyt luomaan salasanaa. Mene takaisin yrittääksesi uudelleen tai jatka koko prosessiin.";
 "onfido_sid_register_error_button" = "Palaa takaisin";
 "onfido_doc_submit_title_accommodation_tenancy_certificate" = "Jätä majoitus- tai vuokrasopimustodistus";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Varmista, että olet ladannut koko dokumenttisivun, ja tiedot ovat selkeästi luettavissa ilman suttuisuutta tai häikäisyä";
 "onfido_photo_upload_body_accommodation_tenancy_certificate" = "Tarjoa koko asiakirjasivu parhaiden tulosten saamiseksi";
-"onfido_doc_select_button_accommodation_tenancy_certificate" = "Majoitus- tai vuokrasopimustodistus";
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Myönnetty hallituksen viranomaisen tai yrityksen vuokranantajan toimesta vuokravahvistuksena.";
-"onfido_doc_select_accommodation_tenancy_certificate_warning" = "Alivuokrasopimukset eivät ole hyväksyttäviä";
-"onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Alivuokrasopimukset eivät ole hyväksyttäviä";
 "onfido_generic_alert_parsing_error_label" = "Jäsennysvirhe";
 "onfido_generic_error_parsing_detail" = "Tapahtui jäsentämisen virhe. Yritä uudelleen.";
