@@ -15,7 +15,8 @@
 - [4. Completing a session](#completing-a-session)
 - [Advanced flow customization](#advanced-flow-customization)
 - [Advanced callbacks](#advanced-callbacks)
-- [User Analytics](#user-analytics)
+- [User analytics](#user-analytics)
+- [Custom biometric token storage](#custom-biometric-token-storage)
 - [Migrating](#migrating)
 - [Security](#security)
 - [Accessibility](#accessibility)
@@ -1621,11 +1622,11 @@ class MediaFile {
 }
 ```
 
-### User Analytics
+## User analytics
 
 The SDK also allows you to track a user's journey through the Onfido verification process via a definable hook.
 
-#### Overriding the hook
+### Overriding the hook
 
 In order to expose a user's progress through the SDK, a hook method must be defined while creating the `OnfidoFlow.swift`
 instance using a `.with(eventHandler: EventHandler)` call. For example:
@@ -1686,6 +1687,35 @@ MOTION_FACIAL_CAPTURE_ERROR_TOO_FAST - User performed the motion head turn too f
 MOTION_FACIAL_UPLOAD - User's motion capture is uploading
 MOTION_FACIAL_UPLOAD_COMPLETED - User's motion capture finished uploading
 MOTION_FACIAL_CONNECTION_ERROR - User was presented the "Motion connection error" screen during upload
+```
+
+## Custom biometric token storage
+
+When using the decentralized authentication solution, by default the SDK manages biometric token storage. The SDK also allows you to have control over the token lifecycle by exposing an API to override the default implementation to read and write the token, so it can be stored on-device, in the cloud, in a keychain or on your servers.
+
+### Implementation
+
+You need to provide a class that conforms to the `EncryptedBiometricTokenHandler` protocol. Note the `customerUserHash` parameter in both functions that need to be implemented. This is a unique identifier for the user that can be used as a key for token storage. Feel free to ignore it if you have your own identifier.
+
+Example of a class handling the callbacks for when a token is generated and for when we request a token from you:
+
+```
+class CustomTokenHandlerClass: EncryptedBiometricTokenHandler {
+    func onTokenGenerated(customerUserHash: String, encryptedBiometricToken: String) {
+        // You store `customerUserHash` and `encryptedBiometricToken` however you choose to do so
+    }
+
+    func onTokenRequested(customerUserHash: String, completion: (String) -> Void) {
+        // You use the `customerUserHash` to retrieve the encrypted biometric token you have stored and call `completion`, passing in this token
+    }
+}
+```
+
+Example of initialising a workflow with a class that handles tokens:
+
+```
+let workflowConfiguration = WorkflowConfiguration(workflowRunId: "<WORKFLOW_RUN_ID>", sdkToken: "<YOUR_SDK_TOKEN>")
+workflowConfiguration.withEncryptedBiometricTokenHandler(handler: self) // `self` to be replaced with a different instance if you are using a different class conforming to `EncryptedBiometricTokenHandler`
 ```
 
 ## Migrating
