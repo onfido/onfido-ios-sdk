@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [31.0.0] - 2024-09-18
+
+### Added
+
+- Added APIs for encrypted biometric token storage and retrieval
+- Proof of Address supports 2-sided documents
+- Added new API to accept translation overrides for Proof of Address, One-Time Password and Qualified Electronic Signature
+
 ## [30.6.1] - 2024-09-26
 
 ### Fixed

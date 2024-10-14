@@ -433,9 +433,92 @@ For the list of languages supported by Onfido, please refer to our [SDK customiz
 
 **Note**: If no language is selected, the SDK will detect and use the end user's device language setting. If the device's language is not supported, the SDK will default to English (`en_US`).
 
-#### Custom languages
+#### Custom translations and text
 
-The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply
+In addition to selecting a default language for the SDK session, the SDK can also be initialized with custom text and translations for each required language.
+
+Depending on which verification steps you are including in your flow, custom translations are implemented in one of two ways, both of which are documented below. 
+
+##### Custom translations for Proof of Address, One Time Password and Qualified Electronic Signature
+
+For the Proof of Address (PoA), One Time Password (OTP) and Qualified Electronic Signature (QES) steps, custom translations can be passed directly through a dictionary of strings, or through a JSON file of customized translations.
+
+##### Swift
+
+```swift
+let configBuilder = OnfidoConfig.builder()
+
+// Passing a dictionary directly
+let customTranslations: [String: Any] = [
+  "en_US": [
+    "proofOfAddress": [
+      "intro": [
+        "title": "Custom Title"
+      ]
+    ]
+  ],
+  "es": [
+    "oneTimePassword": [
+      "send_code": [
+        "title": "Custom Title"
+      ]
+    ]
+  ]
+]
+configBuilder.withCustomTranslations(customTranslations)
+
+// Passing a JSON file of the customized translations. The `.json` prefix
+// is not required. The API expects only a JSON file to be provided
+let bundle: Bundle = .main // Or any Bundle you have stored the file in
+configBuilder.withCustomTranslations(filename: "CustomTranslations", in: .main)
+```
+
+##### Objective-C
+
+```objc
+ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
+
+// Passing a dictionary directly
+NSDictionary *customTranslations = @{
+    @"en_US": @{
+        @"proofOfAddress": @{
+            @"intro": @{
+                @"title": @"Custom Title"
+            }
+        }
+    },
+    @"es": @{
+        @"oneTimePassword": @{
+            @"send_code": @{
+                @"title": @"Custom Title"
+            }
+        }
+    }
+};
+[configBuilder withCustomTranslations: customTranslations];
+
+// Passing a JSON file of the customized translations
+NSBundle *bundle = [NSBundle mainBundle]; // Or any other Bundle where you have stored the file
+[configBuilder withCustomTranslationsWithFilename: @"CustomTranslations" in: bundle];
+```
+
+Strings for the PoA, OTP and QES steps have been removed from the `Localizable.strings` file. For the full list of removed strings, refer to the [migration guide](/migration/#onfido-ios-sdk-3100-migration-guide).
+
+##### Identifying language keys
+
+The full list of keys that can be customized in the Onfido iOS SDK is available on the Onfido CDN and is split by module and language.
+
+| File URL | Description |
+| --- | --- |
+| https://sdk.onfido.com/capture/i18n/proofOfAddress/en_US.json | Proof of Address screens |
+| https://sdk.onfido.com/capture/i18n/oneTimePassword/en_US.json | One-Time-Password (OTP) screens |
+| https://sdk.onfido.com/capture/i18n/qualifiedElectronicSignature/en_US.json | Qualified Electronic Signature (QES) screens |
+
+**Note** that the same keys are available across all supported languages and are accessible by specifying the appropriate language name in the URL (en_US.json in the examples above). The full list of supported languages and their language codes can be found in our [SDK customization guide](/sdk-customization/#language-localization).
+
+##### Custom translations for all other verification steps
+
+For all other verification steps, the iOS SDK also allows for the selection of a specific custom language. You can supply
 full or partial translations. For any key without a translation, the supported language default will be used.
 
 When adding custom translations, you must add the whole set of keys included in the `Localizable.strings` file.
@@ -1351,6 +1434,21 @@ if (flowWithDocumentResults.count > 0) {
 }
 ```
 
+Sample of instance returned by a flow with `FlowStep.document`, `FlowStep.face` and `FlowStep.proofOfAddress`:
+```
+Document:
+        Front: DocumentSideResult(id=document_id, side=FRONT, type=DRIVING_LICENCE, issuingCounfry=GBR)
+        Back: DocumentSideResult(id=document_id, side=BACK, type=DRIVING_LICENCE, issuingCounfry=GBR)
+        Type: DRIVING_LICENCE
+            
+Face:
+        Face(id=face_id, variant=PHOTO) 
+        
+Proof of address:
+        ProofOfAddress(type=UTILITY_BILL, front=(id=front_side_id, type=(optional)), back=(id=back_side_id, type=(optional)))
+
+```
+
 To access the result object for a face capture, change the type to `ONFlowResultTypeFace`.
 
 ### Error handling
@@ -1705,7 +1803,7 @@ class CustomTokenHandlerClass: EncryptedBiometricTokenHandler {
         // You store `customerUserHash` and `encryptedBiometricToken` however you choose to do so
     }
 
-    func onTokenRequested(customerUserHash: String, completion: (String) -> Void) {
+    func onTokenRequested(customerUserHash: String, completion: @escaping (String) -> Void) {
         // You use the `customerUserHash` to retrieve the encrypted biometric token you have stored and call `completion`, passing in this token
     }
 }
@@ -1803,8 +1901,8 @@ details.
 ## Licensing
 
 Due to API design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party
-dependencies. For those, we include the licensing information inside our bundle and also in this repo under license
-folder, with the file named [onfido_licenses.json](license/onfido_licenses.json).
+dependencies. For those, we include the licensing information inside our bundle and also in this repo under licenses
+folder, with the file named [onfido_licenses.json](licenses/onfido_licenses.json).
 This file contains a summary of our bundled dependencies and all the licensing information required, including links to
 the relevant license texts contained in the same folder.
 Integrators of our library are then responsible for keeping this information along with their integrations.
