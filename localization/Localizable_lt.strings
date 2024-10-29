@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Pateikti nuotrauką";
 "onfido_doc_confirmation_button_primary_visa" = "Pateikti nuotrauką";
 "onfido_selfie_confirmation_button_secondary" = "Fotografuoti iš naujo";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Įjungti abu";
 "onfido_permission_button_primary_cam" = "Įjungti kamerą";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Iš naujo pradėti įrašymą";
 "onfido_video_capture_prompt_detail_restart" = "Norėdami tinkamai atlikti šį veiksmą, turite išlaikyti veidą matomoje vietoje viso įrašymo metu.";
 "onfido_video_capture_prompt_button_restart" = "Paleisti iš naujo";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Laikykite veidą ovale";
 "onfido_video_capture_body" = "Kad galėtumėte pradėti įrašymą, veidas turi būti ovale";
 "onfido_doc_confirmation_body_license" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
 "onfido_doc_confirmation_body_generic" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
 "onfido_doc_confirmation_body_id" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
 "onfido_doc_confirmation_body_permit" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
 "onfido_doc_confirmation_body_visa" = "Įsitikinkite, kad jūsų informacija yra aiškiai matoma ir neuždengta";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Įsitikinkite, kad matomas visas jūsų veidas";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Pasirūpinkite, kad dokumento vizos puslapis būtų rėmelyje";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Įkeliama";
-
-
 "onfido_doc_capture_header_passport_auto" = "Pasirūpinkite, kad dokumento puslapis būtų rėmelyje";
 "onfido_doc_capture_header_license_back" = "Pasirūpinkite, kad dokumento galinė pusė būtų rėmelyje";
 "onfido_doc_capture_header_license_back_auto" = "Pasirūpinkite, kad dokumento galinė pusė būtų rėmelyje";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje";
 "onfido_doc_capture_header_id_front" = "Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje";
 "onfido_doc_capture_header_permit_front" = "Pasirūpinkite, kad dokumento priekinė pusė būtų rėmelyje";
-
 "onfido_generic_uploading" = "Įkeliama";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Įsitikinkite, kad nuotraukoje telpa visas dokumentas";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Įsitikinkite, kad jūsų veidas matomas";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Patvirtinkite savo tapatybę";
 "onfido_app_title_country_select" = "Dokumentą išdavusi šalis";
 "onfido_video_capture_alert_wrong_side" = "Netinkama pusė";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Pagreitinkite procesą naudodami NFC";
 "onfido_nfc_select_subtitle_passport" = "Nuskaitysime jūsų pase esantį NFC lustą";
 "onfido_nfc_select_body_passport" = "E. pasai turi šį simbolį ant viršelio";
 "onfido_nfc_select_button_primary_passport" = "Naudoti e. pasą";
 "onfido_nfc_select_button_secondary_passport" = "Tai ne e. pasas";
-
 "onfido_nfc_select_title_card" = "Pagreitinkite procesą naudodami NFC";
 "onfido_nfc_select_subtitle_card" = "Nuskaitysime jūsų kortelėje esantį NFC lustą";
 "onfido_nfc_select_body_card" = "Kortelės su NFC lustais turi šį simbolį";
 "onfido_nfc_select_button_primary_card" = "Naudoti NFC kortelę";
 "onfido_nfc_select_button_secondary_card" = "Tai ne NFC kortelė";
-
 "onfido_nfc_intro_title_passport" = "Nuskaitykite savo paso lustą";
 "onfido_nfc_intro_subtitle_passport" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo pase";
 "onfido_nfc_intro_passport_scan_guide_1" = "Padėkite savo pasą atvertą ant plokščios paviršiaus";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Laikykite telefoną netoli paso vidurio";
 "onfido_nfc_intro_carousel_body_last_page" = "Taip pat galite bandyti galinio puslapio vidų";
 "onfido_nfc_intro_carousel_body_dont_move" = "Nuskaitymo metu nejudinkite telefono ir paso";
-
 "onfido_nfc_fail_title_passport" = "Nepavyko nuskaityti jūsų paso";
 "onfido_nfc_fail_title_card" = "Nepavyko nuskaityti jūsų NFC kortelės";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Nuimkite pasą ir telefono dangtelius";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Laikykite telefoną virš kortelės, kol bus sėkmingai nuskaityta";
 "onfido_nfc_fail_button_primary_card" = "Pradėti nuskaitymą";
 "onfido_nfc_fail_button_secondary_card" = "Jūsų patvirtinimas be nuskaitymo";
-
 "onfido_doc_confirmation_zoom_button" = "Padidinti vaizdą";
 "onfido_doc_confirmation_image_accessibility" = "Jūsų dokumento nuotrauka. Dukart bakstelėkite, kad padidintumėte.";
 "onfido_doc_zoom_body" = "Judėkite aplink naudodami vieną pirštą";
 "onfido_doc_zoom_button_close" = "Uždaryti";
-
 "onfido_video_confirmation_body" = "Jūsų vaizdo įrašas padarytas";
 "onfido_app_title_country_select_search" = "Ieškoti";
 "onfido_country_select_list_accessibility" = "Paieškos rezultatai";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Ar tikrai?";
 "onfido_user_consent_prompt_no_consent_detail" = "Jei nesutinkate su „Onfido“ privatumo patvirtinimais ir paslaugų teikimo sąlygomis, negalėsime patvirtinti jūsų tapatybės ir jūs išeisite iš šio etapo.";
 "onfido_user_consent_prompt_button_secondary" = "Peržiūrėti dar kartą";
 "onfido_user_consent_prompt_button_primary" = "Taip, nepatvirtinkite manęs";
 "onfido_user_consent_button_primary" = "Sutinku";
 "onfido_user_consent_button_secondary" = "Nesutinku";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Nepavyko įkelti turinio";
 "onfido_user_consent_load_fail_detail" = "Patikrinkite, ar ryšys stabilus, tada bandykite dar kartą";
 "onfido_user_consent_load_fail_button_primary" = "Įkelti ekraną iš naujo";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Laikykite telefoną virš paso nuotraukos puslapio";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vaizdas iš kameros. Pakelkite telefoną virš paso nuotraukos puslapio, tada lėtai nenukrypdami atitraukite telefoną nuo dokumento.";
 "onfido_doc_capture_header_capturing" = "Laikykite nejudindami";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Įsitikinkite, kad įkėlėte visą dokumento puslapį ir kad informacija yra aiškiai matoma, kad ją būtų galima perskaityti, nesusiliejusi ir be atspindžių";
 "onfido_doc_select_subtitle_poa" = "Dokumentai, kuriuose nurodytas Jūsų namų adresas";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Įkelti vaizdo įrašo pavyzdį iš naujo";
 "onfido_doc_select_button_address_card" = "Adreso kortelė";
 "onfido_doc_select_button_address_card_detail" = "Priimamos laikinos ir nuolatinės kortelės";
-"proofOfAddress.guide.subtitle_address_certificate" = "Turi būti galiojanti adreso kortelė";
-
 "onfido_welcome_start_workflow_button_trial" = "Pradėti patikrinimą (TEST)";
 "onfido_enter_can_title" = "Įveskite CAN numerį";
 "onfido_enter_can_subtitle" = "%d-skaitmeninis numeris yra priešakinėje jūsų dokumento pusėje";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Bandyti dar kartą";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Garso įrašą groja kita programėlė";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Įrašymo metu savo įrenginyje negrokite jokių garso įrašų";
-
 "onfido_nfc_scan_welcome_card_title" = "Nuskanuokite savo dokumentą";
 "onfido_nfc_scan_welcome_card_subtitle" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente";
 "onfido_nfc_scan_welcome_card_list_item" = "Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 "onfido_nfc_scan_welcome_card_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Gauti patvirtinimą be NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Nepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_error_inter_list_item" = "Nuimkite telefono dangtelį";
 "onfido_nfc_scan_error_inter_list_item_2" = "Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas";
 "onfido_nfc_scan_error_inter_primary_button" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_error_inter_secondary_button" = "Gauti patvirtinimą be NFC";
-
 "onfido_nfc_scan_error_final_title" = "Nepavyko patikrinti šio dokumento";
 "onfido_nfc_scan_error_final_subtitle" = "Šiam dokumentui reikalingas NFC nuskaitymas, tačiau jo nepavyko užbaigti";
 "onfido_nfc_scan_error_final_list_item" = "Ar turite kitą dokumentą, su kuriuo galėtumėte tęsti?";
 "onfido_nfc_scan_error_final_primary_button" = "Naudokite kitą dokumentą";
 "onfido_nfc_scan_error_final_secondary_button" = "Gauti patvirtinimą be NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Pagreitinkite procesą naudodami NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente";
 "onfido_nfc_scan_welcome_passport_list_item" = "Padėkite dokumentą ant lygaus paviršiaus";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Pradėti nuskaitymą";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Gauti patvirtinimą be NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Nepavyko nuskaityti jūsų dokumento";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Nuimkite pasą ir telefono dangtelius";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pasukite į priekinę pusę";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Apverskite į galinę pusę";
 "onfido_doc_capture_alert_hold_still_title" = "Laikykite nejudindami";
-
 "onfido_doc_capture_alert_photo_page_title" = "Rodyti tik nuotraukos puslapį";
 "onfido_doc_capture_alert_tilted_title" = "Laikykite dokumentą tiesiai";
 "onfido_doc_capture_header_recording_video" = "Įrašomas vaizdo įrašas";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Nufotografuota kopija aptikta";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Nuskaitymas aptiktas";
 "onfido_doc_confirmation_alert_odp_detail" = "Prašome naudoti savo originalų dokumentą. Ekrano nuotraukos arba fotokopijos nėra priimamos";
-
 "onfido_interactive_task_waiting_title_1" = "Tikrinama vaizdo kokybė...";
 "onfido_interactive_task_waiting_subtitle_1" = "Prašome dar šiek tiek palaukti, kol užduotis bus atlikta.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompiliuojami duomenys...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Jums gali būti paprašyta įvesti CAN prieš tęsiant skenavimą";
 "onfido_enter_can_secondary_button" = "Aš neturiu CAN";
 "onfido_enter_can_warning" = "Jums liko %d %@";
-
 "onfido_otp_send_code_input_label" = "Telefono numeris";
 "onfido_otp_send_code_error_invalid_phone_number" = "Prašome pateikti galiojantį telefono numerį.";
 "onfido_otp_error_title" = "Kažkas nepavyko";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Išduota vyriausybės institucijos ar korporacinio nuomotojo kaip nuomos patvirtinimas.";
 "onfido_generic_alert_parsing_error_label" = "Analizavimo klaida";
 "onfido_generic_error_parsing_detail" = "Įvyko analizės klaida. Prašome bandyti dar kartą.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Perkelti telefono viršų prie savo paso apatinės dalies.";
 "onfido_nfc_capture_scan_passport_sheet" = "Padėkite telefono viršutinę dalį ant savo paso apatinės dalies.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Laikykite savo telefoną ir pasą nejudinant.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Patalpinkite savo dokumentą priešais telefono viršutinę galinę dalį.";
 "onfido_nfc_card_scan_doc_realign_body" = "Pakoreguokite savo dokumentą priešais telefono viršutinę galinę dalį.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Laikykite savo telefoną ir dokumentą nejudant.";
-"proofOfAddress.country.alert.intro" = "Nerandate savo šalies?";
-"proofOfAddress.selection.subtitle" = "Dokumentai, kuriuose nurodytas Jūsų namų adresas";
-"common.selection.utility_bill_extra" = "el. išrašai yra tinkami";
-"common.selection.utility_bill_details" = "Dujos, elektra, vanduo, fiksuotasis ryšys arba plačiajuostis ryšys";
-"common.selection.benefit_letters_details" = "Vyriausybės patvirtintos išmokos namų ūkiui, pvz.: pašalpa darbo ieškančiajam, būsto pašalpa, mokesčių kreditai";
-"proofOfAddress.intro.subtitle" = "Jums reikės dokumento, kuris:";
-"proofOfAddress.intro.list_current_address" = "atitinka adresą, kurį naudojate registruodamiesi;";
-"proofOfAddress.intro.button_primary" = "Pradėti patvirtinimą";
-"proofOfAddress.guide.instructions.logo" = "Logotipas";
-"proofOfAddress.guide.instructions.full_name" = "Vardas ir pavardė";
-"proofOfAddress.guide.instructions.label" = "Užfiksuokite visą dokumentą ir įsitikinkite, kad jame aiškiai nurodyta:";
-"proofOfAddress.guide.instructions.address" = "Dabartinis adresas";
-"proofOfAddress.guide.instructions.issue_date" = "Išdavimo data arba suvestinis laikotarpis";
-"proofOfAddress.guide.button_primary" = "Tęsti";
-"common.selection.bank_building_society_statement" = "Banko arba būstų savininkų bendrijos išrašas";
-"common.selection.utility_bill" = "Sąskaita už komunalines paslaugas";
-"common.selection.benefit_letters" = "Pažyma apie išmokas";
-"common.selection.council_tax" = "Vietos valdžios mokesčių laiškas";
-"proofOfAddress.country.alert.close" = "Uždaryti";
-"proofOfAddress.capture.frame_accessibility" = "Vaizdas iš kameros";
-"proofOfAddress.intro.list_signup_address" = "yra jūsų naujausias dokumentas.";
-"proofOfAddress.intro.list_recent_document" = "rodo jūsų dabartinį";
-"proofOfAddress.intro.title" = "Patvirtinkite savo adresą";
-"proofOfAddress.preview.body_council_tax" = "Įsitikinkite, kad įkėlėte visą dokumento puslapį ir kad informacija yra aiškiai matoma, kad ją būtų galima perskaityti, nesusiliejusi ir be atspindžių";
-"proofOfAddress.country.button_primary" = "Pateikti dokumentą";
-"proofOfAddress.preview.redo" = "Fotografuoti iš naujo";
-"proofOfAddress.preview.choose_another_photo" = "Pasirinkti kitą";
-"proofOfAddress.preview.image.accessibility" = "Rodyti padidintą dokumento peržiūrą";
-"proofOfAddress.preview.image.zoom_text" = "Padidinti dokumentą";
-"proofOfAddress.preview.image.zoom_move" = "Judėkite aplink naudodami vieną pirštą";
-"proofOfAddress.preview.image.zoom_close" = "Uždaryti";
-"proofOfAddress.capture.instructions" = "Adreso dokumento priekinė pusė";
-"proofOfAddress.upload.take_photo" = "Fotografuoti";
-"proofOfAddress.upload.upload_photo" = "Įkelti";
-"proofOfAddress.selection.title" = "Pasirinkti dokumentą";
-"proofOfAddress.selection.title_uk" = "Pasirinkti JK dokumentą";
-"proofOfAddress.country.alert.country_not_found" = "Atsiprašome. Stengiamės, kad būtų palaikoma daugiau šalių.";
-"welcome.list_item.poa" = "Nufotografuokite dokumentą su savo adresu";
-"proofOfAddress.upload.dialog.photo_library" = "Nuotraukų biblioteka";
-"proofOfAddress.upload.dialog.files" = "Failai";
-"proofOfAddress.upload.dialog.cancel" = "Atšaukti";
-"common.error.errors.invalid_type.instruction" = "Netinkamas failas";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Pasirinkite kitą failą.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "Gerai";
-"proofOfAddress.guide.subtitle_bank_statement" = "Turi būti išduotas per pastaruosius 3 mėnesius";
-"proofOfAddress.guide.subtitle_tax_letter" = "Turi būti išduotas per pastaruosius 12 mėnesių";
-"proofOfAddress.guide.subtitle_bill" = "Turi būti išduota per pastaruosius 3 mėnesius";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Turi būti išduotas per pastaruosius 12 mėnesių";
-"common.selection.address_card" = "Adreso kortelė";
-"common.selection.address_card_details" = "Priimamos laikinos ir nuolatinės kortelės";
-"proofOfAddress.guide.instructions.full_address" = "Pilnas adresas";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Išdavimo data";
-"proofOfAddress.guide.instructions.expiry_date" = "Galiojimo terminas (jei taikoma)";
-"proofOfAddress.capture.frame_accessibility" = "Nufotografuokite savo dokumentą";
-"document.selection.no_mobile" = "Atsiprašome, mobiliojo telefono sąskaitų nėra";
-
 "onfido_permission_button_primary_both_label" = "Įjunkite kamerą ir mikrofoną";
+"onfido_poa_intro_subtitle" = "Jums reikės dokumento, kuris:";
+"onfido_poa_intro_list_matches_signup" = "atitinka adresą, kurį naudojate registruodamiesi;";
+"onfido_poa_intro_button_primary" = "Pradėti patvirtinimą";
+"onfido_poa_guidance_instructions_logo" = "Logotipas";
+"onfido_poa_guidance_instructions_full_name" = "Vardas ir pavardė";
+"onfido_poa_guidance_instructions_label" = "Užfiksuokite visą dokumentą ir įsitikinkite, kad jame aiškiai nurodyta:";
+"onfido_poa_guidance_instructions_address" = "Dabartinis adresas";
+"onfido_poa_guidance_instructions_issue_date" = "Išdavimo data arba suvestinis laikotarpis";
+"onfido_poa_guidance_button_primary" = "Tęsti";
+"onfido_poa_intro_list_most_recent" = "yra jūsų naujausias dokumentas.";
+"onfido_poa_intro_list_shows_address" = "rodo jūsų dabartinį";
+"onfido_poa_intro_title" = "Patvirtinkite savo adresą";
+"onfido_poa_capture_confirm" = "Pateikti dokumentą";
+"onfido_poa_capture_redo" = "Fotografuoti iš naujo";
+"onfido_poa_capture_choose_another" = "Pasirinkti kitą";
+"onfido_poa_capture_image_accessibility" = "Rodyti padidintą dokumento peržiūrą";
+"onfido_poa_capture_enlarge" = "Padidinti dokumentą";
+"onfido_poa_capture_enlarge_move" = "Judėkite aplink naudodami vieną pirštą";
+"onfido_poa_capture_enlarge_close" = "Uždaryti";
+"onfido_poa_capture_instructions" = "Adreso dokumento priekinė pusė";
+"onfido_poa_upload_instructions_take_photo_button" = "Fotografuoti";
+"onfido_poa_upload_instructions_upload_button" = "Įkelti";
+"onfido_poa_type_selection_title" = "Pasirinkti dokumentą";
+"onfido_poa_type_selection_title_uk" = "Pasirinkti JK dokumentą";
+"onfido_poa_country_not_found" = "Atsiprašome. Stengiamės, kad būtų palaikoma daugiau šalių.";
+"onfido_poa_welcome_text" = "Nufotografuokite dokumentą su savo adresu";
+"onfido_poa_photo_library" = "Nuotraukų biblioteka";
+"onfido_poa_files" = "Failai";
+"onfido_poa_cancel" = "Atšaukti";
+"onfido_poa_err_invalid_file_title" = "Netinkamas failas";
+"onfido_poa_err_invalid_file_message" = "Pasirinkite kitą failą.";
+"onfido_poa_err_invalid_file_ok" = "Gerai";
+"onfido_poa_guidance_subtitle_bank_statement" = "Turi būti išduotas per pastaruosius 3 mėnesius";
+"onfido_poa_guidance_subtitle_tax_letter" = "Turi būti išduotas per pastaruosius 12 mėnesių";
+"onfido_poa_guidance_subtitle_bill" = "Turi būti išduota per pastaruosius 3 mėnesius";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Turi būti išduotas per pastaruosius 12 mėnesių";
+"onfido_poa_guidance_subtitle_address_card" = "Turi būti galiojanti adreso kortelė";
+"onfido_poa_guidance_instructions_full_address" = "Pilnas adresas";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Išdavimo data";
+"onfido_poa_guidance_instructions_expiry_date" = "Galiojimo terminas (jei taikoma)";
+"onfido_qes_consent_introduction_validation" = "Reikalingas sutikimas";

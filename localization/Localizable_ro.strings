@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Trimiteți poză";
 "onfido_doc_confirmation_button_primary_visa" = "Trimiteți poză";
 "onfido_selfie_confirmation_button_secondary" = "Faceți din nou poză";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Activați ambele";
 "onfido_permission_button_primary_cam" = "Activați camera video";
@@ -58,7 +57,7 @@
 "onfido_doc_capture_prompt_title_license" = "Ce tip de permis de conducere aveți?";
 "onfido_doc_select_button_passport" = "Pașaport";
 "onfido_doc_select_button_license" = "Permis de conducere";
-"onfido_doc_select_button_id" = "Cărții de identitate național";
+"onfido_doc_select_button_id" = "Carte de identitate național";
 "onfido_doc_select_button_permit" = "Permis de ședere";
 "onfido_generic_error_network_detail" = "A survenit o eroare de rețea. Vă rugăm să vă verificați conexiunea.";
 /* Network error */
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Începeți din nou înregistrarea";
 "onfido_video_capture_prompt_detail_restart" = "Pentru a trece de această etapă, trebuie ca fața dvs. să fie la vedere cât timp se realizează înregistrarea.";
 "onfido_video_capture_prompt_button_restart" = "Începeți din nou";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Mențineți fața în oval";
 "onfido_video_capture_body" = "Mențineți fața în oval pentru a începe înregistrarea";
 "onfido_doc_confirmation_body_license" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
 "onfido_doc_confirmation_body_generic" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
 "onfido_doc_confirmation_body_id" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
 "onfido_doc_confirmation_body_permit" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
 "onfido_doc_confirmation_body_visa" = "Asigurați-vă că detaliile dvs. sunt clare și neacoperite";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Asigurați-vă că întreaga față este vizibilă";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Poziționați pagina vize a documentului dvs. în cadru";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Se încarcă";
-
-
 "onfido_doc_capture_header_passport_auto" = "Poziționați pagina cu poză a documentului dvs. în cadru";
 "onfido_doc_capture_header_license_back" = "Poziționați pagina verso a documentului dvs. în cadru";
 "onfido_doc_capture_header_license_back_auto" = "Poziționați pagina verso a documentului dvs. în cadru";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Poziționați pagina față a documentului dvs. în cadru";
 "onfido_doc_capture_header_id_front" = "Poziționați pagina față a documentului dvs. în cadru";
 "onfido_doc_capture_header_permit_front" = "Poziționați pagina față a documentului dvs. în cadru";
-
 "onfido_generic_uploading" = "Se încarcă";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Asigurați-vă că întregul document este în poză";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Asigurați-vă că fața dvs. este vizibilă";
@@ -151,7 +142,7 @@
 "onfido_doc_capture_alert_no_mrz_title" = "Cele două linii de jos nu sunt vizibile";
 "onfido_doc_capture_alert_no_mrz3_title" = "Cele trei linii de jos nu sunt vizibile";
 "onfido_selfie_confirmation_alert_multiple_faces_title" = "Fețe multiple găsite";
-"onfido_doc_capture_prompt_title_id" = "Ce tip de cărții de identitate aveți?";
+"onfido_doc_capture_prompt_title_id" = "Ce tip de carte de identitate aveți?";
 "onfido_video_capture_button_primary_fallback" = "Următorul pas";
 "onfido_doc_confirmation_alert_no_doc_title" = "Niciun document găsit";
 /* Face error */
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Verificați identitatea dvs.";
 "onfido_app_title_country_select" = "Selectați țara emitentă";
 "onfido_video_capture_alert_wrong_side" = "Partea greșită";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Accelerați procesul cu NFC";
 "onfido_nfc_select_subtitle_passport" = "Vom scana cipul NFC din pașaportul dvs.";
 "onfido_nfc_select_body_passport" = "ePassports au acest simbol pe copertă";
 "onfido_nfc_select_button_primary_passport" = "Utilizați ePassport";
 "onfido_nfc_select_button_secondary_passport" = "Nu este un ePassport";
-
 "onfido_nfc_select_title_card" = "Accelerați procesul cu NFC";
 "onfido_nfc_select_subtitle_card" = "Vom scana cipul NFC al cardului dvs.";
 "onfido_nfc_select_body_card" = "Cardurile cu cipuri NCF au acest simbol";
 "onfido_nfc_select_button_primary_card" = "Utilizați cardul NFC";
 "onfido_nfc_select_button_secondary_card" = "Nu este un card NFC";
-
 "onfido_nfc_intro_title_passport" = "Scanați cipul din pașaportul dvs.";
 "onfido_nfc_intro_subtitle_passport" = "Folosiți telefonul pentru a scana cipul din pașaportul dumneavoastră";
 "onfido_nfc_intro_passport_scan_guide_1" = "Puneți pașaportul deschis pe o suprafață plană";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Plasați telefonul dvs. aproape de partea de mijloc a pașaportului dvs.";
 "onfido_nfc_intro_carousel_body_last_page" = "De asemenea, puteți încerca în interiorul paginii verso";
 "onfido_nfc_intro_carousel_body_dont_move" = "Nu mutați telefonul sau pașaportul dvs. când se realizează scanarea";
-
 "onfido_nfc_fail_title_passport" = "Nu am reușit să vă scanăm pașaportul";
 "onfido_nfc_fail_title_card" = "Nu am reușit să vă scanăm cardul NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Îndepărtați husa pașaportului dvs. și a telefonului dvs.";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Mențineți telefonul și cardul dvs. în contact până când scanarea este realizată cu succes";
 "onfido_nfc_fail_button_primary_card" = "Începeți scanarea";
 "onfido_nfc_fail_button_secondary_card" = "Fiți verificat fără scanare";
-
 "onfido_doc_confirmation_zoom_button" = "Măriți imaginea";
 "onfido_doc_confirmation_image_accessibility" = "Poza documentului dvs. Atingeți de două ori pentru a mări.";
 "onfido_doc_zoom_body" = "Mișcați cu un singur deget";
 "onfido_doc_zoom_button_close" = "Închideți";
-
 "onfido_video_confirmation_body" = "Clipul dvs. video a fost înregistrat";
 "onfido_app_title_country_select_search" = "Căutare";
 "onfido_country_select_list_accessibility" = "Rezultatele căutării";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
 "onfido_user_consent_prompt_button_secondary" = "Review again";
 "onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Check that your connection is stable, then try again";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Mențineți telefonul dvs. deasupra paginii cu poză a pașaportului dvs.";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vizualizați din camera video. Plasați telefonul dvs. pe pagina cu poză a pașaportului dvs., apoi mișcați încet telefonul dvs. departe de poză în linie dreaptă.";
 "onfido_doc_capture_header_capturing" = "Țineți nemișcat";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Asigurați-vă că ați încărcat întreaga pagină a documentului și că detaliile sunt clare, fără estompări sau luciri, pentru a fi citite";
 "onfido_doc_select_subtitle_poa" = "Acestea sunt documente care cel mai probabil indică adresa dvs. de reședință actuală";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Încărcați din nou clipul video";
 "onfido_doc_select_button_address_card" = "Carte de adrese";
 "onfido_doc_select_button_address_card_detail" = "Se acceptă carduri temporare și permanente";
-"proofOfAddress.guide.subtitle_address_certificate" = "Trebuie să fie un card de adresă valid";
-
 "onfido_welcome_start_workflow_button_trial" = "Începeți verificarea (TEST)";
 "onfido_enter_can_title" = "Introduceți numărul CAN";
 "onfido_enter_can_subtitle" = "Numărul de %d cifre se află pe fața documentului dvs.";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Încercați din nou";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Semnalul audio este redat de altă aplicație";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Vă rugăm să nu redați semnal audio pe dispozitivul dvs. pe parcursul înregistrării video";
-
 "onfido_nfc_scan_welcome_card_title" = "Scanați documentul";
 "onfido_nfc_scan_welcome_card_subtitle" = "Folosiți telefonul pentru a scana cipul din documentul dvs.";
 "onfido_nfc_scan_welcome_card_list_item" = "Puneți documentul dvs. împotriva părții din spate a dispozitivului dvs. astfel încât să se atingă";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza";
 "onfido_nfc_scan_welcome_card_button_primary" = "Începeți scanarea";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Obțineți verificarea fără NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Nu am putut scana documentul dvs.";
 "onfido_nfc_scan_error_inter_list_item" = "Îndepărtați husa telefonului dvs.";
 "onfido_nfc_scan_error_inter_list_item_2" = "Păstrați dispozitivul și documentul în contact până când scanarea are succes";
 "onfido_nfc_scan_error_inter_primary_button" = "Începeți scanarea";
 "onfido_nfc_scan_error_inter_secondary_button" = "Obțineți verificarea fără NFC";
-
 "onfido_nfc_scan_error_final_title" = "Nu am putut verifica acest document";
 "onfido_nfc_scan_error_final_subtitle" = "Scanarea NFC este necesară pentru acest document, dar nu a putut fi finalizată.";
 "onfido_nfc_scan_error_final_list_item" = "Aveți alt document cu care să continuați?";
 "onfido_nfc_scan_error_final_primary_button" = "Utilizați un document diferit";
 "onfido_nfc_scan_error_final_secondary_button" = "Obțineți verificarea fără NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Accelerați procesul cu NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Folosiți telefonul pentru a scana cipul din documentul dvs.";
 "onfido_nfc_scan_welcome_passport_list_item" = "Așezați documentul pe o suprafață plană";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Începeți scanarea";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Obțineți verificarea fără NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Nu am putut scana documentul dvs.";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Îndepărtați husa pașaportului dvs. și a telefonului dvs.";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Păstrați dispozitivul și documentul în contact până când scanarea are succes";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Întoarceți spre partea din față";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Întoarceți în spate";
 "onfido_doc_capture_alert_hold_still_title" = "Țineți nemișcat";
-
 "onfido_doc_capture_alert_photo_page_title" = "Afișează doar pagina cu fotografie";
 "onfido_doc_capture_alert_tilted_title" = "Ține documentul drept";
 "onfido_doc_capture_header_recording_video" = "Înregistrare video";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotocopie detectată";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Scanare detectată";
 "onfido_doc_confirmation_alert_odp_detail" = "Vă rugăm să utilizați documentul dvs. original. Fotografiile de pe ecran sau fotocopiile nu sunt acceptate";
-
 "onfido_interactive_task_waiting_title_1" = "Verificarea calității imaginii...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilare date...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "S-ar putea să vi se solicite să introduceți CAN înainte de a continua cu scanarea";
 "onfido_enter_can_secondary_button" = "Nu am un CAN";
 "onfido_enter_can_warning" = "Ați mai rămas cu %d %@";
-
 "onfido_otp_send_code_input_label" = "Număr de telefon";
 "onfido_otp_send_code_error_invalid_phone_number" = "Vă rugăm să furnizați un număr de telefon valid.";
 "onfido_otp_error_title" = "Ceva nu a mers bine";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Emis de autoritatea guvernamentală sau de proprietarul corporativ ca confirmare a închirierii.";
 "onfido_generic_alert_parsing_error_label" = "Eroare de analiză";
 "onfido_generic_error_parsing_detail" = "A apărut o eroare de analiză. Vă rugăm să încercați din nou.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Repoziționați partea de sus a telefonului dvs. împotriva părții de jos a pașaportului dvs.";
 "onfido_nfc_capture_scan_passport_sheet" = "Pune partea de sus a telefonului tău în contact cu partea de jos a pașaportului tău.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Păstrați-vă telefonul și pașaportul nemișcate.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Puneți documentul dvs. împotriva părții din spate a telefonului.";
 "onfido_nfc_card_scan_doc_realign_body" = "Repoziționați-vă documentul împotriva părții din spate a telefonului dvs.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Păstrați telefonul și documentul nemișcate.";
-"proofOfAddress.country.alert.intro" = "Nu vă găsiți țara?";
-"proofOfAddress.selection.subtitle" = "Acestea sunt documente care cel mai probabil indică adresa dvs. de reședință actuală";
-"common.selection.utility_bill_extra" = "Extrase electronice acceptate";
-"common.selection.utility_bill_details" = "Gaz, electricitate, apă, telefon fix sau internet de bandă largă";
-"common.selection.benefit_letters_details" = "Beneficii pentru gospodărie autorizate de guvern, de exemplu, indemnizație de șomer, beneficii gospodărie, credite fiscale";
-"proofOfAddress.intro.subtitle" = "Aveți nevoie de un document care:";
-"proofOfAddress.intro.list_current_address" = "Se potrivește cu adresa pe care ați utilizat-o pentru a vă înregistra";
-"proofOfAddress.intro.button_primary" = "Începeți verificarea";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Numele complet";
-"proofOfAddress.guide.instructions.label" = "Capturați întregul document și asigurați-vă că arată în mod clar:";
-"proofOfAddress.guide.instructions.address" = "Adresa actuală";
-"proofOfAddress.guide.instructions.issue_date" = "Data emiterii sau perioadă centralizatoare";
-"proofOfAddress.guide.button_primary" = "Continuați";
-"common.selection.bank_building_society_statement" = "Extras de la bancă sau societatea mutuală de credit";
-"common.selection.utility_bill" = "Factură de utilități";
-"common.selection.benefit_letters" = "Scrisoare beneficii";
-"common.selection.council_tax" = "Scrisoare de Impozit a Guvernului Local";
-"proofOfAddress.country.alert.close" = "Închideți";
-"proofOfAddress.capture.frame_accessibility" = "Vizualizați din camera video";
-"proofOfAddress.intro.list_signup_address" = "Este documentul dvs. recent";
-"proofOfAddress.intro.list_recent_document" = "Arată adresa dvs. curentă";
-"proofOfAddress.intro.title" = "Haideți să vă verificăm adresa";
-"proofOfAddress.preview.body_council_tax" = "Asigurați-vă că ați încărcat întreaga pagină a documentului și că detaliile sunt clare, fără estompări sau luciri, pentru a fi citite";
-"proofOfAddress.country.button_primary" = "Trimiteți documentul";
-"proofOfAddress.preview.redo" = "Faceți din nou poză";
-"proofOfAddress.preview.choose_another_photo" = "Alegeți altul";
-"proofOfAddress.preview.image.accessibility" = "Afișați previzualizarea documentului mărit";
-"proofOfAddress.preview.image.zoom_text" = "Măriți documentul";
-"proofOfAddress.preview.image.zoom_move" = "Mișcați cu un singur deget";
-"proofOfAddress.preview.image.zoom_close" = "Închideți";
-"proofOfAddress.capture.instructions" = "Fața documentului cu adresa";
-"proofOfAddress.upload.take_photo" = "Faceți o poză";
-"proofOfAddress.upload.upload_photo" = "Încărcați";
-"proofOfAddress.selection.title" = "Selectați un document";
-"proofOfAddress.selection.title_uk" = "Selectați un document UK";
-"proofOfAddress.country.alert.country_not_found" = "Ne cerem scuze. Depunem eforturi pentru a acoperi mai multe țări.";
-"welcome.list_item.poa" = "Faceți o poză a unui document cu adresa dvs.";
-"proofOfAddress.upload.dialog.photo_library" = "Librărie de poze";
-"proofOfAddress.upload.dialog.files" = "Fișiere";
-"proofOfAddress.upload.dialog.cancel" = "Anulați";
-"common.error.errors.invalid_type.instruction" = "Fișier nevalid";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Vă rugăm să alegeți un fișier diferit.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Trebuie să fi fost emis în ultimele 3 luni";
-"proofOfAddress.guide.subtitle_tax_letter" = "Trebuie să fi fost emis în ultimele 12 luni";
-"proofOfAddress.guide.subtitle_bill" = "Trebuie să fi fost emis în ultimele 3 luni";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Trebuie să fi fost emis în ultimele 12 luni";
-"common.selection.address_card" = "Carte de adrese";
-"common.selection.address_card_details" = "Se acceptă carduri temporare și permanente";
-"proofOfAddress.guide.instructions.full_address" = "Adresa completă";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Data emiterii";
-"proofOfAddress.guide.instructions.expiry_date" = "Data expirării, dacă este cazul";
-"proofOfAddress.capture.frame_accessibility" = "Capturați-vă documentul";
-"document.selection.no_mobile" = "Ne pare rău, nu sunt facturi de telefon mobil";
-
 "onfido_permission_button_primary_both_label" = "Activează atât camera, cât și microfonul";
+"onfido_poa_intro_subtitle" = "Aveți nevoie de un document care:";
+"onfido_poa_intro_list_matches_signup" = "Se potrivește cu adresa pe care ați utilizat-o pentru a vă înregistra";
+"onfido_poa_intro_button_primary" = "Începeți verificarea";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Numele complet";
+"onfido_poa_guidance_instructions_label" = "Capturați întregul document și asigurați-vă că arată în mod clar:";
+"onfido_poa_guidance_instructions_address" = "Adresa actuală";
+"onfido_poa_guidance_instructions_issue_date" = "Data emiterii sau perioadă centralizatoare";
+"onfido_poa_guidance_button_primary" = "Continuați";
+"onfido_poa_intro_list_most_recent" = "Este documentul dvs. recent";
+"onfido_poa_intro_list_shows_address" = "Arată adresa dvs. curentă";
+"onfido_poa_intro_title" = "Haideți să vă verificăm adresa";
+"onfido_poa_capture_confirm" = "Trimiteți documentul";
+"onfido_poa_capture_redo" = "Faceți din nou poză";
+"onfido_poa_capture_choose_another" = "Alegeți altul";
+"onfido_poa_capture_image_accessibility" = "Afișați previzualizarea documentului mărit";
+"onfido_poa_capture_enlarge" = "Măriți documentul";
+"onfido_poa_capture_enlarge_move" = "Mișcați cu un singur deget";
+"onfido_poa_capture_enlarge_close" = "Închideți";
+"onfido_poa_capture_instructions" = "Fața documentului cu adresa";
+"onfido_poa_upload_instructions_take_photo_button" = "Faceți o poză";
+"onfido_poa_upload_instructions_upload_button" = "Încărcați";
+"onfido_poa_type_selection_title" = "Selectați un document";
+"onfido_poa_type_selection_title_uk" = "Selectați un document UK";
+"onfido_poa_country_not_found" = "Ne cerem scuze. Depunem eforturi pentru a acoperi mai multe țări.";
+"onfido_poa_welcome_text" = "Faceți o poză a unui document cu adresa dvs.";
+"onfido_poa_photo_library" = "Librărie de poze";
+"onfido_poa_files" = "Fișiere";
+"onfido_poa_cancel" = "Anulați";
+"onfido_poa_err_invalid_file_title" = "Fișier nevalid";
+"onfido_poa_err_invalid_file_message" = "Vă rugăm să alegeți un fișier diferit.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Trebuie să fi fost emis în ultimele 3 luni";
+"onfido_poa_guidance_subtitle_tax_letter" = "Trebuie să fi fost emis în ultimele 12 luni";
+"onfido_poa_guidance_subtitle_bill" = "Trebuie să fi fost emis în ultimele 3 luni";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Trebuie să fi fost emis în ultimele 12 luni";
+"onfido_poa_guidance_subtitle_address_card" = "Trebuie să fie un card de adresă valid";
+"onfido_poa_guidance_instructions_full_address" = "Adresa completă";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Data emiterii";
+"onfido_poa_guidance_instructions_expiry_date" = "Data expirării, dacă este cazul";
+"onfido_qes_consent_introduction_validation" = "Consimțământ necesar";

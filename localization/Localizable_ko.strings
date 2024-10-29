@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "사진 제출하기";
 "onfido_doc_confirmation_button_primary_visa" = "사진 제출하기";
 "onfido_selfie_confirmation_button_secondary" = "사진 재촬영하기";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "둘 다 사용";
 "onfido_permission_button_primary_cam" = "카메라 활성화";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "녹화 다시 시작";
 "onfido_video_capture_prompt_detail_restart" = "이 단계를 완료하려면 녹화 내내 얼굴이 화면에 보이도록 해야 합니다.";
 "onfido_video_capture_prompt_button_restart" = "재시작";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "타원 안에 얼굴이 들어가도록 하세요";
 "onfido_video_capture_body" = "녹화를 시작하려면, 타원형 안에 얼굴이 들어가도록 하세요";
 "onfido_doc_confirmation_body_license" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
 "onfido_doc_confirmation_body_generic" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
 "onfido_doc_confirmation_body_id" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
 "onfido_doc_confirmation_body_permit" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
 "onfido_doc_confirmation_body_visa" = "세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "얼굴 전체가 잘 보이는지 확인하세요";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "프레임 안에 서류의 비자 페이지가 들어가도록 배치하세요";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "불러오는 중";
-
-
 "onfido_doc_capture_header_passport_auto" = "프레임 안에 사진이 부착된 페이지가 들어가도록 배치하세요";
 "onfido_doc_capture_header_license_back" = "프레임 안에 서류 뒷면이 들어가도록 배치하세요";
 "onfido_doc_capture_header_license_back_auto" = "프레임 안에 서류 뒷면이 들어가도록 배치하세요";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "프레임 안에 서류 앞면이 들어가도록 배치하세요";
 "onfido_doc_capture_header_id_front" = "프레임 안에 서류 앞면이 들어가도록 배치하세요";
 "onfido_doc_capture_header_permit_front" = "프레임 안에 서류 앞면이 들어가도록 배치하세요";
-
 "onfido_generic_uploading" = "업로드 중";
 "onfido_doc_confirmation_alert_no_doc_detail" = "사진에 서류 전체가 포함되었는지 확인하세요";
 "onfido_selfie_confirmation_alert_no_face_detail" = "얼굴 전체가 잘 보이는지 확인하세요";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "본인 인증하기";
 "onfido_app_title_country_select" = "발급 국가 선택";
 "onfido_video_capture_alert_wrong_side" = "잘못된 면";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "NFC로 프로세스 속도 높이기";
 "onfido_nfc_select_subtitle_passport" = "여권의 NFC 칩을 스캔합니다";
 "onfido_nfc_select_body_passport" = "전자 여권 표지에는 이 기호가 있습니다";
 "onfido_nfc_select_button_primary_passport" = "전자 여권 사용";
 "onfido_nfc_select_button_secondary_passport" = "전자 여권이 아닙니다";
-
 "onfido_nfc_select_title_card" = "NFC로 프로세스 속도 높이기";
 "onfido_nfc_select_subtitle_card" = "카드의 NFC 칩을 스캔합니다";
 "onfido_nfc_select_body_card" = "NFC 칩이 있는 카드에는 이 기호가 있습니다";
 "onfido_nfc_select_button_primary_card" = "NFC 카드 사용";
 "onfido_nfc_select_button_secondary_card" = "NFC 카드가 아닙니다";
-
 "onfido_nfc_intro_title_passport" = "여권의 칩을 스캔합니다";
 "onfido_nfc_intro_subtitle_passport" = "휴대폰을 사용하여 여권에 있는 칩을 스캔하세요";
 "onfido_nfc_intro_passport_scan_guide_1" = "여권을 펼쳐서 평평한 표면에 놓으십시오";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "휴대폰이 여권 중앙 근처에 오도록 배치하세요";
 "onfido_nfc_intro_carousel_body_last_page" = "뒷면 페이지 안쪽도 시도하실 수 있습니다";
 "onfido_nfc_intro_carousel_body_dont_move" = "스캔하는 동안 휴대폰이나 여권 위치를 옮기지 마세요";
-
 "onfido_nfc_fail_title_passport" = "여권을 스캔할 수 없습니다";
 "onfido_nfc_fail_title_card" = "NFC 카드를 스캔할 수 없습니다";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "여권 커버와 휴대전화 케이스를 벗기세요";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "스캔이 완료될 때까지 휴대폰이 카드에서 떨어지지 않도록 하세요";
 "onfido_nfc_fail_button_primary_card" = "스캔 시작";
 "onfido_nfc_fail_button_secondary_card" = "스캔 없이 인증받기";
-
 "onfido_doc_confirmation_zoom_button" = "이미지 확대";
 "onfido_doc_confirmation_image_accessibility" = "서류에 부착된 사진. 확대하려면 두 번 누르세요.";
 "onfido_doc_zoom_body" = "손가락 하나로 이리저리 움직이세요";
 "onfido_doc_zoom_button_close" = "닫기";
-
 "onfido_video_confirmation_body" = "동영상이 녹화되었습니다";
 "onfido_app_title_country_select_search" = "검색";
 "onfido_country_select_list_accessibility" = "검색 결과";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "정말 그렇게 하시겠어요?";
 "onfido_user_consent_prompt_no_consent_detail" = "Onfido의 개인정보 보호정책 및 이용 약관에 동의하지 않는 경우, 당사에서 사용자 신원을 확인할 수 없으며 이 절차는 종료됩니다.";
 "onfido_user_consent_prompt_button_secondary" = "다시 검토하기";
 "onfido_user_consent_prompt_button_primary" = "예, 인증 절차를 그만두겠습니다";
 "onfido_user_consent_button_primary" = "동의";
 "onfido_user_consent_button_secondary" = "동의 안 함";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "콘텐츠 로드에 실패";
 "onfido_user_consent_load_fail_detail" = "연결이 안정적인지 확인한 다음 다시 시도하세요";
 "onfido_user_consent_load_fail_button_primary" = "화면 다시 불러오기";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "여권의 사진 부착면 위에 휴대폰을 배치하세요";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "카메라에서 본 이미지. 휴대폰을 여권의 사진 부착면 위에 올려놓은 후 휴대폰을 일직선으로 천천히 들어 올리세요.";
 "onfido_doc_capture_header_capturing" = "움직이지 마세요";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "전체 서류 페이지를 업로드했는지 확인하고, 세부 정보가 선명하게 읽히며 빛 반사되는 부분이 없는지 확인하세요";
 "onfido_doc_select_subtitle_poa" = "현재 집 주소가 표시될 가능성이 가장 높은 서류입니다";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "예제 동영상 다시 불러오기";
 "onfido_doc_select_button_address_card" = "주소 카드";
 "onfido_doc_select_button_address_card_detail" = "임시 거주증(temporary card) 및 영주권 카드(permanent card)를 사용할 수 있습니다";
-"proofOfAddress.guide.subtitle_address_certificate" = "반드시 유효한 주소 카드여야 합니다";
-
 "onfido_welcome_start_workflow_button_trial" = "인증 절차 시작하기(테스트)";
 "onfido_enter_can_title" = "CAN 번호를 입력하세요";
 "onfido_enter_can_subtitle" = "귀하의 문서 앞면에 위치한 %d-자리 숫자입니다";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "재시도";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "다른 앱에서 오디오가 재생 중입니다";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "녹음 중에 장치에서 오디오를 재생하지 마십시오";
-
 "onfido_nfc_scan_welcome_card_title" = "문서를 스캔하십시오";
 "onfido_nfc_scan_welcome_card_subtitle" = "휴대폰을 사용하여 문서에 있는 칩을 스캔하십시오";
 "onfido_nfc_scan_welcome_card_list_item" = "문서를 장치의 뒷면에 닿게 놓으십시오";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "스캔이 시작되면 움직이지 말아 스캔이 완료될 수 있도록 하세요";
 "onfido_nfc_scan_welcome_card_button_primary" = "스캔 시작";
 "onfido_nfc_scan_welcome_card_secondary_button" = "NFC 없이 인증 받기";
-
 "onfido_nfc_scan_error_inter_title" = "서류를 스캔할 수 없습니다";
 "onfido_nfc_scan_error_inter_list_item" = "휴대폰 케이스를 벗기세요";
 "onfido_nfc_scan_error_inter_list_item_2" = "스캔이 성공할 때까지 장치와 문서를 접촉 상태로 유지하십시오.";
 "onfido_nfc_scan_error_inter_primary_button" = "스캔 시작";
 "onfido_nfc_scan_error_inter_secondary_button" = "NFC 없이 인증 받기";
-
 "onfido_nfc_scan_error_final_title" = "이 문서를 확인할 수 없습니다.";
 "onfido_nfc_scan_error_final_subtitle" = "이 문서에는 NFC 스캔이 필요하지만 완료할 수 없습니다.";
 "onfido_nfc_scan_error_final_list_item" = "진행해야 할 다른 문서가 있습니까?";
 "onfido_nfc_scan_error_final_primary_button" = "다른 문서 사용";
 "onfido_nfc_scan_error_final_secondary_button" = "NFC 없이 인증 받기";
-
 "onfido_nfc_scan_welcome_passport_title" = "NFC로 프로세스 속도 높이기";
 "onfido_nfc_scan_welcome_passport_subtitle" = "휴대폰을 사용하여 문서에 있는 칩을 스캔하십시오";
 "onfido_nfc_scan_welcome_passport_list_item" = "문서를 평평한 표면에 놓으십시오.";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "스캔이 시작되면 움직이지 말아 스캔이 완료될 수 있도록 하세요";
 "onfido_nfc_scan_welcome_passport_button_primary" = "스캔 시작";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "NFC 없이 인증 받기";
-
 "onfido_nfc_scan_error_inter_passport_title" = "서류를 스캔할 수 없습니다";
 "onfido_nfc_scan_error_inter_passport_list_item" = "여권 커버와 휴대전화 케이스를 벗기세요";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "스캔이 성공할 때까지 장치와 문서를 접촉 상태로 유지하십시오.";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "앞면으로 뒤집기";
 "onfido_doc_capture_alert_wrong_side_back_title" = "뒷면으로 뒤집기";
 "onfido_doc_capture_alert_hold_still_title" = "움직이지 마세요";
-
 "onfido_doc_capture_alert_photo_page_title" = "사진 페이지만 표시";
 "onfido_doc_capture_alert_tilted_title" = "문서를 곧게 들어주세요";
 "onfido_doc_capture_header_recording_video" = "비디오 녹화";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "사진 복사본이 감지되었습니다";
 "onfido_doc_confirmation_alert_odp_scan_title" = "스캔 감지됨";
 "onfido_doc_confirmation_alert_odp_detail" = "원본 문서를 사용해 주세요. 화면의 사진이나 사본은 허용되지 않습니다.";
-
 "onfido_interactive_task_waiting_title_1" = "이미지 품질 확인 중...";
 "onfido_interactive_task_waiting_subtitle_1" = "작업이 완료될 때까지 잠시만 더 기다려 주세요.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "데이터를 컴파일 중...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "스캔을 계속하기 전에 CAN을 입력하라는 메시지가 표시될 수 있습니다";
 "onfido_enter_can_secondary_button" = "나는 CAN이 없습니다";
 "onfido_enter_can_warning" = "%d %@이 남았습니다";
-
 "onfido_otp_send_code_input_label" = "전화 번호";
 "onfido_otp_send_code_error_invalid_phone_number" = "유효한 전화번호를 제공해 주세요.";
 "onfido_otp_error_title" = "무언가 잘못되었습니다";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "정부 기관 또는 법인 임대인이 발행한 임대 확인서.";
 "onfido_generic_alert_parsing_error_label" = "구문 분석 오류";
 "onfido_generic_error_parsing_detail" = "구문 분석 오류가 발생했습니다. 다시 시도해 주세요.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "휴대폰 상단을 여권 하단에 맞춰 재배치하세요.";
 "onfido_nfc_capture_scan_passport_sheet" = "휴대폰의 상단 부분을 여권의 하단 부분에 접촉시키십시오.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "휴대폰과 여권을 가만히 두세요.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "당신의 문서를 휴대폰의 상단 뒷면에 대세요.";
 "onfido_nfc_card_scan_doc_realign_body" = "문서를 휴대폰의 상단 뒷면에 대고 위치를 조정하십시오.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "휴대폰과 신분증을 가만히 두세요.";
-"proofOfAddress.country.alert.intro" = "소속 국가를 찾을 수 없나요?";
-"proofOfAddress.selection.subtitle" = "현재 집 주소가 표시될 가능성이 가장 높은 서류입니다";
-"common.selection.utility_bill_extra" = "전자 명세서 허용";
-"common.selection.utility_bill_details" = "가스, 전기, 수도, 유선전화 또는 광대역 요금 청구서";
-"common.selection.benefit_letters_details" = "정부 지원 복지 혜택(예: 구직자 수당, 주거 급여, 세액 공제)";
-"proofOfAddress.intro.subtitle" = "서류 요건:";
-"proofOfAddress.intro.list_current_address" = "가입 시 입력하신 주소와 일치해야 합니다";
-"proofOfAddress.intro.button_primary" = "인증 절차 시작하기";
-"proofOfAddress.guide.instructions.logo" = "로고";
-"proofOfAddress.guide.instructions.full_name" = "성명";
-"proofOfAddress.guide.instructions.label" = "서류 전체를 촬영하고 다음 내용이 명확하게 보이는지 확인하세요";
-"proofOfAddress.guide.instructions.address" = "현주소";
-"proofOfAddress.guide.instructions.issue_date" = "발행 날짜 또는 기간 요약";
-"proofOfAddress.guide.button_primary" = "계속";
-"common.selection.bank_building_society_statement" = "통장 입출금 내역서 또는 건설공제조합명세서(building society statement)";
-"common.selection.utility_bill" = "공과금 청구서";
-"common.selection.benefit_letters" = "복지 급여 서신";
-"common.selection.council_tax" = "지방 정부 세금 통지서";
-"proofOfAddress.country.alert.close" = "닫기";
-"proofOfAddress.capture.frame_accessibility" = "카메라에서 보기";
-"proofOfAddress.intro.list_signup_address" = "가장 최근 서류여야 합니다";
-"proofOfAddress.intro.list_recent_document" = "현재 주소가 표시되어야 합니다";
-"proofOfAddress.intro.title" = "주소를 인증해 주세요";
-"proofOfAddress.preview.body_council_tax" = "전체 서류 페이지를 업로드했는지 확인하고, 세부 정보가 선명하게 읽히며 빛 반사되는 부분이 없는지 확인하세요";
-"proofOfAddress.country.button_primary" = "서류 제출";
-"proofOfAddress.preview.redo" = "사진 재촬영하기";
-"proofOfAddress.preview.choose_another_photo" = "다른 것 선택하기";
-"proofOfAddress.preview.image.accessibility" = "확대한 서류 미리보기 표시";
-"proofOfAddress.preview.image.zoom_text" = "서류 확대";
-"proofOfAddress.preview.image.zoom_move" = "손가락 하나로 이리저리 움직이세요";
-"proofOfAddress.preview.image.zoom_close" = "닫기";
-"proofOfAddress.capture.instructions" = "주소 증빙 서류 앞면";
-"proofOfAddress.upload.take_photo" = "사진 촬영";
-"proofOfAddress.upload.upload_photo" = "업로드";
-"proofOfAddress.selection.title" = "서류 선택";
-"proofOfAddress.selection.title_uk" = "영국 서류 선택";
-"proofOfAddress.country.alert.country_not_found" = "죄송합니다. 더 많은 국가를 지원할 수 있도록 노력하고 있습니다.";
-"welcome.list_item.poa" = "주소가 기재된 서류의 사진을 촬영하세요";
-"proofOfAddress.upload.dialog.photo_library" = "사진 라이브러리";
-"proofOfAddress.upload.dialog.files" = "파일";
-"proofOfAddress.upload.dialog.cancel" = "취소";
-"common.error.errors.invalid_type.instruction" = "유효하지 않은 파일";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "다른 파일을 선택하세요.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "확인";
-"proofOfAddress.guide.subtitle_bank_statement" = "최근 3개월 이내 발급된 서류여야 합니다";
-"proofOfAddress.guide.subtitle_tax_letter" = "최근 12개월 이내 발급된 서류여야 합니다";
-"proofOfAddress.guide.subtitle_bill" = "최근 3개월 이내 발급된 서류여야 합니다";
-"proofOfAddress.guide.subtitle_benefit_letters" = "최근 12개월 이내 발급된 서류여야 합니다";
-"common.selection.address_card" = "주소 카드";
-"common.selection.address_card_details" = "임시 거주증(temporary card) 및 영주권 카드(permanent card)를 사용할 수 있습니다";
-"proofOfAddress.guide.instructions.full_address" = "전체 주소";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "발행일";
-"proofOfAddress.guide.instructions.expiry_date" = "(해당하는 경우) 만료일";
-"proofOfAddress.capture.frame_accessibility" = "문서를 캡처하십시오";
-"document.selection.no_mobile" = "죄송합니다, 휴대폰 요금 청구서가 없습니다";
-
 "onfido_permission_button_primary_both_label" = "카메라와 마이크를 모두 활성화하세요";
+"onfido_poa_intro_subtitle" = "서류 요건:";
+"onfido_poa_intro_list_matches_signup" = "가입 시 입력하신 주소와 일치해야 합니다";
+"onfido_poa_intro_button_primary" = "인증 절차 시작하기";
+"onfido_poa_guidance_instructions_logo" = "로고";
+"onfido_poa_guidance_instructions_full_name" = "성명";
+"onfido_poa_guidance_instructions_label" = "서류 전체를 촬영하고 다음 내용이 명확하게 보이는지 확인하세요";
+"onfido_poa_guidance_instructions_address" = "현주소";
+"onfido_poa_guidance_instructions_issue_date" = "발행 날짜 또는 기간 요약";
+"onfido_poa_guidance_button_primary" = "계속";
+"onfido_poa_intro_list_most_recent" = "가장 최근 서류여야 합니다";
+"onfido_poa_intro_list_shows_address" = "현재 주소가 표시되어야 합니다";
+"onfido_poa_intro_title" = "주소를 인증해 주세요";
+"onfido_poa_capture_confirm" = "서류 제출";
+"onfido_poa_capture_redo" = "사진 재촬영하기";
+"onfido_poa_capture_choose_another" = "다른 것 선택하기";
+"onfido_poa_capture_image_accessibility" = "확대한 서류 미리보기 표시";
+"onfido_poa_capture_enlarge" = "서류 확대";
+"onfido_poa_capture_enlarge_move" = "손가락 하나로 이리저리 움직이세요";
+"onfido_poa_capture_enlarge_close" = "닫기";
+"onfido_poa_capture_instructions" = "주소 증빙 서류 앞면";
+"onfido_poa_upload_instructions_take_photo_button" = "사진 촬영";
+"onfido_poa_upload_instructions_upload_button" = "업로드";
+"onfido_poa_type_selection_title" = "서류 선택";
+"onfido_poa_type_selection_title_uk" = "영국 서류 선택";
+"onfido_poa_country_not_found" = "죄송합니다. 더 많은 국가를 지원할 수 있도록 노력하고 있습니다.";
+"onfido_poa_welcome_text" = "주소가 기재된 서류의 사진을 촬영하세요";
+"onfido_poa_photo_library" = "사진 라이브러리";
+"onfido_poa_files" = "파일";
+"onfido_poa_cancel" = "취소";
+"onfido_poa_err_invalid_file_title" = "유효하지 않은 파일";
+"onfido_poa_err_invalid_file_message" = "다른 파일을 선택하세요.";
+"onfido_poa_err_invalid_file_ok" = "확인";
+"onfido_poa_guidance_subtitle_bank_statement" = "최근 3개월 이내 발급된 서류여야 합니다";
+"onfido_poa_guidance_subtitle_tax_letter" = "최근 12개월 이내 발급된 서류여야 합니다";
+"onfido_poa_guidance_subtitle_bill" = "최근 3개월 이내 발급된 서류여야 합니다";
+"onfido_poa_guidance_subtitle_benefits_letter" = "최근 12개월 이내 발급된 서류여야 합니다";
+"onfido_poa_guidance_subtitle_address_card" = "반드시 유효한 주소 카드여야 합니다";
+"onfido_poa_guidance_instructions_full_address" = "전체 주소";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "발행일";
+"onfido_poa_guidance_instructions_expiry_date" = "(해당하는 경우) 만료일";
+"onfido_qes_consent_introduction_validation" = "동의 필요";

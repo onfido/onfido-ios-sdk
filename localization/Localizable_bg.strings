@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Подаване на снимката";
 "onfido_doc_confirmation_button_primary_visa" = "Подаване на снимката";
 "onfido_selfie_confirmation_button_secondary" = "Повторно заснемане";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Активиране на двете";
 "onfido_permission_button_primary_cam" = "Активиране на камерата";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Рестартиране на записа";
 "onfido_video_capture_prompt_detail_restart" = "За да преминете тази стъпка, трябва да задържите лицето си в кадър по време на записа.";
 "onfido_video_capture_prompt_button_restart" = "Нов опит";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Лицето ви трябва да е в очертанията на овала";
 "onfido_video_capture_body" = "Дръжте лицето си в очертанията на овала, за да започнете записа";
 "onfido_doc_confirmation_body_license" = "Уверете се, че данните ви се виждат ясно и не са скрити";
 "onfido_doc_confirmation_body_generic" = "Уверете се, че данните ви се виждат ясно и не са скрити";
 "onfido_doc_confirmation_body_id" = "Уверете се, че данните ви се виждат ясно и не са скрити";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Уверете се, че данните ви се виждат ясно и не са скрити";
 "onfido_doc_confirmation_body_permit" = "Уверете се, че данните ви се виждат ясно и не са скрити";
 "onfido_doc_confirmation_body_visa" = "Уверете се, че данните ви се виждат ясно и не са скрити";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Уверете се, че цялото ви лице се вижда";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Позиционирайте визовата страницата на документа в рамката";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Зареждане";
-
-
 "onfido_doc_capture_header_passport_auto" = "Позиционирайте страницата със снимката от документа в рамката";
 "onfido_doc_capture_header_license_back" = "Позиционирайте задната страна на документа в рамката";
 "onfido_doc_capture_header_license_back_auto" = "Позиционирайте задната страна на документа в рамката";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Позиционирайте лицевата страна на документа в рамката";
 "onfido_doc_capture_header_id_front" = "Позиционирайте лицевата страна на документа в рамката";
 "onfido_doc_capture_header_permit_front" = "Позиционирайте лицевата страна на документа в рамката";
-
 "onfido_generic_uploading" = "Качване";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Уверете се, че целият документ е на снимката";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Уверете се, че лицето ви се вижда";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Потвърдете самоличността си";
 "onfido_app_title_country_select" = "Изберете издаваща държава";
 "onfido_video_capture_alert_wrong_side" = "Грешна страна";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Ускорете процеса с NFC";
 "onfido_nfc_select_subtitle_passport" = "Ще сканираме NFC чипа в паспорта ви";
 "onfido_nfc_select_body_passport" = "Биометричните паспорти имат този символ на корицата";
 "onfido_nfc_select_button_primary_passport" = "Използване на биометричен паспорт";
 "onfido_nfc_select_button_secondary_passport" = "Не е биометричен паспорт";
-
 "onfido_nfc_select_title_card" = "Ускорете процеса с NFC";
 "onfido_nfc_select_subtitle_card" = "Ще сканираме NFC чипа на картата ви";
 "onfido_nfc_select_body_card" = "Картите с NFC чип имат този символ";
 "onfido_nfc_select_button_primary_card" = "Използване на карта с NFC чип";
 "onfido_nfc_select_button_secondary_card" = "Картата няма NFC чип";
-
 "onfido_nfc_intro_title_passport" = "Сканирайте чипа на паспорта си";
 "onfido_nfc_intro_subtitle_passport" = "Използвайте телефона си, за да сканирате чипа в паспорта си";
 "onfido_nfc_intro_passport_scan_guide_1" = "Поставете отворения си паспорт на равна повърхност";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Поставете телефона си близо до средната част на паспорта";
 "onfido_nfc_intro_carousel_body_last_page" = "Можете да опитате и с вътрешната страна на задната страница";
 "onfido_nfc_intro_carousel_body_dont_move" = "Не местете телефона или паспорта си, докато сканирате";
-
 "onfido_nfc_fail_title_passport" = "Неуспешно сканиране на паспорта ви";
 "onfido_nfc_fail_title_card" = "Не можахме да сканираме вашата NFC карта";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Премахнете калъфите на паспорта и телефона си";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Докоснете телефона си до картата, докато сканирането се извърши успешно";
 "onfido_nfc_fail_button_primary_card" = "Стартиране на сканиране";
 "onfido_nfc_fail_button_secondary_card" = "Проверка без сканиране";
-
 "onfido_doc_confirmation_zoom_button" = "Уголемяване на изображението";
 "onfido_doc_confirmation_image_accessibility" = "Снимка на документа ви. Докоснете два пъти, за да увеличите.";
 "onfido_doc_zoom_body" = "Преместете, като използвате един пръст";
 "onfido_doc_zoom_button_close" = "Затваряне";
-
 "onfido_video_confirmation_body" = "Видеото ви е записано";
 "onfido_app_title_country_select_search" = "Търсене";
 "onfido_country_select_list_accessibility" = "Резултати от търсенето";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Сигурни ли сте?";
 "onfido_user_consent_prompt_no_consent_detail" = "Ако не приемете декларациите за поверителност и общите условия на Onfido, няма да можем да потвърдим самоличността ви и ще излезете от тази стъпка.";
 "onfido_user_consent_prompt_button_secondary" = "Прегледайте отново";
 "onfido_user_consent_prompt_button_primary" = "Да, не ме проверявайте";
 "onfido_user_consent_button_primary" = "Приемам";
 "onfido_user_consent_button_secondary" = "Не приемам";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Неуспешно зареждане на съдържанието";
 "onfido_user_consent_load_fail_detail" = "Проверете дали връзката ви е стабилна и опитайте отново";
 "onfido_user_consent_load_fail_button_primary" = "Презареждане на екрана";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Задръжте телефона си над страницата със снимката в паспорта";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Прегледайте от камерата. Поставете телефона си на страницата със снимката от паспорта ви, след което бавно го отдалечете с движение в права линия.";
 "onfido_doc_capture_header_capturing" = "Стойте неподвижно";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Уверете се, че сте качили цялата страница на документа и подробностите се четат ясно, без да са размазани или с отблясъци";
 "onfido_doc_select_subtitle_poa" = "Това са документите, които най-вероятно показват настоящия ви домашен адрес";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Презареждане на примерното видео";
 "onfido_doc_select_button_address_card" = "Адресна карта";
 "onfido_doc_select_button_address_card_detail" = "Приемат се временни и постоянни карти";
-"proofOfAddress.guide.subtitle_address_certificate" = "Адресната карта трябва да е валидна";
-
 "onfido_welcome_start_workflow_button_trial" = "Стартиране на проверка (ТЕСТ)";
 "onfido_enter_can_title" = "Въведете номера на CAN";
 "onfido_enter_can_subtitle" = "%d-цифреният номер се намира на предната част на вашия документ";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Повторен опит";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Възпроизвежда се аудио от друго приложение";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Моля, не възпроизвеждайте аудио на устройството си по време на записа";
-
 "onfido_nfc_scan_welcome_card_title" = "Сканирайте вашия документ";
 "onfido_nfc_scan_welcome_card_subtitle" = "Използвайте телефона си, за да сканирате чипа във вашия документ";
 "onfido_nfc_scan_welcome_card_list_item" = "Поставете документа си в контакт с гърба на вашето устройство";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "След като сканирането стартира, не се движете, за да може да приключи успешно";
 "onfido_nfc_scan_welcome_card_button_primary" = "Започнете сканирането";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Получаване на потвърждение без NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Не можахме да сканираме документа ви";
 "onfido_nfc_scan_error_inter_list_item" = "Премахнете калъфа на телефона си";
 "onfido_nfc_scan_error_inter_list_item_2" = "Дръжте вашето устройство и документ в контакт, докато сканирането е успешно";
 "onfido_nfc_scan_error_inter_primary_button" = "Стартиране на сканиране";
 "onfido_nfc_scan_error_inter_secondary_button" = "Получаване на потвърждение без NFC";
-
 "onfido_nfc_scan_error_final_title" = "Не можахме да потвърдим този документ";
 "onfido_nfc_scan_error_final_subtitle" = "За този документ се изисква NFC сканиране, но не можа да бъде завършено.";
 "onfido_nfc_scan_error_final_list_item" = "Имате ли друг документ, с който да продължите?";
 "onfido_nfc_scan_error_final_primary_button" = "Използвайте различен документ";
 "onfido_nfc_scan_error_final_secondary_button" = "Получаване на потвърждение без NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Ускорете процеса с NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Използвайте телефона си, за да сканирате чипа във вашия документ";
 "onfido_nfc_scan_welcome_passport_list_item" = "Поставете документа си върху равна повърхност";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "След като сканирането стартира, не се движете, за да може да приключи успешно";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Започнете сканирането";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Получаване на потвърждение без NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Не можахме да сканираме документа ви";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Премахнете калъфите на паспорта и телефона си";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Дръжте вашето устройство и документ в контакт, докато сканирането е успешно";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Обърнете на предната страна";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Обърнете на задната страна";
 "onfido_doc_capture_alert_hold_still_title" = "Стойте неподвижно";
-
 "onfido_doc_capture_alert_photo_page_title" = "Показване само на страницата със снимки";
 "onfido_doc_capture_alert_tilted_title" = "Дръжте документа право";
 "onfido_doc_capture_header_recording_video" = "Запис на видео";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Открито е фотокопие";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Сканирането откри";
 "onfido_doc_confirmation_alert_odp_detail" = "Моля, използвайте оригиналния си документ. Снимки на екран или фотокопия не се приемат";
-
 "onfido_interactive_task_waiting_title_1" = "Проверка на качеството на изображението...";
 "onfido_interactive_task_waiting_subtitle_1" = "Моля, имайте още малко търпение, докато задачата приключи.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Компилиране на данни...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Може да ви бъде поискано да въведете CAN преди да продължите към сканирането";
 "onfido_enter_can_secondary_button" = "Нямам CAN";
 "onfido_enter_can_warning" = "Имате оставащи %d %@";
-
 "onfido_otp_send_code_input_label" = "Телефонен номер";
 "onfido_otp_send_code_error_invalid_phone_number" = "Моля, предоставете валиден телефонен номер.";
 "onfido_otp_error_title" = "Нещо се обърка";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Издадено от държавен орган или корпоративен наемодател като потвърждение за наем.";
 "onfido_generic_alert_parsing_error_label" = "Грешка при анализиране";
 "onfido_generic_error_parsing_detail" = "Възникна грешка при анализиране. Моля, опитайте отново.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Позиционирайте горната част на телефона си срещу долната част на паспорта си.";
 "onfido_nfc_capture_scan_passport_sheet" = "Поставете горната половина на телефона си в контакт с долната половина на паспорта си.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Дръжте телефона и паспорта си неподвижни.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Поставете документа си върху горната задна част на телефона си.";
 "onfido_nfc_card_scan_doc_realign_body" = "Позиционирайте документа си срещу горната задна част на телефона си.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Дръжте телефона си и документа неподвижни.";
-"proofOfAddress.country.alert.intro" = "Не можете да намерите държавата си?";
-"proofOfAddress.selection.subtitle" = "Това са документите, които най-вероятно показват настоящия ви домашен адрес";
-"common.selection.utility_bill_extra" = "приемат се електронни извлечения";
-"common.selection.utility_bill_details" = "Сметки за газ, електричество, вода, стационарен телефон или интернет";
-"common.selection.benefit_letters_details" = "Официални удостоверения за получаване на помощи за домакинства, като напр. Финансова помощ при безработица, жилищна помощ, данъчни кредити";
-"proofOfAddress.intro.subtitle" = "Ще ви трябва документ, който:";
-"proofOfAddress.intro.list_current_address" = "Съвпада с адреса, който сте използвали при регистрацията";
-"proofOfAddress.intro.button_primary" = "Стартиране на проверката";
-"proofOfAddress.guide.instructions.logo" = "Лого";
-"proofOfAddress.guide.instructions.full_name" = "Пълно име";
-"proofOfAddress.guide.instructions.label" = "Заснемете целия документ и се уверете, че той ясно показва:";
-"proofOfAddress.guide.instructions.address" = "Настоящ адрес";
-"proofOfAddress.guide.instructions.issue_date" = "Дата на издаване или период на валидност";
-"proofOfAddress.guide.button_primary" = "Продължаване";
-"common.selection.bank_building_society_statement" = "Банково извлечение или документ от асоциацията на собствениците";
-"common.selection.utility_bill" = "Сметка за комунални услуги";
-"common.selection.benefit_letters" = "Служебна бележка за получени помощи";
-"common.selection.council_tax" = "Писмо за данък от местното правителство";
-"proofOfAddress.country.alert.close" = "Затваряне";
-"proofOfAddress.capture.frame_accessibility" = "Изглед от камерата";
-"proofOfAddress.intro.list_signup_address" = "Е вашият най-скорошен документ";
-"proofOfAddress.intro.list_recent_document" = "Показва вашия настоящ адрес";
-"proofOfAddress.intro.title" = "Да потвърдим адреса ви";
-"proofOfAddress.preview.body_council_tax" = "Уверете се, че сте качили цялата страница на документа и подробностите се четат ясно, без да са размазани или с отблясъци";
-"proofOfAddress.country.button_primary" = "Подаване на документа";
-"proofOfAddress.preview.redo" = "Повторно заснемане";
-"proofOfAddress.preview.choose_another_photo" = "Изберете друго";
-"proofOfAddress.preview.image.accessibility" = "Показване на увеличен преглед на документа";
-"proofOfAddress.preview.image.zoom_text" = "Уголемяване на документа";
-"proofOfAddress.preview.image.zoom_move" = "Преместете, като използвате един пръст";
-"proofOfAddress.preview.image.zoom_close" = "Затваряне";
-"proofOfAddress.capture.instructions" = "Лицева страна на документа с адрес";
-"proofOfAddress.upload.take_photo" = "Направете снимка";
-"proofOfAddress.upload.upload_photo" = "Качване";
-"proofOfAddress.selection.title" = "Избор на документ";
-"proofOfAddress.selection.title_uk" = "Изберете документ от Обединеното кралство";
-"proofOfAddress.country.alert.country_not_found" = "Съжаляваме за това. Работим върху добавянето на повече държави.";
-"welcome.list_item.poa" = "Направете снимка на документ с адреса ви";
-"proofOfAddress.upload.dialog.photo_library" = "Библиотека със снимки";
-"proofOfAddress.upload.dialog.files" = "Файлове";
-"proofOfAddress.upload.dialog.cancel" = "Отказ";
-"common.error.errors.invalid_type.instruction" = "Невалиден файл";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Изберете друг файл.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Трябва да е издаден през последните 3 месеца";
-"proofOfAddress.guide.subtitle_tax_letter" = "Трябва да е издаден през последните 12 месеца";
-"proofOfAddress.guide.subtitle_bill" = "Трябва да е издаден през последните 3 месеца";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Трябва да е издаден през последните 12";
-"common.selection.address_card" = "Адресна карта";
-"common.selection.address_card_details" = "Приемат се временни и постоянни карти";
-"proofOfAddress.guide.instructions.full_address" = "Пълен адрес";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Дата на издаване";
-"proofOfAddress.guide.instructions.expiry_date" = "Дата на валидност (ако е приложимо)";
-"proofOfAddress.capture.frame_accessibility" = "Заснемете вашия документ";
-"document.selection.no_mobile" = "Съжалявам, няма мобилни телефонни сметки";
-
 "onfido_permission_button_primary_both_label" = "Активирайте както камерата, така и микрофона";
+"onfido_poa_intro_subtitle" = "Ще ви трябва документ, който:";
+"onfido_poa_intro_list_matches_signup" = "Съвпада с адреса, който сте използвали при регистрацията";
+"onfido_poa_intro_button_primary" = "Стартиране на проверката";
+"onfido_poa_guidance_instructions_logo" = "Лого";
+"onfido_poa_guidance_instructions_full_name" = "Пълно име";
+"onfido_poa_guidance_instructions_label" = "Заснемете целия документ и се уверете, че той ясно показва:";
+"onfido_poa_guidance_instructions_address" = "Настоящ адрес";
+"onfido_poa_guidance_instructions_issue_date" = "Дата на издаване или период на валидност";
+"onfido_poa_guidance_button_primary" = "Продължаване";
+"onfido_poa_intro_list_most_recent" = "Е вашият най-скорошен документ";
+"onfido_poa_intro_list_shows_address" = "Показва вашия настоящ адрес";
+"onfido_poa_intro_title" = "Да потвърдим адреса ви";
+"onfido_poa_capture_confirm" = "Подаване на документа";
+"onfido_poa_capture_redo" = "Повторно заснемане";
+"onfido_poa_capture_choose_another" = "Изберете друго";
+"onfido_poa_capture_image_accessibility" = "Показване на увеличен преглед на документа";
+"onfido_poa_capture_enlarge" = "Уголемяване на документа";
+"onfido_poa_capture_enlarge_move" = "Преместете, като използвате един пръст";
+"onfido_poa_capture_enlarge_close" = "Затваряне";
+"onfido_poa_capture_instructions" = "Лицева страна на документа с адрес";
+"onfido_poa_upload_instructions_take_photo_button" = "Направете снимка";
+"onfido_poa_upload_instructions_upload_button" = "Качване";
+"onfido_poa_type_selection_title" = "Избор на документ";
+"onfido_poa_type_selection_title_uk" = "Изберете документ от Обединеното кралство";
+"onfido_poa_country_not_found" = "Съжаляваме за това. Работим върху добавянето на повече държави.";
+"onfido_poa_welcome_text" = "Направете снимка на документ с адреса ви";
+"onfido_poa_photo_library" = "Библиотека със снимки";
+"onfido_poa_files" = "Файлове";
+"onfido_poa_cancel" = "Отказ";
+"onfido_poa_err_invalid_file_title" = "Невалиден файл";
+"onfido_poa_err_invalid_file_message" = "Изберете друг файл.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Трябва да е издаден през последните 3 месеца";
+"onfido_poa_guidance_subtitle_tax_letter" = "Трябва да е издаден през последните 12 месеца";
+"onfido_poa_guidance_subtitle_bill" = "Трябва да е издаден през последните 3 месеца";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Трябва да е издаден през последните 12";
+"onfido_poa_guidance_subtitle_address_card" = "Адресната карта трябва да е валидна";
+"onfido_poa_guidance_instructions_full_address" = "Пълен адрес";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Дата на издаване";
+"onfido_poa_guidance_instructions_expiry_date" = "Дата на валидност (ако е приложимо)";
+"onfido_qes_consent_introduction_validation" = "Необходимо съгласие";

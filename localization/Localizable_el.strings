@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Υποβολή φωτογραφίας";
 "onfido_doc_confirmation_button_primary_visa" = "Υποβολή φωτογραφίας";
 "onfido_selfie_confirmation_button_secondary" = "Επανάληψη λήψης φωτογραφίας";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Ενεργοποίηση και των δύο";
 "onfido_permission_button_primary_cam" = "Ενεργοποίηση κάμερας";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Επανεκκίνηση της εγγραφής";
 "onfido_video_capture_prompt_detail_restart" = "Για να ολοκληρώσετε αυτό το βήμα, πρέπει να διατηρήσετε το πρόσωπό σας ορατό καθ' όλη τη διάρκεια της εγγραφής.";
 "onfido_video_capture_prompt_button_restart" = "Επανεκκίνηση";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ";
 "onfido_video_capture_body" = "Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ για να ξεκινήσετε την εγγραφή";
 "onfido_doc_confirmation_body_license" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
 "onfido_doc_confirmation_body_generic" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
 "onfido_doc_confirmation_body_id" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
 "onfido_doc_confirmation_body_permit" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
 "onfido_doc_confirmation_body_visa" = "Βεβαιωθείτε ότι τα στοιχεία σας διακρίνονται με σαφήνεια και δεν καλύπτονται";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Βεβαιωθείτε ότι ολόκληρο το πρόσωπό σας είναι ορατό";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Τοποθετήστε τη σελίδα βίζας του εγγράφου σας στο πλαίσιο";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Φόρτωση";
-
-
 "onfido_doc_capture_header_passport_auto" = "Τοποθετήστε τη σελίδα φωτογραφίας του εγγράφου σας στο πλαίσιο";
 "onfido_doc_capture_header_license_back" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
 "onfido_doc_capture_header_license_back_auto" = "Τοποθετήστε την πίσω όψη του εγγράφου σας στο πλαίσιο";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
 "onfido_doc_capture_header_id_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
 "onfido_doc_capture_header_permit_front" = "Τοποθετήστε την μπροστινή όψη του εγγράφου σας στο πλαίσιο";
-
 "onfido_generic_uploading" = "Γίνεται αποστολή";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Βεβαιωθείτε ότι όλο το έγγραφο είναι στη φωτογραφία";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Βεβαιωθείτε ότι το πρόσωπό σας είναι ορατό";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Επαληθεύστε την ταυτότητά σας";
 "onfido_app_title_country_select" = "Επιλέξτε χώρα έκδοσης";
 "onfido_video_capture_alert_wrong_side" = "Λάθος πλευρά";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Επιτάχυνση της διαδικασίας με NFC";
 "onfido_nfc_select_subtitle_passport" = "Θα σαρώσουμε το τσιπ NFC στο διαβατήριό σας";
 "onfido_nfc_select_body_passport" = "Τα ηλεκτρονικά διαβατήρια έχουν αυτό το σύμβολο στο εξώφυλλο";
 "onfido_nfc_select_button_primary_passport" = "Χρήση ηλεκτρονικού διαβατηρίου";
 "onfido_nfc_select_button_secondary_passport" = "Δεν είναι ηλεκτρονικό διαβατήριο";
-
 "onfido_nfc_select_title_card" = "Επιτάχυνση της διαδικασίας με NFC";
 "onfido_nfc_select_subtitle_card" = "Θα σαρώσουμε το τσιπ NFC στο δελτίο σας";
 "onfido_nfc_select_body_card" = "Τα δελτία με τσιπ NFC έχουν αυτό το σύμβολο";
 "onfido_nfc_select_button_primary_card" = "Χρήση δελτίου με NFC";
 "onfido_nfc_select_button_secondary_card" = "Δεν είναι δελτίο με NFC";
-
 "onfido_nfc_intro_title_passport" = "Σαρώστε το τσιπ του διαβατηρίου σας";
 "onfido_nfc_intro_subtitle_passport" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το chip στο διαβατήριό σας";
 "onfido_nfc_intro_passport_scan_guide_1" = "Ανοίξτε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Τοποθετήστε το τηλέφωνό σας κοντά στη μέση του διαβατηρίου σας";
 "onfido_nfc_intro_carousel_body_last_page" = "Μπορείτε επίσης να δοκιμάσετε το εσωτερικό της πίσω σελίδας";
 "onfido_nfc_intro_carousel_body_dont_move" = "Μη μετακινείτε το τηλέφωνο ή το διαβατήριό σας κατά τη σάρωση";
-
 "onfido_nfc_fail_title_passport" = "Δεν ήταν δυνατή η σάρωση του διαβατηρίου σας";
 "onfido_nfc_fail_title_card" = "Δεν ήταν δυνατή η σάρωση του δελτίου σας με NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Κρατήστε το τηλέφωνο και το δελτίο σας σε επαφή μέχρι η σάρωση να ολοκληρωθεί με επιτυχία";
 "onfido_nfc_fail_button_primary_card" = "Έναρξη σάρωσης";
 "onfido_nfc_fail_button_secondary_card" = "Επαληθεύστε την ταυτότητά σας χωρίς σάρωση";
-
 "onfido_doc_confirmation_zoom_button" = "Μεγέθυνση εικόνας";
 "onfido_doc_confirmation_image_accessibility" = "Φωτογραφία του εγγράφου σας. Πατήστε δύο φορές για μεγέθυνση.";
 "onfido_doc_zoom_body" = "Μετακινηθείτε χρησιμοποιώντας ένα δάχτυλο";
 "onfido_doc_zoom_button_close" = "Κλείσιμο";
-
 "onfido_video_confirmation_body" = "Το βίντεό σας έχει εγγραφεί";
 "onfido_app_title_country_select_search" = "Αναζήτηση";
 "onfido_country_select_list_accessibility" = "Αποτελέσματα αναζήτησης";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Είστε σίγουρος/-η;";
 "onfido_user_consent_prompt_no_consent_detail" = "Εάν δεν αποδεχτείτε τις δήλωση προστασίας προσωπικών δεδομένων και τους όρους χρήσης του Onfido, δεν θα μπορέσουμε να επαληθεύσουμε την ταυτότητά σας και θα εξέλθετε από αυτό το βήμα.";
 "onfido_user_consent_prompt_button_secondary" = "Νέος έλεγχος";
 "onfido_user_consent_prompt_button_primary" = "Ναι, μην με επαληθεύσετε";
 "onfido_user_consent_button_primary" = "Αποδοχή";
 "onfido_user_consent_button_secondary" = "Μη αποδοχή";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Αποτυχία φόρτωσης περιεχομένου";
 "onfido_user_consent_load_fail_detail" = "Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά";
 "onfido_user_consent_load_fail_button_primary" = "Επαναφόρτωση οθόνης";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Κρατήστε το τηλέφωνό σας επάνω από τη σελίδα της φωτογραφίας του διαβατηρίου σας";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Προβολή από κάμερα. Τοποθετήστε το τηλέφωνό σας επάνω στη σελίδα της φωτογραφίας του διαβατηρίου σας και, στη συνέχεια, απομακρύνετε αργά το τηλέφωνό σας από αυτή σε ευθεία γραμμή.";
 "onfido_doc_capture_header_capturing" = "Μείνετε ακίνητος/η";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Βεβαιωθείτε ότι έχετε αποστείλει ολόκληρη τη σελίδα του εγγράφου και ότι τα στοιχεία είναι ευανάγνωστα, το έγγραφο δεν είναι θολό και δεν υπάρχει αντανάκλαση";
 "onfido_doc_select_subtitle_poa" = "Αυτά είναι τα έγγραφα που είναι πιθανότερο να εμφανίζουν την τρέχουσα διεύθυνση κατοικίας σας";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Επαναφόρτωση παραδείγματος βίντεο";
 "onfido_doc_select_button_address_card" = "Κάρτα διεύθυνσης";
 "onfido_doc_select_button_address_card_detail" = "Γίνονται δεκτές προσωρινές και μόνιμες κάρτες";
-"proofOfAddress.guide.subtitle_address_certificate" = "Πρέπει να είναι έγκυρη κάρτα διεύθυνσης";
-
 "onfido_welcome_start_workflow_button_trial" = "Έναρξη επαλήθευσης (ΔΟΚΙΜΗ)";
 "onfido_enter_can_title" = "Πληκτρολογήστε τον αριθμό CAN";
 "onfido_enter_can_subtitle" = "Ο %d-ψήφιος αριθμός βρίσκεται στο μπροστινό μέρος του εγγράφου σας";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Προσπαθήστε ξανά";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Γίνεται αναπαραγωγή ήχου από άλλη εφαρμογή";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής";
-
 "onfido_nfc_scan_welcome_card_title" = "Σαρώστε το έγγραφό σας";
 "onfido_nfc_scan_welcome_card_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
 "onfido_nfc_scan_welcome_card_list_item" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
 "onfido_nfc_scan_welcome_card_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Επαληθεύστε χωρίς NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
 "onfido_nfc_scan_error_inter_list_item" = "Αφαιρέστε το κάλυμμα του τηλεφώνου σας";
 "onfido_nfc_scan_error_inter_list_item_2" = "Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής";
 "onfido_nfc_scan_error_inter_primary_button" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_error_inter_secondary_button" = "Επαληθεύστε χωρίς NFC";
-
 "onfido_nfc_scan_error_final_title" = "Δεν μπορέσαμε να επαληθεύσουμε αυτό το έγγραφο";
 "onfido_nfc_scan_error_final_subtitle" = "Απαιτείται σάρωση NFC για αυτό το έγγραφο, αλλά δεν ήταν δυνατό να ολοκληρωθεί.";
 "onfido_nfc_scan_error_final_list_item" = "Έχετε διαφορετικό έγγραφο για να προχωρήσετε;";
 "onfido_nfc_scan_error_final_primary_button" = "Χρησιμοποιήστε διαφορετικό έγγραφο";
 "onfido_nfc_scan_error_final_secondary_button" = "Επαληθεύστε χωρίς NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Επιτάχυνση της διαδικασίας με NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
 "onfido_nfc_scan_welcome_passport_list_item" = "Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Γυρίστε στην μπροστινή πλευρά";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Αναποδογυρίστε στην πίσω πλευρά";
 "onfido_doc_capture_alert_hold_still_title" = "Μείνετε ακίνητος/η";
-
 "onfido_doc_capture_alert_photo_page_title" = "Εμφάνιση μόνο της σελίδας φωτογραφίας";
 "onfido_doc_capture_alert_tilted_title" = "Κρατήστε το έγγραφο ευθεία";
 "onfido_doc_capture_header_recording_video" = "Καταγραφή βίντεο";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Ανιχνεύθηκε φωτοτυπία";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Εντοπίστηκε σάρωση";
 "onfido_doc_confirmation_alert_odp_detail" = "Παρακαλώ χρησιμοποιήστε το αρχικό σας έγγραφο. Οι φωτογραφίες από οθόνη ή φωτοτυπίες δεν γίνονται δεκτές";
-
 "onfido_interactive_task_waiting_title_1" = "Έλεγχος ποιότητας εικόνας...";
 "onfido_interactive_task_waiting_subtitle_1" = "Παρακαλώ περιμένετε λίγο περισσότερο για την ολοκλήρωση της εργασίας.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Συγκεντρώνοντας δεδομένα...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Ίσως σας ζητηθεί να εισάγετε το CAN πριν συνεχίσετε στη σάρωση";
 "onfido_enter_can_secondary_button" = "Δεν έχω ένα CAN";
 "onfido_enter_can_warning" = "Έχετε απομείνει %d %@";
-
 "onfido_otp_send_code_input_label" = "Αριθμός τηλεφώνου";
 "onfido_otp_send_code_error_invalid_phone_number" = "Παρακαλώ παράσχετε έναν έγκυρο αριθμό τηλεφώνου.";
 "onfido_otp_error_title" = "Κάτι πήγε στραβά";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Εκδίδεται από κυβερνητική αρχή ή εταιρικό εκμισθωτή ως επιβεβαίωση ενοικίασης.";
 "onfido_generic_alert_parsing_error_label" = "Σφάλμα ανάλυσης";
 "onfido_generic_error_parsing_detail" = "Παρουσιάστηκε σφάλμα ανάλυσης. Παρακαλώ δοκιμάστε ξανά.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Τοποθετήστε την κορυφή του τηλεφώνου σας κάτω από το κάτω μέρος του διαβατηρίου σας.";
 "onfido_nfc_capture_scan_passport_sheet" = "Τοποθετήστε το επάνω μισό του τηλεφώνου σας σε επαφή με το κάτω μισό του διαβατηρίου σας.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος του τηλεφώνου σας.";
 "onfido_nfc_card_scan_doc_realign_body" = "Τοποθετήστε ξανά το έγγραφό σας στο πίσω μέρος του τηλεφώνου σας.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Κρατήστε το τηλέφωνό σας και το έγγραφο σταθερά.";
-"proofOfAddress.country.alert.intro" = "Δεν μπορείτε να βρείτε τη χώρα σας;";
-"proofOfAddress.selection.subtitle" = "Αυτά είναι τα έγγραφα που είναι πιθανότερο να εμφανίζουν την τρέχουσα διεύθυνση κατοικίας σας";
-"common.selection.utility_bill_extra" = "αποδεκτές ηλεκτρονικές δηλώσεις";
-"common.selection.utility_bill_details" = "Αέριο, ηλεκτρικό ρεύμα, νερό, σταθερό τηλέφωνο ή ευρυζωνική σύνδεση";
-"common.selection.benefit_letters_details" = "Επιδόματα νοικοκυριών που έχουν εγκριθεί από το κράτος, π.χ. Επίδομα αναζήτησης εργασίας, Στεγαστικό επίδομα, Εκπτώσεις φόρου";
-"proofOfAddress.intro.subtitle" = "Θα χρειαστείτε ένα έγγραφο που:";
-"proofOfAddress.intro.list_current_address" = "Ταιριάζει με τη διεύθυνση που χρησιμοποιήσατε κατά την εγγραφή";
-"proofOfAddress.intro.button_primary" = "Έναρξη επαλήθευσης";
-"proofOfAddress.guide.instructions.logo" = "Λογότυπο";
-"proofOfAddress.guide.instructions.full_name" = "Ονοματεπώνυμο";
-"proofOfAddress.guide.instructions.label" = "Καταγράψτε ολόκληρο το έγγραφο και βεβαιωθείτε ότι εμφανίζει καθαρά:";
-"proofOfAddress.guide.instructions.address" = "Τρέχουσα διεύθυνση";
-"proofOfAddress.guide.instructions.issue_date" = "Ημερομηνία έκδοσης ή συνοπτική περίοδος";
-"proofOfAddress.guide.button_primary" = "Συνέχεια";
-"common.selection.bank_building_society_statement" = "Τράπεζα ή στεγαστικό ταμιευτήριο";
-"common.selection.utility_bill" = "Λογαριασμός υπηρεσιών κοινής ωφελείας";
-"common.selection.benefit_letters" = "Επιστολή επιδομάτων";
-"common.selection.council_tax" = "Επιστολή Φορολογίας Τοπικής Αυτοδιοίκησης";
-"proofOfAddress.country.alert.close" = "Κλείσιμο";
-"proofOfAddress.capture.frame_accessibility" = "Προβολή από κάμερα";
-"proofOfAddress.intro.list_signup_address" = "Είναι το πιο πρόσφατο έγγραφό σας";
-"proofOfAddress.intro.list_recent_document" = "Εμφανίζει την τρέχουσα διεύθυνσή σας";
-"proofOfAddress.intro.title" = "Ας επαληθεύσουμε τη διεύθυνσή σας";
-"proofOfAddress.preview.body_council_tax" = "Βεβαιωθείτε ότι έχετε αποστείλει ολόκληρη τη σελίδα του εγγράφου και ότι τα στοιχεία είναι ευανάγνωστα, το έγγραφο δεν είναι θολό και δεν υπάρχει αντανάκλαση";
-"proofOfAddress.country.button_primary" = "Υποβολή εγγράφου";
-"proofOfAddress.preview.redo" = "Επανάληψη λήψης φωτογραφίας";
-"proofOfAddress.preview.choose_another_photo" = "Επιλέξτε ένα άλλο";
-"proofOfAddress.preview.image.accessibility" = "Εμφάνιση προεπισκόπησης μεγεθυμένου εγγράφου";
-"proofOfAddress.preview.image.zoom_text" = "Μεγέθυνση εγγράφου";
-"proofOfAddress.preview.image.zoom_move" = "Μετακινηθείτε χρησιμοποιώντας ένα δάχτυλο";
-"proofOfAddress.preview.image.zoom_close" = "Κλείσιμο";
-"proofOfAddress.capture.instructions" = "Μπροστινή όψη εγγράφου διεύθυνσης";
-"proofOfAddress.upload.take_photo" = "Λήψη φωτογραφίας";
-"proofOfAddress.upload.upload_photo" = "Αποστολή";
-"proofOfAddress.selection.title" = "Επιλέξτε ένα έγγραφο";
-"proofOfAddress.selection.title_uk" = "Επιλέξτε ένα έγγραφο του Ηνωμένου Βασιλείου";
-"proofOfAddress.country.alert.country_not_found" = "Λυπούμαστε για αυτό. Καταβάλουμε προσπάθειες να υποστηρίξουμε περισσότερες χώρες.";
-"welcome.list_item.poa" = "Τραβήξτε μια φωτογραφία ενός εγγράφου με τη διεύθυνσή σας";
-"proofOfAddress.upload.dialog.photo_library" = "Βιβλιοθήκη φωτογραφιών";
-"proofOfAddress.upload.dialog.files" = "Αρχεία";
-"proofOfAddress.upload.dialog.cancel" = "Ακύρωση";
-"common.error.errors.invalid_type.instruction" = "Μη έγκυρο αρχείο";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Επιλέξτε ένα διαφορετικό αρχείο.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
-"proofOfAddress.guide.subtitle_tax_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
-"proofOfAddress.guide.subtitle_bill" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
-"common.selection.address_card" = "Κάρτα διεύθυνσης";
-"common.selection.address_card_details" = "Γίνονται δεκτές προσωρινές και μόνιμες κάρτες";
-"proofOfAddress.guide.instructions.full_address" = "Πλήρης διεύθυνση";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Ημερομηνία έκδοσης";
-"proofOfAddress.guide.instructions.expiry_date" = "Ημερομηνία λήξης, κατά περίπτωση";
-"proofOfAddress.capture.frame_accessibility" = "Καταγράψτε το έγγραφό σας";
-"document.selection.no_mobile" = "Συγγνώμη, δεν υπάρχουν λογαριασμοί κινητού τηλεφώνου";
-
 "onfido_permission_button_primary_both_label" = "Ενεργοποιήστε τόσο την κάμερα όσο και το μικρόφωνο";
+"onfido_poa_intro_subtitle" = "Θα χρειαστείτε ένα έγγραφο που:";
+"onfido_poa_intro_list_matches_signup" = "Ταιριάζει με τη διεύθυνση που χρησιμοποιήσατε κατά την εγγραφή";
+"onfido_poa_intro_button_primary" = "Έναρξη επαλήθευσης";
+"onfido_poa_guidance_instructions_logo" = "Λογότυπο";
+"onfido_poa_guidance_instructions_full_name" = "Ονοματεπώνυμο";
+"onfido_poa_guidance_instructions_label" = "Καταγράψτε ολόκληρο το έγγραφο και βεβαιωθείτε ότι εμφανίζει καθαρά:";
+"onfido_poa_guidance_instructions_address" = "Τρέχουσα διεύθυνση";
+"onfido_poa_guidance_instructions_issue_date" = "Ημερομηνία έκδοσης ή συνοπτική περίοδος";
+"onfido_poa_guidance_button_primary" = "Συνέχεια";
+"onfido_poa_intro_list_most_recent" = "Είναι το πιο πρόσφατο έγγραφό σας";
+"onfido_poa_intro_list_shows_address" = "Εμφανίζει την τρέχουσα διεύθυνσή σας";
+"onfido_poa_intro_title" = "Ας επαληθεύσουμε τη διεύθυνσή σας";
+"onfido_poa_capture_confirm" = "Υποβολή εγγράφου";
+"onfido_poa_capture_redo" = "Επανάληψη λήψης φωτογραφίας";
+"onfido_poa_capture_choose_another" = "Επιλέξτε ένα άλλο";
+"onfido_poa_capture_image_accessibility" = "Εμφάνιση προεπισκόπησης μεγεθυμένου εγγράφου";
+"onfido_poa_capture_enlarge" = "Μεγέθυνση εγγράφου";
+"onfido_poa_capture_enlarge_move" = "Μετακινηθείτε χρησιμοποιώντας ένα δάχτυλο";
+"onfido_poa_capture_enlarge_close" = "Κλείσιμο";
+"onfido_poa_capture_instructions" = "Μπροστινή όψη εγγράφου διεύθυνσης";
+"onfido_poa_upload_instructions_take_photo_button" = "Λήψη φωτογραφίας";
+"onfido_poa_upload_instructions_upload_button" = "Αποστολή";
+"onfido_poa_type_selection_title" = "Επιλέξτε ένα έγγραφο";
+"onfido_poa_type_selection_title_uk" = "Επιλέξτε ένα έγγραφο του Ηνωμένου Βασιλείου";
+"onfido_poa_country_not_found" = "Λυπούμαστε για αυτό. Καταβάλουμε προσπάθειες να υποστηρίξουμε περισσότερες χώρες.";
+"onfido_poa_welcome_text" = "Τραβήξτε μια φωτογραφία ενός εγγράφου με τη διεύθυνσή σας";
+"onfido_poa_photo_library" = "Βιβλιοθήκη φωτογραφιών";
+"onfido_poa_files" = "Αρχεία";
+"onfido_poa_cancel" = "Ακύρωση";
+"onfido_poa_err_invalid_file_title" = "Μη έγκυρο αρχείο";
+"onfido_poa_err_invalid_file_message" = "Επιλέξτε ένα διαφορετικό αρχείο.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
+"onfido_poa_guidance_subtitle_tax_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
+"onfido_poa_guidance_subtitle_bill" = "Πρέπει να έχει εκδοθεί τους τελευταίους 3 μήνες";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Πρέπει να έχει εκδοθεί τους τελευταίους 12 μήνες";
+"onfido_poa_guidance_subtitle_address_card" = "Πρέπει να είναι έγκυρη κάρτα διεύθυνσης";
+"onfido_poa_guidance_instructions_full_address" = "Πλήρης διεύθυνση";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Ημερομηνία έκδοσης";
+"onfido_poa_guidance_instructions_expiry_date" = "Ημερομηνία λήξης, κατά περίπτωση";
+"onfido_qes_consent_introduction_validation" = "Απαιτείται συγκατάθεση";

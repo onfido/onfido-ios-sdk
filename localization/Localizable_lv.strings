@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Iesniegt fotoattēlu";
 "onfido_doc_confirmation_button_primary_visa" = "Iesniegt fotoattēlu";
 "onfido_selfie_confirmation_button_secondary" = "Atkārtoti uzņemt fotoattēlu";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Iespējot abus";
 "onfido_permission_button_primary_cam" = "Iespējot kameru";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Sākt ierakstu no jauna";
 "onfido_video_capture_prompt_detail_restart" = "Lai veiktu šo darbību, sejai ir jābūt redzamai visa ieraksta laikā.";
 "onfido_video_capture_prompt_button_restart" = "Sākt no jauna";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Pozicionējiet seju ovālajā rāmī";
 "onfido_video_capture_body" = "Lai sāktu ierakstīt, pozicionējiet seju ovālajā rāmī";
 "onfido_doc_confirmation_body_license" = "Jūsu informācijai ir jābūt skaidri redzamai";
 "onfido_doc_confirmation_body_generic" = "Jūsu informācijai ir jābūt skaidri redzamai";
 "onfido_doc_confirmation_body_id" = "Jūsu informācijai ir jābūt skaidri redzamai";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Jūsu informācijai ir jābūt skaidri redzamai";
 "onfido_doc_confirmation_body_permit" = "Jūsu informācijai ir jābūt skaidri redzamai";
 "onfido_doc_confirmation_body_visa" = "Jūsu informācijai ir jābūt skaidri redzamai";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Jābūt redzamai visai sejai";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Ievietojiet dokumenta vīzas lapu kadrā";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Notiek ielāde";
-
-
 "onfido_doc_capture_header_passport_auto" = "Ievietojiet dokumenta fotoattēla lapu kadrā";
 "onfido_doc_capture_header_license_back" = "Ievietojiet dokumenta aizmuguri kadrā";
 "onfido_doc_capture_header_license_back_auto" = "Ievietojiet dokumenta aizmuguri kadrā";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Ievietojiet dokumenta priekšpusi kadrā";
 "onfido_doc_capture_header_id_front" = "Ievietojiet dokumenta priekšpusi kadrā";
 "onfido_doc_capture_header_permit_front" = "Ievietojiet dokumenta priekšpusi kadrā";
-
 "onfido_generic_uploading" = "Notiek augšupielāde";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Pārliecinieties, ka tas ir pilnībā ievietots kadrā";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Sejai jābūt redzamai";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Apstipriniet savu identitāti";
 "onfido_app_title_country_select" = "Atlasīt izdevējvalsti";
 "onfido_video_capture_alert_wrong_side" = "Nepareizā puse";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Paātriniet procesu, izmantojot NFC";
 "onfido_nfc_select_subtitle_passport" = "Mēs noskenēsim pasē esošo NFC mikroshēmu";
 "onfido_nfc_select_body_passport" = "e-pasēm uz vāka ir šāds simbols";
 "onfido_nfc_select_button_primary_passport" = "Izmantot e-pasi";
 "onfido_nfc_select_button_secondary_passport" = "Tā nav e-pase";
-
 "onfido_nfc_select_title_card" = "Paātriniet procesu, izmantojot NFC";
 "onfido_nfc_select_subtitle_card" = "Mēs noskenēsim NFC mikroshēmu jūsu kartē";
 "onfido_nfc_select_body_card" = "Uz kartēm, kurām ir NFC mikroshēma, ir šāds simbols";
 "onfido_nfc_select_button_primary_card" = "Izmantot NFC karti";
 "onfido_nfc_select_button_secondary_card" = "Tā nav NFC karte";
-
 "onfido_nfc_intro_title_passport" = "Skenējiet savas pases mikroshēmu";
 "onfido_nfc_intro_subtitle_passport" = "Izmantojiet savu telefonu, lai noskanētu čipu savā pasē";
 "onfido_nfc_intro_passport_scan_guide_1" = "Ielieciet savu pasi atvērtu uz plakana virsmas";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Novietojiet tālruni tuvu pases vidusdaļai";
 "onfido_nfc_intro_carousel_body_last_page" = "Varat arī izmēģināt aizmugurējās lapas iekšpusi";
 "onfido_nfc_intro_carousel_body_dont_move" = "Nekustiniet tālruni vai pasi skenēšanas laikā";
-
 "onfido_nfc_fail_title_passport" = "Neizdevās noskenēt jūsu pasi";
 "onfido_nfc_fail_title_card" = "Neizdevās noskenēt jūsu NFC karti";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Noņemiet pases un tālruņa vāciņus";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Turiet tālruni un karti tuvā kontaktā, līdz skenēšana ir izdevusies";
 "onfido_nfc_fail_button_primary_card" = "Sākt skenēšanu";
 "onfido_nfc_fail_button_secondary_card" = "Veikt pārbaudi bez skenēšanas";
-
 "onfido_doc_confirmation_zoom_button" = "Palielināt attēlu";
 "onfido_doc_confirmation_image_accessibility" = "Dokumenta fotoattēls. Lai palielinātu, divreiz pieskarieties.";
 "onfido_doc_zoom_body" = "Pārvietojiet ar vienu pirkstu";
 "onfido_doc_zoom_button_close" = "Aizvērt";
-
 "onfido_video_confirmation_body" = "Jūsu videoklips ir ierakstīts";
 "onfido_app_title_country_select_search" = "Meklēt";
 "onfido_country_select_list_accessibility" = "Meklēšanas rezultāti";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Vai esat pārliecināts?";
 "onfido_user_consent_prompt_no_consent_detail" = "Ja nepiekritīsiet Onfido paziņojumiem par konfidencialitāti un pakalpojumu sniegšanas noteikumiem, mēs nevarēsim pārbaudīt jūsu identitāti un jūs iziesiet no šīs darbības.";
 "onfido_user_consent_prompt_button_secondary" = "Pārskatīt vēlreiz";
 "onfido_user_consent_prompt_button_primary" = "Nē, neveikt man pārbaudi";
 "onfido_user_consent_button_primary" = "Piekrist";
 "onfido_user_consent_button_secondary" = "Nepiekrist";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Saturu neizdevās ielādēt";
 "onfido_user_consent_load_fail_detail" = "Pārbaudiet, vai savienojums ir stabils, un pēc tam mēģiniet vēlreiz";
 "onfido_user_consent_load_fail_button_primary" = "Ielādēt ekrānu no jauna";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Turiet tālruni virs pases fotoattēla lapas";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Skats no kameras. Novietojiet tālruni virs pases fotoattēla lapas un pēc tam lēnām virziet tālruni prom no tā taisnā līnijā.";
 "onfido_doc_capture_header_capturing" = "Turiet nekustīgi";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu un ka informācija ir skaidri salasāma bez izplūduma vai atspīduma";
 "onfido_doc_select_subtitle_poa" = "Šie ir dokumenti, kuros, visticamāk, ir redzama jūsu pašreizējā dzīvesvietas adrese";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Atkārtoti ielādēt videoklipa piemēru";
 "onfido_doc_select_button_address_card" = "Adreses karte";
 "onfido_doc_select_button_address_card_detail" = "Tiek pieņemtas pagaidu un pastāvīgās kartes";
-"proofOfAddress.guide.subtitle_address_certificate" = "Jābūt derīgai adreses kartei";
-
 "onfido_welcome_start_workflow_button_trial" = "Sākt pārbaudi (TEST)";
 "onfido_enter_can_title" = "Ievadiet CAN numuru";
 "onfido_enter_can_subtitle" = "%d-cifru numurs atrodas jūsu dokumenta priekšpusē";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Mēģināt vēlreiz";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio ierakstu atskaņo cita lietotne";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus";
-
 "onfido_nfc_scan_welcome_card_title" = "Skenējiet savu dokumentu";
 "onfido_nfc_scan_welcome_card_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
 "onfido_nfc_scan_welcome_card_list_item" = "Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
 "onfido_nfc_scan_welcome_card_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Iegūt verifikāciju bez NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Mēs nevarējām noskenēt jūsu dokumentu";
 "onfido_nfc_scan_error_inter_list_item" = "Noņemiet tālruņa vāciņu";
 "onfido_nfc_scan_error_inter_list_item_2" = "Saglabājiet ierīci un dokumentu, līdz skenēšana ir veiksmīga";
 "onfido_nfc_scan_error_inter_primary_button" = "Sākt skenēšanu";
 "onfido_nfc_scan_error_inter_secondary_button" = "Iegūt verifikāciju bez NFC";
-
 "onfido_nfc_scan_error_final_title" = "Mēs nevarējām verificēt šo dokumentu";
 "onfido_nfc_scan_error_final_subtitle" = "Šim dokumentam ir nepieciešama NFC skenēšana, taču to nevarēja pabeigt.";
 "onfido_nfc_scan_error_final_list_item" = "Vai jums ir cits dokuments, ar kuru turpināt?";
 "onfido_nfc_scan_error_final_primary_button" = "Izmantojiet citu dokumentu";
 "onfido_nfc_scan_error_final_secondary_button" = "Iegūt verifikāciju bez NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Paātriniet procesu, izmantojot NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
 "onfido_nfc_scan_welcome_passport_list_item" = "Novietojiet dokumentu uz līdzenas virsmas";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Iegūt verifikāciju bez NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Mēs nevarējām noskenēt jūsu dokumentu";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Noņemiet pases un tālruņa vāciņus";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Saglabājiet ierīci un dokumentu, līdz skenēšana ir veiksmīga";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pagrieziet uz priekšējo pusi";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Pagrieziet uz aizmuguri";
 "onfido_doc_capture_alert_hold_still_title" = "Turiet nekustīgi";
-
 "onfido_doc_capture_alert_photo_page_title" = "Rādīt tikai foto lapu";
 "onfido_doc_capture_alert_tilted_title" = "Turiet dokumentu taisni";
 "onfido_doc_capture_header_recording_video" = "Ieraksta video";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopija konstatēta";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skenēšana konstatēta";
 "onfido_doc_confirmation_alert_odp_detail" = "Lūdzu, izmantojiet savu oriģinālo dokumentu. Ekrāna fotogrāfijas vai fotokopijas netiek pieņemtas.";
-
 "onfido_interactive_task_waiting_title_1" = "Pārbauda attēla kvalitāti...";
 "onfido_interactive_task_waiting_subtitle_1" = "Lūdzu, vēl nedaudz pagaidiet, kamēr uzdevums tiek pabeigts.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilē datus...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Jums var lūgt ievadīt CAN, pirms turpināt skenēšanu";
 "onfido_enter_can_secondary_button" = "Man nav CAN";
 "onfido_enter_can_warning" = "Jums ir atlicis %d %@";
-
 "onfido_otp_send_code_input_label" = "Tālruņa numurs";
 "onfido_otp_send_code_error_invalid_phone_number" = "Lūdzu, ievadiet derīgu tālruņa numuru.";
 "onfido_otp_error_title" = "Kaut kas nogāja greizi";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Izdots no valdības iestādes vai korporatīvā īpašnieka kā īres apstiprinājums.";
 "onfido_generic_alert_parsing_error_label" = "Parsēšanas kļūda";
 "onfido_generic_error_parsing_detail" = "Notika analīzes kļūda. Lūdzu, mēģiniet vēlreiz.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Pārvietojiet savu tālruņa augšdaļu pret savas pases apakšdaļu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Novietojiet savas tālruņa augšējo pusi saskarē ar savas pases apakšējo pusi.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Saglabājiet savu telefonu un pasi nemainīgu.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Novietojiet savu dokumentu pret savas tālruņa augšējo aizmuguri.";
 "onfido_nfc_card_scan_doc_realign_body" = "Pārvietojiet savu dokumentu pret savas tālruņa augšējo aizmuguri.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Turiet savu telefonu un dokumentu nekustīgu.";
-"proofOfAddress.country.alert.intro" = "Nevarat atrast savu valsti?";
-"proofOfAddress.selection.subtitle" = "Šie ir dokumenti, kuros, visticamāk, ir redzama jūsu pašreizējā dzīvesvietas adrese";
-"common.selection.utility_bill_extra" = "tiek pieņemtas e-izziņas";
-"common.selection.utility_bill_details" = "Gāze, elektrība, ūdens, fiksētais tālrunis vai platjoslas internets";
-"common.selection.benefit_letters_details" = "Valdības apstiprināti mājsaimniecības pabalsti, piem., bezdarbnieka pabalsts, mājokļa pabalsts, nodokļu atlaides";
-"proofOfAddress.intro.subtitle" = "Jums būs nepieciešams dokuments, kas atbilst šādām prasībām:";
-"proofOfAddress.intro.list_current_address" = "Tajā redzamā adrese atbilst adresei, ko izmantojāt reģistrējoties.";
-"proofOfAddress.intro.button_primary" = "Sākt pārbaudi";
-"proofOfAddress.guide.instructions.logo" = "Logotips";
-"proofOfAddress.guide.instructions.full_name" = "Vārds, uzvārds";
-"proofOfAddress.guide.instructions.label" = "Uzņemiet visu dokumentu un pārliecinieties, ka tajā ir skaidri redzama šāda informācija:";
-"proofOfAddress.guide.instructions.address" = "Pašreizējā dzīvesvietas adrese.";
-"proofOfAddress.guide.instructions.issue_date" = "Izdošanas datums vai derīguma termiņš.";
-"proofOfAddress.guide.button_primary" = "Turpināt";
-"common.selection.bank_building_society_statement" = "Konta izraksts vai būvsabiedrības izziņa";
-"common.selection.utility_bill" = "Komunālo pakalpojumu rēķins";
-"common.selection.benefit_letters" = "Vēstule par pabalstiem";
-"common.selection.council_tax" = "Pašvaldības nodokļu vēstule";
-"proofOfAddress.country.alert.close" = "Aizvērt";
-"proofOfAddress.capture.frame_accessibility" = "Skats no kameras";
-"proofOfAddress.intro.list_signup_address" = "Tas ir jūsu jaunākais dokuments.";
-"proofOfAddress.intro.list_recent_document" = "Tajā ir redzama jūsu pašreizējā dzīvesvietas adrese.";
-"proofOfAddress.intro.title" = "Pārbaudīsim jūsu adresi";
-"proofOfAddress.preview.body_council_tax" = "Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu un ka informācija ir skaidri salasāma bez izplūduma vai atspīduma";
-"proofOfAddress.country.button_primary" = "Iesniegt dokumentu";
-"proofOfAddress.preview.redo" = "Atkārtoti uzņemt fotoattēlu";
-"proofOfAddress.preview.choose_another_photo" = "Izvēlēties citu";
-"proofOfAddress.preview.image.accessibility" = "Rādīt palielinātu dokumenta priekšskatījumu";
-"proofOfAddress.preview.image.zoom_text" = "Palielināt dokumentu";
-"proofOfAddress.preview.image.zoom_move" = "Pārvietojiet ar vienu pirkstu";
-"proofOfAddress.preview.image.zoom_close" = "Aizvērt";
-"proofOfAddress.capture.instructions" = "Adreses dokumenta priekšpuse";
-"proofOfAddress.upload.take_photo" = "Uzņemt fotoattēlu";
-"proofOfAddress.upload.upload_photo" = "Augšupielādēt";
-"proofOfAddress.selection.title" = "Atlasīt dokumentu";
-"proofOfAddress.selection.title_uk" = "Atlasīt Apvienotajā Karalistē izdotu dokumentu";
-"proofOfAddress.country.alert.country_not_found" = "Piedodiet. Mēs strādājam pie valstu saraksta papildināšanas.";
-"welcome.list_item.poa" = "Nofotografētu dokumentu ar savu adresi";
-"proofOfAddress.upload.dialog.photo_library" = "Fotoattēlu galerija";
-"proofOfAddress.upload.dialog.files" = "Faili";
-"proofOfAddress.upload.dialog.cancel" = "Atcelt";
-"common.error.errors.invalid_type.instruction" = "Nederīgs fails";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Izvēlieties citu failu.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "Labi";
-"proofOfAddress.guide.subtitle_bank_statement" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
-"proofOfAddress.guide.subtitle_tax_letter" = "Tai jābūt izdotai pēdējo 12 mēnešu laikā";
-"proofOfAddress.guide.subtitle_bill" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Tai jābūt izdotai pēdējo 12 mēnešu laikā";
-"common.selection.address_card" = "Adreses karte";
-"common.selection.address_card_details" = "Tiek pieņemtas pagaidu un pastāvīgās kartes";
-"proofOfAddress.guide.instructions.full_address" = "Pilna adrese";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Izdošanas datums";
-"proofOfAddress.guide.instructions.expiry_date" = "Derīguma termiņš (ja attiecināms)";
-"proofOfAddress.capture.frame_accessibility" = "Iegūstiet savu dokumentu";
-"document.selection.no_mobile" = "Atvainojiet, mobilā telefona rēķini nav";
-
 "onfido_permission_button_primary_both_label" = "Iespējojiet gan kameru, gan mikrofonu";
+"onfido_poa_intro_subtitle" = "Jums būs nepieciešams dokuments, kas atbilst šādām prasībām:";
+"onfido_poa_intro_list_matches_signup" = "Tajā redzamā adrese atbilst adresei, ko izmantojāt reģistrējoties.";
+"onfido_poa_intro_button_primary" = "Sākt pārbaudi";
+"onfido_poa_guidance_instructions_logo" = "Logotips";
+"onfido_poa_guidance_instructions_full_name" = "Vārds, uzvārds";
+"onfido_poa_guidance_instructions_label" = "Uzņemiet visu dokumentu un pārliecinieties, ka tajā ir skaidri redzama šāda informācija:";
+"onfido_poa_guidance_instructions_address" = "Pašreizējā dzīvesvietas adrese.";
+"onfido_poa_guidance_instructions_issue_date" = "Izdošanas datums vai derīguma termiņš.";
+"onfido_poa_guidance_button_primary" = "Turpināt";
+"onfido_poa_intro_list_most_recent" = "Tas ir jūsu jaunākais dokuments.";
+"onfido_poa_intro_list_shows_address" = "Tajā ir redzama jūsu pašreizējā dzīvesvietas adrese.";
+"onfido_poa_intro_title" = "Pārbaudīsim jūsu adresi";
+"onfido_poa_capture_confirm" = "Iesniegt dokumentu";
+"onfido_poa_capture_redo" = "Atkārtoti uzņemt fotoattēlu";
+"onfido_poa_capture_choose_another" = "Izvēlēties citu";
+"onfido_poa_capture_image_accessibility" = "Rādīt palielinātu dokumenta priekšskatījumu";
+"onfido_poa_capture_enlarge" = "Palielināt dokumentu";
+"onfido_poa_capture_enlarge_move" = "Pārvietojiet ar vienu pirkstu";
+"onfido_poa_capture_enlarge_close" = "Aizvērt";
+"onfido_poa_capture_instructions" = "Adreses dokumenta priekšpuse";
+"onfido_poa_upload_instructions_take_photo_button" = "Uzņemt fotoattēlu";
+"onfido_poa_upload_instructions_upload_button" = "Augšupielādēt";
+"onfido_poa_type_selection_title" = "Atlasīt dokumentu";
+"onfido_poa_type_selection_title_uk" = "Atlasīt Apvienotajā Karalistē izdotu dokumentu";
+"onfido_poa_country_not_found" = "Piedodiet. Mēs strādājam pie valstu saraksta papildināšanas.";
+"onfido_poa_welcome_text" = "Nofotografētu dokumentu ar savu adresi";
+"onfido_poa_photo_library" = "Fotoattēlu galerija";
+"onfido_poa_files" = "Faili";
+"onfido_poa_cancel" = "Atcelt";
+"onfido_poa_err_invalid_file_title" = "Nederīgs fails";
+"onfido_poa_err_invalid_file_message" = "Izvēlieties citu failu.";
+"onfido_poa_err_invalid_file_ok" = "Labi";
+"onfido_poa_guidance_subtitle_bank_statement" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
+"onfido_poa_guidance_subtitle_tax_letter" = "Tai jābūt izdotai pēdējo 12 mēnešu laikā";
+"onfido_poa_guidance_subtitle_bill" = "Jābūt izsniegtam pēdējo trīs mēnešu laikā";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Tai jābūt izdotai pēdējo 12 mēnešu laikā";
+"onfido_poa_guidance_subtitle_address_card" = "Jābūt derīgai adreses kartei";
+"onfido_poa_guidance_instructions_full_address" = "Pilna adrese";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Izdošanas datums";
+"onfido_poa_guidance_instructions_expiry_date" = "Derīguma termiņš (ja attiecināms)";
+"onfido_qes_consent_introduction_validation" = "Nepieciešama piekrišana";

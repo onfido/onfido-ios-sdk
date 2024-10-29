@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Odeslat fotografii";
 "onfido_doc_confirmation_button_primary_visa" = "Odeslat fotografii";
 "onfido_selfie_confirmation_button_secondary" = "Znovu pořídit fotografii";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Povolte obě možnosti";
 "onfido_permission_button_primary_cam" = "Povolení kamery";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Restart nahrávání";
 "onfido_video_capture_prompt_detail_restart" = "Pro vyřízení tohoto kroku musíte mít po celou dobu nahrávání na očích svůj obličej.";
 "onfido_video_capture_prompt_button_restart" = "Restartování";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Držte obličej v oválu";
 "onfido_video_capture_body" = "Při  nahrávání držte obličej v oválu";
 "onfido_doc_confirmation_body_license" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
 "onfido_doc_confirmation_body_generic" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
 "onfido_doc_confirmation_body_id" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
 "onfido_doc_confirmation_body_permit" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
 "onfido_doc_confirmation_body_visa" = "Ujistěte se, že jsou Vaše údaje jasné a nezkreslené";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Ujistěte se, že je vidět celý Váš obličej";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Umístěte stránku s vízem Vašeho dokumentu do rámečku";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Načítání";
-
-
 "onfido_doc_capture_header_passport_auto" = "Umístěte stránku s fotografií dokumentu do rámečku";
 "onfido_doc_capture_header_license_back" = "Umístěte zadní stranu dokumentu do rámečku";
 "onfido_doc_capture_header_license_back_auto" = "Umístěte zadní stranu dokumentu do rámečku";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Umístěte přední stranu dokumentu do rámečku";
 "onfido_doc_capture_header_id_front" = "Umístěte přední stranu dokumentu do rámečku";
 "onfido_doc_capture_header_permit_front" = "Umístěte přední stranu dokumentu do rámečku";
-
 "onfido_generic_uploading" = "Nahrávání";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Ujistěte se, že je na fotografii celý dokument";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Ujistěte se, že je Váš obličej viditelný";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Potvrďte svou totožnost";
 "onfido_app_title_country_select" = "Vyberte zemi, kde došlo k vydání";
 "onfido_video_capture_alert_wrong_side" = "Nesprávná strana";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Urychlení procesu pomocí NFC";
 "onfido_nfc_select_subtitle_passport" = "Naskenujeme čip NFC z Vašeho pasu";
 "onfido_nfc_select_body_passport" = "ePasy mají na obalu tento symbol";
 "onfido_nfc_select_button_primary_passport" = "Použití ePasu";
 "onfido_nfc_select_button_secondary_passport" = "Toto není ePas";
-
 "onfido_nfc_select_title_card" = "Urychlení procesu pomocí NFC";
 "onfido_nfc_select_subtitle_card" = "Naskenujeme čip NFC na vaší kartě";
 "onfido_nfc_select_body_card" = "Karty s čipy NFC mají tento symbol";
 "onfido_nfc_select_button_primary_card" = "Použití karty NFC";
 "onfido_nfc_select_button_secondary_card" = "Toto není karta NFC";
-
 "onfido_nfc_intro_title_passport" = "Naskenujte čip Vašeho pasu";
 "onfido_nfc_intro_subtitle_passport" = "Použijte svůj telefon k naskenování čipu ve vašem pasu";
 "onfido_nfc_intro_passport_scan_guide_1" = "Položte svůj otevřený pas na rovný povrch";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Umístěte telefon doprostřed pasu";
 "onfido_nfc_intro_carousel_body_last_page" = "Můžete také zkusit zadní stranu";
 "onfido_nfc_intro_carousel_body_dont_move" = "Při skenování nehýbejte telefonem ani pasem";
-
 "onfido_nfc_fail_title_passport" = "Váš pas jsme nemohli naskenovat";
 "onfido_nfc_fail_title_card" = "Vaši kartu NFC se nám nepodařilo naskenovat";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Sundejte obaly pasu a telefonu";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Udržujte telefon a kartu v kontaktu, dokud skenování neproběhne.";
 "onfido_nfc_fail_button_primary_card" = "Spuštění skenování";
 "onfido_nfc_fail_button_secondary_card" = "Získejte ověření bez skenování";
-
 "onfido_doc_confirmation_zoom_button" = "Zvětšit obrázek";
 "onfido_doc_confirmation_image_accessibility" = "Fotografie dokumentu. Dvojitým klepnutím ji zvětšíte.";
 "onfido_doc_zoom_body" = "Pohybujte jedním prstem";
 "onfido_doc_zoom_button_close" = "Zavřít";
-
 "onfido_video_confirmation_body" = "Vaše video bylo nahráno";
 "onfido_app_title_country_select_search" = "Vyhledávání";
 "onfido_country_select_list_accessibility" = "Výsledky vyhledávání";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Are you sure?";
 "onfido_user_consent_prompt_no_consent_detail" = "If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.";
 "onfido_user_consent_prompt_button_secondary" = "Review again";
 "onfido_user_consent_prompt_button_primary" = "Yes, don’t verify me";
 "onfido_user_consent_button_primary" = "Accept";
 "onfido_user_consent_button_secondary" = "Do not accept";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Content failed to load";
 "onfido_user_consent_load_fail_detail" = "Zkontrolujte stabilitu svého připojení a zkuste to znovu";
 "onfido_user_consent_load_fail_button_primary" = "Reload screen";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Podržte telefon nad stránkou s fotografií v pasu";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pohled z kamery. Přiložte telefon na stránku s fotografií v pasu a pak se od ní pomalu vzdalujte po přímce.";
 "onfido_doc_capture_header_capturing" = "Vydržte v klidu";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Ujistěte se, že jste nahráli celou stránku dokumentu a detaily jsou dobře čitelné bez rozmazání nebo odlesků.";
 "onfido_doc_select_subtitle_poa" = "V těchto dokumentech je nejčastěji uvedena Vaše současná adresa bydliště";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Nahrávání vzorového videa";
 "onfido_doc_select_button_address_card" = "Adresní karta";
 "onfido_doc_select_button_address_card_detail" = "Přijímají se dočasné i trvalé karty";
-"proofOfAddress.guide.subtitle_address_certificate" = "Musí se jednat o platnou adresní kartu";
-
 "onfido_welcome_start_workflow_button_trial" = "Zahájit proces ověřování (TEST)";
 "onfido_enter_can_title" = "Zadejte číslo CAN";
 "onfido_enter_can_subtitle" = "%d-místné číslo se nachází na přední straně vašeho dokumentu";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Opakování";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audiozáznam se přehrává na jiné aplikaci";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Během nahrávání nepřehrávejte na svém zařízení žádný audiozáznam";
-
 "onfido_nfc_scan_welcome_card_title" = "Skenovat váš dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Použijte svůj telefon k naskenování čipu ve vašem dokumentu";
 "onfido_nfc_scan_welcome_card_list_item" = "Umístěte svůj dokument na zadní stranu svého zařízení, aby se dotýkaly";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout";
 "onfido_nfc_scan_welcome_card_button_primary" = "Zahájení skenování";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Získej ověření bez NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Váš dokument se nám nepodařilo naskenovat";
 "onfido_nfc_scan_error_inter_list_item" = "Odstraňte kryt telefonu";
 "onfido_nfc_scan_error_inter_list_item_2" = "Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné";
 "onfido_nfc_scan_error_inter_primary_button" = "Spuštění skenování";
 "onfido_nfc_scan_error_inter_secondary_button" = "Získej ověření bez NFC";
-
 "onfido_nfc_scan_error_final_title" = "Tento dokument se nám nepodařilo ověřit";
 "onfido_nfc_scan_error_final_subtitle" = "Tento dokument vyžaduje skenování NFC, které však nebylo možné dokončit.";
 "onfido_nfc_scan_error_final_list_item" = "Máte jiný dokument, se kterým můžete pokračovat?";
 "onfido_nfc_scan_error_final_primary_button" = "Použijte jiný dokument";
 "onfido_nfc_scan_error_final_secondary_button" = "Získej ověření bez NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Urychlení procesu pomocí NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Použijte svůj telefon k naskenování čipu ve vašem dokumentu";
 "onfido_nfc_scan_welcome_passport_list_item" = "Položte dokument na rovný povrch";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Zahájení skenování";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Získej ověření bez NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Váš dokument se nám nepodařilo naskenovat";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Sundejte obaly pasu a telefonu";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Překlopte na přední stranu";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Překlopte na zadní stranu";
 "onfido_doc_capture_alert_hold_still_title" = "Nehýbej se";
-
 "onfido_doc_capture_alert_photo_page_title" = "Zobrazit pouze stránku s fotografiemi";
 "onfido_doc_capture_alert_tilted_title" = "Držte dokument rovně";
 "onfido_doc_capture_header_recording_video" = "Nahrávání videa";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Detekována fotokopie";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skenování detekováno";
 "onfido_doc_confirmation_alert_odp_detail" = "Prosím, použijte svůj původní dokument. Fotografie obrazovky nebo fotokopie nejsou přijímány.";
-
 "onfido_interactive_task_waiting_title_1" = "Kontrola kvality obrázku...";
 "onfido_interactive_task_waiting_subtitle_1" = "Prosíme o trochu více trpělivosti, úloha ještě není dokončena.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Kompilace dat...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Může se stát, že budete vyzváni k zadání CAN před pokračováním ve skenování";
 "onfido_enter_can_secondary_button" = "Nemám CAN";
 "onfido_enter_can_warning" = "Máte %d %@ zbývající";
-
 "onfido_otp_send_code_input_label" = "Telefonní číslo";
 "onfido_otp_send_code_error_invalid_phone_number" = "Prosím, zadejte platné telefonní číslo.";
 "onfido_otp_error_title" = "Něco se pokazilo";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Vystaveno vládním orgánem nebo korporátním pronajímatelem jako potvrzení o pronájmu.";
 "onfido_generic_alert_parsing_error_label" = "Chyba při zpracování";
 "onfido_generic_error_parsing_detail" = "Došlo k chybě při analýze. Zkuste to prosím znovu.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Přesuňte vrch svého telefonu k dolní části vašeho pasu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Umístěte horní polovinu svého telefonu na spodní polovinu svého pasu.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Držte svůj telefon a pas v klidu.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Umístěte svůj dokument na zadní stranu svého telefonu.";
 "onfido_nfc_card_scan_doc_realign_body" = "Umístěte svůj dokument na zadní stranu svého telefonu.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Držte svůj telefon a doklad v klidu.";
-"proofOfAddress.country.alert.intro" = "Nemůžete najít svou zemi?";
-"proofOfAddress.selection.subtitle" = "V těchto dokumentech je nejčastěji uvedena Vaše současná adresa bydliště";
-"common.selection.utility_bill_extra" = "Přijímání elektronických výpisů";
-"common.selection.utility_bill_details" = "Plyn, elektřina, voda, pevná linka nebo internetové připojení";
-"common.selection.benefit_letters_details" = "Vládou schválené dávky pro domácnosti, např. příspěvek pro uchazeče o zaměstnání, příspěvek na bydlení, daňové úlevy.";
-"proofOfAddress.intro.subtitle" = "Budete potřebovat dokument, který:";
-"proofOfAddress.intro.list_current_address" = "Údaj odpovídá adrese, kterou jste použili při registraci";
-"proofOfAddress.intro.button_primary" = "Zahájit proces ověřování";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Celé jméno";
-"proofOfAddress.guide.instructions.label" = "Zachyťte celý dokument a ujistěte se o viditelnosti následujících údajů:";
-"proofOfAddress.guide.instructions.address" = "Aktuální adresa";
-"proofOfAddress.guide.instructions.issue_date" = "Datum vydání nebo souhrnné období";
-"proofOfAddress.guide.button_primary" = "Pokračovat";
-"common.selection.bank_building_society_statement" = "Výpis z účtu banky nebo stavební spořitelny";
-"common.selection.utility_bill" = "Účet za komunální služby";
-"common.selection.benefit_letters" = "Dopis o výhodách";
-"common.selection.council_tax" = "Dopis místní vlády o daních";
-"proofOfAddress.country.alert.close" = "Zavřít";
-"proofOfAddress.capture.frame_accessibility" = "Pohled z kamery";
-"proofOfAddress.intro.list_signup_address" = "Je to Váš nejnovější dokument";
-"proofOfAddress.intro.list_recent_document" = "Zobrazuje Vaši aktuální adresu";
-"proofOfAddress.intro.title" = "Nyní ověříme Vaši adresu";
-"proofOfAddress.preview.body_council_tax" = "Ujistěte se, že jste nahráli celou stránku dokumentu a detaily jsou dobře čitelné bez rozmazání nebo odlesků.";
-"proofOfAddress.country.button_primary" = "Odeslat dokument";
-"proofOfAddress.preview.redo" = "Znovu pořídit fotografii";
-"proofOfAddress.preview.choose_another_photo" = "Vybrat jiný";
-"proofOfAddress.preview.image.accessibility" = "Zobrazit zvětšený náhled dokumentu";
-"proofOfAddress.preview.image.zoom_text" = "Zvětšit dokument";
-"proofOfAddress.preview.image.zoom_move" = "Pohybujte jedním prstem";
-"proofOfAddress.preview.image.zoom_close" = "Zavřít";
-"proofOfAddress.capture.instructions" = "Přední strana adresního dokladu";
-"proofOfAddress.upload.take_photo" = "Vyfotografovat";
-"proofOfAddress.upload.upload_photo" = "Nahrát";
-"proofOfAddress.selection.title" = "Výběr dokumentu";
-"proofOfAddress.selection.title_uk" = "Vyberte dokument Spojeného království";
-"proofOfAddress.country.alert.country_not_found" = "Litujeme. Pracujeme na budoucí podpoře dalších zemí.";
-"welcome.list_item.poa" = "Vyfotit dokument s Vaší adresou";
-"proofOfAddress.upload.dialog.photo_library" = "Knihovna fotografií";
-"proofOfAddress.upload.dialog.files" = "Soubory";
-"proofOfAddress.upload.dialog.cancel" = "Zrušit";
-"common.error.errors.invalid_type.instruction" = "Neplatný soubor";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Vyberte jiný soubor.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Musí být vydán během posledních 3 měsíců";
-"proofOfAddress.guide.subtitle_tax_letter" = "Musí být vydán během posledních 12 měsíců";
-"proofOfAddress.guide.subtitle_bill" = "Musí být vydán během posledních 3 měsíců";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Musí být vydán během posledních 12 měsíců";
-"common.selection.address_card" = "Adresní karta";
-"common.selection.address_card_details" = "Přijímají se dočasné i trvalé karty";
-"proofOfAddress.guide.instructions.full_address" = "Úplná adresa";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Datum vydání";
-"proofOfAddress.guide.instructions.expiry_date" = "Případné datum ukončení platnosti";
-"proofOfAddress.capture.frame_accessibility" = "Zachyťte svůj dokument";
-"document.selection.no_mobile" = "Omlouváme se, žádné účty za mobilní telefon";
-
 "onfido_permission_button_primary_both_label" = "Povolit kameru i mikrofon";
+"onfido_poa_intro_subtitle" = "Budete potřebovat dokument, který:";
+"onfido_poa_intro_list_matches_signup" = "Údaj odpovídá adrese, kterou jste použili při registraci";
+"onfido_poa_intro_button_primary" = "Zahájit proces ověřování";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Celé jméno";
+"onfido_poa_guidance_instructions_label" = "Zachyťte celý dokument a ujistěte se o viditelnosti následujících údajů:";
+"onfido_poa_guidance_instructions_address" = "Aktuální adresa";
+"onfido_poa_guidance_instructions_issue_date" = "Datum vydání nebo souhrnné období";
+"onfido_poa_guidance_button_primary" = "Pokračovat";
+"onfido_poa_intro_list_most_recent" = "Je to Váš nejnovější dokument";
+"onfido_poa_intro_list_shows_address" = "Zobrazuje Vaši aktuální adresu";
+"onfido_poa_intro_title" = "Nyní ověříme Vaši adresu";
+"onfido_poa_capture_confirm" = "Odeslat dokument";
+"onfido_poa_capture_redo" = "Znovu pořídit fotografii";
+"onfido_poa_capture_choose_another" = "Vybrat jiný";
+"onfido_poa_capture_image_accessibility" = "Zobrazit zvětšený náhled dokumentu";
+"onfido_poa_capture_enlarge" = "Zvětšit dokument";
+"onfido_poa_capture_enlarge_move" = "Pohybujte jedním prstem";
+"onfido_poa_capture_enlarge_close" = "Zavřít";
+"onfido_poa_capture_instructions" = "Přední strana adresního dokladu";
+"onfido_poa_upload_instructions_take_photo_button" = "Vyfotografovat";
+"onfido_poa_upload_instructions_upload_button" = "Nahrát";
+"onfido_poa_type_selection_title" = "Výběr dokumentu";
+"onfido_poa_type_selection_title_uk" = "Vyberte dokument Spojeného království";
+"onfido_poa_country_not_found" = "Litujeme. Pracujeme na budoucí podpoře dalších zemí.";
+"onfido_poa_welcome_text" = "Vyfotit dokument s Vaší adresou";
+"onfido_poa_photo_library" = "Knihovna fotografií";
+"onfido_poa_files" = "Soubory";
+"onfido_poa_cancel" = "Zrušit";
+"onfido_poa_err_invalid_file_title" = "Neplatný soubor";
+"onfido_poa_err_invalid_file_message" = "Vyberte jiný soubor.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Musí být vydán během posledních 3 měsíců";
+"onfido_poa_guidance_subtitle_tax_letter" = "Musí být vydán během posledních 12 měsíců";
+"onfido_poa_guidance_subtitle_bill" = "Musí být vydán během posledních 3 měsíců";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Musí být vydán během posledních 12 měsíců";
+"onfido_poa_guidance_subtitle_address_card" = "Musí se jednat o platnou adresní kartu";
+"onfido_poa_guidance_instructions_full_address" = "Úplná adresa";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Datum vydání";
+"onfido_poa_guidance_instructions_expiry_date" = "Případné datum ukončení platnosti";
+"onfido_qes_consent_introduction_validation" = "Vyžadován souhlas";

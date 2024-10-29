@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Enviar foto";
 "onfido_doc_confirmation_button_primary_visa" = "Enviar foto";
 "onfido_selfie_confirmation_button_secondary" = "Tomar una foto nueva";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Activar ambos";
 "onfido_permission_button_primary_cam" = "Activar cámara";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Reiniciar la grabación";
 "onfido_video_capture_prompt_detail_restart" = "Para concluir este paso, debes mantener tu rostro visible durante toda la grabación.";
 "onfido_video_capture_prompt_button_restart" = "Reiniciar";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Mantén el rostro dentro del óvalo";
 "onfido_video_capture_body" = "Mantén el rostro dentro del óvalo para comenzar a grabar";
 "onfido_doc_confirmation_body_license" = "Asegúrate de que tus datos sean claros y no estén ocultos";
 "onfido_doc_confirmation_body_generic" = "Asegúrate de que tus datos sean claros y no estén ocultos";
 "onfido_doc_confirmation_body_id" = "Asegúrate de que tus datos sean claros y no estén ocultos";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Asegúrate de que tus datos sean claros y no estén ocultos";
 "onfido_doc_confirmation_body_permit" = "Asegúrate de que tus datos sean claros y no estén ocultos";
 "onfido_doc_confirmation_body_visa" = "Asegúrate de que tus datos sean claros y no estén ocultos";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Make sure your entire face is visible";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Coloca la página de la visa del documento en el marco";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Cargando";
-
-
 "onfido_doc_capture_header_passport_auto" = "Coloca la página de la foto del documento en el marco";
 "onfido_doc_capture_header_license_back" = "Coloca el reverso del documento en el marco";
 "onfido_doc_capture_header_license_back_auto" = "Coloca el reverso del documento en el marco";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Coloca el anverso del documento en el marco";
 "onfido_doc_capture_header_id_front" = "Coloca el anverso del documento en el marco";
 "onfido_doc_capture_header_permit_front" = "Coloca el anverso del documento en el marco";
-
 "onfido_generic_uploading" = "Cargando";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Asegúrate de que todo el documento aparezca en la foto";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Asegúrate de que tu rostro sea visible";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Verifica tu identidad";
 "onfido_app_title_country_select" = "Seleccionar país emisor";
 "onfido_video_capture_alert_wrong_side" = "Lado equivocado";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Acelera el proceso con NFC";
 "onfido_nfc_select_subtitle_passport" = "Escanearemos el chip NFC en tu pasaporte";
 "onfido_nfc_select_body_passport" = "Los pasaportes electrónicos tienen este símbolo en la portada";
 "onfido_nfc_select_button_primary_passport" = "Usar pasaporte electrónico";
 "onfido_nfc_select_button_secondary_passport" = "No es un pasaporte electrónico";
-
 "onfido_nfc_select_title_card" = "Acelera el proceso con NFC";
 "onfido_nfc_select_subtitle_card" = "Escanearemos el chip NFC de tu tarjeta";
 "onfido_nfc_select_body_card" = "Las tarjetas con chips NFC tienen este símbolo";
 "onfido_nfc_select_button_primary_card" = "Usar tarjeta NFC";
 "onfido_nfc_select_button_secondary_card" = "No es una tarjeta NFC";
-
 "onfido_nfc_intro_title_passport" = "Escanea el chip de tu pasaporte";
 "onfido_nfc_intro_subtitle_passport" = "Use su teléfono para escanear el chip en su pasaporte";
 "onfido_nfc_intro_passport_scan_guide_1" = "Coloque su pasaporte abierto sobre una superficie plana";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Coloca tu teléfono cerca de la mitad del pasaporte";
 "onfido_nfc_intro_carousel_body_last_page" = "También puedes probar el interior de la última página";
 "onfido_nfc_intro_carousel_body_dont_move" = "No muevas tu teléfono o pasaporte mientras escaneas";
-
 "onfido_nfc_fail_title_passport" = "No pudimos escanear tu pasaporte";
 "onfido_nfc_fail_title_card" = "No se pudo escanear tu tarjeta NFC";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Retira el pasaporte y las cubiertas del teléfono";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Mantén tu teléfono y tarjeta en contacto hasta que el escaneo sea exitoso";
 "onfido_nfc_fail_button_primary_card" = "Iniciar escaneo";
 "onfido_nfc_fail_button_secondary_card" = "Verificar tu identidad sin escanear";
-
 "onfido_doc_confirmation_zoom_button" = "Ampliar imagen";
 "onfido_doc_confirmation_image_accessibility" = "Foto de tu documento. Toca dos veces para ampliar.";
 "onfido_doc_zoom_body" = "Usa un dedo para desplazarte";
 "onfido_doc_zoom_button_close" = "Cerrar";
-
 "onfido_video_confirmation_body" = "Se grabó tu video";
 "onfido_app_title_country_select_search" = "Buscar";
 "onfido_country_select_list_accessibility" = "Resultados de la búsqueda";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "¿Confirmas la acción?";
 "onfido_user_consent_prompt_no_consent_detail" = "Si no aceptas las Política de privacidad y los Términos de servicio de Onfido, no podremos verificar tu identidad y saldrás de este paso.";
 "onfido_user_consent_prompt_button_secondary" = "Revisar de nuevo";
 "onfido_user_consent_prompt_button_primary" = "Sí, no me verifiquen";
 "onfido_user_consent_button_primary" = "Aceptar";
 "onfido_user_consent_button_secondary" = "No aceptar";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Error al cargar contenido";
 "onfido_user_consent_load_fail_detail" = "Comprueba que la conexión sea estable y vuelve a intentarlo";
 "onfido_user_consent_load_fail_button_primary" = "Recargar pantalla";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Sostén tu teléfono sobre la página con foto del pasaporte";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vista desde la cámara. Coloca tu teléfono en la página con foto del pasaporte y, luego, aléjalo lentamente en línea recta.";
 "onfido_doc_capture_header_capturing" = "No te muevas";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Asegúrate de que cargaste toda la página del documento y de que los detalles sean claros para que no se vean borrosos ni fuera de foco";
 "onfido_doc_select_subtitle_poa" = "Estos son los documentos que probablemente muestren tu domicilio actual";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Recargar video de ejemplo";
 "onfido_doc_select_button_address_card" = "Documento de residencia";
 "onfido_doc_select_button_address_card_detail" = "Se aceptan documentos temporales y permanentes";
-"proofOfAddress.guide.subtitle_address_certificate" = "Debe ser una documento de residencia válido";
-
 "onfido_welcome_start_workflow_button_trial" = "Iniciar verificación (PRUEBA)";
 "onfido_enter_can_title" = "Ingrese el número CAN";
 "onfido_enter_can_subtitle" = "El número de %d dígitos se encuentra en el frente de su documento";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Volver a intentar";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Otra aplicación está reproduciendo el audio";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "No reproduzca audios en su dispositivo durante la grabación";
-
 "onfido_nfc_scan_welcome_card_title" = "Escanea tu documento";
 "onfido_nfc_scan_welcome_card_subtitle" = "Use su teléfono para escanear el chip en su documento";
 "onfido_nfc_scan_welcome_card_list_item" = "Coloque su documento contra la parte trasera de su dispositivo para que estén en contacto";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse";
 "onfido_nfc_scan_welcome_card_button_primary" = "Iniciar escaneo";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Obtener verificación sin NFC";
-
 "onfido_nfc_scan_error_inter_title" = "No se pudo escanear tu documento";
 "onfido_nfc_scan_error_inter_list_item" = "Retira la cubierta del teléfono";
 "onfido_nfc_scan_error_inter_list_item_2" = "Mantenga su dispositivo y documento en contacto hasta que el escaneo sea exitoso";
 "onfido_nfc_scan_error_inter_primary_button" = "Iniciar escaneo";
 "onfido_nfc_scan_error_inter_secondary_button" = "Obtener verificación sin NFC";
-
 "onfido_nfc_scan_error_final_title" = "No pudimos verificar este documento";
 "onfido_nfc_scan_error_final_subtitle" = "Se requiere escaneo NFC para este documento, pero no se pudo completar.";
 "onfido_nfc_scan_error_final_list_item" = "¿Tiene un documento diferente para proceder?";
 "onfido_nfc_scan_error_final_primary_button" = "Usar un documento diferente";
 "onfido_nfc_scan_error_final_secondary_button" = "Obtener verificación sin NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Acelera el proceso con NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Use su teléfono para escanear el chip en su documento";
 "onfido_nfc_scan_welcome_passport_list_item" = "Coloque su documento sobre una superficie plana";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Iniciar escaneo";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Obtener verificación sin NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "No se pudo escanear tu documento";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Retira el pasaporte y las cubiertas del teléfono";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Mantenga su dispositivo y documento en contacto hasta que el escaneo sea exitoso";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Voltear hacia el frente";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Voltear hacia atrás";
 "onfido_doc_capture_alert_hold_still_title" = "No te muevas";
-
 "onfido_doc_capture_alert_photo_page_title" = "Mostrar solo la página de la foto";
 "onfido_doc_capture_alert_tilted_title" = "Sostenga el documento recto";
 "onfido_doc_capture_header_recording_video" = "Grabando video";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotocopia detectada";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Escaneo detectado";
 "onfido_doc_confirmation_alert_odp_detail" = "Por favor, use su documento original. No se aceptan fotos de pantalla ni fotocopias";
-
 "onfido_interactive_task_waiting_title_1" = "Verificando la calidad de la imagen...";
 "onfido_interactive_task_waiting_subtitle_1" = "Por favor, espere un poco más para que la tarea termine.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Compilando datos...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Puede que se le solicite ingresar el CAN antes de continuar con el escaneo";
 "onfido_enter_can_secondary_button" = "No tengo un CAN";
 "onfido_enter_can_warning" = "Tienes %d %@ restantes";
-
 "onfido_otp_send_code_input_label" = "Número de teléfono";
 "onfido_otp_send_code_error_invalid_phone_number" = "Por favor, proporciona un número de teléfono válido.";
 "onfido_otp_error_title" = "Algo salió mal";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Emitido por la autoridad gubernamental o el propietario corporativo como confirmación de alquiler.";
 "onfido_generic_alert_parsing_error_label" = "Error de análisis";
 "onfido_generic_error_parsing_detail" = "Hubo un error de análisis. Por favor, inténtalo de nuevo.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Vuelva a posicionar la parte superior de su teléfono contra la parte inferior de su pasaporte.";
 "onfido_nfc_capture_scan_passport_sheet" = "Coloque la mitad superior de su teléfono en contacto con la mitad inferior de su pasaporte.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Mantén tu teléfono y pasaporte quietos.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Coloque su documento contra la parte posterior superior de su teléfono.";
 "onfido_nfc_card_scan_doc_realign_body" = "Vuelva a colocar su documento contra la parte posterior superior de su teléfono.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Mantén tu teléfono y documento quietos.";
-"proofOfAddress.country.alert.intro" = "¿No encuentras tu país?";
-"proofOfAddress.selection.subtitle" = "Estos son los documentos que probablemente muestren tu domicilio actual";
-"common.selection.utility_bill_extra" = "Estados de cuenta electrónicos aceptados";
-"common.selection.utility_bill_details" = "Gas, electricidad, agua, teléfono fijo o Internet";
-"common.selection.benefit_letters_details" = "Beneficios domésticos autorizados por el Gobierno, por ejemplo Subsidio por desempleo, beneficio de vivienda, créditos fiscales";
-"proofOfAddress.intro.subtitle" = "Necesitarás un documento que:";
-"proofOfAddress.intro.list_current_address" = "Coincida con la dirección que usaste al registrarte";
-"proofOfAddress.intro.button_primary" = "Iniciar verificación";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Nombre completo";
-"proofOfAddress.guide.instructions.label" = "Captura todo el documento y asegúrate de que muestre lo siguiente con claridad:";
-"proofOfAddress.guide.instructions.address" = "Domicilio actual";
-"proofOfAddress.guide.instructions.issue_date" = "Fecha de emisión o periodo de resumen";
-"proofOfAddress.guide.button_primary" = "Continuar";
-"common.selection.bank_building_society_statement" = "Estado de cuenta del banco o sociedad de crédito hipotecario";
-"common.selection.utility_bill" = "Recibo de servicios públicos";
-"common.selection.benefit_letters" = "Carta de beneficios";
-"common.selection.council_tax" = "Carta de Impuesto del Gobierno Local";
-"proofOfAddress.country.alert.close" = "Cerrar";
-"proofOfAddress.capture.frame_accessibility" = "Vista desde la cámara";
-"proofOfAddress.intro.list_signup_address" = "Sea tu documento más reciente";
-"proofOfAddress.intro.list_recent_document" = "Muestre tu domicilio actual";
-"proofOfAddress.intro.title" = "Vamos a verificar tu dirección";
-"proofOfAddress.preview.body_council_tax" = "Asegúrate de que cargaste toda la página del documento y de que los detalles sean claros para que no se vean borrosos ni fuera de foco";
-"proofOfAddress.country.button_primary" = "Enviar documento";
-"proofOfAddress.preview.redo" = "Tomar una foto nueva";
-"proofOfAddress.preview.choose_another_photo" = "Elegir otro";
-"proofOfAddress.preview.image.accessibility" = "Mostrar vista previa de documento ampliado";
-"proofOfAddress.preview.image.zoom_text" = "Ampliar documento";
-"proofOfAddress.preview.image.zoom_move" = "Usa un dedo para desplazarte";
-"proofOfAddress.preview.image.zoom_close" = "Cerrar";
-"proofOfAddress.capture.instructions" = "Anverso del documento de dirección";
-"proofOfAddress.upload.take_photo" = "Tomar una foto";
-"proofOfAddress.upload.upload_photo" = "Cargar";
-"proofOfAddress.selection.title" = "Selecciona un documento";
-"proofOfAddress.selection.title_uk" = "Selecciona un documento del Reino Unido";
-"proofOfAddress.country.alert.country_not_found" = "Lamentamos eso. Trabajamos para admitir a más países.";
-"welcome.list_item.poa" = "Toma una foto de un documento con tu dirección";
-"proofOfAddress.upload.dialog.photo_library" = "Galería de fotos";
-"proofOfAddress.upload.dialog.files" = "Archivos";
-"proofOfAddress.upload.dialog.cancel" = "Cancelar";
-"common.error.errors.invalid_type.instruction" = "Archivo no válido";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Elige un archivo diferente.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "ACEPTAR";
-"proofOfAddress.guide.subtitle_bank_statement" = "Debió emitirse en los últimos 3 meses";
-"proofOfAddress.guide.subtitle_tax_letter" = "Debió emitirse en los últimos 12 meses";
-"proofOfAddress.guide.subtitle_bill" = "Debió emitirse en los últimos 3 meses";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Debió emitirse en los últimos 12 meses";
-"common.selection.address_card" = "Documento de residencia";
-"common.selection.address_card_details" = "Se aceptan documentos temporales y permanentes";
-"proofOfAddress.guide.instructions.full_address" = "Dirección completa";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Fecha de emisión";
-"proofOfAddress.guide.instructions.expiry_date" = "Fecha de vencimiento, si corresponde";
-"proofOfAddress.capture.frame_accessibility" = "Capture su documento";
-"document.selection.no_mobile" = "Lo siento, no hay facturas de teléfono móvil";
-
 "onfido_permission_button_primary_both_label" = "Habilita tanto la cámara como el micrófono";
+"onfido_poa_intro_subtitle" = "Necesitarás un documento que:";
+"onfido_poa_intro_list_matches_signup" = "Coincida con la dirección que usaste al registrarte";
+"onfido_poa_intro_button_primary" = "Iniciar verificación";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Nombre completo";
+"onfido_poa_guidance_instructions_label" = "Captura todo el documento y asegúrate de que muestre lo siguiente con claridad:";
+"onfido_poa_guidance_instructions_address" = "Domicilio actual";
+"onfido_poa_guidance_instructions_issue_date" = "Fecha de emisión o periodo de resumen";
+"onfido_poa_guidance_button_primary" = "Continuar";
+"onfido_poa_intro_list_most_recent" = "Sea tu documento más reciente";
+"onfido_poa_intro_list_shows_address" = "Muestre tu domicilio actual";
+"onfido_poa_intro_title" = "Vamos a verificar tu dirección";
+"onfido_poa_capture_confirm" = "Enviar documento";
+"onfido_poa_capture_redo" = "Tomar una foto nueva";
+"onfido_poa_capture_choose_another" = "Elegir otro";
+"onfido_poa_capture_image_accessibility" = "Mostrar vista previa de documento ampliado";
+"onfido_poa_capture_enlarge" = "Ampliar documento";
+"onfido_poa_capture_enlarge_move" = "Usa un dedo para desplazarte";
+"onfido_poa_capture_enlarge_close" = "Cerrar";
+"onfido_poa_capture_instructions" = "Anverso del documento de dirección";
+"onfido_poa_upload_instructions_take_photo_button" = "Tomar una foto";
+"onfido_poa_upload_instructions_upload_button" = "Cargar";
+"onfido_poa_type_selection_title" = "Selecciona un documento";
+"onfido_poa_type_selection_title_uk" = "Selecciona un documento del Reino Unido";
+"onfido_poa_country_not_found" = "Lamentamos eso. Trabajamos para admitir a más países.";
+"onfido_poa_welcome_text" = "Toma una foto de un documento con tu dirección";
+"onfido_poa_photo_library" = "Galería de fotos";
+"onfido_poa_files" = "Archivos";
+"onfido_poa_cancel" = "Cancelar";
+"onfido_poa_err_invalid_file_title" = "Archivo no válido";
+"onfido_poa_err_invalid_file_message" = "Elige un archivo diferente.";
+"onfido_poa_err_invalid_file_ok" = "ACEPTAR";
+"onfido_poa_guidance_subtitle_bank_statement" = "Debió emitirse en los últimos 3 meses";
+"onfido_poa_guidance_subtitle_tax_letter" = "Debió emitirse en los últimos 12 meses";
+"onfido_poa_guidance_subtitle_bill" = "Debió emitirse en los últimos 3 meses";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Debió emitirse en los últimos 12 meses";
+"onfido_poa_guidance_subtitle_address_card" = "Debe ser una documento de residencia válido";
+"onfido_poa_guidance_instructions_full_address" = "Dirección completa";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Fecha de emisión";
+"onfido_poa_guidance_instructions_expiry_date" = "Fecha de vencimiento, si corresponde";
+"onfido_qes_consent_introduction_validation" = "Se requiere consentimiento";

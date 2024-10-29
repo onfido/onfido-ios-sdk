@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Pošlji fotografijo";
 "onfido_doc_confirmation_button_primary_visa" = "Pošlji fotografijo";
 "onfido_selfie_confirmation_button_secondary" = "Ponovno posnemi fotografijo";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Omogoči oboje";
 "onfido_permission_button_primary_cam" = "Omogoči kamero";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Znova zaženi posnetek";
 "onfido_video_capture_prompt_detail_restart" = "Če želite opraviti ta korak, mora biti vaš obraz viden ves čas snemanja.";
 "onfido_video_capture_prompt_button_restart" = "Ponovni zagon";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Obraz naj bo znotraj ovala";
 "onfido_video_capture_body" = "Obraz naj bo znotraj ovala, da začnete snemati";
 "onfido_doc_confirmation_body_license" = "Prepričajte se, da so vaši podatki jasni in pregledni";
 "onfido_doc_confirmation_body_generic" = "Prepričajte se, da so vaši podatki jasni in pregledni";
 "onfido_doc_confirmation_body_id" = "Prepričajte se, da so vaši podatki jasni in pregledni";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Prepričajte se, da so vaši podatki jasni in pregledni";
 "onfido_doc_confirmation_body_permit" = "Prepričajte se, da so vaši podatki jasni in pregledni";
 "onfido_doc_confirmation_body_visa" = "Prepričajte se, da so vaši podatki jasni in pregledni";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Poskrbite, da je vaš celoten obraz viden";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Postavite stran dokumenta z vizumom v okvir";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Nalaganje";
-
-
 "onfido_doc_capture_header_passport_auto" = "Postavite stran dokumenta s fotografijo v okvir";
 "onfido_doc_capture_header_license_back" = "Zadnjo stran dokumenta postavite v okvir";
 "onfido_doc_capture_header_license_back_auto" = "Zadnjo stran dokumenta postavite v okvir";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Sprednjo stran dokumenta postavite v okvir";
 "onfido_doc_capture_header_id_front" = "Sprednjo stran dokumenta postavite v okvir";
 "onfido_doc_capture_header_permit_front" = "Sprednjo stran dokumenta postavite v okvir";
-
 "onfido_generic_uploading" = "Nalaganje";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Prepričajte se, da je ves dokument na fotografiji";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Poskrbite, da je vaš obraz viden";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Potrdite svojo identiteto";
 "onfido_app_title_country_select" = "Izberite državo izdajateljico";
 "onfido_video_capture_alert_wrong_side" = "Napačna stran";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Pospešite postopek z NFC";
 "onfido_nfc_select_subtitle_passport" = "Skenirali bomo NFC čip v vašem potnem listu";
 "onfido_nfc_select_body_passport" = "e- potni listi imajo ta simbol na naslovnici";
 "onfido_nfc_select_button_primary_passport" = "Uporabi e-potni list";
 "onfido_nfc_select_button_secondary_passport" = "To ni e-potni list";
-
 "onfido_nfc_select_title_card" = "Pospešite postopek z NFC";
 "onfido_nfc_select_subtitle_card" = "Skenirali bomo NFC čip na vaši kartici";
 "onfido_nfc_select_body_card" = "Kartice z NFC čipi imajo ta simbol";
 "onfido_nfc_select_button_primary_card" = "Uporabi kartico NFC";
 "onfido_nfc_select_button_secondary_card" = "To ni kartica NFC";
-
 "onfido_nfc_intro_title_passport" = "Skenirajte čip na vašem potnem listu";
 "onfido_nfc_intro_subtitle_passport" = "Uporabite svoj telefon za saniranje čipa v vašem potnem listu";
 "onfido_nfc_intro_passport_scan_guide_1" = "Odprite svoj potni list in ga položite na ravno površino";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Postavite telefon blizu sredine potnega lista";
 "onfido_nfc_intro_carousel_body_last_page" = "Poskusite lahko tudi notranjost zadnje strani";
 "onfido_nfc_intro_carousel_body_dont_move" = "Med skeniranjem ne premikajte telefona ali potnega lista";
-
 "onfido_nfc_fail_title_passport" = "Nismo mogli skenirati vašega potnega lista";
 "onfido_nfc_fail_title_card" = "Vaše NFC kartice ni bilo mogoče skenirati";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Odstranite ovitek potnega lista in telefona";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Držite telefon in kartico v stiku, dokler optično branje ni uspešno";
 "onfido_nfc_fail_button_primary_card" = "Začni skeniranje";
 "onfido_nfc_fail_button_secondary_card" = "Pridobite potrditev brez skeniranja";
-
 "onfido_doc_confirmation_zoom_button" = "Povečaj sliko";
 "onfido_doc_confirmation_image_accessibility" = "Fotografija dokumenta. Dvakrat tapnite za povečavo.";
 "onfido_doc_zoom_body" = "Premikajte se z enim prstom";
 "onfido_doc_zoom_button_close" = "Zapri";
-
 "onfido_video_confirmation_body" = "Vaš videoposnetek je bil posnet";
 "onfido_app_title_country_select_search" = "Išči";
 "onfido_country_select_list_accessibility" = "Rezultati iskanja";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Ste prepričani?";
 "onfido_user_consent_prompt_no_consent_detail" = "Če ne sprejmete Onfidovih izjav o zasebnosti in pogojev uporabe storitev, ne bomo mogli preveriti vaše identitete in ta korak boste zapustili.";
 "onfido_user_consent_prompt_button_secondary" = "Ponovno preglejte";
 "onfido_user_consent_prompt_button_primary" = "Da, ne preverjajte me";
 "onfido_user_consent_button_primary" = "Sprejmi";
 "onfido_user_consent_button_secondary" = "Ne sprejmi";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Nalaganje vsebine ni uspelo";
 "onfido_user_consent_load_fail_detail" = "Preverite, ali je vaša povezava stabilna, nato poskusite znova";
 "onfido_user_consent_load_fail_button_primary" = "Ponovno naloži zaslon";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Držite telefon nad stranjo potnega lista s fotografijo";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pogled s kamere. Postavite telefon na stran potnega lista s fotografijo, nato pa počasi odmaknite telefon od njega v ravni liniji.";
 "onfido_doc_capture_header_capturing" = "Bodite pri miru";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive, brez zamegljenosti ali bleščanja";
 "onfido_doc_select_subtitle_poa" = "To so dokumenti, ki bodo najverjetneje prikazali vaš trenutni domači naslov";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Ponovno naloži primer videoposnetka";
 "onfido_doc_select_button_address_card" = "Izkaznica z naslovom";
 "onfido_doc_select_button_address_card_detail" = "Sprejemajo se začasne in stalne izkaznice";
-"proofOfAddress.guide.subtitle_address_certificate" = "Biti mora veljavna izkaznica z naslovom";
-
 "onfido_welcome_start_workflow_button_trial" = "Začni s preverjanjem (TEST)";
 "onfido_enter_can_title" = "Vnesite številko CAN";
 "onfido_enter_can_subtitle" = "%d-mestna številka se nahaja na sprednji strani vašega dokumenta";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Poskusite znova";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Zvočni posnetek predvaja druga aplikacija";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Med snemanjem na napravi ne predvajajte nobenega zvočnega posnetka";
-
 "onfido_nfc_scan_welcome_card_title" = "Preglejte svoj dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Uporabite svoj telefon za skeniranje čipa v vašem dokumentu";
 "onfido_nfc_scan_welcome_card_list_item" = "Svoj dokument položite na zadnjo stran naprave, tako da se dotikata";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Ko se skeniranje začne, ostanite nepremični, da se lahko skeniranje uspešno zaključi.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Začni skenirati";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Preveri brez NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Dokumenta ni bilo mogoče skenirati";
 "onfido_nfc_scan_error_inter_list_item" = "Odstranite ovitek telefona";
 "onfido_nfc_scan_error_inter_list_item_2" = "Naj bo vaša naprava in dokument v stiku, dokler skeniranje ni uspešno";
 "onfido_nfc_scan_error_inter_primary_button" = "Začni skeniranje";
 "onfido_nfc_scan_error_inter_secondary_button" = "Preveri brez NFC";
-
 "onfido_nfc_scan_error_final_title" = "Tega dokumenta nismo mogli preveriti";
 "onfido_nfc_scan_error_final_subtitle" = "Za ta dokument je potrebno skeniranje NFC, vendar ga ni bilo mogoče dokončati.";
 "onfido_nfc_scan_error_final_list_item" = "Ali imate za nadaljevanje drug dokument?";
 "onfido_nfc_scan_error_final_primary_button" = "Uporabite drug dokument";
 "onfido_nfc_scan_error_final_secondary_button" = "Preveri brez NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Pospešite postopek z NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Uporabite svoj telefon za skeniranje čipa v vašem dokumentu";
 "onfido_nfc_scan_welcome_passport_list_item" = "Dokument položite na ravno površino";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Ko se skeniranje začne, ostanite nepremični, da se lahko skeniranje uspešno zaključi.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Začni skenirati";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Preveri brez NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Dokumenta ni bilo mogoče skenirati";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Odstranite ovitek potnega lista in telefona";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Naj bo vaša naprava in dokument v stiku, dokler skeniranje ni uspešno";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Obrnite na sprednjo stran";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Obrnite na zadnjo stran";
 "onfido_doc_capture_alert_hold_still_title" = "Bodite pri miru";
-
 "onfido_doc_capture_alert_photo_page_title" = "Prikaži samo stran s fotografijo";
 "onfido_doc_capture_alert_tilted_title" = "Držite dokument naravnost";
 "onfido_doc_capture_header_recording_video" = "Snemanje videa";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Zaznana fotokopija";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Prepoznano skeniranje";
 "onfido_doc_confirmation_alert_odp_detail" = "Prosimo, uporabite svoj izvirni dokument. Fotografije zaslona ali fotokopije niso sprejemljive.";
-
 "onfido_interactive_task_waiting_title_1" = "Preverjanje kakovosti slike...";
 "onfido_interactive_task_waiting_subtitle_1" = "Prosimo, počakajte malo dlje, da se naloga konča.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Zbiranje podatkov...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Morda boste pozvani, da vnesete CAN, preden nadaljujete s pregledom";
 "onfido_enter_can_secondary_button" = "Nimam CAN";
 "onfido_enter_can_warning" = "Imate še %d %@";
-
 "onfido_otp_send_code_input_label" = "Telefonska številka";
 "onfido_otp_send_code_error_invalid_phone_number" = "Prosimo, navedite veljavno telefonsko številko.";
 "onfido_otp_error_title" = "Nekaj je šlo narobe";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Izdano s strani vladne oblasti ali korporativnega lastnika nepremičnin kot potrdilo o najemu.";
 "onfido_generic_alert_parsing_error_label" = "Napaka pri razčlenjevanju";
 "onfido_generic_error_parsing_detail" = "Prišlo je do napake pri razčlenjevanju. Prosimo, poskusite znova.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Ponovno postavite vrh vašega telefona proti dnu vašega potnega lista.";
 "onfido_nfc_capture_scan_passport_sheet" = "Postavite zgornjo polovico telefona v stik z spodnjo polovico potnega lista.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Obdržite svoj telefon in potni list pri miru.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Postavite svoj dokument na zgornji zadnji del vašega telefona.";
 "onfido_nfc_card_scan_doc_realign_body" = "Ponovno postavite svoj dokument proti zgornjemu delu zadnje strani vašega telefona.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Držite telefon in dokument mirno.";
-"proofOfAddress.country.alert.intro" = "Ne najdete svoje države?";
-"proofOfAddress.selection.subtitle" = "To so dokumenti, ki bodo najverjetneje prikazali vaš trenutni domači naslov";
-"common.selection.utility_bill_extra" = "sprejeti e-izpiski";
-"common.selection.utility_bill_details" = "Plin, elektrika, voda, fiksna ali širokopasovna povezava";
-"common.selection.benefit_letters_details" = "Vladno odobreni gospodinjski prejemki npr. Dodatek za iskalca zaposlitve, stanovanjska dajatev, davčne olajšave";
-"proofOfAddress.intro.subtitle" = "Potrebovali boste dokument, ki:";
-"proofOfAddress.intro.list_current_address" = "Ustreza naslovu, ki ste ga uporabili pri registraciji";
-"proofOfAddress.intro.button_primary" = "Začni s preverjanjem";
-"proofOfAddress.guide.instructions.logo" = "Logotip";
-"proofOfAddress.guide.instructions.full_name" = "Ime in priimek";
-"proofOfAddress.guide.instructions.label" = "Zajemite celoten dokument in se prepričajte, da jasno prikazuje:";
-"proofOfAddress.guide.instructions.address" = "Trenutni naslov";
-"proofOfAddress.guide.instructions.issue_date" = "Datum izdaje ali zbirno obdobje";
-"proofOfAddress.guide.button_primary" = "Nadaljuj";
-"common.selection.bank_building_society_statement" = "Izpisek banke ali hranilnice";
-"common.selection.utility_bill" = "Račun za komunalne storitve";
-"common.selection.benefit_letters" = "Pismo o prejemkih";
-"common.selection.council_tax" = "Pismo lokalne občinske davčne uprave";
-"proofOfAddress.country.alert.close" = "Zapri";
-"proofOfAddress.capture.frame_accessibility" = "Pogled s kamere";
-"proofOfAddress.intro.list_signup_address" = "Je vaš najnovejši dokument";
-"proofOfAddress.intro.list_recent_document" = "Prikazuje vaš trenutni naslov";
-"proofOfAddress.intro.title" = "Potrdimo vaš naslov";
-"proofOfAddress.preview.body_council_tax" = "Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive, brez zamegljenosti ali bleščanja";
-"proofOfAddress.country.button_primary" = "Pošlji dokument";
-"proofOfAddress.preview.redo" = "Ponovno posnemi fotografijo";
-"proofOfAddress.preview.choose_another_photo" = "Izberite drugo";
-"proofOfAddress.preview.image.accessibility" = "Prikaži povečan predogled dokumenta";
-"proofOfAddress.preview.image.zoom_text" = "Povečaj dokument";
-"proofOfAddress.preview.image.zoom_move" = "Premikajte se z enim prstom";
-"proofOfAddress.preview.image.zoom_close" = "Zapri";
-"proofOfAddress.capture.instructions" = "Sprednja stran dokumenta z naslovom";
-"proofOfAddress.upload.take_photo" = "Posnemite fotografijo";
-"proofOfAddress.upload.upload_photo" = "Naloži";
-"proofOfAddress.selection.title" = "Izberite dokument";
-"proofOfAddress.selection.title_uk" = "Izberite dokument Združenega kraljestva";
-"proofOfAddress.country.alert.country_not_found" = "Žal nam je za to. Prizadevamo si podpreti več držav.";
-"welcome.list_item.poa" = "Fotografirajte dokument z vašim naslovom";
-"proofOfAddress.upload.dialog.photo_library" = "Knjižnica fotografij";
-"proofOfAddress.upload.dialog.files" = "Datoteke";
-"proofOfAddress.upload.dialog.cancel" = "Prekliči";
-"common.error.errors.invalid_type.instruction" = "Neveljavna datoteka";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Izberite drugo datoteko.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "V redu";
-"proofOfAddress.guide.subtitle_bank_statement" = "Izdano mora biti v zadnjih 3 mesecih";
-"proofOfAddress.guide.subtitle_tax_letter" = "Izdano mora biti v zadnjih 12 mesecih";
-"proofOfAddress.guide.subtitle_bill" = "Izdano mora biti v zadnjih 3 mesecih";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Izdano mora biti v zadnjih 12 mesecih";
-"common.selection.address_card" = "Izkaznica z naslovom";
-"common.selection.address_card_details" = "Sprejemajo se začasne in stalne izkaznice";
-"proofOfAddress.guide.instructions.full_address" = "Polni naslov";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Datum izdaje";
-"proofOfAddress.guide.instructions.expiry_date" = "Datum izteka veljavnosti, če je primerno";
-"proofOfAddress.capture.frame_accessibility" = "Posnemite svoj dokument";
-"document.selection.no_mobile" = "Oprostite, računov za mobilni telefon ni";
-
 "onfido_permission_button_primary_both_label" = "Omogočite tako kamero kot mikrofon";
+"onfido_poa_intro_subtitle" = "Potrebovali boste dokument, ki:";
+"onfido_poa_intro_list_matches_signup" = "Ustreza naslovu, ki ste ga uporabili pri registraciji";
+"onfido_poa_intro_button_primary" = "Začni s preverjanjem";
+"onfido_poa_guidance_instructions_logo" = "Logotip";
+"onfido_poa_guidance_instructions_full_name" = "Ime in priimek";
+"onfido_poa_guidance_instructions_label" = "Zajemite celoten dokument in se prepričajte, da jasno prikazuje:";
+"onfido_poa_guidance_instructions_address" = "Trenutni naslov";
+"onfido_poa_guidance_instructions_issue_date" = "Datum izdaje ali zbirno obdobje";
+"onfido_poa_guidance_button_primary" = "Nadaljuj";
+"onfido_poa_intro_list_most_recent" = "Je vaš najnovejši dokument";
+"onfido_poa_intro_list_shows_address" = "Prikazuje vaš trenutni naslov";
+"onfido_poa_intro_title" = "Potrdimo vaš naslov";
+"onfido_poa_capture_confirm" = "Pošlji dokument";
+"onfido_poa_capture_redo" = "Ponovno posnemi fotografijo";
+"onfido_poa_capture_choose_another" = "Izberite drugo";
+"onfido_poa_capture_image_accessibility" = "Prikaži povečan predogled dokumenta";
+"onfido_poa_capture_enlarge" = "Povečaj dokument";
+"onfido_poa_capture_enlarge_move" = "Premikajte se z enim prstom";
+"onfido_poa_capture_enlarge_close" = "Zapri";
+"onfido_poa_capture_instructions" = "Sprednja stran dokumenta z naslovom";
+"onfido_poa_upload_instructions_take_photo_button" = "Posnemite fotografijo";
+"onfido_poa_upload_instructions_upload_button" = "Naloži";
+"onfido_poa_type_selection_title" = "Izberite dokument";
+"onfido_poa_type_selection_title_uk" = "Izberite dokument Združenega kraljestva";
+"onfido_poa_country_not_found" = "Žal nam je za to. Prizadevamo si podpreti več držav.";
+"onfido_poa_welcome_text" = "Fotografirajte dokument z vašim naslovom";
+"onfido_poa_photo_library" = "Knjižnica fotografij";
+"onfido_poa_files" = "Datoteke";
+"onfido_poa_cancel" = "Prekliči";
+"onfido_poa_err_invalid_file_title" = "Neveljavna datoteka";
+"onfido_poa_err_invalid_file_message" = "Izberite drugo datoteko.";
+"onfido_poa_err_invalid_file_ok" = "V redu";
+"onfido_poa_guidance_subtitle_bank_statement" = "Izdano mora biti v zadnjih 3 mesecih";
+"onfido_poa_guidance_subtitle_tax_letter" = "Izdano mora biti v zadnjih 12 mesecih";
+"onfido_poa_guidance_subtitle_bill" = "Izdano mora biti v zadnjih 3 mesecih";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Izdano mora biti v zadnjih 12 mesecih";
+"onfido_poa_guidance_subtitle_address_card" = "Biti mora veljavna izkaznica z naslovom";
+"onfido_poa_guidance_instructions_full_address" = "Polni naslov";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Datum izdaje";
+"onfido_poa_guidance_instructions_expiry_date" = "Datum izteka veljavnosti, če je primerno";
+"onfido_qes_consent_introduction_validation" = "Potrebno soglasje";
