@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Send inn bilde";
 "onfido_doc_confirmation_button_primary_visa" = "Send inn bilde";
 "onfido_selfie_confirmation_button_secondary" = "Ta bilde på nytt";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Aktiver begge";
 "onfido_permission_button_primary_cam" = "Aktiver kamera";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Start opptaket på nytt";
 "onfido_video_capture_prompt_detail_restart" = "For å komme igjennom dette trinnet må du holde ansiktet ditt innenfor synsvidde gjennom hele opptaket.";
 "onfido_video_capture_prompt_button_restart" = "Start på nytt";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Hold ansiktet innenfor det ovale feltet";
 "onfido_video_capture_body" = "Hold ansiktet innenfor det ovale feltet for å starte innspillingen";
 "onfido_doc_confirmation_body_license" = "Sørg for at opplysningene dine er tydelige og uhindret";
 "onfido_doc_confirmation_body_generic" = "Sørg for at opplysningene dine er tydelige og uhindret";
 "onfido_doc_confirmation_body_id" = "Sørg for at opplysningene dine er tydelige og uhindret";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Sørg for at opplysningene dine er tydelige og uhindret";
 "onfido_doc_confirmation_body_permit" = "Sørg for at opplysningene dine er tydelige og uhindret";
 "onfido_doc_confirmation_body_visa" = "Sørg for at opplysningene dine er tydelige og uhindret";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Sørg for at hele ansiktet ditt er synlig";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Plasser dokumentets visumside i rammen";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Laster";
-
-
 "onfido_doc_capture_header_passport_auto" = "Plasser dokumentets bildeside i rammen";
 "onfido_doc_capture_header_license_back" = "Plasser dokumentets bakside i rammen";
 "onfido_doc_capture_header_license_back_auto" = "Plasser dokumentets bakside i rammen";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Plasser dokumentets forside i rammen";
 "onfido_doc_capture_header_id_front" = "Plasser dokumentets forside i rammen";
 "onfido_doc_capture_header_permit_front" = "Plasser dokumentets forside i rammen";
-
 "onfido_generic_uploading" = "Laster opp";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Sørg for at hele dokumentet er på bildet";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Sørg for at ansiktet ditt er synlig";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Bekreft identiteten din";
 "onfido_app_title_country_select" = "Velg utstedelsesland";
 "onfido_video_capture_alert_wrong_side" = "Feil side";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Fremskynd prosessen med NFC";
 "onfido_nfc_select_subtitle_passport" = "Vi skanner NFC-brikken i passet ditt";
 "onfido_nfc_select_body_passport" = "ePass har dette symbolet på omslaget";
 "onfido_nfc_select_button_primary_passport" = "Bruk ePass";
 "onfido_nfc_select_button_secondary_passport" = "Det er ikke et ePass";
-
 "onfido_nfc_select_title_card" = "Fremskynd prosessen med NFC";
 "onfido_nfc_select_subtitle_card" = "Vi skanner NFC-brikken i kortet ditt";
 "onfido_nfc_select_body_card" = "Kort med NFC-brikker har dette symbolet";
 "onfido_nfc_select_button_primary_card" = "Bruk NFC-kort";
 "onfido_nfc_select_button_secondary_card" = "Det er ikke et NFC-kort";
-
 "onfido_nfc_intro_title_passport" = "Skann NFC-brikken til passet ditt";
 "onfido_nfc_intro_subtitle_passport" = "Bruk telefonen din til å skanne chipen i passet ditt";
 "onfido_nfc_intro_passport_scan_guide_1" = "Plasser passet ditt åpent på en flat overflate";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Plasser telefonen nær midten av passet";
 "onfido_nfc_intro_carousel_body_last_page" = "Du kan også prøve innsiden av baksiden";
 "onfido_nfc_intro_carousel_body_dont_move" = "Ikke beveg telefonen eller passet mens du skanner";
-
 "onfido_nfc_fail_title_passport" = "Vi kunne ikke skanne passet ditt";
 "onfido_nfc_fail_title_card" = "Vi kunne ikke skanne NFC-kortet ditt";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Fjern passet og telefondekslene";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Hold telefonen og kortet i kontakt til skanningen er vellykket";
 "onfido_nfc_fail_button_primary_card" = "Start skanning";
 "onfido_nfc_fail_button_secondary_card" = "Bli verifisert uten skanning";
-
 "onfido_doc_confirmation_zoom_button" = "Forstørr bilde";
 "onfido_doc_confirmation_image_accessibility" = "Bilde av dokumentet ditt. Dobbelttrykk for å forstørre.";
 "onfido_doc_zoom_body" = "Beveg den rundt ved bruk av én finger";
 "onfido_doc_zoom_button_close" = "Lukk";
-
 "onfido_video_confirmation_body" = "Videoen din er spilt inn";
 "onfido_app_title_country_select_search" = "Søk";
 "onfido_country_select_list_accessibility" = "Søkeresultater";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Er du sikker?";
 "onfido_user_consent_prompt_no_consent_detail" = "Hvis du ikke godtar Onfidos personvernerklæringer og brukervilkår, vil vi ikke kunne bekrefte identiteten din, og du vil avslutte dette trinnet.";
 "onfido_user_consent_prompt_button_secondary" = "Gjennomgå på nytt";
 "onfido_user_consent_prompt_button_primary" = "Ja, ikke verifiser meg";
 "onfido_user_consent_button_primary" = "Godta";
 "onfido_user_consent_button_secondary" = "Ikke godta";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Innholdet ble ikke lastet";
 "onfido_user_consent_load_fail_detail" = "Kontroller at tilkoblingen er stabil og prøv på nytt";
 "onfido_user_consent_load_fail_button_primary" = "Last skjermen på nytt";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Hold telefonen over passets bildeside";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Sett fra kameraet. Plasser telefonen på bildesiden av passet ditt, og flytt den sakte vekk fra den i en rett linje.";
 "onfido_doc_capture_header_capturing" = "Hold det stille";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Pass på at du har lastet opp hele dokumentsiden, og detaljene er tydelige og lette å lese, uten uskarphet eller gjenskinn";
 "onfido_doc_select_subtitle_poa" = "Dette er dokumentene som mest sannsynlig vil vise din nåværende hjemmeadresse";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Last inn eksempelvideo på nytt";
 "onfido_doc_select_button_address_card" = "Adressekort";
 "onfido_doc_select_button_address_card_detail" = "Midlertidige og permanente kort aksepteres";
-"proofOfAddress.guide.subtitle_address_certificate" = "Må være et gyldig adressekort";
-
 "onfido_welcome_start_workflow_button_trial" = "Start verifisering (TEST)";
 "onfido_enter_can_title" = "Tast inn CAN-nummeret";
 "onfido_enter_can_subtitle" = "Det %d-sifrede nummeret er plassert på forsiden av dokumentet ditt";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Prøv igjen";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "En annen app spiller av lyd";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Ikke spill av lyd på enheten din under opptak";
-
 "onfido_nfc_scan_welcome_card_title" = "Skann dokumentet ditt";
 "onfido_nfc_scan_welcome_card_subtitle" = "Bruk telefonen din til å skanne chipen i dokumentet ditt";
 "onfido_nfc_scan_welcome_card_list_item" = "Plasser dokumentet ditt mot baksiden av enheten din slik at de berører hverandre";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Når skanningen starter, vær stille slik at skanningen kan bli ferdig";
 "onfido_nfc_scan_welcome_card_button_primary" = "Start skanning";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Bli verifisert uten NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Vi kunne ikke skanne dokumentet ditt";
 "onfido_nfc_scan_error_inter_list_item" = "Fjern telefondekselet";
 "onfido_nfc_scan_error_inter_list_item_2" = "Hold enheten og dokumentet i kontakt til skanningen er vellykket";
 "onfido_nfc_scan_error_inter_primary_button" = "Start skanning";
 "onfido_nfc_scan_error_inter_secondary_button" = "Bli verifisert uten NFC";
-
 "onfido_nfc_scan_error_final_title" = "Vi kunne ikke bekrefte dette dokumentet";
 "onfido_nfc_scan_error_final_subtitle" = "NFC-skanning er nødvendig for dette dokumentet, men kunne ikke fullføres.";
 "onfido_nfc_scan_error_final_list_item" = "Har du et annet dokument å gå videre med?";
 "onfido_nfc_scan_error_final_primary_button" = "Bruk et annet dokument";
 "onfido_nfc_scan_error_final_secondary_button" = "Bli verifisert uten NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Fremskynd prosessen med NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Bruk telefonen din til å skanne chipen i dokumentet ditt";
 "onfido_nfc_scan_welcome_passport_list_item" = "Legg dokumentet på en flat overflate";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Når skanningen starter, vær stille slik at skanningen kan bli ferdig";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Start skanning";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Bli verifisert uten NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Vi kunne ikke skanne dokumentet ditt";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Fjern passet og telefondekslene";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Hold enheten og dokumentet i kontakt til skanningen er vellykket";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Vend til forsiden";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Vend til baksiden";
 "onfido_doc_capture_alert_hold_still_title" = "Hold det stille";
-
 "onfido_doc_capture_alert_photo_page_title" = "Vis kun fotoside";
 "onfido_doc_capture_alert_tilted_title" = "Hold dokumentet rett";
 "onfido_doc_capture_header_recording_video" = "Opptak av video";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi oppdaget";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skanning oppdaget";
 "onfido_doc_confirmation_alert_odp_detail" = "Vennligst bruk ditt originale dokument. Bilder av skjerm eller fotokopier blir ikke akseptert";
-
 "onfido_interactive_task_waiting_title_1" = "Sjekker bildekvalitet...";
 "onfido_interactive_task_waiting_subtitle_1" = "Vennligst vent litt lenger for at oppgaven skal fullføres.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Samler data...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Du kan bli bedt om å skrive inn CAN før du fortsetter med skanningen";
 "onfido_enter_can_secondary_button" = "Jeg har ikke en CAN";
 "onfido_enter_can_warning" = "Du har %d %@ igjen";
-
 "onfido_otp_send_code_input_label" = "Telefonnummer";
 "onfido_otp_send_code_error_invalid_phone_number" = "Vennligst oppgi et gyldig telefonnummer.";
 "onfido_otp_error_title" = "Noe gikk galt";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Utgitt av offentlig myndighet eller bedriftslandlord som leiebekreftelse.";
 "onfido_generic_alert_parsing_error_label" = "Feil ved tolking";
 "onfido_generic_error_parsing_detail" = "Det oppstod en tolkningsfeil. Vennligst prøv igjen.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Posisjoner toppen av telefonen din mot bunnen av passet ditt.";
 "onfido_nfc_capture_scan_passport_sheet" = "Plasser den øvre halvdelen av telefonen din i kontakt med den nedre halvdelen av passet ditt.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Hold telefonen og passet ditt i ro.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Plasser dokumentet ditt mot toppen på baksiden av telefonen din.";
 "onfido_nfc_card_scan_doc_realign_body" = "Posisjoner dokumentet ditt mot toppen på baksiden av telefonen din.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Hold telefonen og dokumentet ditt i ro.";
-"proofOfAddress.country.alert.intro" = "Finner du ikke landet ditt?";
-"proofOfAddress.selection.subtitle" = "Dette er dokumentene som mest sannsynlig vil vise din nåværende hjemmeadresse";
-"common.selection.utility_bill_extra" = "e-setninger akseptert";
-"common.selection.utility_bill_details" = "Gass, elektrisitet, vann, fasttelefon eller bredbånd";
-"common.selection.benefit_letters_details" = "Statlig godkjent sosialstøtte, f.eks. Arbeidsledifhetstrygd, husleiestøtte, skattefradrag";
-"proofOfAddress.intro.subtitle" = "Du trenger et dokument som:";
-"proofOfAddress.intro.list_current_address" = "Samsvarer med adressen du brukte da du registrerte deg";
-"proofOfAddress.intro.button_primary" = "Start verifisering";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Fullt navn";
-"proofOfAddress.guide.instructions.label" = "Fang opp hele dokumentet, og sørg for at det tydelig viser:";
-"proofOfAddress.guide.instructions.address" = "Nåværende adresse";
-"proofOfAddress.guide.instructions.issue_date" = "Utstedelsesdato eller sammendragsperiode";
-"proofOfAddress.guide.button_primary" = "Fortsett";
-"common.selection.bank_building_society_statement" = "Bekreftelse fra bank eller hypotekforening";
-"common.selection.utility_bill" = "Strømregning";
-"common.selection.benefit_letters" = "Sosialstøttebekfreftelse";
-"common.selection.council_tax" = "Brev om lokal skatt";
-"proofOfAddress.country.alert.close" = "Lukk";
-"proofOfAddress.capture.frame_accessibility" = "Sett fra kamera";
-"proofOfAddress.intro.list_signup_address" = "Er det nyeste dokumentet ditt";
-"proofOfAddress.intro.list_recent_document" = "Viser den nåværende adressen din";
-"proofOfAddress.intro.title" = "La oss bekrefte adressen din";
-"proofOfAddress.preview.body_council_tax" = "Pass på at du har lastet opp hele dokumentsiden, og detaljene er tydelige og lette å lese, uten uskarphet eller gjenskinn";
-"proofOfAddress.country.button_primary" = "Send inn dokument";
-"proofOfAddress.preview.redo" = "Ta bilde på nytt";
-"proofOfAddress.preview.choose_another_photo" = "Velg et annet";
-"proofOfAddress.preview.image.accessibility" = "Vis forhåndsvisning av forstørret dokument";
-"proofOfAddress.preview.image.zoom_text" = "Forstørr dokumentet";
-"proofOfAddress.preview.image.zoom_move" = "Beveg den rundt ved bruk av én finger";
-"proofOfAddress.preview.image.zoom_close" = "Lukk";
-"proofOfAddress.capture.instructions" = "Forsiden av adressedokumentet";
-"proofOfAddress.upload.take_photo" = "Ta bilde";
-"proofOfAddress.upload.upload_photo" = "Last opp";
-"proofOfAddress.selection.title" = "Velg et dokument";
-"proofOfAddress.selection.title_uk" = "Velg et britisk dokument";
-"proofOfAddress.country.alert.country_not_found" = "Vi beklager dette. Vi jobber med å støtte flere land.";
-"welcome.list_item.poa" = "Ta et bilde av et dokument som inneholder adressen din";
-"proofOfAddress.upload.dialog.photo_library" = "Bildebibliotek";
-"proofOfAddress.upload.dialog.files" = "Filer";
-"proofOfAddress.upload.dialog.cancel" = "Avbryt";
-"common.error.errors.invalid_type.instruction" = "Ugyldig fil";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Velg en annen fil.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Må være utstedt i løpet av de siste tre månedene";
-"proofOfAddress.guide.subtitle_tax_letter" = "Må være utstedt i løpet av de siste 12 månedene";
-"proofOfAddress.guide.subtitle_bill" = "Må være utstedt i løpet av de siste tre månedene";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Må være utstedt i løpet av de siste 12 månedene";
-"common.selection.address_card" = "Adressekort";
-"common.selection.address_card_details" = "Midlertidige og permanente kort aksepteres";
-"proofOfAddress.guide.instructions.full_address" = "Fullstendig adresse";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Utstedelsesdato";
-"proofOfAddress.guide.instructions.expiry_date" = "Utløpsdato hvis aktuelt";
-"proofOfAddress.capture.frame_accessibility" = "Ta bilde av dokumentet ditt";
-"document.selection.no_mobile" = "Beklager, ingen mobiltelefonregninger";
-
 "onfido_permission_button_primary_both_label" = "Aktiver både kamera og mikrofon";
+"onfido_poa_intro_subtitle" = "Du trenger et dokument som:";
+"onfido_poa_intro_list_matches_signup" = "Samsvarer med adressen du brukte da du registrerte deg";
+"onfido_poa_intro_button_primary" = "Start verifisering";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Fullt navn";
+"onfido_poa_guidance_instructions_label" = "Fang opp hele dokumentet, og sørg for at det tydelig viser:";
+"onfido_poa_guidance_instructions_address" = "Nåværende adresse";
+"onfido_poa_guidance_instructions_issue_date" = "Utstedelsesdato eller sammendragsperiode";
+"onfido_poa_guidance_button_primary" = "Fortsett";
+"onfido_poa_intro_list_most_recent" = "Er det nyeste dokumentet ditt";
+"onfido_poa_intro_list_shows_address" = "Viser den nåværende adressen din";
+"onfido_poa_intro_title" = "La oss bekrefte adressen din";
+"onfido_poa_capture_confirm" = "Send inn dokument";
+"onfido_poa_capture_redo" = "Ta bilde på nytt";
+"onfido_poa_capture_choose_another" = "Velg et annet";
+"onfido_poa_capture_image_accessibility" = "Vis forhåndsvisning av forstørret dokument";
+"onfido_poa_capture_enlarge" = "Forstørr dokumentet";
+"onfido_poa_capture_enlarge_move" = "Beveg den rundt ved bruk av én finger";
+"onfido_poa_capture_enlarge_close" = "Lukk";
+"onfido_poa_capture_instructions" = "Forsiden av adressedokumentet";
+"onfido_poa_upload_instructions_take_photo_button" = "Ta bilde";
+"onfido_poa_upload_instructions_upload_button" = "Last opp";
+"onfido_poa_type_selection_title" = "Velg et dokument";
+"onfido_poa_type_selection_title_uk" = "Velg et britisk dokument";
+"onfido_poa_country_not_found" = "Vi beklager dette. Vi jobber med å støtte flere land.";
+"onfido_poa_welcome_text" = "Ta et bilde av et dokument som inneholder adressen din";
+"onfido_poa_photo_library" = "Bildebibliotek";
+"onfido_poa_files" = "Filer";
+"onfido_poa_cancel" = "Avbryt";
+"onfido_poa_err_invalid_file_title" = "Ugyldig fil";
+"onfido_poa_err_invalid_file_message" = "Velg en annen fil.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Må være utstedt i løpet av de siste tre månedene";
+"onfido_poa_guidance_subtitle_tax_letter" = "Må være utstedt i løpet av de siste 12 månedene";
+"onfido_poa_guidance_subtitle_bill" = "Må være utstedt i løpet av de siste tre månedene";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Må være utstedt i løpet av de siste 12 månedene";
+"onfido_poa_guidance_subtitle_address_card" = "Må være et gyldig adressekort";
+"onfido_poa_guidance_instructions_full_address" = "Fullstendig adresse";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Utstedelsesdato";
+"onfido_poa_guidance_instructions_expiry_date" = "Utløpsdato hvis aktuelt";
+"onfido_qes_consent_introduction_validation" = "Samtykke kreves";

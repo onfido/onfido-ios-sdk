@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 32.0.0 Migration Guide](#onfido-ios-sdk-3200-migration-guide)
 * [Onfido iOS SDK 31.0.0 Migration Guide](#onfido-ios-sdk-3100-migration-guide)
 * [Onfido iOS SDK 30.2.0 Migration Guide](#onfido-ios-sdk-3020-migration-guide)
 * [Onfido iOS SDK 30.0.0 Migration Guide](#onfido-ios-sdk-3000-migration-guide)
@@ -69,7 +70,21 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
 
+## Onfido iOS SDK 32.0.0 Migration Guide
+
+### Breaking API Changes
+
+The API `withCustomTranslations` which was added on the previous version of 31.0.0 has been reverted and removed on this version. It was removed due to poor developer experience.
+If you did not start using this API on version 31.0.0, then there is no action needed.
+
+
+### String Changes
+All string changes in 31.0.0 have been reverted. If you did not follow the migration on 31.0.0, then there is no action needed.
+
+
 ## Onfido iOS SDK 31.0.0 Migration Guide
+
+**Please note**: Some of the changes released in this version of the iOS SDK have been reverted. We recommend you **do not** use this version, and upgrade to version [32.0.0](#onfido-ios-sdk-3200-migration-guide).
 
 ### Breaking API Changes
 
@@ -82,97 +97,69 @@ Proof of address:
 
 ```
 
-- Custom translations for the Proof of Address (PoA), One Time Password (OTP) and Qualified Electronic Signature (QES) modules should now be passed directly through a dictionary of strings, or through a JSON file of customized translations. For more information, please refer to our [documentation](/#custom-translations-and-text).
+- (Reverted on version 32.0.0) ~Custom translations for the Proof of Address (PoA) modules should now be passed directly through a dictionary of strings, or through a JSON file of customized translations. For more information, please refer to our [documentation](/#custom-translations-and-text).~
 
-### String Changes
+### (Reverted on version 32.0.0) ~String Changes~
 
-#### Removed
+#### ~Removed~
 
-The following strings have been **removed** from the `Localizable.strings` files and replaced by the following keys:
+~The following strings have been **removed** from the `Localizable.strings` files and replaced by the following keys:~
 
-- `onfido_country_select_bottom_sheet_link_close` -> `proofOfAddress.country.alert.close`
-- `onfido_country_select_bottom_sheet_title` -> `proofOfAddress.country.alert.intro`
-- `onfido_doc_capture_frame_accessibility` -> `proofOfAddress.capture.frame_accessibility`
-- `onfido_doc_confirmation_body` -> `proofOfAddress.preview.body_council_tax`
-- `onfido_doc_select_button_address_card` -> `common.selection.address_card`
-- `onfido_doc_select_button_address_card_detail` -> `common.selection.address_card_details`
-- `onfido_doc_select_button_bank_statement` -> `common.selection.bank_building_society_statement`
-- `onfido_doc_select_button_benefits_letter` -> `common.selection.benefit_letters`
-- `onfido_doc_select_button_benefits_letter_detail` -> `common.selection.benefit_letters_details`
-- `onfido_doc_select_button_bill` -> `common.selection.utility_bill`
-- `onfido_doc_select_button_bill_detail` -> `common.selection.utility_bill_details`
-- `onfido_doc_select_button_tax_letter` -> `common.selection.council_tax`
-- `onfido_doc_select_extra_estatements_ok` -> `common.selection.utility_bill_extra`
-- `onfido_doc_select_extra_no_mobile` -> `document.selection.no_mobile`
-- `onfido_doc_select_subtitle_poa` -> `proofOfAddress.selection.subtitle`
-- `onfido_poa_cancel` -> `proofOfAddress.upload.dialog.cancel`
-- `onfido_poa_capture_choose_another` -> `proofOfAddress.preview.choose_another_photo`
-- `onfido_poa_capture_confirm` -> `proofOfAddress.country.button_primary`
-- `onfido_poa_capture_enlarge` -> `proofOfAddress.preview.image.zoom_text`
-- `onfido_poa_capture_enlarge_close` -> `proofOfAddress.preview.image.zoom_close`
-- `onfido_poa_capture_enlarge_move` -> `proofOfAddress.preview.image.zoom_move`
-- `onfido_poa_capture_image_accessibility` -> `proofOfAddress.preview.image.accessibility`
-- `onfido_poa_capture_instructions` -> `proofOfAddress.capture.instructions`
-- `onfido_poa_capture_redo` -> `proofOfAddress.preview.redo`
-- `onfido_poa_country_not_found` -> `proofOfAddress.country.alert.country_not_found`
-- `onfido_poa_err_invalid_file_message` -> `proofOfAddress.upload.error.invalid_file_dialog_message`
-- `onfido_poa_err_invalid_file_ok` -> `proofOfAddress.upload.error.invalid_file_dialog_ok`
-- `onfido_poa_err_invalid_file_title` -> `common.error.errors.invalid_type.instruction`
-- `onfido_poa_files` -> `proofOfAddress.upload.dialog.files`
-- `onfido_poa_guidance_button_primary` -> `proofOfAddress.guide.button_primary`
-- `onfido_poa_guidance_instructions_address` -> `proofOfAddress.guide.instructions.address`
-- `onfido_poa_guidance_instructions_address_card_issue_date` -> `proofOfAddress.guide.instructions.address_card_issue_date`
-- `onfido_poa_guidance_instructions_expiry_date` -> `proofOfAddress.guide.instructions.expiry_date`
-- `onfido_poa_guidance_instructions_full_address` -> `proofOfAddress.guide.instructions.full_address`
-- `onfido_poa_guidance_instructions_full_name` -> `proofOfAddress.guide.instructions.full_name`
-- `onfido_poa_guidance_instructions_issue_date` -> `proofOfAddress.guide.instructions.issue_date`
-- `onfido_poa_guidance_instructions_label` -> `proofOfAddress.guide.instructions.label`
-- `onfido_poa_guidance_instructions_logo` -> `proofOfAddress.guide.instructions.logo`
-- `onfido_poa_guidance_subtitle_address_card` -> `proofOfAddress.guide.subtitle_address_certificate`
-- `onfido_poa_guidance_subtitle_bank_statement` -> `proofOfAddress.guide.subitle_bank_statement`
-- `onfido_poa_guidance_subtitle_benefits_letter` -> `proofOfAddress.guide.subtitle_benefit_letters`
-- `onfido_poa_guidance_subtitle_bill` -> `proofOfAddress.guide.subtitle_bill`
-- `onfido_poa_guidance_subtitle_tax_letter` -> `proofOfAddress.guide.subtitle_tax_letter`
-- `onfido_poa_intro_button_primary` -> `proofOfAddress.intro.button_primary`
-- `onfido_poa_intro_list_matches_signup` -> `proofOfAddress.intro.list_current_address`
-- `onfido_poa_intro_list_most_recent` -> `proofOfAddress.intro.list_signup_address`
-- `onfido_poa_intro_list_shows_address` -> `proofOfAddress.intro.list_recent_document`
-- `onfido_poa_intro_subtitle` -> `proofOfAddress.intro.subtitle`
-- `onfido_poa_intro_title` -> `proofOfAddress.intro.title`
-- `onfido_poa_photo_library` -> `proofOfAddress.upload.dialog.photo_library`
-- `onfido_poa_type_selection_title` -> `proofOfAddress.selection.title`
-- `onfido_poa_type_selection_title_uk` -> `proofOfAddress.selection.title_uk`
-- `onfido_poa_upload_instructions_take_photo_button` -> `proofOfAddress.upload.take_photo`
-- `onfido_poa_upload_instructions_upload_button` -> `proofOfAddress.upload.upload_photo`
-- `onfido_poa_welcome_text` -> `welcome.list_item.poa`
-
-Please note that the new keys follow a strict structure when being represented in a Dictionary, or in the JSON file. Taking `proofOfAddress.upload.take_photo` as an example, the Dictionary representation of this for `en_US` would be:
-
-```swift
-[
-  "en_US": [
-    "proofOfAddress": [
-      "upload": [
-        "take_photo": "Take Photo"
-      ]
-    ]
-  ]
-]
-```
-
-The JSON representation would be:
-
-```javascript
-{
-  "en_US": {
-    "proofOfAddress": {
-      "upload": {
-        "take_photo": "Take Photo"
-      }
-    }
-  }
-}
-```
+- ~`onfido_country_select_bottom_sheet_link_close` -> `proofOfAddress.country.alert.close`~
+- ~`onfido_country_select_bottom_sheet_title` -> `proofOfAddress.country.alert.intro`~
+- ~`onfido_doc_capture_frame_accessibility` -> `proofOfAddress.capture.frame_accessibility`~
+- ~`onfido_doc_confirmation_body` -> `proofOfAddress.preview.body_council_tax`~
+- ~`onfido_doc_select_button_address_card` -> `common.selection.address_card`~
+- ~`onfido_doc_select_button_address_card_detail` -> `common.selection.address_card_details`~
+- ~`onfido_doc_select_button_bank_statement` -> `common.selection.bank_building_society_statement`~
+- ~`onfido_doc_select_button_benefits_letter` -> `common.selection.benefit_letters`~
+- ~`onfido_doc_select_button_benefits_letter_detail` -> `common.selection.benefit_letters_details`~
+- ~`onfido_doc_select_button_bill` -> `common.selection.utility_bill`~
+- ~`onfido_doc_select_button_bill_detail` -> `common.selection.utility_bill_details`~
+- ~`onfido_doc_select_button_tax_letter` -> `common.selection.council_tax`~
+- ~`onfido_doc_select_extra_estatements_ok` -> `common.selection.utility_bill_extra`~
+- ~`onfido_doc_select_extra_no_mobile` -> `document.selection.no_mobile`~
+- ~`onfido_doc_select_subtitle_poa` -> `proofOfAddress.selection.subtitle`~
+- ~`onfido_poa_cancel` -> `proofOfAddress.upload.dialog.cancel`~
+- ~`onfido_poa_capture_choose_another` -> `proofOfAddress.preview.choose_another_photo`~
+- ~`onfido_poa_capture_confirm` -> `proofOfAddress.country.button_primary`~
+- ~`onfido_poa_capture_enlarge` -> `proofOfAddress.preview.image.zoom_text`~
+- ~`onfido_poa_capture_enlarge_close` -> `proofOfAddress.preview.image.zoom_close`~
+- ~`onfido_poa_capture_enlarge_move` -> `proofOfAddress.preview.image.zoom_move`~
+- ~`onfido_poa_capture_image_accessibility` -> `proofOfAddress.preview.image.accessibility`~
+- ~`onfido_poa_capture_instructions` -> `proofOfAddress.capture.instructions`~
+- ~`onfido_poa_capture_redo` -> `proofOfAddress.preview.redo`~
+- ~`onfido_poa_country_not_found` -> `proofOfAddress.country.alert.country_not_found`~
+- ~`onfido_poa_err_invalid_file_message` -> `proofOfAddress.upload.error.invalid_file_dialog_message`~
+- ~`onfido_poa_err_invalid_file_ok` -> `proofOfAddress.upload.error.invalid_file_dialog_ok`~
+- ~`onfido_poa_err_invalid_file_title` -> `common.error.errors.invalid_type.instruction`~
+- ~`onfido_poa_files` -> `proofOfAddress.upload.dialog.files`~
+- ~`onfido_poa_guidance_button_primary` -> `proofOfAddress.guide.button_primary`~
+- ~`onfido_poa_guidance_instructions_address` -> `proofOfAddress.guide.instructions.address`~
+- ~`onfido_poa_guidance_instructions_address_card_issue_date` -> `proofOfAddress.guide.instructions.address_card_issue_date`~
+- ~`onfido_poa_guidance_instructions_expiry_date` -> `proofOfAddress.guide.instructions.expiry_date`~
+- ~`onfido_poa_guidance_instructions_full_address` -> `proofOfAddress.guide.instructions.full_address`~
+- ~`onfido_poa_guidance_instructions_full_name` -> `proofOfAddress.guide.instructions.full_name`~
+- ~`onfido_poa_guidance_instructions_issue_date` -> `proofOfAddress.guide.instructions.issue_date`~
+- ~`onfido_poa_guidance_instructions_label` -> `proofOfAddress.guide.instructions.label`~
+- ~`onfido_poa_guidance_instructions_logo` -> `proofOfAddress.guide.instructions.logo`~
+- ~`onfido_poa_guidance_subtitle_address_card` -> `proofOfAddress.guide.subtitle_address_certificate`~
+- ~`onfido_poa_guidance_subtitle_bank_statement` -> `proofOfAddress.guide.subitle_bank_statement`~
+- ~`onfido_poa_guidance_subtitle_benefits_letter` -> `proofOfAddress.guide.subtitle_benefit_letters`~
+- ~`onfido_poa_guidance_subtitle_bill` -> `proofOfAddress.guide.subtitle_bill`~
+- ~`onfido_poa_guidance_subtitle_tax_letter` -> `proofOfAddress.guide.subtitle_tax_letter`~
+- ~`onfido_poa_intro_button_primary` -> `proofOfAddress.intro.button_primary`~
+- ~`onfido_poa_intro_list_matches_signup` -> `proofOfAddress.intro.list_current_address`~
+- ~`onfido_poa_intro_list_most_recent` -> `proofOfAddress.intro.list_signup_address`~
+- ~`onfido_poa_intro_list_shows_address` -> `proofOfAddress.intro.list_recent_document`~
+- ~`onfido_poa_intro_subtitle` -> `proofOfAddress.intro.subtitle`~
+- ~`onfido_poa_intro_title` -> `proofOfAddress.intro.title`~
+- ~`onfido_poa_photo_library` -> `proofOfAddress.upload.dialog.photo_library`~
+- ~`onfido_poa_type_selection_title` -> `proofOfAddress.selection.title`~
+- ~`onfido_poa_type_selection_title_uk` -> `proofOfAddress.selection.title_uk`~
+- ~`onfido_poa_upload_instructions_take_photo_button` -> `proofOfAddress.upload.take_photo`~
+- ~`onfido_poa_upload_instructions_upload_button` -> `proofOfAddress.upload.upload_photo`~
+- ~`onfido_poa_welcome_text` -> `welcome.list_item.poa`~
 
 ## Onfido iOS SDK 30.2.0 Migration Guide
 

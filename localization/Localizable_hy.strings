@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Ուղարկել լուսանկարը";
 "onfido_doc_confirmation_button_primary_visa" = "Ուղարկել լուսանկարը";
 "onfido_selfie_confirmation_button_secondary" = "Կրկին լուսանկարել";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Երկուսն էլ միացնել";
 "onfido_permission_button_primary_cam" = "Միացնել տեսախցիկը";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Վերսկսել տեսագրումը";
 "onfido_video_capture_prompt_detail_restart" = "Այս փուլը անցնելու համար դուք պետք է ամբողջ տեսագրման ընթացքում ձեր դեմքը տեսադաշտի մեջ պահեք։";
 "onfido_video_capture_prompt_button_restart" = "Վերսկսել";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Պահեք ձեր դեմքը շրջանակի ներսում";
 "onfido_video_capture_body" = "Տեսագրումը սկսելու համար ձեր դեմքը պահեք շրջանակի ներսում";
 "onfido_doc_confirmation_body_license" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
 "onfido_doc_confirmation_body_generic" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
 "onfido_doc_confirmation_body_id" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
 "onfido_doc_confirmation_body_permit" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
 "onfido_doc_confirmation_body_visa" = "Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Համոզվեք, որ ձեր դեմքը ամբողջությամբ երևում է";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Ձեր փաստաթղթի վիզաների էջը տեղադրեք շրջանակի մեջ";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Բեռնվում է";
-
-
 "onfido_doc_capture_header_passport_auto" = "Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ";
 "onfido_doc_capture_header_license_back" = "Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ";
 "onfido_doc_capture_header_license_back_auto" = "Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ";
 "onfido_doc_capture_header_id_front" = "Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ";
 "onfido_doc_capture_header_permit_front" = "Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ";
-
 "onfido_generic_uploading" = "Բեռնվում է";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Համոզվեք, որ փաստաթուղթն ամբողջությամբ է երևում լուսանկարում";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Համոզվեք, որ ձեր դեմքը երևում է";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Հաստատեք ձեր ինքնությունը";
 "onfido_app_title_country_select" = "Ընտրեք թողարկող երկիրը";
 "onfido_video_capture_alert_wrong_side" = "Սխալ կողմ";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Արագացնել գործընթացը՝ օգտագործելով NFC";
 "onfido_nfc_select_subtitle_passport" = "Մենք սկանավորելու ենք ձեր անձնագրի NFC չիպը";
 "onfido_nfc_select_body_passport" = "Էլեկտրոնային անձնագրերի կազմի վրա առկա է այս նշանը";
 "onfido_nfc_select_button_primary_passport" = "Օգտագործել էլեկտրոնային անձնագիրը";
 "onfido_nfc_select_button_secondary_passport" = "Սա էլեկտրոնային անձնագիր չէ";
-
 "onfido_nfc_select_title_card" = "Արագացնել գործընթացը՝ օգտագործելով NFC";
 "onfido_nfc_select_subtitle_card" = "Մենք սկանավորելու ենք ձեր քարտի միջի NFC չիպը";
 "onfido_nfc_select_body_card" = "NFC չիպերով քարտերն ունեն այս նշանը";
 "onfido_nfc_select_button_primary_card" = "Օգտագործել NFC քարտ";
 "onfido_nfc_select_button_secondary_card" = "Դա NFC քարտ չէ";
-
 "onfido_nfc_intro_title_passport" = "Սկանավորեք ձեր անձնագրի չիպը";
 "onfido_nfc_intro_subtitle_passport" = "Օգտագործեք ձեր հեռախոսը ձեր անձնագրի չիպը սկանավորելու համար";
 "onfido_nfc_intro_passport_scan_guide_1" = "Հարթ մակերեսի վրա դնեք ձեր բացված անձնագիրը";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Հեռախոսը դրեք ձեր անձնագրի մեջտեղի մասին մոտ";
 "onfido_nfc_intro_carousel_body_last_page" = "Կարող եք փորձել նաև հետևի էջի ներսի կողմը";
 "onfido_nfc_intro_carousel_body_dont_move" = "Սկանավորման ընթացքում մի շարժեք ձեր հեռախոսը կամ անձնագիրը";
-
 "onfido_nfc_fail_title_passport" = "Մեզ չհաջողվեց սկանավորել ձեր անձնագիրը";
 "onfido_nfc_fail_title_card" = "Չհաջողվեց սկանավորել ձեր NFC քարտը";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Հանեք անձնագրի և հեռախոսի կազմերը";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Ձեր հեռախոսն ու քարտը իրար մոտիկ պահեք, մինչև սկանավորումը հաջողությամբ ավարտվի";
 "onfido_nfc_fail_button_primary_card" = "Սկսել սկանավորումը";
 "onfido_nfc_fail_button_secondary_card" = "Անցեք նույնականացում առանց սկանավորման";
-
 "onfido_doc_confirmation_zoom_button" = "Մեծացնել պատկերը";
 "onfido_doc_confirmation_image_accessibility" = "Ձեր փաստաթղթի լուսանկարը։ Մեծացնելու համար կրկնակի հպեք";
 "onfido_doc_zoom_body" = "Պտտեք տեսախցիկը՝ օգտագործելով մեկ մատը";
 "onfido_doc_zoom_button_close" = "Փակել";
-
 "onfido_video_confirmation_body" = "Ձեր տեսանյութը տեսագրվել է";
 "onfido_app_title_country_select_search" = "Որոնել";
 "onfido_country_select_list_accessibility" = "Փնտրման արդյունքներ";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Վստա՞հ եք։";
 "onfido_user_consent_prompt_no_consent_detail" = "Եթե դուք չեք ընդունում Onfido-ի գաղտնիության հայտարարությունները և ծառայությունների մատուցման պայմանները, մենք չենք կարող հաստատել ձեր ինքնությունը, և դուք այս քայլից դուրս կգաք։";
 "onfido_user_consent_prompt_button_secondary" = "Կրկին ստուգել";
 "onfido_user_consent_prompt_button_primary" = "Այո, մի նույնականացրեք ինձ";
 "onfido_user_consent_button_primary" = "Ընդունել";
 "onfido_user_consent_button_secondary" = "Չընդունել";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Չհաջողվեց բեռնել պարունակությունը";
 "onfido_user_consent_load_fail_detail" = "Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք";
 "onfido_user_consent_load_fail_button_primary" = "Կրկին բեռնել էկրանը";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Հեռախոսը պահեք ձեր անձնագրի լուսանկարի էջի վրա";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Տեսարան տեսախցիկից։ Դրեք ձեր հեռախոսը ձեր անձնագրի լուսանկարի էջի վրա, ապա դանդաղ հեռացրեք ձեր հեռախոսը դրանից ուղիղ գծով։";
 "onfido_doc_capture_header_capturing" = "Մի շարժվեք";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջական էջը, և տվյալները ընթեռնելի են, պատկերը աղոտ չէ և չի փայլում";
 "onfido_doc_select_subtitle_poa" = "Ամենայն հավանականությամբ, այս փաստաթղթերում գրանցված կլինի ձեր ներկա բնակության վայրի հասցեն";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Կրկին բեռնեք տեսանյութի օրինակը";
 "onfido_doc_select_button_address_card" = "Հասցեն պարունակող քարտ";
 "onfido_doc_select_button_address_card_detail" = "Ընդունվում են ժամանակավոր և մշտական քարտերը";
-"proofOfAddress.guide.subtitle_address_certificate" = "Հասցեն պարունակող քարտը պետք է վավեր լինի";
-
 "onfido_welcome_start_workflow_button_trial" = "Սկսել նույնականացումը (ԹԵՍՏ)";
 "onfido_enter_can_title" = "Մուտքագրեք CAN համարը";
 "onfido_enter_can_subtitle" = "Ձեր փաստաթուղթի վրա գտնվող %d-նիշանոց համարը ստուգեք։";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Կրկին փորձել";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա";
-
 "onfido_nfc_scan_welcome_card_title" = "Սկանավորեք ձեր փաստաթուղթը";
 "onfido_nfc_scan_welcome_card_subtitle" = "Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար";
 "onfido_nfc_scan_welcome_card_list_item" = "Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:";
 "onfido_nfc_scan_welcome_card_button_primary" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
-
 "onfido_nfc_scan_error_inter_title" = "Ձեր փաստաթուղթը չհաջողվեց սկանավորել";
 "onfido_nfc_scan_error_inter_list_item" = "Հանեք ձեր հեռախոսի պատյանը";
 "onfido_nfc_scan_error_inter_list_item_2" = "Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի";
 "onfido_nfc_scan_error_inter_primary_button" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_error_inter_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
-
 "onfido_nfc_scan_error_final_title" = "Մենք չկարողացանք ստուգել այս փաստաթուղթը";
 "onfido_nfc_scan_error_final_subtitle" = "NFC-ի սկանավորումն անհրաժեշտ է այս փաստաթղթի համար, սակայն չհաջողվեց ավարտել:";
 "onfido_nfc_scan_error_final_list_item" = "Դուք այլ փաստաթուղթ ունե՞ք շարունակելու համար:";
 "onfido_nfc_scan_error_final_primary_button" = "Օգտագործեք տարբեր փաստաթուղթ";
 "onfido_nfc_scan_error_final_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
-
 "onfido_nfc_scan_welcome_passport_title" = "Արագացնել գործընթացը՝ օգտագործելով NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար";
 "onfido_nfc_scan_welcome_passport_list_item" = "Դրեք ձեր փաստաթուղթը հարթ մակերեսի վրա";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Սկսել սկանավորումը";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Ստացեք հաստատում առանց NFC - ի";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Ձեր փաստաթուղթը չհաջողվեց սկանավորել";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Հանեք անձնագրի և հեռախոսի կազմերը";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Շրջեք առջևի կողմը";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Շրջեք հետևի կողմը";
 "onfido_doc_capture_alert_hold_still_title" = "Մի շարժվեք";
-
 "onfido_doc_capture_alert_photo_page_title" = "Ցուցադրել միայն լուսանկարի էջը";
 "onfido_doc_capture_alert_tilted_title" = "Պահեք փաստաթուղթը ուղիղ";
 "onfido_doc_capture_header_recording_video" = "Տեսանյութի գրանցում";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Պատճենի հայտնաբերում";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Հայտնաբերվել է սկանավորում";
 "onfido_doc_confirmation_alert_odp_detail" = "Օգտագործեք ձեր սկզբնական փաստաթուղթը։ Էկրանի լուսանկարները կամ ֆոտոկոպիաները չեն ընդունվում:";
-
 "onfido_interactive_task_waiting_title_1" = "Ստուգում ենք պատկերի որակը․․․";
 "onfido_interactive_task_waiting_subtitle_1" = "Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Տվյալների կոմպիլյացիա...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Ձեզ կարող է խնդրվել մուտքագրել CAN-ը, մինչև շարունակել սկանավորումը";
 "onfido_enter_can_secondary_button" = "Ես չունեմ CAN";
 "onfido_enter_can_warning" = "Դուք ունեք %d %@ մնացել է";
-
 "onfido_otp_send_code_input_label" = "Հեռախոսահամար";
 "onfido_otp_send_code_error_invalid_phone_number" = "Տրամադրեք գործող հեռախոսահամար։";
 "onfido_otp_error_title" = "Ինչ-որ բան այնքան էլ ճիշտ չէ";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Տեղակայված է պետական իշխանության կամ կորպորատիվ տնակալի կողմից որպես վարձակալության հաստատում:";
 "onfido_generic_alert_parsing_error_label" = "Վերլուծման սխալ";
 "onfido_generic_error_parsing_detail" = "Պարսինգի սխալ է տեղի ունեցել։ Խնդրում ենք կրկին փորձել։";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Տեղադրեք ձեր հեռախոսի վերեւում ձեր անձնագրի ներքևում։";
 "onfido_nfc_capture_scan_passport_sheet" = "Տեղադրեք ձեր հեռախոսի վերին կեսը ձեր անձնագրի ստորին կեսի հետ կապված։";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Պահեք ձեր հեռախոսը և անձնագիրը անշարժ:";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի վերին հետեւի վրա:";
 "onfido_nfc_card_scan_doc_realign_body" = "Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի վերին հետեւի դեմ։";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Պահեք ձեր հեռախոսը և փաստաթուղթը անշարժ:";
-"proofOfAddress.country.alert.intro" = "Չե՞ք կարողանում գտնել ձեր երկիրը։";
-"proofOfAddress.selection.subtitle" = "Ամենայն հավանականությամբ, այս փաստաթղթերում գրանցված կլինի ձեր ներկա բնակության վայրի հասցեն";
-"common.selection.utility_bill_extra" = "էլեկտրոնային քաղվածքներ ընդունվում են";
-"common.selection.utility_bill_details" = "Գազ, էլեկտրաէներգիա, ջուր, ֆիքսված հեռախոսակապ կամ ինտերնետ";
-"common.selection.benefit_letters_details" = "Կառավարության կողմից հաստատված նպաստներ՝ տնային տնտեսությունների համար (օրինակ՝ Աշխատանք փնտրողի նպաստ, բնակարանային նպաստ, հարկային արտոնություններ";
-"proofOfAddress.intro.subtitle" = "ՁԵզ անհրաժեշտ կլինի փաստաթուղթ, որը՝";
-"proofOfAddress.intro.list_current_address" = "Համապատասխանում է այն հասցեին, որն օգտագործել եք գրանցվելիս";
-"proofOfAddress.intro.button_primary" = "Սկսել նույնականացումը";
-"proofOfAddress.guide.instructions.logo" = "Տարբերանշան";
-"proofOfAddress.guide.instructions.full_name" = "Ամբողջական անուն";
-"proofOfAddress.guide.instructions.label" = "Նկարեք փաստաթուղթն ամբողջությամբ և համոզվեք, որ այնտեղ պարզ երևում են՝";
-"proofOfAddress.guide.instructions.address" = "Ընթացիկ հասցեն";
-"proofOfAddress.guide.instructions.issue_date" = "Թողարկման ամսաթիվը կամ վավերականության ժամկետը";
-"proofOfAddress.guide.button_primary" = "Շարունակել";
-"common.selection.bank_building_society_statement" = "Բանկից կամ համատիրությունից ստացված քաղվածք";
-"common.selection.utility_bill" = "Կոմունալ ծառայության հաշիվ";
-"common.selection.benefit_letters" = "Նպաստներ";
-"common.selection.council_tax" = "Լոկալ կառավարության հարկային նամակ";
-"proofOfAddress.country.alert.close" = "Փակել";
-"proofOfAddress.capture.frame_accessibility" = "Տեսարան տեսախցիկից";
-"proofOfAddress.intro.list_signup_address" = "Սա ձեր ամենաթարմ փաստաթուղթն է";
-"proofOfAddress.intro.list_recent_document" = "Պարունակում է ձեր ընթացիկ  հասցեն";
-"proofOfAddress.intro.title" = "Նույնականացնենք ձեր հասցեն";
-"proofOfAddress.preview.body_council_tax" = "Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջական էջը, և տվյալները ընթեռնելի են, պատկերը աղոտ չէ և չի փայլում";
-"proofOfAddress.country.button_primary" = "Ուղարկել փաստաթուղթը";
-"proofOfAddress.preview.redo" = "Կրկին լուսանկարել";
-"proofOfAddress.preview.choose_another_photo" = "Ընտրել մեկ այլ տարբերակ";
-"proofOfAddress.preview.image.accessibility" = "Ցույց տալ մեծացված փաստաթղթի պատկերը";
-"proofOfAddress.preview.image.zoom_text" = "Մեծացնել փաստաթուղթը";
-"proofOfAddress.preview.image.zoom_move" = "Պտտեք տեսախցիկը՝ օգտագործելով մեկ մատը";
-"proofOfAddress.preview.image.zoom_close" = "Փակել";
-"proofOfAddress.capture.instructions" = "Հասցեն պարունակող փաստաթղթի դիմերեսը";
-"proofOfAddress.upload.take_photo" = "Լուսանկարել";
-"proofOfAddress.upload.upload_photo" = "Վերբեռնել";
-"proofOfAddress.selection.title" = "Ընտրել փաստաթուղթը";
-"proofOfAddress.selection.title_uk" = "Ընտրել Միացյալ Թագավորության փաստաթուղթ";
-"proofOfAddress.country.alert.country_not_found" = "Ներողություն ենք խնդրում։ Մենք աշխատում ենք ավելի շատ երկրներ սպասարկելու ուղղությամբ։";
-"welcome.list_item.poa" = "Լուսանկարեք ձեր հասցեն պարունակող փաստաթուղթը";
-"proofOfAddress.upload.dialog.photo_library" = "Տեսադարան";
-"proofOfAddress.upload.dialog.files" = "Ֆայլեր";
-"proofOfAddress.upload.dialog.cancel" = "Չեղարկել";
-"common.error.errors.invalid_type.instruction" = "Անվավեր ֆայլ";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Խնդրում ենք ընտրել մեկ այլ ֆայլ։";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "Լավ";
-"proofOfAddress.guide.subtitle_bank_statement" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
-"proofOfAddress.guide.subtitle_tax_letter" = "Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում";
-"proofOfAddress.guide.subtitle_bill" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում";
-"common.selection.address_card" = "Հասցեն պարունակող քարտ";
-"common.selection.address_card_details" = "Ընդունվում են ժամանակավոր և մշտական քարտերը";
-"proofOfAddress.guide.instructions.full_address" = "Ամբողջական հասցե";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Տրված է";
-"proofOfAddress.guide.instructions.expiry_date" = "Գործողության ժամկետը (եթե առկա է)";
-"proofOfAddress.capture.frame_accessibility" = "Ձեր փաստաթուղթը կատարեք";
-"document.selection.no_mobile" = "Ներողություն, բջջային հաշվետվություններ չկան";
-
 "onfido_permission_button_primary_both_label" = "Միացրեք տեսախցիկը և միկրոֆոնը";
+"onfido_poa_intro_subtitle" = "ՁԵզ անհրաժեշտ կլինի փաստաթուղթ, որը՝";
+"onfido_poa_intro_list_matches_signup" = "Համապատասխանում է այն հասցեին, որն օգտագործել եք գրանցվելիս";
+"onfido_poa_intro_button_primary" = "Սկսել նույնականացումը";
+"onfido_poa_guidance_instructions_logo" = "Տարբերանշան";
+"onfido_poa_guidance_instructions_full_name" = "Ամբողջական անուն";
+"onfido_poa_guidance_instructions_label" = "Նկարեք փաստաթուղթն ամբողջությամբ և համոզվեք, որ այնտեղ պարզ երևում են՝";
+"onfido_poa_guidance_instructions_address" = "Ընթացիկ հասցեն";
+"onfido_poa_guidance_instructions_issue_date" = "Թողարկման ամսաթիվը կամ վավերականության ժամկետը";
+"onfido_poa_guidance_button_primary" = "Շարունակել";
+"onfido_poa_intro_list_most_recent" = "Սա ձեր ամենաթարմ փաստաթուղթն է";
+"onfido_poa_intro_list_shows_address" = "Պարունակում է ձեր ընթացիկ  հասցեն";
+"onfido_poa_intro_title" = "Նույնականացնենք ձեր հասցեն";
+"onfido_poa_capture_confirm" = "Ուղարկել փաստաթուղթը";
+"onfido_poa_capture_redo" = "Կրկին լուսանկարել";
+"onfido_poa_capture_choose_another" = "Ընտրել մեկ այլ տարբերակ";
+"onfido_poa_capture_image_accessibility" = "Ցույց տալ մեծացված փաստաթղթի պատկերը";
+"onfido_poa_capture_enlarge" = "Մեծացնել փաստաթուղթը";
+"onfido_poa_capture_enlarge_move" = "Պտտեք տեսախցիկը՝ օգտագործելով մեկ մատը";
+"onfido_poa_capture_enlarge_close" = "Փակել";
+"onfido_poa_capture_instructions" = "Հասցեն պարունակող փաստաթղթի դիմերեսը";
+"onfido_poa_upload_instructions_take_photo_button" = "Լուսանկարել";
+"onfido_poa_upload_instructions_upload_button" = "Վերբեռնել";
+"onfido_poa_type_selection_title" = "Ընտրել փաստաթուղթը";
+"onfido_poa_type_selection_title_uk" = "Ընտրել Միացյալ Թագավորության փաստաթուղթ";
+"onfido_poa_country_not_found" = "Ներողություն ենք խնդրում։ Մենք աշխատում ենք ավելի շատ երկրներ սպասարկելու ուղղությամբ։";
+"onfido_poa_welcome_text" = "Լուսանկարեք ձեր հասցեն պարունակող փաստաթուղթը";
+"onfido_poa_photo_library" = "Տեսադարան";
+"onfido_poa_files" = "Ֆայլեր";
+"onfido_poa_cancel" = "Չեղարկել";
+"onfido_poa_err_invalid_file_title" = "Անվավեր ֆայլ";
+"onfido_poa_err_invalid_file_message" = "Խնդրում ենք ընտրել մեկ այլ ֆայլ։";
+"onfido_poa_err_invalid_file_ok" = "Լավ";
+"onfido_poa_guidance_subtitle_bank_statement" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
+"onfido_poa_guidance_subtitle_tax_letter" = "Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում";
+"onfido_poa_guidance_subtitle_bill" = "Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում";
+"onfido_poa_guidance_subtitle_address_card" = "Հասցեն պարունակող քարտը պետք է վավեր լինի";
+"onfido_poa_guidance_instructions_full_address" = "Ամբողջական հասցե";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Տրված է";
+"onfido_poa_guidance_instructions_expiry_date" = "Գործողության ժամկետը (եթե առկա է)";
+"onfido_qes_consent_introduction_validation" = "Համաձայնությունը պահանջվում է";

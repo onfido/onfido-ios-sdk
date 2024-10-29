@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "提交照片";
 "onfido_doc_confirmation_button_primary_visa" = "提交照片";
 "onfido_selfie_confirmation_button_secondary" = "重新拍摄照片";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "启用两者";
 "onfido_permission_button_primary_cam" = "启用相机";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "重新开始录制";
 "onfido_video_capture_prompt_detail_restart" = "要清除此步骤，您必须在整个录制过程中将面部保持在视图内。";
 "onfido_video_capture_prompt_button_restart" = "重新开始";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "将面部保持在椭圆形内";
 "onfido_video_capture_body" = "将面部保持在椭圆形内以开始录制";
 "onfido_doc_confirmation_body_license" = "请确保您的细节清晰且未受遮挡";
 "onfido_doc_confirmation_body_generic" = "请确保您的细节清晰且未受遮挡";
 "onfido_doc_confirmation_body_id" = "请确保您的细节清晰且未受遮挡";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "请确保您的细节清晰且未受遮挡";
 "onfido_doc_confirmation_body_permit" = "请确保您的细节清晰且未受遮挡";
 "onfido_doc_confirmation_body_visa" = "请确保您的细节清晰且未受遮挡";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "请确保您的整个面部可见";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "将证明文件的签证页放在框中";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "正在加载";
-
-
 "onfido_doc_capture_header_passport_auto" = "将证明文件的照片页放在框中";
 "onfido_doc_capture_header_license_back" = "将证明文件背面放在框中";
 "onfido_doc_capture_header_license_back_auto" = "将证明文件背面放在框中";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "将证明文件正面放在框中";
 "onfido_doc_capture_header_id_front" = "将证明文件正面放在框中";
 "onfido_doc_capture_header_permit_front" = "将证明文件正面放在框中";
-
 "onfido_generic_uploading" = "正在上传";
 "onfido_doc_confirmation_alert_no_doc_detail" = "请确保照片中包含了所有证明文件";
 "onfido_selfie_confirmation_alert_no_face_detail" = "请确保您的面部可见";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "验证您的身份";
 "onfido_app_title_country_select" = "选择签发国家/地区";
 "onfido_video_capture_alert_wrong_side" = "错误的一面";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "使用NFC加快流程";
 "onfido_nfc_select_subtitle_passport" = "我们会扫描您护照上的NFC芯片";
 "onfido_nfc_select_body_passport" = "电子护照的封面上有这个符号";
 "onfido_nfc_select_button_primary_passport" = "使用电子护照";
 "onfido_nfc_select_button_secondary_passport" = "这不是电子护照";
-
 "onfido_nfc_select_title_card" = "使用NFC加快流程";
 "onfido_nfc_select_subtitle_card" = "我们会扫描您身份证上的NFC芯片";
 "onfido_nfc_select_body_card" = "带有NFC芯片的身份证上有这个符号";
 "onfido_nfc_select_button_primary_card" = "使用NFC身份证";
 "onfido_nfc_select_button_secondary_card" = "这不是NFC身份证";
-
 "onfido_nfc_intro_title_passport" = "扫描您护照的芯片";
 "onfido_nfc_intro_subtitle_passport" = "使用您的手机扫描护照中的芯片";
 "onfido_nfc_intro_passport_scan_guide_1" = "将您的护照打开放在平面上";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "将手机放在护照中间附近";
 "onfido_nfc_intro_carousel_body_last_page" = "您也可以尝试背面的内侧";
 "onfido_nfc_intro_carousel_body_dont_move" = "扫描时请勿移动手机或护照";
-
 "onfido_nfc_fail_title_passport" = "我们无法扫描您的护照";
 "onfido_nfc_fail_title_card" = "我们无法扫描您的NFC卡";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "取下护照和手机保护套";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "保持手机和身份证接触，直到扫描成功";
 "onfido_nfc_fail_button_primary_card" = "开始扫描";
 "onfido_nfc_fail_button_secondary_card" = "不用扫描获得验证";
-
 "onfido_doc_confirmation_zoom_button" = "放大图像";
 "onfido_doc_confirmation_image_accessibility" = "您的证明文件照片。轻触两次以放大。";
 "onfido_doc_zoom_body" = "用一根手指来回移动";
 "onfido_doc_zoom_button_close" = "关闭";
-
 "onfido_video_confirmation_body" = "您的视频已完成录制";
 "onfido_app_title_country_select_search" = "搜索";
 "onfido_country_select_list_accessibility" = "搜索结果";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "是否确定？";
 "onfido_user_consent_prompt_no_consent_detail" = "如果您不接受Onfido的隐私声明和服务条款，我们将无法验证您的身份，您将退出此步骤。";
 "onfido_user_consent_prompt_button_secondary" = "再次审核";
 "onfido_user_consent_prompt_button_primary" = "是，不要验证我";
 "onfido_user_consent_button_primary" = "接受";
 "onfido_user_consent_button_secondary" = "不接受";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "内容加载失败";
 "onfido_user_consent_load_fail_detail" = "请检查连接是否稳定，然后重试";
 "onfido_user_consent_load_fail_button_primary" = "重新加载屏幕";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "使手机保持在护照的照片页上方";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "在相机上查看。将手机放在护照的照片页上，然后缓慢地将手机沿直线移开。";
 "onfido_doc_capture_header_capturing" = "保持不动";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "请确保您已上传整个证明文件页面，且细节清晰可辨，无模糊或眩光";
 "onfido_doc_select_subtitle_poa" = "这些证明文件最有可能显示您当前的家庭地址";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "重新加载示例视频";
 "onfido_doc_select_button_address_card" = "含地址身份证";
 "onfido_doc_select_button_address_card_detail" = "接受临时和永久身份证";
-"proofOfAddress.guide.subtitle_address_certificate" = "必须是有效的含地址身份证";
-
 "onfido_welcome_start_workflow_button_trial" = "开始验证（测试）";
 "onfido_enter_can_title" = "输入CAN号码";
 "onfido_enter_can_subtitle" = "这个%d位数的数字位于您的文件的正面";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "重试";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "音频正在被另一个应用播放";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "录制期间请勿在您的设备上播放任何音频";
-
 "onfido_nfc_scan_welcome_card_title" = "扫描您的文档";
 "onfido_nfc_scan_welcome_card_subtitle" = "使用您的手机扫描您的文档中的芯片";
 "onfido_nfc_scan_welcome_card_list_item" = "将您的文件放在设备的背面，使它们接触";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "一旦扫描开始，保持不动以便扫描能够完成";
 "onfido_nfc_scan_welcome_card_button_primary" = "开始扫描";
 "onfido_nfc_scan_welcome_card_secondary_button" = "不用NFC获得验证";
-
 "onfido_nfc_scan_error_inter_title" = "我们无法扫描您的证明文件";
 "onfido_nfc_scan_error_inter_list_item" = "取下手机保护套";
 "onfido_nfc_scan_error_inter_list_item_2" = "保持您的设备和文档接触，直到扫描成功";
 "onfido_nfc_scan_error_inter_primary_button" = "开始扫描";
 "onfido_nfc_scan_error_inter_secondary_button" = "不用NFC获得验证";
-
 "onfido_nfc_scan_error_final_title" = "我们无法验证此文档";
 "onfido_nfc_scan_error_final_subtitle" = "此文档需要 NFC 扫描，但无法完成。";
 "onfido_nfc_scan_error_final_list_item" = "您有其他文件要处理吗？";
 "onfido_nfc_scan_error_final_primary_button" = "使用不同的文档";
 "onfido_nfc_scan_error_final_secondary_button" = "不用NFC获得验证";
-
 "onfido_nfc_scan_welcome_passport_title" = "使用NFC加快流程";
 "onfido_nfc_scan_welcome_passport_subtitle" = "使用您的手机扫描您的文档中的芯片";
 "onfido_nfc_scan_welcome_passport_list_item" = "将文档放在平坦的表面上";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "一旦扫描开始，保持不动以便扫描能够完成";
 "onfido_nfc_scan_welcome_passport_button_primary" = "开始扫描";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "不用NFC获得验证";
-
 "onfido_nfc_scan_error_inter_passport_title" = "我们无法扫描您的证明文件";
 "onfido_nfc_scan_error_inter_passport_list_item" = "取下护照和手机保护套";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "保持您的设备和文档接触，直到扫描成功";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "翻到正面";
 "onfido_doc_capture_alert_wrong_side_back_title" = "翻到背面";
 "onfido_doc_capture_alert_hold_still_title" = "保持不动";
-
 "onfido_doc_capture_alert_photo_page_title" = "仅显示照片页面";
 "onfido_doc_capture_alert_tilted_title" = "保持文件直立";
 "onfido_doc_capture_header_recording_video" = "录制视频";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "检测到复印件";
 "onfido_doc_confirmation_alert_odp_scan_title" = "扫描检测到";
 "onfido_doc_confirmation_alert_odp_detail" = "请使用您的原始文件。屏幕照片或复印件将不被接受";
-
 "onfido_interactive_task_waiting_title_1" = "正在检查图像质量...";
 "onfido_interactive_task_waiting_subtitle_1" = "请稍微等待一下，让任务完成。";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "正在编译数据...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "在继续扫描之前，您可能会被提示输入CAN";
 "onfido_enter_can_secondary_button" = "我没有CAN";
 "onfido_enter_can_warning" = "您还剩下%d %@";
-
 "onfido_otp_send_code_input_label" = "电话号码";
 "onfido_otp_send_code_error_invalid_phone_number" = "请提供有效的电话号码。";
 "onfido_otp_error_title" = "出了些问题";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "由政府机构或公司房东出具作为租赁确认。";
 "onfido_generic_alert_parsing_error_label" = "解析错误";
 "onfido_generic_error_parsing_detail" = "出现了解析错误。请再试一次。";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "将您的手机顶部对准您护照的底部。";
 "onfido_nfc_capture_scan_passport_sheet" = "将手机的上半部分与护照的下半部分接触。";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "保持您的手机和护照静止。";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "将您的证件放在手机的顶部背面。";
 "onfido_nfc_card_scan_doc_realign_body" = "将您的证件放置在手机的顶部背面。";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "保持您的手机和证件静止不动。";
-"proofOfAddress.country.alert.intro" = "找不到您的国家/地区？";
-"proofOfAddress.selection.subtitle" = "这些证明文件最有可能显示您当前的家庭地址";
-"common.selection.utility_bill_extra" = "已接受电子对账单";
-"common.selection.utility_bill_details" = "煤气、水电、固话或宽带账单";
-"common.selection.benefit_letters_details" = "政府批准的家庭福利，例如求职者津贴、住房福利、税收抵免";
-"proofOfAddress.intro.subtitle" = "您需要提供满足以下条件的证明文件：";
-"proofOfAddress.intro.list_current_address" = "与您在注册时使用的地址匹配";
-"proofOfAddress.intro.button_primary" = "开始验证";
-"proofOfAddress.guide.instructions.logo" = "徽标";
-"proofOfAddress.guide.instructions.full_name" = "全名";
-"proofOfAddress.guide.instructions.label" = "捕捉整个证明文件，使其清晰显示以下细节：";
-"proofOfAddress.guide.instructions.address" = "当前地址";
-"proofOfAddress.guide.instructions.issue_date" = "签发日期或总计期间";
-"proofOfAddress.guide.button_primary" = "继续";
-"common.selection.bank_building_society_statement" = "银行或房屋互助协会对账单";
-"common.selection.utility_bill" = "水电费账单";
-"common.selection.benefit_letters" = "福利函";
-"common.selection.council_tax" = "地方政府税务信函";
-"proofOfAddress.country.alert.close" = "关闭";
-"proofOfAddress.capture.frame_accessibility" = "从相机查看";
-"proofOfAddress.intro.list_signup_address" = "是否是您的最新证明文件";
-"proofOfAddress.intro.list_recent_document" = "显示您的当前地址";
-"proofOfAddress.intro.title" = "我们来验证您的地址";
-"proofOfAddress.preview.body_council_tax" = "请确保您已上传整个证明文件页面，且细节清晰可辨，无模糊或眩光";
-"proofOfAddress.country.button_primary" = "提交证明文件";
-"proofOfAddress.preview.redo" = "重新拍摄照片";
-"proofOfAddress.preview.choose_another_photo" = "选择另一个文件";
-"proofOfAddress.preview.image.accessibility" = "显示放大的证明文件预览";
-"proofOfAddress.preview.image.zoom_text" = "放大证明文件";
-"proofOfAddress.preview.image.zoom_move" = "用一根手指来回移动";
-"proofOfAddress.preview.image.zoom_close" = "关闭";
-"proofOfAddress.capture.instructions" = "地址证明文件的正面";
-"proofOfAddress.upload.take_photo" = "拍照";
-"proofOfAddress.upload.upload_photo" = "上传";
-"proofOfAddress.selection.title" = "选择一个证明文件";
-"proofOfAddress.selection.title_uk" = "选择一个英国证明文件";
-"proofOfAddress.country.alert.country_not_found" = "对此深感抱歉。我们正在努力支持更多的国家/地区。";
-"welcome.list_item.poa" = "请拍摄一张包含您地址的证明文件照片";
-"proofOfAddress.upload.dialog.photo_library" = "照片库";
-"proofOfAddress.upload.dialog.files" = "文件";
-"proofOfAddress.upload.dialog.cancel" = "取消";
-"common.error.errors.invalid_type.instruction" = "无效文件";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "请选择其他文件。";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "确定";
-"proofOfAddress.guide.subtitle_bank_statement" = "必须是在过去3个月内签发";
-"proofOfAddress.guide.subtitle_tax_letter" = "必须是在过去12个月内签发";
-"proofOfAddress.guide.subtitle_bill" = "必须是在过去3个月内签发";
-"proofOfAddress.guide.subtitle_benefit_letters" = "必须是在过去12个月内签发";
-"common.selection.address_card" = "含地址身份证";
-"common.selection.address_card_details" = "接受临时和永久身份证";
-"proofOfAddress.guide.instructions.full_address" = "完整地址";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "签发日期";
-"proofOfAddress.guide.instructions.expiry_date" = "有效期（如适用）";
-"proofOfAddress.capture.frame_accessibility" = "捕获您的证件";
-"document.selection.no_mobile" = "对不起，没有手机账单";
-
 "onfido_permission_button_primary_both_label" = "启用摄像头和麦克风";
+"onfido_poa_intro_subtitle" = "您需要提供满足以下条件的证明文件：";
+"onfido_poa_intro_list_matches_signup" = "与您在注册时使用的地址匹配";
+"onfido_poa_intro_button_primary" = "开始验证";
+"onfido_poa_guidance_instructions_logo" = "徽标";
+"onfido_poa_guidance_instructions_full_name" = "全名";
+"onfido_poa_guidance_instructions_label" = "捕捉整个证明文件，使其清晰显示以下细节：";
+"onfido_poa_guidance_instructions_address" = "当前地址";
+"onfido_poa_guidance_instructions_issue_date" = "签发日期或总计期间";
+"onfido_poa_guidance_button_primary" = "继续";
+"onfido_poa_intro_list_most_recent" = "是否是您的最新证明文件";
+"onfido_poa_intro_list_shows_address" = "显示您的当前地址";
+"onfido_poa_intro_title" = "我们来验证您的地址";
+"onfido_poa_capture_confirm" = "提交证明文件";
+"onfido_poa_capture_redo" = "重新拍摄照片";
+"onfido_poa_capture_choose_another" = "选择另一个文件";
+"onfido_poa_capture_image_accessibility" = "显示放大的证明文件预览";
+"onfido_poa_capture_enlarge" = "放大证明文件";
+"onfido_poa_capture_enlarge_move" = "用一根手指来回移动";
+"onfido_poa_capture_enlarge_close" = "关闭";
+"onfido_poa_capture_instructions" = "地址证明文件的正面";
+"onfido_poa_upload_instructions_take_photo_button" = "拍照";
+"onfido_poa_upload_instructions_upload_button" = "上传";
+"onfido_poa_type_selection_title" = "选择一个证明文件";
+"onfido_poa_type_selection_title_uk" = "选择一个英国证明文件";
+"onfido_poa_country_not_found" = "对此深感抱歉。我们正在努力支持更多的国家/地区。";
+"onfido_poa_welcome_text" = "请拍摄一张包含您地址的证明文件照片";
+"onfido_poa_photo_library" = "照片库";
+"onfido_poa_files" = "文件";
+"onfido_poa_cancel" = "取消";
+"onfido_poa_err_invalid_file_title" = "无效文件";
+"onfido_poa_err_invalid_file_message" = "请选择其他文件。";
+"onfido_poa_err_invalid_file_ok" = "确定";
+"onfido_poa_guidance_subtitle_bank_statement" = "必须是在过去3个月内签发";
+"onfido_poa_guidance_subtitle_tax_letter" = "必须是在过去12个月内签发";
+"onfido_poa_guidance_subtitle_bill" = "必须是在过去3个月内签发";
+"onfido_poa_guidance_subtitle_benefits_letter" = "必须是在过去12个月内签发";
+"onfido_poa_guidance_subtitle_address_card" = "必须是有效的含地址身份证";
+"onfido_poa_guidance_instructions_full_address" = "完整地址";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "签发日期";
+"onfido_poa_guidance_instructions_expiry_date" = "有效期（如适用）";
+"onfido_qes_consent_introduction_validation" = "需要同意";

@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Hantar gambar";
 "onfido_doc_confirmation_button_primary_visa" = "Hantar gambar";
 "onfido_selfie_confirmation_button_secondary" = "Ambil semula gambar";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Dayakan kedua-duanya";
 "onfido_permission_button_primary_cam" = "Dayakan kamera";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Mulakan semula rakaman";
 "onfido_video_capture_prompt_detail_restart" = "Untuk memastikan rakaman ini jelas, anda mesti memastikan wajah anda berada dalam pandangan sepanjang rakaman.";
 "onfido_video_capture_prompt_button_restart" = "Mula semula";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Pastikan wajah anda berada dalam bingkai berbentuk bujur";
 "onfido_video_capture_body" = "Pastikan wajah anda berada dalam bingkai berbentuk bujur untuk memulakan rakaman";
 "onfido_doc_confirmation_body_license" = "Pastikan butiran anda jelas dan tidak terlindung";
 "onfido_doc_confirmation_body_generic" = "Pastikan butiran anda jelas dan tidak terlindung";
 "onfido_doc_confirmation_body_id" = "Pastikan butiran anda jelas dan tidak terlindung";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Pastikan butiran anda jelas dan tidak terlindung";
 "onfido_doc_confirmation_body_permit" = "Pastikan butiran anda jelas dan tidak terlindung";
 "onfido_doc_confirmation_body_visa" = "Pastikan butiran anda jelas dan tidak terlindung";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Pastikan keseluruhan wajah anda kelihatan";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Letakkan halaman visa dokumen anda dalam bingkai";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Memuatkan";
-
-
 "onfido_doc_capture_header_passport_auto" = "Letakkan halaman foto dokumen anda dalam bingkai";
 "onfido_doc_capture_header_license_back" = "Letakkan bahagian belakang dokumen anda dalam bingkai";
 "onfido_doc_capture_header_license_back_auto" = "Letakkan bahagian belakang dokumen anda dalam bingkai";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Letakkan bahagian depan dokumen anda dalam bingkai";
 "onfido_doc_capture_header_id_front" = "Letakkan bahagian depan dokumen anda dalam bingkai";
 "onfido_doc_capture_header_permit_front" = "Letakkan bahagian depan dokumen anda dalam bingkai";
-
 "onfido_generic_uploading" = "Memuat naik";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Pastikan semua dokumen ada dalam gambar";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Pastikan wajah anda kelihatan";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Sahkan identiti anda";
 "onfido_app_title_country_select" = "Pilih negara yang mengeluarkan";
 "onfido_video_capture_alert_wrong_side" = "Sisi yang salah";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Percepatkan proses dengan NFC";
 "onfido_nfc_select_subtitle_passport" = "Kami akan mengimbas cip NFC pada pasport anda";
 "onfido_nfc_select_body_passport" = "e-Pasport mempunyai simbol ini pada bahagian kulit depan";
 "onfido_nfc_select_button_primary_passport" = "Guna e-Pasport";
 "onfido_nfc_select_button_secondary_passport" = "Ia bukan e-Pasport";
-
 "onfido_nfc_select_title_card" = "Percepatkan proses dengan NFC";
 "onfido_nfc_select_subtitle_card" = "Kami akan mengimbas cip NFC dalam kad anda";
 "onfido_nfc_select_body_card" = "Kad dengan cip NFC mempunyai simbol ini";
 "onfido_nfc_select_button_primary_card" = "Guna kad NFC";
 "onfido_nfc_select_button_secondary_card" = "Ini bukan kad NFC";
-
 "onfido_nfc_intro_title_passport" = "Imbas cip pasport anda";
 "onfido_nfc_intro_subtitle_passport" = "Gunakan telefon anda untuk mengimbas cip dalam pasport anda";
 "onfido_nfc_intro_passport_scan_guide_1" = "Anda perlu meletakkan pasport anda yang terbuka di atas permukaan yang datar";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Letakkan telefon anda berhampiran bahagian tengah pasport anda";
 "onfido_nfc_intro_carousel_body_last_page" = "Anda juga boleh mencuba pada bahagian dalam halaman belakang";
 "onfido_nfc_intro_carousel_body_dont_move" = "Jangan gerakkan telefon atau pasport anda semasa mengimbas";
-
 "onfido_nfc_fail_title_passport" = "Kami tidak dapat mengimbas pasport anda";
 "onfido_nfc_fail_title_card" = "Kami tidak dapat mengimbas kad NFC anda";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Tanggalkan sarung pasport dan penutup telefon anda";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Pastikan telefon dan kad anda bersentuhan sehingga pengimbasan berjaya";
 "onfido_nfc_fail_button_primary_card" = "Mulakan imbasan";
 "onfido_nfc_fail_button_secondary_card" = "Dapatkan pengesahan tanpa imbasan";
-
 "onfido_doc_confirmation_zoom_button" = "Besarkan imej";
 "onfido_doc_confirmation_image_accessibility" = "Gambar dokumen anda. Ketik dua kali untuk besarkan.";
 "onfido_doc_zoom_body" = "Bergerak menggunakan satu jari";
 "onfido_doc_zoom_button_close" = "Tutup";
-
 "onfido_video_confirmation_body" = "Video anda telah dirakam";
 "onfido_app_title_country_select_search" = "Carian";
 "onfido_country_select_list_accessibility" = "Hasil carian";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Adakah anda pasti?";
 "onfido_user_consent_prompt_no_consent_detail" = "Jika anda tidak bersetuju dengan pernyataan privasi dan terma perkhidmatan Onfido, kami tidak akan dapat mengesahkan identiti anda dan anda akan keluar daripada langkah ini.";
 "onfido_user_consent_prompt_button_secondary" = "Semak semula";
 "onfido_user_consent_prompt_button_primary" = "Ya, jangan sahkan saya";
 "onfido_user_consent_button_primary" = "Bersetuju";
 "onfido_user_consent_button_secondary" = "Tidak bersetuju";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Kandungan gagal dimuatkan";
 "onfido_user_consent_load_fail_detail" = "Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian";
 "onfido_user_consent_load_fail_button_primary" = "Muat semula skrin";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Pegang telefon anda di atas halaman foto pasport anda";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pandangan dari kamera. Letakkan telefon anda pada halaman foto pasport anda, kemudian gerakkan telefon anda daripadanya secara perlahan-lahan mengikut garisan lurus.";
 "onfido_doc_capture_header_capturing" = "Jangan bergerak";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Pastikan anda telah memuat naik keseluruhan halaman dokumen dan butiran adalah jelas untuk dibaca tanpa kabur atau silau";
 "onfido_doc_select_subtitle_poa" = "Ini ialah dokumen-dokumen yang berkemungkinan besar menunjukkan alamat rumah semasa anda";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Muat semula video contoh";
 "onfido_doc_select_button_address_card" = "Kad alamat";
 "onfido_doc_select_button_address_card_detail" = "Kad sementara dan kekal diterima";
-"proofOfAddress.guide.subtitle_address_certificate" = "Mesti kad alamat yang sah";
-
 "onfido_welcome_start_workflow_button_trial" = "Mulakan pengesahan (PERCUBAAN)";
 "onfido_enter_can_title" = "Sila masukkan nombor CAN";
 "onfido_enter_can_subtitle" = "Nombor %d-digit terletak di bahagian depan dokumen anda";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Cuba Semula";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Audio sedang dimainkan oleh aplikasi lain";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat";
-
 "onfido_nfc_scan_welcome_card_title" = "Imbas dokumen anda";
 "onfido_nfc_scan_welcome_card_subtitle" = "Gunakan telefon anda untuk mengimbas cip dalam dokumen anda";
 "onfido_nfc_scan_welcome_card_list_item" = "Posisikan dokumen anda sehingga menyentuh bahagian belakang peranti anda";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna";
 "onfido_nfc_scan_welcome_card_button_primary" = "Mula mengimbas";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Dapatkan pengesahan tanpa NFC";
-
 "onfido_nfc_scan_error_inter_title" = "Kami tidak dapat mengimbas dokumen anda";
 "onfido_nfc_scan_error_inter_list_item" = "Tanggalkan penutup telefon anda";
 "onfido_nfc_scan_error_inter_list_item_2" = "Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya";
 "onfido_nfc_scan_error_inter_primary_button" = "Mulakan imbasan";
 "onfido_nfc_scan_error_inter_secondary_button" = "Dapatkan pengesahan tanpa NFC";
-
 "onfido_nfc_scan_error_final_title" = "Kami tidak dapat mengesahkan dokumen ini";
 "onfido_nfc_scan_error_final_subtitle" = "Pengimbasan NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.";
 "onfido_nfc_scan_error_final_list_item" = "Adakah anda mempunyai dokumen lain untuk meneruskan?";
 "onfido_nfc_scan_error_final_primary_button" = "Gunakan dokumen yang berbeza";
 "onfido_nfc_scan_error_final_secondary_button" = "Dapatkan pengesahan tanpa NFC";
-
 "onfido_nfc_scan_welcome_passport_title" = "Percepatkan proses dengan NFC";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Gunakan telefon anda untuk mengimbas cip dalam dokumen anda";
 "onfido_nfc_scan_welcome_passport_list_item" = "Letakkan dokumen anda di atas permukaan rata";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Mula mengimbas";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Dapatkan pengesahan tanpa NFC";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Kami tidak dapat mengimbas dokumen anda";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Tanggalkan sarung pasport dan penutup telefon anda";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Balikkan ke bahagian hadapan";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Balikkan ke bahagian belakang";
 "onfido_doc_capture_alert_hold_still_title" = "Jangan bergerak";
-
 "onfido_doc_capture_alert_photo_page_title" = "Paparkan halaman foto sahaja";
 "onfido_doc_capture_alert_tilted_title" = "Pegang dokumen dengan lurus";
 "onfido_doc_capture_header_recording_video" = "Merekod video";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokopi dikesan";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Imbasan dikesan";
 "onfido_doc_confirmation_alert_odp_detail" = "Sila gunakan dokumen asal anda. Foto skrin atau fotokopi tidak diterima";
-
 "onfido_interactive_task_waiting_title_1" = "Memeriksa kualiti imej...";
 "onfido_interactive_task_waiting_subtitle_1" = "Sila bersabar sebentar lagi untuk tugas ini selesai.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Memproses data...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Anda mungkin diminta untuk memasukkan CAN sebelum meneruskan ke imbasan";
 "onfido_enter_can_secondary_button" = "Saya tidak mempunyai CAN";
 "onfido_enter_can_warning" = "Anda mempunyai %d %@ yang tersisa";
-
 "onfido_otp_send_code_input_label" = "Nombor telefon";
 "onfido_otp_send_code_error_invalid_phone_number" = "Sila berikan nombor telefon yang sah.";
 "onfido_otp_error_title" = "Sesuatu telah berlaku salah";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Dikeluarkan oleh pihak berkuasa kerajaan atau tuan tanah korporat sebagai pengesahan sewa.";
 "onfido_generic_alert_parsing_error_label" = "Ralat Menghurai";
 "onfido_generic_error_parsing_detail" = "Terdapat ralat penghuraian. Sila cuba lagi.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Letakkan bahagian atas telefon anda ke bahagian bawah pasport anda.";
 "onfido_nfc_capture_scan_passport_sheet" = "Letakkan separuh bahagian atas telefon anda berhubung dengan separuh bahagian bawah pasport anda.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Kekalkan telefon dan pasport anda dalam keadaan diam.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Letakkan dokumen anda di bahagian belakang atas telefon anda.";
 "onfido_nfc_card_scan_doc_realign_body" = "Letakkan semula dokumen anda di bahagian belakang atas telefon anda.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Kekalkan telefon dan dokumen anda dalam keadaan tetap.";
-"proofOfAddress.country.alert.intro" = "Tidak menemui negara anda?";
-"proofOfAddress.selection.subtitle" = "Ini ialah dokumen-dokumen yang berkemungkinan besar menunjukkan alamat rumah semasa anda";
-"common.selection.utility_bill_extra" = "e-penyata diterima";
-"common.selection.utility_bill_details" = "Gas, elektrik, air, talian tetap atau jalur lebar";
-"common.selection.benefit_letters_details" = "Faedah isi rumah yang dibenarkan oleh kerajaan cth. Elaun pencari kerja, Faedah perumahan, Kredit cukai";
-"proofOfAddress.intro.subtitle" = "Anda memerlukan dokumen yang:";
-"proofOfAddress.intro.list_current_address" = "Padan dengan alamat yang anda guna semasa mendaftar";
-"proofOfAddress.intro.button_primary" = "Mulakan pengesahan";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Nama penuh";
-"proofOfAddress.guide.instructions.label" = "Rakam keseluruhan dokumen dan pastikan ia menunjukkan dengan jelas:";
-"proofOfAddress.guide.instructions.address" = "Alamat semasa";
-"proofOfAddress.guide.instructions.issue_date" = "Tarikh pengeluaran atau ringkasan tempoh";
-"proofOfAddress.guide.button_primary" = "Teruskan";
-"common.selection.bank_building_society_statement" = "Penyata bank atau penyata persatuan pembinaan";
-"common.selection.utility_bill" = "Bil Utiliti";
-"common.selection.benefit_letters" = "Surat Faedah";
-"common.selection.council_tax" = "Surat Cukai Kerajaan Tempatan";
-"proofOfAddress.country.alert.close" = "Tutup";
-"proofOfAddress.capture.frame_accessibility" = "Pandangan dari kamera";
-"proofOfAddress.intro.list_signup_address" = "Dokumen terkini anda";
-"proofOfAddress.intro.list_recent_document" = "Menunjukkan alamat semasa anda";
-"proofOfAddress.intro.title" = "Mari sahkan alamat anda";
-"proofOfAddress.preview.body_council_tax" = "Pastikan anda telah memuat naik keseluruhan halaman dokumen dan butiran adalah jelas untuk dibaca tanpa kabur atau silau";
-"proofOfAddress.country.button_primary" = "Hantar dokumen";
-"proofOfAddress.preview.redo" = "Ambil semula gambar";
-"proofOfAddress.preview.choose_another_photo" = "Pilih yang lain";
-"proofOfAddress.preview.image.accessibility" = "Tunjukkan pratonton dokumen yang dibesarkan";
-"proofOfAddress.preview.image.zoom_text" = "Besarkan dokumen";
-"proofOfAddress.preview.image.zoom_move" = "Bergerak menggunakan satu jari";
-"proofOfAddress.preview.image.zoom_close" = "Tutup";
-"proofOfAddress.capture.instructions" = "Bahagian depan dokumen alamat";
-"proofOfAddress.upload.take_photo" = "Tangkap gambar";
-"proofOfAddress.upload.upload_photo" = "Muat naik";
-"proofOfAddress.selection.title" = "Pilih dokumen";
-"proofOfAddress.selection.title_uk" = "Pilih dokumen UK";
-"proofOfAddress.country.alert.country_not_found" = "Minta maaf tentang perkara tersebut. Kami sedang berusaha untuk menyokong lebih banyak negara.";
-"welcome.list_item.poa" = "Ambil gambar dokumen yang mempunyai alamat anda";
-"proofOfAddress.upload.dialog.photo_library" = "Pustaka Foto";
-"proofOfAddress.upload.dialog.files" = "Fail";
-"proofOfAddress.upload.dialog.cancel" = "Batal";
-"common.error.errors.invalid_type.instruction" = "Fail Tidak Sah";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Sila pilih fail lain.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Mesti dikeluarkan dalam tempoh 3 bulan terakhir";
-"proofOfAddress.guide.subtitle_tax_letter" = "Mesti dikeluarkan dalam tempoh 12 bulan terakhir";
-"proofOfAddress.guide.subtitle_bill" = "Mesti dikeluarkan dalam tempoh 3 bulan terakhir";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Mesti dikeluarkan dalam tempoh 12 bulan terakhir";
-"common.selection.address_card" = "Kad alamat";
-"common.selection.address_card_details" = "Kad sementara dan kekal diterima";
-"proofOfAddress.guide.instructions.full_address" = "Alamat penuh";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Tarikh dikeluarkan";
-"proofOfAddress.guide.instructions.expiry_date" = "Tarikh luput, jika berkenaan";
-"proofOfAddress.capture.frame_accessibility" = "Rakamkan dokumen anda";
-"document.selection.no_mobile" = "Maaf, tiada bil telefon bimbit";
-
 "onfido_permission_button_primary_both_label" = "Benarkan kedua-dua kamera dan mikrofon";
+"onfido_poa_intro_subtitle" = "Anda memerlukan dokumen yang:";
+"onfido_poa_intro_list_matches_signup" = "Padan dengan alamat yang anda guna semasa mendaftar";
+"onfido_poa_intro_button_primary" = "Mulakan pengesahan";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Nama penuh";
+"onfido_poa_guidance_instructions_label" = "Rakam keseluruhan dokumen dan pastikan ia menunjukkan dengan jelas:";
+"onfido_poa_guidance_instructions_address" = "Alamat semasa";
+"onfido_poa_guidance_instructions_issue_date" = "Tarikh pengeluaran atau ringkasan tempoh";
+"onfido_poa_guidance_button_primary" = "Teruskan";
+"onfido_poa_intro_list_most_recent" = "Dokumen terkini anda";
+"onfido_poa_intro_list_shows_address" = "Menunjukkan alamat semasa anda";
+"onfido_poa_intro_title" = "Mari sahkan alamat anda";
+"onfido_poa_capture_confirm" = "Hantar dokumen";
+"onfido_poa_capture_redo" = "Ambil semula gambar";
+"onfido_poa_capture_choose_another" = "Pilih yang lain";
+"onfido_poa_capture_image_accessibility" = "Tunjukkan pratonton dokumen yang dibesarkan";
+"onfido_poa_capture_enlarge" = "Besarkan dokumen";
+"onfido_poa_capture_enlarge_move" = "Bergerak menggunakan satu jari";
+"onfido_poa_capture_enlarge_close" = "Tutup";
+"onfido_poa_capture_instructions" = "Bahagian depan dokumen alamat";
+"onfido_poa_upload_instructions_take_photo_button" = "Tangkap gambar";
+"onfido_poa_upload_instructions_upload_button" = "Muat naik";
+"onfido_poa_type_selection_title" = "Pilih dokumen";
+"onfido_poa_type_selection_title_uk" = "Pilih dokumen UK";
+"onfido_poa_country_not_found" = "Minta maaf tentang perkara tersebut. Kami sedang berusaha untuk menyokong lebih banyak negara.";
+"onfido_poa_welcome_text" = "Ambil gambar dokumen yang mempunyai alamat anda";
+"onfido_poa_photo_library" = "Pustaka Foto";
+"onfido_poa_files" = "Fail";
+"onfido_poa_cancel" = "Batal";
+"onfido_poa_err_invalid_file_title" = "Fail Tidak Sah";
+"onfido_poa_err_invalid_file_message" = "Sila pilih fail lain.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Mesti dikeluarkan dalam tempoh 3 bulan terakhir";
+"onfido_poa_guidance_subtitle_tax_letter" = "Mesti dikeluarkan dalam tempoh 12 bulan terakhir";
+"onfido_poa_guidance_subtitle_bill" = "Mesti dikeluarkan dalam tempoh 3 bulan terakhir";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Mesti dikeluarkan dalam tempoh 12 bulan terakhir";
+"onfido_poa_guidance_subtitle_address_card" = "Mesti kad alamat yang sah";
+"onfido_poa_guidance_instructions_full_address" = "Alamat penuh";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Tarikh dikeluarkan";
+"onfido_poa_guidance_instructions_expiry_date" = "Tarikh luput, jika berkenaan";
+"onfido_qes_consent_introduction_validation" = "Persetujuan diperlukan";

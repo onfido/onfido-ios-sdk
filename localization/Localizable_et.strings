@@ -35,7 +35,6 @@
 "onfido_doc_confirmation_button_primary_permit" = "Esitage foto";
 "onfido_doc_confirmation_button_primary_visa" = "Esitage foto";
 "onfido_selfie_confirmation_button_secondary" = "Pildistage uuesti";
-
 /* Country Selection Screen */
 "onfido_permission_button_primary_both" = "Lubage mõlemad";
 "onfido_permission_button_primary_cam" = "Lubage kaamera";
@@ -106,21 +105,16 @@
 "onfido_video_capture_prompt_header_restart" = "Alustage salvestamist uuesti";
 "onfido_video_capture_prompt_detail_restart" = "Selle sammu edukaks lõpetamiseks peate kogu salvestuse vältel hoidma oma näo nähtaval.";
 "onfido_video_capture_prompt_button_restart" = "Alustage uuesti";
-
-
 /* Capture Document/Face */
 "onfido_selfie_capture_body" = "Hoidke oma nägu ovaali sees";
 "onfido_video_capture_body" = "Salvestamise alustamiseks hoidke oma nägu ovaali sees";
 "onfido_doc_confirmation_body_license" = "Veenduge, et teie andmed on selged ja katmata";
 "onfido_doc_confirmation_body_generic" = "Veenduge, et teie andmed on selged ja katmata";
 "onfido_doc_confirmation_body_id" = "Veenduge, et teie andmed on selged ja katmata";
-
 /* Document capture confirmation */
-
 "onfido_doc_confirmation_body_passport" = "Veenduge, et teie andmed on selged ja katmata";
 "onfido_doc_confirmation_body_permit" = "Veenduge, et teie andmed on selged ja katmata";
 "onfido_doc_confirmation_body_visa" = "Veenduge, et teie andmed on selged ja katmata";
-
 /* Face capture confirmation */
 "onfido_selfie_confirmation_body" = "Veenduge, et nähtav on kogu teie nägu";
 /* Document capture */
@@ -128,8 +122,6 @@
 "onfido_doc_capture_header_visa" = "Asetage oma dokumendi viisaleht kaadrisse";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Laadimine";
-
-
 "onfido_doc_capture_header_passport_auto" = "Asetage oma dokumendi fotoleht kaadrisse";
 "onfido_doc_capture_header_license_back" = "Asetage dokumendi tagakülg kaadrisse";
 "onfido_doc_capture_header_license_back_auto" = "Asetage dokumendi tagakülg kaadrisse";
@@ -141,7 +133,6 @@
 "onfido_doc_capture_header_generic_front" = "Asetage dokumendi esikülg kaadrisse";
 "onfido_doc_capture_header_id_front" = "Asetage dokumendi esikülg kaadrisse";
 "onfido_doc_capture_header_permit_front" = "Asetage dokumendi esikülg kaadrisse";
-
 "onfido_generic_uploading" = "Üleslaadimine";
 "onfido_doc_confirmation_alert_no_doc_detail" = "Veenduge, et fotol on kogu dokument";
 "onfido_selfie_confirmation_alert_no_face_detail" = "Veenduge, et teie nägu on nähtav";
@@ -186,21 +177,17 @@
 "onfido_app_title_doc_select" = "Kinnitage oma isik";
 "onfido_app_title_country_select" = "Valige väljastanud riik";
 "onfido_video_capture_alert_wrong_side" = "Vale külg";
-
 /* NFC Read */
-
 "onfido_nfc_select_title_passport" = "Protsessi kiirendamine NFC abil";
 "onfido_nfc_select_subtitle_passport" = "Skaneerime teie passi NFC-kiibi";
 "onfido_nfc_select_body_passport" = "ePassport passide kaanel on see sümbol";
 "onfido_nfc_select_button_primary_passport" = "Kasuta ePassporti";
 "onfido_nfc_select_button_secondary_passport" = "See ei ole ePassport";
-
 "onfido_nfc_select_title_card" = "Protsessi kiirendamine NFC abil";
 "onfido_nfc_select_subtitle_card" = "Skannime teie kaardi NFC-kiibi";
 "onfido_nfc_select_body_card" = "NFC-kiipidega kaartidel on järgmine sümbol";
 "onfido_nfc_select_button_primary_card" = "Kasutage NFC-kiibiga kaarti";
 "onfido_nfc_select_button_secondary_card" = "See pole NFC-kiibiga kaart";
-
 "onfido_nfc_intro_title_passport" = "Skaneerige oma passi kiip";
 "onfido_nfc_intro_subtitle_passport" = "Kasutage oma telefoni, et skaneerida kiip oma passis";
 "onfido_nfc_intro_passport_scan_guide_1" = "Asetage oma pass lahtiselt tasasele pinnale";
@@ -219,7 +206,6 @@
 "onfido_nfc_intro_carousel_body_phone_middle" = "Asetage telefon passi keskosa lähedale";
 "onfido_nfc_intro_carousel_body_last_page" = "Võite proovida ka tagakaane sisekülge";
 "onfido_nfc_intro_carousel_body_dont_move" = "Ärge liiguta skannimise ajal telefoni ega passi";
-
 "onfido_nfc_fail_title_passport" = "Meil ei õnnestunud teie passi skannida";
 "onfido_nfc_fail_title_card" = "Teie NFC-kiibiga kaarti ei õnnestunud skannida";
 "onfido_nfc_fail_list_item_remove_cover_passport" = "Eemaldage passilt ja telefonilt katted";
@@ -230,27 +216,21 @@
 "onfido_nfc_fail_list_item_keep_contact_card" = "Hoidke telefoni ja kaarti koos, kuni skaneerimine õnnestub";
 "onfido_nfc_fail_button_primary_card" = "Alustage skannimist";
 "onfido_nfc_fail_button_secondary_card" = "Isiku tuvastamine skannimata";
-
 "onfido_doc_confirmation_zoom_button" = "Suurendage pilti";
 "onfido_doc_confirmation_image_accessibility" = "Foto teie dokumendist. Suurendamiseks puudutage kaks korda.";
 "onfido_doc_zoom_body" = "Ühe sõrmega ringi liikumine";
 "onfido_doc_zoom_button_close" = "Sulgege";
-
 "onfido_video_confirmation_body" = "Teie video on salvestatud";
 "onfido_app_title_country_select_search" = "Otsing";
 "onfido_country_select_list_accessibility" = "Otsingutulemused";
-
 /* User consent */
-
 "onfido_user_consent_prompt_no_consent_title" = "Kas olete kindel?";
 "onfido_user_consent_prompt_no_consent_detail" = "Kui te ei nõustu Onfido isikuandmete kaitset käsitlevate teatiste ja teenusetingimustega, ei saa me teie isikut tuvastada ja käesolev tegevus lõpetatakse.";
 "onfido_user_consent_prompt_button_secondary" = "Vaadake uuesti üle";
 "onfido_user_consent_prompt_button_primary" = "Jah, jätke mu isik tuvastamata";
 "onfido_user_consent_button_primary" = "Nõustuge";
 "onfido_user_consent_button_secondary" = "Ärge nõustuge";
-
 /* User consent load error */
-
 "onfido_user_consent_load_fail_title" = "Sisu laadimine ebaõnnestus";
 "onfido_user_consent_load_fail_detail" = "Kontrollige, kas ühendus on stabiilne ning proovige uuesti";
 "onfido_user_consent_load_fail_button_primary" = "Laadige ekraan uuesti";
@@ -300,7 +280,6 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo" = "Hoidke telefoni passi fotolehe kohal";
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vaade kaamerast. Asetage telefon passi fotolehele ja seejärel liigutage telefon sellest aeglaselt ja otse eemale.";
 "onfido_doc_capture_header_capturing" = "Olge paigal";
-
 /* Proof of Address */
 "onfido_doc_confirmation_body" = "Veenduge, et olete kogu dokumendi lehe üles laadinud ja andmed on loetavad ning ei ole hägused ega ülevalgustatud";
 "onfido_doc_select_subtitle_poa" = "Need on dokumendid, mis näitavad kõige tõenäolisemalt teie praegust kodust aadressi";
@@ -467,8 +446,6 @@
 "onfido_video_intro_prompt_button_primary_reload_player_accessibility" = "Laadi näidisvideo uuesti";
 "onfido_doc_select_button_address_card" = "Aadressikaart";
 "onfido_doc_select_button_address_card_detail" = "Sobivad nii ajutised kui ka alalised kaardid";
-"proofOfAddress.guide.subtitle_address_certificate" = "Peab olema kehtiv aadressikaart";
-
 "onfido_welcome_start_workflow_button_trial" = "Alustage tuvastamist (TEST)";
 "onfido_enter_can_title" = "Sisestage CAN number";
 "onfido_enter_can_subtitle" = "%d-kohaline number asub teie dokumendi esiküljel";
@@ -537,7 +514,6 @@
 "onfido_avc_face_capture_alert_audio_conflict_button_primary" = "Proovige uuesti";
 "onfido_avc_face_capture_alert_audio_conflict_title" = "Heli mängitakse teisest rakendusest";
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Palun ärge mängige salvestamise ajal oma seadmes mingit heli";
-
 "onfido_nfc_scan_welcome_card_title" = "Skaneeri oma dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Kasuta oma telefoni, et skaneerida kiip oma dokumendis";
 "onfido_nfc_scan_welcome_card_list_item" = "Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku";
@@ -545,19 +521,16 @@
 "onfido_nfc_scan_welcome_card_list_item_3" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
 "onfido_nfc_scan_welcome_card_button_primary" = "Alustage skannimist";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Kinnitamine ilma NFC-ta";
-
 "onfido_nfc_scan_error_inter_title" = "Teie dokumendi skannimine ei õnnestunud";
 "onfido_nfc_scan_error_inter_list_item" = "Eemaldage oma telefoni kate";
 "onfido_nfc_scan_error_inter_list_item_2" = "Hoidke oma seadet ja dokumenti ühenduses, kuni skannimine on edukas";
 "onfido_nfc_scan_error_inter_primary_button" = "Alustage skannimist";
 "onfido_nfc_scan_error_inter_secondary_button" = "Kinnitamine ilma NFC-ta";
-
 "onfido_nfc_scan_error_final_title" = "Me ei saanud seda dokumenti kinnitada";
 "onfido_nfc_scan_error_final_subtitle" = "Selle dokumendi jaoks on nõutav NFC-skannimine, kuid seda ei saanud lõpule viia.";
 "onfido_nfc_scan_error_final_list_item" = "Kas teil on jätkamiseks mõni muu dokument?";
 "onfido_nfc_scan_error_final_primary_button" = "Kasutage teist dokumenti";
 "onfido_nfc_scan_error_final_secondary_button" = "Kinnitamine ilma NFC-ta";
-
 "onfido_nfc_scan_welcome_passport_title" = "Protsessi kiirendamine NFC abil";
 "onfido_nfc_scan_welcome_passport_subtitle" = "Kasuta oma telefoni, et skaneerida kiip oma dokumendis";
 "onfido_nfc_scan_welcome_passport_list_item" = "Asetage dokument tasasele pinnale";
@@ -567,7 +540,6 @@
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Alustage skannimist";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Kinnitamine ilma NFC-ta";
-
 "onfido_nfc_scan_error_inter_passport_title" = "Teie dokumendi skannimine ei õnnestunud";
 "onfido_nfc_scan_error_inter_passport_list_item" = "Eemaldage passilt ja telefonilt katted";
 "onfido_nfc_scan_error_inter_passport_list_item_2" = "Hoidke oma seadet ja dokumenti ühenduses, kuni skannimine on edukas";
@@ -579,7 +551,6 @@
 "onfido_doc_capture_alert_wrong_side_front_title" = "Pöörake esiküljele";
 "onfido_doc_capture_alert_wrong_side_back_title" = "Pöörake tagaküljele";
 "onfido_doc_capture_alert_hold_still_title" = "Olge paigal";
-
 "onfido_doc_capture_alert_photo_page_title" = "Näita ainult fotolehte";
 "onfido_doc_capture_alert_tilted_title" = "Hoia dokumenti sirgelt";
 "onfido_doc_capture_header_recording_video" = "Video salvestamine";
@@ -590,7 +561,6 @@
 "onfido_doc_confirmation_alert_odp_photocopy_title" = "Fotokoopia tuvastatud";
 "onfido_doc_confirmation_alert_odp_scan_title" = "Skaneerimine tuvastatud";
 "onfido_doc_confirmation_alert_odp_detail" = "Palun kasutage oma algset dokumenti. Ekraanipiltide või fotokoopiate kasutamine ei ole lubatud";
-
 "onfido_interactive_task_waiting_title_1" = "Kontrollin pildi kvaliteeti...";
 "onfido_interactive_task_waiting_subtitle_1" = "Palun oodake veidi kauem, kuni ülesanne on lõpule viidud.";
 "onfido_studio_between_interactive_tasks_waiting_title_1" = "Andmete koostamine...";
@@ -662,7 +632,6 @@
 "onfido_nfc_scan_welcome_card_disclaimer" = "Enne skaneerimise jätkamist võidakse teil paluda sisestada CAN";
 "onfido_enter_can_secondary_button" = "Mul pole CAN-i";
 "onfido_enter_can_warning" = "Sul on jäänud %d %@";
-
 "onfido_otp_send_code_input_label" = "Telefoninumber";
 "onfido_otp_send_code_error_invalid_phone_number" = "Palun esitage kehtiv telefoninumber.";
 "onfido_otp_error_title" = "Midagi läks valesti";
@@ -733,7 +702,6 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Välja antud valitsusasutuse või ettevõtte üürileandja poolt üürikinnituseks.";
 "onfido_generic_alert_parsing_error_label" = "Sõelumisviga";
 "onfido_generic_error_parsing_detail" = "Ilmnes süntaksi viga. Palun proovi uuesti.";
-
 "onfido_nfc_passport_scan_doc_realign_body" = "Paigutage oma telefoni ülaosa oma passi alaosa vastu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Asetage oma telefoni ülemine pool oma passi alumise poole vastu.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Hoidke oma telefoni ja passi paigal.";
@@ -764,60 +732,45 @@
 "onfido_nfc_capture_scan_card_sheet" = "Asetage oma dokument telefoni tagumise ülaosa vastu.";
 "onfido_nfc_card_scan_doc_realign_body" = "Paigutage oma dokument telefoni ülaosa tagakülje vastu.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Hoia oma telefoni ja dokumenti paigal.";
-"proofOfAddress.country.alert.intro" = "Kas te ei leia oma riiki?";
-"proofOfAddress.selection.subtitle" = "Need on dokumendid, mis näitavad kõige tõenäolisemalt teie praegust kodust aadressi";
-"common.selection.utility_bill_extra" = "elektroonilised väljavõtted sobivad";
-"common.selection.utility_bill_details" = "Gaas, elekter, vesi, lauatelefon või lairibaühendus";
-"common.selection.benefit_letters_details" = "Valitsuse heakskiidetud toetused, nt töötu abiraha, eluasemetoetus, maksukrediit";
-"proofOfAddress.intro.subtitle" = "Teil on vaja dokumenti, mis vastab järgmistele tingimustele.";
-"proofOfAddress.intro.list_current_address" = "Vastab teie poolt registreerumisel esitatud aadressile";
-"proofOfAddress.intro.button_primary" = "Alustage tuvastamist";
-"proofOfAddress.guide.instructions.logo" = "Logo";
-"proofOfAddress.guide.instructions.full_name" = "Täisnimi";
-"proofOfAddress.guide.instructions.label" = "Jäädvustage kogu dokument ja veenduge, et see näitab selgelt järgmist.";
-"proofOfAddress.guide.instructions.address" = "Praegune aadress";
-"proofOfAddress.guide.instructions.issue_date" = "Väljastamiskuupäev või väljavõtte periood";
-"proofOfAddress.guide.button_primary" = "Jätkake";
-"common.selection.bank_building_society_statement" = "Panga või korteriühistu väljavõte";
-"common.selection.utility_bill" = "Kommunaalteenuste arve";
-"common.selection.benefit_letters" = "Sotsiaalhüvede teavitus";
-"common.selection.council_tax" = "Kohaliku omavalitsuse maksukiri";
-"proofOfAddress.country.alert.close" = "Sulgege";
-"proofOfAddress.capture.frame_accessibility" = "Vaade kaamerast";
-"proofOfAddress.intro.list_signup_address" = "On teie uusim dokument";
-"proofOfAddress.intro.list_recent_document" = "Näitab teie praegust aadressi";
-"proofOfAddress.intro.title" = "Kontrollime teie aadressi";
-"proofOfAddress.preview.body_council_tax" = "Veenduge, et olete kogu dokumendi lehe üles laadinud ja andmed on loetavad ning ei ole hägused ega ülevalgustatud";
-"proofOfAddress.country.button_primary" = "Dokumendi esitamine";
-"proofOfAddress.preview.redo" = "Pildistage uuesti";
-"proofOfAddress.preview.choose_another_photo" = "Valige uus";
-"proofOfAddress.preview.image.accessibility" = "Näita suurendatud dokumendi eelvaadet";
-"proofOfAddress.preview.image.zoom_text" = "Dokumendi suurendamine";
-"proofOfAddress.preview.image.zoom_move" = "Ühe sõrmega ringi liikumine";
-"proofOfAddress.preview.image.zoom_close" = "Sulgege";
-"proofOfAddress.capture.instructions" = "Aadressi tõendava dokumendi esikülg";
-"proofOfAddress.upload.take_photo" = "Tehke foto";
-"proofOfAddress.upload.upload_photo" = "Üleslaadimine";
-"proofOfAddress.selection.title" = "Valige dokument";
-"proofOfAddress.selection.title_uk" = "Valige Ühendkuningriigi dokument";
-"proofOfAddress.country.alert.country_not_found" = "Vabandust. Me töötame riikide lisamise suunas.";
-"welcome.list_item.poa" = "Pildistage oma aadressiga dokumenti";
-"proofOfAddress.upload.dialog.photo_library" = "Fotokogu";
-"proofOfAddress.upload.dialog.files" = "Failid";
-"proofOfAddress.upload.dialog.cancel" = "Tühistage";
-"common.error.errors.invalid_type.instruction" = "Sobimatu fail";
-"proofOfAddress.upload.error.invalid_file_dialog_message" = "Valige teine fail.";
-"proofOfAddress.upload.error.invalid_file_dialog_ok" = "OK";
-"proofOfAddress.guide.subtitle_bank_statement" = "Peab olema väljastatud viimase 3 kuu jooksul";
-"proofOfAddress.guide.subtitle_tax_letter" = "Peab olema väljastatud viimase 12 kuu jooksul";
-"proofOfAddress.guide.subtitle_bill" = "Peab olema väljastatud viimase 3 kuu jooksul";
-"proofOfAddress.guide.subtitle_benefit_letters" = "Peab olema väljastatud viimase 12 kuu jooksul";
-"common.selection.address_card" = "Aadressikaart";
-"common.selection.address_card_details" = "Sobivad nii ajutised kui ka alalised kaardid";
-"proofOfAddress.guide.instructions.full_address" = "Täielik aadress";
-"proofOfAddress.guide.instructions.address_card_issue_date" = "Väljaandmise kuupäev";
-"proofOfAddress.guide.instructions.expiry_date" = "Kehtivusaeg (vajaduse korral)";
-"proofOfAddress.capture.frame_accessibility" = "Pildista oma dokumenti";
-"document.selection.no_mobile" = "Vabandust, mobiiltelefoni arveid ei ole";
-
 "onfido_permission_button_primary_both_label" = "Luba nii kaamera kui ka mikrofon";
+"onfido_poa_intro_subtitle" = "Teil on vaja dokumenti, mis vastab järgmistele tingimustele.";
+"onfido_poa_intro_list_matches_signup" = "Vastab teie poolt registreerumisel esitatud aadressile";
+"onfido_poa_intro_button_primary" = "Alustage tuvastamist";
+"onfido_poa_guidance_instructions_logo" = "Logo";
+"onfido_poa_guidance_instructions_full_name" = "Täisnimi";
+"onfido_poa_guidance_instructions_label" = "Jäädvustage kogu dokument ja veenduge, et see näitab selgelt järgmist.";
+"onfido_poa_guidance_instructions_address" = "Praegune aadress";
+"onfido_poa_guidance_instructions_issue_date" = "Väljastamiskuupäev või väljavõtte periood";
+"onfido_poa_guidance_button_primary" = "Jätkake";
+"onfido_poa_intro_list_most_recent" = "On teie uusim dokument";
+"onfido_poa_intro_list_shows_address" = "Näitab teie praegust aadressi";
+"onfido_poa_intro_title" = "Kontrollime teie aadressi";
+"onfido_poa_capture_confirm" = "Dokumendi esitamine";
+"onfido_poa_capture_redo" = "Pildistage uuesti";
+"onfido_poa_capture_choose_another" = "Valige uus";
+"onfido_poa_capture_image_accessibility" = "Näita suurendatud dokumendi eelvaadet";
+"onfido_poa_capture_enlarge" = "Dokumendi suurendamine";
+"onfido_poa_capture_enlarge_move" = "Ühe sõrmega ringi liikumine";
+"onfido_poa_capture_enlarge_close" = "Sulgege";
+"onfido_poa_capture_instructions" = "Aadressi tõendava dokumendi esikülg";
+"onfido_poa_upload_instructions_take_photo_button" = "Tehke foto";
+"onfido_poa_upload_instructions_upload_button" = "Üleslaadimine";
+"onfido_poa_type_selection_title" = "Valige dokument";
+"onfido_poa_type_selection_title_uk" = "Valige Ühendkuningriigi dokument";
+"onfido_poa_country_not_found" = "Vabandust. Me töötame riikide lisamise suunas.";
+"onfido_poa_welcome_text" = "Pildistage oma aadressiga dokumenti";
+"onfido_poa_photo_library" = "Fotokogu";
+"onfido_poa_files" = "Failid";
+"onfido_poa_cancel" = "Tühistage";
+"onfido_poa_err_invalid_file_title" = "Sobimatu fail";
+"onfido_poa_err_invalid_file_message" = "Valige teine fail.";
+"onfido_poa_err_invalid_file_ok" = "OK";
+"onfido_poa_guidance_subtitle_bank_statement" = "Peab olema väljastatud viimase 3 kuu jooksul";
+"onfido_poa_guidance_subtitle_tax_letter" = "Peab olema väljastatud viimase 12 kuu jooksul";
+"onfido_poa_guidance_subtitle_bill" = "Peab olema väljastatud viimase 3 kuu jooksul";
+"onfido_poa_guidance_subtitle_benefits_letter" = "Peab olema väljastatud viimase 12 kuu jooksul";
+"onfido_poa_guidance_subtitle_address_card" = "Peab olema kehtiv aadressikaart";
+"onfido_poa_guidance_instructions_full_address" = "Täielik aadress";
+"onfido_poa_guidance_instructions_address_card_issue_date" = "Väljaandmise kuupäev";
+"onfido_poa_guidance_instructions_expiry_date" = "Kehtivusaeg (vajaduse korral)";
+"onfido_qes_consent_introduction_validation" = "Nõusolek vajalik";
