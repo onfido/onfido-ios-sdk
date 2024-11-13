@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Izdošanas datums";
 "onfido_poa_guidance_instructions_expiry_date" = "Derīguma termiņš (ja attiecināms)";
 "onfido_qes_consent_introduction_validation" = "Nepieciešama piekrišana";
+"onfido_otp_send_code_error_invalid_country_code" = "Atvainojiet, mēs neatbalstām šo valsts kodu";

@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "签发日期";
 "onfido_poa_guidance_instructions_expiry_date" = "有效期（如适用）";
 "onfido_qes_consent_introduction_validation" = "需要同意";
+"onfido_otp_send_code_error_invalid_country_code" = "抱歉，我们不支持此国家代码";

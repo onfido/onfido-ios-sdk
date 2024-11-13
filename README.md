@@ -1157,6 +1157,17 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 [configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
 ```
 
+To configure for **Motion without intro screen**:
+
+The intro screens are designed to give end-users clear context on what actions they need to take and why these actions are necessary. Removing this screen could lead to confusion and higher drop-off rates, as users might not understand what is required of them and choose to abandon the process. It is crucial, especially during onboarding, to provide a similar level of guidance if the intro screen is removed, ensuring users are still well-informed. However, when re-verifying returning users who are already familiar with the flow, skipping the intro screen may enhance the user experience by streamlining the process and eliminating unnecessary steps.
+
+```
+NSError * error;
+Builder * variantBuilder = [ONFaceStepVariantConfig builder];
+[variantBuilder withMotionWithConfig: [[MotionStepConfiguration alloc] initWithShowIntro: NO]];
+[configBuilder withFaceStepOfVariant: [variantBuilder buildAndReturnError: &error]];
+```
+
 ##### Swift
 
 The Face step has 3 variants for the **Swift interface**:
@@ -1206,6 +1217,19 @@ let config = try OnfidoConfig.builder()
     .withWelcomeStep()
     .withDocumentStep()
     .withFaceStep(ofVariant: .motion(withConfiguration: MotionStepConfiguration(recordAudio: true)))
+    .build()
+```
+
+To configure for **Motion without intro screen**:
+
+The intro screens are designed to give end-users clear context on what actions they need to take and why these actions are necessary. Removing this screen could lead to confusion and higher drop-off rates, as users might not understand what is required of them and choose to abandon the process. It is crucial, especially during onboarding, to provide a similar level of guidance if the intro screen is removed, ensuring users are still well-informed. However, when re-verifying returning users who are already familiar with the flow, skipping the intro screen may enhance the user experience by streamlining the process and eliminating unnecessary steps.
+
+```swift
+let config = try OnfidoConfig.builder()
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>")
+    .withWelcomeStep()
+    .withDocumentStep()
+    .withFaceStep(ofVariant: .motion(withConfiguration: MotionStepConfiguration(showIntro: false)))
     .build()
 ```
 
@@ -1706,7 +1730,7 @@ MOTION_FACIAL_CONNECTION_ERROR - User was presented the "Motion connection error
 
 ## Custom biometric token storage
 
-When using the decentralized authentication solution, by default the SDK manages biometric token storage. The SDK also allows you to have control over the token lifecycle by exposing an API to override the default implementation to read and write the token, so it can be stored on-device, in the cloud, in a keychain or on your servers.
+When using the authentication with local storage solution, by default the SDK manages biometric token storage. The SDK also allows you to have control over the token lifecycle by exposing an API to override the default implementation to read and write the token, so it can be stored on-device, in the cloud, in a keychain or on your servers.
 
 ### Implementation
 

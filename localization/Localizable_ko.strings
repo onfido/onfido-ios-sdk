@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "발행일";
 "onfido_poa_guidance_instructions_expiry_date" = "(해당하는 경우) 만료일";
 "onfido_qes_consent_introduction_validation" = "동의 필요";
+"onfido_otp_send_code_error_invalid_country_code" = "죄송합니다, 이 국가 코드는 지원되지 않습니다";

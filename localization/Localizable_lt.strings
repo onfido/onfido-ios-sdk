@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Išdavimo data";
 "onfido_poa_guidance_instructions_expiry_date" = "Galiojimo terminas (jei taikoma)";
 "onfido_qes_consent_introduction_validation" = "Reikalingas sutikimas";
+"onfido_otp_send_code_error_invalid_country_code" = "Atsiprašome, šio šalies kodo nepalaikome";

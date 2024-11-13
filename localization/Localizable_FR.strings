@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Date d'émission";
 "onfido_poa_guidance_instructions_expiry_date" = "Date d'expiration, le cas échéant";
 "onfido_qes_consent_introduction_validation" = "Consentement requis";
+"onfido_otp_send_code_error_invalid_country_code" = "Désolé, nous ne prenons pas en charge ce code pays";
