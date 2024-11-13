@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Ngày cấp";
 "onfido_poa_guidance_instructions_expiry_date" = "Ngày hết hạn nếu có";
 "onfido_qes_consent_introduction_validation" = "Yêu cầu sự đồng ý";
+"onfido_otp_send_code_error_invalid_country_code" = "Xin lỗi, chúng tôi không hỗ trợ mã quốc gia này";

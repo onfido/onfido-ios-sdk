@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Datum izdavanja";
 "onfido_poa_guidance_instructions_expiry_date" = "Rok valjanosti ako je primjenjivo";
 "onfido_qes_consent_introduction_validation" = "Potrebna suglasnost";
+"onfido_otp_send_code_error_invalid_country_code" = "Žao nam je, ne podržavamo ovaj kôd zemlje";

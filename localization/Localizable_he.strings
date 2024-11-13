@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "תאריך הנפקה";
 "onfido_poa_guidance_instructions_expiry_date" = "תאריך תפוגה אם רלוונטי";
 "onfido_qes_consent_introduction_validation" = "נדרשת הסכמה";
+"onfido_otp_send_code_error_invalid_country_code" = "מצטערים, איננו תומכים בקוד המדינה הזה";

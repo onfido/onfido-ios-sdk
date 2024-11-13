@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "जारी होने की तारीख";
 "onfido_poa_guidance_instructions_expiry_date" = "लागू होने की स्थिति में अवधि खत्म होने की तारीख";
 "onfido_qes_consent_introduction_validation" = "अनुमति आवश्यक";
+"onfido_otp_send_code_error_invalid_country_code" = "क्षमा करें, हम इस देश कोड का समर्थन नहीं करते हैं";

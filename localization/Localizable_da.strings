@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Udstedelsesdato";
 "onfido_poa_guidance_instructions_expiry_date" = "Udløbsdato, hvis relevant";
 "onfido_qes_consent_introduction_validation" = "Samtykke påkrævet";
+"onfido_otp_send_code_error_invalid_country_code" = "Beklager, vi understøtter ikke denne landekode";

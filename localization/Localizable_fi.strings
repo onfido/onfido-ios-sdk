@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Myöntämispäivä";
 "onfido_poa_guidance_instructions_expiry_date" = "Viim. voimassaolopäivä (tarvittaessa)";
 "onfido_qes_consent_introduction_validation" = "Suostumus vaaditaan";
+"onfido_otp_send_code_error_invalid_country_code" = "Valitettavasti emme tue tätä maatunnusta";

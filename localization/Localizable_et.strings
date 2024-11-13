@@ -774,3 +774,4 @@
 "onfido_poa_guidance_instructions_address_card_issue_date" = "Väljaandmise kuupäev";
 "onfido_poa_guidance_instructions_expiry_date" = "Kehtivusaeg (vajaduse korral)";
 "onfido_qes_consent_introduction_validation" = "Nõusolek vajalik";
+"onfido_otp_send_code_error_invalid_country_code" = "Kahjuks me ei toeta seda riigikoodi";
