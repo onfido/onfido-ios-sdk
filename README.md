@@ -124,7 +124,7 @@ release [here](https://github.com/onfido/onfido-ios-sdk/releases/latest).
 4. Add `Onfido.xcframework` located within your project to the `Embedded binaries` section in the `General` tab of your
    iOS app target
 
-⚠️ Do not add the xcframework as _resources_ to your app target, as only few files are required that xcode will 
+⚠️ Do not add the xcframework as _resources_ to your app target, as only few files are required that xcode will
 automatically take during build.
 
 #### Non-Swift apps
@@ -438,7 +438,7 @@ For the list of languages supported by Onfido, please refer to our [SDK customiz
 The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply
 full or partial translations. For any key without a translation, the supported language default will be used.
 
-When adding custom translations, you must add the whole set of keys included in the `Localizable.strings` file.
+When adding custom translations, you must add the whole set of keys included in the `Localizable_EN.strings` file ([reference](https://github.com/onfido/onfido-ios-sdk/blob/master/localization/Localizable_EN.strings)).
 
 You can name the strings file with the translated keys as you desire but the name of the file will have to be provided
 to the SDK as a parameter to the `withCustomLocalization()` method:
@@ -1381,10 +1381,10 @@ Document:
         Front: DocumentSideResult(id=document_id, side=FRONT, type=DRIVING_LICENCE, issuingCounfry=GBR)
         Back: DocumentSideResult(id=document_id, side=BACK, type=DRIVING_LICENCE, issuingCounfry=GBR)
         Type: DRIVING_LICENCE
-            
+
 Face:
-        Face(id=face_id, variant=PHOTO) 
-        
+        Face(id=face_id, variant=PHOTO)
+
 Proof of address:
         ProofOfAddress(type=UTILITY_BILL, front=(id=front_side_id, type=(optional)), back=(id=back_side_id, type=(optional)))
 

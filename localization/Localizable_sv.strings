@@ -775,3 +775,4 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Utgångsdatum om tillämpligt";
 "onfido_qes_consent_introduction_validation" = "Samtycke krävs";
 "onfido_otp_send_code_error_invalid_country_code" = "Tyvärr, vi stöder inte denna landskod";
+"onfido_otp_send_code_error_phone_number_blocked" = "Tyvärr, vi stöder inte denna landskod";
