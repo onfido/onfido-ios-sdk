@@ -775,3 +775,4 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Գործողության ժամկետը (եթե առկա է)";
 "onfido_qes_consent_introduction_validation" = "Համաձայնությունը պահանջվում է";
 "onfido_otp_send_code_error_invalid_country_code" = "Ներեցեք, մենք չենք աջակցում այս երկրի կոդը";
+"onfido_otp_send_code_error_phone_number_blocked" = "Ներեցեք, մենք չենք աջակցում այս երկրի կոդը";

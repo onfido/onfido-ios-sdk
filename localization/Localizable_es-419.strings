@@ -775,3 +775,4 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Fecha de vencimiento, si corresponde";
 "onfido_qes_consent_introduction_validation" = "Se requiere consentimiento";
 "onfido_otp_send_code_error_invalid_country_code" = "Lo sentimos, no admitimos este código de país";
+"onfido_otp_send_code_error_phone_number_blocked" = "Lo sentimos, no admitimos este código de país";

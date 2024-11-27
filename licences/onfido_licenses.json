@@ -33,6 +33,10 @@
          {
              "name": "3-clause BSD License",
              "file": "onfido_licenses_3_clause_bsd.txt"
+         },
+         {
+             "name": "Apache License v2",
+             "file": "onfido_licenses_apache_2.txt"
          }
     ]
 }

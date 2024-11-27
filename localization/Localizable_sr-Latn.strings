@@ -775,3 +775,4 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Datum isteka, ako postoji";
 "onfido_qes_consent_introduction_validation" = "Potrebna saglasnost";
 "onfido_otp_send_code_error_invalid_country_code" = "Žao nam je, ne podržavamo ovaj kod zemlje";
+"onfido_otp_send_code_error_phone_number_blocked" = "Žao nam je, ne podržavamo ovaj kod zemlje";

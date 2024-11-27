@@ -775,3 +775,4 @@
 "onfido_poa_guidance_instructions_expiry_date" = "Срок действия (если применимо)";
 "onfido_qes_consent_introduction_validation" = "Требуется согласие";
 "onfido_otp_send_code_error_invalid_country_code" = "Извините, мы не поддерживаем этот код страны";
+"onfido_otp_send_code_error_phone_number_blocked" = "Извините, мы не поддерживаем этот код страны";
