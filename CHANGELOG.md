@@ -6,6 +6,51 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [32.1.1] - 2024-11-21
+
+### Fixed
+
+- Fixed issue where global spinner did not respect the custom appearance configuration
+
+## [32.1.0] - 2024-11-04
+
+### Added
+
+- Changed key used for Motion network error screen's button text from `onfido_avc_connection_error_button_primary_reload` to `onfido_avc_connection_error_button_secondary_restart_recording`
+- Added option to hide Motion intro screen using `MotionStepConfiguration(showIntro: false)`, or via the Studio dashboard
+
+### Changed
+
+- Motion capture restarts instead of returning to the intro screen when the app returns to the foreground
+- The listed countries in the country list selector are now localized in the device's current locale and their endonym
+- Improved NFC document coverage and overall reliability
+- Improved loading transition between flow steps
+
+### Fixed
+
+- Fixed a bug where consent screen action buttons remain disabled when consent content doesn't overflow
+
+## [32.0.0] - 2024-10-28
+
+### Fixed
+
+- Reverted the new translation public API
+- Fixed compilation issue when running SDK on the simulator
+
+## [31.0.0] - 2024-09-18
+
+### Added
+
+- Added APIs for encrypted biometric token storage and retrieval
+- Proof of Address supports 2-sided documents
+- Added new API to accept translation overrides for Proof of Address, One-Time Password and Qualified Electronic Signature
+
+## [30.6.2] - 2024-11-29
+
+### Fixed
+
+- Fixed an issue that allowed multiple flow steps to be started at the same time
+
 ## [30.6.1] - 2024-09-26
 
 ### Fixed
