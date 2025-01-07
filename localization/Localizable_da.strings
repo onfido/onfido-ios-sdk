@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Samtykke påkrævet";
 "onfido_otp_send_code_error_invalid_country_code" = "Beklager, vi understøtter ikke denne landekode";
 "onfido_otp_send_code_error_phone_number_blocked" = "Beklager, vi understøtter ikke denne landekode";
+"onfido_generic_icon_error_accessibility" = "Fejl:";
+"onfido_generic_icon_warning_accessibility" = "Advarsel:";
+"onfido_generic_icon_success_accessibility" = "Succes:";

@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Требуется согласие";
 "onfido_otp_send_code_error_invalid_country_code" = "Извините, мы не поддерживаем этот код страны";
 "onfido_otp_send_code_error_phone_number_blocked" = "Извините, мы не поддерживаем этот код страны";
+"onfido_generic_icon_error_accessibility" = "Ошибка:";
+"onfido_generic_icon_warning_accessibility" = "Предупреждение:";
+"onfido_generic_icon_success_accessibility" = "Успех:";

@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Persetujuan diperlukan";
 "onfido_otp_send_code_error_invalid_country_code" = "Maaf, kami tidak mendukung kode negara ini";
 "onfido_otp_send_code_error_phone_number_blocked" = "Maaf, kami tidak mendukung kode negara ini";
+"onfido_generic_icon_error_accessibility" = "Kesalahan:";
+"onfido_generic_icon_warning_accessibility" = "Peringatan:";
+"onfido_generic_icon_success_accessibility" = "Berhasil:";

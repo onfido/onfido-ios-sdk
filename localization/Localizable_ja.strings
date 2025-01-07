@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "同意が必要です";
 "onfido_otp_send_code_error_invalid_country_code" = "申し訳ありませんが、この国コードには対応していません。";
 "onfido_otp_send_code_error_phone_number_blocked" = "申し訳ありませんが、この国コードには対応していません。";
+"onfido_generic_icon_error_accessibility" = "エラー:";
+"onfido_generic_icon_warning_accessibility" = "警告:";
+"onfido_generic_icon_success_accessibility" = "成功:";

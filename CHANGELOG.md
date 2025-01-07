@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
 
+## [32.2.0] - 2024-12-13
+
+### Changed
+
+- Changed Ukraine endonym from Ukraїna to Україна
+
+### Fixed
+
+- Attempted to fix rare Motion crash when completing a recording
+- Attempted to fix rare Motion crash resulting from issues during camera setup
+- Fixed an issue that allowed multiple flow steps to be started at the same time
+
 ## [32.1.1] - 2024-11-21
 
 ### Fixed

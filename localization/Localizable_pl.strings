@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Wymagana zgoda";
 "onfido_otp_send_code_error_invalid_country_code" = "Przepraszamy, nie obsługujemy tego kodu kraju";
 "onfido_otp_send_code_error_phone_number_blocked" = "Przepraszamy, nie obsługujemy tego kodu kraju";
+"onfido_generic_icon_error_accessibility" = "Błąd:";
+"onfido_generic_icon_warning_accessibility" = "Ostrzeżenie:";
+"onfido_generic_icon_success_accessibility" = "Sukces:";

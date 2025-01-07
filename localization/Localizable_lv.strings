@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Nepieciešama piekrišana";
 "onfido_otp_send_code_error_invalid_country_code" = "Atvainojiet, mēs neatbalstām šo valsts kodu";
 "onfido_otp_send_code_error_phone_number_blocked" = "Atvainojiet, mēs neatbalstām šo valsts kodu";
+"onfido_generic_icon_error_accessibility" = "Kļūda:";
+"onfido_generic_icon_warning_accessibility" = "Brīdinājums:";
+"onfido_generic_icon_success_accessibility" = "Veiksmīgi:";
