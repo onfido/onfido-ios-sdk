@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "الموافقة مطلوبة";
 "onfido_otp_send_code_error_invalid_country_code" = "عذرًا، لا ندعم رمز البلد هذا";
 "onfido_otp_send_code_error_phone_number_blocked" = "عذرًا، لا ندعم رمز البلد هذا";
+"onfido_generic_icon_error_accessibility" = "خطأ:";
+"onfido_generic_icon_warning_accessibility" = "تحذير:";
+"onfido_generic_icon_success_accessibility" = "نجاح:";

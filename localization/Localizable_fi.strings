@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Suostumus vaaditaan";
 "onfido_otp_send_code_error_invalid_country_code" = "Valitettavasti emme tue tätä maatunnusta";
 "onfido_otp_send_code_error_phone_number_blocked" = "Valitettavasti emme tue tätä maatunnusta";
+"onfido_generic_icon_error_accessibility" = "Virhe:";
+"onfido_generic_icon_warning_accessibility" = "Varoitus:";
+"onfido_generic_icon_success_accessibility" = "Onnistuminen:";

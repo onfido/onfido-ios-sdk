@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "동의 필요";
 "onfido_otp_send_code_error_invalid_country_code" = "죄송합니다, 이 국가 코드는 지원되지 않습니다";
 "onfido_otp_send_code_error_phone_number_blocked" = "죄송합니다, 이 국가 코드는 지원되지 않습니다";
+"onfido_generic_icon_error_accessibility" = "오류:";
+"onfido_generic_icon_warning_accessibility" = "경고:";
+"onfido_generic_icon_success_accessibility" = "성공:";

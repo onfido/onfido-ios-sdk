@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Onay gerekli";
 "onfido_otp_send_code_error_invalid_country_code" = "Üzgünüz, bu ülke kodunu desteklemiyoruz";
 "onfido_otp_send_code_error_phone_number_blocked" = "Üzgünüz, bu ülke kodunu desteklemiyoruz";
+"onfido_generic_icon_error_accessibility" = "Hata:";
+"onfido_generic_icon_warning_accessibility" = "Uyarı:";
+"onfido_generic_icon_success_accessibility" = "Başarı:";

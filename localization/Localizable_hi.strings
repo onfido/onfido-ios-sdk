@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "अनुमति आवश्यक";
 "onfido_otp_send_code_error_invalid_country_code" = "क्षमा करें, हम इस देश कोड का समर्थन नहीं करते हैं";
 "onfido_otp_send_code_error_phone_number_blocked" = "क्षमा करें, हम इस देश कोड का समर्थन नहीं करते हैं";
+"onfido_generic_icon_error_accessibility" = "त्रुटि:";
+"onfido_generic_icon_warning_accessibility" = "चेतावनी:";
+"onfido_generic_icon_success_accessibility" = "सफलता:";

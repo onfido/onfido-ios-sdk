@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Consimțământ necesar";
 "onfido_otp_send_code_error_invalid_country_code" = "Ne pare rău, nu acceptăm acest cod de țară";
 "onfido_otp_send_code_error_phone_number_blocked" = "Ne pare rău, nu acceptăm acest cod de țară";
+"onfido_generic_icon_error_accessibility" = "Eroare:";
+"onfido_generic_icon_warning_accessibility" = "Avertisment:";
+"onfido_generic_icon_success_accessibility" = "Succes:";

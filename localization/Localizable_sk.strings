@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Vyžadovaný súhlas";
 "onfido_otp_send_code_error_invalid_country_code" = "Je nám ľúto, tento kód krajiny nie je podporovaný";
 "onfido_otp_send_code_error_phone_number_blocked" = "Je nám ľúto, tento kód krajiny nie je podporovaný";
+"onfido_generic_icon_error_accessibility" = "Chyba:";
+"onfido_generic_icon_warning_accessibility" = "Upozornenie:";
+"onfido_generic_icon_success_accessibility" = "Úspech:";

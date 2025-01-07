@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Nõusolek vajalik";
 "onfido_otp_send_code_error_invalid_country_code" = "Kahjuks me ei toeta seda riigikoodi";
 "onfido_otp_send_code_error_phone_number_blocked" = "Kahjuks me ei toeta seda riigikoodi";
+"onfido_generic_icon_error_accessibility" = "Viga:";
+"onfido_generic_icon_warning_accessibility" = "Hoiatus:";
+"onfido_generic_icon_success_accessibility" = "Edu:";

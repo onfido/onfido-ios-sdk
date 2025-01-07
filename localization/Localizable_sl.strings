@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Potrebno soglasje";
 "onfido_otp_send_code_error_invalid_country_code" = "Oprostite, te kode države ne podpiramo";
 "onfido_otp_send_code_error_phone_number_blocked" = "Oprostite, te kode države ne podpiramo";
+"onfido_generic_icon_error_accessibility" = "Napaka:";
+"onfido_generic_icon_warning_accessibility" = "Opozorilo:";
+"onfido_generic_icon_success_accessibility" = "Uspeh:";

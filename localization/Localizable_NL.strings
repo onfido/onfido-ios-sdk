@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Toestemming vereist";
 "onfido_otp_send_code_error_invalid_country_code" = "Sorry, we ondersteunen deze landcode niet";
 "onfido_otp_send_code_error_phone_number_blocked" = "Sorry, we ondersteunen deze landcode niet";
+"onfido_generic_icon_error_accessibility" = "Fout:";
+"onfido_generic_icon_warning_accessibility" = "Waarschuwing:";
+"onfido_generic_icon_success_accessibility" = "Succes:";

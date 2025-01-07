@@ -776,3 +776,6 @@
 "onfido_qes_consent_introduction_validation" = "Потрібна згода";
 "onfido_otp_send_code_error_invalid_country_code" = "На жаль, ми не підтримуємо цей код країни";
 "onfido_otp_send_code_error_phone_number_blocked" = "На жаль, ми не підтримуємо цей код країни";
+"onfido_generic_icon_error_accessibility" = "Помилка:";
+"onfido_generic_icon_warning_accessibility" = "Попередження:";
+"onfido_generic_icon_success_accessibility" = "Успіх:";

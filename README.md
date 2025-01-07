@@ -507,20 +507,26 @@ switch response {
   case let OnfidoResponse.error(error):
     switch error {
       case OnfidoFlowError.cameraPermission:
-        // This happens if the user denies permission to the SDK during the flow
+        // This error is thrown if the user denies permission to the SDK during the flow
       case OnfidoFlowError.failedToWriteToDisk:
-        // This happens when the SDK tries to save capture to disk, maybe due to a lack of space
+        // This error is thrown when the SDK tries to save capture to disk, maybe due to a lack of space
       case OnfidoFlowError.microphonePermission:
-        // This happens when the user denies permission for microphone usage by the app during the flow
+        // This error is thrown when the user denies permission for microphone usage by the app during the flow
       case OnfidoFlowError.upload(let OnfidoApiError):
-        // This happens when the SDK receives an error from an API call.
+        // This error is thrown when the SDK receives an error from an API call
         // See https://documentation.onfido.com/api/latest#errors for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
-        // This happens when an unexpected error occurs.
+        // This error is thrown when an unexpected error occurs
         // Please email [Customer support](mailto:supportonfido.com) when this happens
       case OnfidoFlowError.versionInsufficient:
-        // This happens when you are using an older version of the iOS SDK and trying
+        // This error is thrown when you are using an older version of the iOS SDK and trying
         // to access a new functionality from workflow. You can fix this by updating the SDK
+      case OnfidoFlowError.studioTaskAbandoned:
+        // This error is thrown when the workflow run (instance) is no longer available either due to it expiring or being completed already
+      case OnfidoFlowError.studioTaskError:
+        // This error is thrown when the workflow run can no longer be executed and returns a generic error
+      case OnfidoFlowError.invalidImageData:
+        // This error is thrown when the SDK is unable to compress the image captured by the user before uploading it    
 
       default: // necessary because of Swift
     }
@@ -1406,19 +1412,19 @@ switch response {
 case let OnfidoResponse.error(error):
     switch error {
     case OnfidoFlowError.cameraPermission:
-        // Occurs if the user denies permission to the SDK during the flow
+        // This error is thrown if the user denies permission to the SDK during the flow
     case OnfidoFlowError.microphonePermission:
-        // Occurs when the user denies permission for microphone usage by the app during the flow
+        // This error is thrown when the user denies permission for microphone usage by the app during the flow
     case OnfidoFlowError.failedToWriteToDisk:
-        // Occurs when the SDK tries to save capture to disk, maybe due to a lack of space
+        // This error is thrown when the SDK tries to save capture to disk, maybe due to a lack of space
     case OnfidoFlowError.upload(let OnfidoApiError):
-        // Occurs when the SDK receives an error from an API call, see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
+        // This error is thrown when the SDK receives an error from an API call, see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
     case OnfidoFlowError.exception(withError: let error, withMessage: let message):
-        // Returned when an unexpected error occurs, please contact [support](mailto:support@onfido.com) when this happens
+        // This error is thrown when an unexpected error occurs, please contact [support](mailto:support@onfido.com) when this happens
     case OnfidoFlowError.invalidImageData:
-        // Occurs when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
+        // This error is thrown when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
     case OnfidoFlowError.versionInsufficient:
-        // Occurs when the workflow version is insufficient
+        // This error is thrown when the workflow version is insufficient
     default: // necessary because swift
     }
 }
