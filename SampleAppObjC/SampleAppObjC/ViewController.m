@@ -41,31 +41,9 @@
     
     ONFlow *flow = [[ONFlow alloc] initWithFlowConfiguration:config];
     
-    
-    NSError *runError = NULL;
-    UIViewController *flowVC = [flow runAndReturnError:&runError];
-    
-    /*
-    Supported presentation styles are:
-    For iPhones: UIModalPresentationFullScreen
-    For iPads: UIModalPresentationFullScreen and UIModalPresentationFormSheet
-    */
-    
-    UIModalPresentationStyle modalPresentationStyle = UIModalPresentationFullScreen;  // due to iOS 13 you must specify .fullScreen as the default is now .pageSheet
-    
-    if(UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad) {
-        modalPresentationStyle = UIModalPresentationFormSheet; // to present modally on iPads
-    }
-    
-    flowVC.modalPresentationStyle = modalPresentationStyle;
-    
-    if (runError == NULL) {
-        [self presentViewController:flowVC animated:YES completion:nil];
-    } else {
-        [self showError:[[runError userInfo] valueForKey:@"message"]];
-    }
-    
+    ViewController *__weak weakSelf = self;
     [flow withResponseHandler:^(ONFlowResponse * _Nonnull response) {
+        ViewController *__strong self = weakSelf;
         
         if (response.error) {
             [self showError:[[response.error userInfo] valueForKey:@"message"]];
@@ -86,6 +64,26 @@
             [self presentViewController:alert animated:YES completion:nil];
         }
     }];
+    
+    
+    /*
+    Supported presentation styles are:
+    For iPhones: UIModalPresentationFullScreen
+    For iPads: UIModalPresentationFullScreen and UIModalPresentationFormSheet
+    */
+    
+    UIModalPresentationStyle modalPresentationStyle = UIModalPresentationFullScreen;  // due to iOS 13 you must specify .fullScreen, as the default is now .pageSheet
+    
+    if(UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        modalPresentationStyle = UIModalPresentationFormSheet; // to present modally on iPads
+    }
+    
+    NSError *runError = NULL;
+    [flow runFrom:self presentationStyle:modalPresentationStyle animated:YES error:&runError completion:nil];
+    
+    if (runError != NULL) {
+        [self showError:[[runError userInfo] valueForKey:@"message"]];
+    }
 }
 
 - (void)showError: (NSString *) message {
@@ -101,6 +99,8 @@
             return @"Reason: User exited flow";
         case CancellationReasonDeniedConsent:
             return @"Reason: User denied consent";
+        case CancellationReasonRequiredNFCFlowNotCompleted:
+            return @"Reason: NFC flow is not completed";
     }
 }
 
