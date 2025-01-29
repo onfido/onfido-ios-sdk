@@ -4,7 +4,7 @@ def setup_shared_pods
  use_frameworks!
  inhibit_all_warnings!
       
-    pod 'Onfido', '32.2.0'    
+    pod 'Onfido', '32.2.1'    
   end
 
 target 'SampleApp' do

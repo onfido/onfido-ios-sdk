@@ -1896,4 +1896,4 @@ We recommend you update your SDK to the latest version release as frequently as 
 
 You can review our full SDK versioning policy [here](https://documentation.onfido.com/sdk/sdk-version-releases).
 
-Copyright 2024 Onfido, Ltd. All rights reserved.
+Copyright 2025 Onfido, Ltd. All rights reserved.

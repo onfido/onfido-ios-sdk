@@ -23,6 +23,14 @@
             "copyright_notice": "Copyright (c) 2019 Andy Qua",
             "changed_source_code": true,
             "source_code_changes": null
+         },
+         {
+            "name": "MRZParser",
+            "project_url": "https://github.com/appintheair/MRZParser",
+            "license_name": "MIT",
+            "copyright_notice": "Copyright (c) 2021 App in the Air",
+            "changed_source_code": false,
+            "source_code_changes": null
          }
     ],
     "licenses": [
