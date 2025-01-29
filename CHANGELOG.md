@@ -1,10 +1,17 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+This changelog documents all notable modifications made to the iOS Smart Capture SDK over time. The purpose of this record is to provide transparency and traceability surrounding the evolution of the SDK.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#language-customisation)
+**Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
+
+## [32.2.1] - 2025-01-23
+
+### Fixed
+
+- Fixed NFC reading of some document types
+- Fixed Objective-C sample app
 
 ## [32.2.0] - 2024-12-13
 
@@ -28,15 +35,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Changed key used for Motion network error screen's button text from `onfido_avc_connection_error_button_primary_reload` to `onfido_avc_connection_error_button_secondary_restart_recording`
 - Added option to hide Motion intro screen using `MotionStepConfiguration(showIntro: false)`, or via the Studio dashboard
 
 ### Changed
 
 - Motion capture restarts instead of returning to the intro screen when the app returns to the foreground
-- The listed countries in the country list selector are now localized in the device's current locale and their endonym
+- The countries listed in the country selection screen are now localized in the device's configured locale and their endonym
 - Improved NFC document coverage and overall reliability
 - Improved loading transition between flow steps
+- Changed key used for Motion network error screen's button text from `onfido_avc_connection_error_button_primary_reload` to `onfido_avc_connection_error_button_secondary_restart_recording`
 
 ### Fixed
 
@@ -53,27 +60,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Added APIs for encrypted biometric token storage and retrieval
-- Proof of Address supports 2-sided documents
+- Proof of Address now supports 2-sided documents
 - Added new API to accept translation overrides for Proof of Address, One-Time Password and Qualified Electronic Signature
 
 ## [30.6.1] - 2024-09-26
 
-### Fixed
+### Added
 
-- Added type, issuing country and side metadata to document video uploads
+- Added `type`, `issuing_country` and `side` metadata to document video uploads
 
 ## [30.6.0] - 2024-08-29
 
 ### Added
 
-- Added APIs for encrypted biometric token storage and retrieval
+- Added APIs for encrypted [biometric token storage](https://documentation.onfido.com/getting-started/onfido-studio-product/#store-biometrics) and retrieval
 
 ## [30.5.0] - 2024-08-08
 
-### Changed
+### Added
 
-- Studio: Added support to exit the flow in WebViews
+- Added support to exit the flow in WebViews for Studio configurations
 
 ### Fixed
 
@@ -84,9 +90,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Added support for electronic ID verification (eID)
+- Added support for [electronic ID verification](https://documentation.onfido.com/guide/eid-verification) (eID)
 - Added a fallback for any unsupported Studio task to fallback to as a capture module
-- Added support for Spanish Dominican Republic language (es_DO)
+- Added support for Spanish Dominican Republic language (`es_DO`)
 
 ## [30.3.0] - 2024-06-28
 
@@ -107,21 +113,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Added withNFC(off, optional, required) to configure NFC
-- Deprecated disableNFC() use withNFC(.off) instead
+- Added `withNFC(off, optional, required)` to configure NFC for non-Studio verification flows
 
 ### Fixed
 
-- Fixed very rare crash that could occur when starting a recording on Video
-- Fixed error while passing multiple public keys to the certificate pinning API
-- Fixed crash while using Objective-C API
-- Fixed an issue with Studio tokenExpirationHandler not triggering correctly
+- Fixed a rare crash that could occur when starting a recording with Facial Similarity Video capture
+- Fixed an issue where the Studio `tokenExpirationHandler` not triggering after timeout
+
+### Deprecated
+
+- [Deprecated](https://documentation.onfido.com/sdk/ios/migration/#deprecated-api-changes) `disableNFC()` for non-Studio verification flows. Use `withNFC(off)` instead
 
 ## [30.1.0] - 2024-05-16
 
 ### Added
 
-- Add the ability for users to exit Studio workflows
+- Added the ability for users to exit Studio workflows from any screen in the verification flow
 
 ### Fixed
 
@@ -129,26 +136,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [30.0.1] - 2024-04-26
 
-### Fixed
+### Added
 
 - Added missing privacy manifest and descriptions for required reason APIs
+
+### Fixed
+
 - Fixed crash while using Objective-C API
 
 ## [30.0.0] - 2024-04-12
 
 ### Added
 
-- Motion capture fallback configuration has been removed: Motion is supported on all devices as of 29.9.0
-- Dropped iOS 12 support. Now supporting iOS 13 or newer
+- [Motion](https://documentation.onfido.com/guide/facial-similarity-reports/#motion) - Onfido’s fully-automated facial verification solution - is supported on all iOS devices from version 29.9.0, meaning that fallback configuration to face capture or video capture are no longer required
+- Added `ON` prefix for all [Objective-C types](https://documentation.onfido.com/sdk/ios/migration/#breaking-api-changes-2)
 
 ### Changed
 
-- Added ON prefix for all Objective-C types
-- Removed deprecated APIs
+- Dropped support for iOS 12. The SDK now supports iOS 13 or later
 
-### Fixed
+### Removed
 
-- Fixed an issue where document video capture would not be uploaded with photo
+- Removed a number of [deprecated public APIs](https://documentation.onfido.com/sdk/ios/migration/#deprecated-api-changes-1)
 
 ## [29.9.1] - 2024-04-05
 
@@ -160,14 +169,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Added UIAccessibilityTraitButton for 'CAN'T FIND YOUR COUNTRY' button in the Country Selection Screen
+- Added `UIAccessibilityTraitButton` for 'CAN'T FIND YOUR COUNTRY' button in the Country Selection Screen
 - Added Motion support for all devices: Older iPhones and all iPads now also supported. Motion capture fallback configuration has therefore been deprecated.
     - If you currently set `recordAudio`, use `MotionStepConfiguration(recordAudio:)` instead. If not, use `nil` instead of `MotionStepConfiguration(captureFallback:)`.
 
 ### Changed
 
 - Improved the accessibility announcements on the NFC dialog while users scan their passport chip
-- Improved readability for accessibility by showing the complete text when font settings are set to 200%.
+- Improved readability for accessibility by showing the complete text when font settings are set to 200%
 
 ### Fixed
 
@@ -177,14 +186,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Dropped iOS 11 support. Now supporting iOS 12 or newer.
 - Introduced privacy manifest
 - Added digital signature for the XCFramework
+- Added `withTokenExpirationHandler` for Studio workflow configurations
 
 ### Changed
 
 - Improved the oval size for aligning the user's face in Motion on older iPhones with smaller screens
-- Add token expiration handler for Workflow (Studio) configuration
+- Dropped support for iOS 11. The SDK now supports iOS 12 or later
 
 ### Fixed
 
@@ -213,19 +222,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- UI customisation is now applied to Motion
+- UI customization is now applied to Motion
 - Improved document capture image validation logic
 - Added support for the integration of Qualified Electronic Signature (QES) and One-Time Password (OTP) capture steps via Studio
+- Added NFC enforcement (through Studio) and UI/UX improvements
 
 ### Changed
 
-- NFC enforcement (through Studio) and UI/UX improvements added
-- Due to a change introduced by Apple in March 2023 with iOS v16.0, PACE-only documents can no longer be read by iOS devices installed with iOS 16 (or newer). To minimise integration complexity and instability with future releases of iOS, Onfido is removing support for NFC-PACE.
+- Due to a change introduced by Apple in March 2023 with iOS v16.0, PACE-only documents can no longer be read by iOS devices installed with iOS 16 (or newer). To minimize integration complexity and instability with future releases of iOS, Onfido is removing support for NFC-PACE
 
 ### Fixed
 
 - Fixed issue where enterprise features were ignored for studio flows
-- Fixed Selfie confirmation screen text not being visible in Dark Mode and not using the custom font set
+- Fixed Selfie confirmation screen text not being visible in dark mode and not using the custom font set
 - Fixed rare race condition that could cause Motion to crash
 - Fixed camera permissions checks to handle camera being restricted through "Content & Privacy restrictions"
 - Fixed showing a loading placeholder when configuring face step without intro video
@@ -238,7 +247,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [29.5.1] - 2023-10-05
 
-### Fixed
+### Added
 
 - Added missing face capture confirmation event
 
@@ -246,7 +255,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Improved document country search accessibility
+- Improved autocomplete accessibility for document country search 
 - Changed NFC intro related translation keys
 
 ### Fixed
@@ -271,70 +280,57 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Changed Face step border success colour in Video Step
+- Changed Face step border success color in Video Step
 
 ### Fixed
 
-- Fixed the issue that causes some documents to stuck on uploading screen 
+- Fixed an issue that caused the verification flow to get stuck on the document upload screen
 
 ## [29.3.0] - 2023-07-25
 
 ### Added
 
-- Ability to customise logo and branding available on all Motion screens. This is an enterprise feature, please reach out to your CSM if you want to know more
-- Added translations for live feedback on wrong passport page or tilted document
-- Added screen background colour customisation
 - Introduced `InterfaceStyle` which enables you to either force set the dark/light theme, or follow the device’s system setting. The previous attribute `supportDarkMode` is now deprecated. Please use this instead. More details can be found [here](https://documentation.onfido.com/sdk/ios/#ui-customization)
-- When using Studio, Selfie and Video are configured based on the configuration set in Studio
 
 ### Changed
 
-- Adjust colour contrast of brackets in Headturn step in motion
-- Adjust colour contrast of corners in Alignment step in motion
+- Adjusted color contrast of brackets in the head turn step in Motion
+- Adjusted color contrast of corners in the alignment step in Motion
 - Added feedback on UI while video is being recorded on document capture
-- Increase document overlay width to 90% for all devices that do not have a 16:9 screen.
-- Removed OnfidoExtended framework variant
 
-### Fixed
+### Removed
 
-- Fixed umbrella header importing private header files
-- Added missing Norwegian localisations for document capture. Improved Hungarian message for wrong document side detected.
-- Fixed missing country setting issue on document capture Studio flow which affects capture UX and validations
-- Fixed incorrect image quality messages being reported on document confirmation screen after 3 attempts
-- Disabled swipe to dismiss gesture on loading screen in model presentation contexts
-- Fixed reporting the incorrect NFC Media ID in flow response
-- Fixed USA and Canadian API calls that were incorrectly calling EU servers
-- Fixed endless spinner appearing when navigating back from document capturing screen
+- Removed `OnfidoExtended` framework variant
 
 ## [29.2.1] - 2023-07-24
 
 ### Fixed
 
-- Fixed USA and Canadian API calls that were incorrectly calling EU servers
+- Fixed US and Canadian API calls that were incorrectly calling EU servers
 
 ## [29.2.0] - 2023-07-14
 
 ### Added
 
-- Ability to customise logo and branding available on all Motion screens. This is an enterprise feature, please reach out to your CSM if you want to know more
-- Adding translations for live feedback on wrong passport page or tilted document.
-- Enable screen background colour customisation
+- Ability to customize logo and branding available on all Motion screens. This is an enterprise feature, please reach out to your CSM if you want to know more
+- Added missing Norwegian localizations for document capture. Improved Hungarian message for wrong document side detected
+- Added translations for live feedback on wrong passport page or tilted document
+- Added screen background color customization
 - Enable explicitly setting the user interface style
-- When using Studio, Selfie and Video are configured based on the configuration set in Studio
-- Fixed endless spinner appearing when navigating back from document capturing screen
+- When using Studio, Selfie and Video are now configured based on the configuration set in Studio
 
 ### Changed
 
-- Increase document overlay width to 90% for all devices that do not have a 16:9 screen.
+- Increased document overlay width to 90% for all devices that do not have a 16:9 screen
 
 ### Fixed
 
-- Fixed umbrella header importing private header files
-- Added missing Norwegian localisations for document capture. Improved Hungarian message for wrong document side detected.
+- Fixed an issue where the umbrella header was importing private header files
 - Fixed missing country setting issue on document capture Studio flow which affects capture UX and validations
 - Fixed incorrect image quality messages being reported on document confirmation screen after 3 attempts
 - Disabled swipe to dismiss gesture on loading screen in model presentation contexts
 - Fixed reporting the incorrect NFC Media ID in flow response
+- Fixed endless spinner appearing when navigating back from document capturing screen
 
 ## [29.1.0] - 2023-06-16
 
@@ -342,30 +338,39 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Enable consent screen buttons only when user scrolls to bottom of text
 - Added experimental feature to detect and validate document on device
-- Add swipe gesture for navigating back to previous viewControllers
+- Added swipe gesture for navigating back to previous viewControllers
 - Enabled NFC by default in `OnfidoConfig`. Added `disable()` for disabling it
-- Deprecated `withNFCReadFeature()` in `OnfidoConfig`
 - Combined NFC Intro & Read screens into single Scan screen
-- Add back swipe gesture for Photo, Video and Motion capture screens
+- Added back swipe gesture for Photo, Video and Motion capture screens
 
 ### Changed
 
 - Enhanced security around payload tampering
-- Removed Bitcode from binaries as it has been deprecated by Apple
-- Document capture: Hide shutter button momentarily when automatic capture is enabled
+- Hide shutter button momentarily when automatic document capture is enabled
 
 ### Fixed
 
-- Fix capture screen squeezed button and title design issue
+- Fixed squeezed button and title design issue on document capture screen
 - Attempted fix for rare UI freeze and subsequent crash on Selfie step
 
+### Deprecated
+
+- [Deprecated](https://documentation.onfido.com/sdk/ios/migration/#deprecated-api-changes-3) `withNFCReadFeature()` in `OnfidoConfig`
+- Removed Bitcode from binaries as it has been deprecated by Apple
+
 ## [29.0.0] - 2023-05-03
+
+### Added
+
+- Added Objective-C support for the Custom Media Callback feature
 
 ### Changed
 
 - Changed the Studio API to be compatible with Objective-C
-- Added Objective-C support for the Custom Media Callback feature
-- Removed Canadian driver's license autocapture beta feature `withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()`
+
+### Removed
+
+- [Removed](https://documentation.onfido.com/sdk/ios/migration/#removed-2) Canadian driver's license autocapture beta feature `withCanadianDrivingLicenceAutoCaptureBetaFeatureEnabled()`
 
 ## [28.3.2] - 2023-05-16
 
@@ -387,7 +392,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed the text cut-off issue on document confirmation screen which happens on small screen devices (e.g iPhone SEs)
+- Fixed the text cut-off issue on the document confirmation screen on small screen devices
 - Fixed missing `OnfidoApiError` and `OnfidoFlowError` types
 
 ## [28.2.0] - 2023-03-21
@@ -396,36 +401,36 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added user analytics tracked events for Motion
 
-### Changed
-
-- Fixed "Umbrella header missing" warnings with SPM
-
 ### Fixed
 
-- Fixed OnfidoExtended framework variant
+- Fixed `OnfidoExtended` framework variant
+- Fixed "Umbrella header missing" warnings with SPM
 
 ## [28.1.0] - 2023-03-02
 
+### Added
+
+- Added backward compatible `withDocumentStep(ofType:...)` signature
+
 ### Changed
 
-- Added backward compatible `withDocumentStep(ofType:...` signature
-- Improved translations
+- Improved translations for all supported languages
 - Increased the Facial Similarity Video upload timeout from 5 seconds to 60 seconds
 
 ### Fixed
 
-- Accessibility: Fixed Document capture VoiceOver support
+- Accessibility: fixed document capture VoiceOver support
 - Fixed potential crash when dismissing Motion during recording
-- Re-added missing FACIAL_INTRO event
+- Re-added missing `FACIAL_INTRO` event
 - Fixed issue with Privacy Notices and Consent screen appearing when not required
 
 ## [28.0.1] - 2023-03-06
 
 ### Fixed
 
-- Accessibility: Fixed Document capture VoiceOver support
+- Accessibility: fixed document capture VoiceOver support
 - Fixed potential crash when dismissing Motion during recording
-- Re-added missing FACIAL_INTRO event
+- Re-added missing `FACIAL_INTRO` event
 - Fixed issue with Privacy Notices and Consent screen appearing when not required
 
 ## [28.0.0] - 2023-02-06
@@ -434,59 +439,59 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added ability to configure Motion face step to enable audio recording
 
-### Changed
+### Removed
 
-- Removed deprecated Document variant public APIs
-- Removed SegmentSDK for analytics
+- [Removed](https://documentation.onfido.com/sdk/ios/migration/#breaking-api-changes-4) deprecated Document variant public APIs
+- [Removed](https://documentation.onfido.com/sdk/ios/migration/#breaking-api-changes-4) `SegmentSDK` for analytics
 - Removed requirement for hardcoded `onfido_locale` value in the Localised strings files
 
 ### Fixed
 
-- Crash occurring with iOS 11/12
-- Crash occurring during document capture related to a rare race condition
-- Image orientation for RTL languages
+- Fixed a crash occurring with iOS 11/12
+- Fixed a crash occurring during document capture related to a rare race condition
+- Fixed image orientation for RTL languages
 
 ## [27.4.0] - 2023-01-13
 
 ### Added
 
-- Support for NFC with ID Cards (PACEv2), CAN-based authentication
+- Added support for NFC with ID Cards (PACEv2), CAN-based authentication
 
 ## [27.3.0] - 2023-01-05
 
 ### Changed
 
-- Reduce size of SDK binaries 
+- Reduced the size of SDK binaries 
 
 ## [27.2.0] - 2022-12-22
 
 ### Added
 
-- Extended localisation support to 44 languages
-- Added RTL languages support
+- Extended built in localization support to 44 languages
+- Added support for RTL languages
 
 ### Fixed
 
-- Fix issue with registration of Appearance
-- Fix crash when user stops recording video
-- Remove unnecessary camera exposure mode configuration
+- Fixed issue with registration of Appearance
+- Fixed crash when user stops recording video
+
+### Removed
+
+- Removed unnecessary camera exposure mode configuration
 
 ## [27.1.0] - 2022-12-12
 
 ### Added
 
-- Added support for address cards as proof of address in certain regions
-- Create Onfido Studio documentation file
+- Added support for address cards as Proof of Address in certain regions
+- Created Onfido Studio documentation file
 - Added Studio support for Motion
-
-### Changed
-
 - Added documentation for Motion to the README
-- : Add support of Dashboard feature to configure supported documents
+- Added support of Dashboard feature to configure supported documents
 
 ### Fixed
 
-- UI: Fixed the crash issue on iPads when device rotated while any alert is shown on UI
+- Fixed a crash occurring on iPads when the device is rotated while any alert is shown on UI
 
 ## [27.0.0] - 2022-10-27
 
@@ -496,11 +501,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Renamed withNFCReadBetaFeatureEnabled SDK configuration functions to withNFCReadFeatureEnabled
+- [Renamed](https://documentation.onfido.com/sdk/ios/migration/#breaking-api-changes-6) `withNFCReadBetaFeatureEnabled` SDK configuration functions to `withNFCReadFeatureEnabled`
 
 ### Fixed
 
-- Fix possibility that UI freezes when green checkmark displayed after successfully taking photo of document
+- Fixed an issue where the UI freezes when green checkmark displayed after successfully taking photo of document
 
 ## [26.1.1] - 2022-10-20
 
@@ -635,7 +640,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- UI: Added language localisation for Dutch (NL)
+- UI: Added language localization for Dutch (NL)
 - Add instructions carousel to NFC intro screen
 - UI: Added support for capturing paper-based German driving license
 
@@ -665,9 +670,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Removed mobile token support
 - Dropped iOS 10 support. Now supporting iOS 11 or newer.
-- Removed initialisers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaptureSuccessColors), and made properties public.
+- Removed initializers with parameters for Appearance (ONAppearance) and CaptureSuccessColors (ONCaptureSuccessColors), and made properties public.
 - Renamed withPassportNFCReadBetaFeatureEnabled sdk configuration function to withNFCReadBetaFeatureEnabled.
-- Removed EnterpriseFeature convenience initialiser. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
+- Removed EnterpriseFeature convenience initializer. Use EnterpriseFeatures.builder().withHideOnfidoLogo(_:).build() instead.
 
 ### Fixed
 
@@ -689,9 +694,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added missing NFC library license to onfido_licenses.json
 - Fix Xcode double quoted warning
-- Removed unused localisation keys and values
+- Removed unused localization keys and values
 - Removed unused and erroneous keys
-- Added missing IT and PT localisation files
+- Added missing IT and PT localization files
 
 ## [23.0.1] - 2021-10-22
 
@@ -707,7 +712,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Added missing IT and PT localisation files
+- Added missing IT and PT localization files
 - UI: Fix navigation bar color for iOS 15.
 
 ## [22.4.0] - 2021-09-07
@@ -748,7 +753,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- UI: Added language localisation for italian(IT) and portuguese(PT)
+- UI: Added language localization for italian(IT) and portuguese(PT)
 - Added nfcMediaId property to DocumentResult object
 
 ### Changed
@@ -761,7 +766,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - UI: Image quality service integration
-- UI: Ability to customise button corner radius
+- UI: Ability to customize button corner radius
 
 ### Changed
 
@@ -784,7 +789,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Added ability to remote config blur detection for image quality optimisation
+- Added ability to remote config blur detection for image quality optimization
 
 ### Changed
 
@@ -928,7 +933,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Changed Onfido logo position in capture screens
 - UI: Changed Onfido logo position in intro and permission screens
 - UI: Added Onfido logo to the document type selection screen
-- Removed unused strings from localisation
+- Removed unused strings from localization
 - Renamed some generic keys
 - UI: Changed bubble view position and appearance for document capture flow
 - Now disabling passport autocapture on simulators
@@ -948,7 +953,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Renamed most localisation keys. Now names are more explicit to in which screens they are used. [See MIGRATION to easily migrate Strings from 18.7.0 to 18.8.0](MIGRATION.md#onfido-ios-sdk-1880-migration-guide).
+- Renamed most localization keys. Now names are more explicit to in which screens they are used. [See MIGRATION to easily migrate Strings from 18.7.0 to 18.8.0](MIGRATION.md#onfido-ios-sdk-1880-migration-guide).
 
 ### Fixed
 
@@ -1003,7 +1008,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed bundle localisation issue.
+- Fixed bundle localization issue.
 
 ## [18.3.2] - 2020-08-06
 
@@ -1014,7 +1019,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - UI: Fix the problem about having buttons in different height.
-- Fixed localisation language selection when app and device preferred language is not supported by Bundle
+- Fixed localization language selection when app and device preferred language is not supported by Bundle
 
 ## [18.3.1] - 2020-07-27
 
@@ -1206,7 +1211,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Liveness pre-recording loader fades out and instructions now fades in. Also "Start recording" slides in from the bottom.
 
 ### Fixed
-- UI: Fixed the UI bug which affects navigation bar in camera screens when integrator uses global appearance customisation for the navigation bar
+- UI: Fixed the UI bug which affects navigation bar in camera screens when integrator uses global appearance customization for the navigation bar
 - UI: Fixed the issue that causes showing constraint warnings in the console when user goes to the any camera capture screen
 - UI: VoiceOver focuses on back button instead of take new picture on capture confirmation screen when transitioning between photo capture to capture confirmation
 - Fixed Segment SDK crash issues, upgraded Segment SDK version to 3.7.0
@@ -1236,7 +1241,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Added ability to refresh SDK token when its expired
-- UI: Added dark mode support for iOS 13. See the https://github.com/onfido/onfido-ios-sdk#ui-customisation page for the details.
+- UI: Added dark mode support for iOS 13. See the https://github.com/onfido/onfido-ios-sdk#ui-customiation page for the details.
 
 ### Changed
 - UI: When auto capturing a US DL, the transition to manual capture will only happen after 10 seconds of the first document is detected (even if not aligned)
@@ -1288,7 +1293,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: New faceStep config added for not showing video in liveness intro screen
 
 ### Changed
-- UI: Optimised liveness intro videos resolution and duration, reducing overall size
+- UI: Optimized liveness intro videos resolution and duration, reducing overall size
 
 ## [11.1.2] - 2019-05-23
 
@@ -1339,8 +1344,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Added dynamic font size support for photo capture confirmation screen
 - UI: Added dynamic font size support for buttons
 - UI: Added dynamic font size support for document photo capture screen
-- UI: Added french localisation
-- Allowing custom localisation from non-localised strings file
+- UI: Added french localization
+- Allowing custom localization from non-localized strings file
 
 ### Fixed
 
@@ -1394,7 +1399,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [10.3.0] - 2019-01-28
 
 ### Added
-- UI: Ability to customise Font-Family
+- UI: Ability to customize Font-Family
 
 ### Fixed
 - UI: Subtitle text truncate issue fixed on document selection screen
@@ -1414,7 +1419,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Fix sdk crash on capture during the backside capture of two sided document on Cordova
 - UI: Fix for the Segment SDK name clash
 - UI: Fix infinite spinning wheel not removed when liveness upload failed.
-- UI: Fixed custom localisation of text in liveness confirmation screen now going over multiple lines when text too long (max three)
+- UI: Fixed custom localization of text in liveness confirmation screen now going over multiple lines when text too long (max three)
 
 ### Changed
 - UI: Changed colors of the UI elements regarding to the new Onfido branding.
@@ -1427,7 +1432,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - UI: Managing request timeouts mid flow.
 - UI: Now detecting face is within oval before starting liveness recording
-- Ability to customise buttons and icons colors
+- Ability to customize buttons and icons colors
 
 ### Changed
 - UI: Changed copy on Liveness Intro screen
@@ -1475,11 +1480,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - SDK no longer supports iOS 8. Now iOS 9+.
 
 ### Fixed
-- UI: Glare detection bubble localisation breaking when custom localisation with long text is used.
+- UI: Glare detection bubble localization breaking when custom localization with long text is used.
 
 ## [7.2.0] - 2018-07-17
 
-**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+**Note**: This version might be a breaking change if you are providing customized language translations. Please see [MIGRATION.md](MIGRATION.md).
 
 ### Added
 - UI: country selection screen to filter for document type and country combination supported by Onfido
@@ -1491,7 +1496,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [7.1.0] - 2018-06-07
 
-**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+**Note**: This version might be a breaking change if you are providing customized language translations. Please see [MIGRATION.md](MIGRATION.md).
 
 ### Changed
 - UI: document type selection is now its own screen with refreshed design
@@ -1507,7 +1512,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [7.0.0] - 2018-04-17
 
-**Note**: This version might be a breaking change if you are providing customised language translations. Please see [MIGRATION.md](MIGRATION.md).
+**Note**: This version might be a breaking change if you are providing customized language translations. Please see [MIGRATION.md](MIGRATION.md).
 
 ### Changed
 - UI: Updated error dialogs copy
@@ -1530,7 +1535,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [5.6.0] - 2018-03-16
 
 ### Added
-- Added custom language localisation option using `withCustomLocalization()` method when configuring the flow
+- Added custom language localization option using `withCustomLocalization()` method when configuring the flow
 - UI: Added translation for Spanish (es)
 
 ### Changed
@@ -1738,7 +1743,7 @@ on iPhone X is now consistent with their other models.
 ### Changed
 - Updated syntax to Swift 2.3 (preparing to Swift 3.0)
 - Updated version of AlamofireObjectMapper to 3.0.2
-- The OnfidoUI class initialisation methods (refer to the README file)
+- The OnfidoUI class initialization methods (refer to the README file)
 
 ### Added
 - Option to bring the capture UI without actually creating anything on the Onfido servers
