@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Apskatiet savu videoklipu";
 "onfido_generic_back" = "atpakaļ";
 "onfido_nfc_sheet_ready_subtitle" = "Gatavs skenēšanai";
-"onfido_nfc_sheet_scanning_instruction" = "Turiet tālruni un pasi nekustīgi";
+"onfido_nfc_sheet_scanning_instruction" = "Saglabājiet savu tālruni un pasi nekustīgus.";
 "onfido_nfc_sheet_success_subtitle" = "Skenēšana izdevās";
 "onfido_nfc_sheet_success_instruction_passport" = "Esam veiksmīgi noskenējuši jūsu pasi";
 "onfido_outro_body" = "Tas ir viss, kas mums nepieciešams, lai sāktu jūsu identitātes pārbaudi";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus";
 "onfido_nfc_scan_welcome_card_title" = "Skenējiet savu dokumentu";
 "onfido_nfc_scan_welcome_card_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
-"onfido_nfc_scan_welcome_card_list_item" = "Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos";
+"onfido_nfc_scan_welcome_card_list_item" = "Novietojiet savu dokumentu pret telefona aizmuguri.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Lēnām virziet savu dokumentu lejup un augšup pret savu tālruni, lai atrastu čipu.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Kad mikroshēma ir atklāta, turiet savu tālruni un dokumentu nekustīgi.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Iegūt verifikāciju bez NFC";
 "onfido_nfc_scan_error_inter_title" = "Mēs nevarējām noskenēt jūsu dokumentu";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā";
 "onfido_nfc_scan_welcome_passport_list_item" = "Novietojiet dokumentu uz līdzenas virsmas";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Atveriet dokumentu iekšējā aizmugurējā lapā";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Novietojiet savu dokumentu pret telefona aizmuguri.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Lēnām bīdiet ierīci uz augšu un uz leju";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Kad mikroshēma ir atklāta, turiet savu tālruni un dokumentu nekustīgi.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Iegūt verifikāciju bez NFC";
 "onfido_nfc_scan_error_inter_passport_title" = "Mēs nevarējām noskenēt jūsu dokumentu";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Nevar skenēt mikroshēmu. Vajadzīga palīdzība?";
 "onfido_nfc_fail_card_list_item_1" = "Mēģiniet noņemt apvalku no sava tālruņa. Tas ir, lai izvairītos no traucējumiem ar mikroshēmu.";
 "onfido_nfc_fail_card_list_item_2" = "Novietojiet savu dokumentu pret telefona aizmuguri, tā, lai tie saskartos.";
-"onfido_nfc_fail_card_list_item_3" = "Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pa ierīci, līdz sākas skenēšana";
-"onfido_nfc_fail_card_list_item_4" = "Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt";
+"onfido_nfc_fail_card_list_item_3" = "Jums var būt nepieciešams lēnām slīdēt savu dokumentu uz augšu un leju pret tālruni, līdz atrodat mikroshēmu.";
+"onfido_nfc_fail_card_list_item_4" = "Kad jūsu tālrunis atklāj mikroshēmu jūsu dokumentā, skenēšana sāksies automātiski. Turiet tālruni un dokumentu nekustīgi, lai skenēšana varētu pabeigties.";
 "onfido_nfc_fail_card_button_primary" = "Sākt skenēšanu";
 "onfido_nfc_scan_error_final_possible_card_title" = "Mēs nevarējām noskenēt šo dokumentu";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Noņemiet visus pārvalkus no sava ierīces";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Pārvietojiet savu dokumentu pret savu ierīci";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Skenējiet savas pases mikroshēmu";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Aizveriet savu pasi un novietojiet to uz plakana virsmas ar priekšpusi uz augšu.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Novietojiet savas tālruņa augšējo pusi saskarē ar pases apakšējo pusi, lai nolasītu čipu.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Tiklīdz skenēšana sākas, turiet savu telefonu un pasi nekustīgi.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Novietojiet tālruņa augšējo daļu pret pasi, lai atrastu mikroshēmu.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Kad mikroshēma ir atklāta, turiet savu tālruni un pasi nekustīgi.";
 "onfido_nfc_capture_scan_sheet" = "Novietojiet savas tālruņa augšējo pusi saskarē ar savas pases apakšējo pusi.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Skenē...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Saglabājiet savu telefonu un pasi nemainīgu.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Kļūda:";
 "onfido_generic_icon_warning_accessibility" = "Brīdinājums:";
 "onfido_generic_icon_success_accessibility" = "Veiksmīgi:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

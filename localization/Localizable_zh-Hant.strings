@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "檢查您的影片";
 "onfido_generic_back" = "返回";
 "onfido_nfc_sheet_ready_subtitle" = "準備掃描";
-"onfido_nfc_sheet_scanning_instruction" = "請保持手機和護照靜止不動";
+"onfido_nfc_sheet_scanning_instruction" = "保持手機和護照不動。";
 "onfido_nfc_sheet_success_subtitle" = "掃描成功";
 "onfido_nfc_sheet_success_instruction_passport" = "我們已成功掃描您的護照";
 "onfido_outro_body" = "這就是我們開始驗證您身份所需的全部內容";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "錄製期間請勿在裝置上播放任何音訊";
 "onfido_nfc_scan_welcome_card_title" = "掃描您的文件";
 "onfido_nfc_scan_welcome_card_subtitle" = "使用您的手機掃描您文件中的晶片";
-"onfido_nfc_scan_welcome_card_list_item" = "將您的文件放在您的設備背面，使它們接觸";
+"onfido_nfc_scan_welcome_card_list_item" = "將您的身份文件放在手機背面。";
 "onfido_nfc_scan_welcome_card_list_item_2" = "慢慢地將您的證件在手機上下滑動以找到晶片。";
-"onfido_nfc_scan_welcome_card_list_item_3" = "掃描開始後，請保持不動以便掃描能完成";
+"onfido_nfc_scan_welcome_card_list_item_3" = "一旦偵測到晶片，請保持手機和身份文件不動。";
 "onfido_nfc_scan_welcome_card_button_primary" = "開始掃描";
 "onfido_nfc_scan_welcome_card_secondary_button" = "無需NFC即可獲得驗證";
 "onfido_nfc_scan_error_inter_title" = "我們無法掃描您的文件";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "使用您的手機掃描您文件中的晶片";
 "onfido_nfc_scan_welcome_passport_list_item" = "將文檔放在平坦的表面上";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "在內頁打開您的文檔";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "將您的文件放在您的設備背面，使它們接觸";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "將您的身份文件放在手機背面。";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "慢慢上下滑動您的設備";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "掃描開始後，請保持不動以便掃描能完成";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "一旦偵測到晶片，請保持手機和身份文件不動。";
 "onfido_nfc_scan_welcome_passport_button_primary" = "開始掃描";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "無需NFC即可獲得驗證";
 "onfido_nfc_scan_error_inter_passport_title" = "我們無法掃描您的文件";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "無法掃描晶片。需要幫助嗎？";
 "onfido_nfc_fail_card_list_item_1" = "嘗試從您的手機上移除保護殼。這是為了避免與晶片產生干擾。";
 "onfido_nfc_fail_card_list_item_2" = "將您的文件靠在手機的背面，使它們接觸。";
-"onfido_nfc_fail_card_list_item_3" = "慢慢地將您的文件在設備上上下滑動，直到掃描開始";
-"onfido_nfc_fail_card_list_item_4" = "掃描開始後，請保持靜止以便掃描能夠完成";
+"onfido_nfc_fail_card_list_item_3" = "您可能需要將身份文件在手機上上下滑動，直到找到NFC芯片。";
+"onfido_nfc_fail_card_list_item_4" = "一旦您的手機偵測到文件中的晶片，掃描將自動開始。請保持手機和文件靜止，以便掃描完成。";
 "onfido_nfc_fail_card_button_primary" = "開始掃描";
 "onfido_nfc_scan_error_final_possible_card_title" = "我們無法掃描此文件";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "從您的裝置上移除任何保護套";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "將您的文件重新放置在您的裝置上";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "掃描您護照的晶片";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "請將您的護照關閉，並將其正面朝上放在平坦的表面上。";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "將您的手機上半部與護照的下半部接觸，以掃描晶片。";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "掃描開始後，請保持您的手機和護照靜止。";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "將手機的上半部靠在護照上以定位晶片。";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "一旦偵測到晶片，請保持手機和護照不動。";
 "onfido_nfc_capture_scan_sheet" = "將您的手機上半部接觸到您護照的下半部。";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "正在掃描……";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "保持您的手機和護照不動。";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "錯誤：";
 "onfido_generic_icon_warning_accessibility" = "警告：";
 "onfido_generic_icon_success_accessibility" = "成功：";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

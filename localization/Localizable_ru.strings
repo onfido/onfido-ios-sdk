@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Проверьте свое видео";
 "onfido_generic_back" = "Назад";
 "onfido_nfc_sheet_ready_subtitle" = "Готово к сканированию";
-"onfido_nfc_sheet_scanning_instruction" = "Держите телефон и паспорт неподвижно";
+"onfido_nfc_sheet_scanning_instruction" = "Держите телефон и паспорт неподвижно.";
 "onfido_nfc_sheet_success_subtitle" = "Сканирование выполнено успешно";
 "onfido_nfc_sheet_success_instruction_passport" = "Мы отсканировали Ваш паспорт";
 "onfido_outro_body" = "Это всё, что нам нужно, чтобы начать проверку Вашей личности";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Не воспроизводите звук на вашем устройстве во время записи";
 "onfido_nfc_scan_welcome_card_title" = "Сканируйте ваш документ";
 "onfido_nfc_scan_welcome_card_subtitle" = "Используйте свой телефон для сканирования чипа в вашем документе";
-"onfido_nfc_scan_welcome_card_list_item" = "Поместите ваш документ на заднюю сторону вашего устройства так, чтобы они соприкасались";
+"onfido_nfc_scan_welcome_card_list_item" = "Поместите ваш документ на заднюю часть телефона.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Медленно перемещайте ваш документ вниз и вверх по телефону, чтобы найти чип.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Как только чип обнаружен, держите телефон и документ неподвижно.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Начать сканирование";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Получить верификацию без NFC";
 "onfido_nfc_scan_error_inter_title" = "Не удалось отсканировать документ";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Используйте свой телефон для сканирования чипа в вашем документе";
 "onfido_nfc_scan_welcome_passport_list_item" = "Положите документ на ровную поверхность";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Откройте последнюю страницу документа";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Поместите ваш документ на заднюю сторону вашего устройства так, чтобы они соприкасались";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Поместите ваш документ на заднюю часть телефона.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Медленно проведите устройством вверх и вниз";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Как только чип обнаружен, держите телефон и документ неподвижно.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Начать сканирование";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Получить верификацию без NFC";
 "onfido_nfc_scan_error_inter_passport_title" = "Не удалось отсканировать документ";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Не удалось отсканировать чип. Нужна помощь?";
 "onfido_nfc_fail_card_list_item_1" = "Попробуйте снять чехол со своего телефона. Это нужно, чтобы избежать помех с чипом.";
 "onfido_nfc_fail_card_list_item_2" = "Приложите ваш документ к задней панели телефона так, чтобы они соприкасались.";
-"onfido_nfc_fail_card_list_item_3" = "Медленно перемещайте ваш документ вверх и вниз по устройству, пока сканирование не начнется";
-"onfido_nfc_fail_card_list_item_4" = "Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться";
+"onfido_nfc_fail_card_list_item_3" = "Возможно, вам потребуется медленно перемещать ваш документ вверх и вниз по телефону, пока вы не обнаружите чип.";
+"onfido_nfc_fail_card_list_item_4" = "Как только ваш телефон обнаружит чип в вашем документе, сканирование начнется автоматически. Держите телефон и документ неподвижно, чтобы сканирование завершилось.";
 "onfido_nfc_fail_card_button_primary" = "Начать сканирование";
 "onfido_nfc_scan_error_final_possible_card_title" = "Мы не смогли отсканировать этот документ";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Удалите все чехлы с вашего устройства";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Переставьте ваш документ на вашем устройстве";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Отсканируйте чип вашего паспорта";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Закройте свой паспорт и положите его на ровную поверхность лицевой стороной вверх.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Приложите верхнюю часть вашего телефона к нижней части паспорта, чтобы просканировать чип.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Как только начнется сканирование, держите ваш телефон и паспорт неподвижно.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Поместите верхнюю часть вашего телефона на паспорт, чтобы найти чип.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Как только чип обнаружен, держите телефон и паспорт неподвижно.";
 "onfido_nfc_capture_scan_sheet" = "Приложите верхнюю часть вашего телефона к нижней части вашего паспорта.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Сканирование...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Держите свой телефон и паспорт неподвижно.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Ошибка:";
 "onfido_generic_icon_warning_accessibility" = "Предупреждение:";
 "onfido_generic_icon_success_accessibility" = "Успех:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

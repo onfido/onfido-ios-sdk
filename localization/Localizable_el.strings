@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Δείτε το βίντεό σας";
 "onfido_generic_back" = "επιστροφή";
 "onfido_nfc_sheet_ready_subtitle" = "Έτοιμοι για σάρωση";
-"onfido_nfc_sheet_scanning_instruction" = "Κρατήστε το τηλέφωνό και το διαβατήριό σας ακίνητα";
+"onfido_nfc_sheet_scanning_instruction" = "Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
 "onfido_nfc_sheet_success_subtitle" = "Επιτυχής σάρωση";
 "onfido_nfc_sheet_success_instruction_passport" = "Σαρώσαμε με επιτυχία το διαβατήριό σας";
 "onfido_outro_body" = "Δεν χρειαζόμαστε κάτι άλλο για να αρχίσουμε να επαληθεύουμε την ταυτότητά σας";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής";
 "onfido_nfc_scan_welcome_card_title" = "Σαρώστε το έγγραφό σας";
 "onfido_nfc_scan_welcome_card_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
-"onfido_nfc_scan_welcome_card_list_item" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
+"onfido_nfc_scan_welcome_card_list_item" = "Τοποθετήστε το έγγραφό σας στην πίσω πλευρά του τηλεφώνου σας.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Μετακινήστε αργά το έγγραφό σας πάνω και κάτω εναντίον του τηλεφώνου σας για να εντοπίσετε το chip.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Μόλις ανιχνευθεί το τσιπ, κρατήστε το τηλέφωνο και το έγγραφο σταθερά.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Επαληθεύστε χωρίς NFC";
 "onfido_nfc_scan_error_inter_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας";
 "onfido_nfc_scan_welcome_passport_list_item" = "Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Ανοίξτε το έγγραφό σας στην εσωτερική πίσω σελίδα";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Τοποθετήστε το έγγραφό σας στην πίσω πλευρά του τηλεφώνου σας.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Σύρετε αργά τη συσκευή σας πάνω και κάτω";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Μόλις ανιχνευθεί το τσιπ, κρατήστε το τηλέφωνο και το έγγραφο σταθερά.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Επαληθεύστε χωρίς NFC";
 "onfido_nfc_scan_error_inter_passport_title" = "Δεν ήταν δυνατή η σάρωση του εγγράφου σας";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Αδυναμία σάρωσης του τσιπ. Χρειάζεστε βοήθεια;";
 "onfido_nfc_fail_card_list_item_1" = "Δοκιμάστε να αφαιρέσετε τη θήκη από το τηλέφωνό σας. Αυτό γίνεται για να αποφύγετε παρεμβολές με το chip.";
 "onfido_nfc_fail_card_list_item_2" = "Βάλτε το έγγραφό σας κατά μήκος της πίσω πλευράς του τηλεφώνου σας, ώστε να έρχονται σε επαφή.";
-"onfido_nfc_fail_card_list_item_3" = "Σύρετε αργά το έγγραφό σας πάνω και κάτω στη συσκευή μέχρι να ξεκινήσει η σάρωση";
-"onfido_nfc_fail_card_list_item_4" = "Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση";
+"onfido_nfc_fail_card_list_item_3" = "Ίσως χρειαστεί να σύρετε αργά το έγγραφό σας πάνω και κάτω στο τηλέφωνό σας μέχρι να εντοπίσετε το chip.";
+"onfido_nfc_fail_card_list_item_4" = "Μόλις το τηλέφωνό σας ανιχνεύσει το τσιπ στο έγγραφό σας, η σάρωση θα ξεκινήσει αυτόματα. Κρατήστε το τηλέφωνο και το έγγραφο σταθερά ώστε να ολοκληρωθεί η σάρωση.";
 "onfido_nfc_fail_card_button_primary" = "Έναρξη σάρωσης";
 "onfido_nfc_scan_error_final_possible_card_title" = "Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Αφαιρέστε οποιαδήποτε καλύμματα από τη συσκευή σας";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Τοποθετήστε ξανά το έγγραφό σας στη συσκευή σας";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Σαρώστε το τσιπ του διαβατηρίου σας";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Κλείστε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια με την εμπρόσθια πλευρά προς τα πάνω.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Τοποθετήστε το πάνω μισό του τηλεφώνου σας σε επαφή με το κάτω μισό του διαβατηρίου σας για να σαρώσετε το τσιπ.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Τοποθετήστε το επάνω μισό του τηλεφώνου σας πάνω στο διαβατήριό σας για να εντοπίσετε το chip.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Μόλις ανιχνευθεί το chip, κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
 "onfido_nfc_capture_scan_sheet" = "Τοποθετήστε το πάνω μισό του τηλεφώνου σας σε επαφή με το κάτω μισό του διαβατηρίου σας.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Σάρωση σε εξέλιξη...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Σφάλμα:";
 "onfido_generic_icon_warning_accessibility" = "Προειδοποίηση:";
 "onfido_generic_icon_success_accessibility" = "Επιτυχία:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Skontrolujte video";
 "onfido_generic_back" = "späť";
 "onfido_nfc_sheet_ready_subtitle" = "Pripravené na skenovanie";
-"onfido_nfc_sheet_scanning_instruction" = "Držte telefón a pas nehybne";
+"onfido_nfc_sheet_scanning_instruction" = "Majte svoj telefón a pas stále pri sebe.";
 "onfido_nfc_sheet_success_subtitle" = "Skenovanie bolo úspešné";
 "onfido_nfc_sheet_success_instruction_passport" = "Váš pas sme úspešne naskenovali";
 "onfido_outro_body" = "To je všetko, čo potrebujeme na začatie overovania vašej totožnosti";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Počas zaznamenávania neprehrávajte v zariadení žiadne zvuky";
 "onfido_nfc_scan_welcome_card_title" = "Naskenujte váš dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Použite svoj telefón na skenovanie čipu vo vašom dokumente";
-"onfido_nfc_scan_welcome_card_list_item" = "Umiestnite svoj dokument na zadnú stranu vášho zariadenia tak, aby sa dotýkali";
+"onfido_nfc_scan_welcome_card_list_item" = "Umiestnite svoj doklad proti zadnej strane telefónu.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Pomaly posúvajte svoj dokument nadol a nahor oproti telefónu, aby ste našli čip.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Keď je čip zistený, držte svoj telefón a doklad v pokoji.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Spustiť skenovanie";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Overenie bez NFC";
 "onfido_nfc_scan_error_inter_title" = "Nepodarilo sa naskenovať váš doklad";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Použite svoj telefón na skenovanie čipu vo vašom dokumente";
 "onfido_nfc_scan_welcome_passport_list_item" = "Položte dokument na rovný povrch";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Otvorte dokument na vnútornej zadnej strane";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Umiestnite svoj dokument na zadnú stranu vášho zariadenia tak, aby sa dotýkali";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Umiestnite svoj doklad proti zadnej strane telefónu.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Pomaly posúvajte zariadenie nahor a nadol";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Keď je čip zistený, držte svoj telefón a doklad v pokoji.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Spustiť skenovanie";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Overenie bez NFC";
 "onfido_nfc_scan_error_inter_passport_title" = "Nepodarilo sa naskenovať váš doklad";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Nepodarilo sa naskenovať čip. Potrebujete pomoc?";
 "onfido_nfc_fail_card_list_item_1" = "Skúste odstrániť puzdro z vášho telefónu. Toto je na zabránenie rušenia s čipom.";
 "onfido_nfc_fail_card_list_item_2" = "Umiestnite svoj dokument na zadnú stranu telefónu, tak aby sa dotýkali.";
-"onfido_nfc_fail_card_list_item_3" = "Pomaly posúvajte svoj dokument hore a dole oproti zariadeniu, až kým sa skenovanie nezačne";
-"onfido_nfc_fail_card_list_item_4" = "Akonáhle sa začne skenovanie, nehybte sa, aby mohlo byť skenovanie dokončené";
+"onfido_nfc_fail_card_list_item_3" = "Možno budete musieť pomaly posúvať svoj doklad hore a dole proti telefónu, kým nenájdete čip.";
+"onfido_nfc_fail_card_list_item_4" = "Akonáhle váš telefón zistí čip vo vašom dokumente, skenovanie sa automaticky spustí. Držte telefón a dokument v pokoji, aby sa skenovanie mohlo dokončiť.";
 "onfido_nfc_fail_card_button_primary" = "Spustiť skenovanie";
 "onfido_nfc_scan_error_final_possible_card_title" = "Nepodarilo sa nám skenovať tento dokument";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Odstráňte všetky kryty z vášho zariadenia";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Presuňte svoj dokument na svoje zariadenie";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Naskenujte čip vo vašom pase";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Zatvorte váš pas a položte ho na rovný povrch s prednou stranou nahor.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Polovicu vášho telefónu položte na spodnú polovicu vášho pasu, aby ste mohli skenovať čip.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Akonáhle sa začne skenovanie, nechajte svoj telefón a pas na mieste.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Položte hornú polovicu telefónu na pas, aby ste našli čip.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Akonáhle je čip zistený, držte svoj telefón a pas v pokoji.";
 "onfido_nfc_capture_scan_sheet" = "Umiestnite hornú polovicu vášho telefónu do kontaktu s dolnou polovicou vášho pasu.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Skenuje sa…";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Držte svoj telefón a pas stále.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Chyba:";
 "onfido_generic_icon_warning_accessibility" = "Upozornenie:";
 "onfido_generic_icon_success_accessibility" = "Úspech:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

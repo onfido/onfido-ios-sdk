@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Tjek din video";
 "onfido_generic_back" = "tilbage";
 "onfido_nfc_sheet_ready_subtitle" = "Klar til at scanne";
-"onfido_nfc_sheet_scanning_instruction" = "Hold din telefon og pas stille";
+"onfido_nfc_sheet_scanning_instruction" = "Hold din telefon og pas stille.";
 "onfido_nfc_sheet_success_subtitle" = "Scanning er gennemført";
 "onfido_nfc_sheet_success_instruction_passport" = "Vi har nu scannet dit pas";
 "onfido_outro_body" = "Det er alt, hvad vi behøver for at starte verificeringen af din identitet";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Afspil ikke lyd på enheden under optagelsen";
 "onfido_nfc_scan_welcome_card_title" = "Scan dit dokument";
 "onfido_nfc_scan_welcome_card_subtitle" = "Brug din telefon til at scanne chippen i dit dokument";
-"onfido_nfc_scan_welcome_card_list_item" = "Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden";
+"onfido_nfc_scan_welcome_card_list_item" = "Placér dit dokument mod bagsiden af din telefon.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Skub dit dokument langsomt ned- og opad mod din telefon for at finde chippen.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Når chippen er registreret, skal du holde din telefon og dokumentet stille.";
 "onfido_nfc_scan_welcome_card_button_primary"="Start scanning";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Bliv bekræftet uden NFC";
 "onfido_nfc_scan_error_inter_title" = "Vi kan ikke scanne dit dokument";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Brug din telefon til at scanne chippen i dit dokument";
 "onfido_nfc_scan_welcome_passport_list_item" = "Læg dit dokument på en flad overflade";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Åbn dit dokument på den indre bagside";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Placér dit dokument mod bagsiden af din telefon.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Skub langsomt din enhed op og ned";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Når chippen er registreret, skal du holde din telefon og dokumentet stille.";
 "onfido_nfc_scan_welcome_passport_button_primary"="Start scanning";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Bliv bekræftet uden NFC";
 "onfido_nfc_scan_error_inter_passport_title" = "Vi kan ikke scanne dit dokument";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Ikke i stand til at scanne chippen. Har du brug for hjælp?";
 "onfido_nfc_fail_card_list_item_1" = "Prøv at fjerne etuiet fra din telefon. Dette er for at undgå interferens med chippen.";
 "onfido_nfc_fail_card_list_item_2" = "Placer dit dokument mod bagsiden af din telefon, så de rører ved hinanden.";
-"onfido_nfc_fail_card_list_item_3" = "Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter";
-"onfido_nfc_fail_card_list_item_4" = "Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig";
+"onfido_nfc_fail_card_list_item_3" = "Du skal muligvis langsomt glide dit dokument op og ned mod din telefon, indtil du finder chippen.";
+"onfido_nfc_fail_card_list_item_4" = "Når din telefon registrerer chippen i dit dokument, vil scanningen starte automatisk. Hold din telefon og dokument stille, så scanningen kan fuldføres.";
 "onfido_nfc_fail_card_button_primary" = "Start scanning";
 "onfido_nfc_scan_error_final_possible_card_title" = "Vi kunne ikke scanne dette dokument";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Fjern alle covers fra din enhed";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Placer dit dokument igen mod din enhed";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Scan chippen i dit pas";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Luk dit pas og placer det på en flad overflade med forsiden opad.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Placer den øverste halvdel af din telefon i kontakt med den nederste halvdel af dit pas for at scanne chippen.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Når scanningen starter, skal du holde din telefon og pas stille.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Placér den øverste halvdel af din telefon mod dit pas for at finde chippen.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Når chippen er registreret, skal du holde din telefon og pas stille.";
 "onfido_nfc_capture_scan_sheet" = "Placer den øverste halvdel af din telefon i kontakt med den nederste halvdel af dit pas.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Scanner...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Hold din telefon og pas stille.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Fejl:";
 "onfido_generic_icon_warning_accessibility" = "Advarsel:";
 "onfido_generic_icon_success_accessibility" = "Succes:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";
