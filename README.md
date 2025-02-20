@@ -1,11 +1,11 @@
 # Onfido Smart Capture iOS SDK
 
-[![Version](https://img.shields.io/cocoapods/v/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
-[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
-[![Carthage incompatible](https://img.shields.io/badge/Carthage-incompatible-red.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Build Status](https://app.bitrise.io/app/d04e3a422799521b/status.svg?token=vBI0wpdUSfh25wctd1MHfA&branch=master)](https://www.bitrise.io/app/d04e3a422799521b)
-[![License](https://img.shields.io/cocoapods/l/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
-[![Platform](https://img.shields.io/cocoapods/p/Onfido.svg?style=flat)](http://cocoapods.org/pods/Onfido)
+[![GitHub](https://img.shields.io/github/v/release/onfido/onfido-ios-sdk)](https://github.com/onfido/onfido-ios-sdk/)
+[![CocoaPods](https://img.shields.io/cocoapods/v/Onfido.svg?label=cocoapods)](http://cocoapods.org/pods/Onfido)
+[![Platform](https://img.shields.io/cocoapods/p/Onfido.svg?label=platform)](http://cocoapods.org/pods/Onfido)
+[![License](https://img.shields.io/cocoapods/l/Onfido.svg)](http://cocoapods.org/pods/Onfido)
+[![SwiftPM](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
+[![Carthage](https://img.shields.io/badge/Carthage-incompatible-red.svg)](https://github.com/Carthage/Carthage)
 
 ## Table of contents
 
@@ -63,8 +63,6 @@ The iOS SDK supports:
 - The SDK supports the following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
-
-**Note**: The latest SDK version to support Xcode 11.5-12 is iOS SDK version 22, Xcode 14+ is iOS SDK version 29. There is a workaround for older versions of Xcode if required. Please contact Onfido's [Customer Support team](mailto:support@onfido.com) for more information.
 
 **Note**: The iOS SDK requires CoreNFC to run (regardless of whether you use NFC or not). Since Xcode 12, there is a bug where `libnfshared.dylib` is missing from simulators. Refer to [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) for a solution to this problem.
 

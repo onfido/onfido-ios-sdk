@@ -389,7 +389,7 @@
 "onfido_video_confirmation_title" = "Tarkista videosi";
 "onfido_generic_back" = "edell";
 "onfido_nfc_sheet_ready_subtitle" = "Valmis skannaukseen";
-"onfido_nfc_sheet_scanning_instruction" = "Pidä puhelimesi ja passisi paikallaan";
+"onfido_nfc_sheet_scanning_instruction" = "Pidä puhelimesi ja passisi paikallaan.";
 "onfido_nfc_sheet_success_subtitle" = "Skannaus onnistui";
 "onfido_nfc_sheet_success_instruction_passport" = "Passisi skannaus onnistui";
 "onfido_outro_body" = "Emme tarvitse muuta henkilöllisyytesi vahvistuksen aloittamiseen";
@@ -516,9 +516,9 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Älä toista laitteellasi mitään ääntä tallennuksen aikana";
 "onfido_nfc_scan_welcome_card_title" = "Skannaa dokumenttisi";
 "onfido_nfc_scan_welcome_card_subtitle" = "Käytä puhelintasi skannaamaan siru dokumentissasi";
-"onfido_nfc_scan_welcome_card_list_item" = "Aseta dokumenttisi laitteesi taakse niin, että ne koskettavat toisiaan";
+"onfido_nfc_scan_welcome_card_list_item" = "Aseta henkilöllisyystodistuksesi puhelimesi taakse.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Liu'uta asiakirjaasi hitaasti alas ja ylös puhelintasi vasten löytääksesi sirun.";
-"onfido_nfc_scan_welcome_card_list_item_3" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
+"onfido_nfc_scan_welcome_card_list_item_3" = "Kun siru on havaittu, pidä puhelin ja asiakirja paikallaan.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Aloita skannaus";
 "onfido_nfc_scan_welcome_card_secondary_button" = "Vahvista ilman NFC: tä";
 "onfido_nfc_scan_error_inter_title" = "Asiakirjaasi ei voitu skannata";
@@ -535,9 +535,9 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Käytä puhelintasi skannaamaan siru dokumentissasi";
 "onfido_nfc_scan_welcome_passport_list_item" = "Aseta asiakirja tasaiselle alustalle";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "Avaa asiakirjasi takasivun sisäpuolelta";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Aseta dokumenttisi laitteesi taakse niin, että ne koskettavat toisiaan";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Aseta henkilöllisyystodistuksesi puhelimesi taakse.";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "Liu'uta laitetta hitaasti ylös ja alas";
-"onfido_nfc_scan_welcome_passport_list_item_5" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
+"onfido_nfc_scan_welcome_passport_list_item_5" = "Kun siru on havaittu, pidä puhelin ja asiakirja paikallaan.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Aloita skannaus";
 "onfido_nfc_scan_welcome_passport_secondary_button" = "Vahvista ilman NFC: tä";
 "onfido_nfc_scan_error_inter_passport_title" = "Asiakirjaasi ei voitu skannata";
@@ -609,8 +609,8 @@
 "onfido_nfc_fail_card_title" = "Sirun skannaaminen ei onnistu. Tarvitsetko apua?";
 "onfido_nfc_fail_card_list_item_1" = "Yritä poistaa suojakotelo puhelimestasi. Tämä on välttääksemme häiriöitä sirun kanssa.";
 "onfido_nfc_fail_card_list_item_2" = "Aseta asiakirja puhelimesi takaosaa vasten, niin että ne koskettavat toisiaan.";
-"onfido_nfc_fail_card_list_item_3" = "Liuta dokumenttiasi hitaasti ylös ja alas laitetta vasten, kunnes skannaus alkaa";
-"onfido_nfc_fail_card_list_item_4" = "Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun";
+"onfido_nfc_fail_card_list_item_3" = "Saatat joutua hitaasti liu'uttamaan asiakirjaasi ylös ja alas puhelintasi vasten, kunnes löydät sirun.";
+"onfido_nfc_fail_card_list_item_4" = "Kun puhelimesi havaitsee asiakirjasi sirun, skannaus alkaa automaattisesti. Pidä puhelin ja asiakirja paikallaan, jotta skannaus voi valmistua.";
 "onfido_nfc_fail_card_button_primary" = "Aloita skannaus";
 "onfido_nfc_scan_error_final_possible_card_title" = "Emme voineet skannata tätä asiakirjaa";
 "onfido_nfc_scan_error_final_possible_card_list_item_1" = "Poista kaikki suojukset laitteestasi";
@@ -652,8 +652,8 @@
 "onfido_nfc_scan_doc_realign_body" = "Aseta dokumenttisi uudelleen laitettasi vasten";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Skannaa passisi siru";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Sulje passisi ja aseta se tasaiselle pinnalle etupuoli ylöspäin.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Aseta puhelimesi yläosa kosketuksiin passisi alaosan kanssa sirun skannaamiseksi.";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Kun skannaus alkaa, pidä puhelimesi ja passisi paikallaan.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Aseta puhelimesi yläosa passiasi vasten löytääksesi sirun.";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Kun siru on havaittu, pidä puhelin ja passi paikallaan.";
 "onfido_nfc_capture_scan_sheet" = "Aseta puhelimesi yläosa kosketuksiin passisi alaosan kanssa.";
 "onfido_nfc_capture_scan_scanning_sheet_1" = "Skannataan...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Pidä puhelimesi ja passisi paikoillaan.";
@@ -779,3 +779,6 @@
 "onfido_generic_icon_error_accessibility" = "Virhe:";
 "onfido_generic_icon_warning_accessibility" = "Varoitus:";
 "onfido_generic_icon_success_accessibility" = "Onnistuminen:";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "";

@@ -6,11 +6,17 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
-## [32.2.2] - 2025-02-18
+## [32.3.0] - 2025-02-14
+
+### Changed
+
+- Added colour customization for motion headturn and checkmark view
+- NFC: Improved reading of German passports
 
 ### Fixed
 
 - Fixed theming issues with Proof of Address (POA) and Qualified Electronic Signature (QES) steps
+- Improved capture confirmation warning style in dark mode
 
 ## [32.2.1] - 2025-01-23
 
