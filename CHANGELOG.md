@@ -6,6 +6,17 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [32.4.0] - 2025-03-10
+
+### Changed
+
+- Improved capture confirmation warning style in dark mode
+- NFC: Improved introduction for US Passports
+
+### Fixed
+
+- Removed incorrect warning when Studio token is used in non-Studio flows
+
 ## [32.3.0] - 2025-02-14
 
 ### Changed
