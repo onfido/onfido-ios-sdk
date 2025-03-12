@@ -390,7 +390,7 @@
 "onfido_generic_back" = "back";
 "onfido_nfc_sheet_ready_subtitle" = "Ready to scan";
 "onfido_nfc_sheet_scanning_instruction" = "Keep your phone and passport still.";
-"onfido_nfc_sheet_success_subtitle" = "Scan successful";
+"onfido_nfc_sheet_success_subtitle" = "Scan successful.";
 "onfido_nfc_sheet_success_instruction_passport" = "We’ve successfully scanned your passport";
 "onfido_outro_body" = "That’s all we need to start verifying your identity";
 "onfido_generic_error_network_title" = "Connection lost";
@@ -477,7 +477,7 @@
 "onfido_enter_can_substring_attempt_plural" = "attempts";
 "onfido_nfc_scan_error_button_secondary" = "Get verified without NFC";
 "onfido_intro_scan_animation_ios" = "Place your document at the top back of your device. Once the scan starts, hold them still.";
-"onfido_nfc_scan_sheet_success" = "Scan successful";
+"onfido_nfc_scan_sheet_success" = "Scan successful.";
 "onfido_avc_intro_disclaimer_camera_and_audio_on" = "Your face, background, and audio will be recorded during this process";
 "onfido_welcome_list_header_doc_video" = "Use your device to record:";
 "onfido_welcome_list_item_doc_video_flash" = "We’ll turn on your device flash during the video recording";
@@ -516,7 +516,7 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "Please do not play any audio on your device during the recording";
 "onfido_nfc_scan_welcome_card_title" = "Scan your document";
 "onfido_nfc_scan_welcome_card_subtitle" = "Use your phone to scan the chip in your document";
-"onfido_nfc_scan_welcome_card_list_item" = "Place your document against the back of your phone.";
+"onfido_nfc_scan_welcome_card_list_item" = "Place your document against the back of your phone, near the top.";
 "onfido_nfc_scan_welcome_card_list_item_2" = "Slowly slide your document down and up against your phone to locate the chip.";
 "onfido_nfc_scan_welcome_card_list_item_3" = "Once the chip is detected, keep your phone and document still.";
 "onfido_nfc_scan_welcome_card_button_primary" = "Start scan";
@@ -535,7 +535,7 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "Use your phone to scan the chip in your document";
 "onfido_nfc_scan_welcome_passport_list_item"="Lay your document on a flat surface";
 "onfido_nfc_scan_welcome_passport_list_item_2"="Open your document at the inner back page";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "Place your document against the back of your phone.";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "Place your document against the back of your phone, near the top.";
 "onfido_nfc_scan_welcome_passport_list_item_4"="Slowly slide your device up and down";
 "onfido_nfc_scan_welcome_passport_list_item_5" = "Once the chip is detected, keep your phone and document still.";
 "onfido_nfc_scan_welcome_passport_button_primary" = "Start scan";
@@ -648,14 +648,14 @@
 "onfido_generic_close_sdk_subtitle" = "You may need to restart the verification process if you return.";
 "onfido_generic_close_sdk_exit" = "Exit";
 "onfido_generic_close_sdk_cancel" = "Cancel";
-"onfido_nfc_scan_doc_realign_title" = "Scan interrupted";
+"onfido_nfc_scan_doc_realign_title" = "Scan interrupted.";
 "onfido_nfc_scan_doc_realign_body" = "Reposition your document against your device";
 "onfido_nfc_capture_scan_intro_title_passport_new" = "Scan your passport's chip";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "Close your passport and place it on a flat surface with the front side facing up.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "Place the top half of your phone against your passport to locate the chip.";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "Once the chip is detected, keep your phone and passport still.";
 "onfido_nfc_capture_scan_sheet" = "Place the top half of your mobile in contact with the bottom half of your passport.";
-"onfido_nfc_capture_scan_scanning_sheet_1" = "Scanning...";
+"onfido_nfc_capture_scan_scanning_sheet_1" = "Scanning, hold still...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "Keep your mobile and passport still.";
 "onfido_nfc_capture_scan_doc_realign_body" = "Reposition your phone against your passport to locate the chip.";
 "onfido_nfc_capture_scan_fail_title_passport" = "Unable to scan the chip.";
@@ -702,8 +702,8 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "Issued by government authority or corporate landlord as rental confirmation.";
 "onfido_generic_alert_parsing_error_label" = "Parsing Error";
 "onfido_generic_error_parsing_detail" = "There was a parsing error. Please try again.";
-"onfido_nfc_passport_scan_doc_realign_body" = "Reposition the top of your phone against the bottom of your passport.";
-"onfido_nfc_capture_scan_passport_sheet" = "Place the top half of your mobile in contact with the bottom half of your passport.";
+"onfido_nfc_passport_scan_doc_realign_body" = "Reposition your phone against your passport.";
+"onfido_nfc_capture_scan_passport_sheet" = "Place the top half of your phone against your passport.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Keep your phone and passport still.";
 "onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Make sure you have uploaded the entire document page, and details are clear to read with no blur or glare";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Accommodation or Tenancy Certificate";
@@ -729,8 +729,8 @@
 "onfido_retry_feedback_custom_title" = "Your document has expired";
 "onfido_retry_feedback_custom_subtitle" = "Please try again with a valid photo ID and make sure your information is clearly visible";
 "onfido_nfc_scan_welcome_card_list_item_ios_2" = "To locate the chip, you may need to slowly slide your document up and down against your phone.";
-"onfido_nfc_capture_scan_card_sheet" = "Place your document against the top back of your phone.";
-"onfido_nfc_card_scan_doc_realign_body" = "Reposition your document against the top back of your phone.";
+"onfido_nfc_capture_scan_card_sheet" = "Place your document against the back of your phone, near the top.";
+"onfido_nfc_card_scan_doc_realign_body" = "Reposition your document against your phone.";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "Keep your phone and document still.";
 "onfido_permission_button_primary_both_label" = "Enable both the camera and microphone";
 "onfido_poa_intro_subtitle" = "You’ll need a document that:";
@@ -782,3 +782,9 @@
 "onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "Open your passport to the last page and place it on a flat surface.";
 "onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "Place the top half of your phone against the back cover to locate the chip.";
 "onfido_nfc_capture_scan_passport_usa_sheet" = "Place the top half of your phone against the back cover.";
+"onfido_nfc_fail_passport_list_item_5" = "Once your phone detects the chip in your passport, the scan will start automatically. Keep your phone and passport still so the scan can complete.";
+"onfido_nfc_fail_passport_list_item_3_ios" = "Place the top half of your phone against the bottom half of your passport, so they’re touching.";
+"onfido_nfc_fail_card_list_item_2_ios" = "Place your document against the back of your phone, near the top, so they’re touching.";
+"onfido_nfc_fail_passport_usa_list_item_2" = "Open your passport to the last page and place it on a flat surface. You should see the inside of the back cover with an illustration and a barcode.";
+"onfido_nfc_fail_passport_usa_list_item_4" = "You may need to slowly slide your phone up and down against the inside back cover until you locate the chip.";
+"onfido_nfc_fail_passport_usa_list_item_3_ios" = "Place the top half of your phone against the inside back cover, so they’re touching.";

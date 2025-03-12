@@ -516,7 +516,7 @@
 "onfido_avc_face_capture_alert_audio_conflict_body" = "โปรดอย่าเล่นเสียงบนอุปกรณ์ขณะกำลังบันทึกเสียง";
 "onfido_nfc_scan_welcome_card_title" = "สแกนเอกสารของคุณ";
 "onfido_nfc_scan_welcome_card_subtitle" = "ใช้โทรศัพท์ของคุณสแกนชิปที่อยู่ในเอกสารของคุณ";
-"onfido_nfc_scan_welcome_card_list_item" = "วางเอกสารของคุณไว้ด้านหลังโทรศัพท์ของคุณ";
+"onfido_nfc_scan_welcome_card_list_item" = "วางเอกสารของคุณไว้ที่ด้านหลังของโทรศัพท์ ใกล้กับด้านบน";
 "onfido_nfc_scan_welcome_card_list_item_2" = "เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณเพื่อค้นหาชิป";
 "onfido_nfc_scan_welcome_card_list_item_3" = "เมื่อชิปถูกตรวจพบ ให้ถือโทรศัพท์และเอกสารของคุณให้นิ่ง";
 "onfido_nfc_scan_welcome_card_button_primary" = "เริ่มการสแกน";
@@ -535,7 +535,7 @@
 "onfido_nfc_scan_welcome_passport_subtitle" = "ใช้โทรศัพท์ของคุณสแกนชิปที่อยู่ในเอกสารของคุณ";
 "onfido_nfc_scan_welcome_passport_list_item" = "วางเอกสารของคุณบนพื้นผิวเรียบ";
 "onfido_nfc_scan_welcome_passport_list_item_2" = "เปิดเอกสารของคุณที่หน้าหลังด้านใน";
-"onfido_nfc_scan_welcome_passport_list_item_3" = "วางเอกสารของคุณไว้ด้านหลังโทรศัพท์ของคุณ";
+"onfido_nfc_scan_welcome_passport_list_item_3" = "วางเอกสารของคุณไว้ที่ด้านหลังของโทรศัพท์ ใกล้กับด้านบน";
 "onfido_nfc_scan_welcome_passport_list_item_4" = "เลื่อนอุปกรณ์ของคุณขึ้นและลงช้าๆ";
 "onfido_nfc_scan_welcome_passport_list_item_5" = "เมื่อชิปถูกตรวจพบ ให้ถือโทรศัพท์และเอกสารของคุณให้นิ่ง";
 "onfido_nfc_scan_welcome_passport_button_primary" = "เริ่มการสแกน";
@@ -653,9 +653,9 @@
 "onfido_nfc_capture_scan_intro_title_passport_new" = "สแกนชิปในพาสปอร์ตของคุณ";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_1" = "ปิดหนังสือเดินทางของคุณและวางลงบนพื้นผิวแบนด้วยด้านหน้าขึ้น";
 "onfido_nfc_capture_scan_intro_passport_scan_guide_2" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับหนังสือเดินทางเพื่อค้นหาชิป";
-"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "เมื่อชิปถูกตรวจพบ ให้ถือโทรศัพท์และหนังสือเดินทางของคุณให้นิ่ง";
+"onfido_nfc_capture_scan_intro_passport_scan_guide_3" = "เมื่อชิปถูกตรวจพบแล้ว ให้ถือโทรศัพท์และหนังสือเดินทางของคุณให้นิ่ง";
 "onfido_nfc_capture_scan_sheet" = "วางครึ่งบนของโทรศัพท์ของคุณให้สัมผัสกับครึ่งล่างของพาสปอร์ตของคุณ";
-"onfido_nfc_capture_scan_scanning_sheet_1" = "กำลังสแกน...";
+"onfido_nfc_capture_scan_scanning_sheet_1" = "กำลังสแกน, กรุณาถือให้นิ่ง...";
 "onfido_nfc_capture_scan_scanning_sheet_2" = "เก็บโทรศัพท์และพาสปอร์ตของคุณให้นิ่ง";
 "onfido_nfc_capture_scan_doc_realign_body" = "จัดตำแหน่งโทรศัพท์ของคุณให้ตรงกับพาสปอร์ตเพื่อค้นหาชิป";
 "onfido_nfc_capture_scan_fail_title_passport" = "ไม่สามารถสแกนชิปได้";
@@ -702,8 +702,8 @@
 "onfido_doc_select_accommodation_tenancy_certificate_detail" = "ออกโดยหน่วยงานราชการหรือเจ้าของอาคารเช่าเพื่อยืนยันการเช่า.";
 "onfido_generic_alert_parsing_error_label" = "ข้อผิดพลาดในการวิเคราะห์";
 "onfido_generic_error_parsing_detail" = "เกิดข้อผิดพลาดในการวิเคราะห์ โปรดลองอีกครั้ง";
-"onfido_nfc_passport_scan_doc_realign_body" = "ย้ายด้านบนของโทรศัพท์ของคุณให้ตรงกับด้านล่างของพาสปอร์ตของคุณ";
-"onfido_nfc_capture_scan_passport_sheet" = "วางครึ่งบนของโทรศัพท์ของคุณให้สัมผัสกับครึ่งล่างของพาสปอร์ตของคุณ";
+"onfido_nfc_passport_scan_doc_realign_body" = "จัดวางโทรศัพท์ของคุณใหม่ให้ชิดกับหนังสือเดินทางของคุณ";
+"onfido_nfc_capture_scan_passport_sheet" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "เก็บโทรศัพท์และพาสปอร์ตของคุณให้นิ่ง";
 "onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ตรวจสอบให้แน่ใจว่าคุณได้อัปโหลดหน้าเอกสารท้งหมดแล้ว และรายละเอียดสามารถอ่านได้ชัดเจนโดยไม่มีความพร่าหรือแสงแฟลร์";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "ใบรับรองการพักอาศัยหรือสัญญาเช่า";
@@ -729,8 +729,8 @@
 "onfido_retry_feedback_custom_title" = "เอกสารของคุณหมดอายุแล้ว";
 "onfido_retry_feedback_custom_subtitle" = "โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน";
 "onfido_nfc_scan_welcome_card_list_item_ios_2" = "เพื่อค้นหาชิป คุณอาจจำเป็นต้องเลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณ";
-"onfido_nfc_capture_scan_card_sheet" = "วางเอกสารของคุณที่ด้านหลังสูงสุดของโทรศัพท์ของคุณ";
-"onfido_nfc_card_scan_doc_realign_body" = "ย้ายเอกสารของคุณไปวางที่ด้านหลังสูงสุดของโทรศัพท์ของคุณ";
+"onfido_nfc_capture_scan_card_sheet" = "วางเอกสารของคุณไว้ที่ด้านหลังของโทรศัพท์ ใกล้กับด้านบน";
+"onfido_nfc_card_scan_doc_realign_body" = "จัดตำแหน่งเอกสารของคุณกับโทรศัพท์ของคุณใหม่";
 "onfido_nfc_capture_scan_card_scanning_sheet_2" = "เก็บโทรศัพท์และเอกสารของคุณให้นิ่ง";
 "onfido_permission_button_primary_both_label" = "เปิดใช้งานทั้งกล้องและไมโครโฟน";
 "onfido_poa_intro_subtitle" = "คุณจะต้องมีเอกสารที่:";
@@ -779,6 +779,12 @@
 "onfido_generic_icon_error_accessibility" = "ข้อผิดพลาด:";
 "onfido_generic_icon_warning_accessibility" = "คำเตือน:";
 "onfido_generic_icon_success_accessibility" = "สำเร็จ:";
-"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "";
-"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "";
-"onfido_nfc_capture_scan_passport_usa_sheet" = "";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1" = "เปิดหนังสือเดินทางของคุณไปที่หน้าสุดท้ายและวางบนพื้นผิวเรียบ";
+"onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับฝาหลังเพื่อค้นหาชิป";
+"onfido_nfc_capture_scan_passport_usa_sheet" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับฝาหลัง";
+"onfido_nfc_fail_passport_list_item_5" = "เมื่อโทรศัพท์ของคุณตรวจพบชิปในหนังสือเดินทาง การสแกนจะเริ่มต้นโดยอัตโนมัติ กรุณาถือโทรศัพท์และหนังสือเดินทางให้นิ่งเพื่อให้การสแกนเสร็จสมบูรณ์";
+"onfido_nfc_fail_passport_list_item_3_ios" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับครึ่งล่างของหนังสือเดินทางของคุณให้สัมผัสกัน";
+"onfido_nfc_fail_card_list_item_2_ios" = "วางเอกสารของคุณไว้ที่ด้านหลังของโทรศัพท์ ใกล้กับด้านบน เพื่อให้สัมผัสกัน";
+"onfido_nfc_fail_passport_usa_list_item_2" = "เปิดหนังสือเดินทางของคุณไปที่หน้าสุดท้ายและวางบนพื้นผิวเรียบ คุณควรเห็นด้านในของปกหลังที่มีภาพประกอบและบาร์โค้ด";
+"onfido_nfc_fail_passport_usa_list_item_4" = "คุณอาจต้องเลื่อนโทรศัพท์ของคุณขึ้นและลงช้า ๆ กับด้านในของปกหลังจนกว่าคุณจะพบชิป";
+"onfido_nfc_fail_passport_usa_list_item_3_ios" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับด้านในของฝาหลังให้สัมผัสกัน";
