@@ -66,7 +66,9 @@ The iOS SDK supports:
 
 **Note**: The iOS SDK requires CoreNFC to run (regardless of whether you use NFC or not). Since Xcode 12, there is a bug where `libnfshared.dylib` is missing from simulators. Refer to [Stack Overflow](https://stackoverflow.com/questions/63915728/xcode12-corenfc-simulator-library-not-loaded) for a solution to this problem.
 
-**Note**: In the event that you disable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage because NFC-related code is part of the SDK binary, regardless of runtime configuration. While we're working on a permanent solution for this problem, you can contact Onfido's [Customer Support](mailto:support@onfido.com) in the meantime to obtain a video.
+**Note**: In the event that you disable the NFC feature, Apple might ask you to provide a video to demonstrate NFC usage
+because NFC-related code is part of the SDK binary, regardless of your configuration. You can find a video
+demonstrating our NFC feature that you can submit to Apple [here](assets/nfc_demo.mov).
 
 ### App permissions
 
@@ -779,8 +781,8 @@ are allowed to use.
 This selection screen is dynamic, and will be automatically hidden where the end user is not required to indicate which
 document will be captured.
 
-By default, the country selection will be pre-populated based on the end user’s primary SIM, but the end user can select
-another country from the list where allowed. The selection will default to empty when no SIM is present.
+By default, the country selection will be pre-populated based on the end user’s language, as set in iOS 
+"Settings > General > Language & Region", but the end user can select another country from the list where allowed.
 
 ![The default country selection](assets/selection1.png)
 ![The default country selection](assets/selection2.png)
@@ -1154,6 +1156,8 @@ Builder * variantBuilder = [ONFaceStepVariantConfig builder];
 
 To configure for **Motion with audio recording**:
 
+Motion supports audio recording, but it is disabled by default. This can, however, be enabled to allow the recording of the user's background audio.  If a user does not opt into granting microphone permissions, they cannot proceed with the Motion flow, and no video can be created or uploaded.
+
 ```
 NSError * error;
 Builder * variantBuilder = [ONFaceStepVariantConfig builder];
@@ -1214,6 +1218,8 @@ let config = try OnfidoConfig.builder()
 ```
 
 To configure for **Motion with audio recording**:
+
+Motion supports audio recording, but it is disabled by default. This can, however, be enabled to allow the recording of the user's background audio.  If a user does not opt into granting microphone permissions, they cannot proceed with the Motion flow, and no video can be created or uploaded.
 
 ```swift
 let config = try OnfidoConfig.builder()
