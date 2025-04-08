@@ -6,6 +6,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [32.4.2] - 2025-04-07
+
+### Fixed
+
+- Attempted to fix camera issues with iOS 18.4
+
 ## [32.4.1] - 2025-03-27
 
 ### Fixed
