@@ -23,7 +23,9 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Required for document and facial capture</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Required for video capture</string>
+	<string>Required for the video liveness capture recite challenge</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Required to read images from the photo library, when uploading documents</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
