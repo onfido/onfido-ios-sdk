@@ -86,6 +86,27 @@ The SDK makes use of a user's device camera (for document and face capture) and 
 
 **Note**: All keys will be required for app submission.
 
+#### App permissions for NFC and Proof of Address
+
+If your integration makes use of the [NFC](https://documentation.onfido.com/sdk/ios/#nfc-capture) or [Proof of Address](https://documentation.onfido.com/sdk/ios/#proof-of-address-step) (PoA) modules, the following keys must also be included in your application's `Info.plist` file:
+
+- `NFCReaderUsageDescription`
+- `NSPhotoLibraryAddUsageDescription`
+
+**NFC**
+
+```xml
+<key>NFCReaderUsageDescription</key>
+<string>Required to read ePassports</string>
+```
+
+**Proof of Address**
+
+```xml
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Required to read images from the photo library, when uploading documents</string>
+```
+
 ### Adding the dependency
 
 #### Using Swift Package Manager
