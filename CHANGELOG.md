@@ -6,6 +6,18 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [32.6.0] - 2025-06-25
+
+### Changed
+
+- Changed Store on-device biometrics task input to take an encrypted biometric token
+
+### Fixed
+
+- Use SDK theme instead of system for Lottie animations
+- Fix iPad crash when a user taps on the search in the country selection screen
+- Hide navigation bar in user consent screen
+
 ## [32.5.3] - 2025-06-17
 
 ### Changed
