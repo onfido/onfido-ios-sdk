@@ -37,7 +37,7 @@ The Onfido Smart Capture SDKs provide a set of screens and functionalities that 
 
 All Onfido Smart Capture SDKs are orchestrated using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) workflows, with only minor customization differences between the available platforms.
 
-![Capture Document and face](assets/Overview.png)
+![Capture Document and face](assets/screenshots_25.png)
 
 ### Environments and testing with the SDK
 
@@ -1716,7 +1716,7 @@ The parameter being passed in is an `OnfidoFlow.Event` struct which contains the
 
 |              |                                                                                                                                             |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `eventName`  | **string** <br> Indicates the type of event. This will always be returned as `"Screen"`, as each tracked event is a user visiting a screen. |
+| `name`       | **string** <br> Indicates the type of event. This will always be returned as `"Screen"`, as each tracked event is a user visiting a screen. |
 | `properties` | **dictionary** <br> Contains the specific details of an event. For example, the name of the screen visited.                                 |
 
 ### Using the data

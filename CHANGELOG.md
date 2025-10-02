@@ -6,6 +6,14 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [32.6.1] - 2025-10-02
+
+### Fixed
+
+- Fixed camera freeze when retrying Video capture after timeout, which was causing "File size must be larger than zero" upload errors
+- Fixed Motion freezing when another app has ongoing audio that we are unable to interrupt, displaying a message to the user when this is the case (most common case is ongoing phone calls)
+- Fixed a rare issue where navigating back from the capture screen could cause an infinite loading state
+
 ## [32.6.0] - 2025-06-25
 
 ### Changed
