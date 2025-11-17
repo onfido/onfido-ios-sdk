@@ -6,6 +6,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [32.6.3] - 2025-11-14
+
+### Fixed
+
+- Fix address line & checkbox parsing for profile data
+
 ## [32.6.2] - 2025-10-30
 
 ### Fixed
