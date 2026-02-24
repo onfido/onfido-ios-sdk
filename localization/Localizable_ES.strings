@@ -42,7 +42,7 @@
 "onfido_permission_body_both" = "No lo podemos verificar sin acceso a su cámara y micrófono";
 "onfido_permission_body_cam" = "No le podemos verificar sin usar su cámara";
 "onfido_permission_body_mic" = "No le podemos verificar sin acceso a su micrófono";
-"onfido_permission_subtitle_both" = "Deberá conceder acceso a ambos para continuar";
+"onfido_permission_subtitle_both" = "Deberá permitir acceso a ambos para continuar";
 "onfido_permission_subtitle_cam" = "Deberá activar la cámara para continuar";
 "onfido_permission_subtitle_mic" = "Deberá conceder acceso al micrófono para continuar";
 /* Device permission */
@@ -63,7 +63,7 @@
 /* Network error */
 "onfido_generic_alert_network_error_label" = "Conexión perdida";
 "onfido_doc_capture_alert_no_face_detail" = "Asegúrate de que tu cara esté visible";
-"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Asegúrese que su documento este completmente abierto (debe incluir su foto)";
+"onfido_doc_capture_alert_no_face_detail_folded_doc" = "Asegúrese que su documento este completmente abierto para mostrar las páginas con su foto";
 "onfido_doc_capture_alert_no_face_title" = "Cara no encontrada";
 "onfido_video_capture_button_primary_finish" = "Terminar la grabación";
 "onfido_welcome_button_primary_doc" = "Seleccione un documento";
@@ -90,7 +90,7 @@
 "onfido_video_capture_header_challenge_turn_left" = "Gire su cabeza hacia la izquierda";
 "onfido_video_capture_header_challenge_turn_right" = "Gira tu cabeza hacia la derecha";
 "onfido_video_capture_prompt_button_primary_network_timeout" = "Instrucciones de recarga";
-"onfido_video_capture_prompt_network_timeout_detail" = "Asegúrese de que su conexión es estable, luego intente de nuevo";
+"onfido_video_capture_prompt_network_timeout_detail" = "Asegúrese de que su conexión es estable, vuelva a intentarlo";
 "onfido_video_capture_prompt_network_timeout_title" = "Tiempo de conexión agotado";
 "onfido_video_intro_loader" = "Cargando el ejemplo";
 "onfido_video_intro_list_item_time_limit" = "Termine las instrucciones en %d segundos";
@@ -119,7 +119,7 @@
 "onfido_selfie_confirmation_body" = "Asegúrese de que la selfie muestre claramente su cara";
 /* Document capture */
 "onfido_doc_capture_header_passport" = "Coloque la página del documento con fotografía dentro del cuadro";
-"onfido_doc_capture_header_visa" = "Coloque la página del visado del documento dentro del cuadro";
+"onfido_doc_capture_header_visa" = "Coloque la página del visado del documento en el recuadro";
 /* Loading */
 "onfido_video_capture_loader_accessibility" = "Cargando";
 "onfido_doc_capture_header_passport_auto" = "Coloque la página del documento con fotografía dentro del cuadro";
@@ -217,7 +217,7 @@
 "onfido_nfc_fail_button_primary_card" = "Reintentar escaneo";
 "onfido_nfc_fail_button_secondary_card" = "Verificar sin escanear";
 "onfido_doc_confirmation_zoom_button" = "Ampliar imagen";
-"onfido_doc_confirmation_image_accessibility" = "Foto de su documento. Toque dos veces para ampliar.";
+"onfido_doc_confirmation_image_accessibility" = "Foto de su documento";
 "onfido_doc_zoom_body" = "Mueva la imagen usando un dedo";
 "onfido_doc_zoom_button_close" = "Cerrar";
 "onfido_video_confirmation_body" = "Su video ha sido grabado";
@@ -242,7 +242,7 @@
 "onfido_doc_upload_progress_label" = "Comprobando calidad de la imagen";
 "onfido_doc_capture_frame_success_accessibility" = "Imagen capturada";
 "onfido_generic_error_timeout_title" = "Tiempo de conexión agotado";
-"onfido_generic_error_timeout_detail" = "Asegúrese de que su conexión es estable, luego intente de nuevo";
+"onfido_generic_error_timeout_detail" = "Asegúrese de que su conexión es estable, vuelva a intentarlo";
 "onfido_generic_error_timeout_button_primary" = "Reintentar";
 "onfido_generic_processing" = "Procesando";
 "onfido_video_capture_turn_success_accessibility" = "Se detectó un giro de cabeza";
@@ -795,3 +795,23 @@
 "onfido_nfc_upload_error_title" = "Error de conexión";
 "onfido_nfc_upload_error_subtitle" = "Compruebe que la conexión sea estable e inténtelo de nuevo";
 "onfido_nfc_upload_error_button_primary" = "Reintentar la subida";
+"onfido_retry_headline_generic_proof_of_address_issue" = "Hubo un problema con tu documento";
+"onfido_retry_description_generic_proof_of_address_issue" = "Vuelve a intentarlo con un documento válido y asegúrate de que tu información sea claramente visible";
+"onfido_retry_button_generic_proof_of_address_issue" = "Intentar otra vez";
+"country_selection_select_hint_accessibility" = "Toca dos veces para seleccionar un país";
+"onfido_nfc_scan_pin_disclaimer" = "Te pediremos el PIN de %d dígitos de tu documento antes de escanear el chip.";
+"onfido_enter_pin_subtitle" = "Esto es necesario para leer de forma segura el chip NFC. Creaste este número de %d dígitos cuando se emitió tu documento.";
+"onfido_enter_pin_title" = "Introduce el PIN de tu documento";
+"onfido_enter_pin_title_incorrect" = "PIN incorrecto";
+"onfido_enter_pin_helper_attempts_left" = "%d intentos restantes";
+"onfido_enter_pin_helper_final_attempt" = "Queda 1 intento. Su chip se bloqueará después del próximo intento fallido";
+"onfido_chip_blocked_title" = "Chip NFC bloqueado";
+"onfido_chip_blocked_subtitle" = "Esta es una medida de seguridad para prevenir el fraude. Ponte en contacto con la autoridad emisora local para desbloquear tu chip.";
+"onfido_chip_blocked_button_help" = "Portal gubernamental";
+"onfido_enter_pin_optional_helper_attempts_left" = "%d intentos restantes. Omite este paso a continuación.";
+"onfido_enter_pin_optional_helper_final_attempt" = "%d intento restante antes de que se bloquee tu chip NFC. Omite este paso a continuación.";
+"onfido_enter_pin_button_primary" = "Continuar";
+"onfido_enter_pin_optional_button_tertiary" = "Omitir el escaneo del chip NFC";
+"onfido_chip_blocked_optional_title" = "Continuar sin escanear el chip";
+"onfido_chip_blocked_optional_subtitle" = "Demasiados intentos incorrectos de PIN han bloqueado tu chip NFC, así que omitiremos este paso. Ponte en contacto con las autoridades para restablecer tu PIN para usos futuros.";
+"onfido_chip_blocked_optional_button_primary" = "Continuar";
