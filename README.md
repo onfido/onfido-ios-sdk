@@ -26,6 +26,14 @@
 
 ## Overview
 
+**Please note**: This documentation applies to the legacy Onfido Smart Capture SDK for iOS.  
+
+In January 2026, Entrust released the next major version ([v100](https://documentation.identity.entrust.com/sdk/sdk-migration-guide-2025/#introduction)) of the Entrust Identity Verification SDKs. This new set of mobile SDKs introduces a redesign of the integration experience and configuration capabilities, with even closer alignment to Workflow Studio and a consistent public API that can be applied across all our SDK platforms. 
+
+For more detailed documentation, please refer to the Entrust IDV SDK [integration](https://documentation.identity.entrust.com/sdk/sdk-integration-guide-2025/) and [migration](https://documentation.identity.entrust.com/sdk/sdk-migration-guide-2025/) guides. 
+
+The legacy Onfido Smart Capture SDK for iOS will continue to be supported for a period of 9 months from the upcoming release of the Document Capture, NFC Capture, and Authentication native modules, in line with our [SDK versioning policy](https://documentation.identity.entrust.com/sdk/sdk-version-releases/#major). Based on current release expectations, this means the legacy SDKs will remain supported until June 2027.
+
 The Onfido Smart Capture SDKs provide a set of screens and functionalities that enable applications to implement user identity verification flows. Each SDK contains:
 
 - Carefully designed UX to guide your customers through the different photo or video capture processes
@@ -256,7 +264,7 @@ For more information on how to configure NFC and the list of supported documents
 
 - You have to include the entries below in your app target's `Info.plist` file to be able to read NFC tags properly.
 
-```
+```xml
 <key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
 <array>
   <string>12FC</string>
@@ -267,6 +275,8 @@ For more information on how to configure NFC and the list of supported documents
   <string>A0000002472001</string>
   <string>00000000000000</string>
   <string>D2760000850101</string>
+  <string>A000000077030C60000000FE00000500</string>
+  <string>E828BD080FA0000001674544415441</string>
 </array>
 ```
 
