@@ -6,6 +6,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.0.1] - 2026-04-15
+
+### Fixed
+
+- Fixed an issue where users could not input or recover the keyboard on the CAN entry screen
+
 ## [33.0.0] - 2026-03-06
 
 ### Changed
