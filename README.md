@@ -26,13 +26,13 @@
 
 ## Overview
 
-**Please note**: This documentation applies to the legacy Onfido Smart Capture SDK for iOS.  
+**Please note**: This documentation applies to the Onfido Smart Capture SDK for iOS.  
 
 In January 2026, Entrust released the next major version ([v100](https://documentation.identity.entrust.com/sdk/sdk-migration-guide-2025/#introduction)) of the Entrust Identity Verification SDKs. This new set of mobile SDKs introduces a redesign of the integration experience and configuration capabilities, with even closer alignment to Workflow Studio and a consistent public API that can be applied across all our SDK platforms. 
 
 For more detailed documentation, please refer to the Entrust IDV SDK [integration](https://documentation.identity.entrust.com/sdk/sdk-integration-guide-2025/) and [migration](https://documentation.identity.entrust.com/sdk/sdk-migration-guide-2025/) guides. 
 
-The legacy Onfido Smart Capture SDK for iOS will continue to be supported for a period of 9 months from the upcoming release of the Document Capture, NFC Capture, and Authentication native modules, in line with our [SDK versioning policy](https://documentation.identity.entrust.com/sdk/sdk-version-releases/#major). Based on current release expectations, this means the legacy SDKs will remain supported until June 2027.
+The Onfido Smart Capture SDK for iOS will continue to be supported for a period of 9 months from the upcoming release of the Document Capture, NFC Capture, and Authentication native modules, in line with our [SDK versioning policy](https://documentation.identity.entrust.com/sdk/sdk-version-releases/#major). Based on current release expectations, this means the Onfido SDKs will remain supported until June 2027.
 
 The Onfido Smart Capture SDKs provide a set of screens and functionalities that enable applications to implement user identity verification flows. Each SDK contains:
 

@@ -6,6 +6,17 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.1.0] - 2026-05-19
+
+### Added
+
+- Added support for skipping the document selection screen in Studio workflows via custom inputs
+
+### Fixed
+
+- Fixed an issue that could cause degraded performance on the document capture screen
+- Fixed a crash in Motion capture that could occur when resuming the app after a prolonged time in the background
+
 ## [33.0.1] - 2026-04-15
 
 ### Fixed
