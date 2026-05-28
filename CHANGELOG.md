@@ -6,6 +6,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.1.1] - 2026-05-28
+
+### Fixed
+
+- Fixed issue where button text was truncated at large Dynamic Type sizes on error screens
+
 ## [33.1.0] - 2026-05-19
 
 ### Added
@@ -16,6 +22,7 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 - Fixed an issue that could cause degraded performance on the document capture screen
 - Fixed a crash in Motion capture that could occur when resuming the app after a prolonged time in the background
+- Fixed issue where cancelling the NFC scan sheet did not immediately dismiss it
 
 ## [33.0.1] - 2026-04-15
 
