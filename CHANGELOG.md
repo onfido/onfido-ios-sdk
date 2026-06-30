@@ -6,6 +6,13 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.1.2] - 2026-06-23
+
+### Fixed
+
+- Attempted to fix rare Motion crash when completing a recording
+- Fixed web modules displaying incorrect language when using .withCustomLocalization
+
 ## [33.1.1] - 2026-05-28
 
 ### Fixed

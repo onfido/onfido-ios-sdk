@@ -58,7 +58,7 @@ The environment being used is determined by the API token that is used to genera
 
 ### Going Live
 
-Once you are satisfied with your integration and are ready to go live, please contact Onfido's [Customer Support](mailto:client-support@onfido.com) to obtain a live API token. You will have to replace the sandbox token in your code with the live token.
+Once you are satisfied with your integration and are ready to go live, please contact Onfido's [Customer Support](mailto:identity-client-support@entrust.com) to obtain a live API token. You will have to replace the sandbox token in your code with the live token.
 
 Check that you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/), before going live.
 
@@ -395,7 +395,7 @@ ONEnterpriseFeaturesBuilder *enterpriseFeatures = [ONEnterpriseFeatures builder]
 [enterpriseFeatures build];
 ```
 
-**Please note**: Text co-branding must be enabled by Onfido. Please [contact](mailto:client-support@onfido.com) your Solutions Engineer or Customer Success Manager to activate the feature.
+**Please note**: Text co-branding must be enabled by Onfido. Please [contact](mailto:identity-client-support@entrust.com) your Solutions Engineer or Customer Success Manager to activate the feature.
 
 #### Logo co-branding
 
@@ -424,7 +424,7 @@ ONEnterpriseFeaturesBuilder *enterpriseFeatures = [ONEnterpriseFeatures builder]
 [enterpriseFeatures build];
 ```
 
-**Please note**: Logo co-branding must be enabled by Onfido. Please [contact](mailto:client-support@onfido.com) your Solutions Engineer or Customer Success Manager to activate the feature.
+**Please note**: Logo co-branding must be enabled by Onfido. Please [contact](mailto:identity-client-support@entrust.com) your Solutions Engineer or Customer Success Manager to activate the feature.
 
 
 #### Add co-branding to OnfidoConfig
@@ -447,47 +447,41 @@ ONFlowConfigBuilder *configBuilder = [ONFlowConfig builder];
 
 ### Language localization
 
-The Onfido SDK supports and maintains translations for over 40 languages.
+The Onfido SDK supports and maintains translations for over 40 languages. By default, the SDK will detect and use the end user's device language setting. If the device's language is not supported, the SDK will default to English (`en_US`).
 
-The strings used within the SDK can be customized by having a `Localizable.strings` in your app for the desired language
-and by configuring the flow using the `withCustomLocalization()` method on the configuration builder.
+For the full list of supported languages, please refer to our SDK customization documentation.
+
+#### Custom string translations
+
+The SDK uses a set of predefined translation keys for all UI strings. By default, the SDK will use the built-in translations for the end user's detected device language. These strings can be customized by providing a `Localizable.strings` file in your app and configuring the flow using the `withCustomLocalization()` method on the configuration builder.
 
 ##### Swift
 
 ```swift
-- (void)withCustomLocalization {
-    [self.configBuilder withCustomLocalization]; // will look for localizable strings in your Localizable.strings file
-}
+let configBuilder = OnfidoConfig.builder()
+configBuilder.withCustomLocalization()
 ```
 
-For the list of languages supported by Onfido, please refer to our [SDK customization documentation](https://documentation.onfido.com/sdk/sdk-customization#language-customization).
+If you want to override specific strings or provide translations for a language the SDK does not currently support, you can supply your own `.strings` file. You can provide full or partial translations — for any key without a translation, the SDK will fall back to the built-in default for the closest supported language.
 
-**Note**: If no language is selected, the SDK will detect and use the end user's device language setting. If the device's language is not supported, the SDK will default to English (`en_US`).
+When adding custom translations, use the full set of keys from the `Localizable_EN.strings` file (reference) as a starting point.
 
-#### Custom languages
+To provide custom strings, pass the name of your `.strings` file and the language code to `withCustomLocalization()`:
 
-The SDK can also be displayed in a custom language for locales that Onfido does not currently support. You can supply
-full or partial translations. For any key without a translation, the supported language default will be used.
-
-When adding custom translations, you must add the whole set of keys included in the `Localizable_EN.strings` file ([reference](https://github.com/onfido/onfido-ios-sdk/blob/master/localization/Localizable_EN.strings)).
-
-You can name the strings file with the translated keys as you desire but the name of the file will have to be provided
-to the SDK as a parameter to the `withCustomLocalization()` method:
-
-- `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE")` (Swift)
+- `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", languageCode: "fr")` (Swift)
 - `[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE"];` (Objective-C)
 
-Additionally you can specify the bundle from which to read the strings file:
+If your strings file is in a custom bundle, you can specify that too:
 
-- `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle)` (Swift)
+- `withCustomLocalization(andTableName: "MY_CUSTOM_STRINGS_FILE", in: myBundle, languageCode: "fr")` (Swift)
 - `[configBuilder withCustomLocalizationWithTableName:@"MY_CUSTOM_STRINGS_FILE" in: myBundle];` (Objective-C)
 
 **Note**:
-
-- Any string translation change will result in a MINOR version release. Any custom translations you have should not be impacted by this if they have been implemented according to the guidance above
+- The `languageCode` parameter is available in Swift only and is required to ensure web-based modules (such as OTP and QES) display in the correct language. Without it, web modules will default to the device language regardless of the strings file provided. Pass the ISO 639-1 two-character language code matching your strings file (e.g. `"fr"`, `"de"`, `"es"`)
+- Any string translation change will result in a MINOR version release. Existing custom translations implemented according to this guidance will not be affected
 - You are responsible for ensuring the correct layout of any custom translations
 
-To request a new language translation, or offer feedback or suggestions on the translations provided, you can get in touch with Onfido's [Customer Support](mailto:support@onfido.com)
+To request a new language translation, or offer feedback or suggestions on the translations provided, you can get in touch with Onfido's [Customer Support](mailto:identity-client-support@entrust.com)
 
 ## Completing a session
 
@@ -548,7 +542,7 @@ switch response {
         // See https://documentation.onfido.com/api/latest#errors for more information
       case OnfidoFlowError.exception(withError: let error, withMessage: let message):
         // This error is thrown when an unexpected error occurs
-        // Please email [Customer support](mailto:supportonfido.com) when this happens
+        // Please email [Customer support](mailto:identity-client-support@entrust.com) when this happens
       case OnfidoFlowError.versionInsufficient:
         // This error is thrown when you are using an older version of the iOS SDK and trying
         // to access a new functionality from workflow. You can fix this by updating the SDK
@@ -829,7 +823,7 @@ Configuring the issuing country and document type selection step using your Dash
 customization (available from iOS SDK version 28.0.0 and Android SDK version 16.0.0 onwards), as this configuration is also applied to your Document Reports.
 
 _We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime,
-contact [support@onfido.com](mailto:support@onfido.com) or your Customer Support Manager to request access to this feature._
+contact [identity-client-support@entrust.com](mailto:identity-client-support@entrust.com) or your Customer Support Manager to request access to this feature._
 
 - Open the Accounts tab on your [Dashboard](https://dashboard.onfido.com/) then click
   Supported Documents
@@ -1455,7 +1449,7 @@ case let OnfidoResponse.error(error):
     case OnfidoFlowError.upload(let OnfidoApiError):
         // This error is thrown when the SDK receives an error from an API call, see [https://documentation.onfido.com/api/latest#errors](https://documentation.onfido.com/api/latest#errors) for more information
     case OnfidoFlowError.exception(withError: let error, withMessage: let message):
-        // This error is thrown when an unexpected error occurs, please contact [support](mailto:support@onfido.com) when this happens
+        // This error is thrown when an unexpected error occurs, please contact [support](mailto:identity-client-support@entrust.com) when this happens
     case OnfidoFlowError.invalidImageData:
         // This error is thrown when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
     case OnfidoFlowError.versionInsufficient:
@@ -1536,7 +1530,7 @@ case ONFlowErrorUpload:
     // you can find out more by printing or logging userInfo from error
     break;
 case ONFlowErrorException:
-    // Returned when an unexpected error occurs, please contact Onfido's [Customer Support](mailto:support@onfido.com) when this happens
+    // Returned when an unexpected error occurs, please contact Onfido's [Customer Support](mailto:identity-client-support@entrust.com) when this happens
     break;
 case ONFlowErrorInvalidImageData:
     // Occurs when the SDK tries to save capture to disk, but the image failed to compress to JPEG data
@@ -1812,7 +1806,7 @@ You can pin any communications between our SDK and server through the `.withCert
 our `OnfidoConfig.Builder` configuration builder. This method accepts `CertificatePinningConfiguration` as a parameter,
 with sha-256 hashes of the certificate's public keys.
 
-For more information about the hashes, please email Onfido's [Customer Support](mailto:support@onfido.com).
+For more information about the hashes, please email Onfido's [Customer Support](mailto:identity-client-support@entrust.com).
 
 ##### Swift
 
@@ -1922,7 +1916,7 @@ the `SampleApp` and `SampleAppObjC` directories for more information.
 ## Support
 
 Should you encounter any technical issues during integration, please contact Onfido’s Customer Support team
-via [email](mailto:support@onfido.com), including the word ISSUE: at the start of the subject line.
+via [email](mailto:identity-client-support@entrust.com), including the word ISSUE: at the start of the subject line.
 
 Alternatively, you can search the support documentation available via the customer experience
 portal, [public.support.onfido.com](http://public.support.onfido.com).
