@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pohľad z fotoaparátu. Umiestnite telefón na stránku pasu s fotkou a potom telefón pomaly posúvajte priamo smerom od dokladu.";
 "onfido_doc_capture_header_capturing" = "Držte bez pohybu";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Uistite sa, že ste nahrali celú stránku dokladu a údaje sú čitateľné bez rozmazania alebo odleskov";
-"onfido_doc_select_subtitle_poa" = "Toto sú doklady, na ktorých je s najväčšou pravdepodobnosťou uvedená aktuálna adresa vášho bydliska";
+"onfido_doc_confirmation_body" = "Uistite sa, že celý dokument je viditeľný a všetky údaje sú čitateľné, bez rozmazania alebo odleskov";
+"onfido_doc_select_subtitle_poa" = "Vyberte si nedávny dokument, ktorý obsahuje vašu aktuálnu domácu adresu";
 "onfido_doc_select_button_bill" = "Účet za energie";
 "onfido_doc_select_extra_estatements_ok" = "akceptované elektronické výpisy";
 "onfido_doc_select_button_bill_detail" = "Plyn, elektrina, voda, pevná linka alebo širokopásmové pripojenie";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Umiestnite svoj telefón proti pasu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Položte hornú polovicu telefónu na svoj pas.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Držte svoj telefón a pas stále.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Uistite sa, že ste nahrali celú stránku dokumentu a detaily sú jasne čitateľné bez rozmazania alebo odlesku";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Uistite sa, že ste nahrali celú stránku dokumentu a že detaily sú jasne čitateľné, bez rozmazania alebo odleskov";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Potvrdenie o ubytovaní alebo nájme";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Podnájomné zmluvy nie sú akceptované";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Podnájomné zmluvy nie sú akceptované";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Pokračovať bez skenovania čipu";
 "onfido_chip_blocked_optional_subtitle" = "Príliš veľa nesprávnych zadaní PIN zablokovalo váš čip NFC, preto tento krok preskočíme. Obráťte sa na príslušný úrad, aby vám PIN obnovili na budúce použitie.";
 "onfido_chip_blocked_optional_button_primary" = "Pokračovať";
+"permission_recovery_device_motion_title" = "Prístup k pohybu zariadenia bol zamietnutý";
+"permission_recovery_device_motion_subtitle" = "Na overenie vašej identity potrebujeme prístup k údajom o pohybe a orientácii vášho zariadenia. Postupujte podľa pokynov nižšie na obnovenie prístupu:";
+"permission_recovery_device_motion_item_1" = "Zatvorte a znova otvorte aplikáciu, aby ste reštartovali proces overenia.";
+"permission_recovery_device_motion_item_2" = "Keď sa zobrazí výzva, povoľte prístup k pohybu zariadenia, aby ste mohli pokračovať.";
+"permission_recovery_device_motion_banner" = "Váš doterajší postup sa stratí, ospravedlňujeme sa za nepríjemnosti.";
+"permission_recovery_device_motion_button" = "Zatvoriť prehliadač";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

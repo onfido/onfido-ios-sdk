@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pogled s kamere. Postavite telefon na stran potnega lista s fotografijo, nato pa počasi odmaknite telefon od njega v ravni liniji.";
 "onfido_doc_capture_header_capturing" = "Bodite pri miru";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive, brez zamegljenosti ali bleščanja";
-"onfido_doc_select_subtitle_poa" = "To so dokumenti, ki bodo najverjetneje prikazali vaš trenutni domači naslov";
+"onfido_doc_confirmation_body" = "Preverite, da je celoten dokument viden in da so vse podrobnosti jasne, brez zameglitev ali bleščanja";
+"onfido_doc_select_subtitle_poa" = "Izberite nedavni dokument, ki prikazuje vaš trenutni domači naslov";
 "onfido_doc_select_button_bill" = "Račun za komunalne storitve";
 "onfido_doc_select_extra_estatements_ok" = "sprejeti e-izpiski";
 "onfido_doc_select_button_bill_detail" = "Plin, elektrika, voda, fiksna ali širokopasovna povezava";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Ponovno postavite telefon ob svoj potni list.";
 "onfido_nfc_capture_scan_passport_sheet" = "Postavite zgornjo polovico telefona ob vaš potni list.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Obdržite svoj telefon in potni list pri miru.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno vidne brez zamegljenosti ali bleščanja";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive brez zamegljenosti ali odsevov.";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Potrdilo o nastanitvi ali najemu";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Podnajemne pogodbe niso sprejete";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Podnajemne pogodbe niso sprejemljive";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Nadaljuj brez skeniranja čipa";
 "onfido_chip_blocked_optional_subtitle" = "Preveč napačnih vnosov PIN-a je blokiralo vaš NFC čip, zato bomo ta korak preskočili. Za ponastavitev PIN-a za prihodnjo uporabo se obrnite na pristojne organe.";
 "onfido_chip_blocked_optional_button_primary" = "Nadaljuj";
+"permission_recovery_device_motion_title" = "Dostop do gibanja naprave zavrnjen";
+"permission_recovery_device_motion_subtitle" = "Za preverjanje vaše identitete potrebujemo dostop do podatkov o gibanju in usmerjenosti vaše naprave. Sledite spodnjim navodilom za obnovitev dostopa:";
+"permission_recovery_device_motion_item_1" = "Zaprite in znova odprite aplikacijo, da znova zaženete postopek preverjanja.";
+"permission_recovery_device_motion_item_2" = "Ko vas sistem pozove, dovolite dostop do gibanja naprave za nadaljevanje.";
+"permission_recovery_device_motion_banner" = "Vaš napredek bo izgubljen. Opravičujemo se za nevšečnosti.";
+"permission_recovery_device_motion_button" = "Zapri brskalnik";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

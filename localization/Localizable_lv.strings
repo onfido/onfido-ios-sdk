@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Skats no kameras. Novietojiet tālruni virs pases fotoattēla lapas un pēc tam lēnām virziet tālruni prom no tā taisnā līnijā.";
 "onfido_doc_capture_header_capturing" = "Turiet nekustīgi";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu un ka informācija ir skaidri salasāma bez izplūduma vai atspīduma";
-"onfido_doc_select_subtitle_poa" = "Šie ir dokumenti, kuros, visticamāk, ir redzama jūsu pašreizējā dzīvesvietas adrese";
+"onfido_doc_confirmation_body" = "Pārliecinieties, ka viss dokuments ir redzams un visi dati ir skaidri, bez izplūduma vai atspīduma";
+"onfido_doc_select_subtitle_poa" = "Izvēlieties nesenu dokumentu, kurā norādīta jūsu pašreizējā dzīvesvietas adrese";
 "onfido_doc_select_button_bill" = "Komunālo pakalpojumu rēķins";
 "onfido_doc_select_extra_estatements_ok" = "tiek pieņemtas e-izziņas";
 "onfido_doc_select_button_bill_detail" = "Gāze, elektrība, ūdens, fiksētais tālrunis vai platjoslas internets";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Novietojiet tālruni pret savu pasi.";
 "onfido_nfc_capture_scan_passport_sheet" = "Novietojiet tālruņa augšējo pusi pret savu pasi.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Saglabājiet savu telefonu un pasi nemainīgu.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu, un detaļas ir skaidri lasāmas bez izplūduma vai spīduma";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu un ka visas detaļas ir skaidri salasāmas bez izplūduma vai atspīduma.";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Izmitināšanas vai īres sertifikāts";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Apakšnomas līgumi netiek pieņemti";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Apakšnomas līgumi netiek pieņemti";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Turpināt bez čipa skenēšanas";
 "onfido_chip_blocked_optional_subtitle" = "Pārāk daudz nepareizu PIN ievadīšanas mēģinājumu ir bloķējuši jūsu NFC mikroshēmu, tāpēc mēs izlaidīsim šo soli. Sazinieties ar atbildīgo iestādi, lai atiestatītu savu PIN turpmākai lietošanai.";
 "onfido_chip_blocked_optional_button_primary" = "Turpināt";
+"permission_recovery_device_motion_title" = "Piekļuve ierīces kustības datiem ir liegta";
+"permission_recovery_device_motion_subtitle" = "Mums ir nepieciešama piekļuve jūsu ierīces kustības un orientācijas datiem, lai pārbaudītu jūsu identitāti. Izpildiet tālāk norādītās instrukcijas, lai atjaunotu piekļuvi:";
+"permission_recovery_device_motion_item_1" = "Aizveriet un vēlreiz atveriet lietotni, lai atsāktu verifikācijas procesu.";
+"permission_recovery_device_motion_item_2" = "Kad tiek parādīts pieprasījums, atļaujiet piekļuvi ierīces kustības datiem, lai turpinātu.";
+"permission_recovery_device_motion_banner" = "Jūsu progress netiks saglabāts, atvainojamies par sagādātajām neērtībām.";
+"permission_recovery_device_motion_button" = "Aizvērt pārlūkprogrammu";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

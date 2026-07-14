@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Вид с камеры. Поместите телефон на страницу паспорта с фотографией, затем медленно отодвигайте телефон от нее по прямой линии.";
 "onfido_doc_capture_header_capturing" = "Не двигайтесь";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Убедитесь, что Вы загрузили всю страницу документа, данные четко видны, нет размытия или бликов";
-"onfido_doc_select_subtitle_poa" = "Именно в этих документах чаще всего указывается Ваш текущий домашний адрес";
+"onfido_doc_confirmation_body" = "Убедитесь, что весь документ виден и все данные читаемы, без размытия и бликов";
+"onfido_doc_select_subtitle_poa" = "Выберите недавний документ, в котором указан ваш текущий домашний адрес";
 "onfido_doc_select_button_bill" = "Счет за коммунальные услуги";
 "onfido_doc_select_extra_estatements_ok" = "Электронные выписки приняты";
 "onfido_doc_select_button_bill_detail" = "Газ, электричество, вода, телефон или широкополосный доступ в Интернет";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Переместите телефон к вашему паспорту.";
 "onfido_nfc_capture_scan_passport_sheet" = "Поместите верхнюю часть вашего телефона к паспорту.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Держите свой телефон и паспорт неподвижно.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Убедитесь, что вы загрузили всю страницу документа, и детали четко видны, без размытия или блика";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Убедитесь, что вы загрузили страницу документа целиком, а все данные чётко читаются без размытия и бликов";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Сертификат о проживании или аренде";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Субаренда не принимается";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Субаренда не принимается";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Продолжить без сканирования чипа";
 "onfido_chip_blocked_optional_subtitle" = "Слишком много неправильных попыток ввода PIN-кода заблокировали ваш NFC-чип, поэтому мы пропустим этот шаг. Свяжитесь с соответствующими органами, чтобы сбросить PIN-код для дальнейшего использования.";
 "onfido_chip_blocked_optional_button_primary" = "Продолжить";
+"permission_recovery_device_motion_title" = "Доступ к движению устройства запрещён";
+"permission_recovery_device_motion_subtitle" = "Для подтверждения вашей личности нам необходим доступ к данным о движении и ориентации вашего устройства. Следуйте приведённым ниже инструкциям для восстановления доступа:";
+"permission_recovery_device_motion_item_1" = "Закройте и снова откройте приложение, чтобы перезапустить процесс верификации.";
+"permission_recovery_device_motion_item_2" = "При появлении запроса разрешите доступ к движению устройства для продолжения.";
+"permission_recovery_device_motion_banner" = "Ваш прогресс будет утерян. Приносим извинения за неудобства.";
+"permission_recovery_device_motion_button" = "Закрыть браузер";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

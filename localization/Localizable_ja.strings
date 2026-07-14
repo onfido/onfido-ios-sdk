@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "カメラから見た様子。パスポートの写真ページにスマートフォンを置き、そこからゆっくりと一直線にスマートフォンを遠ざけます。";
 "onfido_doc_capture_header_capturing" = "そのまま動かさないでください";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "ドキュメントページ全体をアップロードしており、ぼかしや照り返しがなく、詳細がはっきりしていることを確認してください";
-"onfido_doc_select_subtitle_poa" = "次のドキュメントが、現在の自宅の住所を示す可能性の最も高いものです";
+"onfido_doc_confirmation_body" = "書類全体が映っていて、すべての内容がはっきりと読み取れ、ぼやけや反射がないことを確認してください";
+"onfido_doc_select_subtitle_poa" = "現在の自宅住所が記載された最新の書類を選択してください";
 "onfido_doc_select_button_bill" = "公共料金請求書";
 "onfido_doc_select_extra_estatements_ok" = "受け入れられる電子明細書";
 "onfido_doc_select_button_bill_detail" = "ガス、電気、水道、固定電話、ブロードバンド";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "パスポートに対して携帯電話を再配置してください。";
 "onfido_nfc_capture_scan_passport_sheet" = "携帯電話の上半分をパスポートに当ててください。";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "あなたの携帯電話とパスポートを静かに保管してください。";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "全体のドキュメントページがアップロードされていること、そして詳細がぼやけたり、眩しさがないように読みやすいことを確認してください";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ドキュメントのページ全体がアップロードされており、ぼやけや光の反射がなく、詳細が明確に読み取れることを確認してください";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "宿泊または賃貸証明書";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "サブリース契約は受け付けていません";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "サブリース契約は受け付けていません";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "チップをスキャンせずに続行";
 "onfido_chip_blocked_optional_subtitle" = "PINの入力ミスが多すぎたため、NFCチップがブロックされました。この手順はスキップします。今後の使用のためにPINをリセットするには、当局にお問い合わせください。";
 "onfido_chip_blocked_optional_button_primary" = "続行";
+"permission_recovery_device_motion_title" = "デバイスモーションへのアクセスが拒否されました";
+"permission_recovery_device_motion_subtitle" = "本人確認のため、デバイスのモーションと向きのデータへのアクセスが必要です。アクセスを回復するには、以下の手順に従ってください。";
+"permission_recovery_device_motion_item_1" = "アプリを閉じて再度開き、確認プロセスを再開してください。";
+"permission_recovery_device_motion_item_2" = "プロンプトが表示されたら、デバイスモーションへのアクセスを許可して続行してください。";
+"permission_recovery_device_motion_banner" = "進行状況は失われます。ご不便をおかけして申し訳ございません。";
+"permission_recovery_device_motion_button" = "ブラウザを閉じる";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

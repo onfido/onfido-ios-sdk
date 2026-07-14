@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "مشاهده از دوربین. گوشی خود را روی صفحه عکس‌دار گذرنامه خود قرار دهید، سپس به آرامی در یک خط مستقیم، گوشی خود را از آن دور کنید.";
 "onfido_doc_capture_header_capturing" = "ثابت بمانید";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "مطمئن شوید که تصویر کامل مدرک را بارگذاری کرده‌اید، جزئیات مدرک واضح بوده، عکس تار نیست و انعکاس نور در تصویر نیست";
-"onfido_doc_select_subtitle_poa" = "اینها مدارکی هستند که به احتمال زیاد آدرس سکونت فعلی شما را نشان می‌دهند";
+"onfido_doc_confirmation_body" = "مطمئن شوید کل مدرک دیده می‌شود و همه جزئیات واضح هستند و هیچ گونه تاری یا بازتاب نوری وجود ندارد";
+"onfido_doc_select_subtitle_poa" = "یک مدرک اخیر که نشانی فعلی محل سکونت شما را نشان می‌دهد انتخاب کنید";
 "onfido_doc_select_button_bill" = "قبض خدمات عمومی";
 "onfido_doc_select_extra_estatements_ok" = "صورتحساب الکترونیکی پذیرفته شد";
 "onfido_doc_select_button_bill_detail" = "قبض گاز، برق، آب، تلفن ثابت یا اینترنت";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "گوشی خود را در مقابل گذرنامه خود قرار دهید.";
 "onfido_nfc_capture_scan_passport_sheet" = "نیمه بالای گوشی خود را در مقابل گذرنامه‌تان قرار دهید.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "گوشی و پاسپورت خود را ساکت نگه دارید.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "اطمینان حاصل کنید که کل صفحه سند را بارگذاری کرده‌اید و جزئیات به صورت واضح قابل خواندن هستند بدون هیچ مواردی از تاری یا تابش";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "مطمئن شوید کل مدرک دیده می‌شود و همه جزئیات واضح هستند و هیچ گونه تاری یا بازتاب نوری وجود ندارد";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "گواهی اقامت یا اجاره";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "توافقنامه‌های زیرمجموعه‌ای پذیرفته نمی‌شوند";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "توافقنامه‌های زیرمجموعه‌ای پذیرفته نمی‌شوند";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "ادامه بدون اسکن تراشه";
 "onfido_chip_blocked_optional_subtitle" = "تعداد زیاد ورود نادرست PIN باعث مسدود شدن تراشه NFC شما شده است، بنابراین این مرحله را رد می‌کنیم. برای تنظیم مجدد PIN جهت استفاده‌های بعدی، با مراجع مربوطه تماس بگیرید.";
 "onfido_chip_blocked_optional_button_primary" = "ادامه";
+"permission_recovery_device_motion_title" = "دسترسی به حرکت دستگاه رد شد";
+"permission_recovery_device_motion_subtitle" = "برای تأیید هویتتان، به دسترسی به داده‌های حرکت و جهت‌گیری دستگاه شما نیاز داریم. برای بازیابی دسترسی، دستورالعمل‌های زیر را دنبال کنید:";
+"permission_recovery_device_motion_item_1" = "برنامه را ببندید و دوباره باز کنید تا فرایند تأیید هویت دوباره شروع شود.";
+"permission_recovery_device_motion_item_2" = "وقتی از شما خواسته شد، برای ادامه، اجازه دسترسی به حرکت دستگاه را بدهید.";
+"permission_recovery_device_motion_banner" = "پیشرفت شما از بین می‌رود، بابت ایجاد این مشکل پوزش می‌خواهیم.";
+"permission_recovery_device_motion_button" = "بستن مرورگر";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

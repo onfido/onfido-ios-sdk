@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่หน้ารูปถ่ายของหนังสือเดินทาง จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากหนังสือเดินทางเป็นเส้นตรง";
 "onfido_doc_capture_header_capturing" = "อยู่นิ่งๆ";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "เช็คให้แน่ใจว่าคุณอัปโหลดเอกสารทั้งหน้า และสามารถอ่านรายละเอียดได้อย่างชัดเจนโดยไม่มีตัวหนังสือพร่ามัวหรือมีแสงสะท้อน";
-"onfido_doc_select_subtitle_poa" = "เอกสารเหล่านี้น่าจะแสดงที่อยู่ปัจจุบันของคุณ";
+"onfido_doc_confirmation_body" = "ตรวจสอบให้แน่ใจว่าเอกสารทั้งฉบับมองเห็นได้ชัดเจน และรายละเอียดทั้งหมดอ่านได้ชัด โดยไม่มีภาพเบลอหรือแสงสะท้อน";
+"onfido_doc_select_subtitle_poa" = "เลือกเอกสารฉบับล่าสุดที่แสดงที่อยู่บ้านปัจจุบันของคุณ";
 "onfido_doc_select_button_bill" = "ใบแจ้งหนี้ค่าสาธารณูปโภค";
 "onfido_doc_select_extra_estatements_ok" = "จะใช้เอกสารอิเล็กทรอนิกส์ก็ได้";
 "onfido_doc_select_button_bill_detail" = "แก๊ซ ไฟฟ้า ประปา โทรศัพท์บ้าน หรือบรอดแบนด์";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "จัดวางโทรศัพท์ของคุณใหม่ให้ชิดกับหนังสือเดินทางของคุณ";
 "onfido_nfc_capture_scan_passport_sheet" = "วางครึ่งบนของโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "เก็บโทรศัพท์และพาสปอร์ตของคุณให้นิ่ง";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ตรวจสอบให้แน่ใจว่าคุณได้อัปโหลดหน้าเอกสารท้งหมดแล้ว และรายละเอียดสามารถอ่านได้ชัดเจนโดยไม่มีความพร่าหรือแสงแฟลร์";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "โปรดตรวจสอบให้แน่ใจว่าคุณได้อัปโหลดหน้าเอกสารทั้งหมด และรายละเอียดสามารถอ่านได้ชัดเจนโดยไม่มีความเบลอหรือแสงสะท้อน";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "ใบรับรองการพักอาศัยหรือสัญญาเช่า";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "ไม่ยอมรับข้อตกลงการเช่าซับ";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "ไม่ยอมรับข้อตกลงการเช่าซ้ำ";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "ดำเนินการต่อโดยไม่ต้องสแกนชิป";
 "onfido_chip_blocked_optional_subtitle" = "การป้อน PIN ผิดหลายครั้งเกินไปทำให้ชิป NFC ของคุณถูกบล็อก ดังนั้นเราจะข้ามขั้นตอนนี้ กรุณาติดต่อหน่วยงานที่เกี่ยวข้องเพื่อรีเซ็ต PIN ของคุณสำหรับการใช้งานในอนาคต";
 "onfido_chip_blocked_optional_button_primary" = "ดำเนินการต่อ";
+"permission_recovery_device_motion_title" = "การเข้าถึงการเคลื่อนไหวของอุปกรณ์ถูกปฏิเสธ";
+"permission_recovery_device_motion_subtitle" = "เราต้องการเข้าถึงข้อมูลการเคลื่อนไหวและการวางแนวของอุปกรณ์เพื่อยืนยันตัวตนของคุณ ทำตามคำแนะนำด้านล่างเพื่อกู้คืนการเข้าถึง:";
+"permission_recovery_device_motion_item_1" = "ปิดและเปิดแอปของคุณใหม่ เพื่อเริ่มกระบวนการยืนยันตัวตนใหม่อีกครั้ง";
+"permission_recovery_device_motion_item_2" = "เมื่อได้รับแจ้ง ให้อนุญาตการเข้าถึงการเคลื่อนไหวของอุปกรณ์เพื่อดำเนินการต่อ";
+"permission_recovery_device_motion_banner" = "ความคืบหน้าของคุณจะสูญหาย ขออภัยในความไม่สะดวก";
+"permission_recovery_device_motion_button" = "ปิดเบราว์เซอร์";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

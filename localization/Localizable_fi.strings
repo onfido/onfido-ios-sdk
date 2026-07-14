@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Näkymä kamerasta. Aseta puhelimesi passisi valokuvasivua vasten ja siirrä sitten puhelintasi hitaasti siitä poispäin suorassa linjassa.";
 "onfido_doc_capture_header_capturing" = "Pidä paikallaan";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Varmista, että olet ladannut asiakirjan koko sivun ja että tiedot ovat luettavissa selkeästi ilman epäselviä tai häikäiseviä kohtia";
-"onfido_doc_select_subtitle_poa" = "Nämä asiakirjat näyttävät todennäköisimmin nykyisen kotiosoitteesi";
+"onfido_doc_confirmation_body" = "Varmista, että koko asiakirja näkyy selvästi ja kaikki tiedot ovat tarkkoja, ilman sumeutta tai heijastuksia";
+"onfido_doc_select_subtitle_poa" = "Valitse viimeaikainen asiakirja, jossa näkyy nykyinen kotiosoitteesi";
 "onfido_doc_select_button_bill" = "Energialasku";
 "onfido_doc_select_extra_estatements_ok" = "hyväksytyt sähköiset tiliotteet";
 "onfido_doc_select_button_bill_detail" = "Kaasu, sähkö, vesi, kiinteä verkko tai laajakaista";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Aseta puhelimesi uudelleen passiasi vasten.";
 "onfido_nfc_capture_scan_passport_sheet" = "Aseta puhelimesi yläosa passiasi vasten.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Pidä puhelimesi ja passisi paikoillaan.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Varmista, että olet ladannut koko dokumenttisivun, ja tiedot ovat selkeästi luettavissa ilman suttuisuutta tai häikäisyä";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Varmista, että olet ladannut koko asiakirjasivun ja että tiedot ovat selkeästi luettavissa ilman sumentumia tai heijastuksia";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Majoitus- tai vuokrasopimustodistus";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Alivuokrasopimukset eivät ole hyväksyttäviä";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Alivuokrasopimukset eivät ole hyväksyttäviä";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Jatka ilman sirun lukemista";
 "onfido_chip_blocked_optional_subtitle" = "Liian monet virheelliset PIN-koodin syötöt ovat estäneet NFC-sirusi, joten ohitamme tämän vaiheen. Ota yhteyttä viranomaisiin PIN-koodisi nollaamiseksi tulevaa käyttöä varten.";
 "onfido_chip_blocked_optional_button_primary" = "Jatka";
+"permission_recovery_device_motion_title" = "Laitteen liiketunnistuksen käyttöoikeus evätty";
+"permission_recovery_device_motion_subtitle" = "Tarvitsemme pääsyn laitteesi liike- ja suuntaustietoihin henkilöllisyytesi vahvistamiseksi. Palauta käyttöoikeus noudattamalla alla olevia ohjeita:";
+"permission_recovery_device_motion_item_1" = "Sulje sovellus ja avaa se uudelleen käynnistääksesi vahvistusprosessin uudelleen.";
+"permission_recovery_device_motion_item_2" = "Salli laitteen liiketunnistuksen käyttö pyydettäessä jatkaaksesi.";
+"permission_recovery_device_motion_banner" = "Edistymisesi menetetään. Pahoittelemme aiheutunutta haittaa.";
+"permission_recovery_device_motion_button" = "Sulje selain";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

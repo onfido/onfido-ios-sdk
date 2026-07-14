@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Widok z aparatu. Umieść telefon na stronie ze zdjęciem w paszporcie, a następnie powoli odsuń go od niego w linii prostej.";
 "onfido_doc_capture_header_capturing" = "Nie ruszaj się";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Upewnij się, że widoczna jest cała strona dokumentu, a szczegóły są czytelne, bez rozmyć i odblasków";
-"onfido_doc_select_subtitle_poa" = "Te dokumenty najprawdopodobniej zawierają Twój aktualny adres zamieszkania";
+"onfido_doc_confirmation_body" = "Upewnij się, że cały dokument jest widoczny, a wszystkie dane są czytelne — bez rozmycia i odblasków";
+"onfido_doc_select_subtitle_poa" = "Wybierz aktualny dokument potwierdzający Twój obecny adres zamieszkania";
 "onfido_doc_select_button_bill" = "Rachunek za usługi komunalne";
 "onfido_doc_select_extra_estatements_ok" = "Dokumenty elektroniczne są akceptowane";
 "onfido_doc_select_button_bill_detail" = "Gaz, prąd, woda, telefon stacjonarny lub łącze szerokopasmowe";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Ustaw ponownie telefon przy swoim paszporcie.";
 "onfido_nfc_capture_scan_passport_sheet" = "Umieść górną połowę telefonu przy swoim paszporcie.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Zachowaj spokój z telefonem i paszportem.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Upewnij się, że przesłałeś całą stronę dokumentu, a szczegóły są czytelne, bez rozmazania lub odblasków";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Upewnij się, że przesłano całą stronę dokumentu, a szczegóły są czytelne — bez rozmycia ani odblasków";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Zaświadczenie o zakwaterowaniu lub najmie";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Umowy podnajmu nie są akceptowane";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Umowy podnajmu nie są akceptowane";
@@ -799,7 +799,7 @@
 "onfido_retry_description_generic_proof_of_address_issue" = "Spróbuj ponownie, używając poprawnego dokumentu i upewnij się, że wszystkie dane są wyraźnie widoczne";
 "onfido_retry_button_generic_proof_of_address_issue" = "Spróbuj ponownie";
 "country_selection_select_hint_accessibility" = "Stuknij dwukrotnie, aby wybrać kraj";
-"onfido_nfc_scan_pin_disclaimer" = "Poprosimy Cię o %d-cyfrowy PIN Twojego dokumentu %d przed zeskanowaniem chipa.";
+"onfido_nfc_scan_pin_disclaimer" = "Poprosimy Cię o %d-cyfrowy PIN Twojego dokumentu przed zeskanowaniem chipa.";
 "onfido_enter_pin_subtitle" = "To jest potrzebne do bezpiecznego odczytania chipu NFC. Utworzyłeś ten %d-cyfrowy numer, gdy wydano Twój dokument.";
 "onfido_enter_pin_title" = "Wprowadź PIN dokumentu";
 "onfido_enter_pin_title_incorrect" = "Nieprawidłowy PIN";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Kontynuuj bez skanowania chipa";
 "onfido_chip_blocked_optional_subtitle" = "Zbyt wiele niepoprawnych wpisów kodu PIN zablokowało Twój chip NFC, więc pominiemy ten krok. Skontaktuj się z odpowiednimi instytucjami, aby zresetować swój PIN do przyszłego użytku.";
 "onfido_chip_blocked_optional_button_primary" = "Kontynuuj";
+"permission_recovery_device_motion_title" = "Odmowa dostępu do ruchu urządzenia";
+"permission_recovery_device_motion_subtitle" = "Potrzebujemy dostępu do danych dotyczących ruchu i orientacji Twojego urządzenia, aby zweryfikować Twoją tożsamość. Postępuj zgodnie z poniższymi instrukcjami, aby przywrócić dostęp:";
+"permission_recovery_device_motion_item_1" = "Zamknij i ponownie otwórz aplikację, aby ponownie uruchomić proces weryfikacji.";
+"permission_recovery_device_motion_item_2" = "Gdy pojawi się monit, zezwól na dostęp do ruchu urządzenia, aby kontynuować.";
+"permission_recovery_device_motion_banner" = "Twój postęp zostanie utracony. Przepraszamy za niedogodności.";
+"permission_recovery_device_motion_button" = "Zamknij przeglądarkę";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

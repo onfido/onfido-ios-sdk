@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Pandangan dari kamera. Letakkan telefon anda pada halaman foto pasport anda, kemudian gerakkan telefon anda daripadanya secara perlahan-lahan mengikut garisan lurus.";
 "onfido_doc_capture_header_capturing" = "Jangan bergerak";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Pastikan anda telah memuat naik keseluruhan halaman dokumen dan butiran adalah jelas untuk dibaca tanpa kabur atau silau";
-"onfido_doc_select_subtitle_poa" = "Ini ialah dokumen-dokumen yang berkemungkinan besar menunjukkan alamat rumah semasa anda";
+"onfido_doc_confirmation_body" = "Pastikan keseluruhan dokumen kelihatan dan semua butiran jelas, tanpa kabur atau silau";
+"onfido_doc_select_subtitle_poa" = "Pilih dokumen terkini yang menunjukkan alamat rumah semasa anda";
 "onfido_doc_select_button_bill" = "Bil Utiliti";
 "onfido_doc_select_extra_estatements_ok" = "e-penyata diterima";
 "onfido_doc_select_button_bill_detail" = "Gas, elektrik, air, talian tetap atau jalur lebar";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Letakkan semula telefon anda pada pasport anda.";
 "onfido_nfc_capture_scan_passport_sheet" = "Letakkan bahagian atas telefon anda pada pasport anda.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Kekalkan telefon dan pasport anda dalam keadaan diam.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pastikan anda telah memuat naik keseluruhan halaman dokumen, dan butiran adalah jelas untuk dibaca tanpa kabur atau silau";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pastikan anda telah memuat naik keseluruhan halaman dokumen, dan butirannya jelas untuk dibaca tanpa kabur atau silau";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Sijil Penginapan atau Penyewaan";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Perjanjian pajakan sub tidak diterima";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Perjanjian pajakan sub tidak diterima";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Teruskan tanpa mengimbas cip";
 "onfido_chip_blocked_optional_subtitle" = "Terlalu banyak percubaan PIN yang salah telah menyekat cip NFC anda, jadi kami akan melangkau langkah ini. Hubungi pihak berkuasa anda untuk menetapkan semula PIN anda bagi penggunaan pada masa hadapan.";
 "onfido_chip_blocked_optional_button_primary" = "Sambung";
+"permission_recovery_device_motion_title" = "Akses gerakan peranti dinafikan";
+"permission_recovery_device_motion_subtitle" = "Kami memerlukan akses kepada data gerakan dan orientasi peranti anda untuk mengesahkan identiti anda. Ikuti arahan di bawah untuk mendapatkan semula akses:";
+"permission_recovery_device_motion_item_1" = "Tutup dan buka semula apl anda untuk memulakan semula proses pengesahan.";
+"permission_recovery_device_motion_item_2" = "Apabila diminta, benarkan akses gerakan peranti untuk meneruskan.";
+"permission_recovery_device_motion_banner" = "Kemajuan anda akan hilang, maaf atas kesulitan ini.";
+"permission_recovery_device_motion_button" = "Tutup pelayar";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

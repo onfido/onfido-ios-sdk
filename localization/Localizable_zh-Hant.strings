@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "從相機檢視。將手機放在護照相片頁上，然後以直線方式慢慢將手機移開。";
 "onfido_doc_capture_header_capturing" = "保持不動";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "請確保您已上傳整個文件頁面，且詳細資料清晰可閱，沒有模糊或眩光";
-"onfido_doc_select_subtitle_poa" = "這些是最可能顯示您目前住家地址的文件";
+"onfido_doc_confirmation_body" = "確保整份文件清晰可見，所有細節均清楚呈現，無模糊或反光";
+"onfido_doc_select_subtitle_poa" = "請選擇一份近期文件，以顯示您目前的住家地址";
 "onfido_doc_select_button_bill" = "水電費帳單";
 "onfido_doc_select_extra_estatements_ok" = "接受電子對帳單";
 "onfido_doc_select_button_bill_detail" = "天然氣、電力、水、有線電話或寬頻";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "將手機重新放置在護照上。";
 "onfido_nfc_capture_scan_passport_sheet" = "將手機的上半部靠在您的護照上。";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "保持您的手機和護照不動。";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "請確保您已上傳整個文件頁面，並且細節清晰可讀，沒有模糊或眩光";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "請確保您已上傳完整的文件頁面，且內容清晰可讀，無模糊或反光情形。";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "住宿或租賃證明";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "不接受轉租協議";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "不接受轉租協議";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "不掃描晶片繼續";
 "onfido_chip_blocked_optional_subtitle" = "由於 PIN 碼輸入錯誤次數過多,您的 NFC 晶片已被鎖定,因此我們將跳過此步驟。請聯絡相關機構重設您的 PIN 碼以供日後使用。";
 "onfido_chip_blocked_optional_button_primary" = "繼續";
+"permission_recovery_device_motion_title" = "裝置動作存取遭拒";
+"permission_recovery_device_motion_subtitle" = "我們需要存取您的裝置動作與方向資料以驗證您的身分。請依照以下指示恢復存取權限：";
+"permission_recovery_device_motion_item_1" = "關閉並重新開啟您的應用程式以重新開始驗證流程。";
+"permission_recovery_device_motion_item_2" = "出現提示時，請允許存取裝置動作以繼續。";
+"permission_recovery_device_motion_banner" = "您的進度將會遺失，造成不便敬請見諒。";
+"permission_recovery_device_motion_button" = "關閉瀏覽器";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

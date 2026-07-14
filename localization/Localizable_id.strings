@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Lihat dari kamera. Tempatkan ponsel Anda pada halaman foto paspor Anda, lalu gerakkan ponsel perlahan menjauh dalam garis lurus.";
 "onfido_doc_capture_header_capturing" = "Jangan sampai goyang";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Pastikan Anda telah mengunggah seluruh halaman dokumen, dan detailnya bisa dibaca dengan jelas, tidak buram atau silau";
-"onfido_doc_select_subtitle_poa" = "Ini adalah dokumen yang hampir bisa dipastikan menunjukkan alamat rumah Anda saat ini";
+"onfido_doc_confirmation_body" = "Pastikan seluruh dokumen terlihat dan semua detail jelas, tanpa buram atau silau";
+"onfido_doc_select_subtitle_poa" = "Pilih dokumen terbaru yang menunjukkan alamat rumah Anda saat ini";
 "onfido_doc_select_button_bill" = "Tagihan Utilitas";
 "onfido_doc_select_extra_estatements_ok" = "rekening elektronik diterima";
 "onfido_doc_select_button_bill_detail" = "Gas, listrik, air, telepon rumah, atau broadband";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Posisikan ulang ponsel Anda terhadap paspor Anda.";
 "onfido_nfc_capture_scan_passport_sheet" = "Tempatkan bagian atas ponsel Anda di atas paspor Anda.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Jaga telepon dan paspor Anda tetap diam.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pastikan Anda telah mengunggah seluruh halaman dokumen, dan detailnya jelas untuk dibaca tanpa kabur atau silau";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Pastikan Anda telah mengunggah seluruh halaman dokumen, dan detailnya jelas terbaca tanpa blur atau silau";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Sertifikat Akomodasi atau Penyewaan";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Perjanjian sewa-menyewa tidak diterima";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Perjanjian sewa-menyewa tidak diterima";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Lanjutkan tanpa memindai chip";
 "onfido_chip_blocked_optional_subtitle" = "Terlalu banyak entri PIN yang salah telah memblokir chip NFC Anda, jadi kami akan melewati langkah ini. Hubungi pihak berwenang Anda untuk mengatur ulang PIN Anda untuk penggunaan di masa mendatang.";
 "onfido_chip_blocked_optional_button_primary" = "Lanjutkan";
+"permission_recovery_device_motion_title" = "Akses gerak perangkat ditolak";
+"permission_recovery_device_motion_subtitle" = "Kami memerlukan akses ke data gerak dan orientasi perangkat Anda untuk memverifikasi identitas Anda. Ikuti petunjuk di bawah ini untuk memulihkan akses:";
+"permission_recovery_device_motion_item_1" = "Tutup dan buka kembali aplikasi Anda untuk memulai ulang proses verifikasi.";
+"permission_recovery_device_motion_item_2" = "Saat diminta, izinkan akses gerak perangkat untuk melanjutkan.";
+"permission_recovery_device_motion_banner" = "Progres Anda akan hilang, mohon maaf atas ketidaknyamanannya.";
+"permission_recovery_device_motion_button" = "Tutup browser";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";
