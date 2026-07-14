@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Увімкніть камеру. Покладіть телефон на сторінку паспорта, що містить фото, а потім повільно відведіть телефон від нього по прямій.";
 "onfido_doc_capture_header_capturing" = "Тримайте телефон непорушно";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Переконайтеся, що фото охоплює всю сторінку документа, а дані чітко видно й вони легко читаються (немає розмиття і відблисків)";
-"onfido_doc_select_subtitle_poa" = "Найімовірніше, це документи, які містять дані про вашу поточну домашню адресу";
+"onfido_doc_confirmation_body" = "Переконайтеся, що весь документ видно, а всі деталі чіткі, без розмиття й відблисків";
+"onfido_doc_select_subtitle_poa" = "Виберіть нещодавній документ, що містить вашу поточну домашню адресу";
 "onfido_doc_select_button_bill" = "Рахунок за комунальні послуги";
 "onfido_doc_select_extra_estatements_ok" = "електронні виписки прийнято";
 "onfido_doc_select_button_bill_detail" = "Газ, електроенергія, вода, стаціонарний телефон або широкосмуговий інтернет-зв’язок";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Перемістіть телефон до вашого паспорта.";
 "onfido_nfc_capture_scan_passport_sheet" = "Розмістіть верхню частину вашого телефону на паспорті.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Тримайте свій телефон та паспорт нерухомо.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Переконайтеся, що ви завантажили всю сторінку документа, і деталі чітко видно, без розмиття або блиску";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Переконайтеся, що ви завантажили всю сторінку документа, а деталі чітко читаються без розмиття або відблисків";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Свідоцтво про проживання або оренду";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Угоди про піднайм не приймаються";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Угоди про суборенду не приймаються";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Продовжити без сканування чипа";
 "onfido_chip_blocked_optional_subtitle" = "Надто багато неправильних введень PIN заблокували ваш NFC-чип, тому ми пропустимо цей крок. Зверніться до відповідних органів, щоб скинути свій PIN для подальшого використання.";
 "onfido_chip_blocked_optional_button_primary" = "Продовжити";
+"permission_recovery_device_motion_title" = "Доступ до руху пристрою заборонено";
+"permission_recovery_device_motion_subtitle" = "Нам потрібен доступ до даних про рух і орієнтацію вашого пристрою для підтвердження вашої особи. Дотримуйтесь інструкцій нижче, щоб відновити доступ:";
+"permission_recovery_device_motion_item_1" = "Закрийте та знову відкрийте додаток, щоб перезапустити процес верифікації.";
+"permission_recovery_device_motion_item_2" = "Коли з'явиться запит, дозвольте доступ до руху пристрою, щоб продовжити.";
+"permission_recovery_device_motion_banner" = "Ваш прогрес буде втрачено, вибачте за незручності.";
+"permission_recovery_device_motion_button" = "Закрити браузер";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

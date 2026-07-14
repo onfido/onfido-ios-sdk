@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Sett fra kameraet. Plasser telefonen på bildesiden av passet ditt, og flytt den sakte vekk fra den i en rett linje.";
 "onfido_doc_capture_header_capturing" = "Hold det stille";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Pass på at du har lastet opp hele dokumentsiden, og detaljene er tydelige og lette å lese, uten uskarphet eller gjenskinn";
-"onfido_doc_select_subtitle_poa" = "Dette er dokumentene som mest sannsynlig vil vise din nåværende hjemmeadresse";
+"onfido_doc_confirmation_body" = "Pass på at hele dokumentet er synlig og at alle detaljer er klare, uten uskarphet eller gjenskinn";
+"onfido_doc_select_subtitle_poa" = "Velg et nyere dokument som viser din nåværende hjemmeadresse";
 "onfido_doc_select_button_bill" = "Strømregning";
 "onfido_doc_select_extra_estatements_ok" = "e-setninger akseptert";
 "onfido_doc_select_button_bill_detail" = "Gass, elektrisitet, vann, fasttelefon eller bredbånd";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Plasser telefonen din mot passet ditt.";
 "onfido_nfc_capture_scan_passport_sheet" = "Plasser den øverste halvdelen av telefonen din mot passet ditt.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Hold telefonen og passet ditt i ro.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Sørg for at du har lastet opp hele dokumentets side, og detaljene er klare til å lese uten uskarphet eller blendingslys";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Sørg for at du har lastet opp hele dokumentsiden, og at detaljene er tydelige å lese uten uskarphet eller gjenskinn";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Bosteds- eller leiebevis";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Underleieavtaler aksepteres ikke";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Underleieavtaler aksepteres ikke";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Fortsett uten å skanne brikke";
 "onfido_chip_blocked_optional_subtitle" = "For mange feil PIN-oppføringer har blokkert NFC-brikken din, så vi hopper over dette trinnet. Kontakt myndighetene for å tilbakestille PIN-koden din for videre bruk.";
 "onfido_chip_blocked_optional_button_primary" = "Fortsett";
+"permission_recovery_device_motion_title" = "Tilgang til enhetsbevegelser er nektet";
+"permission_recovery_device_motion_subtitle" = "Vi trenger tilgang til bevegelses- og orienteringsdata fra enheten din for å bekrefte identiteten din. Følg instruksjonene nedenfor for å gjenopprette tilgangen:";
+"permission_recovery_device_motion_item_1" = "Lukk og åpne appen på nytt for å starte verifiseringsprosessen på nytt.";
+"permission_recovery_device_motion_item_2" = "Når du blir spurt, gi tilgang til enhetsbevegelser for å fortsette.";
+"permission_recovery_device_motion_banner" = "Fremdriften din vil gå tapt. Vi beklager ulempen.";
+"permission_recovery_device_motion_button" = "Lukk nettleser";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

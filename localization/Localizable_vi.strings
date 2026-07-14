@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Xem từ máy ảnh. Đặt điện thoại trên trang có ảnh hộ chiếu, sau đó từ từ di chuyển điện thoại ra khỏi giấy tờ theo một đường thẳng.";
 "onfido_doc_capture_header_capturing" = "Hãy giữ yên";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Đảm bảo bạn đã tải lên toàn bộ trang giấy tờ và chi tiết phải rõ ràng để đọc mà không bị mờ hoặc lóa";
-"onfido_doc_select_subtitle_poa" = "Đây là những giấy tờ có nhiều khả năng hiển thị địa chỉ nhà hiện tại của bạn nhất";
+"onfido_doc_confirmation_body" = "Hãy đảm bảo toàn bộ tài liệu hiển thị đầy đủ và mọi chi tiết đều rõ ràng, không bị mờ hoặc lóa";
+"onfido_doc_select_subtitle_poa" = "Chọn một tài liệu gần đây hiển thị địa chỉ nhà hiện tại của bạn";
 "onfido_doc_select_button_bill" = "Hóa đơn dịch vụ thiết yếu";
 "onfido_doc_select_extra_estatements_ok" = "các bảng sao kê điện tử được chấp nhận";
 "onfido_doc_select_button_bill_detail" = "Khí đốt, điện, nước, điện thoại cố định hoặc internet";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Đặt lại điện thoại của bạn lên hộ chiếu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Đặt nửa trên của điện thoại bạn lên hộ chiếu của bạn.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Giữ điện thoại và hộ chiếu của bạn không động.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Hãy đảm bảo bạn đã tải lên toàn bộ trang tài liệu, và chi tiết rõ ràng để đọc mà không có độ mờ hoặc chói lóa";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Hãy đảm bảo bạn đã tải lên toàn bộ trang của tài liệu và mọi chi tiết đều rõ ràng, không bị nhòe hay lóa sáng";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Giấy chứng nhận Nơi ở hoặc Hợp đồng thuê nhà";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Không chấp nhận hợp đồng cho thuê lại";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Không chấp nhận hợp đồng cho thuê lại";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Tiếp tục mà không quét chip";
 "onfido_chip_blocked_optional_subtitle" = "Bạn đã nhập mã PIN sai quá nhiều lần khiến chip NFC của bạn bị khóa, vì vậy chúng tôi sẽ bỏ qua bước này. Vui lòng liên hệ với cơ quan có thẩm quyền để đặt lại mã PIN cho lần sử dụng sau.";
 "onfido_chip_blocked_optional_button_primary" = "Tiếp tục";
+"permission_recovery_device_motion_title" = "Truy cập chuyển động thiết bị bị từ chối";
+"permission_recovery_device_motion_subtitle" = "Chúng tôi cần quyền truy cập vào dữ liệu chuyển động và định hướng của thiết bị để xác minh danh tính của bạn. Hãy làm theo hướng dẫn bên dưới để khôi phục quyền truy cập:";
+"permission_recovery_device_motion_item_1" = "Đóng và mở lại ứng dụng để khởi động lại quy trình xác minh.";
+"permission_recovery_device_motion_item_2" = "Khi được hỏi, hãy cho phép truy cập chuyển động thiết bị để tiếp tục.";
+"permission_recovery_device_motion_banner" = "Tiến trình của bạn sẽ bị mất, xin lỗi vì sự bất tiện này.";
+"permission_recovery_device_motion_button" = "Đóng trình duyệt";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

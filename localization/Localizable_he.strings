@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "צפה מהמצלמה. מקם את הטלפון בעמוד התמונה של הדרכון, ולאחר מכן הזז אותו באיטיות בקו ישר.";
 "onfido_doc_capture_header_capturing" = "אל תזוז";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "ודא שהעלית את עמוד המסמך בשלמותו ושהפרטים ברורים לקריאה ללא טשטוש או השתקפות";
-"onfido_doc_select_subtitle_poa" = "אלה המסמכים שהכי סביר שיציגו את כתובת המגורים הנוכחית שלך";
+"onfido_doc_confirmation_body" = "ודאו שהמסמך כולו גלוי וכל הפרטים ברורים, ללא טשטוש או השתקפות";
+"onfido_doc_select_subtitle_poa" = "יש לבחור מסמך עדכני המציג את כתובת המגורים הנוכחית";
 "onfido_doc_select_button_bill" = "חשבון חשמל";
 "onfido_doc_select_extra_estatements_ok" = "דוחות אלקטרוניים שייתקבלו";
 "onfido_doc_select_button_bill_detail" = "גז, חשמל, מים, טלפון קווי או פס רחב";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "מקם מחדש את הטלפון שלך כנגד הדרכון שלך.";
 "onfido_nfc_capture_scan_passport_sheet" = "הנח את החלק העליון של הטלפון שלך כנגד הדרכון שלך.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "השאירו את הטלפון והדרכון שלכם במקום.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ודא שהעלית את כל עמוד המסמך, והפרטים ברורים לקריאה ללא טשטוש או בהירות יתר";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "ודא שהעלית את עמוד המסמך במלואו, והפרטים ברורים לקריאה ללא טשטוש או השתקפות";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "תעודת דיור או שכירות";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "הסכמי השכרה משנית לא מתקבלים";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "הסכמי השכרה משנית לא מתקבלים";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "המשך ללא סריקת שבב";
 "onfido_chip_blocked_optional_subtitle" = "יותר מדי ניסיונות שגויים להזנת קוד PIN חסמו את שבב ה-NFC שלך, לכן נדלג על שלב זה. צור קשר עם הרשויות כדי לאפס את קוד ה-PIN שלך לשימוש עתידי.";
 "onfido_chip_blocked_optional_button_primary" = "המשך";
+"permission_recovery_device_motion_title" = "הגישה לתנועת המכשיר נדחתה";
+"permission_recovery_device_motion_subtitle" = "אנו זקוקים לגישה לנתוני תנועת המכשיר והכיוון שלך כדי לאמת את זהותך. פעל לפי ההוראות הבאות כדי לשחזר את הגישה:";
+"permission_recovery_device_motion_item_1" = "סגור ופתח מחדש את האפליקציה כדי להתחיל מחדש את תהליך האימות.";
+"permission_recovery_device_motion_item_2" = "כאשר תתבקש, אפשר גישה לתנועת המכשיר כדי להמשיך.";
+"permission_recovery_device_motion_banner" = "ההתקדמות שלך תאבד, מתנצלים על אי הנוחות.";
+"permission_recovery_device_motion_button" = "סגור דפדפן";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

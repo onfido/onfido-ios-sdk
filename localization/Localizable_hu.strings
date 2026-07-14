@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Kamera képe. Helyezze a telefont az útlevele fényképes oldalára, majd lassan, egyenes vonalban távolítsa onnan.";
 "onfido_doc_capture_header_capturing" = "Ne mozduljon";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Győződjön meg róla, hogy feltöltötte a teljes dokumentumoldalt, és az adatok tisztán, elmosódás- és tükröződésmentesen olvashatók";
-"onfido_doc_select_subtitle_poa" = "Ezek a dokumentumok valószínűleg tartalmazzák a jelenlegi lakcímét";
+"onfido_doc_confirmation_body" = "Győződjön meg róla, hogy a teljes dokumentum látható, és minden adat jól olvasható, elmosódás vagy tükröződés nélkül.";
+"onfido_doc_select_subtitle_poa" = "Válasszon egy nemrég kiállított dokumentumot, amely tartalmazza az aktuális lakcímét";
 "onfido_doc_select_button_bill" = "Közüzemi számla";
 "onfido_doc_select_extra_estatements_ok" = "e-nyilatkozatok elfogadottak";
 "onfido_doc_select_button_bill_detail" = "Gáz, villamos energia, víz, vezetékes telefon vagy szélessávú kapcsolat";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Helyezze újra a telefonját az útleveléhez.";
 "onfido_nfc_capture_scan_passport_sheet" = "Helyezze a telefonja felső felét az útlevelére.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Tartsa nyugton a telefonját és az útlevelét.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Ellenőrizze, hogy a teljes dokumentum oldalt feltöltötte-e, és az információk világosan olvashatóak-e, nincs-e elmosódás vagy fényvisszaverődés";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Kérjük, ellenőrizze, hogy a teljes okmányszakaszt feltöltötte-e, és hogy minden adat élesen, elmosódás és csillogás nélkül olvasható-e";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Szállás vagy Bérleti Igazolás";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Albérleti szerződések nem elfogadottak";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Albérleti szerződések nem elfogadottak";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Folytatás chipolvasás nélkül";
 "onfido_chip_blocked_optional_subtitle" = "Túl sok hibás PIN-kód beírása letiltotta az Ön NFC‑chipjét, ezért ezt a lépést most kihagyjuk. Kérjük, lépjen kapcsolatba az illetékes hatóságokkal a PIN-kód jövőbeli használathoz szükséges visszaállításához.";
 "onfido_chip_blocked_optional_button_primary" = "Tovább";
+"permission_recovery_device_motion_title" = "Az eszközmozgás‑hozzáférés megtagadva";
+"permission_recovery_device_motion_subtitle" = "Szükségünk van az eszköz mozgására és tájolására vonatkozó adatokhoz való hozzáférésre személyazonossága ellenőrzéséhez. Kövesse az alábbi lépéseket a hozzáférés visszaállításához:";
+"permission_recovery_device_motion_item_1" = "Zárja be, majd nyissa meg újra az alkalmazást a hitelesítési folyamat újraindításához.";
+"permission_recovery_device_motion_item_2" = "Amikor a rendszer kéri, engedélyezze az eszközmozgás‑hozzáférést a folytatáshoz.";
+"permission_recovery_device_motion_banner" = "A jelenlegi folyamat elvész, elnézést a kellemetlenségért.";
+"permission_recovery_device_motion_button" = "Böngésző bezárása";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

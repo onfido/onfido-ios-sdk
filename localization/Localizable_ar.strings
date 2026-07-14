@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "عرض من الكاميرا. ضع هاتفك على صفحة الصور بجواز سفرك، ثم حرك هاتفك ببطء بعيدًا عنه في خط مستقيم.";
 "onfido_doc_capture_header_capturing" = "ابقَ ساكنًا";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "تأكد من تحميل صفحة المستند بأكملها، وأن التفاصيل واضحة للقراءة دون أي ضبابية أو وهج";
-"onfido_doc_select_subtitle_poa" = "هذه هي الوثائق الأكثر احتمالاً لإظهار العنوان الحالي لمسكنك";
+"onfido_doc_confirmation_body" = "تأكد من أن المستند بأكمله ظاهر وأن جميع التفاصيل واضحة، بدون أي تشويش أو وهج";
+"onfido_doc_select_subtitle_poa" = "اختر مستندًا حديثًا يوضح عنوان منزلك الحالي";
 "onfido_doc_select_button_bill" = "فواتير المرافق";
 "onfido_doc_select_extra_estatements_ok" = "البيانات الإلكترونية مقبولة ";
 "onfido_doc_select_button_bill_detail" = "غاز أو كهرباء أو مياه أو هاتف أرضي أو النطاق العريض";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "أعد وضع هاتفك مقابل جواز سفرك.";
 "onfido_nfc_capture_scan_passport_sheet" = "ضع النصف العلوي من هاتفك مقابل جواز سفرك.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "ابق على هاتفك وجواز سفرك ثابتين.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "تأكد من أنك قمت بتحميل صفحة الوثيقة بأكملها، وأن التفاصيل واضحة للقراءة بدون ضبابية أو وهج";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "تأكد من أن المستند بأكمله ظاهر وأن جميع التفاصيل واضحة، بدون أي تشويش أو وهج";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "شهادة الإقامة أو السكن";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "لا يتم قبول اتفاقيات التأجير الفرعي";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "لا يتم قبول اتفاقيات التأجير الفرعي";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "المتابعة بدون مسح الشريحة";
 "onfido_chip_blocked_optional_subtitle" = "عدد كبير جدًا من محاولات إدخال رقم التعريف الشخصي غير الصحيح أدى إلى حظر شريحة NFC، لذا سنتجاوز هذه الخطوة. يُرجى الاتصال بالجهات المختصة لإعادة تعيين رقم التعريف الشخصي للاستخدام في المستقبل.";
 "onfido_chip_blocked_optional_button_primary" = "استمر";
+"permission_recovery_device_motion_title" = "تم رفض الوصول إلى حركة الجهاز";
+"permission_recovery_device_motion_subtitle" = "نحتاج إلى الوصول إلى بيانات حركة الجهاز واتجاهه للتحقق من هويتك. اتبع التعليمات أدناه لاستعادة الوصول:";
+"permission_recovery_device_motion_item_1" = "أغلق التطبيق ثم أعد فتحه لإعادة بدء عملية التحقق.";
+"permission_recovery_device_motion_item_2" = "عندما يُطلب منك ذلك، اسمح بالوصول إلى حركة الجهاز للمتابعة.";
+"permission_recovery_device_motion_banner" = "سيتم فقد تقدّمك، نعتذر عن الإزعاج.";
+"permission_recovery_device_motion_button" = "إغلاق المتصفّح";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

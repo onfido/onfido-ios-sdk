@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vue de l’appareil photo. Placez votre téléphone sur la page de la photo de votre passeport, puis éloignez-le lentement de manière rectiligne.";
 "onfido_doc_capture_header_capturing" = "Restez immobile";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Assurez-vous d'avoir téléversé la page entière du document et que les détails sont clairement lisibles, sans flou et sans reflets";
-"onfido_doc_select_subtitle_poa" = "Voici les documents les plus susceptibles d'indiquer votre adresse de résidence actuelle";
+"onfido_doc_confirmation_body" = "Assurez-vous que le document est entièrement visible et que tous les détails sont nets, sans flou ni reflet";
+"onfido_doc_select_subtitle_poa" = "Choisissez un document récent indiquant votre adresse personnelle actuelle";
 "onfido_doc_select_button_bill" = "Facture de gaz, électricité, etc.";
 "onfido_doc_select_extra_estatements_ok" = "relevés électroniques acceptés";
 "onfido_doc_select_button_bill_detail" = "Gaz, électricité, eau, ligne fixe ou Internet";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Repositionnez votre téléphone contre votre passeport.";
 "onfido_nfc_capture_scan_passport_sheet" = "Placez la moitié supérieure de votre téléphone contre votre passeport.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Gardez votre téléphone et votre passeport immobiles.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Assurez-vous d'avoir téléchargé l'intégralité de la page du document, et que les détails sont clairs à lire sans flou ou éblouissement";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Assurez-vous que le document est entièrement visible et que tous les détails sont nets, sans flou ni reflet";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Certificat d'Hébergement ou de Location";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Les sous-locations ne sont pas acceptées";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Les sous-locations ne sont pas acceptées";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Continuer sans scanner la puce";
 "onfido_chip_blocked_optional_subtitle" = "Trop de saisies de code PIN incorrectes ont bloqué votre puce NFC, nous allons donc ignorer cette étape. Contactez vos autorités pour réinitialiser votre code PIN pour une utilisation future.";
 "onfido_chip_blocked_optional_button_primary" = "Continuer";
+"permission_recovery_device_motion_title" = "Accès au mouvement de l'appareil refusé";
+"permission_recovery_device_motion_subtitle" = "Nous avons besoin d'accéder aux données de mouvement et d'orientation de votre appareil pour vérifier votre identité. Suivez les instructions ci-dessous pour récupérer l'accès :";
+"permission_recovery_device_motion_item_1" = "Fermez et rouvrez votre application pour redémarrer le processus de vérification.";
+"permission_recovery_device_motion_item_2" = "Lorsque vous y êtes invité, autorisez l'accès au mouvement de l'appareil pour continuer.";
+"permission_recovery_device_motion_banner" = "Votre progression sera perdue, nous vous prions de nous excuser pour la gêne occasionnée.";
+"permission_recovery_device_motion_button" = "Fermer le navigateur";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

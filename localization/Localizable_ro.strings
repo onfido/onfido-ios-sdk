@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vizualizați din camera video. Plasați telefonul dvs. pe pagina cu poză a pașaportului dvs., apoi mișcați încet telefonul dvs. departe de poză în linie dreaptă.";
 "onfido_doc_capture_header_capturing" = "Țineți nemișcat";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Asigurați-vă că ați încărcat întreaga pagină a documentului și că detaliile sunt clare, fără estompări sau luciri, pentru a fi citite";
-"onfido_doc_select_subtitle_poa" = "Acestea sunt documente care cel mai probabil indică adresa dvs. de reședință actuală";
+"onfido_doc_confirmation_body" = "Asigură-te că întregul document este vizibil și toate detaliile sunt clare, fără blur sau strălucire puternică";
+"onfido_doc_select_subtitle_poa" = "Alege un document recent care arată adresa ta actuală de domiciliu";
 "onfido_doc_select_button_bill" = "Factură de utilități";
 "onfido_doc_select_extra_estatements_ok" = "Extrase electronice acceptate";
 "onfido_doc_select_button_bill_detail" = "Gaz, electricitate, apă, telefon fix sau internet de bandă largă";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Repoziționați telefonul în dreptul pașaportului dumneavoastră.";
 "onfido_nfc_capture_scan_passport_sheet" = "Așezați jumătatea superioară a telefonului dumneavoastră pe pașaport.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Păstrați-vă telefonul și pașaportul nemișcate.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Asigurați-vă că ați încărcat întreaga pagină a documentului și detaliile sunt clare pentru a fi citite, fǎrǎ zone neclare sau lucioase";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Asigură-te că ai încărcat întreaga pagină a documentului și că detaliile sunt clare, fără neclarități sau reflexii";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Certificat de cazare sau de închiriere";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Acordurile de subînchiriere nu sunt acceptate";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Acordurile de subînchiriere nu sunt acceptate";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Continuați fără scanarea cipului";
 "onfido_chip_blocked_optional_subtitle" = "Prea multe introduceri greșite ale PIN-ului v-au blocat cipul NFC, așa că vom sări peste acest pas. Contactați autoritățile pentru a reseta PIN-ul pentru utilizări viitoare.";
 "onfido_chip_blocked_optional_button_primary" = "Continuați";
+"permission_recovery_device_motion_title" = "Acces la mișcarea dispozitivului refuzat";
+"permission_recovery_device_motion_subtitle" = "Avem nevoie de acces la datele privind mișcarea și orientarea dispozitivului pentru a vă verifica identitatea. Urmați instrucțiunile de mai jos pentru a recăpăta accesul:";
+"permission_recovery_device_motion_item_1" = "Închideți și redeschideți aplicația pentru a reporni procesul de verificare.";
+"permission_recovery_device_motion_item_2" = "Când vi se solicită, permiteți accesul la mișcarea dispozitivului pentru a continua.";
+"permission_recovery_device_motion_banner" = "Progresul dvs. va fi pierdut, ne cerem scuze pentru neplăceri.";
+"permission_recovery_device_motion_button" = "Închideți browserul";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

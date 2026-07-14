@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Kameradan görüntü. Telefonunuzu pasaportunuzun fotoğraf sayfasına yerleştirin, ardından telefonunuzu düz bir çizgide yavaşça uzaklaştırın.";
 "onfido_doc_capture_header_capturing" = "Sabit kalın";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Belge sayfasının tamamını yüklediğinizden ve ayrıntıların bulanıklık veya parlama olmadan okunabilecek netlikte olduğundan emin olun";
-"onfido_doc_select_subtitle_poa" = "Bunlar mevcut ev adresinizi göstermesi en muhtemel belgelerdir";
+"onfido_doc_confirmation_body" = "Belgenin tamamının görünür olduğundan ve tüm ayrıntıların bulanıklık veya parlaklık olmaksızın net olduğundan emin olun";
+"onfido_doc_select_subtitle_poa" = "Güncel ev adresinizi gösteren yakın tarihli bir belge seçin";
 "onfido_doc_select_button_bill" = "Fatura";
 "onfido_doc_select_extra_estatements_ok" = "e-beyannameler kabul edilir";
 "onfido_doc_select_button_bill_detail" = "Gaz, elektrik, su, sabit hat veya internet";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Telefonunuzu pasaportunuza karşı yeniden konumlandırın.";
 "onfido_nfc_capture_scan_passport_sheet" = "Telefonunuzun üst yarısını pasaportunuza yerleştirin.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Telefonunuzu ve pasaportunuzu hareketsiz tutun.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Tüm belge sayfasını yüklediğinizden ve ayrıntıların bulanıklık veya parlamasız okunabilir olduğundan emin olun";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Belgenin tüm sayfasını yüklediğinizden ve ayrıntıların bulanıklık veya parlaklık olmadan net bir şekilde okunabildiğinden emin olun";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Konaklama veya Kiracılık Sertifikası";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Alt kiralama anlaşmaları kabul edilmez";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Alt kiralama anlaşmaları kabul edilmez";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Çip taraması olmadan devam et";
 "onfido_chip_blocked_optional_subtitle" = "Çok fazla hatalı PIN girişi NFC çipinizi engelledi, bu nedenle bu adımı atlayacağız. Gelecekte kullanmak üzere PIN'inizi sıfırlamak için yetkili makamlarınızla iletişime geçin.";
 "onfido_chip_blocked_optional_button_primary" = "Devam et";
+"permission_recovery_device_motion_title" = "Cihaz hareketi erişimi reddedildi";
+"permission_recovery_device_motion_subtitle" = "Kimliğinizi doğrulamak için cihazınızın hareket ve yön verilerine erişmemiz gerekiyor. Erişimi yeniden sağlamak için aşağıdaki talimatları izleyin:";
+"permission_recovery_device_motion_item_1" = "Doğrulama sürecini yeniden başlatmak için uygulamanızı kapatıp yeniden açın.";
+"permission_recovery_device_motion_item_2" = "İstendiğinde, devam etmek için cihaz hareketi erişimine izin verin.";
+"permission_recovery_device_motion_banner" = "İlerlemeniz kaybolacak, rahatsızlık için özür dileriz.";
+"permission_recovery_device_motion_button" = "Tarayıcıyı kapat";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

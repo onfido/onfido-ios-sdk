@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "在相机上查看。将手机放在护照的照片页上，然后缓慢地将手机沿直线移开。";
 "onfido_doc_capture_header_capturing" = "保持不动";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "请确保您已上传整个证明文件页面，且细节清晰可辨，无模糊或眩光";
-"onfido_doc_select_subtitle_poa" = "这些证明文件最有可能显示您当前的家庭地址";
+"onfido_doc_confirmation_body" = "请确保整个文件完整可见，且所有信息清晰可读，没有模糊或反光";
+"onfido_doc_select_subtitle_poa" = "请选择一份近期文件，该文件须显示您当前的家庭住址";
 "onfido_doc_select_button_bill" = "水电费账单";
 "onfido_doc_select_extra_estatements_ok" = "已接受电子对账单";
 "onfido_doc_select_button_bill_detail" = "煤气、水电、固话或宽带账单";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "将手机重新放置在护照上。";
 "onfido_nfc_capture_scan_passport_sheet" = "将手机的上半部分靠在护照上。";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "保持您的手机和护照静止。";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "确保您已上传整个文档页面，并且细节清晰可读，没有模糊或眩光";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "请确保您已上传完整的文件页面，且详细信息清晰可读，无模糊或反光";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "住宿或租赁证明";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "不接受转租协议";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "不接受转租协议";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "继续而不扫描芯片";
 "onfido_chip_blocked_optional_subtitle" = "PIN 码输入错误次数过多已导致您的 NFC 芯片被锁定,因此我们将跳过此步骤。请联系相关部门重置您的 PIN 码以便日后使用。";
 "onfido_chip_blocked_optional_button_primary" = "继续";
+"permission_recovery_device_motion_title" = "设备运动访问被拒绝";
+"permission_recovery_device_motion_subtitle" = "我们需要访问您的设备运动和方向数据以验证您的身份。请按照以下说明恢复访问权限：";
+"permission_recovery_device_motion_item_1" = "关闭并重新打开您的应用程序以重新开始验证流程。";
+"permission_recovery_device_motion_item_2" = "出现提示时，请允许访问设备运动以继续。";
+"permission_recovery_device_motion_banner" = "您的进度将会丢失，对此带来的不便深感抱歉。";
+"permission_recovery_device_motion_button" = "关闭浏览器";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

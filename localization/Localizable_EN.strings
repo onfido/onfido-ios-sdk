@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "View from camera. Place your phone on the photo page of your passport, then slowly move your phone away from it in a straight line.";
 "onfido_doc_capture_header_capturing" = "Hold still";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Make sure you have uploaded the entire document page, and details are clear to read with no blur or glare";
-"onfido_doc_select_subtitle_poa" = "These are the documents most likely to show your current home address";
+"onfido_doc_confirmation_body" = "Make sure the entire document is visible and all details are clear, with no blur or glare";
+"onfido_doc_select_subtitle_poa" = "Choose a recent document that shows your current home address";
 "onfido_doc_select_button_bill" = "Utility Bill";
 "onfido_doc_select_extra_estatements_ok" = "e-statements accepted";
 "onfido_doc_select_button_bill_detail" = "Gas, electricity, water, landline, or broadband";
@@ -709,7 +709,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Reposition your phone against your passport.";
 "onfido_nfc_capture_scan_passport_sheet" = "Place the top half of your phone against your passport.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Keep your phone and passport still.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Make sure you have uploaded the entire document page, and details are clear to read with no blur or glare";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Make sure the entire document is visible and all details are clear, with no blur or glare";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Accommodation or Tenancy Certificate";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Sub-letting agreements not accepted";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Sub-letting agreements not accepted";
@@ -820,3 +820,13 @@
 "onfido_chip_blocked_optional_title" = "Continue without scanning chip";
 "onfido_chip_blocked_optional_subtitle" = "Too many incorrect PIN entries have blocked your NFC chip, so we'll skip this step. Contact your authorities to reset your PIN for future use.";
 "onfido_chip_blocked_optional_button_primary" = "Continue";
+"permission_recovery_device_motion_title" = "Device motion access denied";
+"permission_recovery_device_motion_subtitle" = "We need access to your device motion and orientation data to verify your identity. Follow the instructions below to recover access:";
+"permission_recovery_device_motion_item_1" = "Close and reopen your app to restart the verification process.";
+"permission_recovery_device_motion_item_2" = "When prompted, allow device motion access to continue.";
+"permission_recovery_device_motion_banner" = "Your progress will be lost, sorry for the inconvenience.";
+"permission_recovery_device_motion_button" = "Close browser";
+"status_information_icon_accessibility" = "Information";
+"status_error_icon_accessibility" = "Error";
+"status_warning_icon_accessibility" = "Warning";
+"status_success_icon_accessibility" = "Success";

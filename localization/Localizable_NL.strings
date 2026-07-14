@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Weergeven vanaf camera. Plaats uw telefoon op de fotopagina van uw paspoort en beweeg deze langzaam weg in een rechte lijn.";
 "onfido_doc_capture_header_capturing" = "Niet bewegen";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Zorg ervoor dat u de volledige documentpagina heeft geüpload, en dat de details duidelijk en zonder wazigheid of spiegeling te lezen zijn";
-"onfido_doc_select_subtitle_poa" = "Dit zijn de meest waarschijnlijke documenten waaruit uw huidige adres blijkt";
+"onfido_doc_confirmation_body" = "Zorg dat het hele document zichtbaar is en alle details duidelijk zijn, zonder vervaging of schittering";
+"onfido_doc_select_subtitle_poa" = "Kies een recent document waarop je huidige huisadres staat";
 "onfido_doc_select_button_bill" = "Energierekening";
 "onfido_doc_select_extra_estatements_ok" = "Elektronische afschriften geaccepteerd";
 "onfido_doc_select_button_bill_detail" = "Gas, elektriciteit, water, vaste telefoonlijn of breedband";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Houd uw telefoon opnieuw tegen uw paspoort.";
 "onfido_nfc_capture_scan_passport_sheet" = "Plaats de bovenkant van je telefoon tegen je paspoort.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Houd uw telefoon en paspoort stil.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Zorg ervoor dat u de volledige documentpagina heeft geüpload, en dat de details duidelijk leesbaar zijn zonder wazigheid of schittering";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Zorg ervoor dat je de volledige documentpagina hebt geüpload en dat alle details duidelijk leesbaar zijn, zonder wazigheid of schittering";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Bewijs van Accommodatie of Huurovereenkomst";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Onderverhuurovereenkomsten worden niet geaccepteerd";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Onderhuurovereenkomsten worden niet geaccepteerd";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Doorgaan zonder chip te scannen";
 "onfido_chip_blocked_optional_subtitle" = "Te veel onjuiste pincode‑invoer heeft uw NFC‑chip geblokkeerd, dus we slaan deze stap over. Neem contact op met de bevoegde instantie om uw pincode te laten resetten voor toekomstig gebruik.";
 "onfido_chip_blocked_optional_button_primary" = "Doorgaan";
+"permission_recovery_device_motion_title" = "Toegang tot apparaatgegevens over beweging geweigerd";
+"permission_recovery_device_motion_subtitle" = "We hebben toegang tot de bewegings- en oriëntatiegegevens van uw apparaat nodig om uw identiteit te verifiëren. Volg de onderstaande instructies om opnieuw toegang te krijgen:";
+"permission_recovery_device_motion_item_1" = "Sluit de app en open deze opnieuw om het verificatieproces te herstarten.";
+"permission_recovery_device_motion_item_2" = "Sta, wanneer hierom wordt gevraagd, toegang tot apparaatgegevens over beweging toe om verder te gaan.";
+"permission_recovery_device_motion_banner" = "Uw voortgang gaat verloren. Onze excuses voor het ongemak.";
+"permission_recovery_device_motion_button" = "Browser sluiten";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

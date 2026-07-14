@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Vaade kaamerast. Asetage telefon passi fotolehele ja seejärel liigutage telefon sellest aeglaselt ja otse eemale.";
 "onfido_doc_capture_header_capturing" = "Olge paigal";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Veenduge, et olete kogu dokumendi lehe üles laadinud ja andmed on loetavad ning ei ole hägused ega ülevalgustatud";
-"onfido_doc_select_subtitle_poa" = "Need on dokumendid, mis näitavad kõige tõenäolisemalt teie praegust kodust aadressi";
+"onfido_doc_confirmation_body" = "Veendu, et kogu dokument on näha ja kõik üksikasjad on selged, ilma ähmasuse või pimestuseta";
+"onfido_doc_select_subtitle_poa" = "Valige hiljutine dokument, millel on näidatud teie praegune koduaadress";
 "onfido_doc_select_button_bill" = "Kommunaalteenuste arve";
 "onfido_doc_select_extra_estatements_ok" = "elektroonilised väljavõtted sobivad";
 "onfido_doc_select_button_bill_detail" = "Gaas, elekter, vesi, lauatelefon või lairibaühendus";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Asetage oma telefon uuesti passi vastu.";
 "onfido_nfc_capture_scan_passport_sheet" = "Asetage telefoni ülemine pool oma passi vastu.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Hoidke oma telefoni ja passi paigal.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Veenduge, et olete üles laadinud kogu dokumendi lehekülje ja detailid on selgelt loetavad ilma udususe või helenduseta";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Veenduge, et olete üles laaditud kogu dokumendi lehekülje ning üksikasjad on selgelt loetavad, ilma hägususe või peegelduseta.";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Majutus- või eluruumi sertifikaat";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Alluvrendilepinguid ei aktsepteerita";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Alamrendilepinguid ei aktsepteerita";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Jätka ilma kiibi skaneerimiseta";
 "onfido_chip_blocked_optional_subtitle" = "Liiga paljud valed PIN-koodi sisestused on teie NFC-kiibil blokeerinud, seega jätame selle sammu vahele. Võtke ühendust oma ametiasutustega, et tulevikus kasutamiseks oma PIN-kood lähtestada.";
 "onfido_chip_blocked_optional_button_primary" = "Jätkake";
+"permission_recovery_device_motion_title" = "Seadme liikumisele juurdepääs keelatud";
+"permission_recovery_device_motion_subtitle" = "Teie isiku tuvastamiseks vajame juurdepääsu teie seadme liikumis- ja orientatsiooniandmetele. Juurdepääsu taastamiseks järgige allolevaid juhiseid:";
+"permission_recovery_device_motion_item_1" = "Sulgege ja avage rakendus uuesti, et taaskäivitada kinnitamisprotsess.";
+"permission_recovery_device_motion_item_2" = "Kui küsitakse, lubage seadme liikumisele juurdepääs, et jätkata.";
+"permission_recovery_device_motion_banner" = "Teie edusammud lähevad kaotsi, vabandame ebamugavuste pärast.";
+"permission_recovery_device_motion_button" = "Sulgege brauser";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

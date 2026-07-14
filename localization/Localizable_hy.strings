@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Տեսարան տեսախցիկից։ Դրեք ձեր հեռախոսը ձեր անձնագրի լուսանկարի էջի վրա, ապա դանդաղ հեռացրեք ձեր հեռախոսը դրանից ուղիղ գծով։";
 "onfido_doc_capture_header_capturing" = "Մի շարժվեք";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջական էջը, և տվյալները ընթեռնելի են, պատկերը աղոտ չէ և չի փայլում";
-"onfido_doc_select_subtitle_poa" = "Ամենայն հավանականությամբ, այս փաստաթղթերում գրանցված կլինի ձեր ներկա բնակության վայրի հասցեն";
+"onfido_doc_confirmation_body" = "Համոզվեք, որ ամբողջ փաստաթուղթը երևում է, իսկ բոլոր մանրամասները հստակ են, առանց մշուշվածության կամ փայծաղկման";
+"onfido_doc_select_subtitle_poa" = "Ընտրեք վերջերս ստացված փաստաթուղթ, որտեղ նշված է ձեր ներկայիս տնային հասցեն";
 "onfido_doc_select_button_bill" = "Կոմունալ ծառայության հաշիվ";
 "onfido_doc_select_extra_estatements_ok" = "էլեկտրոնային քաղվածքներ ընդունվում են";
 "onfido_doc_select_button_bill_detail" = "Գազ, էլեկտրաէներգիա, ջուր, ֆիքսված հեռախոսակապ կամ ինտերնետ";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Տեղափոխեք ձեր հեռախոսը ձեր անձնագրի դեմ։";
 "onfido_nfc_capture_scan_passport_sheet" = "Տեղադրեք ձեր հեռախոսի վերին մասը ձեր անձնագրի դեմ:";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Պահեք ձեր հեռախոսը և անձնագիրը անշարժ:";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Համոզվեք, որ դուք վերբեռնել եք ամբողջ փաստաթուղթի էջը, եւ մանրամասները հասկանալի են առանց մոխրամասների կամ պայծառության";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջ էջը, և մանրամասները հստակ ընթեռնելի են՝ առանց մշուշվածության կամ փայլի";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Տնային կամ վարձակալության վկայական";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Ենթավարձման պայմանագրերը չեն ընդունվում";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Ենթավարձման պայմանագրերը չեն ընդունվում";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Շարունակել առանց չիպը սկանավորելու";
 "onfido_chip_blocked_optional_subtitle" = "Շատ սխալ մուտքագրված PIN-ների պատճառով ձեր NFC չիպը արգելափակվել է, այդ պատճառով մենք կանցնենք այս քայլը։ Կապվեք համապատասխան մարմինների հետ՝ ձեր PIN-ը ապագայում օգտագործելու համար վերականգնելու նպատակով։";
 "onfido_chip_blocked_optional_button_primary" = "Շարունակել";
+"permission_recovery_device_motion_title" = "Սարքի շարժման մուտքը մերժվել է";
+"permission_recovery_device_motion_subtitle" = "Ձեր ինքնությունը հաստատելու համար մեզ անհրաժեշտ է մուտք ձեր սարքի շարժման և կողմնորոշման տվյալներին։ Մուտքը վերականգնելու համար հետևեք ստորև ներկայացված ցուցումներին․";
+"permission_recovery_device_motion_item_1" = "Փակեք եւ նորից բացեք հավելվածը՝ հաստատման գործընթացը վերսկսելու համար։";
+"permission_recovery_device_motion_item_2" = "Երբ ցուցադրվի հարցումը, թույլատրեք սարքի շարժման մուտքը՝ շարունակելու համար։";
+"permission_recovery_device_motion_banner" = "Ձեր առաջընթացը չի պահպանվի, ներողություն անհարմարության համար։";
+"permission_recovery_device_motion_button" = "Փակել navegador-ը";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "카메라에서 본 이미지. 휴대폰을 여권의 사진 부착면 위에 올려놓은 후 휴대폰을 일직선으로 천천히 들어 올리세요.";
 "onfido_doc_capture_header_capturing" = "움직이지 마세요";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "전체 서류 페이지를 업로드했는지 확인하고, 세부 정보가 선명하게 읽히며 빛 반사되는 부분이 없는지 확인하세요";
-"onfido_doc_select_subtitle_poa" = "현재 집 주소가 표시될 가능성이 가장 높은 서류입니다";
+"onfido_doc_confirmation_body" = "문서 전체가 보이고 모든 정보가 선명하며, 흐릿하거나 빛이 반사된 부분이 없도록 해 주세요";
+"onfido_doc_select_subtitle_poa" = "현재 거주지 주소가 표시된 최근 문서를 선택하세요";
 "onfido_doc_select_button_bill" = "공과금 청구서";
 "onfido_doc_select_extra_estatements_ok" = "전자 명세서 허용";
 "onfido_doc_select_button_bill_detail" = "가스, 전기, 수도, 유선전화 또는 광대역 요금 청구서";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "휴대폰을 여권에 다시 위치시키세요.";
 "onfido_nfc_capture_scan_passport_sheet" = "휴대폰의 윗부분을 여권에 대세요.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "휴대폰과 여권을 가만히 두세요.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "전체 문서 페이지를 업로드했는지 확인하고, 세부 사항이 흐림이나 반사 없이 명확하게 읽히는지 확인하세요";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "서류 전체 페이지를 업로드했는지 확인하고, 흐림이나 빛 반사 없이 세부 사항이 또렷하게 보이도록 해 주세요.";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "숙박 또는 임대증명서";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "하청 계약은 허용되지 않습니다";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "하청 계약은 허용되지 않습니다";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "칩 스캔 없이 계속하기";
 "onfido_chip_blocked_optional_subtitle" = "PIN을 여러 번 잘못 입력하여 NFC 칩이 차단되었으므로, 이 단계를 건너뛰겠습니다. 앞으로 사용하시려면 PIN 재설정을 위해 관계 기관에 문의하세요.";
 "onfido_chip_blocked_optional_button_primary" = "계속";
+"permission_recovery_device_motion_title" = "디바이스 동작 접근이 거부됨";
+"permission_recovery_device_motion_subtitle" = "본인 확인을 위해 디바이스의 동작 및 방향 데이터를 사용할 수 있어야 합니다. 아래 안내에 따라 다시 접근을 허용해 주세요:";
+"permission_recovery_device_motion_item_1" = "앱을 닫았다가 다시 열어 본인 확인 절차를 다시 시작하세요.";
+"permission_recovery_device_motion_item_2" = "알림이 표시되면, 계속 진행하려면 디바이스 동작에 대한 접근을 허용해 주세요.";
+"permission_recovery_device_motion_banner" = "진행 상황이 모두 사라지며, 불편을 끼쳐 드려 죄송합니다.";
+"permission_recovery_device_motion_button" = "브라우저 닫기";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

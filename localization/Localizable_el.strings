@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Προβολή από κάμερα. Τοποθετήστε το τηλέφωνό σας επάνω στη σελίδα της φωτογραφίας του διαβατηρίου σας και, στη συνέχεια, απομακρύνετε αργά το τηλέφωνό σας από αυτή σε ευθεία γραμμή.";
 "onfido_doc_capture_header_capturing" = "Μείνετε ακίνητος/η";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Βεβαιωθείτε ότι έχετε αποστείλει ολόκληρη τη σελίδα του εγγράφου και ότι τα στοιχεία είναι ευανάγνωστα, το έγγραφο δεν είναι θολό και δεν υπάρχει αντανάκλαση";
-"onfido_doc_select_subtitle_poa" = "Αυτά είναι τα έγγραφα που είναι πιθανότερο να εμφανίζουν την τρέχουσα διεύθυνση κατοικίας σας";
+"onfido_doc_confirmation_body" = "Βεβαιωθείτε ότι ολόκληρο το έγγραφο είναι ορατό και όλες οι λεπτομέρειες είναι καθαρές, χωρίς θολούρα ή αντανάκλαση";
+"onfido_doc_select_subtitle_poa" = "Επιλέξτε ένα πρόσφατο έγγραφο που εμφανίζει την τρέχουσα διεύθυνση κατοικίας σας";
 "onfido_doc_select_button_bill" = "Λογαριασμός υπηρεσιών κοινής ωφελείας";
 "onfido_doc_select_extra_estatements_ok" = "αποδεκτές ηλεκτρονικές δηλώσεις";
 "onfido_doc_select_button_bill_detail" = "Αέριο, ηλεκτρικό ρεύμα, νερό, σταθερό τηλέφωνο ή ευρυζωνική σύνδεση";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Τοποθετήστε ξανά το τηλέφωνό σας πάνω στο διαβατήριό σας.";
 "onfido_nfc_capture_scan_passport_sheet" = "Τοποθετήστε το επάνω μισό του τηλεφώνου σας πάνω στο διαβατήριό σας.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Βεβαιωθείτε ότι έχετε ανεβάσει ολόκληρη τη σελίδα του εγγράφου, και οι λεπτομέρειες είναι ξεκάθαρες για ανάγνωση χωρίς θάμπωμα ή λάμψη";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Βεβαιωθείτε ότι έχετε ανεβάσει ολόκληρη τη σελίδα του εγγράφου και ότι οι λεπτομέρειες είναι καθαρές και ευανάγνωστες, χωρίς θολούρα ή αντανάκλαση";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Πιστοποιητικό Διαμονής ή Ενοικίασης";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Δεν γίνονται δεκτές συμφωνίες υποενοικίασης";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Δεν γίνονται δεκτές συμφωνίες υποενοικίασης";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Συνέχεια χωρίς σάρωση chip";
 "onfido_chip_blocked_optional_subtitle" = "Πάρα πολλές λανθασμένες εισαγωγές PIN έχουν μπλοκάρει το NFC chip σας, επομένως θα παραλείψουμε αυτό το βήμα. Επικοινωνήστε με τις αρμόδιες αρχές για να επαναφέρετε το PIN σας για μελλοντική χρήση.";
 "onfido_chip_blocked_optional_button_primary" = "Συνέχεια";
+"permission_recovery_device_motion_title" = "Η πρόσβαση στα δεδομένα κίνησης της συσκευής απορρίφθηκε";
+"permission_recovery_device_motion_subtitle" = "Χρειαζόμαστε πρόσβαση στα δεδομένα κίνησης και προσανατολισμού της συσκευής σας για να επαληθεύσουμε την ταυτότητά σας. Ακολουθήστε τις παρακάτω οδηγίες για να ανακτήσετε την πρόσβαση:";
+"permission_recovery_device_motion_item_1" = "Κλείστε και ανοίξτε ξανά την εφαρμογή σας για να επανεκκινήσετε τη διαδικασία ταυτοποίησης.";
+"permission_recovery_device_motion_item_2" = "Όταν σας ζητηθεί, επιτρέψτε την πρόσβαση στα δεδομένα κίνησης της συσκευής για να συνεχίσετε.";
+"permission_recovery_device_motion_banner" = "Η πρόοδός σας θα χαθεί. Λυπούμαστε για την αναστάτωση.";
+"permission_recovery_device_motion_button" = "Κλείσιμο προγράμματος περιήγησης";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

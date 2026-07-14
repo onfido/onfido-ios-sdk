@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Visning fra kameraet. Placer telefonen på siden i passet, hvor billedet fremgår, og flyt derefter langsomt telefonen væk fra dokumentet i en lige linje.";
 "onfido_doc_capture_header_capturing" = "Hold det stille";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Sørg for, at du har uploadet hele siden af dokumentet, og at oplysningerne fremstår tydelige, uden at de er slørede eller har genskin";
-"onfido_doc_select_subtitle_poa" = "Det er de dokumenter, der med størst sandsynlighed viser din nuværende bopælsadresse";
+"onfido_doc_confirmation_body" = "Sørg for, at hele dokumentet er synligt, og at alle oplysninger er tydelige, uden sløring eller genskin";
+"onfido_doc_select_subtitle_poa" = "Vælg et nyere dokument, der viser din nuværende hjemmeadresse";
 "onfido_doc_select_button_bill" = "Regning på forbrugsydelser";
 "onfido_doc_select_extra_estatements_ok" = "accepterede e-erklæringer";
 "onfido_doc_select_button_bill_detail" = "Gas, elektricitet, vand, fastnet eller bredbånd";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Placer din telefon mod dit pas.";
 "onfido_nfc_capture_scan_passport_sheet" = "Placér den øverste halvdel af din telefon mod dit pas.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Hold din telefon og pas stille.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Sørg for, at du har uploadet hele dokumentets side, og detaljerne er klare til at læse uden sløring eller blænding";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Sørg for, at du har uploadet hele dokumentsiden, og at detaljerne er tydelige at læse uden sløring eller genskin";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Bolig- eller lejekontrakt";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Underlejeaftaler accepteres ikke";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Underlejeaftaler accepteres ikke";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Fortsæt uden at scanne chip";
 "onfido_chip_blocked_optional_subtitle" = "For mange forkerte PIN-indtastninger har blokeret din NFC-chip, så vi springer dette trin over. Kontakt dine myndigheder for at nulstille din PIN til fremtidig brug.";
 "onfido_chip_blocked_optional_button_primary" = "Fortsæt";
+"permission_recovery_device_motion_title" = "Adgang til enhedsbevægelse nægtet";
+"permission_recovery_device_motion_subtitle" = "Vi har brug for adgang til data om enhedens bevægelse og orientering for at bekræfte din identitet. Følg vejledningen nedenfor for at gendanne adgangen:";
+"permission_recovery_device_motion_item_1" = "Luk og åbn appen igen for at genstarte bekræftelsesprocessen.";
+"permission_recovery_device_motion_item_2" = "Når du bliver bedt om det, skal du give adgang til enhedsbevægelse for at fortsætte.";
+"permission_recovery_device_motion_banner" = "Din fremgang går tabt. Vi beklager ulejligheden.";
+"permission_recovery_device_motion_button" = "Luk browser";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";

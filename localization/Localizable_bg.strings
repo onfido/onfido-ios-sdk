@@ -281,8 +281,8 @@
 "onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility" = "Прегледайте от камерата. Поставете телефона си на страницата със снимката от паспорта ви, след което бавно го отдалечете с движение в права линия.";
 "onfido_doc_capture_header_capturing" = "Стойте неподвижно";
 /* Proof of Address */
-"onfido_doc_confirmation_body" = "Уверете се, че сте качили цялата страница на документа и подробностите се четат ясно, без да са размазани или с отблясъци";
-"onfido_doc_select_subtitle_poa" = "Това са документите, които най-вероятно показват настоящия ви домашен адрес";
+"onfido_doc_confirmation_body" = "Уверете се, че целият документ е видим и всички данни са четливи, без замъгляване или отблясъци";
+"onfido_doc_select_subtitle_poa" = "Изберете скорошен документ, който показва настоящия ви домашен адрес";
 "onfido_doc_select_button_bill" = "Сметка за комунални услуги";
 "onfido_doc_select_extra_estatements_ok" = "приемат се електронни извлечения";
 "onfido_doc_select_button_bill_detail" = "Сметки за газ, електричество, вода, стационарен телефон или интернет";
@@ -705,7 +705,7 @@
 "onfido_nfc_passport_scan_doc_realign_body" = "Преместете телефона си срещу паспорта.";
 "onfido_nfc_capture_scan_passport_sheet" = "Поставете горната част на телефона си срещу паспорта.";
 "onfido_nfc_capture_scan_passport_scanning_sheet_2" = "Дръжте телефона и паспорта си неподвижни.";
-"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Уверете се, че сте качили цялата страница на документа и детайлите са ясни за четене без размазване или отблясъци";
+"onfido_doc_confirmation_body_accommodation_tenancy_certificate" = "Уверете се, че сте качили цялата страница на документа и че данните са четливи, без замъгляване или отблясъци.";
 "onfido_doc_select_button_accommodation_tenancy_certificate" = "Сертификат за настаняване или наем";
 "onfido_doc_select_accommodation_tenancy_certificate_warning" = "Споразуменията за поднаем не се приемат";
 "onfido_poa_guidance_subtitle_accommodation_tenancy_certificate" = "Споразуменията за поднаем не се приемат";
@@ -815,3 +815,13 @@
 "onfido_chip_blocked_optional_title" = "Продължете без сканиране на чип";
 "onfido_chip_blocked_optional_subtitle" = "Твърде много неправилни въвеждания на ПИН код са блокирали вашия NFC чип, затова ще пропуснем тази стъпка. Свържете се с компетентните органи, за да нулирате ПИН кода си за бъдеща употреба.";
 "onfido_chip_blocked_optional_button_primary" = "Продължете";
+"permission_recovery_device_motion_title" = "Достъпът до движението на устройството е отказан";
+"permission_recovery_device_motion_subtitle" = "Нуждаем се от достъп до данните за движение и ориентация на вашето устройство, за да потвърдим самоличността ви. Следвайте инструкциите по-долу, за да възстановите достъпа:";
+"permission_recovery_device_motion_item_1" = "Затворете и отворете отново приложението си, за да рестартирате процеса на верификация.";
+"permission_recovery_device_motion_item_2" = "Когато бъдете подканени, разрешете достъпа до движението на устройството, за да продължите.";
+"permission_recovery_device_motion_banner" = "Напредъкът ви ще бъде изгубен. Съжаляваме за неудобството.";
+"permission_recovery_device_motion_button" = "Затвори браузъра";
+"status_information_icon_accessibility" = "";
+"status_error_icon_accessibility" = "";
+"status_warning_icon_accessibility" = "";
+"status_success_icon_accessibility" = "";
