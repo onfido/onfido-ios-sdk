@@ -347,6 +347,37 @@ ONAppearance *appearance = [ONAppearance new];
 [appearance setUserInterfaceStyle:UIUserInterfaceStyleDark];
 ```
 
+#### Custom fonts
+
+The iOS SDK allows you to set a custom font for regular and bold text used throughout the SDK flow, via the fontRegular and fontBold properties on Appearance.
+
+```swift
+let appearance = Appearance()
+appearance.fontRegular = "YourFontName-Regular"
+appearance.fontBold = "YourFontName-Bold"
+```
+
+```objc
+ONAppearance *appearance = [[ONAppearance alloc] init];
+appearance.fontRegular = @"YourFontName-Regular";
+appearance.fontBold = @"YourFontName-Bold";
+```
+
+**Requirements:**
+The font must be bundled with your application and registered via UIAppFonts in your app's Info.plist (Fonts provided by application), or otherwise registered with the system before the SDK flow starts.
+The value provided must be the font's PostScript name, not its file name or display name. You can confirm the correct PostScript name at runtime with:
+
+```swift
+  UIFont.familyNames.forEach { family in
+      UIFont.fontNames(forFamilyName: family).forEach { print($0) }
+  }
+```
+
+- If the PostScript name provided does not match a registered font, the SDK will silently fall back to the system font — no error is raised. Double-check the exact PostScript name if your custom font does not appear to be applied.
+- Only two fonts can currently be customized (regular and bold); individual customization of title, subtitle, or button fonts independently of these two is not currently supported.
+
+**Note:** When a flow step is rendered via an embedded web module (for example, Proof of Address), custom fonts require the font to be delivered to the web module in addition to being registered natively. This is handled automatically by the SDK, but requires the font file itself (not just the font name) to be available in your app bundle as described above.
+
 #### Applying the Appearance object
 
 To apply the appearance you can use the methods below:
