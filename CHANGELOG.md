@@ -6,6 +6,13 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.1.4] - 2026-08-03
+
+### Fixed
+
+- Attempted to fix an intermittent camera freeze during Video capture
+- Updated Taiwan (TWN) country name
+
 ## [33.1.3] - 2026-07-14
 
 ### Fixed
