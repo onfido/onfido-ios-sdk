@@ -6,6 +6,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [33.1.5] - 2026-08-05
+
+### Fixed
+
+- Removed the arm64e slice from the SDK binaries to restore App Store submission compatibility
+
 ## [33.1.4] - 2026-08-03
 
 ### Fixed
