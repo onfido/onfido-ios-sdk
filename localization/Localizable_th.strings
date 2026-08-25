@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "ถัดไป ถ่ายภาพหน้าที่อยู่";
+"onfido_doc_intro_address_page_subtitle" = "จำเป็นต้องใช้ข้อมูลนี้เพื่อวัตถุประสงค์ด้านกฎระเบียบ";
+"onfido_doc_intro_address_page_option_1" = "ไปที่หน้าสุดท้ายของหนังสือเดินทาง";
+"onfido_doc_intro_address_page_option_2" = "ถ่ายภาพหน้าที่มีชื่อบิดามารดา ที่อยู่ และหมายเลขแฟ้ม";
+"onfido_doc_intro_address_page_continue_button" = "ถ่ายรูปภาพ";
+"onfido_doc_capture_header_address_page" = "หน้าที่อยู่";
+"onfido_doc_capture_description_address_page" = "หน้าสุดท้ายของหนังสือเดินทาง";
+"onfido_doc_intro_address_page_illustration_accessibility" = "ภาพประกอบหน้าที่อยู่ในหนังสือเดินทางอินเดีย";
+
+"onfido_doc_select_button_passport_card" = "บัตรหนังสือเดินทาง";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "ขออภัย, มีข้อผิดพลาดเกิดขึ้น กรุณาติดต่อฝ่ายสนับสนุนของคุณ";
+"generic_errors_workflow_input_error_subtitle" = "ขออภัย, มีข้อผิดพลาดเกิดขึ้น กรุณาติดต่อฝ่ายสนับสนุนของคุณ";

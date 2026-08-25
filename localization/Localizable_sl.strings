@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Nato posnemite stran z naslovom";
+"onfido_doc_intro_address_page_subtitle" = "To potrebujemo iz regulatornih razlogov";
+"onfido_doc_intro_address_page_option_1" = "Pojdite na zadnjo stran potnega lista";
+"onfido_doc_intro_address_page_option_2" = "Fotografirajte stran, ki vsebuje imena staršev, naslov in številko spisa";
+"onfido_doc_intro_address_page_continue_button" = "Posnemite fotografijo";
+"onfido_doc_capture_header_address_page" = "Stran z naslovom";
+"onfido_doc_capture_description_address_page" = "Zadnja stran potnega lista";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Ilustracija strani z naslovom v indijskem potnem listu";
+
+"onfido_doc_select_button_passport_card" = "Potna kartica";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Na žalost je prišlo do napake. Prosimo, obrnite se na vašo podporo.";
+"generic_errors_workflow_input_error_subtitle" = "Na žalost je prišlo do napake. Prosimo, obrnite se na vašo podporo.";

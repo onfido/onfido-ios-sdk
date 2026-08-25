@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Tada nufotografuokite adreso puslapį";
+"onfido_doc_intro_address_page_subtitle" = "Tai reikalinga dėl teisinių reikalavimų";
+"onfido_doc_intro_address_page_option_1" = "Eikite į paskutinį savo paso puslapį";
+"onfido_doc_intro_address_page_option_2" = "Nufotografuokite puslapį, kuriame yra jūsų tėvų vardai, adresas ir bylos numeris";
+"onfido_doc_intro_address_page_continue_button" = "Fotografuoti";
+"onfido_doc_capture_header_address_page" = "Adreso puslapis";
+"onfido_doc_capture_description_address_page" = "Paskutinis paso puslapis";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Indijos paso adreso puslapio iliustracija";
+
+"onfido_doc_select_button_passport_card" = "Paso kortelė";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Deja, įvyko klaida. Prašome susisiekti su savo palaikymu.";
+"generic_errors_workflow_input_error_subtitle" = "Deja, įvyko klaida. Prašome susisiekti su savo palaikymu.";

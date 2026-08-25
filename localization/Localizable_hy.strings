@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Հաջորդը՝ նկարահանեք հասցեի էջը";
+"onfido_doc_intro_address_page_subtitle" = "Սա մեզ անհրաժեշտ է կարգավորող պահանջների համար";
+"onfido_doc_intro_address_page_option_1" = "Բացեք ձեր անձնագրի վերջին էջը";
+"onfido_doc_intro_address_page_option_2" = "Նկարեք այն էջը, որտեղ նշված են ձեր ծնողների անունները, հասցեն և գործի համարը";
+"onfido_doc_intro_address_page_continue_button" = "Լուսանկարել";
+"onfido_doc_capture_header_address_page" = "Հասցեի էջ";
+"onfido_doc_capture_description_address_page" = "Անձնագրի վերջին էջ";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Հնդկական անձնագրում հասցեի էջի պատկեր";
+
+"onfido_doc_select_button_passport_card" = "Անձնագրի քարտ";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Ցավոք, սխալ է տեղի ունեցել։ Խնդրում ենք կապվել ձեր աջակցության հետ։";
+"generic_errors_workflow_input_error_subtitle" = "Ցավոք, սխալ է տեղի ունեցել։ Խնդրում ենք կապվել ձեր աջակցության հետ։";

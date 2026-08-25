@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "در مرحله بعد، صفحهٔ نشانی را ثبت کنید";
+"onfido_doc_intro_address_page_subtitle" = "ما به دلایل مقرراتی به این مورد نیاز داریم";
+"onfido_doc_intro_address_page_option_1" = "به آخرین صفحهٔ گذرنامه‌تان بروید";
+"onfido_doc_intro_address_page_option_2" = "از صفحه‌ای که نام والدین، نشانی و شماره پروندهٔ شما روی آن است عکس بگیرید";
+"onfido_doc_intro_address_page_continue_button" = "عکس گرفتن";
+"onfido_doc_capture_header_address_page" = "صفحهٔ نشانی";
+"onfido_doc_capture_description_address_page" = "آخرین صفحهٔ گذرنامه";
+"onfido_doc_intro_address_page_illustration_accessibility" = "یک تصویر نمونه از صفحهٔ نشانی در گذرنامه هندی";
+
+"onfido_doc_select_button_passport_card" = "کارت پاسپورت";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "متاسفانه، خطایی رخ داده است. لطفا با پشتیبانی خود تماس بگیرید.";
+"generic_errors_workflow_input_error_subtitle" = "متاسفانه، خطایی رخ داده است. لطفا با پشتیبانی خود تماس بگیرید.";

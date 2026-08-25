@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Kuvaa seuraavaksi osoitesivu";
+"onfido_doc_intro_address_page_subtitle" = "Tarvitsemme tämän sääntelyllisistä syistä";
+"onfido_doc_intro_address_page_option_1" = "Siirry passin viimeiselle sivulle";
+"onfido_doc_intro_address_page_option_2" = "Ota kuva sivusta, joka sisältää vanhempiesi nimet, osoitteen ja asianumeron";
+"onfido_doc_intro_address_page_continue_button" = "Ota valokuva";
+"onfido_doc_capture_header_address_page" = "Osoitesivu";
+"onfido_doc_capture_description_address_page" = "Passin viimeinen sivu";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Havainnekuva Intian passin osoitesivusta";
+
+"onfido_doc_select_button_passport_card" = "Passikortti";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Valitettavasti on tapahtunut virhe. Ota yhteyttä tukeesi.";
+"generic_errors_workflow_input_error_subtitle" = "Valitettavasti on tapahtunut virhe. Ota yhteyttä tukeesi.";

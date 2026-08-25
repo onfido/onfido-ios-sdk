@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "次に、住所のページを撮影してください";
+"onfido_doc_intro_address_page_subtitle" = "規制上の理由で、この情報が必要です";
+"onfido_doc_intro_address_page_option_1" = "パスポートの一番最後のページを開いてください";
+"onfido_doc_intro_address_page_option_2" = "ご両親の氏名、住所、ファイル番号が記載されたページを撮影してください";
+"onfido_doc_intro_address_page_continue_button" = "写真を撮る";
+"onfido_doc_capture_header_address_page" = "住所ページ";
+"onfido_doc_capture_description_address_page" = "パスポートの最終ページ";
+"onfido_doc_intro_address_page_illustration_accessibility" = "インドのパスポートにおける住所ページのイラスト";
+
+"onfido_doc_select_button_passport_card" = "パスポートカード";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "残念ながら、エラーが発生しました。サポートに連絡してください。";
+"generic_errors_workflow_input_error_subtitle" = "残念ながら、エラーが発生しました。サポートに連絡してください。";

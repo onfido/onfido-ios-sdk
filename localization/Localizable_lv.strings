@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Tālāk nofotografējiet adreses lapu";
+"onfido_doc_intro_address_page_subtitle" = "Tas mums nepieciešams normatīvo prasību dēļ";
+"onfido_doc_intro_address_page_option_1" = "Atveriet pēdējo sava pases lapu";
+"onfido_doc_intro_address_page_option_2" = "Nofotografējiet lapu, kurā ir norādīti jūsu vecāku vārdi, adrese un lietas numurs";
+"onfido_doc_intro_address_page_continue_button" = "Uzņemt fotoattēlu";
+"onfido_doc_capture_header_address_page" = "Adreses lapa";
+"onfido_doc_capture_description_address_page" = "Pēdējā pase lapa";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Indijas pases adreses lapas ilustrācija";
+
+"onfido_doc_select_button_passport_card" = "Pases karte";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Diemžēl ir radusies kļūda. Lūdzu, sazinieties ar savu atbalsta dienestu.";
+"generic_errors_workflow_input_error_subtitle" = "Diemžēl ir radusies kļūda. Lūdzu, sazinieties ar savu atbalsta dienestu.";
