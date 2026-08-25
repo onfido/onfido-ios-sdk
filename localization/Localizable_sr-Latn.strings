@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Zatim, snimite stranicu s adresom";
+"onfido_doc_intro_address_page_subtitle" = "Ovo nam je potrebno iz regulatornih razloga";
+"onfido_doc_intro_address_page_option_1" = "Idite na poslednju stranicu pasoša";
+"onfido_doc_intro_address_page_option_2" = "Fotografišite stranicu koja sadrži imena roditelja, adresu i broj dosijea";
+"onfido_doc_intro_address_page_continue_button" = "Fotografišite";
+"onfido_doc_capture_header_address_page" = "Страница са адресом";
+"onfido_doc_capture_description_address_page" = "Последња страница пасоша";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Ilustracija stranice s adresom u indijskom pasošu";
+
+"onfido_doc_select_button_passport_card" = "Пасошка картица";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Nažalost, došlo je do greške. Molimo vas da kontaktirate vašu podršku.";
+"generic_errors_workflow_input_error_subtitle" = "Nažalost, došlo je do greške. Molimo vas da kontaktirate vašu podršku.";

@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Dále vyfotografujte stránku s adresou";
+"onfido_doc_intro_address_page_subtitle" = "Vyžadují to regulační předpisy";
+"onfido_doc_intro_address_page_option_1" = "Přejděte na poslední stránku cestovního pasu";
+"onfido_doc_intro_address_page_option_2" = "Vyfoťte stránku obsahující jména rodičů, adresu a číslo spisu";
+"onfido_doc_intro_address_page_continue_button" = "Vyfotografovat";
+"onfido_doc_capture_header_address_page" = "Stránka s adresou";
+"onfido_doc_capture_description_address_page" = "Poslední stránka pasu";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Ilustrace stránky s adresou v indickém cestovním pasu";
+
+"onfido_doc_select_button_passport_card" = "Cestovní průkaz";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Bohužel došlo k chybě. Kontaktujte prosím vaši podporu.";
+"generic_errors_workflow_input_error_subtitle" = "Bohužel došlo k chybě. Kontaktujte prosím vaši podporu.";

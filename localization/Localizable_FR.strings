@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Ensuite, capturez la page d’adresse";
+"onfido_doc_intro_address_page_subtitle" = "Nous en avons besoin pour des raisons réglementaires";
+"onfido_doc_intro_address_page_option_1" = "Allez à la dernière page de votre passeport";
+"onfido_doc_intro_address_page_option_2" = "Prenez une photo de la page contenant les noms de vos parents, votre adresse et votre numéro de dossier";
+"onfido_doc_intro_address_page_continue_button" = "Prendre une photo";
+"onfido_doc_capture_header_address_page" = "Page d’adresse";
+"onfido_doc_capture_description_address_page" = "Dernière page du passeport";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Illustration de la page d’adresse dans le passeport indien";
+
+"onfido_doc_select_button_passport_card" = "Carte‑passeport";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Malheureusement, une erreur s'est produite. Veuillez contacter votre support.";
+"generic_errors_workflow_input_error_subtitle" = "Malheureusement, une erreur s'est produite. Veuillez contacter votre support.";

@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "다음으로, 주소 페이지를 촬영하세요";
+"onfido_doc_intro_address_page_subtitle" = "규정상의 이유로 필요한 정보입니다";
+"onfido_doc_intro_address_page_option_1" = "여권의 마지막 페이지로 이동하세요";
+"onfido_doc_intro_address_page_option_2" = "부모님 성함, 주소, 파일 번호가 포함된 페이지를 촬영하세요";
+"onfido_doc_intro_address_page_continue_button" = "사진 촬영";
+"onfido_doc_capture_header_address_page" = "주소 페이지";
+"onfido_doc_capture_description_address_page" = "여권 마지막 페이지";
+"onfido_doc_intro_address_page_illustration_accessibility" = "인도 여권 주소 페이지 예시 이미지";
+
+"onfido_doc_select_button_passport_card" = "여권 카드";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "불행히도 오류가 발생했습니다. 지원팀에 연락해 주세요.";
+"generic_errors_workflow_input_error_subtitle" = "불행히도 오류가 발생했습니다. 지원팀에 연락해 주세요.";

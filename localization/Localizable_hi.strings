@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "अब, पता पृष्ठ कैप्चर करें";
+"onfido_doc_intro_address_page_subtitle" = "हमें यह नियामकीय कारणों से चाहिए";
+"onfido_doc_intro_address_page_option_1" = "अपने पासपोर्ट के अंतिम पृष्ठ पर जाएँ";
+"onfido_doc_intro_address_page_option_2" = "उस पृष्ठ की फोटो लें जिसमें आपके माता-पिता के नाम, पता और फाइल नंबर हो";
+"onfido_doc_intro_address_page_continue_button" = "फ़ोटो खींचें";
+"onfido_doc_capture_header_address_page" = "पते वाला पृष्ठ";
+"onfido_doc_capture_description_address_page" = "पासपोर्ट का अंतिम पृष्ठ";
+"onfido_doc_intro_address_page_illustration_accessibility" = "भारतीय पासपोर्ट में पता पृष्ठ का एक चित्रण";
+
+"onfido_doc_select_button_passport_card" = "पासपोर्ट कार्ड";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "दुर्भाग्यवश, एक त्रुटि हुई है। कृपया अपने सहायता से संपर्क करें।";
+"generic_errors_workflow_input_error_subtitle" = "दुर्भाग्यवश, एक त्रुटि हुई है। कृपया अपने सहायता से संपर्क करें।";

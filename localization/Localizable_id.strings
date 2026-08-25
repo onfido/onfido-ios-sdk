@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Selanjutnya, ambil foto halaman alamat";
+"onfido_doc_intro_address_page_subtitle" = "Ini diperlukan untuk keperluan regulasi";
+"onfido_doc_intro_address_page_option_1" = "Buka halaman terakhir paspor Anda";
+"onfido_doc_intro_address_page_option_2" = "Ambil foto halaman yang memuat nama orang tua, alamat, dan nomor berkas Anda";
+"onfido_doc_intro_address_page_continue_button" = "Ambil foto";
+"onfido_doc_capture_header_address_page" = "Halaman alamat";
+"onfido_doc_capture_description_address_page" = "Halaman terakhir paspor";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Ilustrasi halaman alamat pada Paspor India";
+
+"onfido_doc_select_button_passport_card" = "Kartu paspor";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Sayangnya, terjadi kesalahan. Silakan hubungi dukungan Anda.";
+"generic_errors_workflow_input_error_subtitle" = "Sayangnya, terjadi kesalahan. Silakan hubungi dukungan Anda.";

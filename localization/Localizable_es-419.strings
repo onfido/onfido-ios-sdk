@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "A continuación, captura la página de la dirección";
+"onfido_doc_intro_address_page_subtitle" = "Necesitamos esto por razones regulatorias";
+"onfido_doc_intro_address_page_option_1" = "Ve a la última página de tu pasaporte";
+"onfido_doc_intro_address_page_option_2" = "Toma una foto de la página que contiene los nombres de tus padres, la dirección y el número de expediente";
+"onfido_doc_intro_address_page_continue_button" = "Tomar una foto";
+"onfido_doc_capture_header_address_page" = "Página de dirección";
+"onfido_doc_capture_description_address_page" = "Última página del pasaporte";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Una ilustración de la página de la dirección en el pasaporte indio";
+
+"onfido_doc_select_button_passport_card" = "Tarjeta de pasaporte";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Lamentablemente, ha ocurrido un error. Por favor, contacta a tu soporte.";
+"generic_errors_workflow_input_error_subtitle" = "Lamentablemente, ha ocurrido un error. Por favor, contacta a tu soporte.";

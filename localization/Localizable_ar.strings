@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "التالي، التقط صورة صفحة العنوان";
+"onfido_doc_intro_address_page_subtitle" = "نحتاج إلى ذلك لأسباب تنظيمية";
+"onfido_doc_intro_address_page_option_1" = "انتقل إلى الصفحة الأخيرة من جواز سفرك";
+"onfido_doc_intro_address_page_option_2" = "التقط صورة للصفحة التي تحتوي على أسماء والديك وعنوانك ورقم الملف";
+"onfido_doc_intro_address_page_continue_button" = "التقاط صورة";
+"onfido_doc_capture_header_address_page" = "صفحة العنوان";
+"onfido_doc_capture_description_address_page" = "الصفحة الأخيرة من جواز السفر";
+"onfido_doc_intro_address_page_illustration_accessibility" = "رسم توضيحي لصفحة العنوان في جواز السفر الهندي";
+
+"onfido_doc_select_button_passport_card" = "بطاقة الجواز";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "للأسف، حدث خطأ. يرجى الاتصال بالدعم الخاص بك.";
+"generic_errors_workflow_input_error_subtitle" = "للأسف، حدث خطأ. يرجى الاتصال بالدعم الخاص بك.";

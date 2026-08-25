@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "לאחר מכן, צלמו את דף הכתובת";
+"onfido_doc_intro_address_page_subtitle" = "הדבר נדרש מסיבות רגולטוריות";
+"onfido_doc_intro_address_page_option_1" = "עברו לעמוד האחרון בדרכון";
+"onfido_doc_intro_address_page_option_2" = "צלמו את הדף המכיל את שמות ההורים, הכתובת ומספר התיק";
+"onfido_doc_intro_address_page_continue_button" = "צלם תמונה";
+"onfido_doc_capture_header_address_page" = "דף כתובת";
+"onfido_doc_capture_description_address_page" = "עמוד אחרון של דרכון";
+"onfido_doc_intro_address_page_illustration_accessibility" = "איור של דף הכתובת בדרכון ההודי";
+
+"onfido_doc_select_button_passport_card" = "כרטיס דרכון";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "למרבה הצער, אירעה שגיאה. אנא צור קשר עם התמיכה שלך.";
+"generic_errors_workflow_input_error_subtitle" = "למרבה הצער, אירעה שגיאה. אנא צור קשר עם התמיכה שלך.";

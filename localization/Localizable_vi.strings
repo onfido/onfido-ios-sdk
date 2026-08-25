@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Tiếp theo, chụp trang địa chỉ";
+"onfido_doc_intro_address_page_subtitle" = "Chúng tôi cần thông tin này vì lý do tuân thủ quy định";
+"onfido_doc_intro_address_page_option_1" = "Đi đến trang cuối hộ chiếu của bạn";
+"onfido_doc_intro_address_page_option_2" = "Chụp ảnh trang có tên cha mẹ, địa chỉ và số hồ sơ của bạn";
+"onfido_doc_intro_address_page_continue_button" = "Chụp ảnh";
+"onfido_doc_capture_header_address_page" = "Trang địa chỉ";
+"onfido_doc_capture_description_address_page" = "Trang cuối hộ chiếu";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Minh họa trang địa chỉ trong Hộ chiếu Ấn Độ";
+
+"onfido_doc_select_button_passport_card" = "Thẻ hộ chiếu";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Rất tiếc, đã xảy ra lỗi. Vui lòng liên hệ với bộ phận hỗ trợ của bạn.";
+"generic_errors_workflow_input_error_subtitle" = "Rất tiếc, đã xảy ra lỗi. Vui lòng liên hệ với bộ phận hỗ trợ của bạn.";

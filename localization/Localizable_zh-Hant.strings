@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "接下來，拍攝地址頁";
+"onfido_doc_intro_address_page_subtitle" = "基於法規要求，我們需要此資訊";
+"onfido_doc_intro_address_page_option_1" = "請翻至護照的最後一頁";
+"onfido_doc_intro_address_page_option_2" = "請拍攝包含父母姓名、地址及檔案編號的頁面";
+"onfido_doc_intro_address_page_continue_button" = "拍照";
+"onfido_doc_capture_header_address_page" = "地址頁";
+"onfido_doc_capture_description_address_page" = "護照末頁";
+"onfido_doc_intro_address_page_illustration_accessibility" = "印度護照地址頁示意圖";
+
+"onfido_doc_select_button_passport_card" = "護照卡";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "很不幸，發生了一個錯誤。請聯繫您的支援。";
+"generic_errors_workflow_input_error_subtitle" = "很不幸，發生了一個錯誤。請聯繫您的支援。";

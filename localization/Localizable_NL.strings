@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "Maak nu een foto van de adrespagina";
+"onfido_doc_intro_address_page_subtitle" = "We hebben dit nodig om aan regelgeving te voldoen";
+"onfido_doc_intro_address_page_option_1" = "Ga naar de laatste pagina van uw paspoort";
+"onfido_doc_intro_address_page_option_2" = "Maak een foto van de pagina met de namen van uw ouders, uw adres en dossiernummer";
+"onfido_doc_intro_address_page_continue_button" = "Foto nemen";
+"onfido_doc_capture_header_address_page" = "Adrespagina";
+"onfido_doc_capture_description_address_page" = "Laatste pagina van paspoort";
+"onfido_doc_intro_address_page_illustration_accessibility" = "Een illustratie van de adrespagina in het Indiase paspoort";
+
+"onfido_doc_select_button_passport_card" = "Paspoortkaart";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Helaas is er een fout opgetreden. Neem alstublieft contact op met uw ondersteuning.";
+"generic_errors_workflow_input_error_subtitle" = "Helaas is er een fout opgetreden. Neem alstublieft contact op met uw ondersteuning.";

@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "În continuare, fotografiază pagina cu adresa";
+"onfido_doc_intro_address_page_subtitle" = "Avem nevoie de aceasta din motive de reglementare";
+"onfido_doc_intro_address_page_option_1" = "Mergi la ultima pagină a pașaportului tău";
+"onfido_doc_intro_address_page_option_2" = "Fă o fotografie a paginii care conține numele părinților, adresa și numărul dosarului";
+"onfido_doc_intro_address_page_continue_button" = "Faceți o poză";
+"onfido_doc_capture_header_address_page" = "Pagină de adresă";
+"onfido_doc_capture_description_address_page" = "Ultima pagină a pașaportului";
+"onfido_doc_intro_address_page_illustration_accessibility" = "O ilustrație a paginii cu adresa din pașaportul indian";
+
+"onfido_doc_select_button_passport_card" = "Card de pașaport";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "Din păcate, a apărut o eroare. Vă rugăm să contactați suportul dvs.";
+"generic_errors_workflow_input_error_subtitle" = "Din păcate, a apărut o eroare. Vă rugăm să contactați suportul dvs.";

@@ -825,3 +825,17 @@
 "status_error_icon_accessibility" = "";
 "status_warning_icon_accessibility" = "";
 "status_success_icon_accessibility" = "";
+
+"onfido_doc_intro_address_page_title" = "接下来，拍摄地址页";
+"onfido_doc_intro_address_page_subtitle" = "出于合规原因，我们需要此信息";
+"onfido_doc_intro_address_page_option_1" = "请翻到护照的最后一页";
+"onfido_doc_intro_address_page_option_2" = "请拍摄包含父母姓名、地址和档案编号的页面";
+"onfido_doc_intro_address_page_continue_button" = "拍照";
+"onfido_doc_capture_header_address_page" = "地址页";
+"onfido_doc_capture_description_address_page" = "护照最后一页";
+"onfido_doc_intro_address_page_illustration_accessibility" = "印度护照地址页示意图";
+
+"onfido_doc_select_button_passport_card" = "护照卡";
+"Test key" = "";
+"generic_errors_workflow_input_error_title" = "很遗憾，发生了一个错误。请联系您的支持。";
+"generic_errors_workflow_input_error_subtitle" = "很遗憾，发生了一个错误。请联系您的支持。";
