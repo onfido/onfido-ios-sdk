@@ -67,7 +67,7 @@ Check that you have entered correct billing details inside your [Onfido Dashboar
 The iOS SDK supports:
 
 - iOS 13+
-- Xcode 15+ _(because of Swift minimum version)_
+- Xcode 26+ _(the SDK binaries are built with Xcode 26 and Swift binary interfaces are not backwards compatible)_
 - The SDK supports the following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads

@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 34.0.0 Migration Guide](#onfido-ios-sdk-3400-migration-guide)
 * [Onfido iOS SDK 33.0.0 Migration Guide](#onfido-ios-sdk-3300-migration-guide)
 * [Onfido iOS SDK 32.0.0 Migration Guide](#onfido-ios-sdk-3200-migration-guide)
 * [Onfido iOS SDK 31.0.0 Migration Guide](#onfido-ios-sdk-3100-migration-guide)
@@ -70,6 +71,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 34.0.0 Migration Guide
+
+### Platform Changes
+
+- The minimum supported Xcode version is now Xcode 26. The SDK binaries are built with the Xcode 26 Swift compiler and Swift binary interfaces are not backwards compatible, so the SDK cannot be consumed by earlier Xcode versions.
 
 ## Onfido iOS SDK 33.0.0 Migration Guide
 
