@@ -6,6 +6,18 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [34.0.0] - 2026-08-28
+
+### Changed
+
+- The SDK is now built with Xcode 26. Integrating this version of the SDK requires Xcode 26 or newer.
+- Updated the embedded OpenSSL library for NFC to 3.5.7 LTS
+
+### Fixed
+
+- Fixed NFC crash when another SDK bundles OpenSSL
+- Re-added the arm64e slice to the SDK binaries.
+
 ## [33.2.0] - 2026-08-18
 
 ### Added

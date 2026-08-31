@@ -17,7 +17,7 @@ The SDK communicates directly and dynamically with active workflows to show the 
 The SDK supports:
 
 - iOS 13+
-- SDK supports Xcode 15+\*
+- SDK supports Xcode 26+\*
 - SDK supports following presentation styles:
   - Only full screen style for iPhones
   - Full screen and form sheet styles for iPads
