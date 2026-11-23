@@ -2,6 +2,7 @@
 
 These guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
 
+* [Onfido iOS SDK 35.0.0 Migration Guide](#onfido-ios-sdk-3500-migration-guide)
 * [Onfido iOS SDK 34.0.0 Migration Guide](#onfido-ios-sdk-3400-migration-guide)
 * [Onfido iOS SDK 33.0.0 Migration Guide](#onfido-ios-sdk-3300-migration-guide)
 * [Onfido iOS SDK 32.0.0 Migration Guide](#onfido-ios-sdk-3200-migration-guide)
@@ -71,6 +72,12 @@ These guides below are provided to ease the transition of existing applications 
 * [Onfido iOS SDK 5.0.0 Migration Guide](#onfido-sdk-500-migration-guide)
 * [Onfido iOS SDK 4.0.0 Migration Guide](#onfido-sdk-400-migration-guide)
 * [Onfido iOS SDK 3.0.0 Migration Guide](#onfido-sdk-300-migration-guide)
+
+## Onfido iOS SDK 35.0.0 Migration Guide
+
+### Platform Changes
+
+- Add `source 'https://github.com/onfido/onfido-ios-sdk.git'` and `source 'https://cdn.cocoapods.org/'` to the top of your Podfile, then run `pod update Onfido`, to keep receiving new versions of the Onfido SDK.
 
 ## Onfido iOS SDK 34.0.0 Migration Guide
 
