@@ -6,6 +6,25 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations.  You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/ios/#language-localization)
 
+## [35.0.0] - 2026-11-19
+
+### Added
+
+- Added support for additional document types in Studio workflows
+- Studio document selection lists now include visa and work permit
+- Added support for the Request Compliance Consent Studio task
+
+### Changed
+
+- Improved NFC Active Authentication for some documents
+- The Onfido pod is now published to the `https://github.com/onfido/onfido-ios-sdk.git` spec repo
+
+### Fixed
+
+- Attempted to fix rare Motion crash when restarting a recording
+- Fixed missing space in the Italian retry screen subtitles for expired and custom documents
+- Fixed custom fonts not applying to Proof of Address (PoA) step on iOS when using the web-based PoA module
+
 ## [34.0.1] - 2026-10-06
 
 ### Fixed

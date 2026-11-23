@@ -32,7 +32,7 @@ In January 2026, Entrust released the next major version ([v100](https://documen
 
 For more detailed documentation, please refer to the Entrust IDV SDK [integration](https://documentation.identity.entrust.com/sdk/sdk-integration-guide-2025/) and [migration](https://documentation.identity.entrust.com/sdk/sdk-migration-guide-2025/) guides. 
 
-The Onfido Smart Capture SDK for iOS will continue to be supported for a period of 9 months from the upcoming release of the Document Capture, NFC Capture, and Authentication native modules, in line with our [SDK versioning policy](https://documentation.identity.entrust.com/sdk/sdk-version-releases/#major). Based on current release expectations, this means the Onfido SDKs will remain supported until June 2027.
+The Onfido Smart Capture SDK for iOS will continue to be supported for a period of 9 months from the upcoming release of the Document Capture, NFC Capture, and Authentication native modules, in line with our [SDK versioning policy](https://documentation.identity.entrust.com/sdk/sdk-version-releases/#major). Based on current release expectations, this means the Onfido SDKs will remain supported until September 2027.
 
 The Onfido Smart Capture SDKs provide a set of screens and functionalities that enable applications to implement user identity verification flows. Each SDK contains:
 
@@ -132,13 +132,28 @@ dependencies: [
 
 #### Using CocoaPods
 
-The SDK is also available on CocoaPods, and you can include it in your project by adding the following to your Podfile:
+The SDK is also available with CocoaPods. New versions are published to the Onfido spec repo, so add it to the top of
+your Podfile, together with the CocoaPods CDN that your other pods still need:
 
 ```ruby
+source 'https://github.com/onfido/onfido-ios-sdk.git'
+source 'https://cdn.cocoapods.org/'
+
 pod 'Onfido'
 ```
 
 Run `pod install` to get the SDK.
+
+##### Moving to the Onfido spec repo
+
+From 2 December 2026, CocoaPods trunk is read-only, so new versions of the Onfido SDK are only published to the Onfido
+spec repo. If you already install the SDK with CocoaPods:
+
+1. Make sure both `source` lines above are at the top of your Podfile
+2. Run `pod update Onfido`
+
+Versions you have already installed are not affected. Alternatively, you can use
+[Swift Package Manager](#using-swift-package-manager).
 
 #### Manual installation
 
@@ -376,7 +391,7 @@ The value provided must be the font's PostScript name, not its file name or disp
 - If the PostScript name provided does not match a registered font, the SDK will silently fall back to the system font — no error is raised. Double-check the exact PostScript name if your custom font does not appear to be applied.
 - Only two fonts can currently be customized (regular and bold); individual customization of title, subtitle, or button fonts independently of these two is not currently supported.
 
-**Note:** When a flow step is rendered via an embedded web module (for example, Proof of Address), custom fonts require the font to be delivered to the web module in addition to being registered natively. This is handled automatically by the SDK, but requires the font file itself (not just the font name) to be available in your app bundle as described above.
+**Note:** When a flow step is rendered via an embedded web module (for example, Proof of Address), only `fontRegular` is applied. The SDK delivers it to the web module automatically, but requires the font file itself (not just the font name) to be available in your app bundle as described above.
 
 #### Applying the Appearance object
 
@@ -1826,6 +1841,8 @@ workflowConfiguration.withEncryptedBiometricTokenHandler(handler: self) // `self
 ## Migrating
 
 You can find the migration guide at [MIGRATION.md](MIGRATION.md)
+
+To keep getting new versions through CocoaPods, see [Moving to the Onfido spec repo](#moving-to-the-onfido-spec-repo).
 
 ## Security
 

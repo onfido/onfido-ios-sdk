@@ -36,13 +36,16 @@ dependencies: [
 
 #### Using CocoaPods
 
-The SDK is available on CocoaPods and you can include it in your project by adding the following to your Podfile:
+The SDK is available with CocoaPods. New versions are published to the Onfido spec repo, so add it to the top of your Podfile, together with the CocoaPods CDN that your other pods still need:
 
 ```ruby
+source 'https://github.com/onfido/onfido-ios-sdk.git'
+source 'https://cdn.cocoapods.org/'
+
 pod 'Onfido'
 ```
 
-Run `pod install` to install the SDK.
+Run `pod install` to install the SDK. If you already install the SDK with CocoaPods, follow [Moving to the Onfido spec repo](README.md#moving-to-the-onfido-spec-repo).
 
 ### 2. Build a configuration object
 
